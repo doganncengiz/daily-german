@@ -109,7 +109,7 @@ index = f"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Deutsch täglich — Lektionsarchiv</title>
+<title>BSK70 – Deutsch täglich | Lesen &amp; Üben</title>
 <style>
   :root{{color-scheme:light;
     --page-bg:#ffffff; --card-bg:#f6f2e9;
@@ -130,6 +130,8 @@ index = f"""<!DOCTYPE html>
   .label{{text-transform:uppercase;letter-spacing:.12em;font-size:0.78rem;
     color:var(--label-grey);font-weight:600;margin-bottom:8px;display:block;}}
   h1{{font-size:1.65rem;font-weight:700;color:var(--heading);margin:0 0 10px 0;}}
+  .tagline{{text-transform:uppercase;letter-spacing:.12em;font-size:0.78rem;
+    color:var(--label-grey);font-weight:600;margin:0 0 12px;}}
   .intro{{font-size:1rem;line-height:1.7;color:#55514a;margin:0 0 28px 0;}}
   a.latest{{display:block;background:var(--card-bg);border-radius:20px;
     padding:26px 30px;text-decoration:none;margin-bottom:34px;}}
@@ -172,7 +174,8 @@ index = f"""<!DOCTYPE html>
     <span class="badge badge-level">B1/B2 Niveau</span>
   </div>
 
-  <h1>Deutsch täglich</h1>
+  <h1>BSK70 – Deutsch täglich</h1>
+  <p class="tagline">Lesen &middot; Wortschatz &middot; Übungen</p>
   <p class="intro">Jeden Morgen eine kurze Lektion auf B1/B2-Niveau: ein
   aktueller Lesetext, Schlüsselvokabular, nützliche Ausdrücke, ein wenig
   Grammatik und eine Mini-Übung. Alle Themen kommen aus aktuellen deutschen

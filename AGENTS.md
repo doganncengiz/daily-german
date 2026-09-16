@@ -14,6 +14,9 @@ current German news, plus vocabulary, useful phrases, grammar notes, and an
 exercise. Students open the site, read the day's lesson, and work through the
 exercise. There's also a searchable class-wide dictionary.
 
+The public-facing course name is **BSK70 – Deutsch täglich**, with the tagline
+**Lesen · Wortschatz · Übungen**.
+
 The end goal (not yet fully reached — see Gaps below): every lesson page
 should let a student read the text *and* do an exercise with instant
 feedback, not just read.

@@ -1,4 +1,4 @@
-# Daily German
+# BSK70 – Deutsch täglich
 
 A static B1/B2 German course website for working adults. Each lesson combines
 a current-affairs reading text with vocabulary, useful phrases, grammar notes,

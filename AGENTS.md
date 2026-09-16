@@ -118,6 +118,22 @@ Run from the project root:
 python3 build_site.py
 ```
 
+### Git and deployment handoff
+
+- GitHub repository: `https://github.com/doganncengiz/daily-german`
+- Live site: `https://doganncengiz.github.io/daily-german/`
+- `.github/workflows/pages.yml` rebuilds the source and deploys `website/`
+  whenever `main` is pushed. Do not commit `website/`; it is ignored and
+  regenerated in GitHub Actions.
+- The user publishes through GitHub Desktop. HTTPS pushes from the terminal
+  are not authenticated on this Mac and fail with a username/credential
+  error. Do not replace the remote, create tokens, or alter authentication
+  unless the user explicitly asks; make local commits and ask the user to
+  click **Push origin** in GitHub Desktop.
+- `material/` is intentionally gitignored because it contains local teaching
+  references and photographed coursebook pages that should not be placed in
+  the public repository.
+
 This regenerates everything under `website/`:
 1. Copies each `lektionen/German_Lesson_*.html` into `website/`, adding a
    mobile viewport tag and an "← Alle Lektionen" back link.

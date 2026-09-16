@@ -33,8 +33,9 @@ feedback, not just read.
 - Existing translations are machine-generated and **not yet checked by
   native speakers**. `PROMPTS.md` has a ready-to-use ChatGPT prompt for a
   first-pass QA sweep.
-- The site is generated but not deployed yet. GitHub Pages is the chosen
-  hosting target; the GitHub repository and Pages configuration are pending.
+- The site is live on GitHub Pages at
+  `https://doganncengiz.github.io/daily-german/`. The public homepage, latest
+  lesson, and dictionary were verified with HTTP 200 responses on 2026-09-16.
 - A local git repository was initialized on 2026-09-16 and is connected to
   `https://github.com/doganncengiz/daily-german`. The Pages workflow at
   `.github/workflows/pages.yml` builds and publishes `website/` after every
@@ -210,14 +211,10 @@ Roughly in priority order for reaching the "read + do an exercise" goal:
 2. **437 existing vocab translations are unreviewed machine output.**
    `PROMPTS.md`'s ChatGPT prompt does a first pass in batches of 30-50; real
    reliability needs a native speaker per language, which hasn't happened yet.
-3. **GitHub Pages is prepared but not yet verified live.** `website/` is the
-   deployable folder and `.github/workflows/pages.yml` builds and publishes
-   it. Pages still needs to be enabled in the repository settings and the
-   first deployment checked.
-4. **No automated verification.** Testing is manual: open the generated file
+3. **No automated verification.** Testing is manual: open the generated file
    in a browser. If you add JS logic (new exercise types etc.), sanity-check
    it in a real browser before calling it done.
-5. **`material/` (coursebook photos + teacher's notes) isn't connected to
+4. **`material/` (coursebook photos + teacher's notes) isn't connected to
    the site at all.** It's unsorted (screenshots aren't labeled by page
    number) and untranscribed. Whether/how it should feed into `vocab.json`
    or become its own lesson track is an open question, not a plan yet.

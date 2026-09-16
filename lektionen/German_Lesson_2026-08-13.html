@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 13. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 13. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Die Vier-Tage-Woche: Zwischen Wunsch und Wirklichkeit</h2>
+    <div class="card">
+      <p>Die Vier-Tage-Woche ist in Deutschland längst mehr als eine Randdebatte. Laut einer aktuellen Umfrage wünschen sich rund 81 Prozent der Vollzeitbeschäftigten eine kürzere Arbeitswoche — allerdings möchten fast drei Viertel von ihnen dabei keinen Cent Lohn verlieren. Genau dieser Punkt sorgt für Zündstoff zwischen Arbeitgebern und Gewerkschaften.</p>
+      <p>Erste Erfahrungen gibt es bereits: In einem groß angelegten Pilotprojekt hatten rund 45 deutsche Unternehmen, vor allem kleine und mittelständische Betriebe, monatelang mit verkürzten Arbeitszeiten experimentiert. Das Ergebnis war für viele Skeptiker bemerkenswert: Umsatz und Gewinn blieben weitgehend stabil, während sich das Wohlbefinden der Belegschaft deutlich verbesserte. Am Ende wollten sieben von zehn teilnehmenden Firmen an dem neuen Modell festhalten, nur jede fünfte kehrte zur klassischen Fünf-Tage-Woche zurück.</p>
+      <p>Trotzdem bleibt die Vier-Tage-Woche umstritten. Kritiker warnen, dass sich die positiven Ergebnisse nicht ohne Weiteres auf die gesamte Wirtschaft übertragen lassen — schließlich hatten vor allem motivierte Unternehmen freiwillig teilgenommen. In der Industrie oder im Gesundheitswesen, wo Schichtarbeit und Personalmangel den Alltag prägen, gilt ein kürzerer Arbeitstag für viele als kaum realistisch.</p>
+      <p>Für den Herbst 2026 kündigt sich nun eine politische Debatte an: Eine mögliche Reform der wöchentlichen Höchstarbeitszeit steht auf der Agenda. Befürworter sehen darin eine Chance, Deutschland als Arbeitsstandort attraktiver zu machen und dem Fachkräftemangel entgegenzuwirken. Gewerkschaften und Arbeitgeberverbände sind sich allerdings uneinig darüber, wie stark der Staat in solche Arbeitszeitmodelle eingreifen sollte. Ob die Vier-Tage-Woche irgendwann zum deutschen Standard wird, bleibt offen. Klar ist aber: Das Thema wird die Debatte über die Zukunft der Arbeit in Deutschland noch lange begleiten.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Zündstoff</td><td>fuel for conflict, explosive material</td><td>Etwas, das leicht zu Streit oder Konflikt führt.</td><td>Der Lohnausgleich sorgt für Zündstoff zwischen Arbeitgebern und Gewerkschaften.</td></tr>
+        <tr><td>das Pilotprojekt</td><td>pilot project</td><td>Ein Versuch im kleinen Rahmen, bevor man etwas überall einführt.</td><td>45 Unternehmen nahmen an dem Pilotprojekt teil.</td></tr>
+        <tr><td>die Belegschaft</td><td>staff, workforce</td><td>Alle Mitarbeiter eines Unternehmens zusammen.</td><td>Das Wohlbefinden der Belegschaft verbesserte sich deutlich.</td></tr>
+        <tr><td>an etwas festhalten</td><td>to stick with something</td><td>Etwas beibehalten, obwohl man es auch ändern könnte.</td><td>Sieben von zehn Firmen wollten an dem neuen Modell festhalten.</td></tr>
+        <tr><td>umstritten</td><td>controversial</td><td>Wenn Menschen sehr unterschiedlicher Meinung über etwas sind.</td><td>Die Vier-Tage-Woche bleibt in Deutschland umstritten.</td></tr>
+        <tr><td>sich übertragen lassen</td><td>to be transferable, applicable</td><td>Wenn ein Ergebnis auch für andere Fälle gelten kann.</td><td>Die Ergebnisse lassen sich nicht ohne Weiteres auf die ganze Wirtschaft übertragen.</td></tr>
+        <tr><td>der Fachkräftemangel</td><td>shortage of skilled workers</td><td>Wenn Unternehmen nicht genug qualifiziertes Personal finden.</td><td>Eine kürzere Arbeitswoche soll dem Fachkräftemangel entgegenwirken.</td></tr>
+        <tr><td>entgegenwirken</td><td>to counteract</td><td>Aktiv gegen ein Problem oder eine negative Entwicklung vorgehen.</td><td>Der Staat möchte dem Fachkräftemangel entgegenwirken.</td></tr>
+        <tr><td>uneinig sein</td><td>to disagree, be at odds</td><td>Keine gemeinsame Meinung zu einem Thema haben.</td><td>Gewerkschaften und Arbeitgeber sind sich uneinig darüber.</td></tr>
+        <tr><td>bemerkenswert <span class="rep">(Wiederholung)</span></td><td>remarkable, noteworthy</td><td>So auffällig, dass es besondere Aufmerksamkeit verdient.</td><td>Das Ergebnis war für viele Skeptiker bemerkenswert.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„… sorgt für Zündstoff“</b> — Beschreiben, dass ein Thema zu Streit oder Spannungen führt.<br><i>Der Lohnausgleich sorgt für Zündstoff zwischen den Parteien.</i></li>
+        <li><b>„sich nicht ohne Weiteres auf … übertragen lassen“</b> — Sagen, dass ein Ergebnis nicht automatisch überall gilt.<br><i>Die Ergebnisse lassen sich nicht ohne Weiteres auf jede Branche übertragen.</i></li>
+        <li><b>„gilt für viele als kaum realistisch“</b> — Eine verbreitete, aber nicht einstimmige Einschätzung ausdrücken.<br><i>Ein kürzerer Arbeitstag gilt im Gesundheitswesen für viele als kaum realistisch.</i></li>
+        <li><b>„Ob …, bleibt offen.“</b> — Eine Frage bewusst unbeantwortet lassen.<br><i>Ob die Reform kommt, bleibt offen.</i></li>
+        <li><b>„Klar ist aber: …“ <span class="rep">(Wiederholung)</span></b> — Nach einer Unsicherheit eine sichere Schlussfolgerung einleiten.<br><i>Klar ist aber: Das Thema wird uns noch lange begleiten.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Ob-Sätze als Satzsubjekt:</b> In <i>„Ob die Vier-Tage-Woche irgendwann zum deutschen Standard wird, bleibt offen“</i> steht der ganze Nebensatz mit „ob" anstelle eines einfachen Subjekts vor dem Hauptsatz. Das Verb wandert dabei ans Ende des Nebensatzes. Diese Struktur klingt eleganter als zwei kurze Sätze und wird in Nachrichtentexten sehr häufig verwendet, wenn etwas noch unsicher ist.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„sollte" in indirekten Fragen:</b> Der Satz <i>„wie stark der Staat in solche Arbeitszeitmodelle eingreifen sollte"</i> nutzt „sollte", um eine umstrittene Empfehlung oder Debatte auszudrücken — nicht eine feste Tatsache. So lässt sich beschreiben, worüber Menschen unterschiedlicher Meinung sind, ohne selbst eine Position einzunehmen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viele Prozent der Vollzeitbeschäftigten wünschen sich laut Umfrage eine Vier-Tage-Woche?</li>
+          <li>Was hat das Pilotprojekt mit den 45 Unternehmen gezeigt?</li>
+          <li>Warum ist die Vier-Tage-Woche in Branchen wie der Industrie oder dem Gesundheitswesen schwer umzusetzen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>umstritten</i>.</li>
+          <li>Schreibe einen Satz mit <i>entgegenwirken</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Ob …, bleibt offen."</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Würdest du gerne in einer Vier-Tage-Woche arbeiten, auch wenn du dafür in vier Tagen die gleiche Arbeit wie in fünf Tagen schaffen müsstest? Diskutiere Vor- und Nachteile anhand von Beispielen aus deinem eigenen Berufsleben.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Umfrage- und Pilotprojektdaten zur Vier-Tage-Woche in Deutschland, Berichte vom August 2026 (u. a. Personalwirtschaft, Business Insider Deutschland, t3n).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

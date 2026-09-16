@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 17. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 17. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Vier-Tage-Woche: Zwischen Wunschtraum und Wirtschaftsrisiko</h2>
+    <div class="card">
+      <p>Kaum ein Thema wird in deutschen Betrieben derzeit so kontrovers diskutiert wie die Vier-Tage-Woche. Anfang März trafen sich rund 120 Expertinnen und Experten auf Einladung der Hans-Böckler-Stiftung und der Friedrich-Ebert-Stiftung, um die Ergebnisse des bislang größten deutschen Pilotprojekts noch einmal genauer zu betrachten. Unter dem Titel „Weniger arbeiten, mehr leisten?" ging es darum, was von der einstigen Euphorie tatsächlich geblieben ist.</p>
+      <p>Die Ausgangslage: 45 Unternehmen aus ganz Deutschland hatten über mehrere Monate hinweg die verkürzte Arbeitswoche getestet, begleitet von einem Forschungsteam der Universität Münster. Das Ergebnis fiel überraschend positiv aus. Die Beschäftigten berichteten von spürbar weniger Stress, besserer Gesundheit und mehr Energie im Alltag. Gleichzeitig blieb die Unternehmensleistung weitgehend stabil – aus wirtschaftlicher Sicht also praktisch eine Produktivitätssteigerung, da dieselbe Arbeit in weniger Zeit erledigt wurde.</p>
+      <p>Trotzdem sind längst nicht alle überzeugt. Das Institut der deutschen Wirtschaft in Köln kommt in einer aktuellen Umfrage zu einem deutlich skeptischeren Schluss: 94 Prozent der befragten Unternehmen gehen davon aus, dass eine verpflichtende Vier-Tage-Woche für alle Betriebe echte Wertschöpfung kosten würde. Viele Führungskräfte befürchten vor allem in Branchen mit Personalmangel – etwa im Handwerk oder in der Pflege – ernsthafte Probleme.</p>
+      <p>Auch am Arbeitsmarkt zeigt sich, wie groß die Lücke zwischen Diskussion und Realität bleibt: Laut einer Erhebung der Bertelsmann Stiftung wirbt bislang nur ein sehr kleiner Teil der Stellenanzeigen tatsächlich aktiv mit einer Vier-Tage-Woche. Man ist sich also weitgehend einig, dass das Thema nicht verschwinden wird – aber je nach Branche und Unternehmensgröße dürfte sich die Umsetzung noch sehr unterschiedlich gestalten.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>auf dem Prüfstand stehen</td><td>to be put to the test</td><td>Genau untersucht und bewertet werden, ob etwas wirklich funktioniert.</td><td>Die Vier-Tage-Woche steht derzeit auf dem Prüfstand.</td></tr>
+        <tr><td>das Pilotprojekt</td><td>pilot project</td><td>Ein Test in kleinem Rahmen, bevor man etwas überall einführt.</td><td>45 Firmen nahmen an dem Pilotprojekt teil.</td></tr>
+        <tr><td>spürbar</td><td>noticeable(ly)</td><td>So deutlich, dass man es klar merkt oder fühlt.</td><td>Die Beschäftigten hatten spürbar weniger Stress.</td></tr>
+        <tr><td>die Wertschöpfung</td><td>value creation, economic output</td><td>Der wirtschaftliche Wert, der durch Arbeit entsteht.</td><td>Firmen fürchten, dass sie Wertschöpfung verlieren.</td></tr>
+        <tr><td>verpflichtend</td><td>mandatory, obligatory</td><td>Etwas, das man tun muss, keine freiwillige Option.</td><td>Eine verpflichtende Vier-Tage-Woche wäre für alle Pflicht.</td></tr>
+        <tr><td>der Personalmangel</td><td>staff shortage</td><td>Wenn eine Firma oder Branche zu wenige Mitarbeiter hat.</td><td>Im Handwerk herrscht seit Jahren Personalmangel.</td></tr>
+        <tr><td>die Stellenanzeige</td><td>job posting</td><td>Eine öffentliche Anzeige, mit der eine Firma neue Mitarbeiter sucht.</td><td>Nur wenige Stellenanzeigen erwähnen die Vier-Tage-Woche.</td></tr>
+        <tr><td>werben (mit etwas)</td><td>to advertise (with something)</td><td>Etwas positiv hervorheben, um Kunden oder Bewerber anzulocken.</td><td>Manche Firmen werben gezielt mit flexiblen Arbeitszeiten.</td></tr>
+        <tr><td>befürchten <span class="rep">(Wiederholung)</span></td><td>to fear, worry (that)</td><td>Denken, dass etwas Negatives passieren könnte.</td><td>Viele Führungskräfte befürchten Probleme bei Personalmangel.</td></tr>
+        <tr><td>sich einig sein <span class="rep">(Wiederholung)</span></td><td>to agree, be in agreement</td><td>Die gleiche Meinung wie andere haben.</td><td>Man ist sich einig, dass das Thema nicht verschwindet.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„auf dem Prüfstand stehen"</b> — passend, um zu sagen, dass etwas kritisch überprüft oder hinterfragt wird, z. B. eine Idee, ein Projekt oder eine Regel.</li>
+        <li><b>„zu einem [Adjektiv]en Schluss kommen"</b> — nützlich, um das Ergebnis einer Studie oder Diskussion zusammenzufassen.</li>
+        <li><b>„davon ausgehen, dass..."</b> — elegante Alternative zu „glauben, dass...", oft in Nachrichten und im Berufsleben verwendet.</li>
+        <li><b>„die Lücke zwischen X und Y"</b> — praktisch, um einen Unterschied zwischen Anspruch und Wirklichkeit zu beschreiben.</li>
+        <li><b>„je nach + Dativ <span class="rep">(Wiederholung)</span>"</b> — z. B. „je nach Branche"; drückt aus, dass etwas variiert.</li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Erweiterte Partizipialkonstruktion:</b> „45 Unternehmen ... hatten die verkürzte Arbeitswoche getestet, <b>begleitet von einem Forschungsteam</b> der Universität Münster." Das Partizip II (begleitet) ersetzt hier einen kompletten Nebensatz ("während sie von einem Forschungsteam begleitet wurden") und macht den Satz kompakter — typisch für Zeitungstexte, aber auch im gesprochenen Deutsch gut einsetzbar, wenn man knapper formulieren möchte.</p></div>
+      <div class="grammar-block"><p><b>Indirekte Aussagen mit "dass":</b> „94 Prozent ... gehen davon aus, <b>dass</b> eine verpflichtende Vier-Tage-Woche ... Wertschöpfung kosten <b>würde</b>." Nach Verben wie <i>glauben</i>, <i>befürchten</i>, <i>davon ausgehen</i> folgt oft ein dass-Satz mit Konjunktiv II (würde + Infinitiv), wenn es um eine Vermutung oder ein hypothetisches Szenario geht — im Alltag nützlich, um Meinungen vorsichtig zu formulieren.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Was war das Ergebnis des Pilotprojekts der Universität Münster für die Beschäftigten?</li>
+          <li>Warum sind viele Unternehmen laut IW Köln gegen eine verpflichtende Vier-Tage-Woche?</li>
+          <li>Was zeigt die Erhebung der Bertelsmann Stiftung über Stellenanzeigen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit dem Wort "die Wertschöpfung".</li>
+          <li>Bilde einen Satz mit "davon ausgehen, dass...".</li>
+          <li>Verwende "werben mit" in einem Satz über deine eigene Firma oder Branche.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, ein Kollege fragt dich: Würdest du selbst gern in einer Vier-Tage-Woche arbeiten? Erzähle: Was wären für dich die größten Vorteile, und wo siehst du mögliche Probleme in deinem Job?</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

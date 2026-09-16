@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 4. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 4. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Der Sommer der Bundesliga: neue Gesichter, neue Hoffnungen</h2>
+    <div class="card">
+      <p>In wenigen Wochen ist es endlich so weit: Am 28. August eröffnen der FC Bayern München und der VfB Stuttgart die neue Bundesliga-Saison 2026/27. Doch schon vorher wird es spannend, denn am 22. August treffen Borussia Dortmund und der FC Bayern im traditionellen Supercup aufeinander, der in diesem Jahr erstmals nach der Fußball-Legende Franz Beckenbauer benannt ist.</p>
+      <p>Während sich die Fans auf die ersten Spieltage freuen, laufen hinter den Kulissen noch die letzten Transfers. Das Sommertransferfenster bleibt bis zum 31. August geöffnet — also sogar noch ein paar Tage nach dem Saisonstart. Das sorgt jedes Jahr für Nervenkitzel, weil manche Klubs bis zur letzten Minute nach Verstärkung suchen.</p>
+      <p>Besonders der FC Bayern ist in diesem Sommer aktiv gewesen und hat mit Ismael Saibari und Nathaniel Brown zwei teure Neuzugänge verpflichtet, um den Kader für alle Wettbewerbe zu stärken. Andere Top-Klubs setzen dagegen auf eine andere Strategie: Borussia Dortmund, Bayer Leverkusen und RB Leipzig investieren auffällig viel Geld in sehr junge, talentierte Spieler. Statt bekannte Namen zu kaufen, setzen diese Vereine lieber auf die Zukunft und hoffen, dass sich die Investition in ein paar Jahren auszahlt.</p>
+      <p>Auch bei den Trainingslagern gibt es Unterschiede: Manche Mannschaften starteten schon Ende Juni in die Vorbereitung, andere erst Mitte Juli. Diese Zeit nutzen die Trainer, um neue Taktiken einzuüben und die Fitness der Spieler aufzubauen, bevor der Ernst des Spielbetriebs beginnt.</p>
+      <p>Für Fans bedeutet das: Der Sommer ist zwar spielfrei, aber alles andere als langweilig. Wer die Bundesliga verfolgt, bekommt schon vor dem ersten Anpfiff jede Menge Gesprächsstoff — über Transfers, Formkurven und die großen Fragen der neuen Saison.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>eröffnen</td><td>to open</td><td>Etwas offiziell beginnen.</td><td>Bayern und Stuttgart eröffnen die neue Saison.</td></tr>
+        <tr><td>aufeinandertreffen</td><td>to face each other</td><td>Wenn zwei Mannschaften gegeneinander spielen.</td><td>Dortmund und Bayern treffen im Supercup aufeinander.</td></tr>
+        <tr><td>das Transferfenster</td><td>transfer window</td><td>Der Zeitraum, in dem Vereine Spieler kaufen und verkaufen dürfen.</td><td>Das Transferfenster bleibt bis Ende August geöffnet.</td></tr>
+        <tr><td>die Verstärkung</td><td>reinforcement</td><td>Ein neuer Spieler, der ein Team besser macht.</td><td>Manche Klubs suchen bis zuletzt nach Verstärkung.</td></tr>
+        <tr><td>der Neuzugang</td><td>new signing, recruit</td><td>Ein Spieler, der neu zu einem Verein gekommen ist.</td><td>Bayern hat zwei teure Neuzugänge verpflichtet.</td></tr>
+        <tr><td>verpflichten</td><td>to sign (a player)</td><td>Einen Spieler offiziell unter Vertrag nehmen.</td><td>Der Verein hat einen neuen Stürmer verpflichtet.</td></tr>
+        <tr><td>auffällig</td><td>noticeably, strikingly</td><td>So stark oder deutlich, dass es jedem auffällt.</td><td>Manche Klubs investieren auffällig viel Geld in junge Spieler.</td></tr>
+        <tr><td>das Trainingslager</td><td>training camp</td><td>Ein Ort, an dem eine Mannschaft vor der Saison intensiv trainiert.</td><td>Manche Mannschaften starteten schon im Juni ins Trainingslager.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Die Trainer hoffen, dass sich die Investition auszahlt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„… ist es endlich so weit“</b> — Vorfreude ausdrücken, wenn ein erwartetes Ereignis beginnt.<br><i>In wenigen Wochen ist es endlich so weit: Die Saison beginnt.</i></li>
+        <li><b>„hinter den Kulissen“</b> — Dinge beschreiben, die im Verborgenen passieren.<br><i>Hinter den Kulissen laufen noch die letzten Transfers.</i></li>
+        <li><b>„auf etwas setzen“</b> — Eine Strategie beschreiben, bei der man auf zukünftigen Erfolg hofft.<br><i>Diese Vereine setzen lieber auf junge Talente.</i></li>
+        <li><b>„alles andere als …“</b> — Etwas verneinen, indem man das Gegenteil betont.<br><i>Der Sommer ist spielfrei, aber alles andere als langweilig.</i></li>
+        <li><b>„jede Menge …“</b> — Umgangssprachlich für „sehr viel“.<br><i>Die Bundesliga liefert jede Menge Gesprächsstoff.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Verben mit fester Präposition (setzen auf, wetten auf, sich freuen auf):</b> Viele deutsche Verben brauchen eine feste Präposition, die man am besten gleich mitlernt. Im Text zeigt sich das gut: <i>„Fans freuen sich auf die ersten Spieltage“</i> oder <i>„diese Vereine setzen auf die Zukunft“</i>. Ohne die passende Präposition wirkt ein Satz schnell unnatürlich.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„Während“ für Gleichzeitigkeit und Kontrast:</b> Der Satz <i>„Während sich die Fans auf die ersten Spieltage freuen, laufen hinter den Kulissen noch die letzten Transfers“</i> zeigt zwei Dinge, die gleichzeitig passieren, aber gegensätzlich sind. „Während“ ist damit vielseitiger als „wenn“, weil es zusätzlich einen Gegensatz ausdrücken kann.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wann startet die neue Bundesliga-Saison 2026/27, und wer eröffnet sie?</li>
+          <li>Welche Strategie verfolgen Borussia Dortmund, Bayer Leverkusen und RB Leipzig bei ihren Transfers?</li>
+          <li>Bis wann bleibt das Sommertransferfenster in diesem Jahr geöffnet?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich freuen auf</i>.</li>
+          <li>Schreibe einen Satz mit <i>auffällig</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „alles andere als …“.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was hältst du von der Strategie, lieber in junge, unbekannte Talente zu investieren als in teure, bekannte Stars? Was würdest du tun, wenn du selbst einen Bundesliga-Verein leiten würdest? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zum Bundesliga-Saisonstart 2026/27 und den Sommertransfers, Stand Anfang August 2026 (u. a. sportschau.de, bundesliga.com, ligainsider.de).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

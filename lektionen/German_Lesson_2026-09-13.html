@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 13. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 13. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Noch eine Woche: Berlin wählt — und zum ersten Mal dürfen 16-Jährige mit</h2>
+    <div class="card">
+      <p>In genau einer Woche, am 20. September, wählt Berlin ein neues Abgeordnetenhaus. Wer in diesen Tagen durch die Stadt fährt, kommt an den Wahlplakaten kaum vorbei: Sie hängen seit Anfang August an fast jeder zweiten Laterne. In den Briefkästen stapeln sich die Wahlbenachrichtigungen, und in den Kneipen wird wieder über Mieten, Verkehr und die Verwaltung diskutiert.</p>
+      <p>Neu ist in diesem Jahr vor allem eines: Zum ersten Mal dürfen bei einer Wahl zum Abgeordnetenhaus auch 16- und 17-Jährige ihre Stimme abgeben. Wahlberechtigt ist, wer am Wahltag mindestens 16 Jahre alt ist und seit mindestens drei Monaten in Berlin wohnt. Für viele Schulen ist das ein willkommener Anlass, Politik nicht nur theoretisch zu behandeln. Wer sich unsicher ist, kann außerdem den Wahl-O-Mat nutzen — ein Online-Werkzeug, mit dem man die eigenen Positionen mit denen der Parteien vergleicht. In diesem Jahr haben sich alle 17 antretenden Parteien daran beteiligt.</p>
+      <p>Spannend ist die Ausgangslage auch deshalb, weil das Rennen nach den Umfragen offen ist. Beobachter rechnen damit, dass keine zwei Parteien allein auf eine Mehrheit kommen — es dürfte also auf eine Dreierkoalition hinauslaufen. Das bedeutet: Nach dem Wahlabend beginnt die eigentliche Arbeit erst, denn Koalitionen müssen mühsam ausgehandelt werden, oft über Wochen.</p>
+      <p>Wer selbst nicht wählen darf — etwa weil er keinen deutschen Pass hat —, ist deshalb nicht außen vor. Viele Vereine und Initiativen organisieren Diskussionsrunden, und auf Bezirksebene gibt es Gremien, in denen auch Menschen ohne Wahlrecht mitreden können. Am Ende geht es bei dieser Wahl um sehr konkrete Fragen: Wie schnell wird gebaut? Wie zuverlässig fährt die BVG? Und wie lange muss man auf einen Termin im Bürgeramt warten? Genau solche Themen entscheiden erfahrungsgemäß mehr als große Reden.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>wahlberechtigt sein</td><td>to be eligible to vote</td><td>Das Recht haben, bei einer Wahl mitzumachen.</td><td>Wahlberechtigt ist, wer mindestens 16 Jahre alt ist.</td></tr>
+        <tr><td>die Stimme abgeben</td><td>to cast one's vote</td><td>Bei einer Wahl wählen gehen.</td><td>Am Sonntag können alle Berliner ihre Stimme abgeben.</td></tr>
+        <tr><td>die Ausgangslage</td><td>starting position, initial situation</td><td>Die Situation, bevor etwas beginnt.</td><td>Die Ausgangslage vor der Wahl ist völlig offen.</td></tr>
+        <tr><td>auf etwas hinauslaufen</td><td>to end up as, to come down to</td><td>Sich am Ende in eine bestimmte Richtung entwickeln.</td><td>Es dürfte auf eine Dreierkoalition hinauslaufen.</td></tr>
+        <tr><td>mühsam</td><td>laborious, tedious</td><td>Mit viel Anstrengung und Zeit verbunden.</td><td>Die Koalition wurde mühsam ausgehandelt.</td></tr>
+        <tr><td>außen vor sein</td><td>to be left out</td><td>Nicht dabei sein, nicht beteiligt werden.</td><td>Wer keinen Pass hat, ist trotzdem nicht außen vor.</td></tr>
+        <tr><td>mitreden</td><td>to have a say</td><td>Bei einer Entscheidung seine Meinung einbringen dürfen.</td><td>In den Gremien können auch andere mitreden.</td></tr>
+        <tr><td>erfahrungsgemäß</td><td>from experience, typically</td><td>So, wie es die Erfahrung bisher gezeigt hat.</td><td>Erfahrungsgemäß entscheiden konkrete Themen die Wahl.</td></tr>
+        <tr><td>aushandeln <span class="rep">(Wiederholung)</span></td><td>to negotiate</td><td>Durch Gespräche eine gemeinsame Lösung finden.</td><td>Die Parteien müssen einen Koalitionsvertrag aushandeln.</td></tr>
+        <tr><td>mit etwas rechnen <span class="rep">(Wiederholung)</span></td><td>to expect something</td><td>Etwas für wahrscheinlich halten.</td><td>Beobachter rechnen mit einem knappen Ergebnis.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„an etwas kaum vorbeikommen“</b> — Etwas ist so präsent, dass man es nicht übersehen kann.<br><i>Wer durch die Stadt fährt, kommt an den Plakaten kaum vorbei.</i></li>
+        <li><b>„Neu ist vor allem eines: …“</b> — Den wichtigsten neuen Punkt hervorheben.<br><i>Neu ist vor allem eines: Auch 16-Jährige dürfen wählen.</i></li>
+        <li><b>„Es dürfte auf … hinauslaufen.“</b> — Eine vorsichtige Prognose formulieren.<br><i>Es dürfte auf eine längere Verhandlung hinauslaufen.</i></li>
+        <li><b>„Die eigentliche Arbeit beginnt erst …“</b> — Sagen, dass der schwierige Teil noch kommt.<br><i>Nach dem Wahlabend beginnt die eigentliche Arbeit erst.</i></li>
+        <li><b>„Am Ende geht es um …“</b> — Zum Kern einer Sache kommen.<br><i>Am Ende geht es um sehr konkrete Fragen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„Wer …, (der) …“ — der verallgemeinernde Relativsatz:</b> Sätze wie <i>„Wahlberechtigt ist, wer am Wahltag mindestens 16 Jahre alt ist“</i> oder <i>„Wer sich unsicher ist, kann den Wahl-O-Mat nutzen“</i> ersetzen ein umständliches „jede Person, die …“. Diese Konstruktion klingt kompakt und wird in Nachrichten, Verträgen und Hinweisschildern ständig verwendet — auch im Büro: <i>„Wer noch Fragen hat, meldet sich bitte bis Freitag.“</i></p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„dürfte“ als Vermutung:</b> Der Konjunktiv II von <i>dürfen</i> bedeutet hier nicht Erlaubnis, sondern eine höfliche, vorsichtige Vermutung — etwa so stark wie „wahrscheinlich“. <i>„Es dürfte auf eine Dreierkoalition hinauslaufen“</i> heißt: Ich halte es für sehr wahrscheinlich, aber ich lege mich nicht endgültig fest. Im Berufsleben ist das ein nützliches Werkzeug: <i>„Das dürfte bis Mittwoch fertig sein.“</i></p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Welche zwei Bedingungen muss man erfüllen, um bei dieser Wahl wahlberechtigt zu sein?</li>
+          <li>Was ist der Wahl-O-Mat, und wie viele Parteien haben sich daran beteiligt?</li>
+          <li>Warum sagt der Text, dass die eigentliche Arbeit erst nach dem Wahlabend beginnt?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>erfahrungsgemäß</i>.</li>
+          <li>Schreibe einen Satz über deine Arbeit mit <i>dürfte</i> als Vermutung.</li>
+          <li>Schreibe einen Satz nach dem Muster „Wer …, (der) …“.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Ab welchem Alter sollte man deiner Meinung nach wählen dürfen — ab 16, ab 18 oder ganz anders? Und sollten auch Menschen ohne deutschen Pass, die seit Jahren hier leben und arbeiten, auf Bezirksebene mitwählen dürfen? Nenne mindestens zwei Argumente.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte und offizielle Informationen zur Wahl des Abgeordnetenhauses von Berlin am 20. September 2026 (u. a. berlin.de, Tagesspiegel, ZDFheute, dawum.de), abgerufen am 13. September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

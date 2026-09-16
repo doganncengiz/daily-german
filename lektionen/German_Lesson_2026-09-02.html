@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 2. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 2. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">IFA 2026: Berlin wird zur Hauptstadt der Technik</h2>
+    <div class="card">
+      <p>Ab dem 4. September verwandelt sich das Messegelände am Berliner Funkturm wieder in die größte Technikmesse Europas: die IFA. Unter dem Motto „The future is now" zeigen in diesem Jahr mehr als 1.900 Aussteller aus aller Welt ihre neuesten Produkte – von smarten Kühlschränken über Roboter-Staubsauger bis hin zu Fernsehern mit noch schärferen Bildschirmen. Bereits am Mittwoch, den 2. September, trafen sich Journalistinnen und Journalisten zum traditionellen Pressetag, bei dem die Hersteller einen ersten Blick auf ihre Neuheiten gewährten.</p>
+      <p>Ein Thema zieht sich in diesem Jahr durch fast alle Hallen: künstliche Intelligenz. Ob Kopfhörer, die in Echtzeit übersetzen, Saugroboter, die selbstständig lernen, wie eine Wohnung aussieht, oder Kühlschränke, die Einkaufslisten automatisch erstellen – KI ist längst kein Nischenthema mehr, sondern fester Bestandteil des Alltags. Auch beim Smart Home setzen viele Hersteller auf Geräte, die sich untereinander vernetzen und sich über eine einzige App steuern lassen. Für die Unternehmen geht es dabei auch darum, sich gegenüber der Konkurrenz einen technologischen Vorsprung zu sichern.</p>
+      <p>Für die Berliner Wirtschaft ist die Messe ein wichtiger Termin. Hunderttausende Besucherinnen und Besucher werden in den kommenden Tagen erwartet, viele davon aus dem Ausland. Hotels in der Nähe des Messegeländes sind schon Wochen im Voraus ausgebucht, und auch Restaurants und Cafés in der Umgebung profitieren von dem Ansturm. Wer selbst vorbeischauen möchte, sollte wissen: Fachbesucher dürfen die Hallen schon ab 9:30 Uhr betreten, private Besucher ab 10 Uhr.</p>
+      <p>Kritiker weisen allerdings darauf hin, dass nicht jede Neuheit tatsächlich einen echten Mehrwert bietet. Hersteller stehen zunehmend unter Druck, statt kleiner Spielereien wirklich sinnvolle Erfindungen zu präsentieren. Trotzdem bleibt die IFA ein verlässlicher Gradmesser dafür, wohin sich unser technischer Alltag in den nächsten Jahren entwickeln könnte.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Messegelände</td><td>exhibition grounds, fairground</td><td>Ein großes Gelände, auf dem Messen stattfinden.</td><td>Das Messegelände am Funkturm ist während der IFA voller Besucher.</td></tr>
+        <tr><td>der Aussteller</td><td>exhibitor</td><td>Eine Firma, die auf einer Messe ihre Produkte zeigt.</td><td>Mehr als 1.900 Aussteller präsentieren ihre Neuheiten.</td></tr>
+        <tr><td>gewähren</td><td>to grant, to give</td><td>Jemandem etwas erlauben oder ermöglichen.</td><td>Die Hersteller gewährten einen ersten Blick auf ihre Neuheiten.</td></tr>
+        <tr><td>sich vernetzen</td><td>to network, to connect with each other</td><td>Wenn Geräte oder Menschen miteinander verbunden sind.</td><td>Die Geräte im Smart Home vernetzen sich miteinander.</td></tr>
+        <tr><td>der Ansturm</td><td>rush, influx</td><td>Wenn plötzlich sehr viele Menschen an einen Ort kommen.</td><td>Restaurants in der Umgebung profitieren vom Ansturm der Messebesucher.</td></tr>
+        <tr><td>ausgebucht</td><td>fully booked</td><td>Wenn es keine freien Plätze oder Zimmer mehr gibt.</td><td>Die Hotels in der Nähe sind Wochen im Voraus ausgebucht.</td></tr>
+        <tr><td>der Mehrwert</td><td>added value</td><td>Ein zusätzlicher Nutzen, den etwas bringt.</td><td>Nicht jede Neuheit bietet einen echten Mehrwert.</td></tr>
+        <tr><td>unter Druck stehen <span class="rep">(Wiederholung)</span></td><td>to be under pressure</td><td>Wenn man gezwungen ist, schnell gute Ergebnisse zu liefern.</td><td>Hersteller stehen unter Druck, echte Innovationen zu zeigen.</td></tr>
+        <tr><td>der Vorsprung <span class="rep">(Wiederholung)</span></td><td>lead, advantage</td><td>Ein Vorteil gegenüber anderen.</td><td>Firmen wollen sich einen technologischen Vorsprung sichern.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„sich in etwas verwandeln"</b> — Eine deutliche Veränderung beschreiben.<br><i>Das Messegelände verwandelt sich in die größte Technikmesse Europas.</i></li>
+        <li><b>„fester Bestandteil von … sein"</b> — Zeigen, dass etwas ganz normal und nicht mehr wegzudenken ist.<br><i>KI ist längst fester Bestandteil des Alltags.</i></li>
+        <li><b>„darauf hinweisen, dass …"</b> — Auf etwas Wichtiges aufmerksam machen.<br><i>Kritiker weisen darauf hin, dass nicht jede Neuheit sinnvoll ist.</i></li>
+        <li><b>„im Voraus"</b> — Etwas geschieht schon vor dem eigentlichen Ereignis.<br><i>Die Hotels sind Wochen im Voraus ausgebucht.</i></li>
+        <li><b>„ein verlässlicher Gradmesser für … sein"</b> — Ein guter Indikator für eine Entwicklung sein.<br><i>Die IFA bleibt ein verlässlicher Gradmesser für unseren technischen Alltag.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Relativsätze in Aufzählungen:</b> Sätze wie <i>„Kopfhörer, die in Echtzeit übersetzen"</i> oder <i>„Saugroboter, die selbstständig lernen"</i> reihen mehrere Relativsätze aneinander, um verschiedene Beispiele knapp zu beschreiben. Das ist typisch für Nachrichtentexte, weil man so viel Information in wenige, klar strukturierte Sätze packen kann.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Reflexiv + lassen (passivähnliche Bedeutung):</b> Die Konstruktion <i>„Geräte, die sich über eine App steuern lassen"</i> bedeutet so viel wie „Geräte, die man über eine App steuern kann". Diese Struktur mit <i>sich … lassen</i> ersetzt im Deutschen oft ein Passiv mit „können" und klingt eleganter und kompakter.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Was ist das Motto der IFA 2026?</li>
+          <li>Welches Thema zieht sich laut Text durch fast alle Hallen der Messe?</li>
+          <li>Was kritisieren manche Menschen an den Neuheiten der IFA?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>ausgebucht</i>.</li>
+          <li>Schreibe einen Satz mit <i>sich vernetzen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „unter Druck stehen, … zu tun".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Brauchen wir wirklich noch mehr smarte Geräte im Alltag, oder wird es allmählich zu viel? Diskutiere mit mindestens zwei Beispielen aus deinem eigenen Leben.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte rund um den Pressetag und Start der IFA 2026 in Berlin, 2.–8. September 2026 (u. a. invidis, hifi.de, IFA Berlin).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

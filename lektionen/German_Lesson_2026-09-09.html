@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 9. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 9. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Deutschlandticket: Ab jetzt rechnet eine Formel — und nicht mehr die Politik</h2>
+    <div class="card">
+      <p>Rund 14 Millionen Menschen in Deutschland haben ein Deutschlandticket im Abo. Seit Januar 2026 zahlen sie 63 Euro pro Monat. Ob es dabei bleibt, entscheidet sich bis zum 30. September — und zum ersten Mal seit der Einführung im Mai 2023 sitzt dabei niemand mehr am Verhandlungstisch.</p>
+      <p>Bisher lief es jedes Jahr gleich ab: Bund und Länder stritten monatelang über die Finanzierung, irgendwann einigte man sich, dann kam die Zahl. 49 Euro zum Start, 58 Euro ab 2025, 63 Euro ab 2026. Seit einem Beschluss der Verkehrsministerkonferenz im März wird der Preis nun berechnet statt verhandelt. Ein Kostenindex bildet ab, was der Betrieb von Bussen und Bahnen tatsächlich kostet — Personalkosten zählen mit 55 Prozent, Energie mit 20 Prozent, allgemeine Kosten mit 25 Prozent.</p>
+      <p>Erste Berechnungen von Medien und Verbänden kommen auf etwa 66,40 bis 66,80 Euro ab Januar 2027, also ein Plus von rund fünf bis sechs Prozent. Auffällig ist, woher die Erhöhung kommt: Der stärkste Einzelposten ist der Diesel, der um über 13 Prozent teurer geworden ist. Der Strompreis dagegen ist leicht gesunken. Im Vergleich zu früheren Sprüngen — 18,4 Prozent von 49 auf 58 Euro — wäre es die mildeste Erhöhung bisher.</p>
+      <p>Für Pendler heißt das trotzdem: nachrechnen. Semesterticket und Jobticket sind an den Grundpreis gekoppelt und steigen automatisch mit. Und wer beim letzten Mal die E-Mail seines Verkehrsunternehmens übersehen hat, weiß, wie unangenehm das werden kann — ohne Rückmeldung endete das Abo einfach zum Jahresende. Kritiker wie die Deutsche Umwelthilfe fordern deshalb ein deutlich günstigeres Ticket. Andere sagen: Verglichen mit den lokalen Monatskarten kommt man mit 66 Euro immer noch günstig weg.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Abo (das Abonnement)</td><td>subscription</td><td>Man zahlt regelmäßig und bekommt die Leistung immer weiter.</td><td>Mein Abo verlängert sich automatisch um ein Jahr.</td></tr>
+        <tr><td>aushandeln</td><td>to negotiate (an outcome)</td><td>Zwei Seiten sprechen so lange, bis ein Ergebnis feststeht.</td><td>Wir haben mit dem Kunden einen neuen Termin ausgehandelt.</td></tr>
+        <tr><td>der Beschluss</td><td>decision, resolution</td><td>Ein offizielles Ergebnis, das nach einer Sitzung gilt.</td><td>Der Beschluss wurde einstimmig gefasst.</td></tr>
+        <tr><td>abbilden</td><td>to reflect, to represent</td><td>Etwas zeigt in Zahlen, wie die Realität aussieht.</td><td>Diese Kennzahl bildet den Aufwand nicht richtig ab.</td></tr>
+        <tr><td>gekoppelt sein an</td><td>to be tied/linked to</td><td>Wenn sich A ändert, ändert sich B automatisch mit.</td><td>Der Bonus ist an das Jahresergebnis gekoppelt.</td></tr>
+        <tr><td>die Erhöhung</td><td>increase (in price, salary)</td><td>Ein Betrag wird größer als vorher.</td><td>Über eine Erhöhung möchte ich im Herbst sprechen.</td></tr>
+        <tr><td>nachrechnen</td><td>to check the numbers, do the math</td><td>Selbst prüfen, ob eine Zahl wirklich stimmt.</td><td>Rechne bitte noch mal nach, ob das Angebot passt.</td></tr>
+        <tr><td>übersehen</td><td>to overlook, to miss</td><td>Etwas nicht bemerken, obwohl es da war.</td><td>Entschuldige, ich habe deine Mail übersehen.</td></tr>
+        <tr><td>der Pendler / die Pendlerin <span class="rep">(Wiederholung)</span></td><td>commuter</td><td>Wer regelmäßig zur Arbeit in eine andere Stadt fährt.</td><td>Für Pendler ist die Verbindung morgens entscheidend.</td></tr>
+        <tr><td>günstig wegkommen <span class="rep">(Wiederholung)</span></td><td>to get off cheaply, get a good deal</td><td>Am Ende weniger zahlen, als man befürchtet hat.</td><td>Mit dem Frühbucherpreis sind wir günstig weggekommen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Es entscheidet sich bis …"</b> — Eine Frist nennen, ohne selbst verantwortlich zu klingen.<br><i>Ob wir starten, entscheidet sich bis Ende der Woche.</i></li>
+        <li><b>„Ob es dabei bleibt, …"</b> — Offenlassen, ob der aktuelle Stand hält.<br><i>Ob es bei dem Budget bleibt, wissen wir noch nicht.</i></li>
+        <li><b>„Bisher lief es immer gleich ab."</b> — Eine Routine beschreiben, oft leicht kritisch.<br><i>Bisher lief das Onboarding immer gleich ab — jetzt ändern wir es.</i></li>
+        <li><b>„Auffällig ist, …"</b> — Auf ein interessantes Detail hinweisen (sehr nützlich in Präsentationen).<br><i>Auffällig ist, dass die Kosten nur in einem Bereich steigen.</i></li>
+        <li><b>„Verglichen mit …"</b> — Zwei Dinge sachlich nebeneinanderstellen.<br><i>Verglichen mit dem Vorjahr ist das ein kleiner Anstieg.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv mit <i>werden</i> — die Sprache der Prozesse:</b> Im Text steht <i>„der Preis wird nun berechnet statt verhandelt"</i> und <i>„der Beschluss wurde gefasst"</i>. Das Passiv braucht man, wenn der <i>Prozess</i> wichtiger ist als die Person: <i>werden</i> + Partizip II am Satzende. Genau so klingt Deutsch in Firmen und Behörden: <i>„Die Rechnung wird geprüft."</i> / <i>„Der Termin wurde verschoben."</i> Praktischer Nebeneffekt: Man muss niemanden nennen — sehr hilfreich, wenn man höflich bleiben will. Willst du den Verursacher doch nennen, nimm <i>von</i> + Dativ: <i>„Das Ticket wird von den Verkehrsunternehmen berechnet."</i></p>
+      </div>
+      <div class="grammar-block">
+        <p><b><i>statt</i> + Infinitiv und <i>anstatt … zu</i>:</b> <i>„berechnet statt verhandelt"</i> ist die kurze, elegante Variante eines Gegensatzes. Ausführlich sagt man: <i>„anstatt zu verhandeln, wird jetzt gerechnet"</i> oder mit Nomen <i>„statt einer Verhandlung"</i>. Im Alltag hört man die Form sehr oft als sanften Vorwurf oder als Vorschlag: <i>„Anstatt lange zu diskutieren, sollten wir es einfach testen."</i> Merke dir das Muster <i>anstatt … zu + Infinitiv</i> — damit klingt ein Satz sofort erwachsener als mit <i>aber</i>.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Was ist der große Unterschied zwischen der Preisfindung früher und ab 2027?</li>
+          <li>Welcher Einzelposten treibt die Erhöhung am stärksten nach oben — und welcher wirkt dagegen?</li>
+          <li>Warum sollten Studierende und Arbeitnehmer mit Jobticket den neuen Preis besonders im Blick haben?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Formuliere drei Sätze im Passiv über Abläufe in deinem Job (z. B. <i>„Die Zahlen werden am Montag geprüft."</i>).</li>
+          <li>Schreibe einen Satz mit <i>anstatt … zu + Infinitiv</i> über eine Entscheidung in deinem Team.</li>
+          <li>Beschreibe in zwei Sätzen eine Preiserhöhung, die dich betrifft — nutze <i>gekoppelt sein an</i> und <i>nachrechnen</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, ein Kollege beklagt sich über die neuen Ticketpreise. Wie reagierst du? Erzähle, wie du selbst zur Arbeit kommst, was dich Mobilität im Monat kostet und ob du eher sagst „das ist noch günstig" oder „das wird langsam zu viel". Nutze dabei mindestens zweimal <i>verglichen mit …</i>.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zur Preisformel des Deutschlandtickets und zur Frist am 30. September 2026 (u. a. inside-digital.de „Deutschlandticket ab 2027: So teuer wird es“ von Thorsten Neuhetzki, 1. September 2026; Tagesspiegel Background, WDR-Data-Team, Deutsche Umwelthilfe), Stand 9. September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

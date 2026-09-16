@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 28. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 28. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Tadej Pogačar schreibt Radsport-Geschichte: Fünfter Tour-de-France-Sieg</h2>
+    <div class="card">
+      <p>Am 26. Juli endete in Paris die diesjährige Tour de France — und wieder einmal hieß der große Gewinner Tadej Pogačar. Der Slowene gewann die dreiwöchige Rundfahrt zum fünften Mal und reiht sich damit in eine sehr exklusive Gruppe ein: Nur Eddy Merckx, Jacques Anquetil, Bernard Hinault und Miguel Indurain haben die Tour bisher ebenfalls fünfmal für sich entschieden.</p>
+      <p>Die Strecke der 113. Austragung führte in diesem Jahr von Barcelona bis nach Paris. Pogačar dominierte das Rennen von Anfang an und gewann gleich fünf einzelne Etappen. Auf dem Podium folgten der Belgier Remco Evenepoel mit über sechs Minuten Rückstand sowie der Mexikaner Isaac del Toro auf Platz drei.</p>
+      <p>Auch für deutsche Fans gab es Grund zur Freude — wenn auch mit einem bitteren Beigeschmack: Sprinter Max Kanter fuhr auf einer der Etappen auf einen starken vierten Platz und machte damit von sich reden, verpasste das Podium aber nur knapp. „Das ist bitter. Ich bin gerade ziemlich enttäuscht", sagte Kanter anschließend im ARD-Interview. Gleichzeitig kündigte er an, weiter an sich zu arbeiten und stärker zurückzukommen.</p>
+      <p>Bei den Etappensiegen zeigte sich, wie ausgeglichen das Fahrerfeld abseits von Pogačar war: Der Belgier Tim Merlier holte gleich drei Tagessiege, während Evenepoel, Richard Carapaz und Mathieu van der Poel jeweils zwei Etappen für sich entschieden.</p>
+      <p>Nach der Ziellinie in Paris feierte Pogačar ausgelassen mit den Zuschauern entlang der Strecke. „Es war ein unglaublicher Tag. Mir fehlen die Worte, die Atmosphäre war fantastisch", sagte er sichtlich gerührt. Für viele Experten ist längst klar: Mit gerade einmal Ende 20 könnte Pogačar am Ende sogar den Rekord von Merckx als bester Tour-Fahrer aller Zeiten übertreffen — eine bemerkenswerte Aussicht für einen so jungen Fahrer.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Rundfahrt</td><td>stage race</td><td>Ein mehrtägiges Radrennen mit vielen Etappen.</td><td>Die Tour de France ist die bekannteste Rundfahrt der Welt.</td></tr>
+        <tr><td>die Etappe</td><td>stage (of a race)</td><td>Ein einzelner Tagesabschnitt eines Radrennens.</td><td>Pogačar gewann gleich fünf einzelne Etappen.</td></tr>
+        <tr><td>der Rückstand</td><td>time gap, deficit</td><td>Der zeitliche Abstand zu einem Konkurrenten.</td><td>Evenepoel hatte über sechs Minuten Rückstand auf Pogačar.</td></tr>
+        <tr><td>der Beigeschmack</td><td>aftertaste, undertone</td><td>Ein zusätzliches, oft negatives Gefühl bei einer sonst positiven Sache.</td><td>Die Freude über Platz vier hatte einen bitteren Beigeschmack.</td></tr>
+        <tr><td>knapp verpassen</td><td>to narrowly miss</td><td>Etwas nur um eine kleine Differenz nicht erreichen.</td><td>Kanter verpasste das Podium nur knapp.</td></tr>
+        <tr><td>ausgeglichen</td><td>balanced, even</td><td>Wenn die Kräfte oder Chancen gleich verteilt sind.</td><td>Das Fahrerfeld war in diesem Jahr sehr ausgeglichen.</td></tr>
+        <tr><td>sichtlich</td><td>visibly, noticeably</td><td>Deutlich an jemandem zu erkennen.</td><td>Pogačar war nach dem Sieg sichtlich gerührt.</td></tr>
+        <tr><td>übertreffen</td><td>to surpass, exceed</td><td>Besser sein als ein bisheriger Rekord oder eine Erwartung.</td><td>Pogačar könnte den Rekord von Merckx bald übertreffen.</td></tr>
+        <tr><td>bemerkenswert <span class="rep">(Wiederholung)</span></td><td>remarkable, noteworthy</td><td>So auffällig, dass es besondere Aufmerksamkeit verdient.</td><td>Fünf Tour-Siege in jungen Jahren sind eine bemerkenswerte Leistung.</td></tr>
+        <tr><td>von sich reden machen <span class="rep">(Wiederholung)</span></td><td>to make headlines, get talked about</td><td>Durch eine besondere Leistung Aufmerksamkeit bekommen.</td><td>Auch Max Kanter machte mit seinem vierten Platz von sich reden.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„sich in eine exklusive Gruppe einreihen"</b> — Sich einer besonderen, kleinen Gruppe der Besten anschließen.<br><i>Pogačar reiht sich mit fünf Siegen in eine exklusive Gruppe ein.</i></li>
+        <li><b>„Grund zur Freude geben"</b> — Einen positiven Anlass zum Feiern bieten.<br><i>Kanters vierter Platz gab den deutschen Fans Grund zur Freude.</i></li>
+        <li><b>„längst klar sein"</b> — Etwas ist schon seit einiger Zeit offensichtlich.<br><i>Für viele Experten ist längst klar, dass Pogačar Geschichte schreibt.</i></li>
+        <li><b>„an sich arbeiten"</b> — Sich selbst verbessern wollen, um besser zu werden.<br><i>Kanter kündigte an, weiter an sich zu arbeiten.</i></li>
+        <li><b>„am Ende sogar …"</b> — Ein überraschendes, mögliches Endergebnis andeuten.<br><i>Pogačar könnte am Ende sogar den Rekord von Merckx übertreffen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„zum X-ten Mal": Ordnungszahlen bei Wiederholungen:</b> Der Satz <i>„er gewann … zum fünften Mal"</i> zeigt ein sehr nützliches Muster, um zu sagen, wie oft etwas passiert ist. Man bildet es mit "zum" + Ordnungszahl (erste, zweite, dritte …) + "Mal" — praktisch für Sport, Wahlen oder jede Art von wiederholtem Erfolg.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Konjunktiv II für Vermutungen (könnte):</b> Der Satz <i>„Pogačar könnte … den Rekord … übertreffen"</i> nutzt den Konjunktiv II, um eine vorsichtige Vermutung über die Zukunft auszudrücken — im Unterschied zu einer sicheren Aussage mit "wird". Das ist typisch, wenn man über mögliche, aber noch nicht sichere Entwicklungen spricht.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie oft hat Tadej Pogačar die Tour de France jetzt insgesamt gewonnen?</li>
+          <li>Welchen Platz erreichte der deutsche Sprinter Max Kanter, und wie hat er darauf reagiert?</li>
+          <li>Wer holte bei den Etappensiegen die meisten Tagessiege nach Pogačar?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>knapp verpassen</i>.</li>
+          <li>Schreibe einen Satz mit <i>übertreffen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „zum X-ten Mal".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Macht es einen Sport spannender oder eher langweiliger, wenn eine Person so klar dominiert wie Pogačar bei der Tour de France? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zum Tour-de-France-Gesamtsieg von Tadej Pogačar und zur deutschen Sprinter-Leistung, Juli 2026 (u. a. news.de, Sky Sport, SPOX, ARD).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

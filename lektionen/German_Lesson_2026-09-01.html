@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 1. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 1. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Wenn die Uhr tickt: Der Bundesliga-Transfermarkt vor dem Aus</h2>
+    <div class="card">
+      <p>Am Dienstag, dem 1. September, endet um 20 Uhr das Sommer-Transferfenster der Bundesliga — und in diesem Jahr fällt der sogenannte Deadline Day mitten in den ersten Spieltag der neuen Saison. Das ist ungewöhnlich: Die Vereine haben bereits ihre ersten Pflichtspiele bestritten, während gleichzeitig noch bis zum Abend neue Spieler verpflichtet werden dürfen. Für Fans, Trainer und Manager bedeutet das eine besonders nervenaufreibende Woche.</p>
+      <p>Normalerweise schließt das Fenster bereits am 31. August. Doch weil an diesem Tag in England ein gesetzlicher Feiertag liegt, haben sich die fünf großen europäischen Ligen — Bundesliga, Premier League, Serie A, La Liga und Ligue 1 — auf einen gemeinsamen Termin am folgenden Dienstag geeinigt. Das gibt den Vereinen ein bisschen mehr Zeit, um Last-Minute-Wechsel unter Dach und Fach zu bringen.</p>
+      <p>In den Geschäftsstellen der Klubs klingeln an solchen Tagen die Telefone im Minutentakt. Berater verhandeln um Ablösesummen, Spieler müssen kurzfristig zum Medizincheck, und manche Wechsel platzen buchstäblich in letzter Sekunde. Wer den Anschluss an die Konkurrenz nicht verlieren will, steht besonders unter Druck — gerade kleinere Vereine versuchen oft, sich durch geschickte Leihgeschäfte einen Vorsprung zu verschaffen, ohne das Budget zu sprengen.</p>
+      <p>Für die großen Klubs wie Borussia Dortmund geht es an diesem Abend jedoch auch sportlich weiter: Dortmund trat direkt am Deadline Day zum Pokalspiel gegen den Außenseiter HEBC Hamburg an, während im Hintergrund gleichzeitig die letzten Personalfragen geklärt wurden. So verschmelzen an diesem Tag Fußball und Geschäft wie selten sonst im Jahr.</p>
+      <p>Ob sich die teuren Last-Minute-Transfers am Ende auszahlen, zeigt sich meist erst Monate später. Klar ist aber: Der Transferschluss bleibt für viele Klubs ein jährliches Nervenspiel.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Transferfenster</td><td>transfer window</td><td>Der Zeitraum, in dem Vereine Spieler kaufen und verkaufen dürfen.</td><td>Das Sommer-Transferfenster schließt am 1. September.</td></tr>
+        <tr><td>verpflichten</td><td>to sign (a player)</td><td>Einen Spieler offiziell unter Vertrag nehmen.</td><td>Der Verein will noch einen neuen Stürmer verpflichten.</td></tr>
+        <tr><td>nervenaufreibend</td><td>nerve-wracking</td><td>Etwas, das sehr anstrengend für die Nerven ist.</td><td>Der Deadline Day ist für Manager oft nervenaufreibend.</td></tr>
+        <tr><td>sich einigen (auf)</td><td>to agree (on)</td><td>Gemeinsam eine Entscheidung treffen.</td><td>Die Ligen haben sich auf einen gemeinsamen Termin geeinigt.</td></tr>
+        <tr><td>unter Dach und Fach bringen</td><td>to seal the deal</td><td>Einen Vertrag oder Deal endgültig abschließen.</td><td>Der Verein wollte den Wechsel noch rechtzeitig unter Dach und Fach bringen.</td></tr>
+        <tr><td>die Ablösesumme</td><td>transfer fee</td><td>Das Geld, das ein Verein für einen Spieler zahlt.</td><td>Die Berater verhandeln stundenlang um die Ablösesumme.</td></tr>
+        <tr><td>platzen</td><td>to fall through</td><td>Wenn ein Plan oder Deal plötzlich scheitert.</td><td>Manche Wechsel platzen buchstäblich in letzter Sekunde.</td></tr>
+        <tr><td>das Leihgeschäft</td><td>loan deal</td><td>Ein Spieler wechselt vorübergehend zu einem anderen Verein.</td><td>Kleinere Vereine nutzen oft geschickte Leihgeschäfte.</td></tr>
+        <tr><td>der Vorsprung <span class="rep">(Wiederholung)</span></td><td>lead, head start</td><td>Ein Vorteil, den jemand gegenüber anderen hat.</td><td>Ein früher Transfer kann einen wichtigen Vorsprung verschaffen.</td></tr>
+        <tr><td>unter Druck stehen <span class="rep">(Wiederholung)</span></td><td>to be under pressure</td><td>Gezwungen sein, schnell zu handeln.</td><td>Vereine, die den Anschluss verlieren, stehen besonders unter Druck.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Die Uhr tickt.“</b> — Zeitdruck ausdrücken, wenn eine Frist bald endet.<br><i>Vor dem Deadline Day tickt in jeder Geschäftsstelle die Uhr.</i></li>
+        <li><b>„etwas unter Dach und Fach bringen“</b> — einen Deal endgültig abschließen.<br><i>Der Verein brachte den Transfer in letzter Minute unter Dach und Fach.</i></li>
+        <li><b>„den Anschluss verlieren“</b> — den Kontakt zur Konkurrenz nicht mehr halten können.<br><i>Wer nicht investiert, riskiert, den Anschluss zu verlieren.</i></li>
+        <li><b>„Ob …, zeigt sich erst später.“</b> — eine Unsicherheit über die Zukunft ausdrücken.<br><i>Ob sich der teure Transfer auszahlt, zeigt sich erst später.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Nominalkomposita (Wortzusammensetzung):</b> Wörter wie <i>Transferfenster</i>, <i>Last-Minute-Wechsel</i> oder <i>Medizincheck</i> zeigen, wie das Deutsche aus mehreren Wörtern ein einziges, langes Substantiv bildet. Statt wie im Englischen „transfer window“ zwei getrennte Wörter zu benutzen, klebt das Deutsche sie zu einem präzisen Begriff zusammen — typisch für Sport- und Wirtschaftssprache.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Passiv im Nebensatz mit „während“:</b> Im Satz <i>„…, während im Hintergrund die letzten Personalfragen geklärt wurden“</i> steht das Passiv (werden + Partizip II) am Ende des Nebensatzes. „Während“ zeigt hier, dass zwei Dinge gleichzeitig passieren, und im Nebensatz wandert das konjugierte Verb typischerweise ganz nach hinten.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum fällt der Deadline Day in diesem Jahr ungewöhnlicherweise mitten in den ersten Spieltag?</li>
+          <li>Warum wurde der Termin für das Transferfenster in diesem Jahr auf den 1. September statt den 31. August gelegt?</li>
+          <li>Wie versuchen kleinere Vereine laut Text, sich einen Vorsprung zu verschaffen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>unter Dach und Fach bringen</i>.</li>
+          <li>Schreibe einen Satz mit <i>sich einigen auf</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Ob …, zeigt sich erst später.“</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Sind die hohen Ablösesummen im Profifußball gerechtfertigt, oder sollte es strengere Grenzen für Transfers geben? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zum Bundesliga-Transferschluss und Deadline Day, 1. September 2026 (u. a. bundesliga.com, spox.com, ran.joyn.de).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

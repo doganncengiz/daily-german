@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 24. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 24. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Neue KI-Regeln am Arbeitsplatz: Was sich jetzt ändert</h2>
+    <div class="card">
+      <p>Ab dem 2. August 2026 ist es so weit: Der Kern der neuen KI-Verordnung der Europäischen Union tritt in Kraft, und viele deutsche Unternehmen müssen ihre Prozesse überprüfen. Im Mittelpunkt steht der Umgang mit sogenannter Hochrisiko-KI — also Software, die bei Einstellungen, Beförderungen, der Aufgabenverteilung oder sogar bei Kündigungen mitentscheidet.</p>
+      <p>Wer solche Systeme im Betrieb einsetzt, muss sie künftig in einer EU-Datenbank registrieren, ihre Funktionsweise offenlegen und vor allem sicherstellen, dass am Ende immer ein Mensch die Kontrolle behält. Ganz verboten ist dagegen, was schon seit Februar 2025 gilt: KI darf keine Emotionen von Beschäftigten erkennen und auswerten. Systeme, die im Callcenter den Stresslevel in Echtzeit messen oder in Videokonferenzen Gesichtsausdrücke analysieren, gehören damit der Vergangenheit an. Auch das sogenannte Social Scoring — die automatische Bewertung von Mitarbeitenden anhand persönlicher Merkmale — ist untersagt.</p>
+      <p>Wer sich nicht an die neuen Regeln hält, riskiert saftige Bußgelder von bis zu 30.000 Euro, in manchen Fällen sogar die persönliche Haftung der Geschäftsführung. Deshalb überarbeiten viele Firmen gerade ihre Gefährdungsbeurteilungen: Seit Anfang des Jahres verlangt die Bundesanstalt für Arbeitsschutz, dass KI-gestützte Arbeitsprozesse als eigener Belastungsbereich erfasst werden — schließlich kann ständige algorithmische Kontrolle auch psychisch belastend sein.</p>
+      <p>Trotz aller Vorsicht wächst die Zahl der Unternehmen, die ihre Beschäftigten im Umgang mit KI schulen, rasant: Inzwischen bietet mehr als jeder vierte Betrieb entsprechende Schulungen an, vor zwei Jahren war es nur gut jeder achte. Die Bundesregierung betont zudem, dass der verstärkte KI-Einsatz bisher nicht zu einem systematischen Stellenabbau geführt habe. Stattdessen verändere sich vor allem die Art der Aufgaben: Routinearbeiten fallen weg, neue Tätigkeitsfelder entstehen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Verordnung</td><td>regulation</td><td>Eine Vorschrift, die eine Behörde oder die EU verbindlich festlegt.</td><td>Der Kern der neuen KI-Verordnung tritt am 2. August in Kraft.</td></tr>
+        <tr><td>in Kraft treten</td><td>to take effect, come into force</td><td>Wenn ein Gesetz oder eine Regel ab einem bestimmten Datum gültig wird.</td><td>Die Verordnung tritt am 2. August 2026 in Kraft.</td></tr>
+        <tr><td>die Hochrisiko-KI</td><td>high-risk AI</td><td>KI-Systeme, die besonders streng kontrolliert werden, weil sie wichtige Entscheidungen über Menschen treffen.</td><td>Im Mittelpunkt steht der Umgang mit sogenannter Hochrisiko-KI.</td></tr>
+        <tr><td>offenlegen</td><td>to disclose, make transparent</td><td>Etwas klar sichtbar machen, was vorher nicht bekannt war.</td><td>Firmen müssen die Funktionsweise ihrer KI-Systeme offenlegen.</td></tr>
+        <tr><td>die Kontrolle behalten</td><td>to retain control</td><td>Weiterhin selbst entscheiden können, statt alles einer Maschine zu überlassen.</td><td>Am Ende muss immer ein Mensch die Kontrolle behalten.</td></tr>
+        <tr><td>das Bußgeld</td><td>fine, penalty</td><td>Eine Geldstrafe, die man bei einem Verstoß gegen eine Regel zahlen muss.</td><td>Bei Verstößen drohen Bußgelder von bis zu 30.000 Euro.</td></tr>
+        <tr><td>die Haftung</td><td>liability</td><td>Die rechtliche Verantwortung, für einen Schaden gerade stehen zu müssen.</td><td>In manchen Fällen droht sogar die persönliche Haftung der Geschäftsführung.</td></tr>
+        <tr><td>die Gefährdungsbeurteilung</td><td>workplace risk assessment</td><td>Eine Analyse, welche Risiken es für die Gesundheit am Arbeitsplatz gibt.</td><td>Viele Firmen überarbeiten gerade ihre Gefährdungsbeurteilungen.</td></tr>
+        <tr><td>schulen</td><td>to train</td><td>Jemandem gezielt neues Wissen oder neue Fähigkeiten beibringen.</td><td>Immer mehr Betriebe schulen ihre Beschäftigten im Umgang mit KI.</td></tr>
+        <tr><td>entgegenwirken <span class="rep">(Wiederholung)</span></td><td>to counteract</td><td>Aktiv gegen ein Problem oder eine negative Entwicklung vorgehen.</td><td>Mit den neuen Regeln will die EU Risiken für Beschäftigte entgegenwirken.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Im Mittelpunkt steht …“</b> — Das zentrale Thema einleiten.<br><i>Im Mittelpunkt steht der Umgang mit Hochrisiko-KI.</i></li>
+        <li><b>„Wer sich nicht an … hält, riskiert …“</b> — Konsequenzen bei Regelverstößen beschreiben.<br><i>Wer sich nicht an die neuen Regeln hält, riskiert saftige Bußgelder.</i></li>
+        <li><b>„… gehören der Vergangenheit an“</b> — Sagen, dass etwas nicht mehr erlaubt oder üblich ist.<br><i>Solche Überwachungssysteme gehören damit der Vergangenheit an.</i></li>
+        <li><b>„Trotz aller Vorsicht …“</b> — Einen Gegensatz zu einer vorherigen Aussage einleiten.<br><i>Trotz aller Vorsicht wächst die Zahl der Schulungen rasant.</i></li>
+        <li><b>„Stattdessen verändert sich vor allem …“</b> — Eine Verschiebung statt eines kompletten Wegfalls beschreiben.<br><i>Stattdessen verändert sich vor allem die Art der Aufgaben.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„Wer …, muss …“ als Bedingungssatz:</b> Sätze wie <i>„Wer solche Systeme einsetzt, muss sie registrieren“</i> funktionieren wie ein Wenn-Satz („Wenn jemand solche Systeme einsetzt, muss er sie registrieren“), aber wirken kürzer und formeller. Diese Struktur ist typisch für Gesetzestexte, Regeln und Anleitungen im Deutschen.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Komposita in der Verwaltungssprache:</b> Wörter wie <i>Gefährdungsbeurteilung</i> (Gefährdung + Beurteilung), <i>Stellenabbau</i> (Stelle + Abbau) oder <i>Aufgabenverteilung</i> (Aufgabe + Verteilung) zeigen, wie das Deutsche mehrere Begriffe zu einem langen Wort zusammensetzt. Das wirkt am Anfang einschüchternd, ist aber meist einfacher, wenn man die einzelnen Teile erkennt.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Was müssen Unternehmen tun, wenn sie Hochrisiko-KI-Systeme einsetzen?</li>
+          <li>Welche zwei Praktiken sind laut Text schon seit Februar 2025 verboten?</li>
+          <li>Wie hat sich der Anteil der Betriebe verändert, die ihre Mitarbeiter im Umgang mit KI schulen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>offenlegen</i>.</li>
+          <li>Schreibe einen Satz mit <i>die Kontrolle behalten</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Wer …, muss …“.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Wie stehst du zu KI-gestützter Überwachung am Arbeitsplatz? Findest du die neuen EU-Regeln sinnvoll, oder gehen sie dir nicht weit genug? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: EU-KI-Verordnung (Verordnung (EU) 2024/1689), Inkrafttreten des Kerns am 2. August 2026; DOKTUS, „Neue KI-Regeln für Firmen ab August 2026" (29. Juli 2026); Aktuelle Sozialpolitik, „KI und Stellenanzeigen" (20. August 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

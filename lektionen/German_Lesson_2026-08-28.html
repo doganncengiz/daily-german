@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 28. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 28. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Kater-Ernte: Die früheste Weinlese aller Zeiten</h2>
+    <div class="card">
+      <p>Im Rheingau ist in diesem Jahr alles ein bisschen früher passiert als sonst. Kaum war die Wiesbadener Weinwoche zu Ende – zehn Tage lang hatten Hunderttausende Besucher an über 100 Ständen Wein und Sekt genossen –, mussten die Winzerinnen und Winzer direkt auf die Weinberge. Kein Ausschlafen, keine Pause: Die Trauben konnten nicht warten. Fachleute sprechen inzwischen scherzhaft von einer „Kater-Ernte", weil die Ernte fast pünktlich zum Ende des Weinfests begann.</p>
+      <p>Der Grund dafür liegt auf der Hand: der heiße, trockene Sommer. Früher begann die Weinlese meist Mitte oder Ende September, in diesem Jahr geht es schon Mitte August los – fast einen Monat früher als noch vor 15 Jahren. Ein Winzer aus Hochheim erzählt, dass sich der Erntetermin seit seiner Ausbildung im Jahr 2010 deutlich nach vorne verschoben hat. Diese Entwicklung ist kein Einzelfall: Auch in der Champagne begann die Lese so früh wie noch nie seit Beginn der Aufzeichnungen.</p>
+      <p>Für die Betriebe bringt das nicht nur Vorteile. Weil Erntehelferinnen und -helfer meist Monate im Voraus gebucht werden, fehlen jetzt vielerorts die Hände auf dem Feld, und viele Winzer stehen dadurch zusätzlich unter Druck. Manche Weingüter lösen das Problem kreativ: Küchenpersonal, Marketing-Mitarbeiter und Azubis greifen einfach mit zur Schere, sobald die Trauben reif sind. Trotz des Stresses bleiben die Winzer optimistisch, was den Geschmack angeht. Zwar sind die Trauben durch die Hitze etwas kleiner, doch Zucker- und Aromakonzentration steigen dadurch sogar. Ob sich die zusätzliche Mühe am Ende geschmacklich auszahlt, wird sich erst beim ersten Schluck zeigen — ein Verbandssprecher ist jedenfalls zuversichtlich.</p>
+      <p>So zeigt sich am Beispiel eines einzelnen Weinbergs, wie bemerkenswert stark der Klimawandel schon heute den Alltag in Deutschland prägt – selbst dort, wo man es zuletzt erwartet hätte: beim Wein.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Weinlese</td><td>grape harvest</td><td>Die Ernte der Weintrauben im Spätsommer oder Herbst.</td><td>Die Weinlese hat in diesem Jahr besonders früh begonnen.</td></tr>
+        <tr><td>der Winzer / die Winzerin</td><td>winegrower</td><td>Eine Person, die Wein anbaut und herstellt.</td><td>Die Winzerinnen und Winzer standen schon im August auf den Feldern.</td></tr>
+        <tr><td>sich nach vorne verschieben</td><td>to shift earlier</td><td>Wenn ein Termin früher stattfindet als ursprünglich geplant.</td><td>Der Erntetermin hat sich um mehrere Wochen nach vorne verschoben.</td></tr>
+        <tr><td>auf der Hand liegen</td><td>to be obvious</td><td>Wenn ein Grund ganz klar und offensichtlich ist.</td><td>Der Grund für die frühe Ernte liegt auf der Hand.</td></tr>
+        <tr><td>die Aufzeichnung</td><td>record(s), documentation</td><td>Eine schriftliche Sammlung von Daten über einen längeren Zeitraum.</td><td>So früh wie noch nie seit Beginn der Aufzeichnungen.</td></tr>
+        <tr><td>der Klimawandel</td><td>climate change</td><td>Die langfristige Veränderung von Wetter und Temperaturen weltweit.</td><td>Der Klimawandel prägt inzwischen auch den Alltag in Deutschland.</td></tr>
+        <tr><td>kreativ lösen</td><td>to solve creatively</td><td>Ein Problem mit einer ungewöhnlichen, neuen Idee lösen.</td><td>Manche Weingüter lösen den Personalmangel kreativ.</td></tr>
+        <tr><td>unter Druck stehen <span class="rep">(Wiederholung)</span></td><td>to be under pressure</td><td>Wenn man wenig Zeit hat und viel erledigen muss.</td><td>Viele Winzer stehen durch die frühe Ernte zusätzlich unter Druck.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Ob sich die Mühe auszahlt, zeigt sich erst beim ersten Schluck.</td></tr>
+        <tr><td>bemerkenswert <span class="rep">(Wiederholung)</span></td><td>remarkable, noteworthy</td><td>So auffällig, dass es besondere Aufmerksamkeit verdient.</td><td>Wie stark der Klimawandel den Alltag prägt, ist bemerkenswert.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Kaum war …, musste …"</b> — Ausdrücken, dass ein Ereignis unmittelbar auf ein anderes folgt.<br><i>Kaum war das Weinfest zu Ende, mussten die Winzer schon ernten.</i></li>
+        <li><b>„… liegt auf der Hand."</b> — Einen Grund als völlig offensichtlich bezeichnen.<br><i>Der Grund für die frühe Ernte liegt auf der Hand.</i></li>
+        <li><b>„so … wie noch nie seit Beginn der Aufzeichnungen"</b> — Einen historischen Rekord beschreiben.<br><i>Die Lese begann so früh wie noch nie seit Beginn der Aufzeichnungen.</i></li>
+        <li><b>„Ob sich … auszahlt, wird sich erst zeigen."</b> — Eine offene Frage über die Zukunft formulieren.<br><i>Ob sich die zusätzliche Mühe auszahlt, wird sich erst beim ersten Schluck zeigen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Vergleiche mit „als" und „wie":</b> Der Text nutzt zwei verschiedene Vergleichsformen: „als" für einen Unterschied (<i>fast einen Monat früher als noch vor 15 Jahren</i>) und „wie" für eine Gleichheit oder einen Superlativ (<i>so früh wie noch nie</i>). Diese Unterscheidung – Ungleichheit mit „als", Gleichheit mit „wie" – ist im gesprochenen und geschriebenen Deutsch sehr häufig.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Reflexive Verben für Prozesse:</b> Ausdrücke wie <i>sich verschieben</i>, <i>sich auszahlen</i> oder <i>sich zeigen</i> beschreiben eine Entwicklung, ohne dass man sagen muss, wer genau dafür verantwortlich ist. Das macht Nachrichtentexte neutraler und wird besonders oft benutzt, wenn ein Prozess von selbst passiert – wie beim Klimawandel oder bei einer Ernte.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum sprechen manche Fachleute scherzhaft von einer „Kater-Ernte"?</li>
+          <li>Wie hat sich der Zeitpunkt der Weinlese in den letzten 15 Jahren verändert?</li>
+          <li>Welches Problem entsteht durch die frühere Ernte, und wie lösen manche Weingüter es?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>auf der Hand liegen</i>.</li>
+          <li>Schreibe einen Satz mit <i>sich auszahlen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „so … wie noch nie".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Wie sollten Winzerinnen und Winzer auf den Klimawandel reagieren — mit neuen Rebsorten, anderen Anbaumethoden oder ganz anderen Lösungen? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: hessenschau.de, „Weinlese viel früher: Hitzesommer sorgt für 'Kater-Ernte' im Rheingau", Mark Weidenfeller, 27. August 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

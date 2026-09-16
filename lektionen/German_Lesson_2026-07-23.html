@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 23. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 23. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Homeoffice-Boom: Rekordzahl an Remote-Stellen in Deutschland</h2>
+    <div class="card">
+      <p>Der deutsche Arbeitsmarkt hat sich in den letzten Jahren spürbar verändert: Homeoffice ist längst keine Ausnahme mehr, sondern für viele Beschäftigte der neue Normalfall. Aktuellen Portal-Daten zufolge waren Mitte Juli 2026 rund 175.000 Stellen mit Homeoffice-Option ausgeschrieben — ein neuer Höchststand. Besonders die IT-Branche treibt diesen Trend voran, doch auch Vertrieb und Buchhaltung ziehen mittlerweile nach.</p>
+      <p>Für Arbeitnehmer bedeutet das vor allem mehr Auswahl: Wer ortsunabhängig arbeiten kann, muss sich nicht länger auf Jobs in der eigenen Stadt beschränken, sondern kann sich bundesweit oder sogar international bewerben. Allein bei der Bundesagentur für Arbeit waren Anfang Juli über 24.000 Stellen unter dem Stichwort „Remote" gelistet, dazu kommen rund 20.000 Positionen für klassische Heimarbeit.</p>
+      <p>Für Unternehmen wächst dagegen die Komplexität. Wenn Mitarbeitende von überall aus auf sensible Daten zugreifen, verschwimmt die Grenze zwischen „innerhalb des Büros" und „außerhalb des geschützten Netzwerks". Deshalb setzen immer mehr Firmen auf sogenannte Zero-Trust-Prinzipien: Jeder Zugriff wird überprüft, unabhängig davon, von welchem Gerät oder Ort aus er erfolgt. Wer diese Sicherheitsstandards nicht ernst nimmt, riskiert nicht nur Datenschutzprobleme, sondern verliert im Wettbewerb um gute Bewerber auch schnell an Attraktivität.</p>
+      <p>Auch bei den Gehältern zeigen sich deutliche Unterschiede je nach Spezialisierung. In der Softwareentwicklung liegen die Jahresgehälter oft zwischen 40.000 und 90.000 Euro, während Sicherheitsexperten mit sehr gefragtem Spezialwissen international noch deutlich mehr verdienen können. Auffällig ist zudem: Immer mehr Firmen öffnen sich für Quereinsteiger im Kundenservice, die nach einer Einarbeitungsphase ebenfalls ins Homeoffice wechseln dürfen.</p>
+      <p>Klar ist: Die Rückkehr zum klassischen Präsenzmodell scheint unwahrscheinlich. Stattdessen dürfte sich der Trend fortsetzen — mit wachsendem Fokus auf Sicherheit, klare Regeln und digitale Bewerbungsprozesse.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Höchststand</td><td>record level, all-time high</td><td>Der höchste Wert, den es je gab.</td><td>Die Zahl der Remote-Stellen erreicht einen neuen Höchststand.</td></tr>
+        <tr><td>vorantreiben</td><td>to drive forward, push ahead</td><td>Eine Entwicklung aktiv beschleunigen.</td><td>Die IT-Branche treibt den Homeoffice-Trend voran.</td></tr>
+        <tr><td>nachziehen</td><td>to follow suit, catch up</td><td>Einem Beispiel oder Trend mit etwas Verzögerung folgen.</td><td>Vertrieb und Buchhaltung ziehen jetzt auch nach.</td></tr>
+        <tr><td>ortsunabhängig</td><td>location-independent</td><td>Nicht an einen bestimmten Arbeitsort gebunden.</td><td>Wer ortsunabhängig arbeitet, kann sich überall bewerben.</td></tr>
+        <tr><td>verschwimmen</td><td>to blur, become unclear</td><td>Undeutlich werden, weil zwei Dinge kaum noch zu unterscheiden sind.</td><td>Die Grenze zwischen Büro und Zuhause verschwimmt zunehmend.</td></tr>
+        <tr><td>der Zugriff</td><td>access</td><td>Die Möglichkeit, auf etwas (z. B. Daten) zuzugreifen.</td><td>Jeder Zugriff auf sensible Daten wird überprüft.</td></tr>
+        <tr><td>riskieren</td><td>to risk</td><td>Eine mögliche negative Folge in Kauf nehmen.</td><td>Wer Sicherheitsstandards ignoriert, riskiert Datenschutzprobleme.</td></tr>
+        <tr><td>der Quereinsteiger</td><td>career changer, lateral entrant</td><td>Jemand, der aus einem anderen Berufsfeld neu einsteigt.</td><td>Immer mehr Firmen suchen gezielt Quereinsteiger.</td></tr>
+        <tr><td>die Stelle <span class="rep">(Wiederholung)</span></td><td>position, job opening</td><td>Ein offener Arbeitsplatz bei einer Firma.</td><td>Mitte Juli waren 175.000 Stellen mit Homeoffice-Option ausgeschrieben.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„… Daten zufolge …"</b> — Eine typische Formel, um eine Quelle für Zahlen oder Fakten anzugeben. Beispiel: <i>Portal-Daten zufolge gibt es einen neuen Höchststand.</i></li>
+        <li><b>„Wer …, muss/kann …"</b> — Verknüpft eine Bedingung mit ihrer Folge, sehr häufig in Nachrichtentexten. Beispiel: <i>Wer ortsunabhängig arbeitet, kann sich bundesweit bewerben.</i></li>
+        <li><b>„Klar ist: …"</b> — Leitet eine sichere Schlussfolgerung oder Zusammenfassung ein. Beispiel: <i>Klar ist: Die Rückkehr zum Büro scheint unwahrscheinlich.</i></li>
+        <li><b>„je nach …"</b> — Drückt aus, dass etwas von einem bestimmten Faktor abhängt. Beispiel: <i>Die Gehälter variieren je nach Spezialisierung.</i></li>
+        <li><b>„immer mehr …"</b> — Beschreibt eine wachsende Tendenz. Beispiel: <i>Immer mehr Firmen öffnen sich für Quereinsteiger.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Trennbare Verben am Satzende:</b> Verben wie <i>vorantreiben</i> und <i>nachziehen</i> sind trennbar. Im Hauptsatz wandert die Vorsilbe ans Ende: <i>„Die IT-Branche treibt den Trend voran"</i>, <i>„Vertrieb und Buchhaltung ziehen nach"</i>. Diese Verben klingen im Alltag oft unscheinbar, sind aber extrem häufig in Wirtschafts- und Nachrichtentexten.</p></div>
+      <div class="grammar-block"><p><b>„je nach + Dativ":</b> Der Ausdruck <i>„je nach Spezialisierung"</i> zeigt, wie man auf Deutsch kompakt eine Abhängigkeit ausdrückt, ohne einen ganzen Nebensatz zu bilden. Man findet diese Struktur ständig, z. B. „je nach Wetter", „je nach Situation" oder „je nach Erfahrung".</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viele Stellen mit Homeoffice-Option gab es laut Text Mitte Juli 2026?</li>
+          <li>Warum wächst für Unternehmen die Komplexität durch Homeoffice?</li>
+          <li>Was bedeutet „Zero-Trust-Prinzip" im Text?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>ortsunabhängig</i>.</li>
+          <li>Schreibe einen Satz mit <i>nachziehen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „je nach …".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Würdest du lieber komplett im Homeoffice, hybrid oder ganz im Büro arbeiten? Begründe deine Meinung und nenne mindestens zwei Vor- und zwei Nachteile.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quelle: IT Boltwise, „Homeoffice boomt: 174.901 Remote-Stellen im Juli 2026 – besonders in IT", 14. Juli 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

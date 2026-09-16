@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 15. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 15. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Transfersommer 2026: Ruhe vor dem Sturm</h2>
+    <div class="card">
+      <p>Seit dem 1. Juli ist das Transferfenster der Bundesliga offiziell geöffnet, doch bislang hält sich die Branche eher zurück. Der Grund dafür liegt auf der Hand: Wegen der spät angesetzten Weltmeisterschaft warten viele Vereine erst einmal ab, bevor sie größere Summen investieren. Trainer und Sportdirektoren wollen sehen, wie sich ihre Spieler beim Turnier schlagen, ehe sie sich auf teure Verträge einlassen.</p>
+      <p>Trotzdem gibt es bereits einige Wechsel, die für Gesprächsstoff sorgen. Der FC Bayern München hat mit Ismael Saibari von der PSV Eindhoven den bisher prominentesten Neuzugang der Liga verpflichtet. Der offensive Mittelfeldspieler soll dem Rekordmeister mehr Kreativität im Spielaufbau verschaffen. Auch beim SC Freiburg tut sich etwas: Der Verein steht offenbar kurz davor, seinen Jungstar Johan Manzambi für eine Rekordsumme an Newcastle United zu verkaufen – ein Deal, der zeigt, wie attraktiv deutsche Talente für die Premier League nach wie vor sind.</p>
+      <p>Nicht jeder Wechsel bedeutet allerdings einen Abschied. Beim 1. FC Köln atmet man auf: Shootingstar Said El Mala soll seine Wechselpläne vorerst auf Eis gelegt haben und der Mannschaft für eine weitere Saison erhalten bleiben. Das dürfte die Kölner Fans freuen, die sich zuletzt Sorgen um ihren Leistungsträger gemacht hatten.</p>
+      <p>Auch abseits der Spitzenklubs bewegt sich etwas: Aufsteiger FC Schalke 04 befindet sich Medienberichten zufolge in Gesprächen mit dem erfahrenen Robin Gosens, der dem Verein mit seiner Routine beim Wiederaufstieg helfen könnte. Bis zum Ende des Transferfensters am 31. August dürfte sich also noch einiges tun – Fans und Experten beobachten die Entwicklungen mit Spannung.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Transferfenster</td><td>transfer window</td><td>Der Zeitraum, in dem Vereine Spieler kaufen oder verkaufen dürfen.</td><td>Das Transferfenster schließt am 31. August.</td></tr>
+        <tr><td>sich zurückhalten</td><td>to hold back, be reluctant</td><td>Vorsichtig sein und (noch) nichts entscheiden.</td><td>Viele Vereine halten sich vor der Weltmeisterschaft zurück.</td></tr>
+        <tr><td>der Neuzugang</td><td>new signing, new arrival</td><td>Ein Spieler, der neu zu einem Verein gewechselt ist.</td><td>Saibari ist der prominenteste Neuzugang des FC Bayern.</td></tr>
+        <tr><td>verpflichten</td><td>to sign, to hire (a player)</td><td>Einen Vertrag mit jemandem abschließen.</td><td>Der Verein hat einen neuen Trainer verpflichtet.</td></tr>
+        <tr><td>der Jungstar</td><td>young star (talent)</td><td>Ein junger, sehr talentierter Spieler.</td><td>Der Jungstar wechselt für viel Geld nach England.</td></tr>
+        <tr><td>auf Eis legen</td><td>to put on hold <i>(Wiederholung: legen)</i></td><td>Etwas vorübergehend stoppen oder verschieben.</td><td>Er hat seine Wechselpläne auf Eis gelegt.</td></tr>
+        <tr><td>der Leistungsträger</td><td>key player</td><td>Ein Spieler, auf den die Mannschaft besonders angewiesen ist.</td><td>Ohne ihren Leistungsträger tut sich die Mannschaft schwer.</td></tr>
+        <tr><td>der Aufsteiger</td><td>promoted team</td><td>Ein Verein, der in die nächsthöhere Liga aufgestiegen ist.</td><td>Schalke ist in dieser Saison Aufsteiger.</td></tr>
+        <tr><td>die Entwicklung <span class="rep">(Wiederholung)</span></td><td>development</td><td>Wie sich eine Sache im Laufe der Zeit verändert.</td><td>Fans beobachten die Entwicklungen mit Spannung.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Der Grund dafür liegt auf der Hand."</b> — praktisch, um zu sagen, dass etwas offensichtlich oder leicht zu verstehen ist.</li>
+        <li><b>„... sorgt für Gesprächsstoff."</b> — nützlich, um zu beschreiben, dass etwas viel diskutiert wird (auch außerhalb des Sports, z. B. bei Firmenentscheidungen).</li>
+        <li><b>„kurz davor stehen, etwas zu tun"</b> — gutes Muster, um zu sagen, dass etwas fast passiert ist.</li>
+        <li><b>„Medienberichten zufolge"</b> — formelle Art, eine Information einer Quelle zuzuschreiben, sehr häufig in Nachrichtentexten.</li>
+        <li><b>„mit Spannung beobachten"</b> — ausdrucksstarke Wendung, um Interesse oder Vorfreude auf eine Entwicklung zu zeigen.</li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Konjunktiv I in Nachrichtentexten ("soll"-Konstruktion):</b> Sätze wie „Manzambi <b>soll</b> verkauft werden" oder „El Mala <b>soll</b> seine Pläne auf Eis gelegt haben" drücken aus, dass eine Information nicht sicher bestätigt ist, sondern auf Gerüchten oder Berichten basiert. Diese Konstruktion ist in deutschen Nachrichtenartikeln extrem häufig — achte darauf, wenn du selbst über unbestätigte Informationen sprichst.</p></div>
+      <div class="grammar-block"><p><b>Erweiterte Partizipialkonstruktionen:</b> „die spät <b>angesetzte</b> Weltmeisterschaft" — ein Partizip (hier: <i>angesetzt</i>) wird wie ein Adjektiv vor das Nomen gestellt, um einen Relativsatz zu ersetzen (statt „die Weltmeisterschaft, die spät angesetzt wurde"). Das klingt kompakter und wird oft in geschriebenen, formelleren Texten verwendet.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum halten sich viele Bundesliga-Vereine in diesem Sommer mit Transfers zurück?</li>
+          <li>Welcher Spieler hat beim 1. FC Köln seine Wechselpläne offenbar auf Eis gelegt?</li>
+          <li>Was plant Schalke 04 mit Robin Gosens?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit dem Ausdruck „auf Eis legen".</li>
+          <li>Bilde einen Satz mit „Medienberichten zufolge".</li>
+          <li>Verwende die „soll"-Konstruktion, um über ein unbestätigtes Gerücht (Sport, Arbeit oder Alltag) zu berichten.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Erzähle einem Kollegen: Verfolgst du den Transfermarkt (Fußball oder eine andere Sportart)? Was hältst du von so hohen Ablösesummen für junge Spieler?</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

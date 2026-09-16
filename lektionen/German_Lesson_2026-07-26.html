@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 26. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 26. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Nach der WM: Die Bundesliga stellt die Weichen für die neue Saison</h2>
+    <div class="card">
+      <p>Nach dem Sommer der Fußball-Weltmeisterschaft in den USA, Mexiko und Kanada blicken Fußballfans in Deutschland schon wieder nach vorne: Am 28. August startet die neue Bundesliga-Saison mit dem Topspiel zwischen Titelverteidiger FC Bayern München und dem VfB Stuttgart. Bis dahin bleibt den Vereinen aber noch viel zu tun.</p>
+      <p>Während ein Teil der Nationalspieler erst nach dem Turnier in den wohlverdienten Urlaub fahren durfte, haben die meisten Bundesligisten ihre Vorbereitung längst begonnen. Borussia Dortmund etwa startete bereits Mitte Juli mit ersten Leistungstests, bevor die eigentliche Trainingsarbeit losging. In den kommenden Wochen stehen für alle Mannschaften Trainingslager und zahlreiche Testspiele auf dem Programm — eine wichtige Gelegenheit, um die Fitness zu überprüfen und neue Spieler ins Team zu integrieren.</p>
+      <p>Apropos neue Spieler: Das Transferfenster ist seit dem 1. Juli geöffnet und bleibt es bis zum 31. August, dem sogenannten Deadline Day. Der FC Bayern hat bereits kräftig eingekauft und unter anderem Ismael Saibari von PSV Eindhoven verpflichtet. Auch bei kleineren Vereinen tut sich einiges: Der SC Freiburg hat seinen WM-Star Johan Manzambi für eine Rekord-Ablösesumme von 70 Millionen Euro an Aston Villa verkauft — ein Wechsel, der in der Fanszene für viel Gesprächsstoff sorgt. Kein Wunder, denn der Wettbewerb um die besten Talente ist europaweit hart umkämpft.</p>
+      <p>Im Gegenzug hat Freiburg bereits einen vielversprechenden Nachwuchsspieler für rund 15 Millionen Euro als Ersatz verpflichtet. Für viele Vereine ist genau diese Balance zwischen Verkaufen und Einkaufen entscheidend: Wer seine besten Spieler abgibt, braucht schnell passenden Ersatz, sonst drohen sportliche Rückschritte gleich zu Saisonbeginn. Ob sich all diese Transfers am Ende auszahlen, wird sich erst zeigen. Klar ist aber: Auch wenn der Ball auf dem Rasen erst Ende August wieder rollt, werden in den Chefetagen der Bundesliga-Clubs schon jetzt die entscheidenden Weichen für die kommende Saison gestellt.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Titelverteidiger</td><td>defending champion</td><td>Der Verein, der die letzte Saison gewonnen hat.</td><td>Bayern München ist der Titelverteidiger der Bundesliga.</td></tr>
+        <tr><td>die Vorbereitung</td><td>preparation</td><td>Die Zeit, in der man sich intensiv auf etwas vorbereitet.</td><td>Die Vorbereitung auf die neue Saison hat längst begonnen.</td></tr>
+        <tr><td>das Trainingslager</td><td>training camp</td><td>Ein Ort, an dem eine Mannschaft für einige Tage intensiv trainiert.</td><td>Viele Vereine fahren im Sommer ins Trainingslager.</td></tr>
+        <tr><td>das Transferfenster</td><td>transfer window</td><td>Der Zeitraum, in dem Vereine Spieler kaufen und verkaufen dürfen.</td><td>Das Transferfenster schließt am 31. August.</td></tr>
+        <tr><td>verpflichten</td><td>to sign (a player)</td><td>Einen neuen Spieler offiziell in die Mannschaft aufnehmen.</td><td>Bayern hat einen neuen Spieler von PSV Eindhoven verpflichtet.</td></tr>
+        <tr><td>die Ablösesumme</td><td>transfer fee</td><td>Das Geld, das ein Verein für einen Spieler an einen anderen Verein zahlt.</td><td>Für Manzambi zahlt Aston Villa eine Rekord-Ablösesumme.</td></tr>
+        <tr><td>der Gesprächsstoff</td><td>talking point</td><td>Ein Thema, über das gerade viele Menschen reden.</td><td>Der mögliche Wechsel sorgt für viel Gesprächsstoff.</td></tr>
+        <tr><td>umkämpft <span class="rep">(Wiederholung)</span></td><td>fiercely contested</td><td>Wenn viele um dasselbe Ziel konkurrieren.</td><td>Der Wettbewerb um die besten Talente ist hart umkämpft.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Ob sich die teuren Transfers auszahlen, zeigt sich erst später.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Kein Wunder, denn …“</b> — Einen Grund für etwas Erwartetes liefern.<br><i>Kein Wunder, denn der Wettbewerb um Talente ist hart umkämpft.</i></li>
+        <li><b>„Im Gegenzug …“</b> — Eine Gegenleistung oder einen Ausgleich einleiten.<br><i>Im Gegenzug hat Freiburg einen neuen Spieler verpflichtet.</i></li>
+        <li><b>„Ob sich …, wird sich erst zeigen.“</b> — Eine offene Frage in die Zukunft verschieben.<br><i>Ob sich die Transfers auszahlen, wird sich erst zeigen.</i></li>
+        <li><b>„Klar ist aber: …“</b> — Nach einer Unsicherheit eine sichere Schlussfolgerung einleiten.<br><i>Klar ist aber: Die Vereine bereiten sich schon intensiv vor.</i></li>
+        <li><b>„auf dem Programm stehen“</b> — Beschreiben, was als Nächstes geplant ist.<br><i>In den kommenden Wochen stehen viele Testspiele auf dem Programm.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„sollen“ für Gerüchte:</b> In Transfer-Nachrichten liest man oft Sätze wie <i>„Ein Talent soll angeblich zu einem anderen Verein wechseln“</i>. Hier nutzt man „sollen“ nicht als Aufforderung, sondern um ein Gerücht oder eine unbestätigte Information wiederzugeben. Wenn man „soll“ + Infinitiv verwendet, sagt man damit indirekt: „Das habe ich gehört, aber ich bin mir nicht sicher.“ Sobald ein Wechsel offiziell bestätigt ist — wie bei Manzambi —, wechselt man ins einfache Perfekt: „Er hat gewechselt.“</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Passiv Präsens:</b> Im Satz <i>„werden … die entscheidenden Weichen … gestellt“</i> steht das Verb im Passiv (werden + Partizip II). Das Passiv rückt die Handlung selbst in den Mittelpunkt, nicht die handelnde Person — praktisch, wenn unklar oder unwichtig ist, wer genau etwas tut.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wann beginnt die neue Bundesliga-Saison und welche zwei Mannschaften spielen im Eröffnungsspiel?</li>
+          <li>Was bedeutet es, wenn ein Verein einen Spieler „verpflichtet“?</li>
+          <li>Warum sorgt der Wechsel von Johan Manzambi für viel Gesprächsstoff?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>verpflichten</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Im Gegenzug …“.</li>
+          <li>Schreibe einen Satz mit <i>sich auszahlen</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Sollten Bundesliga-Vereine mehr Geld in eigene Nachwuchsspieler investieren, statt teure Spieler von anderen Vereinen zu kaufen? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zum Bundesliga-Sommertransferfenster und zur Saisonvorbereitung 2026/27, Stand 25./26. Juli 2026 (u. a. Sky Sport, kicker, news.de, Bundesliga.com).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

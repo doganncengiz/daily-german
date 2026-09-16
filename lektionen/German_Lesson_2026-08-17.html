@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 17. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 17. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Wann muss KI gekennzeichnet werden?</h2>
+    <div class="card">
+      <p>Seit dem 2. August 2026 gelten in der Europäischen Union neue Regeln für den Umgang mit Künstlicher Intelligenz. Viele Menschen befürchteten, dass ab sofort jeder KI-generierte Text oder jedes KI-Bild gekennzeichnet werden muss. Tatsächlich ist es komplizierter — und für die meisten Unternehmen weniger dramatisch, als es zunächst klang.</p>
+      <p>Die neuen Transparenzpflichten greifen nämlich nur in bestimmten Fällen. Erstens müssen Chatbots und virtuelle Assistenten deutlich machen, dass am anderen Ende kein Mensch antwortet. Wer heute mit dem Kundenservice einer Bank chattet, soll also erkennen können, ob er es mit einer KI zu tun hat. Zweitens müssen Anbieter von Bild-, Video- und Audio-KI ihre Inhalte technisch erkennbar machen, zum Beispiel durch ein digitales Wasserzeichen in den Metadaten.</p>
+      <p>Besonders wichtig ist die dritte Regel: Wer täuschend echte Deepfakes veröffentlicht — etwa ein Video, in dem eine bekannte Person angeblich etwas sagt, das sie nie gesagt hat — muss das klar und sichtbar kennzeichnen. Ein versteckter Hinweis irgendwo im Quelltext reicht dafür nicht aus. Die vierte Regel betrifft KI-generierte Texte, die die Öffentlichkeit über Themen von großem Interesse informieren sollen.</p>
+      <p>Für ein normales Unternehmen ändert sich dadurch wenig. Ein LinkedIn-Beitrag, der mit KI-Unterstützung geschrieben wurde, muss in der Regel nicht gekennzeichnet werden. Kritisch wird es erst, wenn Kundinnen und Kunden getäuscht werden könnten. Expertinnen raten Firmen deshalb, jetzt festzulegen, wer KI-Inhalte vor der Veröffentlichung prüft und in welchen Bereichen überhaupt KI eingesetzt wird.</p>
+      <p>Ob sich die neuen Regeln langfristig auszahlen, wird sich zeigen. Klar ist aber: Transparenz soll vor allem eines schaffen — Vertrauen zwischen Unternehmen und Kundinnen und Kunden, in einer Welt, in der künstlich erzeugte Inhalte immer schwerer von echten zu unterscheiden sind.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Transparenzpflicht</td><td>transparency obligation</td><td>Eine gesetzliche Regel, nach der man offen und ehrlich informieren muss.</td><td>Seit August gelten neue Transparenzpflichten für KI-Anbieter.</td></tr>
+        <tr><td>kennzeichnen</td><td>to label, mark</td><td>Etwas deutlich als das zeigen, was es wirklich ist.</td><td>Deepfakes müssen klar gekennzeichnet werden.</td></tr>
+        <tr><td>täuschend echt</td><td>deceptively real</td><td>So realistisch, dass man den Unterschied zur Wirklichkeit kaum erkennt.</td><td>Das Video wirkte täuschend echt.</td></tr>
+        <tr><td>das Wasserzeichen</td><td>watermark</td><td>Ein Zeichen, das zeigt, woher ein Inhalt wirklich stammt.</td><td>Ein digitales Wasserzeichen zeigt, dass ein Bild von einer KI stammt.</td></tr>
+        <tr><td>der Hinweis</td><td>notice, indication</td><td>Eine kurze Information, die auf etwas aufmerksam macht.</td><td>Ein Hinweis im Chat zeigt, dass man mit einer KI spricht.</td></tr>
+        <tr><td>betreffen</td><td>to concern, affect</td><td>Für jemanden oder etwas wichtig sein bzw. gültig sein.</td><td>Die vierte Regel betrifft KI-generierte Texte.</td></tr>
+        <tr><td>täuschen</td><td>to deceive</td><td>Jemandem absichtlich einen falschen Eindruck geben.</td><td>Kundinnen und Kunden dürfen durch KI-Inhalte nicht getäuscht werden.</td></tr>
+        <tr><td>festlegen</td><td>to determine, establish</td><td>Etwas klar entscheiden und schriftlich bestimmen.</td><td>Firmen sollten festlegen, wer die Inhalte vor der Veröffentlichung prüft.</td></tr>
+        <tr><td>das Vertrauen</td><td>trust</td><td>Der Glaube daran, dass jemand oder etwas ehrlich und zuverlässig ist.</td><td>Transparenz soll vor allem Vertrauen schaffen.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Ob sich die neuen Regeln auszahlen, wird sich zeigen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Tatsächlich ist es komplizierter, als es zunächst klang.“</b> — Eine erste Erwartung korrigieren.<br><i>Tatsächlich ist die neue Regel komplizierter, als es zunächst klang.</i></li>
+        <li><b>„Wer …, muss …“</b> — Bedingung und Pflicht in einem Satz verbinden.<br><i>Wer täuschend echte Deepfakes veröffentlicht, muss das klar kennzeichnen.</i></li>
+        <li><b>„Kritisch wird es erst, wenn …“</b> — Den Punkt nennen, an dem etwas wirklich problematisch wird.<br><i>Kritisch wird es erst, wenn Kundinnen und Kunden getäuscht werden könnten.</i></li>
+        <li><b>„In der Regel …“</b> — Eine allgemeine Norm beschreiben, die Ausnahmen zulässt.<br><i>Ein KI-unterstützter Beitrag muss in der Regel nicht gekennzeichnet werden.</i></li>
+        <li><b>„Ob sich … auszahlt, wird sich zeigen.“</b> — Eine Entwicklung offen und abwartend beschreiben.<br><i>Ob sich die neuen Regeln langfristig auszahlen, wird sich zeigen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv mit Modalverben (müssen + Infinitiv Passiv):</b> Sätze wie <i>„Deepfakes müssen klar und sichtbar gekennzeichnet werden“</i> oder <i>„das muss geprüft werden“</i> verbinden ein Modalverb mit dem Passiv (werden + Partizip II). So beschreibt man eine Pflicht, ohne zu sagen, wer genau handeln muss — typisch für Gesetzestexte und Nachrichten über neue Regeln.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Relativsätze mit Präposition:</b> Im Satz <i>„ein Video, in dem eine bekannte Person angeblich etwas sagt“</i> steht die Präposition (in) direkt vor dem Relativpronomen (dem). Solche Relativsätze mit Präposition + Pronomen sind im Deutschen sehr häufig, wenn man ein Beispiel genauer beschreiben will, ohne einen neuen Hauptsatz zu beginnen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Seit wann gelten die neuen EU-Transparenzregeln für Künstliche Intelligenz?</li>
+          <li>Was müssen Anbieter von Chatbots laut Text sicherstellen?</li>
+          <li>Muss ein normaler, mit KI unterstützter LinkedIn-Beitrag gekennzeichnet werden? Warum oder warum nicht?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>betreffen</i>.</li>
+          <li>Schreibe einen Satz mit <i>täuschen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Wer …, muss …".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Wie stehst du zu den neuen Transparenzregeln für KI? Findest du sie ausreichend, um Vertrauen zu schaffen, oder sollten die Regeln strenger sein? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: EU-Transparenzvorschriften für KI (Art. 50 AI Act), in Kraft seit 2. August 2026 — u. a. DUP Magazin, WEB.DE, Europäische Kommission.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

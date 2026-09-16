@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 11. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 11. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Steigende Energiepreise bremsen die deutsche Wirtschaft</h2>
+    <div class="card">
+      <p>Nach einer leichten Erholung zu Jahresbeginn zeigt sich die deutsche Wirtschaft im Sommer 2026 wieder angespannt. Grund dafür ist vor allem der anhaltende Konflikt im Nahen Osten, der die Energiepreise deutlich steigen lässt. Für viele Unternehmen bedeutet das höhere Kosten – und das zu einem Zeitpunkt, an dem die Nachfrage ohnehin schwächer wird.</p>
+      <p>Besonders betroffen ist die Industrie. Laut einer aktuellen Umfrage des ifo Instituts klagt inzwischen fast jedes sechste Industrieunternehmen über Lieferengpässe bei wichtigen Rohstoffen und Vorprodukten. Im Januar war es noch weniger als jedes zwölfte Unternehmen. Ökonomen sprechen von einem klaren Warnsignal, denn solche Engpässe verzögern Produktion und Lieferungen und treiben gleichzeitig die Preise weiter nach oben.</p>
+      <p>Auch auf dem Arbeitsmarkt spürt man die Unsicherheit. Wegen der hohen Energiekosten und der unklaren geopolitischen Lage stellen viele Firmen aktuell kaum neue Mitarbeiter ein. Manche Betriebe prüfen sogar, ob sie bestimmte Investitionen verschieben sollten, bis sich die Lage beruhigt.</p>
+      <p>Trotzdem gibt es Hoffnungszeichen. Die Bundesregierung hat in den letzten Monaten mehrere Reformen umgesetzt, um Unternehmen zu entlasten. Dazu gehören eine höhere Forschungszulage sowie schnellere Genehmigungsverfahren im Energie- und Bausektor, etwa durch den sogenannten „Wohnungsbauturbo". Experten sind sich einig: Diese Maßnahmen allein reichen nicht aus, um den Wandel schnell umzukehren – aber sie könnten mittelfristig helfen, die Wirtschaft widerstandsfähiger zu machen.</p>
+      <p>Für Beschäftigte in Deutschland bedeutet das vor allem eins: Geduld. Wer in den kommenden Monaten mit steigenden Preisen und einem vorsichtigeren Arbeitsmarkt rechnet, liegt wohl richtig. Doch viele Ökonomen betonen auch, dass Krisen in der Vergangenheit oft neue Anpassungen und Innovationen angestoßen haben – und das könnte auch diesmal gelten.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Erholung</td><td>recovery</td><td>Eine Verbesserung, nachdem etwas schwierig oder schlecht war.</td><td>Nach der Krise gab es eine leichte Erholung der Wirtschaft.</td></tr>
+        <tr><td>die Nachfrage</td><td>demand</td><td>Wie viel Menschen oder Firmen etwas kaufen oder haben wollen.</td><td>Die Nachfrage nach neuen Wohnungen ist hoch.</td></tr>
+        <tr><td>der Lieferengpass</td><td>supply bottleneck</td><td>Ein Problem, weil bestimmte Waren oder Materialien fehlen.</td><td>Wegen des Lieferengpasses kam die Bestellung viel später an.</td></tr>
+        <tr><td>der Rohstoff <i>(Plural: Rohstoffe)</i></td><td>raw material</td><td>Ein Grundmaterial, aus dem Produkte hergestellt werden, z. B. Metall oder Holz.</td><td>Ohne genug Rohstoffe kann die Fabrik nicht produzieren.</td></tr>
+        <tr><td>verzögern</td><td>to delay</td><td>Bewirken, dass etwas später passiert als geplant.</td><td>Der Streik hat die Lieferung um zwei Wochen verzögert.</td></tr>
+        <tr><td>einstellen (Mitarbeiter)</td><td>to hire (employees)</td><td>Jemanden als neuen Mitarbeiter in eine Firma aufnehmen.</td><td>Die Firma stellt dieses Jahr kaum neue Leute ein.</td></tr>
+        <tr><td>verschieben</td><td>to postpone</td><td>Etwas auf einen späteren Zeitpunkt legen.</td><td>Wir verschieben das Meeting auf nächste Woche.</td></tr>
+        <tr><td>entlasten</td><td>to relieve, ease the burden</td><td>Jemandem helfen, indem man Kosten, Arbeit oder Druck reduziert.</td><td>Die Reform soll kleine Unternehmen finanziell entlasten.</td></tr>
+        <tr><td>die Umfrage <span class="rep">(Wiederholung)</span></td><td>survey</td><td>Eine Untersuchung, bei der viele Menschen oder Firmen befragt werden.</td><td>Laut einer Umfrage sind viele Firmen besorgt über die Kosten.</td></tr>
+        <tr><td>sich einig sein <span class="rep">(Wiederholung)</span></td><td>to agree, be in agreement</td><td>Die gleiche Meinung wie andere haben.</td><td>Ökonomen sind sich einig: Die Lage bleibt angespannt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Grund dafür ist vor allem..."</b> — praktisch, um eine Ursache klar einzuleiten, z. B. in Berichten oder Erklärungen.</li>
+        <li><b>„Laut einer aktuellen Umfrage..."</b> — wieder nützlich, um Statistiken oder Studienergebnisse zu zitieren (siehe auch Lektion vom 9. Juli).</li>
+        <li><b>„Experten/Ökonomen sind sich einig, dass..."</b> — guter Satzanfang, um eine allgemein akzeptierte Einschätzung wiederzugeben.</li>
+        <li><b>„Das bedeutet vor allem eins: ..."</b> — nützlich, um am Ende eine klare Kernaussage zusammenzufassen.</li>
+        <li><b>„Wer X, liegt wohl richtig."</b> — höfliche, vorsichtige Art, eine Vorhersage oder Vermutung zu formulieren.</li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Konjunktiv II für vorsichtige Vermutungen:</b> „Manche Betriebe prüfen, ob sie Investitionen verschieben <b>sollten</b>." und „Diese Maßnahmen <b>könnten</b> mittelfristig helfen." Der Konjunktiv II (sollte, könnte, würde) macht Aussagen vorsichtiger und weniger direkt — sehr nützlich im Beruf, wenn man Vorschläge oder Einschätzungen formuliert, ohne zu bestimmt zu klingen.</p></div>
+      <div class="grammar-block"><p><b>Nomen mit "-ung":</b> Viele wichtige Substantive im Text enden auf "-ung" (die Erholung, die Nachfrage → Ausnahme, die Umfrage, die Genehmigung). Diese Endung macht aus Verben Nomen (sich erholen → die Erholung; genehmigen → die Genehmigung) und ist extrem häufig in Wirtschafts- und Nachrichtentexten. Merke: fast alle Nomen auf "-ung" sind feminin (die).</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum steigen die Energiepreise in Deutschland gerade wieder?</li>
+          <li>Was zeigt die Umfrage des ifo Instituts über die Industrie?</li>
+          <li>Was tut die Bundesregierung, um Unternehmen zu entlasten?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit dem Wort "der Lieferengpass".</li>
+          <li>Bilde einen Satz im Konjunktiv II mit "könnte" oder "sollte", z. B. über eine Entscheidung bei der Arbeit.</li>
+          <li>Verwende "entlasten" in einem eigenen Satz über dein Team oder deine Firma.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, ein Kollege fragt dich, wie du die aktuelle wirtschaftliche Lage einschätzt. Erzähle: Merkst du in deinem Job oder Alltag etwas von steigenden Preisen oder Unsicherheit? Was denkst du, wie sich die Lage in den nächsten Monaten entwickelt?</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+"mc":[
+ {"q":"Wann wird der Haushalt für 2027 endgültig beschlossen?",
+  "o":["Noch in dieser Woche im Bundestag.","Erst Ende November.","Erst im Januar 2027."],
+  "c":1,
+  "why":"Debattiert wurde diese Woche, <b>beschlossen</b> wird der Etat aber erst Ende November. Bis dahin können die Abgeordneten einzelne Posten noch verschieben oder streichen."},
+ {"q":"Womit begründet die Regierung die hohe Neuverschuldung?",
+  "o":["Mit Investitionen in Infrastruktur, Digitalisierung und Verteidigung.",
+       "Mit den Nachwirkungen der Corona-Jahre.",
+       "Mit stark gesunkenen Steuereinnahmen."],
+  "c":0,
+  "why":"118 Milliarden sollen „in die Zukunft fließen“ — 17,7 für Schienen, Brücken und Straßen, neun für Digitalisierung, rund 110 für Verteidigung. Corona wird nur als <i>Vergleich</i> genannt."},
+ {"q":"Welches Argument bringen die Kritiker gegen die neuen Schulden vor?",
+  "o":["Die Investitionen kommen mehrere Jahre zu spät.",
+       "Hohe Schulden engen den Spielraum späterer Regierungen ein.",
+       "Der Verteidigungsetat wächst zu langsam."],
+  "c":1,
+  "why":"Genau das ist das Gegenargument im Text: Wer heute viel leiht, hat morgen weniger <b>Spielraum</b>. Die Opposition formuliert es als „auf Kosten künftiger Generationen leben“."}
+],
+"schreib":[
+ "Nach der Kürzung haben wir im Projekt kaum noch finanziellen <b>Spielraum</b>.",
+ "Die Opposition <b>wirft</b> der Regierung <b>vor</b>, auf Kosten der jungen Generation <b>zu</b> leben.",
+ "Die neuen Vorgaben <b>wirken sich</b> direkt <b>auf</b> meine täglichen Abläufe <b>aus</b>."
+],
+"sprech":{
+ "phrases":["Meine erste Priorität wäre …, und zwar deshalb, weil …","An zweiter Stelle käme für mich …",
+            "Sparen würde ich eher bei …","Das lässt sich kurzfristig kaum ändern, langfristig aber schon."],
+ "modell":"Ich würde das Geld anders verteilen. Meine erste Priorität wäre <b>Bildung</b>, weil sich Investitionen dort am längsten auszahlen — Schulen, Lehrkräfte, Weiterbildung. An zweiter Stelle käme die <b>Digitalisierung der Verwaltung</b>: Wer einmal drei Wochen auf einen Termin im Bürgeramt gewartet hat, weiß, warum. Drittens die Bahn, weil ein zuverlässiges Netz der ganzen Wirtschaft hilft. <b>Sparen</b> würde ich eher bei Prestigeprojekten, die gut aussehen, aber niemandem den Alltag erleichtern."}
+}

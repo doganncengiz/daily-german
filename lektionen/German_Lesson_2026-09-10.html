@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 10. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 10. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">52 Punkte Unterschied: Wenn Jung und Alt die Lage völlig anders sehen</h2>
+    <div class="card">
+      <p>Wie geht es den Deutschen finanziell? Auf diese Frage gibt es im Herbst 2026 offenbar zwei sehr unterschiedliche Antworten — je nachdem, wen man fragt. Das Nürnberg Institut für Marktentscheidungen (NIM) veröffentlicht jeden Monat den sogenannten Konsumklimaindikator. Er misst nicht, wie viel die Menschen tatsächlich ausgeben, sondern wie sie ihre Zukunft einschätzen: Rechnen sie mit mehr Einkommen? Haben sie Lust auf größere Anschaffungen? Oder legen sie ihr Geld lieber zur Seite?</p>
+      <p>Im September ist dieser Wert um 2,8 Punkte gestiegen, auf minus 26,6 Punkte. Insgesamt bleibt die Stimmung also klar im negativen Bereich, von einer echten Erholung kann noch keine Rede sein. Interessant wird es aber, wenn man die Zahlen nach Generationen aufschlüsselt.</p>
+      <p>Bei der Generation Z — also den Jahrgängen 1997 bis 2012 — liegt der Indikator bei plus 6,3 Punkten. Bei den Babyboomern, geboren zwischen 1946 und 1964, sind es dagegen minus 46,1 Punkte. Zwischen beiden Gruppen liegen damit über 52 Punkte. Die Jüngeren blicken deutlich zuversichtlicher nach vorn: Sie rechnen mit steigenden Einkommen und sind eher bereit, größere Anschaffungen zu machen. Den stärksten Sprung macht übrigens die Generation X mit fast zwölf Punkten — vor allem, weil sie weniger spart als noch im Vormonat.</p>
+      <p>Woran liegt diese Kluft? Die Forscher verweisen unter anderem auf die laufenden Debatten über Reformen bei Rente, Gesundheit und Einkommensteuer. Solche Pläne betreffen die Altersgruppen sehr unterschiedlich — und wirken sich deshalb auch unterschiedlich auf ihre Erwartungen aus. Laut NIM haben sich die Unterschiede schon während der Pandemie verstärkt und sind in der Inflationsphase 2022 und 2023 noch größer geworden. Wer heute im Büro über die Wirtschaftslage spricht, sollte also nicht überrascht sein, wenn die Kollegin Mitte zwanzig ein völlig anderes Bild zeichnet als der Kollege kurz vor der Rente.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Kluft</td><td>gap, divide</td><td>Ein großer Unterschied zwischen zwei Gruppen oder Meinungen.</td><td>Zwischen Jung und Alt liegt eine große Kluft.</td></tr>
+        <tr><td>einschätzen</td><td>to assess, to judge</td><td>Eine Meinung darüber bilden, wie etwas ist oder wird.</td><td>Wie schätzt du die Lage im Team ein?</td></tr>
+        <tr><td>die Anschaffung</td><td>purchase (of something bigger)</td><td>Etwas Größeres, das man kauft, zum Beispiel ein Auto oder eine Waschmaschine.</td><td>Große Anschaffungen schieben viele Haushalte gerade auf.</td></tr>
+        <tr><td>zuversichtlich</td><td>confident, optimistic</td><td>Man glaubt, dass es gut ausgehen wird.</td><td>Die Jüngeren blicken zuversichtlicher nach vorn.</td></tr>
+        <tr><td>aufschlüsseln</td><td>to break down (data)</td><td>Eine Gesamtzahl in kleinere Gruppen aufteilen.</td><td>Wenn man die Zahlen nach Alter aufschlüsselt, sieht man mehr.</td></tr>
+        <tr><td>etwas zur Seite legen</td><td>to put money aside, to save</td><td>Geld sparen, statt es auszugeben.</td><td>Am Monatsende lege ich immer etwas zur Seite.</td></tr>
+        <tr><td>sich auswirken auf</td><td>to have an effect on</td><td>Eine Folge für etwas anderes haben.</td><td>Die Reformen wirken sich auf die Erwartungen aus.</td></tr>
+        <tr><td>ein Bild zeichnen</td><td>to paint a picture, to describe a situation</td><td>Beschreiben, wie man eine Lage sieht.</td><td>Der Bericht zeichnet ein gemischtes Bild.</td></tr>
+        <tr><td>die Erholung <span class="rep">(Wiederholung)</span></td><td>recovery, upturn</td><td>Wenn es nach einer schlechten Phase wieder bergauf geht.</td><td>Von einer echten Erholung kann noch keine Rede sein.</td></tr>
+        <tr><td>spürbar <span class="rep">(Wiederholung)</span></td><td>noticeable, tangible</td><td>So deutlich, dass man es klar merkt.</td><td>Ein spürbarer Anstieg ist bisher nicht in Sicht.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Von … kann noch keine Rede sein.“</b> — Deutlich sagen, dass etwas noch längst nicht erreicht ist.<br><i>Von einer echten Erholung kann noch keine Rede sein.</i></li>
+        <li><b>„je nachdem, wen/was/wie man …“</b> — Sagen, dass die Antwort von der Perspektive abhängt.<br><i>Es gibt zwei Antworten — je nachdem, wen man fragt.</i></li>
+        <li><b>„Woran liegt das?“</b> — Nach der Ursache fragen; sehr häufig in Meetings und Gesprächen.<br><i>Die Zahlen gehen zurück. Woran liegt das eigentlich?</i></li>
+        <li><b>„Interessant wird es, wenn …“</b> — Die Aufmerksamkeit auf den entscheidenden Punkt lenken.<br><i>Interessant wird es, wenn man die Daten nach Regionen aufschlüsselt.</i></li>
+        <li><b>„Rechnen Sie mit …?“</b> — Nach einer Erwartung für die Zukunft fragen.<br><i>Rechnen Sie mit steigenden Kosten im nächsten Quartal?</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Indirekte Fragesätze:</b> Im Text steht <i>„Er misst nicht, wie viel die Menschen ausgeben, sondern wie sie ihre Zukunft einschätzen.“</i> Aus der direkten Frage <i>„Wie viel geben die Menschen aus?“</i> wird ein Nebensatz — und das Verb rutscht ans Ende. Genau dieses Muster brauchst du ständig im Büro: <i>„Ich weiß noch nicht, wann der Termin stattfindet.“</i> / <i>„Können Sie mir sagen, ob das Budget schon freigegeben ist?“</i> Ohne Fragewort nimmst du <i>ob</i>.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Der Komparativ mit Vergleich:</b> <i>„Die Jüngeren blicken deutlich zuversichtlicher nach vorn“</i> und <i>„sie spart weniger als noch im Vormonat“</i>. Zwei Dinge sind hier praktisch: Erstens die Verstärkung durch <i>deutlich</i>, <i>etwas</i> oder <i>wesentlich</i> vor dem Komparativ. Zweitens <i>als</i> für den Vergleich — nicht <i>wie</i>. <i>Wie</i> benutzt man nur bei Gleichheit: <i>so hoch wie im Vorjahr</i>.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Was genau misst der Konsumklimaindikator — und was misst er nicht?</li>
+          <li>Wie groß ist der Unterschied zwischen der Generation Z und den Babyboomern?</li>
+          <li>Warum verbessert sich die Stimmung bei der Generation X laut NIM besonders stark?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen indirekten Fragesatz mit <i>ob</i> (z. B. über einen Termin im Büro).</li>
+          <li>Schreibe einen Satz mit <i>sich auswirken auf</i>.</li>
+          <li>Schreibe einen Vergleich mit <i>deutlich</i> + Komparativ + <i>als</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Beschreibe: Wie schätzt du deine eigene finanzielle Lage im Moment ein — eher wie die Gen Z oder eher wie die Babyboomer? Und woran liegt das? Sprich zwei Minuten und benutze dabei mindestens <i>zuversichtlich</i>, <i>die Anschaffung</i> und <i>Woran liegt das?</i></p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: NIM-Konsumklima September 2026 (Nürnberg Institut für Marktentscheidungen), berichtet u. a. von Retail-News Deutschland am 3. September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

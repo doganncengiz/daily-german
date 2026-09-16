@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 18. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 18. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Neue Jobs durch KI — aber nicht dort, wo man es erwartet</h2>
+    <div class="card">
+      <p>Der deutsche Arbeitsmarkt steckt gerade mitten im Umbruch, und Künstliche Intelligenz spielt dabei eine Hauptrolle. Auf der einen Seite bauen einzelne Konzerne Stellen ab. Anfang Juli kündigte Allianz Partners, eine Tochtergesellschaft des Versicherungsriesen Allianz, an, europaweit zwischen 1.500 und 1.800 Arbeitsplätze zu streichen. In Deutschland sind davon rund 80 bis 100 Stellen betroffen, vor allem in der Kundenkommunikation, wo KI-Systeme zunehmend einfache Anfragen selbst bearbeiten.</p>
+      <p>Auf der anderen Seite entstehen gleichzeitig völlig neue Berufsbilder. Laut einer aktuellen Auswertung des Jobportals Indeed wurden allein im ersten Quartal 2026 rund 288 neue KI-bezogene Stellentitel gemeldet. Besonders bemerkenswert: 64 Prozent dieser neuen Rollen entstehen außerhalb der klassischen Tech-Branche — also nicht bei Softwarefirmen, sondern etwa im Marketing, im Gesundheitswesen oder in der Produktion. Man sucht dort Mitarbeitende, die zwar keine Programmierer sind, aber wissen, wie man KI-Werkzeuge sinnvoll im Alltag einsetzt.</p>
+      <p>Diese Entwicklung sorgt für gemischte Gefühle. Manche Beschäftigte befürchten, dass ihr bisheriger Job überflüssig werden könnte, sobald eine Software die Aufgabe übernimmt. Andere sehen darin vor allem eine Chance, sich weiterzubilden und sich für die neuen, gefragten Kompetenzen zu qualifizieren. Trotz des KI-Umbaus zeigt sich der Arbeitsmarkt insgesamt erstaunlich robust: Im Juni 2026 gab es weiterhin rund 200.000 offene Stellen in Deutschland. Experten sind sich weitgehend einig, dass es nicht um einen einfachen Jobabbau geht, sondern um eine Verschiebung — weg von Routineaufgaben, hin zu Tätigkeiten, bei denen Menschen und KI zusammenarbeiten.</p>
+      <p>Für viele Berufstätige bedeutet das vor allem eines: Wer offen bleibt und bereit ist, dazuzulernen, hat gute Chancen, von der Entwicklung zu profitieren, statt von ihr überrollt zu werden.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Umbruch</td><td>upheaval, transformation</td><td>Eine große, oft schnelle Veränderung eines Zustands.</td><td>Die KI sorgt gerade für einen echten Umbruch am Arbeitsmarkt.</td></tr>
+        <tr><td>Stellen abbauen / streichen</td><td>to cut jobs</td><td>Arbeitsplätze in einer Firma reduzieren oder ganz beenden.</td><td>Der Konzern will in Europa mehrere tausend Stellen streichen.</td></tr>
+        <tr><td>die Tochtergesellschaft</td><td>subsidiary</td><td>Eine Firma, die zu einem größeren Mutterkonzern gehört.</td><td>Allianz Partners ist eine Tochtergesellschaft der Allianz.</td></tr>
+        <tr><td>betroffen sein (von)</td><td>to be affected (by)</td><td>Von einer Entwicklung direkt beeinflusst werden, meist negativ.</td><td>In Deutschland sind rund 100 Stellen davon betroffen.</td></tr>
+        <tr><td>das Berufsbild</td><td>job profile, occupation type</td><td>Die typische Beschreibung eines Berufs und seiner Aufgaben.</td><td>Durch KI entstehen völlig neue Berufsbilder.</td></tr>
+        <tr><td>bemerkenswert</td><td>remarkable, noteworthy</td><td>So auffällig, dass es besondere Aufmerksamkeit verdient.</td><td>Bemerkenswert ist, dass viele neue Jobs außerhalb der Tech-Branche liegen.</td></tr>
+        <tr><td>sich weiterbilden</td><td>to further one's education, upskill</td><td>Neues Wissen oder neue Fähigkeiten dazulernen.</td><td>Viele Beschäftigte wollen sich im Umgang mit KI weiterbilden.</td></tr>
+        <tr><td>überflüssig</td><td>superfluous, redundant</td><td>Nicht mehr nötig oder gebraucht.</td><td>Manche fürchten, dass ihr Job durch KI überflüssig wird.</td></tr>
+        <tr><td>die Verschiebung</td><td>shift, displacement</td><td>Eine Veränderung, bei der sich etwas von einem Bereich in einen anderen bewegt.</td><td>Es geht um eine Verschiebung hin zu neuen Aufgaben, nicht um reinen Jobabbau.</td></tr>
+        <tr><td>befürchten <span class="rep">(Wiederholung)</span></td><td>to fear, worry (that)</td><td>Denken, dass etwas Negatives passieren könnte.</td><td>Manche Beschäftigte befürchten, ihren Job zu verlieren.</td></tr>
+        <tr><td>sich einig sein <span class="rep">(Wiederholung)</span></td><td>to agree, be in agreement</td><td>Die gleiche Meinung wie andere haben.</td><td>Experten sind sich einig, dass es keinen einfachen Jobabbau gibt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„sorgt für gemischte Gefühle"</b> — praktisch, um zu beschreiben, dass eine Entwicklung sowohl positive als auch negative Reaktionen auslöst.</li>
+        <li><b>„es geht nicht um X, sondern um Y"</b> — starkes Muster, um eine Aussage zu präzisieren oder ein Missverständnis zu korrigieren.</li>
+        <li><b>„weg von X, hin zu Y"</b> — nützlich, um eine Entwicklung oder einen Trend in eine Richtung zu beschreiben.</li>
+        <li><b>„Chancen sehen, statt überrollt zu werden"</b> — bildhafter Ausdruck für eine aktive, positive Haltung gegenüber Veränderung.</li>
+        <li><b>„laut einer aktuellen Auswertung/Umfrage"</b> — Standardformel, um Daten oder Statistiken als Quelle einzuführen, sehr häufig in Nachrichtentexten.</li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Erweiterter Infinitiv mit „zu":</b> „... an, europaweit zwischen 1.500 und 1.800 Arbeitsplätze <b>zu streichen</b>." Nach bestimmten Verben (hier: <i>ankündigen</i>) folgt oft ein Infinitivsatz mit „zu" am Ende. Wichtig: Bei trennbaren Verben (z. B. <i>dazulernen</i>) steht das „zu" zwischen Vorsilbe und Verb: „bereit, dazu<b>zu</b>lernen".</p></div>
+      <div class="grammar-block"><p><b>Statt/anstatt-Konstruktion:</b> „... hat gute Chancen, von der Entwicklung zu profitieren, <b>statt</b> von ihr überrollt zu werden." Zwei parallele Infinitivkonstruktionen werden mit „statt" verglichen, um zwei mögliche Ergebnisse gegenüberzustellen — ein elegantes Muster, um Vor- und Nachteile in einem Satz zu verbinden.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum baut Allianz Partners Stellen ab, und wie viele Arbeitsplätze sind in Deutschland betroffen?</li>
+          <li>Was zeigt die Auswertung von Indeed über neue KI-Berufsbilder?</li>
+          <li>Warum ist der deutsche Arbeitsmarkt laut Text trotz des KI-Umbaus noch relativ robust?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit dem Wort "sich weiterbilden".</li>
+          <li>Bilde einen Satz mit "es geht nicht um X, sondern um Y".</li>
+          <li>Verwende "betroffen sein von" in einem Satz über deine eigene Branche.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, ein Kollege fragt dich: Verändert KI deinen Job schon heute? Erzähle: Was macht dir dabei Sorgen, und wo siehst du eher eine Chance, dazuzulernen?</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

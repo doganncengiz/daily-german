@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 12. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 12. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Homeoffice oder Büro? Die deutsche Arbeitswelt sucht einen Kompromiss</h2>
+    <div class="card">
+      <p>Auch 2026 ist die Frage „Homeoffice oder Büro?" eines der meistdiskutierten Themen in deutschen Unternehmen. Laut aktuellen Zahlen arbeitet etwa jeder Vierte zumindest teilweise von zuhause – ein Wert, der seit einigen Jahren stabil bleibt. Gleichzeitig zeigt sich ein Gegentrend: Immer mehr Firmen verlangen wieder mehr Büropräsenz. Während 2023 nur gut ein Viertel der Unternehmen drei oder mehr Tage im Büro forderte, ist es inzwischen deutlich mehr als jedes dritte.</p>
+      <p>Für viele Beschäftigte ist das eine unangenehme Entwicklung. Umfragen zeigen, dass sich die meisten Arbeitnehmer mehr Flexibilität wünschen – ganz oben auf der Wunschliste steht dabei die Vier-Tage-Woche. Auf der einen Seite versprechen sich Beschäftigte davon eine bessere Vereinbarkeit von Beruf und Privatleben. Auf der anderen Seite äußern sich viele Führungskräfte skeptisch: Sie befürchten, dass weniger Arbeitstage die Produktivität senken könnten, gerade in einer Wirtschaft, die ohnehin mit schwacher Produktion und hohen Kosten zu kämpfen hat.</p>
+      <p>Ein Vergleich zwischen Konzernen zeigt: Je größer das Unternehmen, desto strenger meist die Regeln zur Büropräsenz. Manche Top-Konzerne verlangen inzwischen wieder vier oder sogar fünf Tage vor Ort – obwohl viele Mitarbeiter genau das Gegenteil erwarten. Experten sind sich einig, dass es in den kommenden Jahren keine einheitliche Lösung geben wird, sondern eher individuelle Modelle je nach Branche und Unternehmenskultur.</p>
+      <p>Trotz der Unsicherheit gibt es auch Positives: Viele Personalabteilungen testen mittlerweile hybride Modelle, bei denen Mitarbeiter selbst entscheiden können, an welchen Tagen sie ins Büro kommen. Kein Wunder, dass genau diese Flexibilität für viele Beschäftigte inzwischen wichtiger ist als ein hohes Gehalt allein.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Büropräsenz</td><td>office presence/attendance</td><td>Wie oft man tatsächlich im Büro und nicht im Homeoffice arbeitet.</td><td>Viele Firmen verlangen wieder mehr Büropräsenz.</td></tr>
+        <tr><td>verlangen</td><td>to demand, require</td><td>Deutlich sagen, dass man etwas von jemandem erwartet.</td><td>Der Chef verlangt, dass alle pünktlich zum Meeting kommen.</td></tr>
+        <tr><td>die Vereinbarkeit (von X und Y)</td><td>compatibility, balance (of X and Y)</td><td>Wenn zwei Bereiche des Lebens gut zusammenpassen, z. B. Beruf und Familie.</td><td>Flexible Arbeitszeiten verbessern die Vereinbarkeit von Beruf und Familie.</td></tr>
+        <tr><td>die Führungskraft</td><td>manager, executive</td><td>Eine Person, die in einer Firma eine leitende Position hat.</td><td>Die Führungskräfte trafen sich, um die neue Strategie zu besprechen.</td></tr>
+        <tr><td>sich äußern (zu)</td><td>to comment (on), express an opinion</td><td>Öffentlich seine Meinung zu einem Thema sagen.</td><td>Die Ministerin äußerte sich heute zu den neuen Plänen.</td></tr>
+        <tr><td>befürchten</td><td>to fear, worry (that)</td><td>Denken, dass etwas Negatives passieren könnte.</td><td>Viele Manager befürchten, dass die Kosten weiter steigen.</td></tr>
+        <tr><td>hybrid</td><td>hybrid</td><td>Eine Mischung aus zwei verschiedenen Formen, z. B. Büro und Homeoffice.</td><td>Unser Team arbeitet nach einem hybriden Modell.</td></tr>
+        <tr><td>die Wunschliste</td><td>wish list</td><td>Eine Liste von Dingen, die man sich wünscht.</td><td>Mehr Urlaub steht ganz oben auf ihrer Wunschliste.</td></tr>
+        <tr><td>skeptisch <span class="rep">(Wiederholung)</span></td><td>skeptical</td><td>Man glaubt nicht sofort, dass etwas gut oder richtig ist.</td><td>Viele Führungskräfte sind gegenüber der Vier-Tage-Woche skeptisch.</td></tr>
+        <tr><td>sich einig sein <span class="rep">(Wiederholung)</span></td><td>to agree, be in agreement</td><td>Die gleiche Meinung wie andere haben.</td><td>Experten sind sich einig: Es wird keine einheitliche Lösung geben.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Auf der einen Seite... auf der anderen Seite..."</b> — perfekt, um zwei gegensätzliche Argumente oder Perspektiven gegenüberzustellen, z. B. in Diskussionen im Job.</li>
+        <li><b>„Kein Wunder, dass..."</b> — nützlich, um eine logische Schlussfolgerung locker einzuleiten (nicht zu formell).</li>
+        <li><b>„Je + Komparativ..., desto + Komparativ..."</b> — sehr gebräuchliche Struktur, um zwei Entwicklungen miteinander zu verbinden.</li>
+        <li><b>„... steht ganz oben auf der Wunschliste."</b> — praktisch, um die höchste Priorität bei Wünschen oder Zielen zu beschreiben.</li>
+        <li><b>„je nach + Dativ"</b> — z. B. „je nach Branche" oder „je nach Situation"; drückt aus, dass etwas variiert, abhängig von einem Faktor.</li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Je... desto...:</b> „<b>Je</b> größer das Unternehmen, <b>desto</b> strenger meist die Regeln." Diese Struktur verbindet zwei Komparative, um zu zeigen, dass eine Veränderung eine andere direkt beeinflusst. Merke: je + Komparativ (Nebensatz, Verb am Ende), desto + Komparativ (Hauptsatz, Verb direkt danach).</p></div>
+      <div class="grammar-block"><p><b>Konzessivsätze mit "obwohl":</b> „Manche Konzerne verlangen fünf Tage vor Ort, <b>obwohl</b> viele Mitarbeiter das Gegenteil erwarten." „Obwohl" leitet einen Nebensatz ein, der einen Gegensatz oder eine unerwartete Kombination ausdrückt — sehr nützlich, um im Beruf differenziert zu argumentieren, statt nur "aber" zu benutzen.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie hat sich die Forderung nach Büropräsenz seit 2023 verändert?</li>
+          <li>Was wünschen sich viele Arbeitnehmer laut Umfragen ganz besonders?</li>
+          <li>Warum sind manche Führungskräfte gegenüber der Vier-Tage-Woche skeptisch?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit dem Wort "die Vereinbarkeit".</li>
+          <li>Bilde einen Satz nach dem Muster "Je..., desto...".</li>
+          <li>Verwende "sich äußern zu" in einem Satz über ein Thema, das dich in deinem Job beschäftigt.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, ein Kollege fragt dich nach deiner Meinung zum Thema Homeoffice und Büropräsenz. Erzähle: Was ist dir wichtiger – Flexibilität oder feste Bürotage? Wie sieht für dich das ideale Arbeitsmodell aus?</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

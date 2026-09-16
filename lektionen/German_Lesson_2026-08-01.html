@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 1. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 1. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Deutsche Wirtschaft blickt optimistischer nach vorn</h2>
+    <div class="card">
+      <p>Die Stimmung in den deutschen Unternehmen hat sich im Juli spürbar verbessert. Der ifo Geschäftsklimaindex, einer der wichtigsten Frühindikatoren für die deutsche Wirtschaft, stieg auf 86,6 Punkte — nach 85,7 Punkten im Juni. Grundlage der monatlichen Umfrage sind die Einschätzungen von rund 9.000 Unternehmen aus Industrie, Dienstleistungssektor, Handel und Bauhauptgewerbe.</p>
+      <p>Verantwortlich für den Anstieg sind vor allem deutlich bessere Erwartungen an die kommenden Monate. Mit der aktuellen Geschäftslage waren die befragten Unternehmen dagegen etwas weniger zufrieden als zuvor. Trotz der unsicheren Lage am Persischen Golf zeigt sich die deutsche Wirtschaft insgesamt weniger pessimistisch als in den Monaten davor.</p>
+      <p>Besonders im Verarbeitenden Gewerbe, also der klassischen Industrie, ist der Index spürbar gestiegen. Die Erwartungen der Industrieunternehmen erlebten einen deutlichen Schub, die Nachfrage belebte sich, und der Materialmangel bei wichtigen Bauteilen ließ weiter nach. Auch im Dienstleistungssektor legte der Indikator zu: Die Unternehmen waren weniger skeptisch mit Blick auf die kommenden Monate, wenn auch die aktuelle Geschäftslage etwas schlechter beurteilt wurde. Bei Reiseveranstaltern hat sich die Stimmung ebenfalls verbessert.</p>
+      <p>Im Handel hellte sich das Geschäftsklima erneut auf. Sowohl bei den laufenden Geschäften als auch bei den Erwartungen zeigten sich die Unternehmen zufriedener, insbesondere im Einzelhandel. Im Bauhauptgewerbe stieg der Index ebenfalls: Sowohl die Urteile zur aktuellen Lage als auch die Erwartungen konnten zulegen, und weniger Betriebe klagten über fehlende Aufträge.</p>
+      <p>Clemens Fuest, Präsident des ifo Instituts, betonte, dass sich die Gesamtwirtschaft trotz internationaler Unsicherheiten aufhellt. Ob sich dieser positive Trend in den kommenden Monaten fortsetzt, bleibt abzuwarten — für viele Unternehmen ist der Index aber schon jetzt ein wichtiges Signal für vorsichtigen Optimismus.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Geschäftsklimaindex</td><td>business climate index</td><td>Eine Zahl, die zeigt, wie zufrieden und wie zuversichtlich Unternehmen gerade sind.</td><td>Der ifo Geschäftsklimaindex ist im Juli gestiegen.</td></tr>
+        <tr><td>die Erwartung</td><td>expectation</td><td>Das, was man für die nahe Zukunft für wahrscheinlich hält.</td><td>Die Erwartungen der Unternehmen haben sich deutlich verbessert.</td></tr>
+        <tr><td>sich aufhellen</td><td>to brighten, to improve</td><td>Besser, positiver oder freundlicher werden.</td><td>Im Handel hat sich das Geschäftsklima erneut aufgehellt.</td></tr>
+        <tr><td>der Materialmangel</td><td>shortage of materials</td><td>Wenn nicht genug Rohstoffe oder Bauteile für die Produktion vorhanden sind.</td><td>Der Materialmangel in der Industrie ließ zuletzt weiter nach.</td></tr>
+        <tr><td>sich beleben</td><td>to pick up, to revive</td><td>Wieder aktiver, stärker oder lebendiger werden.</td><td>Die Nachfrage nach Industrieprodukten belebte sich im Juli.</td></tr>
+        <tr><td>der Auftrag</td><td>order, contract</td><td>Ein Wunsch von Kunden, dass eine Firma etwas produziert oder liefert.</td><td>Im Bauhauptgewerbe klagten weniger Firmen über fehlende Aufträge.</td></tr>
+        <tr><td>skeptisch</td><td>skeptical</td><td>Zweifelnd, nicht ganz überzeugt von einer positiven Entwicklung.</td><td>Die Dienstleister waren weniger skeptisch mit Blick auf die kommenden Monate.</td></tr>
+        <tr><td>die Unsicherheit</td><td>uncertainty</td><td>Ein Zustand, in dem man nicht genau weiß, was als Nächstes passiert.</td><td>Trotz internationaler Unsicherheiten zeigt sich die Wirtschaft optimistischer.</td></tr>
+        <tr><td>sich belaufen auf <span class="rep">(Wiederholung)</span></td><td>to amount to</td><td>Einen bestimmten Betrag oder Wert erreichen.</td><td>Der Index beläuft sich nun auf 86,6 Punkte.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„… stieg auf … Punkte“</b> — Eine Veränderung bei Indizes oder Statistiken zahlenmäßig beschreiben.<br><i>Der Index stieg im Juli auf 86,6 Punkte.</i></li>
+        <li><b>„trotz + Genitiv“</b> — Einen Gegensatz zwischen Umständen und Ergebnis ausdrücken.<br><i>Trotz der unsicheren Lage am Persischen Golf zeigt sich die Wirtschaft optimistischer.</i></li>
+        <li><b>„weniger pessimistisch/skeptisch sein“</b> — Eine vorsichtige, abgeschwächte Verbesserung beschreiben.<br><i>Die Unternehmen sind weniger pessimistisch als im Vormonat.</i></li>
+        <li><b>„ist auf … zurückzuführen“</b> — Die Ursache für eine Entwicklung nennen.<br><i>Der Anstieg ist vor allem auf bessere Erwartungen zurückzuführen.</i></li>
+        <li><b>„sowohl … als auch …“</b> — Zwei Dinge gleichzeitig und gleichwertig nennen.<br><i>Sowohl die Urteile zur Lage als auch die Erwartungen konnten zulegen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Die Präposition „trotz" + Genitiv:</b> Sätze wie <i>„Trotz der unsicheren Lage am Persischen Golf zeigt sich die Wirtschaft optimistischer"</i> verbinden einen Gegensatz mit dem Genitiv. In Wirtschafts- und Nachrichtentexten ist das extrem häufig, weil man damit auf knappe Weise zwei gegensätzliche Fakten in einem Satz verbinden kann, ohne zwei Sätze zu brauchen.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Komparativ mit „weniger" + Adjektiv:</b> Statt eines eigenen Komparativs wie „pessimistischer" nutzt man oft <i>„weniger pessimistisch"</i> oder <i>„weniger skeptisch"</i>. Diese Konstruktion beschreibt vorsichtige, abgestufte Veränderungen — typisch für Wirtschaftsberichte, in denen sich die Stimmung selten radikal, sondern meist nur schrittweise ändert.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Auf wie viele Punkte ist der ifo Geschäftsklimaindex im Juli gestiegen?</li>
+          <li>Welcher Wirtschaftsbereich zeigte laut Text die deutlichste Verbesserung bei den Erwartungen?</li>
+          <li>Warum bleibt die Stimmung trotz der Verbesserung nicht uneingeschränkt positiv?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „trotz" + Genitiv.</li>
+          <li>Schreibe einen Satz mit <i>sich aufhellen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „sowohl … als auch …".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Wie aussagekräftig sind Stimmungsindikatoren wie der ifo Geschäftsklimaindex wirklich für die tatsächliche Wirtschaftsentwicklung? Kennst du ähnliche Indikatoren aus deinem Heimatland?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: ifo Institut, Pressemitteilung „ifo Geschäftsklimaindex gestiegen (Juli 2026)" vom 27. Juli 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

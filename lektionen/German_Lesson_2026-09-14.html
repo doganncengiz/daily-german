@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 14. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 14. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Vier von zehn Firmen nutzen KI — und ein Drittel zahlt drauf</h2>
+    <div class="card">
+      <p>Vor zwei Jahren war Künstliche Intelligenz in vielen deutschen Büros noch vor allem ein Thema für Konferenzen und Strategiepapiere. Inzwischen ist sie im Arbeitsalltag angekommen. Laut einer aktuellen Bitkom-Studie setzen 41 Prozent der Unternehmen ab 20 Beschäftigten KI produktiv ein — vor einem Jahr waren es erst 17 Prozent. Eine solche Verdopplung innerhalb von zwölf Monaten hat der Verband seit Beginn seiner Erhebungen nicht gemessen.</p>
+      <p>Besonders schnell sind die großen Häuser: Bei Unternehmen mit mehr als 500 Beschäftigten liegt der Anteil bei über 60 Prozent. Der Mittelstand zieht nach, ist aber noch nicht auf Augenhöhe. Und für viele scheint sich der Einsatz zu lohnen — 77 Prozent der Nutzer geben an, ihre Wettbewerbsposition habe sich dadurch verbessert.</p>
+      <p>Die Studie zeigt allerdings auch die andere Seite der Medaille. Rund ein Drittel der Unternehmen sagt, die Umsetzung sei teurer geworden als ursprünglich geplant: Lizenzen, Schulungen, Datenschutz, saubere Daten — die Rechnung geht nicht immer auf. Noch heikler ist ein zweiter Befund: Fast jedes fünfte Unternehmen hat wegen KI bereits Stellen abgebaut.</p>
+      <p>Entsprechend gemischt ist die Stimmung in den Teams. Wer KI täglich nutzt, berichtet meistens von einer spürbaren Entlastung bei Routineaufgaben — Protokolle zusammenfassen, Übersetzungen, erste Entwürfe für Präsentationen. Gleichzeitig wächst die Unsicherheit darüber, wie viel von der eigenen Arbeit langfristig übrig bleibt. Betriebsräte pochen deshalb auf klare Regeln: Wofür darf das Werkzeug eingesetzt werden, wer prüft die Ergebnisse, und was passiert mit den Daten?</p>
+      <p>Ein Fazit lässt sich schon jetzt ziehen: Es kommt weniger auf das Werkzeug an als darauf, wie sorgfältig man es in die eigenen Abläufe einbaut. Wer das überspringt, spart am Ende nicht — er verschiebt die Arbeit nur.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>etwas einsetzen</td><td>to deploy, to put to use</td><td>Ein Mittel oder Werkzeug für eine Aufgabe verwenden.</td><td>Wir setzen KI vor allem für Protokolle ein.</td></tr>
+        <tr><td>der Anteil</td><td>share, proportion</td><td>Der Teil einer Gesamtmenge, oft in Prozent.</td><td>Der Anteil der Nutzer liegt bei über 60 Prozent.</td></tr>
+        <tr><td>nachziehen</td><td>to follow suit, to catch up</td><td>Später dasselbe tun wie jemand anderes.</td><td>Der Mittelstand zieht langsam nach.</td></tr>
+        <tr><td>auf Augenhöhe sein</td><td>to be on an equal footing</td><td>Gleich stark oder gleich weit sein.</td><td>Kleine Firmen sind hier noch nicht auf Augenhöhe.</td></tr>
+        <tr><td>draufzahlen</td><td>to end up out of pocket</td><td>Am Ende mehr bezahlen, als man eingeplant hatte.</td><td>Ein Drittel der Firmen zahlt bei KI-Projekten drauf.</td></tr>
+        <tr><td>die Entlastung</td><td>relief, easing of workload</td><td>Wenn die Arbeit leichter oder weniger wird.</td><td>Das Tool bringt eine echte Entlastung im Alltag.</td></tr>
+        <tr><td>der Entwurf</td><td>draft, first version</td><td>Eine erste Fassung, die noch überarbeitet wird.</td><td>Ich schicke dir heute noch einen ersten Entwurf.</td></tr>
+        <tr><td>auf etwas pochen</td><td>to insist on something</td><td>Etwas nachdrücklich und deutlich verlangen.</td><td>Der Betriebsrat pocht auf klare Regeln.</td></tr>
+        <tr><td>sich lohnen <span class="rep">(Wiederholung)</span></td><td>to be worth it, to pay off</td><td>Einen Nutzen bringen, der größer ist als der Aufwand.</td><td>Für viele Unternehmen lohnt sich der Einsatz.</td></tr>
+        <tr><td>die Umsetzung <span class="rep">(Wiederholung)</span></td><td>implementation</td><td>Der Schritt vom Plan zur praktischen Ausführung.</td><td>Die Umsetzung war teurer als geplant.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Inzwischen ist … im Alltag angekommen.“</b> — Sagen, dass etwas Neues inzwischen normal geworden ist.<br><i>Inzwischen ist KI im Arbeitsalltag angekommen.</i></li>
+        <li><b>„Die Rechnung geht nicht immer auf.“</b> — Der Plan funktioniert am Ende nicht so wie gedacht.<br><i>Man spart Zeit, zahlt aber mehr — die Rechnung geht nicht immer auf.</i></li>
+        <li><b>„die andere Seite der Medaille“</b> — Der weniger schöne Teil einer an sich guten Sache.<br><i>Die Studie zeigt auch die andere Seite der Medaille.</i></li>
+        <li><b>„Es kommt weniger auf X an als darauf, wie …“</b> — Den entscheidenden Punkt verschieben und präzisieren.<br><i>Es kommt weniger auf das Tool an als darauf, wie man es einsetzt.</i></li>
+        <li><b>„Ein Fazit lässt sich schon jetzt ziehen: …“</b> — Eine erste Schlussfolgerung formulieren.<br><i>Ein Fazit lässt sich schon jetzt ziehen: Ohne Schulung funktioniert es nicht.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv I — fremde Aussagen weitergeben:</b> In <i>„77 Prozent geben an, ihre Wettbewerbsposition <u>habe</u> sich verbessert“</i> und <i>„Ein Drittel sagt, die Umsetzung <u>sei</u> teurer geworden“</i> steht nicht <i>hat</i> oder <i>ist</i>, sondern <i>habe</i> und <i>sei</i>. Das signalisiert: Ich gebe wieder, was andere sagen — ohne selbst dafür zu garantieren. Genau das brauchen Sie auch im Büro, wenn Sie über Dritte berichten: <i>„Der Kunde sagt, das Problem sei gelöst.“</i> Am häufigsten sind <i>sei</i>, <i>habe</i>, <i>werde</i> und <i>könne</i> — mehr müssen Sie aktiv gar nicht können.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„erst“ statt „nur“ bei Zahlen:</b> <i>„Vor einem Jahr waren es <u>erst</u> 17 Prozent.“</i> — <i>nur</i> würde bedeuten: Das ist wenig, Punkt. <i>Erst</i> sagt zusätzlich: zu diesem Zeitpunkt, und danach kam mehr. Es enthält also eine Entwicklung. Vergleichen Sie: <i>„Wir haben erst drei Rückmeldungen“</i> (es kommen noch welche) gegenüber <i>„Wir haben nur drei Rückmeldungen“</i> (das war's, leider).</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie hat sich der Anteil der Unternehmen, die KI produktiv einsetzen, innerhalb eines Jahres verändert?</li>
+          <li>Welche zwei Probleme nennt der Text als „andere Seite der Medaille“?</li>
+          <li>Worauf pochen die Betriebsräte, und warum?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Geben Sie eine Aussage Ihres Kollegen im Konjunktiv I wieder: „Er sagt, …“</li>
+          <li>Schreiben Sie einen Satz über Ihre Arbeit mit <i>sich lohnen</i>.</li>
+          <li>Schreiben Sie zwei Sätze, die den Unterschied zwischen <i>erst</i> und <i>nur</i> zeigen.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Wofür setzen Sie KI in Ihrem Arbeitsalltag ein — und wo würden Sie sie bewusst <i>nicht</i> einsetzen? Beschreiben Sie eine konkrete Aufgabe, bei der sie Ihnen wirklich Entlastung bringt, und eine, bei der die Kontrolle am Ende mehr Zeit kostet als die Arbeit selbst.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Bitkom-Studie „Künstliche Intelligenz in Deutschland“ 2026 (telefonische Befragung von 604 Unternehmen ab 20 Beschäftigten) sowie darauf bezogene Berichterstattung, abgerufen am 14. September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

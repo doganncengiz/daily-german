@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 18. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 18. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Supercup als Startschuss: Bayern gegen Dortmund</h2>
+    <div class="card">
+      <p>Am Samstag, den 22. August, beginnt die deutsche Fußballsaison offiziell mit einem echten Klassiker: Im Supercup trifft der deutsche Meister FC Bayern München auf den Vizemeister Borussia Dortmund. Das Spiel findet diesmal nicht in München statt, sondern im Signal Iduna Park in Dortmund — vor der eigenen Kulisse der Dortmunder Fans, die sich nichts sehnlicher wünschen als einen Sieg gegen den Rekordmeister.</p>
+      <p>Der Supercup gilt traditionell als Startschuss in die neue Saison und wird zu Ehren von Franz Beckenbauer benannt, einer der größten Legenden des deutschen Fußballs. Für Bayern ist der Pokal nach der Meisterschaft der Vorsaison eine willkommene Gelegenheit, gleich zu Beginn ein Zeichen zu setzen. Dortmund dagegen will beweisen, dass der zweite Platz kein Zufall war, sondern der Auftakt zu einer echten Herausforderung um die Meisterschaft.</p>
+      <p>Besonders spannend: Wegen der Fußball-Weltmeisterschaft im Sommer beginnt die eigentliche Bundesliga-Saison in diesem Jahr etwas später als sonst — erst am 28. August eröffnen die Bayern zu Hause gegen den VfB Stuttgart die neue Spielzeit. Der Supercup dient deshalb vielen Mannschaften als letzter echter Test vor dem Ligastart, bei dem sich zeigt, wie weit die Vorbereitung schon fortgeschritten ist.</p>
+      <p>Fans freuen sich schon lange auf dieses Duell. Kein Wunder: Die Rivalität zwischen Bayern und Dortmund gehört zu den intensivsten im deutschen Fußball, und ein Sieg im Supercup wirkt sich zwar nicht direkt auf die Tabelle aus, sorgt aber für viel Selbstvertrauen — oder für Diskussionsstoff bis zum ersten Spieltag.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Vizemeister</td><td>runner-up</td><td>Der Verein, der Zweiter geworden ist, nicht Meister.</td><td>Dortmund ist Vizemeister der letzten Saison.</td></tr>
+        <tr><td>die Kulisse</td><td>backdrop, crowd atmosphere</td><td>Die Umgebung oder Zuschauer, die eine besondere Stimmung schaffen.</td><td>Das Spiel findet vor der eigenen Kulisse der Dortmunder Fans statt.</td></tr>
+        <tr><td>der Rekordmeister</td><td>record champion</td><td>Der Verein mit den meisten Meistertiteln.</td><td>Bayern gilt in Deutschland als Rekordmeister.</td></tr>
+        <tr><td>der Startschuss</td><td>starting signal, kickoff</td><td>Das offizielle Zeichen, dass etwas beginnt.</td><td>Der Supercup gilt als Startschuss in die neue Saison.</td></tr>
+        <tr><td>die Herausforderung</td><td>challenge</td><td>Eine schwierige Aufgabe, die man meistern möchte.</td><td>Dortmund will eine echte Herausforderung um die Meisterschaft sein.</td></tr>
+        <tr><td>die Vorbereitung</td><td>preparation</td><td>Alles, was man vor einem wichtigen Ereignis tut.</td><td>Der Supercup zeigt, wie weit die Vorbereitung fortgeschritten ist.</td></tr>
+        <tr><td>die Rivalität</td><td>rivalry</td><td>Eine starke, oft langjährige Konkurrenz zwischen zwei Seiten.</td><td>Die Rivalität zwischen Bayern und Dortmund ist sehr intensiv.</td></tr>
+        <tr><td>sich auswirken auf</td><td>to affect, to impact</td><td>Eine Wirkung oder Folge auf etwas anderes haben.</td><td>Der Sieg wirkt sich nicht direkt auf die Tabelle aus.</td></tr>
+        <tr><td>der Auftakt</td><td>opening, start</td><td>Der Beginn von etwas, oft mit besonderer Bedeutung.</td><td>Der zweite Platz war der Auftakt zu einer echten Herausforderung.</td></tr>
+        <tr><td>ein Zeichen setzen <span class="rep">(Wiederholung)</span></td><td>to send a signal, make a statement</td><td>Öffentlich deutlich zeigen, wofür man steht.</td><td>Bayern will gleich zu Saisonbeginn ein Zeichen setzen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„… gilt als …“</b> — Eine allgemeine Einschätzung ausdrücken.<br><i>Der Supercup gilt traditionell als Startschuss in die neue Saison.</i></li>
+        <li><b>„sich nichts sehnlicher wünschen als …“</b> — Einen sehr starken Wunsch ausdrücken.<br><i>Die Fans wünschen sich nichts sehnlicher als einen Sieg.</i></li>
+        <li><b>„beweisen, dass …“</b> — Zeigen, dass etwas tatsächlich wahr ist.<br><i>Dortmund will beweisen, dass der zweite Platz kein Zufall war.</i></li>
+        <li><b>„sich auswirken auf + Akkusativ“</b> — Eine Ursache-Wirkungs-Beziehung beschreiben.<br><i>Der Sieg wirkt sich nicht direkt auf die Tabelle aus.</i></li>
+        <li><b>„für … sorgen“</b> — Beschreiben, dass etwas eine bestimmte Folge auslöst.<br><i>Ein Sieg im Supercup sorgt für viel Selbstvertrauen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Reflexive Verben mit festen Präpositionen:</b> Ausdrücke wie <i>„sich auswirken auf die Tabelle“</i> oder <i>„sich freuen auf dieses Duell“</i> verbinden ein reflexives Verb fest mit einer bestimmten Präposition. Diese Kombinationen muss man als feste Einheit lernen, weil die Präposition nicht frei wählbar ist — man sagt „sich freuen auf“, nicht „sich freuen für“.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Superlativ in festen Wendungen:</b> Sätze wie <i>„einer der größten Legenden“</i> oder <i>„zu den intensivsten im deutschen Fußball“</i> zeigen zwei typische Muster: „einer/eine/eines der + Superlativ + Plural“ und „zu den + Superlativ + Plural gehören“. Beide Formen klingen im Deutschen natürlicher als ein einfacher Superlativ und werden oft in Berichten und Reportagen verwendet.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wo findet der Supercup 2026 statt, und warum ist das für die Dortmunder Fans besonders?</li>
+          <li>Warum beginnt die Bundesliga-Saison 2026/27 später als sonst üblich?</li>
+          <li>Welche Wirkung hat ein Sieg im Supercup auf die Tabelle der neuen Saison?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich auswirken auf</i>.</li>
+          <li>Schreibe einen Satz mit <i>der Rekordmeister</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „… gilt als …“.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Auf welches Spiel oder Turnier freust du dich in diesem Jahr besonders — im Fußball oder in einer anderen Sportart? Erzähle, warum dieses Ereignis für dich wichtig ist und was du dir davon erhoffst.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Ankündigungen zum Franz-Beckenbauer-Supercup 2026 und zum Bundesliga-Rahmenterminkalender 2026/27 (u. a. bundesliga.com, DFL Deutsche Fußball Liga).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

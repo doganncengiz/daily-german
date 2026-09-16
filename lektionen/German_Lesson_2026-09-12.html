@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 12. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 12. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Halb volle Gasspeicher: Wie kalt darf der Winter werden?</h2>
+    <div class="card">
+      <p>Noch ist es draußen mild, doch in Berlin wird schon über den Winter diskutiert. Der Grund: Deutschlands Gasspeicher sind erst zu gut 54 Prozent gefüllt. Der Interessenverband Initiative Energien Speichern (Ines) spricht von einem „historisch niedrigen Füllstand“ — so wenig Gas habe man Anfang September noch nie in den Speichern gehabt, seit vor 15 Jahren mit den Aufzeichnungen begonnen wurde. Zum Vergleich: Im September 2025 waren es 71 Prozent.</p>
+      <p>Was das bedeutet, hängt vor allem vom Wetter ab. Wird der Winter mild oder normal, reicht das gespeicherte Gas den Berechnungen zufolge locker aus. Wird er dagegen so kalt wie 2010, könnten die Speicher schon Anfang Februar leer sein. Genau davor warnt der Verband — und fordert, dass jetzt gehandelt wird, nicht erst im Dezember.</p>
+      <p>Die Bundesregierung sieht die Lage deutlich entspannter. Ein Gasmangel drohe nicht, heißt es aus dem Wirtschaftsministerium, denn anders als in der Energiekrise 2022 verfügt Deutschland inzwischen über eigene LNG-Terminals und kann Flüssiggas vom Weltmarkt nachkaufen. Wirtschaftsministerin Katherina Reiche lehnt ein staatliches Eingreifen deshalb ab. Auch die Bundesnetzagentur bleibt gelassen und verweist auf die Gashändler: Sie hätten Lieferverpflichtungen und müssten sich selbst ausreichend absichern.</p>
+      <p>Dass die Speicher so leer sind, hat einen einfachen wirtschaftlichen Grund. Normalerweise kaufen Händler im Sommer billig ein und verkaufen im Winter teuer — doch wegen der hohen Weltmarktpreise funktioniert dieses Geschäftsmodell derzeit nicht mehr. Manche Beobachter vermuten sogar Kalkül: Wenn die gesetzliche Marke von 80 Prozent zum 1. November verfehlt wird, darf der Staat die Befüllung beauftragen — und würde dann wohl zu fast jedem Preis einkaufen. Für Verbraucherinnen und Verbraucher heißt das vor allem eins: Die Gaspreise dürften in dieser Heizsaison eher steigen als fallen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Füllstand</td><td>fill level</td><td>Wie voll ein Behälter oder ein Speicher gerade ist.</td><td>Der Füllstand der Gasspeicher liegt bei 54 Prozent.</td></tr>
+        <tr><td>ausreichen</td><td>to be enough, suffice</td><td>Genug sein für einen bestimmten Zweck.</td><td>Bei mildem Wetter reicht das Gas locker aus.</td></tr>
+        <tr><td>gelassen bleiben</td><td>to stay calm / relaxed</td><td>Ruhig bleiben und sich keine Sorgen machen.</td><td>Die Behörde bleibt gelassen und sieht keine Gefahr.</td></tr>
+        <tr><td>etwas ablehnen</td><td>to reject, refuse</td><td>Nein zu einem Vorschlag oder einer Forderung sagen.</td><td>Die Ministerin lehnt ein staatliches Eingreifen ab.</td></tr>
+        <tr><td>sich absichern</td><td>to protect oneself, hedge</td><td>Im Voraus etwas tun, damit später kein Problem entsteht.</td><td>Die Händler müssen sich selbst ausreichend absichern.</td></tr>
+        <tr><td>über etwas verfügen</td><td>to have something at one's disposal</td><td>Etwas besitzen und nutzen können.</td><td>Deutschland verfügt inzwischen über eigene LNG-Terminals.</td></tr>
+        <tr><td>eine Marke verfehlen</td><td>to miss a target</td><td>Ein festgelegtes Ziel nicht erreichen.</td><td>Wenn die 80-Prozent-Marke verfehlt wird, greift der Staat ein.</td></tr>
+        <tr><td>das Kalkül</td><td>calculation, hidden strategy</td><td>Eine bewusste Überlegung, mit der man einen Vorteil plant.</td><td>Manche vermuten hinter dem Verhalten der Händler ein Kalkül.</td></tr>
+        <tr><td>mit etwas rechnen <span class="rep">(Wiederholung)</span></td><td>to expect something</td><td>Erwarten, dass etwas passieren wird.</td><td>Verbraucher müssen mit höheren Gaspreisen rechnen.</td></tr>
+        <tr><td>sich auswirken auf <span class="rep">(Wiederholung)</span></td><td>to have an effect on</td><td>Einen Einfluss auf etwas haben.</td><td>Der kalte Winter würde sich direkt auf die Preise auswirken.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Das hängt vor allem von … ab.“</b> — Sagen, wovon eine Sache wirklich abhängt. Sehr häufig in Diskussionen und Meetings.<br><i>Ob das Gas reicht, hängt vor allem vom Wetter ab.</i></li>
+        <li><b>„… den Berechnungen zufolge …“</b> — Eine Information neutral auf eine Quelle zurückführen (+ Dativ).<br><i>Den Berechnungen zufolge reicht das Gas bis Februar.</i></li>
+        <li><b>„anders als …“</b> — Einen klaren Unterschied zu früher oder zu jemand anderem markieren.<br><i>Anders als 2022 hat Deutschland heute eigene LNG-Terminals.</i></li>
+        <li><b>„Die Lage entspannt sehen“ / „etwas gelassen sehen“</b> — Signalisieren, dass man ein Risiko für beherrschbar hält.<br><i>Die Regierung sieht die Lage deutlich entspannter.</i></li>
+        <li><b>„Das heißt vor allem eins: …“</b> — Eine längere Erklärung in einem Satz auf den Punkt bringen.<br><i>Für Verbraucher heißt das vor allem eins: Die Preise steigen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv I in der indirekten Rede:</b> Im Text steht <i>„Ein Gasmangel drohe nicht, heißt es aus dem Wirtschaftsministerium“</i> und <i>„Sie hätten Lieferverpflichtungen“</i>. Journalisten benutzen diese Formen (<i>drohe, habe, sei, müsse</i>), um zu zeigen: <b>Das sagt jemand anderes — nicht ich.</b> Man muss den Konjunktiv I im Alltag nicht aktiv produzieren, aber beim Zeitunglesen und in offiziellen E-Mails hilft es enorm, ihn zu erkennen.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Konditionale Sätze ohne „wenn“:</b> Statt <i>„Wenn der Winter mild wird, reicht das Gas“</i> steht im Text <i>„Wird der Winter mild, reicht das Gas“</i>. Das Verb rutscht einfach an Position 1 — das klingt kompakter und etwas eleganter. Nützlich in Präsentationen und Berichten: <i>„Kommt der Kunde früher, verschieben wir das Meeting.“</i></p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum ist der aktuelle Füllstand der Gasspeicher ungewöhnlich?</li>
+          <li>Mit welchem Argument lehnt die Bundesregierung ein staatliches Eingreifen ab?</li>
+          <li>Warum lohnt sich das alte Geschäftsmodell der Gashändler im Moment nicht mehr?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>über etwas verfügen</i>.</li>
+          <li>Schreibe einen Satz mit <i>Das hängt vor allem von … ab</i>.</li>
+          <li>Formuliere diesen Satz ohne „wenn“: <i>Wenn die Preise weiter steigen, sparen die Leute beim Heizen.</i></li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Sollte der Staat bei der Energieversorgung eingreifen und Speicher notfalls selbst füllen — oder soll man das dem Markt überlassen? Nenne ein Argument dafür und ein Argument dagegen, und sag am Ende, was du selbst überzeugender findest.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: ZDFheute, „Leere Gasspeicher im Februar? Verband warnt“ (08.09.2026) sowie Meldungen von dpa/AFP und der Bundesnetzagentur, September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

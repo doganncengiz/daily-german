@@ -1,0 +1,31 @@
+{
+"mc":[
+ {"q":"Warum kann man trotz der 55 Prozent nicht sagen, Bargeld sei unwichtig geworden?",
+  "o":["Weil die Studie nur die 101 größten Städte untersucht hat.",
+       "Weil Bargeld als einzelnes Zahlungsmittel mit 45 Prozent weiter vorn liegt — die Girocard kommt nur auf 26 Prozent.",
+       "Weil die 55 Prozent ausschließlich für Restaurants und Cafés gelten."],
+  "c":1,
+  "why":"Die 55 Prozent sind die <i>Summe</i> aller bargeldlosen Wege — Karte, Smartphone, Uhr. Einzeln betrachtet ist Bargeld immer noch die Nummer eins."},
+ {"q":"In welchen Situationen ist es laut Text schwieriger, bar zu bezahlen?",
+  "o":["Im Einzelhandel und in der Gastronomie.",
+       "An Selbstbedienungskassen und im Nahverkehr.",
+       "Bei Dienstleistern und beim Imbiss um die Ecke."],
+  "c":1,
+  "why":"Bei Testkäufen nahmen 99,4 Prozent der Geschäfte Bargeld an — Handel, Gastronomie und Dienstleister sind also unproblematisch. Beim Imbiss ist es sogar oft <i>nur</i> Bargeld."},
+ {"q":"Was wollen 80 Prozent der Befragten — und warum ist das ein Unterschied zu ihrem Verhalten?",
+  "o":["Sie wollen selbst möglichst oft bar bezahlen.",
+       "Sie wollen die Möglichkeit behalten, bar zu zahlen — unabhängig davon, wie sie persönlich zahlen.",
+       "Sie wollen eine gesetzliche Obergrenze für Barzahlungen."],
+  "c":1,
+  "why":"Man möchte die <b>Wahl</b> behalten, auch wenn man sie selten nutzt. Genau darauf zielen auch die geplanten EU-Regeln."}
+],
+"schreib":[
+ "Wir müssen <b>sicherstellen</b>, dass alle Unterlagen vor dem Termin vorliegen.",
+ "<b>Wer</b> im Projekt früh Fragen stellt, spart dem Team später viel Arbeit.",
+ "<b>Unterm Strich</b> zahle ich fast alles mit dem Handy — etwas Kleingeld habe ich aber immer dabei."
+],
+"sprech":{
+ "phrases":["Für den Betrieb hat das den Vorteil, dass …","Problematisch wird es für Leute, die …",
+            "Ich persönlich hätte damit kein Problem, aber …","Man darf nicht vergessen, dass …"],
+ "modell":"<b>Für den Betrieb hat das den Vorteil, dass</b> niemand mehr Kasse zählen oder Münzgeld zur Bank bringen muss — das spart jeden Abend eine halbe Stunde, und das Risiko eines Überfalls sinkt. <b>Problematisch wird es für Leute, die</b> keine Karte haben oder bewusst keine nutzen: ältere Gäste, Jugendliche, Menschen ohne Konto. <b>Ich persönlich hätte damit kein Problem, aber</b> <b>man darf nicht vergessen, dass</b> ein Café auch ein Ort für alle im Viertel ist. Und wenn das System einmal <b>ausfällt</b>, steht der Laden still."}
+}

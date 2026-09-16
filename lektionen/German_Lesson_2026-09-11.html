@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 11. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 11. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">555 Milliarden: Was im Haushalt 2027 steckt</h2>
+    <div class="card">
+      <p>Diese Woche hat der Bundestag über den Bundeshaushalt für 2027 debattiert — vier Tage lang, von Dienstag bis Freitag. Heute stand die Schlussrunde zum Haushaltsgesetz auf dem Programm. Beschlossen wird der Etat allerdings erst Ende November. Bis dahin haben die Abgeordneten noch Zeit, einzelne Posten zu verschieben oder zu streichen.</p>
+      <p>Die Zahlen sind beachtlich. Finanzminister Lars Klingbeil plant Ausgaben von rund 555 Milliarden Euro, gut 31 Milliarden mehr als in diesem Jahr. Gleichzeitig steigt die Neuverschuldung von knapp 98 auf fast 119 Milliarden Euro. So viele neue Schulden hat der Bund außerhalb der Corona-Jahre nur selten aufgenommen.</p>
+      <p>Die Regierung begründet das mit Investitionen: 118 Milliarden Euro sollen in die Zukunft fließen. Allein 17,7 Milliarden sind für Schienen, Brücken und Straßen vorgesehen, neun Milliarden für die Digitalisierung. Der Verteidigungsetat wächst auf rund 110 Milliarden Euro — etwa ein Drittel mehr als 2026.</p>
+      <p>Die Opposition wirft der Koalition vor, auf Kosten künftiger Generationen zu leben. Kritiker halten dagegen, dass hohe Schulden den Spielraum späterer Regierungen einengen. Klingbeil sieht das anders: Die Konjunktur ziehe langsam wieder an, und genau jetzt müsse der Staat investieren, statt zu sparen.</p>
+      <p>Für die meisten Menschen wirkt so ein Etat abstrakt. Am Ende entscheidet er aber darüber, ob die Brücke in der Nachbarstadt saniert wird, wie schnell schnelles Internet auf dem Land ankommt und wie viel Geld für Arbeit und Soziales zur Verfügung steht. Insofern wirkt sich der Haushalt sehr direkt auf den Alltag aus — man merkt es nur meistens erst Jahre später.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Etat / der Haushalt</td><td>budget</td><td>Ein Plan, wie viel Geld eingenommen und ausgegeben wird.</td><td>Der Etat für 2027 liegt bei rund 555 Milliarden Euro.</td></tr>
+        <tr><td>die Neuverschuldung</td><td>new borrowing, new debt</td><td>Das Geld, das der Staat in einem Jahr zusätzlich leiht.</td><td>Die Neuverschuldung steigt auf fast 119 Milliarden Euro.</td></tr>
+        <tr><td>Schulden aufnehmen</td><td>to take on debt</td><td>Sich Geld leihen, das man später zurückzahlen muss.</td><td>Der Bund nimmt nächstes Jahr mehr Schulden auf.</td></tr>
+        <tr><td>vorgesehen sein (für)</td><td>to be earmarked, planned for</td><td>Für einen bestimmten Zweck fest eingeplant sein.</td><td>Neun Milliarden sind für die Digitalisierung vorgesehen.</td></tr>
+        <tr><td>jemandem etwas vorwerfen</td><td>to accuse someone of something</td><td>Jemandem sagen, dass er etwas falsch gemacht hat.</td><td>Die Opposition wirft der Regierung zu hohe Ausgaben vor.</td></tr>
+        <tr><td>der Spielraum</td><td>room for manoeuvre, leeway</td><td>Die Freiheit, die man bei einer Entscheidung noch hat.</td><td>Hohe Schulden verkleinern den finanziellen Spielraum.</td></tr>
+        <tr><td>anziehen (Konjunktur)</td><td>to pick up, gain momentum</td><td>Wieder stärker werden, wieder wachsen.</td><td>Die Wirtschaft zieht nach schwachen Jahren langsam wieder an.</td></tr>
+        <tr><td>sanieren</td><td>to renovate, refurbish</td><td>Etwas Altes oder Kaputtes gründlich reparieren.</td><td>Viele Brücken in Deutschland müssen dringend saniert werden.</td></tr>
+        <tr><td>die Konjunktur <span class="rep">(Wiederholung)</span></td><td>economic situation, business cycle</td><td>Die allgemeine wirtschaftliche Lage eines Landes.</td><td>Die Konjunktur entwickelt sich besser als erwartet.</td></tr>
+        <tr><td>sich auswirken auf <span class="rep">(Wiederholung)</span></td><td>to have an effect on</td><td>Eine spürbare Folge für etwas anderes haben.</td><td>Der Haushalt wirkt sich direkt auf den Alltag aus.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„… steht auf dem Programm."</b> — Sagen, was als Nächstes geplant ist. Im Büro ständig hörbar.<br><i>Heute steht die Schlussrunde zum Haushaltsgesetz auf dem Programm.</i></li>
+        <li><b>„X wirft Y vor, etwas zu tun."</b> — Einen Vorwurf sachlich formulieren.<br><i>Die Opposition wirft der Koalition vor, auf Kosten künftiger Generationen zu leben.</i></li>
+        <li><b>„Kritiker halten dagegen, dass …"</b> — Ein Gegenargument einleiten, ohne selbst Partei zu ergreifen.<br><i>Kritiker halten dagegen, dass hohe Schulden den Spielraum einengen.</i></li>
+        <li><b>„Allein …"</b> — Eine einzelne Zahl aus einer größeren Summe hervorheben.<br><i>Allein 17,7 Milliarden sind für Schienen und Straßen vorgesehen.</i></li>
+        <li><b>„Insofern …"</b> — Aus dem Gesagten eine Schlussfolgerung ziehen („in that respect").<br><i>Insofern wirkt sich der Haushalt sehr direkt auf den Alltag aus.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv I in der indirekten Rede:</b> Im Satz <i>„Die Konjunktur ziehe langsam wieder an, und genau jetzt müsse der Staat investieren"</i> stehen <i>ziehe</i> und <i>müsse</i> statt <i>zieht</i> und <i>muss</i>. Damit macht man deutlich: Das ist die Aussage einer anderen Person, nicht die eigene Meinung. Man findet diese Form fast nur in Nachrichten und in schriftlichen Berichten — im Gespräch sagt man einfach <i>„Er sagt, dass die Konjunktur wieder anzieht."</i> Trotzdem lohnt es sich, sie zu erkennen: Sie signalisiert immer Distanz zum Gesagten.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>zu-Infinitiv nach Verben wie <i>vorwerfen</i>:</b> <i>„Die Opposition wirft der Koalition vor, auf Kosten künftiger Generationen zu leben."</i> Nach Verben wie <i>vorwerfen, empfehlen, raten, vorschlagen</i> folgt oft ein Nebensatz mit <i>zu</i> + Infinitiv. Wichtig: Das Verb steht ganz am Ende, und bei trennbaren Verben rutscht das <i>zu</i> in die Mitte — <i>anzufangen</i>, <i>aufzunehmen</i>, <i>vorzubereiten</i>.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wann wird der Haushalt für 2027 endgültig beschlossen — und was passiert bis dahin?</li>
+          <li>Womit begründet die Regierung die hohe Neuverschuldung?</li>
+          <li>Welches Argument bringen die Kritiker gegen die neuen Schulden vor?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>der Spielraum</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „X wirft Y vor, … zu …".</li>
+          <li>Schreibe einen Satz mit <i>sich auswirken auf</i> über deine eigene Arbeit.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, du dürftest 118 Milliarden Euro verteilen: Wofür würdest du das Geld ausgeben — Infrastruktur, Bildung, Digitalisierung oder Verteidigung? Erkläre deine drei wichtigsten Prioritäten und sag auch, wo du sparen würdest.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Haushaltswoche im Bundestag zum Bundeshaushalt 2027, 8.–11. September 2026 (u. a. bundestag.de, Handelsblatt, Bundesfinanzministerium).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

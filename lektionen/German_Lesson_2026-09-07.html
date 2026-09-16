@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 7. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 7. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">723.000 fehlende Fachkräfte: Wer macht künftig die Arbeit?</h2>
+    <div class="card">
+      <p>Wenn in Deutschland über den Arbeitsmarkt gesprochen wird, fällt fast immer dasselbe Wort: Fachkräftemangel. Eine neue Studie des Instituts der deutschen Wirtschaft (IW) zeigt nun, wie groß das Problem in wenigen Jahren werden könnte. Bis 2029 dürften bundesweit rund 723.000 qualifizierte Arbeitskräfte fehlen — fast doppelt so viele wie im vergangenen Jahr, als die Lücke bei etwa 370.000 lag.</p>
+      <p>Besonders betroffen sind Berufe, die man nicht ohne Weiteres automatisieren kann. Im Verkauf könnten 2029 rund 39.100 Stellen unbesetzt bleiben, in der Kinderbetreuung und Erziehung knapp 30.000, in der Sozialarbeit rund 23.600. Auch in der Pflege und in der Gebäudeelektrik wird es eng. Es geht also nicht um abstrakte Zahlen, sondern um Kitas, die Gruppen schließen müssen, und um Handwerksbetriebe, die Aufträge ablehnen, weil schlicht niemand da ist, der sie ausführen kann.</p>
+      <p>Die Ursachen liegen laut Studienautor Alexander Burstedde auf der Hand. In den kommenden Jahren gehen sehr viele Beschäftigte in Rente, während gleichzeitig zu wenige Junge nachrücken. Hinzu kommt, dass sich derzeit weniger Fachkräfte aus dem Ausland gewinnen lassen als noch vor einigen Jahren. Und sollte die Konjunktur wieder anziehen, steigt die Nachfrage zusätzlich.</p>
+      <p>Für Unternehmen hat das ganz praktische Folgen. Wer heute Personal sucht, kann nicht mehr davon ausgehen, dass sich von allein jemand bewirbt. Arbeitgeber müssen sich stärker um Bewerber bemühen — mit flexiblen Arbeitszeiten, mit Weiterbildung, manchmal auch schlicht mit einem schnelleren Bewerbungsverfahren. Umgekehrt verbessert sich die Verhandlungsposition vieler Beschäftigter spürbar. Wer gut qualifiziert ist, kann selbstbewusster auftreten und im Gespräch sagen: „Das lässt sich sicher machen — aber lassen Sie uns noch einmal über die Konditionen sprechen."</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Fachkräftemangel</td><td>shortage of skilled workers</td><td>Es gibt zu wenige gut ausgebildete Arbeitskräfte.</td><td>Der Fachkräftemangel trifft besonders kleine Betriebe.</td></tr>
+        <tr><td>die Lücke</td><td>gap</td><td>Eine Stelle, an der etwas fehlt.</td><td>Die Lücke zwischen offenen Stellen und Bewerbern wächst.</td></tr>
+        <tr><td>unbesetzt bleiben</td><td>to remain unfilled</td><td>Eine Stelle bekommt keinen Mitarbeiter.</td><td>Viele Stellen in der Pflege bleiben monatelang unbesetzt.</td></tr>
+        <tr><td>betroffen sein (von)</td><td>to be affected (by)</td><td>Ein Problem hat direkte Folgen für jemanden.</td><td>Vom Personalmangel sind vor allem Kitas betroffen.</td></tr>
+        <tr><td>nachrücken</td><td>to move up, follow on</td><td>Jüngere übernehmen die Plätze der Älteren.</td><td>Es rücken zu wenige junge Fachkräfte nach.</td></tr>
+        <tr><td>in Rente gehen</td><td>to retire</td><td>Aufhören zu arbeiten, weil man alt genug ist.</td><td>Mein Kollege geht nächstes Jahr in Rente.</td></tr>
+        <tr><td>sich um jemanden bemühen</td><td>to make an effort for someone</td><td>Sich anstrengen, damit jemand kommt oder bleibt.</td><td>Firmen müssen sich heute aktiv um Bewerber bemühen.</td></tr>
+        <tr><td>die Konjunktur</td><td>economic situation, business cycle</td><td>Wie gut oder schlecht die Wirtschaft gerade läuft.</td><td>Wenn die Konjunktur anzieht, steigt die Nachfrage.</td></tr>
+        <tr><td>die Weiterbildung</td><td>further training</td><td>Kurse, mit denen man im Beruf dazulernt.</td><td>Die Firma zahlt eine Weiterbildung für Projektmanagement.</td></tr>
+        <tr><td>Stellen abbauen <span class="rep">(Wiederholung)</span></td><td>to cut jobs</td><td>Arbeitsplätze streichen.</td><td>Früher wurden Stellen abgebaut, heute fehlt Personal.</td></tr>
+        <tr><td>unvermeidlich <span class="rep">(Wiederholung)</span></td><td>unavoidable</td><td>Man kann es nicht verhindern.</td><td>Höhere Löhne scheinen fast unvermeidlich.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Die Gründe liegen auf der Hand."</b> — Sagen, dass etwas offensichtlich ist.<br><i>Warum niemand kommt? Die Gründe liegen auf der Hand.</i></li>
+        <li><b>„nicht ohne Weiteres"</b> — Höflich sagen, dass etwas nicht einfach so geht.<br><i>Diese Aufgabe lässt sich nicht ohne Weiteres automatisieren.</i></li>
+        <li><b>„davon ausgehen, dass …"</b> — Eine Annahme formulieren (sehr häufig im Büro).<br><i>Ich gehe davon aus, dass wir bis Freitag eine Rückmeldung haben.</i></li>
+        <li><b>„Da wird es eng."</b> — Signalisieren, dass Zeit, Geld oder Personal knapp werden.<br><i>Wenn zwei Kollegen krank sind, wird es im Team eng.</i></li>
+        <li><b>„Das lässt sich sicher machen."</b> — Freundlich Zustimmung zeigen, ohne alles sofort zuzusagen.<br><i>Ein Termin am Donnerstag? Das lässt sich sicher machen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„sich lassen" statt Passiv:</b> Im Text steht <i>„weniger Fachkräfte lassen sich gewinnen"</i> und <i>„Das lässt sich sicher machen"</i>. Diese Konstruktion ersetzt <i>„kann … werden"</i> und klingt deutlich natürlicher: <i>„Das kann gemacht werden"</i> → <i>„Das lässt sich machen."</i> Sie ist im deutschen Berufsalltag extrem häufig — auch in der Verneinung: <i>„Der Termin lässt sich leider nicht verschieben."</i> Merke: <i>sich</i> gehört immer dazu, und das zweite Verb steht im Infinitiv am Satzende.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„dürfte" für vorsichtige Prognosen:</b> <i>„Bis 2029 dürften rund 723.000 Fachkräfte fehlen"</i> — hier bedeutet <i>dürfte</i> nicht Erlaubnis, sondern eine höfliche Vermutung: <i>wahrscheinlich, aber nicht sicher</i>. Genau so nutzt man es in Berichten und Meetings: <i>„Das Projekt dürfte etwa drei Wochen dauern."</i> Das wirkt professioneller als <i>„vielleicht"</i> und schützt einen zugleich davor, sich zu früh festzulegen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie groß war die Fachkräftelücke im vergangenen Jahr, und wie groß könnte sie 2029 sein?</li>
+          <li>Welche drei Gründe nennt der Text für die erwartete Entwicklung?</li>
+          <li>Was ändert sich laut Text für Arbeitgeber — und was für gut qualifizierte Beschäftigte?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich lassen</i> über eine Aufgabe bei deiner Arbeit (z. B. <i>„Der Bericht lässt sich …"</i>).</li>
+          <li>Formuliere eine vorsichtige Prognose mit <i>dürfte</i> über dein aktuelles Projekt.</li>
+          <li>Schreibe zwei Sätze, warum ein Unternehmen <i>sich um Bewerber bemühen</i> muss — nutze dabei <i>davon ausgehen, dass …</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Gibt es in deinem Beruf oder deiner Branche auch einen Fachkräftemangel? Erzähle, welche Stellen schwer zu besetzen sind und woran das deiner Meinung nach liegt. Was müsste ein Arbeitgeber bieten, damit du dich bei ihm bewirbst?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: IW-Studie zur Fachkräftelücke bis 2029 (Institut der deutschen Wirtschaft, Autor Alexander Burstedde), dpa-AFX-Meldung vom 7. September 2026 (u. a. investing.com, finanznachrichten.de, ad-hoc-news.de).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

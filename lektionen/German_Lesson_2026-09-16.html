@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 16. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 16. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Nur jeder zweite ICE kommt pünktlich — und das ist sogar eine gute Nachricht</h2>
+    <div class="card">
+      <p>Wer in Deutschland geschäftlich mit dem Zug unterwegs ist, plant inzwischen automatisch einen Puffer ein. Die Zahlen geben ihm recht: Im August erreichten nur 54,2 Prozent der Fernverkehrszüge ihr Ziel ohne größere Verspätung. Die sogenannte Reisendenpünktlichkeit lag bei 56,6 Prozent — also deutlich unter dem Ziel von mindestens 60 Prozent, das sich die Deutsche Bahn selbst gesetzt hat.</p>
+      <p>Die Gründe klingen fast schon vertraut. Die hohen Temperaturen in der ersten Monatshälfte sorgten für Störungen an den Anlagen und für ungewöhnlich viele Langsamfahrstellen. Dazu kommt das, was die Bahn „Baugeschehen“ nennt: die Korridorsanierung am rechten Rhein, die Arbeiten an der Hamburger Verbindungsbahn und die Sperrung der Berliner Stadtbahn. Zwischen Berlin, Erfurt, Nürnberg und München fahren wegen Brückenarbeiten noch bis Ende September weniger Züge als üblich.</p>
+      <p>Trotzdem spricht die Bahn von einer leichten Verbesserung — und tatsächlich steckt hinter den schlechten Zahlen eine Strategie. Statt wie früher ständig einzelne Nächte zu sperren, bündelt der Konzern die Arbeiten: Über 40 stark befahrene Strecken sollen in den nächsten Jahren nacheinander komplett gesperrt und in einem Rutsch saniert werden. Der Preis dafür ist hoch, aber er ist befristet. Wer heute eine Umleitung in Kauf nimmt, soll in einigen Jahren von einem stabileren Netz profitieren.</p>
+      <p>Für den Arbeitsalltag heißt das erst einmal: mitdenken. Viele Pendler buchen bewusst eine frühere Verbindung, damit der Anschluss auch dann klappt, wenn der Zug zwanzig Minuten später losfährt. Im Büro gehört der Satz „Ich hänge gerade in Fulda fest, ich schalte mich digital dazu“ längst zum Alltag. Und wenn die Verspätung am Ende über 60 Minuten beträgt, gibt es immerhin einen Teil des Fahrpreises zurück — beantragen muss man ihn allerdings selbst.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Verspätung</td><td>delay</td><td>Wenn etwas später kommt als geplant.</td><td>Der ICE hat heute 25 Minuten Verspätung.</td></tr>
+        <tr><td>der Anschluss</td><td>connection (train, flight)</td><td>Der nächste Zug, in den man umsteigen muss.</td><td>Wenn wir zu spät ankommen, verpasse ich meinen Anschluss.</td></tr>
+        <tr><td>der Puffer</td><td>buffer, extra time</td><td>Zusätzliche Zeit, die man einplant, falls etwas schiefgeht.</td><td>Ich plane bei Bahnfahrten immer eine Stunde Puffer ein.</td></tr>
+        <tr><td>die Baustelle</td><td>construction site, roadworks</td><td>Ein Ort, an dem gebaut oder repariert wird.</td><td>Wegen einer Baustelle fährt der Zug über Kassel.</td></tr>
+        <tr><td>die Umleitung</td><td>diversion, detour</td><td>Ein anderer Weg, weil die normale Strecke gesperrt ist.</td><td>Die Umleitung kostet uns etwa 40 Minuten.</td></tr>
+        <tr><td>die Störung</td><td>disruption, malfunction</td><td>Ein Problem, das den normalen Betrieb unterbricht.</td><td>Wegen einer technischen Störung hält der Zug hier länger.</td></tr>
+        <tr><td>sanieren</td><td>to renovate, overhaul</td><td>Etwas Altes gründlich reparieren und modernisieren.</td><td>Die Strecke wird bis Dezember komplett saniert.</td></tr>
+        <tr><td>in Kauf nehmen</td><td>to accept (a downside)</td><td>Etwas Unangenehmes akzeptieren, weil es sich am Ende lohnt.</td><td>Für den günstigeren Preis nehme ich eine längere Fahrt in Kauf.</td></tr>
+        <tr><td>festhängen</td><td>to be stuck / stranded</td><td>Nicht weiterkommen, an einem Ort warten müssen.</td><td>Ich hänge in Hannover fest, der Zug fährt nicht weiter.</td></tr>
+        <tr><td>ausfallen <span class="rep">(Wiederholung)</span></td><td>to be cancelled; to fail</td><td>Nicht stattfinden oder nicht funktionieren.</td><td>Der Zug um 7:12 Uhr fällt heute leider aus.</td></tr>
+        <tr><td>sich etwas vornehmen / sich ein Ziel setzen <span class="rep">(Wiederholung)</span></td><td>to set oneself a goal</td><td>Entscheiden, was man erreichen möchte.</td><td>Die Bahn hat sich 60 Prozent Pünktlichkeit zum Ziel gesetzt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Ich hänge gerade in … fest.“</b> — Der Standardsatz, wenn man unterwegs blockiert ist.<br><i>Ich hänge gerade in Fulda fest — ich schalte mich digital dazu.</i></li>
+        <li><b>„Ich schalte mich digital dazu.“</b> — Sehr gängig im Büroalltag: statt vor Ort per Video teilnehmen.<br><i>Ich schaffe es nicht rechtzeitig ins Büro, ich schalte mich digital dazu.</i></li>
+        <li><b>„einen Puffer einplanen“</b> — Zeitreserve einbauen, in Reise- und Projektplanung gleichermaßen.<br><i>Lass uns beim Zeitplan lieber zwei Tage Puffer einplanen.</i></li>
+        <li><b>„etwas in Kauf nehmen“</b> — Einen Nachteil bewusst akzeptieren.<br><i>Wer heute eine Umleitung in Kauf nimmt, profitiert später von einem besseren Netz.</i></li>
+        <li><b>„Die Gründe klingen fast schon vertraut.“</b> — Höflich andeuten, dass man das Problem schon kennt.<br><i>Die Argumente klingen fast schon vertraut — wir hatten das Thema letztes Quartal auch.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv mit „werden“ + „sollen“ — die Sprache von Plänen und Projekten:</b> Im Text steht <i>„Über 40 Strecken sollen komplett gesperrt und saniert werden“</i>. Diese Kombination (Modalverb + Partizip + <i>werden</i>) ist überall dort zu finden, wo etwas geplant, aber noch nicht erledigt ist — in Zeitungen, Projektplänen und Statusmeetings. Merke die Reihenfolge am Satzende: <i>… gesperrt und saniert werden.</i> Nützliche Varianten: <i>Das Feature soll im Oktober veröffentlicht werden. Die Ergebnisse müssen bis Freitag geliefert werden.</i></p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„damit“ vs. „um … zu“ — Absicht ausdrücken:</b> Der Satz <i>„Viele Pendler buchen eine frühere Verbindung, damit der Anschluss klappt“</i> hat zwei verschiedene Subjekte (die Pendler / der Anschluss) — deshalb <i>damit</i>. Wenn beide Teile dasselbe Subjekt haben, nimmt man lieber <i>um … zu</i>: <i>Ich fahre früher los, um pünktlich zu sein.</i> Diese Unterscheidung fällt im Gespräch sofort auf und ist einer der schnellsten Wege, natürlicher zu klingen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Welche zwei Hauptgründe nennt der Text für die schlechten Pünktlichkeitswerte im August?</li>
+          <li>Warum sperrt die Bahn ganze Strecken, statt nur nachts zu bauen?</li>
+          <li>Wie reagieren Pendler und Berufstätige praktisch auf die Verspätungen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>in Kauf nehmen</i> über eine Entscheidung bei der Arbeit.</li>
+          <li>Bilde einen Satz im Passiv mit <i>sollen</i> über ein Projekt, an dem du gerade arbeitest.</li>
+          <li>Schreibe zwei Sätze zum selben Thema: einmal mit <i>damit</i>, einmal mit <i>um … zu</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Du sitzt im Zug und merkst, dass du ein wichtiges Meeting um 10 Uhr nicht rechtzeitig erreichst. Rufe eine Kollegin an: Erkläre in ein bis zwei Minuten die Lage, schlage eine Lösung vor und sage, was sie in der Zwischenzeit übernehmen kann.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Pünktlichkeitswerte der Deutschen Bahn für August 2026 (deutschebahn.com) sowie Informationen zur Generalsanierung und zu den Streckensperrungen im September 2026 (DB InfraGO, ADAC-Baustellenübersicht).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

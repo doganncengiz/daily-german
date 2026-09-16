@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 6. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 6. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Homeoffice bleibt — aber die Stimmung kippt</h2>
+    <div class="card">
+      <p>Wer geglaubt hat, das Homeoffice sei nur eine Übergangslösung aus der Corona-Zeit, wurde inzwischen eines Besseren belehrt. Rund ein Viertel aller Beschäftigten in Deutschland arbeitet zumindest teilweise von zu Hause aus — und dieser Wert ist seit 2022 erstaunlich stabil. Von einer großen Rückkehr ins Büro, wie sie manche Führungskräfte angekündigt hatten, kann also keine Rede sein. Hybrides Arbeiten hat sich schlicht durchgesetzt.</p>
+      <p>Interessant ist vor allem, welchen Wert die Beschäftigten dem Homeoffice mittlerweile beimessen. In Befragungen geben rund neun von zehn an, dass sie mindestens einen Tag pro Woche zu Hause arbeiten möchten. Für fast die Hälfte ist diese Möglichkeit sogar ein entscheidendes Kriterium bei der Wahl des Arbeitgebers. Und wer darauf verzichten soll, will dafür entschädigt werden: Wer mehrmals pro Woche von zu Hause arbeitet, verlangt im Median rund 800 Euro netto mehr im Monat, um wieder täglich ins Büro zu kommen.</p>
+      <p>Gleichzeitig zeigen aktuelle Studien einen Trend, der nachdenklich stimmt. Zwar sagen 75 Prozent der Befragten, sie seien mit ihren Arbeitsbedingungen eher oder völlig zufrieden — vor zwei Jahren lag dieser Wert allerdings noch bei 83 Prozent. Die Zufriedenheit sinkt also spürbar, obwohl die Flexibilität gewachsen ist. Fachleute führen das unter anderem auf unklare Absprachen zurück: Wer wann im Büro sein muss, ist in vielen Teams nach wie vor Verhandlungssache.</p>
+      <p>Für den Arbeitsalltag heißt das vor allem eines: Kommunikation wird wichtiger. Wenn sich das Team nur noch zweimal pro Woche persönlich sieht, muss man Erwartungen klar aussprechen, statt sie vorauszusetzen. Ein kurzer Satz wie „Ich bin am Dienstag im Büro, sollen wir das dann persönlich besprechen?" spart am Ende mehr Zeit als jede zusätzliche Videokonferenz.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Übergangslösung</td><td>temporary solution, stopgap</td><td>Eine Lösung, die nur für kurze Zeit gedacht ist.</td><td>Das Büro im Erdgeschoss war nur eine Übergangslösung.</td></tr>
+        <tr><td>sich durchsetzen</td><td>to catch on, become established</td><td>Sich gegen andere Möglichkeiten behaupten und normal werden.</td><td>Hybrides Arbeiten hat sich in vielen Firmen durchgesetzt.</td></tr>
+        <tr><td>etwas Wert beimessen</td><td>to attach value to something</td><td>Etwas für wichtig halten.</td><td>Viele Beschäftigte messen der Flexibilität großen Wert bei.</td></tr>
+        <tr><td>entscheidend</td><td>decisive, crucial</td><td>So wichtig, dass es die Entscheidung bestimmt.</td><td>Das Gehalt war für mich nicht der entscheidende Punkt.</td></tr>
+        <tr><td>auf etwas verzichten</td><td>to give something up, do without</td><td>Etwas freiwillig nicht nehmen oder nicht nutzen.</td><td>Ich möchte auf das Homeoffice nicht verzichten.</td></tr>
+        <tr><td>entschädigen</td><td>to compensate</td><td>Jemandem einen Ausgleich für einen Nachteil geben.</td><td>Die Firma will die Mitarbeiter mit einem Bonus entschädigen.</td></tr>
+        <tr><td>die Absprache</td><td>agreement, arrangement</td><td>Was man vorher gemeinsam vereinbart hat.</td><td>Wir brauchen klare Absprachen, wer wann im Büro ist.</td></tr>
+        <tr><td>voraussetzen</td><td>to take for granted, assume</td><td>Denken, dass etwas selbstverständlich klar ist.</td><td>Man darf nicht voraussetzen, dass alle die Mail gelesen haben.</td></tr>
+        <tr><td>angemessen <span class="rep">(Wiederholung)</span></td><td>appropriate, reasonable</td><td>Passend und nicht übertrieben.</td><td>Eine angemessene Reaktion wäre ein kurzes Gespräch.</td></tr>
+        <tr><td>sich verabreden <span class="rep">(Wiederholung)</span></td><td>to arrange to meet</td><td>Mit jemandem einen Termin zum Treffen ausmachen.</td><td>Verabreden wir uns für Dienstag im Büro?</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Davon kann keine Rede sein."</b> — Etwas deutlich, aber sachlich zurückweisen.<br><i>Von einer großen Rückkehr ins Büro kann keine Rede sein.</i></li>
+        <li><b>„eines Besseren belehrt werden"</b> — Merken, dass die eigene Annahme falsch war.<br><i>Ich dachte, das hält nicht lange — ich wurde eines Besseren belehrt.</i></li>
+        <li><b>„Das stimmt nachdenklich."</b> — Höflich signalisieren, dass etwas kritisch ist.<br><i>Der Rückgang der Zufriedenheit stimmt nachdenklich.</i></li>
+        <li><b>„etwas auf etwas zurückführen"</b> — Eine Ursache benennen.<br><i>Fachleute führen das auf unklare Absprachen zurück.</i></li>
+        <li><b>„Sollen wir das persönlich besprechen?"</b> — Ein Thema aus dem Chat in ein Gespräch holen.<br><i>Das wird per Mail zu kompliziert — sollen wir das persönlich besprechen?</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„Wer …, (der) …" — der Relativsatz ohne Substantiv:</b> Im Text steht <i>„Wer darauf verzichten soll, will dafür entschädigt werden"</i>. Statt <i>„Die Person, die …"</i> beginnt man einfach mit <i>wer</i>. Das klingt kompakt und typisch für Zeitungsdeutsch, funktioniert aber auch im Büro sehr gut: <i>„Wer heute im Homeoffice ist, meldet sich bitte kurz im Chat."</i> Wichtig: Das Verb im <i>wer</i>-Satz steht am Ende, im Hauptsatz danach auf Position eins.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Präpositionalverben mit „da(r)-":</b> <i>auf etwas verzichten → darauf verzichten</i>, <i>etwas auf etwas zurückführen → darauf zurückführen</i>. Wenn das Objekt eine Sache ist (kein Mensch), ersetzt man es durch <i>da(r)-</i> + Präposition. Bei Personen bleibt die normale Form: <i>„Ich verzichte auf ihn"</i>, aber <i>„Ich verzichte darauf"</i>. Diese kleinen Wörter — <i>darauf, dafür, damit, davon</i> — machen gesprochenes Deutsch enorm flüssig.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viele Beschäftigte in Deutschland arbeiten zumindest teilweise von zu Hause — und wie hat sich diese Zahl seit 2022 entwickelt?</li>
+          <li>Warum sinkt die Zufriedenheit, obwohl die Flexibilität gewachsen ist?</li>
+          <li>Welchen konkreten Tipp gibt der Text für die Kommunikation im hybriden Team?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>auf etwas verzichten</i> (nutze dabei <i>darauf</i>).</li>
+          <li>Schreibe einen Satz, der mit <i>Wer …</i> beginnt, zum Beispiel über eine Regel in deinem Team.</li>
+          <li>Formuliere eine höfliche Nachricht an einen Kollegen, in der du eine <i>Absprache</i> für die nächste Woche vorschlägst.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Wie arbeitest du am liebsten — im Büro, zu Hause oder hybrid? Beschreibe deinen idealen Arbeitstag und erkläre, worauf du auf keinen Fall verzichten möchtest. Was funktioniert bei dir im Homeoffice besser, was schlechter?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Zahlen zu Homeoffice und Arbeitszufriedenheit in Deutschland 2026 (Statista, PwC-Studie, YER-Arbeitszufriedenheitsstudie), Stand September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

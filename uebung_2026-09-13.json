@@ -1,0 +1,31 @@
+{
+"mc":[
+ {"q":"Welche zwei Bedingungen muss man erfüllen, um bei dieser Wahl wahlberechtigt zu sein?",
+  "o":["Mindestens 18 Jahre alt sein und einen deutschen Pass haben.",
+       "Am Wahltag mindestens 16 Jahre alt sein und seit mindestens drei Monaten in Berlin wohnen.",
+       "Mindestens 16 Jahre alt sein und seit einem Jahr in Berlin gemeldet sein."],
+  "c":1,
+  "why":"Neu ist genau das: 16 Jahre am Wahltag, dazu drei Monate Wohnsitz in Berlin. Ein Jahr wäre zu lang, 18 Jahre gilt hier nicht mehr."},
+ {"q":"Was ist der Wahl-O-Mat — und wie viele Parteien haben mitgemacht?",
+  "o":["Ein Online-Werkzeug zum Vergleich der eigenen Positionen mit denen der Parteien; alle 17 antretenden Parteien.",
+       "Ein Automat im Wahllokal, der die Stimmen elektronisch zählt.",
+       "Eine App, mit der man seine Stimme direkt online abgeben kann."],
+  "c":0,
+  "why":"Der Wahl-O-Mat <i>vergleicht</i> nur Positionen — gewählt wird weiter auf Papier. In diesem Jahr haben sich alle 17 Parteien beteiligt."},
+ {"q":"Warum beginnt die eigentliche Arbeit laut Text erst nach dem Wahlabend?",
+  "o":["Weil die Stimmen in Berlin von Hand gezählt werden müssen.",
+       "Weil voraussichtlich eine Dreierkoalition mühsam ausgehandelt werden muss.",
+       "Weil das amtliche Ergebnis erst Wochen später veröffentlicht wird."],
+  "c":1,
+  "why":"Nach den Umfragen kommen keine zwei Parteien allein auf eine Mehrheit. Koalitionsverhandlungen ziehen sich dann oft über Wochen."}
+],
+"schreib":[
+ "<b>Erfahrungsgemäß</b> dauert die Abstimmung mit dem Kunden länger als geplant.",
+ "Das Angebot <b>dürfte</b> bis Freitag fertig sein. <span class=\"hint\">(Vermutung, nicht Erlaubnis)</span>",
+ "<b>Wer</b> sich früh anmeldet, <b>(der)</b> bekommt noch einen Platz im Workshop."
+],
+"sprech":{
+ "phrases":["Ich bin dafür, dass …, weil …","Ein Gegenargument wäre natürlich, dass …",
+            "Man sollte unterscheiden zwischen … und …","Aus eigener Erfahrung würde ich sagen: …"],
+ "modell":"<b>Ich bin dafür</b>, dass man ab 16 wählen darf — wer mit 16 arbeiten und Steuern zahlen kann, sollte auch mitentscheiden dürfen. <b>Ein Gegenargument wäre natürlich</b>, dass viele in dem Alter politisch noch wenig gefestigt sind; das gilt aber für manche Erwachsene genauso. Bei Menschen ohne deutschen Pass würde ich <b>unterscheiden</b>: Auf Bezirksebene geht es um Kitaplätze, Straßen und Bürgerämter — wer seit Jahren hier lebt und Steuern zahlt, ist davon direkt betroffen und sollte <b>mitreden</b> dürfen."}
+}

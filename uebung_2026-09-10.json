@@ -1,0 +1,29 @@
+{
+"mc":[
+ {"q":"Was misst der Konsumklimaindikator?",
+  "o":["Wie viel Geld die Menschen tatsächlich ausgeben.",
+       "Wie die Menschen ihre eigene wirtschaftliche Zukunft einschätzen.",
+       "Wie viele Menschen neue Kredite aufnehmen."],
+  "c":1,
+  "why":"Der Text sagt es ausdrücklich: Er misst <b>nicht</b>, wie viel die Menschen ausgeben, sondern wie sie ihre Zukunft einschätzen — Einkommen, Lust auf größere Anschaffungen, Sparneigung."},
+ {"q":"Wie groß ist der Abstand zwischen der Generation Z und den Babyboomern?",
+  "o":["Etwa 26 Punkte.","Über 52 Punkte.","Fast 12 Punkte."],
+  "c":1,
+  "why":"Gen Z liegt bei +6,3, die Babyboomer bei −46,1 Punkten. Die fast 12 Punkte sind der <i>Sprung</i> der Generation X, die 26,6 der Gesamtwert."},
+ {"q":"Warum verbessert sich die Stimmung bei der Generation X besonders stark?",
+  "o":["Weil sie deutlich mehr verdient als im Vormonat.",
+       "Weil sie weniger spart als noch im Vormonat.",
+       "Weil sie von der Rentenreform am meisten profitiert."],
+  "c":1,
+  "why":"Im Text: „vor allem, weil sie weniger spart als noch im Vormonat“. Wer weniger zurücklegt, plant eher Anschaffungen — und das hebt den Indikator."}
+],
+"schreib":[
+ "Ich habe die Kollegin gefragt, <b>ob</b> der Termin am Donnerstag noch steht.",
+ "Die geplante Steuerreform <b>wirkt sich</b> vor allem <b>auf</b> junge Familien <b>aus</b>.",
+ "Die Jüngeren blicken <b>deutlich zuversichtlicher</b> nach vorn <b>als</b> die Babyboomer."
+],
+"sprech":{
+ "phrases":["Ich würde sagen, ich liege eher bei …","Das hängt bei mir vor allem damit zusammen, dass …",
+            "Woran liegt das? Vermutlich daran, dass …","Im Vergleich zu meinen Eltern bin ich deutlich …"],
+ "modell":"Ich bin Mitte dreißig, liege also zwischen den beiden Gruppen — gefühlt aber näher an der Gen Z. Ich bin relativ <b>zuversichtlich</b>, weil meine Branche stabil ist und ich mit steigendem Einkommen rechne. Größere <b>Anschaffungen</b> schiebe ich trotzdem auf: Eine neue Küche wäre dran, aber bei den aktuellen Preisen warte ich lieber noch ein Jahr. <b>Woran liegt das?</b> Vermutlich daran, dass ich zwar meinem Job vertraue, aber nicht den Preisen."}
+}

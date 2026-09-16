@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 5. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 5. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Zwei Wochen bis zum Anstich: München bereitet sich auf die Wiesn vor</h2>
+    <div class="card">
+      <p>In München läuft seit Wochen der Aufbau: Auf der Theresienwiese entstehen die großen Festzelte, die Fahrgeschäfte werden montiert, und überall riecht es nach frischem Holz. Am Samstag, dem 19. September, ist es dann so weit — Punkt zwölf Uhr sticht der Oberbürgermeister im Schottenhamel-Zelt das erste Fass an. Bis zum 4. Oktober werden wieder Millionen Besucher aus aller Welt erwartet.</p>
+      <p>Wie jedes Jahr sorgt vor allem ein Thema für Gesprächsstoff: der Bierpreis. Eine Maß kostet 2026 zwischen 14,80 und 15,90 Euro — im Schnitt rund 2,4 Prozent mehr als im Vorjahr. Am günstigsten kommt man in der Augustiner-Festhalle weg, am teuersten wird es in den Zelten am Rand des Angebots. Festgelegt werden die Preise übrigens nicht von der Stadt, sondern von den Wirten und Brauereien. Die Landeshauptstadt prüft lediglich, ob sie noch angemessen sind.</p>
+      <p>Für viele Münchnerinnen und Münchner ist die Wiesn allerdings weit mehr als ein Bierfest. Sie ist ein Stück Alltagskultur: Man verabredet sich mit Kollegen, trägt Dirndl oder Lederhose und trifft Leute, die man das ganze Jahr über nicht gesehen hat. Gleichzeitig gibt es auch kritische Stimmen. Manche beklagen, dass das Fest zu teuer und zu touristisch geworden sei. Andere weisen darauf hin, dass die Wiesn der Stadt jedes Jahr über eine Milliarde Euro Umsatz bringt — vom Hotelgewerbe bis zum Taxifahrer profitieren viele davon.</p>
+      <p>Wer zum ersten Mal hingeht, sollte eines wissen: Ohne Reservierung wird es an den Wochenenden schwierig. Wochentags am Vormittag stehen die Chancen deutlich besser. Und ein Tipp, den jeder Einheimische gibt: Zwischendurch immer wieder Wasser trinken. Sonst ist der Abend schneller vorbei, als einem lieb ist.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Anstich</td><td>the tapping (of the first barrel)</td><td>Der Moment, in dem das erste Bierfass geöffnet wird.</td><td>Der Anstich findet um Punkt zwölf Uhr statt.</td></tr>
+        <tr><td>der Aufbau</td><td>set-up, construction</td><td>Die Arbeit, bei der etwas aufgestellt und vorbereitet wird.</td><td>Der Aufbau der Festzelte dauert mehrere Wochen.</td></tr>
+        <tr><td>der Gesprächsstoff</td><td>topic of conversation, talking point</td><td>Ein Thema, über das viele Leute reden.</td><td>Der Bierpreis sorgt jedes Jahr für Gesprächsstoff.</td></tr>
+        <tr><td>angemessen</td><td>appropriate, reasonable</td><td>Passend und nicht übertrieben.</td><td>Die Stadt prüft, ob die Preise noch angemessen sind.</td></tr>
+        <tr><td>günstig wegkommen</td><td>to get off cheaply</td><td>Weniger bezahlen müssen als andere.</td><td>In der Augustiner-Festhalle kommt man am günstigsten weg.</td></tr>
+        <tr><td>sich verabreden</td><td>to arrange to meet</td><td>Mit jemandem einen Termin zum Treffen ausmachen.</td><td>Wir verabreden uns nächste Woche mit den Kollegen.</td></tr>
+        <tr><td>beklagen</td><td>to complain about, lament</td><td>Sagen, dass man mit etwas unzufrieden ist.</td><td>Manche beklagen, dass das Fest zu teuer geworden sei.</td></tr>
+        <tr><td>der Einheimische</td><td>local, native resident</td><td>Eine Person, die dort wohnt und die Gegend gut kennt.</td><td>Jeder Einheimische gibt denselben Tipp.</td></tr>
+        <tr><td>profitieren von <span class="rep">(Wiederholung)</span></td><td>to benefit from</td><td>Einen Vorteil aus etwas ziehen.</td><td>Vom Fest profitieren viele Branchen der Stadt.</td></tr>
+        <tr><td>darauf hinweisen <span class="rep">(Wiederholung)</span></td><td>to point out</td><td>Jemanden auf etwas Wichtiges aufmerksam machen.</td><td>Andere weisen darauf hin, dass die Wiesn viel Umsatz bringt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Dann ist es so weit."</b> — Ankündigen, dass ein erwarteter Moment endlich kommt.<br><i>Am 19. September ist es dann so weit.</i></li>
+        <li><b>„für Gesprächsstoff sorgen"</b> — Sagen, dass ein Thema viele Diskussionen auslöst.<br><i>Der neue Preis sorgt im Büro für Gesprächsstoff.</i></li>
+        <li><b>„Am günstigsten kommt man … weg."</b> — Vergleichen, wo man am wenigsten bezahlt.<br><i>Am günstigsten kommt man mit dem Zug weg.</i></li>
+        <li><b>„Die Chancen stehen (deutlich) besser."</b> — Über Wahrscheinlichkeit sprechen.<br><i>Wochentags stehen die Chancen auf einen Platz deutlich besser.</i></li>
+        <li><b>„…, als einem lieb ist."</b> — Sagen, dass etwas schneller oder stärker passiert, als man möchte.<br><i>Der Abend ist schneller vorbei, als einem lieb ist.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv I in der indirekten Rede:</b> Im Satz <i>„Manche beklagen, dass das Fest zu teuer geworden sei"</i> steht <i>sei</i> statt <i>ist</i>. Damit signalisiert man: Das ist die Meinung anderer, nicht unbedingt meine eigene. Genau deshalb liest man diese Form ständig in Zeitungen — und sie ist auch im Büro nützlich, wenn man Aussagen weitergibt: <i>„Der Kunde sagt, er habe die Mail nicht bekommen."</i></p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Superlativ mit „am …sten":</b> <i>am günstigsten, am teuersten, am schnellsten</i> — diese Form benutzt man, wenn man Verben oder Zustände vergleicht, nicht Substantive. Man sagt <i>„Hier kommt man am günstigsten weg"</i>, aber <i>„Das ist der günstigste Preis"</i>. Kleiner Unterschied, der im Alltag sehr oft vorkommt.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wann beginnt das Oktoberfest 2026, und wie lange dauert es?</li>
+          <li>Wer legt die Bierpreise fest — und welche Rolle spielt die Stadt München dabei?</li>
+          <li>Welche zwei gegensätzlichen Meinungen über die Wiesn werden im Text genannt?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>für Gesprächsstoff sorgen</i>.</li>
+          <li>Schreibe einen Satz mit <i>angemessen</i> (zum Beispiel über einen Preis oder eine Reaktion).</li>
+          <li>Gib eine Aussage in indirekter Rede wieder: „Mein Kollege sagt, er …"</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Gibt es in deinem Land ein Fest, das so groß und bekannt ist wie das Oktoberfest? Beschreibe es: Wann findet es statt, was macht man dort, und was gefällt dir daran — oder was stört dich?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Oktoberfest 2026 — Termine und Bierpreise (oktoberfest.de, wiesn.tv, in-muenchen.de), Stand September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

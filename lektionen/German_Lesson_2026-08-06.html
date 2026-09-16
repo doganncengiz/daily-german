@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 6. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 6. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Niedrigwasser im Rhein bringt die Industrie unter Druck</h2>
+    <div class="card">
+      <p>Wer in diesen Wochen am Rhein spazieren geht, sieht ein ungewöhnliches Bild: An vielen Stellen liegen breite Sandbänke frei, wo sonst Wasser fließt. Der Grund ist die anhaltende Trockenheit des Sommers 2026, die den Pegel des Rheins auf ein bedenklich niedriges Niveau sinken lässt. Für die deutsche Wirtschaft ist das keine Kleinigkeit, denn der Rhein gehört zu den wichtigsten Transportwegen Europas.</p>
+      <p>Besonders betroffen ist die Chemieindustrie. Konzerne wie BASF, Evonik und Covestro haben ihre großen Werke direkt am Fluss angesiedelt und verschiffen Rohstoffe wie Methanol oder Flüssiggase in riesigen Mengen übers Wasser. Ein Großteil dieser Rohstoffe erreicht die Werke ausschließlich per Schiff, denn andere Transportwege sind kaum wirtschaftlich. Wolfgang Große Entrup, Hauptgeschäftsführer des Chemieverbands VCI, warnt eindringlich: Wenn Schiffe weniger laden können oder ganz ausfallen, steigen die Kosten sofort, und die Lieferketten geraten unter Druck. Am Ende drohen sogar Produktionskürzungen in den Werken selbst.</p>
+      <p>Zwar haben sich viele Unternehmen längst auf solche Situationen eingestellt und Notfallpläne entwickelt, doch selbst der beste Plan kann eine funktionierende Infrastruktur nicht ersetzen. Deshalb fordert die Branche von der Politik deutlich mehr Investitionen in Wasserstraßen, Häfen und alternative Transportwege.</p>
+      <p>Wie teuer das Niedrigwasser tatsächlich wird, zeigt eine aktuelle Prognose des Kieler Instituts für Weltwirtschaft: Allein im dritten Quartal könnte die Wertschöpfung um ein bis zwei Milliarden Euro sinken, das Bruttoinlandsprodukt um 0,1 bis 0,2 Prozent gedämpft werden. Das klingt zunächst abstrakt, betrifft aber am Ende ganz konkrete Arbeitsplätze und Preise.</p>
+      <p>Für viele Menschen in Deutschland bleibt das Thema trotzdem im Alltag kaum sichtbar — außer beim Blick auf die trockenen Flussufer. Klar ist aber: Solange sich das Klima weiter verändert, wird Niedrigwasser kein einmaliges Problem bleiben, sondern eine wiederkehrende Herausforderung für Industrie und Politik gleichermaßen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Pegel</td><td>water level</td><td>Die Höhe des Wasserstands in einem Fluss.</td><td>Der Pegel des Rheins sinkt wegen der Trockenheit.</td></tr>
+        <tr><td>die Trockenheit</td><td>drought, dryness</td><td>Ein Zustand mit sehr wenig Regen über längere Zeit.</td><td>Die anhaltende Trockenheit lässt den Rhein sinken.</td></tr>
+        <tr><td>verschiffen</td><td>to ship, transport by boat</td><td>Waren mit einem Schiff transportieren.</td><td>Die Konzerne verschiffen Rohstoffe über den Rhein.</td></tr>
+        <tr><td>eindringlich warnen</td><td>to warn urgently</td><td>Sehr deutlich und nachdrücklich vor etwas warnen.</td><td>Der Verbandschef warnt eindringlich vor den Folgen.</td></tr>
+        <tr><td>unter Druck geraten</td><td>to come under pressure</td><td>In eine schwierige, angespannte Situation kommen.</td><td>Die Lieferketten geraten unter Druck.</td></tr>
+        <tr><td>sich einstellen auf</td><td>to prepare for, adapt to</td><td>Sich rechtzeitig auf eine erwartete Situation vorbereiten.</td><td>Viele Firmen haben sich auf Niedrigwasser eingestellt.</td></tr>
+        <tr><td>die Wertschöpfung</td><td>value added, economic output</td><td>Der wirtschaftliche Wert, der durch Produktion entsteht.</td><td>Die Wertschöpfung könnte um zwei Milliarden Euro sinken.</td></tr>
+        <tr><td>dämpfen</td><td>to dampen, slow down</td><td>Etwas schwächer oder langsamer machen.</td><td>Das Niedrigwasser dämpft das Wirtschaftswachstum.</td></tr>
+        <tr><td>der Großteil <span class="rep">(Wiederholung)</span></td><td>the majority</td><td>Der größte Anteil von etwas Ganzem.</td><td>Ein Großteil der Rohstoffe erreicht die Werke per Schiff.</td></tr>
+        <tr><td>die Prognose <span class="rep">(Wiederholung)</span></td><td>forecast</td><td>Eine Einschätzung, wie sich etwas in der Zukunft entwickelt.</td><td>Eine neue Prognose zeigt die möglichen wirtschaftlichen Folgen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„das ist keine Kleinigkeit“</b> — Betonen, dass etwas eine ernsthafte, wichtige Angelegenheit ist.<br><i>Für die deutsche Wirtschaft ist das keine Kleinigkeit.</i></li>
+        <li><b>„Wenn …, steigen/geraten …“</b> — Eine Ursache-Wirkungs-Kette beschreiben.<br><i>Wenn Schiffe weniger laden können, steigen die Kosten sofort.</i></li>
+        <li><b>„Zwar …, doch …“</b> — Einen Punkt zunächst einräumen und ihm dann widersprechen.<br><i>Zwar haben sich viele Unternehmen eingestellt, doch der beste Plan ersetzt keine Infrastruktur.</i></li>
+        <li><b>„Klar ist aber: …“ <span class="rep">(Wiederholung)</span></b> — Nach einer Unsicherheit eine sichere Schlussfolgerung einleiten.<br><i>Klar ist aber: Niedrigwasser bleibt eine wiederkehrende Herausforderung.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv II für vorsichtige Prognosen:</b> Sätze wie <i>„könnte die Wertschöpfung … sinken“</i> nutzen den Konjunktiv II, um eine Möglichkeit statt einer sicheren Tatsache auszudrücken. In Wirtschaftsnachrichten ist das sehr üblich, weil Schätzungen und Prognosen naturgemäß unsicher sind.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„Zwar …, doch …“ als Gegensatzstruktur:</b> Mit <i>„Zwar haben sich viele Unternehmen eingestellt, doch selbst der beste Plan kann … nicht ersetzen“</i> räumt man zuerst etwas ein, bevor man einen Gegensatz formuliert. „Zwar“ steht dabei am Satzanfang, das Verb bleibt an zweiter Stelle — „doch“ leitet dann den eigentlichen Gegenpunkt ein.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum ist der Rhein für die deutsche Wirtschaft so wichtig?</li>
+          <li>Welche Branche ist laut Text besonders vom Niedrigwasser betroffen, und warum?</li>
+          <li>Wie hoch könnte laut Prognose der wirtschaftliche Schaden im dritten Quartal sein?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>unter Druck geraten</i>.</li>
+          <li>Schreibe einen Satz mit <i>sich einstellen auf</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Zwar …, doch …“.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Sollte der Staat mehr in Infrastruktur wie Wasserstraßen investieren, auch wenn das viel Geld kostet? Wie könnten Unternehmen sich noch besser auf Klimarisiken wie Niedrigwasser vorbereiten? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zur Niedrigwasserlage am Rhein und Warnungen der Chemieindustrie (VCI), Prognose des Kieler Instituts für Weltwirtschaft; Meldungen vom 5./6. August 2026 (u. a. Rhein-Zeitung, Badische Zeitung, t-online).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 20. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 20. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Deutschlands Wirtschaft: Vorsichtiger Aufschwung nach Jahren der Krise</h2>
+    <div class="card">
+      <p>Nach zwei schwierigen Jahren mit wirtschaftlichem Rückgang scheint sich die deutsche Wirtschaft 2026 endlich zu erholen. Wirtschaftsinstitute und die Bundesregierung rechnen für dieses Jahr mit einem Wachstum von etwa einem Prozent – kein spektakulärer Wert, aber immerhin ein klares Signal, dass sich der Trend gedreht hat. 2023 und 2024 steckte die größte Volkswirtschaft Europas noch in der Rezession, 2025 gab es nur ein minimales Plus.</p>
+      <p>Ganz sorgenfrei ist die Lage trotzdem nicht. Besonders die exportorientierten Branchen spüren den Gegenwind aus dem Ausland deutlich: Höhere Zölle der USA auf deutsche Produkte machen es Unternehmen schwerer, auf dem amerikanischen Markt konkurrenzfähig zu bleiben. Gleichzeitig wächst die Konkurrenz aus Asien, vor allem im Bereich Autos und Maschinenbau – zwei Branchen, auf die Deutschland traditionell besonders stolz ist.</p>
+      <p>Hinzu kommen geopolitische Risiken. Der Konflikt im Nahen Osten hat die Ölpreise steigen lassen, was wiederum die Produktionskosten in vielen Industriezweigen erhöht. Ökonomen warnen, dass ein weiterer Anstieg der Energiepreise die zarte Erholung schnell wieder ausbremsen könnte.</p>
+      <p>Trotzdem gibt es auch positive Signale. Die Binnennachfrage – also das, was die Deutschen selbst konsumieren und investieren – zieht langsam wieder an, unterstützt von sinkender Inflation und stabileren Löhnen. Auch staatliche Investitionsprogramme, die Infrastruktur und Digitalisierung vorantreiben sollen, könnten mittelfristig für zusätzliches Wachstum sorgen. Ob sich diese Investitionen langfristig auszahlen, wird sich erst in den kommenden Jahren zeigen.</p>
+      <p>Ob sich der vorsichtige Optimismus am Ende bestätigt, hängt also von vielen Faktoren ab, auf die Deutschland selbst nur begrenzt Einfluss hat. Klar ist aber: Nach den harten Krisenjahren wäre schon ein stabiles, wenn auch bescheidenes Wachstum ein wichtiger Etappensieg für die deutsche Wirtschaft.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Rückgang</td><td>decline, downturn</td><td>Wenn etwas kleiner oder weniger wird.</td><td>Nach dem Rückgang der letzten Jahre erholt sich die Wirtschaft langsam.</td></tr>
+        <tr><td>sich erholen</td><td>to recover</td><td>Nach einer schwierigen Zeit wieder besser werden.</td><td>Die deutsche Wirtschaft erholt sich 2026 nur langsam.</td></tr>
+        <tr><td>der Gegenwind</td><td>headwind (fig.)</td><td>Schwierige äußere Umstände, die etwas erschweren.</td><td>Exportfirmen spüren deutlichen Gegenwind aus dem Ausland.</td></tr>
+        <tr><td>konkurrenzfähig</td><td>competitive</td><td>Fähig, mit anderen erfolgreich zu konkurrieren.</td><td>Höhere Zölle machen es schwerer, konkurrenzfähig zu bleiben.</td></tr>
+        <tr><td>die Binnennachfrage</td><td>domestic demand</td><td>Das, was im eigenen Land konsumiert und investiert wird.</td><td>Die Binnennachfrage zieht langsam wieder an.</td></tr>
+        <tr><td>ausbremsen</td><td>to slow down, put the brakes on</td><td>Eine positive Entwicklung stoppen oder verlangsamen.</td><td>Steigende Energiepreise könnten die Erholung ausbremsen.</td></tr>
+        <tr><td>der Etappensieg</td><td>an interim victory</td><td>Ein Teilerfolg auf dem Weg zu einem größeren Ziel.</td><td>Ein stabiles Wachstum wäre schon ein wichtiger Etappensieg.</td></tr>
+        <tr><td>bescheiden</td><td>modest</td><td>Nicht groß oder auffällig, aber solide.</td><td>Ein bescheidenes Wachstum ist besser als eine Rezession.</td></tr>
+        <tr><td>vorantreiben <span class="rep">(Wiederholung)</span></td><td>to drive forward, push ahead</td><td>Eine Entwicklung aktiv beschleunigen.</td><td>Investitionsprogramme sollen Infrastruktur und Digitalisierung vorantreiben.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Ob sich die Investitionen auszahlen, zeigt sich erst später.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„kein spektakulärer Wert, aber immerhin …“</b> — Etwas relativieren und trotzdem eine positive Seite betonen.<br><i>Ein Prozent Wachstum ist kein spektakulärer Wert, aber immerhin ein positives Signal.</i></li>
+        <li><b>„Hinzu kommen …“</b> — Einen weiteren Faktor oder ein zusätzliches Problem einführen.<br><i>Hinzu kommen geopolitische Risiken wie der Konflikt im Nahen Osten.</i></li>
+        <li><b>„… hängt von vielen Faktoren ab“</b> — Erklären, dass etwas von mehreren Bedingungen abhängt.<br><i>Ob der Aufschwung anhält, hängt von vielen Faktoren ab.</i></li>
+        <li><b>„nur begrenzt Einfluss haben auf …“</b> — Sagen, dass man eine Situation kaum kontrollieren kann.<br><i>Deutschland hat auf die Ölpreise nur begrenzt Einfluss.</i></li>
+        <li><b>„Klar ist aber: …“</b> <span class="rep">(Wiederholung)</span> — Nach einer Unsicherheit eine sichere Schlussfolgerung einleiten.<br><i>Klar ist aber: Ein stabiles Wachstum wäre schon ein Erfolg.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv II zur vorsichtigen Bewertung:</b> Formen wie <i>„wäre schon ein wichtiger Etappensieg“</i> oder <i>„könnten … für Wachstum sorgen“</i> nutzen den Konjunktiv II, um eine Einschätzung vorsichtig statt als feste Tatsache zu formulieren. Das ist typisch für Wirtschaftstexte, in denen vieles noch unsicher ist.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Relativsätze mit erweiterten Informationen:</b> Der Satz <i>„staatliche Investitionsprogramme, die Infrastruktur und Digitalisierung vorantreiben sollen“</i> hängt eine Zusatzinformation mit einem Relativsatz an das Nomen an. Das Verb steht dabei am Ende des Nebensatzes — eine sehr häufige Struktur, um Sätze zu verdichten, ohne einen neuen Hauptsatz zu beginnen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie hoch ist das erwartete Wirtschaftswachstum Deutschlands für 2026?</li>
+          <li>Welche zwei außenwirtschaftlichen Probleme belasten laut Text die deutschen Exportunternehmen?</li>
+          <li>Was versteht man unter „Binnennachfrage“?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich erholen</i>.</li>
+          <li>Schreibe einen Satz mit <i>konkurrenzfähig</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Hinzu kommt, dass …“.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Sollte sich Deutschland stärker auf die Binnennachfrage konzentrieren, oder bleibt der starke Exportfokus weiterhin der richtige Weg? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Deutsche Bundesbank, Monatsbericht zur deutschen Wirtschaft; Statista, Konjunktur in Deutschland — Stand August 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

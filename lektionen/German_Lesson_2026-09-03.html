@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 3. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 3. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Sechs von zehn: Die Bahn kämpft um ihre Pünktlichkeit</h2>
+    <div class="card">
+      <p>Wer in Deutschland regelmäßig mit dem Zug zur Arbeit fährt, kennt den Satz aus dem Lautsprecher fast auswendig: „Aufgrund einer Verzögerung im Betriebsablauf verspätet sich dieser Zug um voraussichtlich zwanzig Minuten.“ Für viele Pendlerinnen und Pendler gehört das inzwischen zum Alltag — und für Geschäftsreisende bedeutet es, dass sie einen Termin lieber eine Stunde großzügiger planen.</p>
+      <p>Die neue Bahnchefin Evelyn Palla hat deshalb ein Ziel ausgegeben, das erstaunlich bescheiden klingt: Mindestens 60 Prozent der Fernzüge sollen 2026 pünktlich ankommen. Anders gesagt: Vier von zehn ICE dürfen zu spät sein, und das gilt schon als Fortschritt. In den vergangenen Monaten war nämlich fast jeder zweite Fernzug verspätet. An dem Regierungsziel von 70 Prozent bis Ende 2029 hält die Bahn dennoch fest.</p>
+      <p>Woran liegt es? Die Bahn verweist vor allem auf zwei Ursachen. Erstens auf das marode Schienennetz, das seit Jahrzehnten zu wenig Geld bekommen hat und nun in großem Umfang saniert werden muss. Zweitens auf die überlasteten Knotenpunkte: In Städten wie Köln, Frankfurt oder Hamburg treffen so viele Züge aufeinander, dass sich schon eine kleine Verspätung durch das halbe Land fortpflanzt. Hinzu kommen die zahlreichen Baustellen, die kurzfristig zwar für Ärger sorgen, langfristig aber unvermeidlich sind.</p>
+      <p>Kritiker halten dagegen, dass die Bahn ihre Zahlen zu freundlich rechnet. Als pünktlich gilt ein Zug nämlich schon dann, wenn er weniger als sechs Minuten Verspätung hat — verpasste Anschlüsse tauchen in dieser Statistik gar nicht auf. Ob die Sanierung des Netzes am Ende wirklich zu spürbar besseren Reisen führt, bleibt abzuwarten. Fest steht nur: Wer 2026 in Deutschland einen wichtigen Termin hat, nimmt weiterhin lieber einen Zug früher.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Verspätung</td><td>delay</td><td>Die Zeit, die jemand oder etwas zu spät ist.</td><td>Der Zug hatte heute zwanzig Minuten Verspätung.</td></tr>
+        <tr><td>der Pendler / die Pendlerin</td><td>commuter</td><td>Jemand, der regelmäßig zur Arbeit in eine andere Stadt fährt.</td><td>Für viele Pendler gehören Verspätungen zum Alltag.</td></tr>
+        <tr><td>der Knotenpunkt</td><td>hub, junction</td><td>Ein Ort, an dem viele Verbindungen zusammentreffen.</td><td>Frankfurt ist einer der wichtigsten Knotenpunkte im Netz.</td></tr>
+        <tr><td>marode</td><td>dilapidated, run-down</td><td>Alt und in sehr schlechtem Zustand.</td><td>Das marode Schienennetz muss dringend saniert werden.</td></tr>
+        <tr><td>sanieren</td><td>to renovate, overhaul</td><td>Etwas Kaputtes gründlich reparieren und erneuern.</td><td>Die Strecke wird bis 2028 komplett saniert.</td></tr>
+        <tr><td>überlastet</td><td>overloaded, overstretched</td><td>So stark benutzt, dass die Kapazität nicht mehr reicht.</td><td>Die Knotenpunkte sind seit Jahren überlastet.</td></tr>
+        <tr><td>der Anschluss</td><td>connection (train)</td><td>Der nächste Zug, in den man umsteigen möchte.</td><td>Wegen der Verspätung habe ich meinen Anschluss verpasst.</td></tr>
+        <tr><td>unvermeidlich</td><td>unavoidable, inevitable</td><td>Etwas, das man nicht verhindern kann.</td><td>Die Baustellen sind lästig, aber unvermeidlich.</td></tr>
+        <tr><td>an etwas festhalten <span class="rep">(Wiederholung)</span></td><td>to stick to something</td><td>Einen Plan oder ein Ziel nicht aufgeben.</td><td>Die Bahn hält an ihrem Ziel für 2029 fest.</td></tr>
+        <tr><td>abzuwarten bleiben <span class="rep">(Wiederholung)</span></td><td>to remain to be seen</td><td>Man weiß es noch nicht, die Zukunft zeigt es.</td><td>Ob die Sanierung hilft, bleibt abzuwarten.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Woran liegt es?“</b> — Nach der Ursache eines Problems fragen; sehr häufig im Gespräch und in Meetings.<br><i>Die Zahlen sind schlechter geworden. Woran liegt es?</i></li>
+        <li><b>„Anders gesagt: …“</b> — Etwas noch einmal einfacher oder deutlicher formulieren.<br><i>Anders gesagt: Vier von zehn Zügen dürfen zu spät sein.</i></li>
+        <li><b>„Kritiker halten dagegen, dass …“</b> — Eine Gegenposition höflich und sachlich einführen.<br><i>Kritiker halten dagegen, dass die Zahlen zu freundlich gerechnet sind.</i></li>
+        <li><b>„Hinzu kommt, dass …“</b> — Ein weiteres Argument ergänzen.<br><i>Hinzu kommt, dass viele Baustellen gleichzeitig laufen.</i></li>
+        <li><b>„Fest steht nur: …“</b> — Nach vielen Unsicherheiten das eine Sichere benennen.<br><i>Fest steht nur: Man sollte großzügiger planen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Der Relativsatz mit „das/die/der“ + Nebensatz:</b> Im Text steht <i>„das marode Schienennetz, das seit Jahrzehnten zu wenig Geld bekommen hat“</i>. Das Relativpronomen richtet sich im Geschlecht und in der Zahl nach dem Bezugswort (<i>das Netz → das</i>), im Fall aber nach seiner Rolle im Nebensatz. Und wie immer im Nebensatz: Das Verb wandert ans Ende. Diese Struktur ist Gold wert, wenn man zwei Informationen in einem Satz verbinden will, statt zweimal kurz und abgehackt zu sprechen.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„Als … gelten“ statt „sein“:</b> Sätze wie <i>„das gilt schon als Fortschritt“</i> oder <i>„als pünktlich gilt ein Zug schon dann, wenn …“</i> drücken aus, wie etwas allgemein bewertet oder definiert wird — nicht unbedingt, wie es objektiv ist. Im Beruf klingt das angenehm vorsichtig: <i>„Das Projekt gilt intern als schwierig“</i> ist diplomatischer als <i>„Das Projekt ist schwierig“</i>.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Welches Pünktlichkeitsziel hat die Bahn für 2026 ausgegeben, und welches gilt bis 2029?</li>
+          <li>Welche zwei Hauptursachen nennt die Bahn für die vielen Verspätungen?</li>
+          <li>Warum finden Kritiker die Pünktlichkeitsstatistik zu freundlich?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>überlastet</i> — über die Arbeit oder den Verkehr.</li>
+          <li>Schreibe einen Satz nach dem Muster „Hinzu kommt, dass …“.</li>
+          <li>Schreibe einen Satz mit <i>gelten als</i>, um etwas vorsichtig zu bewerten.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Erzähle von deiner schlimmsten Erfahrung mit Verspätungen — Zug, Flugzeug oder Stau. Wie hast du reagiert, und was würdest du heute anders planen? Nutze dabei mindestens zwei neue Wörter aus dieser Lektion.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zur Pünktlichkeit der Deutschen Bahn und zu den Zielen von Bahnchefin Evelyn Palla für 2026 (u. a. Deutsche Börse / dpa-Meldung „Bahn: 60 Prozent der Fernzüge sollen 2026 pünktlich sein“, Bahnblogstelle, Statista).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

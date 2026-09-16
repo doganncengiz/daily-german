@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 12. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 12. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Pokalmagie: Kleine Vereine träumen vom großen Coup</h2>
+    <div class="card">
+      <p>Jedes Jahr im August beginnt in Deutschland die erste Runde des DFB-Pokals, und jedes Jahr hoffen Amateur- und Zweitligavereine auf das große Losglück. In dieser Saison hat es besonders zwei Underdogs erwischt: Der Zweitligist VfL Osnabrück trifft auf den Titelverteidiger FC Bayern München, und der Hamburger Amateurclub HEBC empfängt Borussia Dortmund. Für beide kleinen Vereine ist das ein Highlight, das sie so schnell nicht vergessen werden.</p>
+      <p>Das Spiel zwischen Osnabrück und Bayern findet am 2. September auf der Bremer Brücke statt und wird live im Fernsehen übertragen. Der Ticketverkauf lief so gut, dass viele Fans leer ausgingen. Für die Osnabrücker Spieler, die im Alltag oft neben dem Fußball noch einen Beruf ausüben, ist die Partie gegen die Bayern-Stars ein einmaliges Erlebnis.</p>
+      <p>Genau das macht den DFB-Pokal in Deutschland so beliebt: Anders als in der Liga kann hier theoretisch jeder Verein jeden schlagen. Immer wieder gelingt es Amateurteams, einen Bundesligisten aus dem Wettbewerb zu werfen — solche Überraschungen nennt man in Deutschland liebevoll „Pokalmagie". Fans lieben genau diese Unberechenbarkeit, weil sie an die Anfänge des Fußballs erinnert, als Geld noch keine so große Rolle spielte.</p>
+      <p>Natürlich rechnen sich die kleinen Vereine reelle Chancen kaum aus. Trotzdem sagen viele Spieler und Trainer vor solchen Spielen: Man müsse einfach an einem einzigen Abend über sich hinauswachsen und auf einen Fehler des Favoriten hoffen. Ob das gegen die Bayern-Mannschaft gelingt, bleibt abzuwarten. Sicher ist aber: Ganz Osnabrück wird an diesem Abend vor dem Fernseher sitzen und mitfiebern.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Titelverteidiger</td><td>defending champion</td><td>Der Verein, der den Titel im letzten Jahr gewonnen hat.</td><td>Der VfL Osnabrück trifft auf den Titelverteidiger FC Bayern München.</td></tr>
+        <tr><td>empfangen</td><td>to host (a team)</td><td>Im Sport: als Gastgeber gegen einen anderen Verein spielen.</td><td>Der Hamburger Amateurclub HEBC empfängt Borussia Dortmund.</td></tr>
+        <tr><td>leer ausgehen</td><td>to end up empty-handed</td><td>Nichts von dem bekommen, was man wollte.</td><td>Beim Ticketverkauf gingen viele Fans leer aus.</td></tr>
+        <tr><td>einen Beruf ausüben</td><td>to practice a profession</td><td>Eine berufliche Tätigkeit regelmäßig machen.</td><td>Viele Osnabrücker Spieler üben neben dem Fußball noch einen Beruf aus.</td></tr>
+        <tr><td>einmalig</td><td>unique, one-of-a-kind</td><td>Etwas, das es so nur einmal gibt.</td><td>Die Partie gegen die Bayern-Stars ist ein einmaliges Erlebnis.</td></tr>
+        <tr><td>die Unberechenbarkeit</td><td>unpredictability</td><td>Wenn man nicht vorhersagen kann, was passiert.</td><td>Die Fans lieben die Unberechenbarkeit des Pokals.</td></tr>
+        <tr><td>über sich hinauswachsen</td><td>to rise above oneself, exceed expectations</td><td>Plötzlich mehr leisten, als man normalerweise kann.</td><td>Die kleinen Vereine müssen über sich hinauswachsen, um zu gewinnen.</td></tr>
+        <tr><td>abzuwarten bleiben</td><td>to remain to be seen</td><td>Man weiß es noch nicht, die Zukunft zeigt es.</td><td>Ob der Außenseiter gewinnt, bleibt abzuwarten.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Ob sich der Mut der kleinen Vereine auszahlt, zeigt sich erst im Spiel.</td></tr>
+        <tr><td>bemerkenswert <span class="rep">(Wiederholung)</span></td><td>remarkable, noteworthy</td><td>So auffällig, dass es besondere Aufmerksamkeit verdient.</td><td>Der Erfolg von Amateurteams gegen Bundesligisten gilt als bemerkenswert.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Anders als …, kann hier …"</b> — Einen Gegensatz zu einer anderen Situation herstellen.<br><i>Anders als in der Liga kann hier theoretisch jeder Verein jeden schlagen.</i></li>
+        <li><b>„Genau das macht … so beliebt."</b> — Erklären, warum etwas bei vielen Menschen gut ankommt.<br><i>Genau das macht den DFB-Pokal in Deutschland so beliebt.</i></li>
+        <li><b>„Ob …, bleibt abzuwarten."</b> — Eine offene Frage der Zukunft überlassen.<br><i>Ob das gegen die Bayern-Mannschaft gelingt, bleibt abzuwarten.</i></li>
+        <li><b>„Sicher ist aber: …"</b> — Nach einer Unsicherheit eine feste Aussage einleiten.<br><i>Sicher ist aber: Ganz Osnabrück wird mitfiebern.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv I in indirekter Rede:</b> Der Satz <i>„Man müsse einfach über sich hinauswachsen"</i> gibt wieder, was Spieler und Trainer gesagt haben — ohne direktes Zitat. Deutsche Zeitungs- und Nachrichtentexte nutzen dafür oft den Konjunktiv I (müsse statt muss), um zu zeigen: Das ist eine fremde Aussage, keine eigene Tatsachenbehauptung.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Trennbare Verben:</b> Wörter wie <i>leer ausgehen</i>, <i>einen Beruf ausüben</i> oder <i>hinauswachsen</i> bestehen aus Präfix + Grundverb. Im Hauptsatz wandert das Präfix ans Satzende: <i>„Viele Fans gingen leer aus."</i> Das ist ein typisches Muster im Deutschen, das beim Sprechen oft für Verwirrung sorgt, weil man das Verb erst am Satzende komplett versteht.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Gegen welchen Bundesligisten spielt der VfL Osnabrück in der ersten Pokalrunde?</li>
+          <li>Wo und wann findet das Spiel zwischen Osnabrück und Bayern statt?</li>
+          <li>Warum ist der DFB-Pokal bei den Fans in Deutschland so beliebt?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>leer ausgehen</i>.</li>
+          <li>Schreibe einen Satz mit <i>über sich hinauswachsen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Ob …, bleibt abzuwarten."</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Sollte man im Pokal weiterhin kleine Amateurvereine gegen große Bundesligisten spielen lassen, oder wäre es fairer, ähnlich starke Teams gegeneinander antreten zu lassen? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: DFB-Pokal 2026/27, 1. Runde — Terminierung VfL Osnabrück gegen FC Bayern München (u. a. vfl.de, DFB.de, sport.de), Stand August 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

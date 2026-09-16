@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 31. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 31. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Transfersommer 2026: Millionen-Wechsel in der Bundesliga</h2>
+    <div class="card">
+      <p>Seit dem 1. Juli ist das Transferfenster in der Fußball-Bundesliga wieder geöffnet, und in diesem Sommer geht es besonders turbulent zu. Borussia Dortmund musste einen schmerzhaften Abschied hinnehmen: Offensivspieler Karim Adeyemi verlässt den BVB nach vier Jahren und wechselt zum spanischen Meister FC Barcelona. Der 24-Jährige hat in Katalonien einen Vertrag bis 2031 unterschrieben. Die Ablöse soll sich auf rund 22 Millionen Euro plus mehrere Millionen Euro an Bonuszahlungen belaufen. Als Ersatz ist offenbar der erst 18-jährige Grieche Konstantinos Karetsas vorgesehen, der vom belgischen Klub KRC Genk kommen soll.</p>
+      <p>Auch bei RB Leipzig herrscht Aufregung. Nachwuchsstar Yan Diomande soll für über 100 Millionen Euro zu Real Madrid wechseln — ein Angebot, das Leipzig eigentlich ablehnen wollte, um den ivorischen Flügelspieler noch mindestens eine Saison zu halten. Schon während der Weltmeisterschaft hatte der Verein ein ähnlich hohes Angebot des FC Liverpool abgelehnt, doch gegen die spanische Offerte konnte sich der Klub offenbar nicht wehren.</p>
+      <p>Auch kleinere Vereine sind aktiv: Der Hamburger SV hat mit Patson Daka einen erfahrenen Stürmer ablösefrei aus England verpflichtet, um die Lücke nach mehreren Abgängen zu schließen. Beim FC Schalke 04 wiederum steht der österreichische Nationalspieler Maximilian Wöber vor einem Wechsel — ebenfalls ablösefrei, nachdem sein Vertrag in England aufgelöst wurde.</p>
+      <p>Für die Fans bedeutet das: Bis zum Ende des Transferfensters Anfang September bleibt es spannend. Welche Mannschaft sich am besten verstärkt hat, wird sich erst zeigen, wenn die neue Saison Ende August beginnt.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Ablöse</td><td>transfer fee</td><td>Das Geld, das ein Verein für einen Spieler an einen anderen Verein zahlt.</td><td>Die Ablöse soll sich auf 22 Millionen Euro belaufen.</td></tr>
+        <tr><td>sich belaufen auf</td><td>to amount to</td><td>Einen bestimmten Betrag oder Wert erreichen.</td><td>Die Summe soll sich auf über 100 Millionen Euro belaufen.</td></tr>
+        <tr><td>verpflichten</td><td>to sign (a player)</td><td>Einen Spieler offiziell für den eigenen Verein gewinnen.</td><td>Der HSV hat Patson Daka ablösefrei verpflichtet.</td></tr>
+        <tr><td>ablösefrei</td><td>on a free transfer</td><td>Ein Wechsel, für den kein Geld an den alten Verein gezahlt wird.</td><td>Wöber wechselt ablösefrei zu Schalke.</td></tr>
+        <tr><td>der Ersatz</td><td>replacement</td><td>Jemand, der die Stelle einer anderen Person einnimmt.</td><td>Karetsas ist als Ersatz für Adeyemi vorgesehen.</td></tr>
+        <tr><td>die Offerte</td><td>offer, bid</td><td>Ein Angebot, meistens im geschäftlichen Zusammenhang.</td><td>Gegen die spanische Offerte konnte sich Leipzig nicht wehren.</td></tr>
+        <tr><td>sich wehren gegen</td><td>to resist, to fight against</td><td>Sich gegen etwas widersetzen, das man eigentlich nicht will.</td><td>Der Verein konnte sich gegen das hohe Angebot nicht wehren.</td></tr>
+        <tr><td>die Lücke schließen <span class="rep">(Wiederholung)</span></td><td>to close a gap</td><td>Etwas Fehlendes ersetzen, meist nach einem Verlust.</td><td>Daka soll die Lücke nach mehreren Abgängen schließen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„zu [Verein] wechseln"</b> — Den Vereinswechsel eines Spielers beschreiben.<br><i>Adeyemi wechselt zum FC Barcelona.</i></li>
+        <li><b>„… soll sich auf … belaufen"</b> — Eine noch unbestätigte Summe nennen.<br><i>Die Ablöse soll sich auf 22 Millionen Euro belaufen.</i></li>
+        <li><b>„als Ersatz für … vorgesehen sein"</b> — Erklären, wer eine frei gewordene Position übernehmen soll.<br><i>Karetsas ist als Ersatz für Adeyemi vorgesehen.</i></li>
+        <li><b>„vor einem Wechsel stehen"</b> — Sagen, dass ein Wechsel kurz bevorsteht, aber noch nicht offiziell ist.<br><i>Wöber steht kurz vor einem Wechsel zu Schalke.</i></li>
+        <li><b>„sich gegen etwas nicht wehren können"</b> — Ausdrücken, dass man einem Angebot oder Druck nachgeben muss.<br><i>Gegen die hohe Offerte konnte sich der Klub nicht wehren.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„sollen" für unbestätigte Informationen:</b> Sätze wie <i>„Die Ablöse soll sich auf 22 Millionen Euro belaufen"</i> nutzen <i>sollen</i> nicht als Aufforderung, sondern um zu zeigen, dass eine Information aus Medienberichten stammt und noch nicht offiziell bestätigt ist. Das ist typisch für Nachrichtentexte, besonders im Sport und in der Wirtschaft.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„um … zu" — Finalsätze (Zweck):</b> Konstruktionen wie <i>„um die Lücke nach mehreren Abgängen zu schließen"</i> erklären den Zweck einer Handlung. Der Infinitivsatz mit <i>um … zu</i> steht immer am Satzende und antwortet auf die Frage „Wozu?" oder „Mit welchem Ziel?".</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Zu welchem Verein wechselt Karim Adeyemi, und wie hoch soll die Ablöse sein?</li>
+          <li>Warum wollte RB Leipzig Yan Diomande eigentlich nicht verkaufen?</li>
+          <li>Wie hat der Hamburger SV seinen neuen Stürmer Patson Daka verpflichtet — mit oder ohne Ablöse?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich belaufen auf</i>.</li>
+          <li>Schreibe einen Satz mit <i>ablösefrei</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „als Ersatz für … vorgesehen sein".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was hältst du von den sehr hohen Ablösesummen im Profifußball — sind 100 Millionen Euro für einen Spieler gerechtfertigt, oder sollte es eine Obergrenze geben? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Transferticker Fußball-Bundesliga, news.de/dpa, Meldungen vom 22.–28. Juli 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 25. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 25. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Endlich wieder Bundesliga: Der Saisonstart 2026/27</h2>
+    <div class="card">
+      <p>Endlich ist es wieder so weit: Am Freitagabend startet die Fußball-Bundesliga in die Saison 2026/27, und ganz Deutschland blickt gespannt auf den Anstoß. Titelverteidiger FC Bayern München empfängt zum Auftakt den VfB Stuttgart — ein Duell, das schon in den letzten Jahren für spannende Spiele gesorgt hat. Anstoß ist um 20:30 Uhr, und viele Fans werden das Eröffnungsspiel gemeinsam in Kneipen, auf öffentlichen Plätzen oder zu Hause vor dem Fernseher verfolgen.</p>
+      <p>Diese Saison beginnt allerdings etwas später als sonst. Grund dafür ist die Fußball-Weltmeisterschaft 2026, die im Sommer in den USA, in Kanada und in Mexiko ausgetragen wurde. Damit sich Spieler und Vereine nach dem Turnier erholen konnten, verschob der Deutsche Fußball-Bund den Saisonstart um mehrere Wochen nach hinten. Die 2. Bundesliga ist dagegen schon Anfang August gestartet, drei Wochen früher als die erste Liga.</p>
+      <p>Vor dem eigentlichen Ligastart gab es bereits erste sportliche Highlights: Der DFB-Pokal wurde in der ersten Runde ausgetragen, und im Supercup trafen der deutsche Meister und der Pokalsieger aufeinander. Solche Vorbereitungsspiele gelten oft als erster Stimmungstest für die neue Saison.</p>
+      <p>Insgesamt kämpfen in dieser Spielzeit wieder 18 Mannschaften um die Meisterschaft. Nach 14 Spieltagen folgt Ende Dezember die traditionelle Winterpause, bevor die Liga im Januar in die Rückrunde startet. Der letzte Spieltag ist für Ende Mai 2027 angesetzt — kurz vor dem DFB-Pokal-Finale.</p>
+      <p>Für viele Fans bedeutet der Saisonstart nicht nur Fußball, sondern auch ein Stück Alltagsroutine: das Stadion am Wochenende, die Konferenz im Radio, die Diskussion mit Kollegen über das Spiel. Ob Bayern erneut Meister wird oder ein anderes Team überraschen kann, bleibt bis zum letzten Spieltag spannend.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Anstoß</td><td>kickoff</td><td>Der Moment, in dem ein Fußballspiel beginnt.</td><td>Der Anstoß ist um 20:30 Uhr.</td></tr>
+        <tr><td>der Titelverteidiger</td><td>defending champion</td><td>Die Mannschaft, die im letzten Jahr Meister wurde.</td><td>Titelverteidiger FC Bayern empfängt zum Auftakt Stuttgart.</td></tr>
+        <tr><td>verschieben</td><td>to postpone, shift</td><td>Einen Termin auf einen anderen Zeitpunkt legen.</td><td>Der Verband verschob den Saisonstart um mehrere Wochen.</td></tr>
+        <tr><td>austragen</td><td>to hold, stage (an event)</td><td>Eine Veranstaltung oder ein Turnier durchführen.</td><td>Die Weltmeisterschaft wurde in drei Ländern ausgetragen.</td></tr>
+        <tr><td>die Meisterschaft</td><td>championship</td><td>Der Wettbewerb um den ersten Platz in der Liga.</td><td>18 Mannschaften kämpfen um die Meisterschaft.</td></tr>
+        <tr><td>die Winterpause</td><td>winter break</td><td>Eine Spielpause im Dezember und Januar.</td><td>Nach 14 Spieltagen beginnt die Winterpause.</td></tr>
+        <tr><td>die Rückrunde</td><td>second half of the season</td><td>Der zweite Teil der Saison nach der Winterpause.</td><td>Im Januar startet die Liga in die Rückrunde.</td></tr>
+        <tr><td>der Stimmungstest</td><td>mood/form test</td><td>Ein erster Eindruck davon, wie gut ein Team gerade spielt.</td><td>Das Vorbereitungsspiel gilt als erster Stimmungstest.</td></tr>
+        <tr><td>sich erholen <span class="rep">(Wiederholung)</span></td><td>to recover</td><td>Wieder zu Kräften kommen, sich ausruhen.</td><td>Die Spieler sollten sich nach dem Turnier erholen.</td></tr>
+        <tr><td>gespannt sein auf <span class="rep">(Wiederholung)</span></td><td>to look forward to, be curious about</td><td>Neugierig und erwartungsvoll auf etwas warten.</td><td>Ganz Deutschland ist gespannt auf den Saisonstart.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Endlich ist es wieder so weit.“</b> — Vorfreude auf etwas Wiederkehrendes ausdrücken.<br><i>Endlich ist es wieder so weit: Die Bundesliga startet.</i></li>
+        <li><b>„Grund dafür ist …“</b> — Eine Erklärung oder Ursache einleiten.<br><i>Grund dafür ist die Fußball-Weltmeisterschaft im Sommer.</i></li>
+        <li><b>„… gilt oft als …“</b> — Eine allgemeine Einschätzung wiedergeben.<br><i>Das Vorbereitungsspiel gilt oft als erster Stimmungstest.</i></li>
+        <li><b>„bleibt spannend, ob …“</b> — Eine offene Frage über die Zukunft formulieren.<br><i>Es bleibt spannend, ob Bayern erneut Meister wird.</i></li>
+        <li><b>„nicht nur …, sondern auch …“</b> — Zwei Aspekte einer Sache gleichzeitig hervorheben.<br><i>Der Saisonstart bedeutet nicht nur Fußball, sondern auch Alltagsroutine.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv im Präteritum:</b> Sätze wie <i>„die Weltmeisterschaft, die … ausgetragen wurde“</i> oder <i>„der DFB-Pokal wurde … ausgetragen“</i> nutzen das Passiv in der Vergangenheit. In Sport- und Nachrichtentexten ist das sehr häufig, weil das Ereignis im Mittelpunkt steht — und nicht, wer es konkret veranstaltet hat.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Temporale Nebensätze mit „bevor“:</b> Der Satz <i>„… bevor die Liga im Januar in die Rückrunde startet“</i> zeigt, wie man zwei Ereignisse zeitlich miteinander verbindet. „Bevor“ leitet dabei den Nebensatz ein und beschreibt, was zeitlich später passiert — nützlich, um Abläufe klar zu strukturieren.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum beginnt die Bundesliga-Saison 2026/27 später als sonst?</li>
+          <li>Wer spielt im Eröffnungsspiel der neuen Saison gegeneinander?</li>
+          <li>Wie viele Mannschaften kämpfen in dieser Saison um die Meisterschaft?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich erholen</i>.</li>
+          <li>Schreibe einen Satz mit <i>verschieben</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Grund dafür ist …“.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Erzähl: Verfolgst du Fußball oder eine andere Sportart regelmäßig? Was gefällt dir besonders am Saisonstart oder an großen Sportereignissen?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Rahmenterminkalender der DFL für die Saison 2026/27, Meldungen von DFB und DFL (Stand: August 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

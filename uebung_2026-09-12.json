@@ -1,0 +1,31 @@
+{
+"mc":[
+ {"q":"Warum ist der aktuelle Füllstand der Gasspeicher ungewöhnlich?",
+  "o":["Weil er höher liegt als im Vorjahr.",
+       "Weil er der niedrigste seit Beginn der Aufzeichnungen vor 15 Jahren ist.",
+       "Weil die Speicher technisch nicht mehr als 54 Prozent aufnehmen können."],
+  "c":1,
+  "why":"So wenig Gas war Anfang September noch nie gespeichert. Im Vorjahr waren es 71 Prozent — also deutlich <i>mehr</i>, nicht weniger."},
+ {"q":"Mit welchem Argument lehnt die Bundesregierung ein staatliches Eingreifen ab?",
+  "o":["Deutschland hat eigene LNG-Terminals und kann Gas nachkaufen.",
+       "Der Winter wird nach allen Prognosen mild.",
+       "Die Gaspreise sind derzeit besonders niedrig."],
+  "c":0,
+  "why":"Das ist der Unterschied zu 2022: eigene Terminals für Flüssiggas. Die Preise sind im Gegenteil <b>hoch</b> — und ein milder Winter ist nur eines von mehreren Szenarien."},
+ {"q":"Warum lohnt sich das alte Geschäftsmodell der Gashändler im Moment nicht mehr?",
+  "o":["Weil der Staat den Handel mit Gas untersagt hat.",
+       "Weil die Preise auch im Sommer so hoch sind, dass sich Einkauf und Speicherung kaum rentieren.",
+       "Weil die Speicheranlagen technisch veraltet sind."],
+  "c":1,
+  "why":"„Im Sommer billig kaufen, im Winter teuer verkaufen“ funktioniert nur bei einem Preisunterschied. Der fehlt gerade — deshalb füllt niemand freiwillig auf."}
+],
+"schreib":[
+ "Unsere Abteilung <b>verfügt</b> inzwischen <b>über</b> ein eigenes Budget für Weiterbildung.",
+ "Ob wir den Termin halten, <b>hängt vor allem von</b> der Zulieferung <b>ab</b>.",
+ "<b>Steigen</b> die Preise weiter, sparen die Leute beim Heizen. <span class=\"hint\">(Verb auf Position 1 statt „wenn“)</span>"
+],
+"sprech":{
+ "phrases":["Dafür spricht, dass …","Dagegen spricht allerdings, dass …",
+            "Überzeugender finde ich am Ende das Argument, dass …","Man muss unterscheiden zwischen … und …"],
+ "modell":"<b>Dafür spricht</b>, dass Energie keine normale Ware ist: Wer im Februar friert, kann nicht einfach den Anbieter wechseln. <b>Dagegen spricht allerdings</b>, dass der Staat als Käufer die Preise erst richtig nach oben treibt — die Händler wissen ja, dass er zu fast jedem Preis kaufen muss. <b>Überzeugender finde ich am Ende</b> eine Mischung: klare gesetzliche Mindestfüllstände, aber früh genug, damit der Staat nicht in Panik einkaufen muss."}
+}

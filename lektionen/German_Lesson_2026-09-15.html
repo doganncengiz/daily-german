@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 15. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 15. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">„Nur Karte, bitte“ — und trotzdem verschwindet das Bargeld nicht</h2>
+    <div class="card">
+      <p>Wer in Deutschland an der Kasse steht, kennt die Frage: „Bar oder mit Karte?“ Neu ist die Antwort. Nach der jüngsten Studie der Deutschen Bundesbank wurden 2025 zum ersten Mal mehr als die Hälfte aller alltäglichen Einkäufe bargeldlos bezahlt — 55 Prozent per Karte, Smartphone oder Uhr, nur noch 45 Prozent mit Scheinen und Münzen. Zwei Jahre zuvor lag der Bargeldanteil noch sechs Prozentpunkte höher.</p>
+      <p>Wer jetzt aber vom Ende des Bargelds spricht, greift zu kurz. Als einzelnes Zahlungsmittel bleibt Bargeld nämlich weiterhin die Nummer eins: Die Debitkarte, in Deutschland meist die Girocard, kommt lediglich auf 26 Prozent. Und bei Testkäufen der Bundesbank akzeptierten 99,4 Prozent der Geschäfte Bargeld — im Einzelhandel, in der Gastronomie und bei Dienstleistern. Schwieriger wird es vor allem an Selbstbedienungskassen und im Nahverkehr.</p>
+      <p>Auch in Restaurants und Cafés hat sich einiges getan. Eine Auswertung des Deutschen Sparkassen- und Giroverbands von über 70.000 Betrieben in den 101 größten Städten ergab: 89 Prozent bieten inzwischen Kartenzahlung an. Regional sind die Unterschiede allerdings groß. Während in Konstanz fast alle Restaurants eine Karte akzeptieren, ist in Ludwigshafen jeder dritte Betrieb mit Angabe ein reiner Bargeldladen. Und beim Imbiss um die Ecke sollte man ohnehin besser etwas Kleingeld dabeihaben.</p>
+      <p>Interessant ist, was die Befragten selbst sagen: 80 Prozent finden es wichtig, weiterhin bar bezahlen zu können — unabhängig davon, wie sie persönlich zahlen. Man möchte also die Wahl behalten, auch wenn man sie selten nutzt. Genau darauf zielt auch die EU: Neue Regeln sollen sicherstellen, dass Bargeld überall verfügbar bleibt, etwa wenn digitale Systeme einmal ausfallen. Beschlossen ist bisher nur eine Obergrenze von 10.000 Euro für Barzahlungen ab 2027. Unterm Strich verschwindet das Bargeld also nicht — es steht nur nicht mehr allein an der Kasse.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>an der Kasse</td><td>at the checkout / till</td><td>Die Stelle im Geschäft, an der man bezahlt.</td><td>An der Kasse wurde ich gefragt, ob ich bar zahle.</td></tr>
+        <tr><td>bargeldlos</td><td>cashless</td><td>Ohne Scheine und Münzen, also mit Karte oder Handy.</td><td>Ich zahle fast nur noch bargeldlos.</td></tr>
+        <tr><td>das Zahlungsmittel</td><td>means of payment</td><td>Alles, womit man etwas bezahlen kann.</td><td>Welches Zahlungsmittel akzeptieren Sie?</td></tr>
+        <tr><td>das Kleingeld</td><td>small change, coins</td><td>Münzen mit kleinem Wert, die man im Portemonnaie hat.</td><td>Hast du zufällig Kleingeld für den Einkaufswagen?</td></tr>
+        <tr><td>die Selbstbedienungskasse</td><td>self-checkout</td><td>Eine Kasse, an der man selbst scannt und bezahlt.</td><td>An der Selbstbedienungskasse geht es oft schneller.</td></tr>
+        <tr><td>die Obergrenze</td><td>upper limit, cap</td><td>Der höchste Wert, der noch erlaubt ist.</td><td>Ab 2027 gilt eine Obergrenze von 10.000 Euro.</td></tr>
+        <tr><td>sicherstellen</td><td>to ensure, guarantee</td><td>Dafür sorgen, dass etwas wirklich passiert.</td><td>Die EU will sicherstellen, dass Bargeld verfügbar bleibt.</td></tr>
+        <tr><td>ausfallen</td><td>to fail, break down; be cancelled</td><td>Nicht funktionieren oder nicht stattfinden.</td><td>Wenn das Kartensystem ausfällt, hilft nur Bargeld.</td></tr>
+        <tr><td>zu kurz greifen</td><td>to fall short, be too simplistic</td><td>Eine Erklärung, die das Wichtigste weglässt.</td><td>Diese Erklärung greift meiner Meinung nach zu kurz.</td></tr>
+        <tr><td>auf etwas verzichten <span class="rep">(Wiederholung)</span></td><td>to do without sth., give sth. up</td><td>Etwas bewusst nicht nutzen oder nicht haben wollen.</td><td>Ganz auf Bargeld verzichten möchten die wenigsten.</td></tr>
+        <tr><td>der Anteil <span class="rep">(Wiederholung)</span></td><td>share, proportion</td><td>Ein Teil von einem Ganzen, meist in Prozent.</td><td>Der Anteil der Kartenzahlungen steigt weiter.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Bar oder mit Karte?“ — „Mit Karte, bitte.“</b> — Der Standarddialog an jeder deutschen Kasse.<br><i>Zahlen Sie bar oder mit Karte? — Karte, bitte. Kontaktlos geht auch.</i></li>
+        <li><b>„Wer …, greift zu kurz.“</b> — Eine verbreitete Meinung höflich korrigieren.<br><i>Wer jetzt vom Ende des Bargelds spricht, greift zu kurz.</i></li>
+        <li><b>„Da hat sich einiges getan.“</b> — Sagen, dass sich vieles verändert hat.<br><i>Beim Bezahlen in Restaurants hat sich in den letzten Jahren einiges getan.</i></li>
+        <li><b>„unabhängig davon, ob/wie …“</b> — Etwas gilt in jedem Fall, egal wie die Umstände sind.<br><i>Unabhängig davon, wie sie selbst zahlen, wollen die meisten die Wahl behalten.</i></li>
+        <li><b>„Unterm Strich …“</b> — Ein Fazit ziehen (sehr häufig im Büro).<br><i>Unterm Strich verschwindet das Bargeld nicht, es bekommt nur Konkurrenz.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„Wer …, (der) …“ — der verallgemeinernde Relativsatz:</b> Sätze wie <i>„Wer in Deutschland an der Kasse steht, kennt die Frage“</i> oder <i>„Wer jetzt vom Ende des Bargelds spricht, greift zu kurz“</i> ersetzen ein umständliches „Jede Person, die …“. Das <i>wer</i> steht im Nominativ, das Verb kommt ans Satzende, und der Hauptsatz folgt direkt danach. Sehr typisch für Zeitungstexte und für Meinungsäußerungen im Gespräch.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Zahlen vergleichen: Prozent vs. Prozentpunkte:</b> Im Text heißt es <i>„sechs Prozentpunkte höher“</i> — nicht „sechs Prozent höher“. Der Unterschied zwischen 51 % und 45 % sind sechs <i>Prozentpunkte</i>. Nützlich sind außerdem <i>„kommt auf 26 Prozent“</i> (erreicht diesen Wert), <i>„lag bei 55 Prozent“</i> (war bei diesem Wert) und <i>„jeder dritte Betrieb“</i> (= ein Drittel). Diese drei Wendungen braucht man in fast jedem Meeting, in dem Zahlen vorkommen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum kann man trotz der 55 Prozent nicht sagen, dass Bargeld unwichtig geworden ist?</li>
+          <li>In welchen Situationen ist es laut Text schwieriger, bar zu bezahlen?</li>
+          <li>Was wollen 80 Prozent der Befragten — und warum ist das ein Unterschied zu ihrem eigenen Verhalten?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sicherstellen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Wer …, …“ über dein eigenes Fachgebiet.</li>
+          <li>Beschreibe in einem Satz mit <i>unterm Strich</i>, wie du persönlich am liebsten bezahlst.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, ein Café in deiner Nachbarschaft hängt ein Schild auf: „Nur Kartenzahlung“. Wie reagierst du? Erkläre in ein bis zwei Minuten, welche Vorteile das für den Betrieb hat und welche Menschen dadurch Probleme bekommen könnten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Bundesbank-Studie zum Zahlungsverhalten in Deutschland sowie Auswertung des Deutschen Sparkassen- und Giroverbands vom 3. September 2026 (Meldungen vom September 2026, u. a. Tagesspiegel, Münster Aktuell).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

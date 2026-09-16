@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 3. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 3. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Neue Kennzeichnungspflicht für KI-Inhalte in der EU</h2>
+    <div class="card">
+      <p>Seit dem 2. August 2026 gilt in der Europäischen Union eine neue Regel, die viele Unternehmen und auch ganz normale Nutzer betrifft: die Kennzeichnungspflicht für KI-generierte Inhalte. Ab sofort müssen Bilder, Texte und Töne, die von einer künstlichen Intelligenz erstellt wurden, deutlich als solche markiert werden. Wer sich nicht daran hält, muss mit empfindlichen Bußgeldern rechnen.</p>
+      <p>Betroffen sind vor allem Bereiche, in denen Menschen leicht getäuscht werden könnten. Dazu zählen etwa Chatbots im Kundenservice, die künftig offenlegen müssen, dass am anderen Ende keine echte Person sitzt. Auch sogenannte Deepfakes – täuschend echt wirkende Fotos, Videos oder Audiodateien – fallen unter die neue Vorschrift. Wer im Internet ein KI-generiertes Produktfoto veröffentlicht, muss dies künftig kenntlich machen. Mit dieser Regel treibt die EU ihre KI-Regulierung weiter voran, nachdem bereits im vergangenen Jahr strengere Vorgaben für besonders risikoreiche Anwendungen beschlossen wurden.</p>
+      <p>In Deutschland übernimmt die Bundesnetzagentur die zentrale Rolle bei der Umsetzung. Sie überwacht künftig die Einhaltung der EU-Verordnung und richtet gleichzeitig ein sogenanntes KI-Reallabor ein. In diesem geschützten Testraum sollen Unternehmen neue KI-Anwendungen unter behördlicher Aufsicht ausprobieren dürfen, ohne gleich das volle Risiko einer Marktveröffentlichung tragen zu müssen.</p>
+      <p>Wie eine aktuelle Studie zeigt, setzen bereits 63 Prozent der deutschen Unternehmen künstliche Intelligenz ein – deutlich mehr als im EU-Durchschnitt von 54 Prozent. Allerdings nutzt nur eine kleine Minderheit die Technologie wirklich transformativ; die meisten Firmen bleiben bislang bei einfachen Anwendungen wie Textzusammenfassungen oder automatisierten E-Mails.</p>
+      <p>Für Verbraucher bedeutet die neue Kennzeichnungspflicht vor allem mehr Transparenz. Ob sich dadurch tatsächlich das Vertrauen in digitale Inhalte stärkt, muss sich erst noch zeigen. Klar ist aber: Wer im beruflichen Alltag mit KI-Tools arbeitet, sollte sich schon jetzt mit den neuen Pflichten vertraut machen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Kennzeichnungspflicht</td><td>labeling requirement</td><td>Eine gesetzliche Pflicht, etwas deutlich zu markieren oder zu kennzeichnen.</td><td>Seit August gilt in der EU eine Kennzeichnungspflicht für KI-Inhalte.</td></tr>
+        <tr><td>täuschend echt</td><td>deceptively real</td><td>So realistisch, dass man den Unterschied zur Wirklichkeit kaum erkennt.</td><td>Deepfakes wirken oft täuschend echt.</td></tr>
+        <tr><td>das Bußgeld</td><td>fine, penalty</td><td>Eine Geldstrafe, die man bei einem Verstoß gegen Regeln zahlen muss.</td><td>Wer die Regel nicht befolgt, muss mit einem Bußgeld rechnen.</td></tr>
+        <tr><td>offenlegen</td><td>to disclose</td><td>Etwas öffentlich und ehrlich zeigen, das vorher nicht klar war.</td><td>Chatbots müssen künftig offenlegen, dass keine Person antwortet.</td></tr>
+        <tr><td>kenntlich machen</td><td>to clearly mark, indicate</td><td>Etwas so kennzeichnen, dass es sofort erkennbar ist.</td><td>KI-generierte Fotos müssen künftig kenntlich gemacht werden.</td></tr>
+        <tr><td>die Umsetzung</td><td>implementation</td><td>Der Prozess, eine Regel oder ein Gesetz in die Praxis zu bringen.</td><td>Die Bundesnetzagentur ist für die Umsetzung der Verordnung zuständig.</td></tr>
+        <tr><td>die behördliche Aufsicht</td><td>regulatory oversight</td><td>Die Kontrolle durch eine staatliche Behörde.</td><td>Firmen dürfen neue KI-Anwendungen unter behördlicher Aufsicht testen.</td></tr>
+        <tr><td>die Minderheit</td><td>minority</td><td>Ein kleinerer Teil einer Gruppe, im Gegensatz zur Mehrheit.</td><td>Nur eine kleine Minderheit nutzt KI wirklich transformativ.</td></tr>
+        <tr><td>vorantreiben <span class="rep">(Wiederholung)</span></td><td>to drive forward, push ahead</td><td>Eine Entwicklung aktiv beschleunigen.</td><td>Mit der neuen Regel treibt die EU ihre KI-Regulierung weiter voran.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Wer sich nicht daran hält, muss mit … rechnen.“</b> — Die Konsequenzen einer Regelverletzung ankündigen.<br><i>Wer sich nicht daran hält, muss mit empfindlichen Bußgeldern rechnen.</i></li>
+        <li><b>„Ob …, muss sich erst noch zeigen.“</b> — Eine offene Frage in die Zukunft stellen.<br><i>Ob sich dadurch das Vertrauen stärkt, muss sich erst noch zeigen.</i></li>
+        <li><b>„deutlich mehr als …“</b> — Einen Vergleich mit einem klaren Unterschied ausdrücken.<br><i>63 Prozent — deutlich mehr als im EU-Durchschnitt.</i></li>
+        <li><b>„unter … Aufsicht“</b> — Beschreiben, dass etwas kontrolliert oder überwacht stattfindet.<br><i>Unternehmen testen neue Anwendungen unter behördlicher Aufsicht.</i></li>
+        <li><b>„sich vertraut machen mit“</b> — Sich aktiv mit einem neuen Thema auseinandersetzen.<br><i>Man sollte sich schon jetzt mit den neuen Pflichten vertraut machen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Relativsatz im Passiv:</b> Der Satz <i>„Bilder, Texte und Töne, die von einer künstlichen Intelligenz erstellt wurden“</i> nutzt einen Relativsatz im Passiv, um zu beschreiben, was durch etwas gemacht wurde, ohne den Handelnden in den Mittelpunkt zu stellen. Diese Konstruktion ist in Gesetzestexten und Nachrichten sehr verbreitet.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Modalverb + Passiv-Infinitiv:</b> Formulierungen wie <i>„müssen … markiert werden“</i> oder <i>„muss … kenntlich gemacht werden“</i> verbinden ein Modalverb mit dem Passiv-Infinitiv. So drückt man Pflichten und Vorschriften aus, ohne zu sagen, wer genau die Handlung ausführt — typisch für Verwaltungs- und Gesetzessprache.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Seit wann gilt die neue Kennzeichnungspflicht für KI-Inhalte in der EU?</li>
+          <li>Welche Behörde ist in Deutschland für die Umsetzung der Regel zuständig?</li>
+          <li>Wie viel Prozent der deutschen Unternehmen setzen laut Text bereits KI ein?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>offenlegen</i>.</li>
+          <li>Schreibe einen Satz mit <i>kenntlich machen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Ob …, muss sich erst noch zeigen.“</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was hältst du von der neuen Kennzeichnungspflicht für KI-Inhalte? Würde es dein Vertrauen in Online-Inhalte stärken, wenn KI-generierte Texte und Bilder klar markiert wären? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: EU-Kennzeichnungspflicht für KI-Inhalte ab 2. August 2026 und Rolle der Bundesnetzagentur; Meldungen vom Juli/August 2026 (u. a. ad-hoc-news.de, teltarif.de, About Amazon Deutschland KI-Studie 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

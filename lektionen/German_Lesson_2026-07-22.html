@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 22. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 22. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Schluss mit Bier auf dem Bahnsteig: Die Deutsche Bahn verbietet Alkohol</h2>
+    <div class="card">
+      <p>Wer künftig am Bahnhof auf seinen Zug wartet, sollte die Bierdose besser in der Tasche lassen. Die Deutsche Bahn (DB) hat angekündigt, das Trinken von Alkohol an allen ihren Bahnhöfen zu verbieten. Die neue Regel gilt bundesweit und wird bis zum 15. Oktober 2026 schrittweise an rund 5.400 Bahnhöfen eingeführt.</p>
+      <p>Auslöser für die Entscheidung war ein brutaler Angriff auf einen Bahn-Mitarbeiter am vergangenen Freitag. DB-Chefin Evelyn Palla äußerte sich dazu klar: „Wir greifen durch: Wir verbannen das Alkoholtrinken aus unseren Bahnhöfen. Zu oft mussten wir feststellen, dass dort, wo zu viel Alkohol fließt, auch die Gewalt zunimmt.“ Es gehe vor allem um den Schutz der Mitarbeitenden und der Fahrgäste.</p>
+      <p>Ganz neu ist das Konzept nicht: Rund 30 Bahnhöfe sind schon heute alkoholfrei, darunter die Hauptbahnhöfe in Köln, München und Hamburg. Die Erfahrungen dort seien eindeutig positiv, so Palla — weniger Gewalt und weniger Müll auf dem Bahnhofsgelände. Ab dem 1. September ziehen die Bahnhöfe Berlin Hauptbahnhof, Berlin Gesundbrunnen, Kiel und Braunschweig nach. Bis Mitte Oktober soll dann bundesweit an jedem Bahnhof Schluss sein mit öffentlichem Alkoholkonsum.</p>
+      <p>Wichtig dabei: Das Verbot betrifft nur das Trinken in den Bahnhofshallen und auf den Bahnsteigen. Restaurants, Bars und andere gastronomische Betriebe innerhalb der Bahnhöfe sind ausdrücklich ausgenommen. Auch wer eine verschlossene Flasche Wein im Koffer oder eine Kiste Bier aus dem Supermarkt transportiert, macht sich nicht strafbar — verboten ist ausschließlich der Konsum selbst.</p>
+      <p>Wer sich trotzdem nicht an die neue Regel hält, muss mit einem Platzverweis rechnen. Bei wiederholten Verstößen kann die Bahn sogar ein Hausverbot aussprechen. Da es sich um eine Regelung im Rahmen des Hausrechts handelt, müssen zunächst noch die lokalen Hausordnungen gemeinsam mit Kommunen und Behörden angepasst werden.</p>
+      <p>Die Reaktionen auf die Ankündigung sind gemischt: Viele Pendler und Bahnmitarbeitende begrüßen die Maßnahme, weil sie sich dadurch mehr Sicherheit erhoffen. Kritiker fragen sich hingegen, wie das Verbot in der Praxis überhaupt kontrolliert werden soll — schließlich patrouilliert nicht an jedem kleinen Bahnhof rund um die Uhr Sicherheitspersonal.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>durchgreifen</td><td>to crack down, take firm action</td><td>Entschlossen und konsequent gegen ein Problem vorgehen.</td><td>„Wir greifen durch“, sagt die DB-Chefin zum neuen Alkoholverbot.</td></tr>
+        <tr><td>verbannen</td><td>to banish, ban</td><td>Etwas offiziell und vollständig verbieten.</td><td>Die DB verbannt das Alkoholtrinken aus ihren Bahnhöfen.</td></tr>
+        <tr><td>der Angriff</td><td>attack, assault</td><td>Eine gewaltsame Handlung gegen eine Person.</td><td>Auslöser war ein brutaler Angriff auf einen Mitarbeiter.</td></tr>
+        <tr><td>ausgenommen sein</td><td>to be excluded, exempt</td><td>Nicht von einer Regel betroffen sein.</td><td>Gastronomiebetriebe sind von dem Verbot ausgenommen.</td></tr>
+        <tr><td>der Platzverweis</td><td>order to leave the premises</td><td>Die Anweisung, einen Ort sofort zu verlassen.</td><td>Wer gegen das Verbot verstößt, bekommt einen Platzverweis.</td></tr>
+        <tr><td>der Verstoß</td><td>violation, offense</td><td>Ein Verhalten, das gegen eine Regel verstößt.</td><td>Bei wiederholten Verstößen droht ein Hausverbot.</td></tr>
+        <tr><td>das Hausverbot</td><td>ban from the premises</td><td>Ein Verbot, einen bestimmten Ort noch einmal zu betreten.</td><td>Im schlimmsten Fall spricht die Bahn ein Hausverbot aus.</td></tr>
+        <tr><td>die Maßnahme</td><td>measure, action</td><td>Ein gezielter Schritt, um ein Ziel zu erreichen.</td><td>Viele Pendler begrüßen die neue Maßnahme.</td></tr>
+        <tr><td>schrittweise</td><td>step by step, gradually</td><td>Nicht auf einmal, sondern nach und nach.</td><td>Das Verbot wird schrittweise an allen Bahnhöfen eingeführt.</td></tr>
+        <tr><td>betroffen sein (von) <span class="rep">(Wiederholung)</span></td><td>to be affected (by)</td><td>Von einer Regel oder Entwicklung direkt beeinflusst werden.</td><td>Reisende sind von dem neuen Verbot direkt betroffen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Auslöser für … war …“</b> — So erklärt man auf Deutsch, was der konkrete Grund für eine Entscheidung war. Beispiel: <i>Auslöser für das Verbot war ein brutaler Angriff.</i></li>
+        <li><b>„Es geht vor allem um …“</b> — Eine sehr gebräuchliche Formel, um das Hauptanliegen einer Sache zu benennen. Beispiel: <i>Es geht vor allem um den Schutz der Mitarbeitenden.</i></li>
+        <li><b>„Wichtig dabei: …“</b> — Kündigt einen zentralen Zusatzpunkt an, den man nicht übersehen sollte. Beispiel: <i>Wichtig dabei: Die Gastronomie ist ausgenommen.</i></li>
+        <li><b>„Wer …, muss mit … rechnen.“</b> — Eine typische Struktur, um Konsequenzen anzukündigen. Beispiel: <i>Wer sich nicht daran hält, muss mit einem Platzverweis rechnen.</i></li>
+        <li><b>„Die Reaktionen sind gemischt.“</b> — Eine nützliche Floskel, wenn es sowohl Zustimmung als auch Kritik gibt.</li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Passiv mit Modalverben:</b> Der Text nutzt oft das Passiv mit Modalverben, typisch für Nachrichtentexte: <i>„…wird schrittweise eingeführt“</i>, <i>„…soll bundesweit Schluss sein“</i>, <i>„…kann ein Hausverbot ausgesprochen werden“</i>. Diese Form betont die Handlung selbst, nicht die handelnde Person — sehr praktisch, wenn (wie hier) eine Institution wie „die Bahn“ im Mittelpunkt steht statt eine einzelne Person.</p></div>
+      <div class="grammar-block"><p><b>„wer …, muss/kann …“-Sätze:</b> Konstruktionen wie <i>„Wer künftig am Bahnhof wartet, sollte …“</i> oder <i>„Wer sich nicht daran hält, muss …“</i> funktionieren wie ein verkürztes „Wenn jemand …, dann …“. Diese Struktur hört man im Alltag ständig, z. B. bei Regeln, Anleitungen oder Warnungen.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum hat die Deutsche Bahn das Alkoholverbot eingeführt?</li>
+          <li>Welche Bahnhöfe sind schon heute alkoholfrei?</li>
+          <li>Was passiert, wenn jemand wiederholt gegen das Verbot verstößt?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>durchgreifen</i>.</li>
+          <li>Schreibe einen Satz mit <i>ausgenommen sein</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Wer …, muss mit … rechnen.“</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was hältst du von einem Alkoholverbot an Bahnhöfen — sinnvoll für mehr Sicherheit, oder eher schwer durchzusetzen? Diskutiere mit einem Partner oder überlege dir laut Argumente für beide Seiten.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quelle: Deutsche Bahn AG, Pressemitteilung vom 21. Juli 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

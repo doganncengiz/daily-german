@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 19. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 19. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Endlich wieder Bundesliga: Der Fußball-Sommer geht zu Ende</h2>
+    <div class="card">
+      <p>In wenigen Tagen ist es endlich so weit: Die neue Bundesliga-Saison 2026/27 beginnt. Am 28. August rollt der Ball wieder in den großen Stadien Deutschlands, und viele Fans können den Anpfiff kaum erwarten. Diesmal mussten sie sich allerdings länger gedulden als sonst, denn wegen der Fußball-Weltmeisterschaft in diesem Sommer wurde der Saisonstart um eine ganze Woche nach hinten verschoben.</p>
+      <p>Den Auftakt macht ein echtes Topspiel: Der FC Bayern München empfängt den VfB Stuttgart in der Allianz Arena. Bayern startet als amtierender Doppelmeister in die neue Saison, denn die Münchner holten sich in der vergangenen Spielzeit sowohl die Meisterschaft als auch den DFB-Pokal — im Pokalfinale setzten sie sich ausgerechnet gegen jenen VfB Stuttgart durch, der nun am ersten Spieltag zu Gast ist. Manche Experten sagen sogar, das Titelrennen sei so umkämpft gewesen wie selten zuvor. Weil Bayern das Double gewann, bestreitet im traditionellen Supercup diesmal nicht der Pokalsieger, sondern der Bundesliga-Zweite Borussia Dortmund die Partie gegen die Münchner.</p>
+      <p>Auch abseits der großen Bühne tut sich einiges. Schon ab dem 21. August starten die ersten Vereine in die erste Runde des DFB-Pokals, in der oft überraschende Ergebnisse gegen kleinere Amateurclubs für Gesprächsstoff sorgen. Die 2. Bundesliga ist sogar schon seit Anfang August wieder im Spielbetrieb und hat damit einen kleinen Vorsprung vor der ersten Liga.</p>
+      <p>Für viele Fans bedeutet der Saisonstart mehr als nur Fußball: Es geht auch um Alltag und Routine. Endlich wieder samstags ins Stadion, die Konferenz im Radio verfolgen oder mit Freunden in der Kneipe zusammensitzen — solche festen Rituale prägen den deutschen Fußballherbst. Trainer und Vereine nutzen die letzten Tage der Vorbereitung, um an Taktik und Fitness zu feilen. Ob sich die intensive Sommervorbereitung am Ende auszahlt, wird sich schon am ersten Spieltag zeigen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Anpfiff</td><td>kickoff</td><td>Der Moment, wenn ein Fußballspiel offiziell beginnt.</td><td>Um 15:30 Uhr ertönt der Anpfiff.</td></tr>
+        <tr><td>sich gedulden</td><td>to be patient, to wait</td><td>Geduldig warten, ohne sich zu beschweren.</td><td>Die Fans mussten sich diesmal länger gedulden.</td></tr>
+        <tr><td>verschieben</td><td>to postpone, shift</td><td>Einen Termin auf einen späteren Zeitpunkt legen.</td><td>Der Saisonstart wurde um eine Woche verschoben.</td></tr>
+        <tr><td>der Auftakt</td><td>opening, start</td><td>Der erste, oft besonders wichtige Teil von etwas.</td><td>Den Auftakt macht ein echtes Topspiel.</td></tr>
+        <tr><td>der Pokalsieger</td><td>cup winner</td><td>Die Mannschaft, die den DFB-Pokal gewonnen hat.</td><td>In dieser Saison ist der Pokalsieger zugleich auch der Deutsche Meister.</td></tr>
+        <tr><td>für Gesprächsstoff sorgen</td><td>to give people something to talk about</td><td>Ein Ereignis, über das anschließend viele reden.</td><td>Überraschende Ergebnisse sorgen oft für Gesprächsstoff.</td></tr>
+        <tr><td>der Vorsprung</td><td>head start, lead</td><td>Ein zeitlicher oder sachlicher Vorteil gegenüber anderen.</td><td>Die 2. Bundesliga hat einen kleinen Vorsprung.</td></tr>
+        <tr><td>an etwas feilen</td><td>to fine-tune something</td><td>Etwas sorgfältig und Schritt für Schritt verbessern.</td><td>Trainer feilen in der Vorbereitung an Taktik und Fitness.</td></tr>
+        <tr><td>umkämpft <span class="rep">(Wiederholung)</span></td><td>fiercely contested</td><td>Wenn viele hart um dasselbe Ziel konkurrieren.</td><td>Das Titelrennen war so umkämpft wie selten zuvor.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Erfolg bringen.</td><td>Ob sich die Vorbereitung auszahlt, zeigt sich am ersten Spieltag.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Endlich ist es so weit.“</b> — Etwas lang Erwartetes beginnt jetzt tatsächlich.<br><i>In wenigen Tagen ist es endlich so weit: Die Saison beginnt.</i></li>
+        <li><b>„… kaum erwarten können“</b> — Sich sehr auf den Beginn von etwas freuen.<br><i>Die Fans können den Anpfiff kaum erwarten.</i></li>
+        <li><b>„abseits der großen Bühne“</b> — Dinge, die nicht im Mittelpunkt der Aufmerksamkeit stehen.<br><i>Auch abseits der großen Bühne tut sich einiges.</i></li>
+        <li><b>„mehr als nur … bedeuten“</b> — Zeigen, dass etwas eine tiefere Bedeutung hat.<br><i>Der Saisonstart bedeutet für viele Fans mehr als nur Fußball.</i></li>
+        <li><b>„Ob …, wird sich erst noch zeigen.“</b> — Eine Sache offenlassen, die erst die Zukunft beantwortet.<br><i>Ob sich die Vorbereitung auszahlt, wird sich schon am ersten Spieltag zeigen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Präteritum Passiv:</b> Der Satz <i>„der Saisonstart wurde um eine Woche nach hinten verschoben“</i> nutzt das Passiv, weil der Handelnde (die DFL) unwichtig ist — wichtig ist nur das Ergebnis. Diese Form (<i>wurde + Partizip II</i>) taucht in Nachrichten- und Sporttexten ständig auf, wenn Entscheidungen oder Termine beschrieben werden.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Nebensätze mit „während“ und „denn“:</b> In <i>„Während Bayern das Double gewann, ging Stuttgart im Pokalfinale leer aus“</i> zeigt „während“ einen Gegensatz und schickt das Verb ans Satzende. „Denn“ dagegen ist ein Hauptsatz-Konnektor — das Verb bleibt an zweiter Stelle, wie in <i>„…denn wegen der WM wurde der Start verschoben“</i>. Der Unterschied zwischen beiden ist eine typische Stolperfalle für Lernende.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum beginnt die Bundesliga-Saison 2026/27 später als sonst?</li>
+          <li>Welche zwei Mannschaften eröffnen die neue Saison, und warum passt dieses Duell besonders gut?</li>
+          <li>Was bedeutet der Saisonstart für viele Fans neben dem reinen Fußball?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich gedulden</i>.</li>
+          <li>Schreibe einen Satz mit <i>für Gesprächsstoff sorgen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Ob …, wird sich erst noch zeigen.“</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Erzähl von einem festen Ritual, das du mit einem Hobby oder einer Jahreszeit verbindest (z. B. Sport, Musik, ein Fest). Warum ist dir dieses Ritual wichtig, und was würde fehlen, wenn es plötzlich ausfiele?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: DFL Deutsche Fußball Liga — Rahmenterminkalender für die Saison 2026/27; Bundesliga.com, Meldungen zum Pokalfinale und Franz Beckenbauer Supercup 2026, Stand August 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

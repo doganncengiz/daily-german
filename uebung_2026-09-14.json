@@ -1,0 +1,29 @@
+{
+"mc":[
+ {"q":"Wie hat sich der Anteil der Unternehmen, die KI produktiv einsetzen, innerhalb eines Jahres verändert?",
+  "o":["Von 17 auf 41 Prozent.","Von 41 auf über 60 Prozent.","Von 20 auf 77 Prozent."],
+  "c":0,
+  "why":"Eine Verdopplung in zwölf Monaten — so etwas hat Bitkom noch nie gemessen. Die 60 Prozent gelten nur für Firmen ab 500 Beschäftigten, die 77 Prozent sind die zufriedenen Nutzer."},
+ {"q":"Welche zwei Probleme nennt der Text als „andere Seite der Medaille“?",
+  "o":["Datenschutz und eine zu langsame Internetverbindung.",
+       "Höhere Kosten als geplant und Stellenabbau wegen KI.",
+       "Zu wenige Schulungen und veraltete Software."],
+  "c":1,
+  "why":"Ein Drittel zahlt mehr als gedacht — Lizenzen, Schulungen, Datenschutz, saubere Daten. Und fast jedes fünfte Unternehmen hat schon Stellen abgebaut."},
+ {"q":"Worauf pochen die Betriebsräte, und warum?",
+  "o":["Auf höhere Löhne für Beschäftigte, die KI nutzen.",
+       "Auf klare Regeln: Wofür das Werkzeug eingesetzt wird, wer die Ergebnisse prüft, was mit den Daten passiert.",
+       "Auf ein vollständiges Verbot von KI im Büro."],
+  "c":1,
+  "why":"Nicht Verbot, sondern Rahmen. Hintergrund ist die wachsende Unsicherheit, wie viel von der eigenen Arbeit langfristig übrig bleibt."}
+],
+"schreib":[
+ "Er sagt, er <b>habe</b> den Bericht bereits an den Kunden geschickt. <span class=\"hint\">(Konjunktiv I: habe, nicht „hat“)</span>",
+ "Für kurze Protokolle <b>lohnt sich</b> das Werkzeug, für Verträge prüfe ich lieber selbst.",
+ "Wir haben <b>erst</b> drei Rückmeldungen — ich hatte mit zehn gerechnet. / Wir haben <b>nur</b> drei Rückmeldungen, mehr kommen nicht. <span class=\"hint\">(erst = bis jetzt, es kommt noch mehr · nur = das ist alles)</span>"
+],
+"sprech":{
+ "phrases":["Am meisten Entlastung bringt mir …","Was ich bewusst nicht abgebe, ist …",
+            "Da kostet die Kontrolle am Ende mehr Zeit als die Arbeit selbst.","Ich nutze es eher als ersten Entwurf, nicht als Endergebnis."],
+ "modell":"<b>Am meisten Entlastung bringt mir</b> das Zusammenfassen von Protokollen: Aus einer Stunde Meeting werden in zwei Minuten fünf Stichpunkte, die ich dann nur noch korrigiere. Auch erste Entwürfe für Präsentationen gehen schneller. <b>Was ich bewusst nicht abgebe, ist</b> alles, was direkt zum Kunden geht — eine falsche Zahl in einem Angebot fällt mir später auf die Füße. <b>Da kostet die Kontrolle am Ende mehr Zeit als die Arbeit selbst.</b> Ich nutze es also als <b>ersten Entwurf</b>, nie als Endergebnis."}
+}

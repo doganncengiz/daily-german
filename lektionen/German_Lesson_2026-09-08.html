@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 8. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 8. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Klopps erster Ernstfall: In zwei Wochen geht es nach Amsterdam</h2>
+    <div class="card">
+      <p>In deutschen Büros und Kneipen wird derzeit über kaum etwas so viel geredet wie über den neuen Bundestrainer. Seit dem 15. August ist Jürgen Klopp offiziell im Amt — und am 24. September steht in Amsterdam sein erstes Pflichtspiel an: das Auftaktspiel der Nations League gegen die Niederlande, Anstoß 20:45 Uhr in der Johan-Cruijff-Arena. Ein leichteres Debüt hätte man sich kaum wünschen können, sagen die einen. Die anderen finden: besser gleich ein echter Härtetest als ein bequemes Freundschaftsspiel.</p>
+      <p>Vorausgegangen war ein schwieriger Sommer. Nach dem Aus im Achtelfinale der Weltmeisterschaft gegen Paraguay wurde der Vertrag mit Julian Nagelsmann aufgelöst. Die Stimmung im Land war entsprechend gedrückt, und viele Fans hatten schlicht die Lust verloren. Mit Klopp ist nun eine gewisse Euphorie zurück — auch wenn niemand genau weiß, wie lange sie hält.</p>
+      <p>Spannend wird es schon vor dem Anpfiff: Am 17. September gibt Klopp seinen ersten Kader bekannt. Bei seiner Vorstellung hatte er erwähnt, dass rund 57 Feldspieler auf seiner Liste stünden und dass einige davon vermutlich selbst nicht damit rechnen, eine Rolle zu spielen. Genau darauf setzen jetzt viele junge Profis aus der Bundesliga, die auf ihre Chance hoffen und nachrücken wollen. Vier Tage nach der Nominierung trifft sich die Mannschaft am DFB-Standort in Herzogenaurach.</p>
+      <p>Nach Amsterdam folgen Griechenland in Augsburg und Serbien in München. Klopp selbst hat schon klargemacht, dass er keine Wunder in drei Wochen versprechen will. „Wir fangen bei null an" — dieser Satz wurde in den Medien oft zitiert. Für die Fans heißt das: Geduld. Für die Spieler: Alles ist offen. Und für alle, die Deutsch lernen, ist es die perfekte Gelegenheit, in den nächsten Wochen einmal in ein Café zu gehen und einfach mitzureden.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>im Amt sein</td><td>to be in office</td><td>Eine offizielle Position schon übernommen haben.</td><td>Der neue Trainer ist erst seit drei Wochen im Amt.</td></tr>
+        <tr><td>das Pflichtspiel</td><td>competitive match</td><td>Ein Spiel, das für die Tabelle zählt — kein Testspiel.</td><td>Im ersten Pflichtspiel zählt jeder Punkt.</td></tr>
+        <tr><td>anstehen</td><td>to be coming up, to be due</td><td>Etwas passiert bald und ist schon geplant.</td><td>Am Freitag steht ein wichtiges Meeting an.</td></tr>
+        <tr><td>der Härtetest</td><td>tough test, real challenge</td><td>Eine schwere Aufgabe, die zeigt, wie gut man wirklich ist.</td><td>Das neue Projekt ist ein Härtetest für das Team.</td></tr>
+        <tr><td>der Vertrag wurde aufgelöst</td><td>the contract was terminated</td><td>Beide Seiten beenden die Zusammenarbeit vorzeitig.</td><td>Nach dem schlechten Ergebnis wurde der Vertrag aufgelöst.</td></tr>
+        <tr><td>gedrückt (Stimmung)</td><td>subdued, low (mood)</td><td>Alle sind ein bisschen traurig oder müde.</td><td>Nach der Absage war die Stimmung im Büro gedrückt.</td></tr>
+        <tr><td>bekannt geben</td><td>to announce</td><td>Eine Information offiziell mitteilen.</td><td>Die Firma gibt die Zahlen am Montag bekannt.</td></tr>
+        <tr><td>mit etwas rechnen</td><td>to expect something</td><td>Glauben, dass etwas passieren wird.</td><td>Damit hatte ich ehrlich gesagt nicht gerechnet.</td></tr>
+        <tr><td>klarmachen</td><td>to make clear</td><td>Deutlich sagen, was man meint.</td><td>Er hat klargemacht, dass er mehr Zeit braucht.</td></tr>
+        <tr><td>nachrücken <span class="rep">(Wiederholung)</span></td><td>to move up, follow on</td><td>Jüngere übernehmen die Plätze der Älteren.</td><td>Junge Spieler wollen jetzt in die Startelf nachrücken.</td></tr>
+        <tr><td>die Stimmung kippt <span class="rep">(Wiederholung)</span></td><td>the mood turns</td><td>Die Laune ändert sich plötzlich ins Negative.</td><td>Nach zwei Niederlagen kippt die Stimmung schnell.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Wir fangen bei null an."</b> — Sagen, dass man neu und ohne Vorleistung startet.<br><i>Neues Team, neues Tool — wir fangen bei null an.</i></li>
+        <li><b>„Alles ist offen."</b> — Signalisieren, dass noch nichts entschieden ist.<br><i>Wer die Stelle bekommt? Alles ist offen.</i></li>
+        <li><b>„Damit hatte ich nicht gerechnet."</b> — Überraschung höflich ausdrücken.<br><i>So eine schnelle Rückmeldung — damit hatte ich nicht gerechnet.</i></li>
+        <li><b>„Ehrlich gesagt, …"</b> — Eine persönliche Meinung freundlich einleiten.<br><i>Ehrlich gesagt finde ich den Termin zu früh.</i></li>
+        <li><b>„Da bin ich gespannt."</b> — Neugier zeigen, ohne sich festzulegen.<br><i>Mal sehen, wen er nominiert — da bin ich gespannt.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv II der Vergangenheit:</b> Im Text steht <i>„Ein leichteres Debüt hätte man sich kaum wünschen können."</i> Das ist die Form für etwas, das <i>möglich gewesen wäre, aber nicht passiert ist</i>. Der Bau ist immer gleich: <i>hätte</i> + Partizip + <i>können/müssen/sollen</i> am Satzende. Im Alltag hört man das ständig, oft als freundliche Kritik oder als Bedauern: <i>„Das hättest du mir früher sagen können."</i> / <i>„Wir hätten den Termin verschieben sollen."</i> Nützlich im Job, weil es weicher klingt als ein direkter Vorwurf.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Konjunktiv I in der indirekten Rede:</b> <i>„… dass rund 57 Feldspieler auf seiner Liste stünden"</i> — nicht <i>stehen</i>, sondern <i>stünden</i>. In Nachrichtentexten zeigt diese Form: <i>Das sagt er, nicht ich.</i> Man begegnet ihr vor allem in Zeitungen und in Protokollen (<i>er sagte, er habe / sie könne / es sei</i>). Sprechen musst du so nicht — im Gespräch reicht <i>„Er hat gesagt, dass 57 Spieler auf der Liste stehen."</i> Aber beim Lesen von Nachrichten hilft es enorm, diese Signalform sofort zu erkennen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wann und gegen wen bestreitet Klopp sein erstes Pflichtspiel als Bundestrainer — und wo?</li>
+          <li>Warum wurde der Vertrag mit Julian Nagelsmann aufgelöst?</li>
+          <li>Welche zwei Termine im September sind für den Kader wichtig, und was passiert an ihnen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz im Konjunktiv II der Vergangenheit über eine Entscheidung bei deiner Arbeit (z. B. <i>„Wir hätten … sollen"</i>).</li>
+          <li>Formuliere zwei Sätze mit <i>anstehen</i> und <i>bekannt geben</i> über deine nächste Arbeitswoche.</li>
+          <li>Beschreibe in zwei Sätzen eine Überraschung — nutze dabei <i>Damit hatte ich nicht gerechnet</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, in deiner Firma kommt eine neue Führungskraft. Was erwartest du in den ersten 100 Tagen von ihr — und was wäre für dich ein echter Härtetest? Erzähle außerdem, ob du eher zu den Optimisten oder zu den Skeptikern gehörst, wenn jemand Neues anfängt.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zum DFB-Fahrplan in der UEFA Nations League 2026/27 und zu Jürgen Klopps Amtsübernahme als Bundestrainer (u. a. sportschau.de, dfb.de, neunzigplus.de, news.de), Stand 8. September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

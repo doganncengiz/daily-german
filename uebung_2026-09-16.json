@@ -1,0 +1,32 @@
+{
+"mc":[
+ {"q":"Welche zwei Hauptgründe nennt der Text für die schlechten Pünktlichkeitswerte im August?",
+  "o":["Streiks und fehlendes Personal.",
+       "Hohe Temperaturen mit Störungen und Langsamfahrstellen sowie umfangreiches „Baugeschehen“.",
+       "Zu wenige Züge bei gleichzeitig zu vielen Reisenden."],
+  "c":1,
+  "why":"Die Hitze in der ersten Monatshälfte beschädigte Anlagen und erzwang Langsamfahrstellen. Dazu kamen Korridorsanierung am Rhein, Hamburger Verbindungsbahn und die gesperrte Berliner Stadtbahn."},
+ {"q":"Warum sperrt die Bahn ganze Strecken, statt nur nachts zu bauen?",
+  "o":["Weil nachts zu wenige Bauarbeiter verfügbar sind.",
+       "Weil gebündelte Komplettsanierungen das Netz langfristig stabiler machen sollen.",
+       "Weil einzelne Nachtsperrungen inzwischen gesetzlich verboten sind."],
+  "c":1,
+  "why":"Über 40 stark befahrene Strecken werden nacheinander komplett gesperrt und „in einem Rutsch“ saniert. Der Preis ist hoch, aber <b>befristet</b>."},
+ {"q":"Wie reagieren Pendler und Berufstätige praktisch auf die Verspätungen?",
+  "o":["Sie buchen bewusst eine frühere Verbindung und schalten sich bei Verspätung digital dazu.",
+       "Sie steigen fast alle dauerhaft auf das Auto um.",
+       "Sie beantragen grundsätzlich für jede Fahrt eine Erstattung."],
+  "c":0,
+  "why":"Ein <b>Puffer</b> gehört zur Reiseplanung, und „Ich hänge gerade in Fulda fest“ ist Büroalltag. Erstattung gibt es erst ab 60 Minuten — und nur auf eigenen Antrag."}
+],
+"schreib":[
+ "Für den früheren Liefertermin <b>nehmen</b> wir höhere Kosten <b>in Kauf</b>.",
+ "Die neue Schnittstelle <b>soll</b> bis Ende des Quartals <b>fertiggestellt werden</b>.",
+ "Ich fahre einen Zug früher, <b>damit</b> ich den Anschluss sicher bekomme. / Ich fahre einen Zug früher, <b>um</b> den Anschluss sicher <b>zu</b> bekommen. <span class=\"hint\">(„um … zu“ nur bei gleichem Subjekt)</span>"
+],
+"sprech":{
+ "phrases":["Ich melde mich kurz, weil sich etwas verschoben hat.","Ich schaffe es leider nicht rechtzeitig zu …",
+            "Mein Vorschlag wäre, dass …","Könntest du in der Zwischenzeit …?",
+            "Ich schalte mich digital dazu, sobald ich Netz habe."],
+ "modell":"„Hallo Anna, <b>ich melde mich kurz, weil sich etwas verschoben hat.</b> Ich sitze im ICE nach Frankfurt, wir haben rund vierzig Minuten Verspätung — <b>ich schaffe es leider nicht rechtzeitig zu</b> unserem Meeting um zehn. <b>Mein Vorschlag wäre, dass</b> ihr pünktlich anfangt und mit den Zahlen aus dem zweiten Quartal einsteigt; die sind im geteilten Ordner. <b>Könntest du in der Zwischenzeit</b> die Fragen des Kunden sammeln? <b>Ich schalte mich digital dazu, sobald ich Netz habe</b>, spätestens ab Hanau.“"}
+}

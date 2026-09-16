@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 30. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 30. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Zurück ins Büro: Der Homeoffice-Trend kehrt sich um</h2>
+    <div class="card">
+      <p>Lange galt das Homeoffice als eine der wenigen bleibenden Errungenschaften der Corona-Zeit. Doch inzwischen zeigt sich: Der Trend kehrt sich um. Immer mehr deutsche Unternehmen verschärfen ihre Präsenzpflicht und holen die Belegschaft zurück ins Büro.</p>
+      <p>Aktuelle Zahlen des Statistischen Bundesamts belegen das deutlich: Nur noch 24 Prozent der Beschäftigten arbeiten regelmäßig von zu Hause aus, während 43 Prozent ausschließlich im Büro sitzen. Auch das hybride Modell, bei dem sich Homeoffice und Bürotage abwechseln, hat an Boden verloren: Es sind jetzt 54 Prozent — zehn Prozentpunkte weniger als noch 2024.</p>
+      <p>Besonders spannend sind die regionalen Unterschiede. Während in Städten wie Hamburg und Berlin mehr als 30 Prozent der Beschäftigten von zu Hause arbeiten, liegt die Quote in manchen ostdeutschen Regionen bei unter 15 Prozent. Diese Kluft hat viel mit der Branchenstruktur zu tun: Dort, wo Industrie und Produktion dominieren, lässt sich Arbeit eben nicht einfach ins Wohnzimmer verlegen.</p>
+      <p>Für die Rückkehr ins Büro nennen Unternehmen vor allem einen Grund: den persönlichen Austausch. Viele Führungskräfte sind überzeugt, dass sich Teamgeist, spontaner Ideenaustausch und eine funktionierende Firmenkultur am Ende nur vor Ort auszahlen. Bei vielen Beschäftigten stößt die neue Präsenzpflicht allerdings auf Widerstand — schließlich hatten sich Familienleben und Arbeitsalltag rund ums Homeoffice längst eingespielt.</p>
+      <p>Ob sich die härtere Linie der Arbeitgeber langfristig durchsetzt, ist offen. Wahrscheinlicher ist, dass viele Firmen am Ende auf einen Kompromiss hinauslaufen — mit klaren Bürotagen, aber ohne die vollständige Rückkehr zur Fünf-Tage-Präsenz von früher.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Errungenschaft</td><td>achievement, gain</td><td>Etwas Positives, das man sich hart erarbeitet hat und behalten möchte.</td><td>Das Homeoffice galt als Errungenschaft der Corona-Zeit.</td></tr>
+        <tr><td>die Präsenzpflicht</td><td>mandatory office attendance</td><td>Die Pflicht, an bestimmten Tagen persönlich im Büro zu sein.</td><td>Viele Firmen verschärfen ihre Präsenzpflicht.</td></tr>
+        <tr><td>die Belegschaft</td><td>workforce, staff</td><td>Alle Mitarbeiterinnen und Mitarbeiter eines Unternehmens zusammen.</td><td>Die Firma holt ihre Belegschaft zurück ins Büro.</td></tr>
+        <tr><td>an Boden verlieren</td><td>to lose ground</td><td>An Bedeutung oder Beliebtheit verlieren.</td><td>Das hybride Modell hat an Boden verloren.</td></tr>
+        <tr><td>die Kluft</td><td>gap, divide</td><td>Ein großer Unterschied zwischen zwei Gruppen oder Werten.</td><td>Zwischen West und Ost besteht eine deutliche Kluft.</td></tr>
+        <tr><td>auf Widerstand stoßen</td><td>to meet resistance</td><td>Auf Ablehnung oder Gegenwehr treffen.</td><td>Die neue Regel stößt bei vielen Beschäftigten auf Widerstand.</td></tr>
+        <tr><td>sich einspielen</td><td>to settle into a routine</td><td>Sich mit der Zeit gut organisieren und zur Gewohnheit werden.</td><td>Der Arbeitsalltag hatte sich rund ums Homeoffice eingespielt.</td></tr>
+        <tr><td>der Kompromiss</td><td>compromise</td><td>Eine Lösung, bei der beide Seiten ein Stück nachgeben.</td><td>Viele Firmen laufen am Ende auf einen Kompromiss hinaus.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Teamgeist soll sich am Ende vor Ort auszahlen.</td></tr>
+        <tr><td>sich durchsetzen <span class="rep">(Wiederholung)</span></td><td>to prevail, become accepted</td><td>Sich gegen Widerstand am Ende doch durchsetzen.</td><td>Ob sich die härtere Linie durchsetzt, ist noch offen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Lange galt X als …“</b> — Etwas als lange gültige Meinung einführen, die sich jetzt ändert.<br><i>Lange galt das Homeoffice als Errungenschaft der Corona-Zeit.</i></li>
+        <li><b>„Der Trend kehrt sich um.“</b> — Eine Entwicklung beschreiben, die sich ins Gegenteil dreht.<br><i>Doch inzwischen zeigt sich: Der Trend kehrt sich um.</i></li>
+        <li><b>„Immer mehr … verschärfen …“</b> — Eine wachsende Zahl an Akteuren mit derselben strengeren Maßnahme beschreiben.<br><i>Immer mehr Unternehmen verschärfen ihre Präsenzpflicht.</i></li>
+        <li><b>„… stößt auf Widerstand.“</b> — Ablehnung oder Kritik gegenüber einer Entscheidung ausdrücken.<br><i>Die neue Präsenzpflicht stößt bei vielen Beschäftigten auf Widerstand.</i></li>
+        <li><b>„Am Ende dürfte es auf einen Kompromiss hinauslaufen.“</b> — Eine vorsichtige Prognose für den Ausgang eines Konflikts formulieren.<br><i>Wahrscheinlich laufen viele Firmen am Ende auf einen Kompromiss hinaus.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Kontrastsätze mit „während“:</b> Sätze wie <i>„Während in Hamburg und Berlin mehr als 30 Prozent von zu Hause arbeiten, liegt die Quote im Osten bei unter 15 Prozent“</i> stellen zwei Sachverhalte direkt gegenüber. „Während“ leitet hier keinen Zeitsatz ein, sondern einen Gegensatz — sehr nützlich, um Statistiken oder Regionen zu vergleichen.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Modalverb „dürfte“ für vorsichtige Vermutungen:</b> Im Satz <i>„Wahrscheinlicher ist, dass viele Firmen am Ende auf einen Kompromiss hinauslaufen“</i> und in ähnlichen Formulierungen mit <i>dürfte</i> drückt man eine begründete Vermutung aus, ohne sich hundertprozentig festzulegen. Journalisten nutzen das ständig, um Prognosen vorsichtig zu formulieren.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viel Prozent der Beschäftigten arbeiten laut Statistischem Bundesamt noch regelmäßig im Homeoffice?</li>
+          <li>Warum ist die Homeoffice-Quote in manchen ostdeutschen Regionen so niedrig?</li>
+          <li>Welchen Hauptgrund nennen Unternehmen für die Rückkehr ins Büro?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>auf Widerstand stoßen</i>.</li>
+          <li>Schreibe einen Satz mit <i>sich einspielen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Während …, … .“</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Sollten Arbeitgeber eine feste Präsenzpflicht durchsetzen dürfen, oder sollten Beschäftigte selbst entscheiden, wo sie arbeiten? Begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte und Daten zur Homeoffice-Entwicklung in Deutschland 2026, u. a. Statistisches Bundesamt, wirtschaftsradar.com, sopea.com.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

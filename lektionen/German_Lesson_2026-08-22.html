@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 22. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 22. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Die Bundesliga startet in eine besondere Saison</h2>
+    <div class="card">
+      <p>Am 28. August beginnt die neue Bundesliga-Saison 2026/27, und die Vorfreude in den Stadien ist deutlich zu spüren. Zum Auftakt empfängt der FC Bayern München den VfB Stuttgart — ein Duell, das viele Fans bereits als echten Härtetest für die Bayern-Abwehr bezeichnen. Die Liga startet in diesem Jahr eine Woche später als gewohnt, weil die Fußball-Weltmeisterschaft im Sommer den gesamten Terminplan verschoben hat.</p>
+      <p>Besonders emotional ist in dieser Saison die Rückkehr von Schalke 04. Der Traditionsverein aus Gelsenkirchen war jahrelang nur in der Zweiten Liga vertreten, nun kehrt er endlich wieder ins deutsche Fußball-Oberhaus zurück. Auf der Schalker Nordkurve träumen die Fans bereits von großen Spielen gegen Bayern und Dortmund.</p>
+      <p>Ein weiterer Aufsteiger schreibt sogar Geschichte: Die SV Elversberg aus dem Saarland ist der kleinste Standort, der jemals in der Bundesliga gespielt hat. Kaum jemand hätte vor wenigen Jahren gedacht, dass ein Verein aus einer Kleinstadt mit knapp 5.000 Einwohnern gegen die großen Namen des deutschen Fußballs antreten würde. Für den Klub bedeutet der Aufstieg vor allem eins: Die TV-Gelder sollen helfen, den Verein finanziell langfristig abzusichern.</p>
+      <p>Auch abseits des Rasens wird diskutiert. Immer wieder wird gefordert, dass die Anstoßzeiten fairer verteilt werden, damit nicht nur die großen Vereine von attraktiven Sendezeiten profitieren. Trotzdem überwiegt bei den meisten Fans die Vorfreude: Nach der WM-Pause im Sommer freuen sich Millionen Zuschauer darauf, endlich wieder samstags um 15:30 Uhr vor dem Fernseher oder im Stadion zu sitzen. Die neue Saison verspricht spannende Duelle, Überraschungen und — wie jedes Jahr — hitzige Diskussionen am Stammtisch.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Vorfreude</td><td>anticipation, excitement</td><td>Ein positives Gefühl, wenn man sich auf etwas freut.</td><td>Die Vorfreude auf die neue Saison ist riesig.</td></tr>
+        <tr><td>der Auftakt</td><td>the opening, kickoff</td><td>Der erste Termin oder Beginn eines Ereignisses.</td><td>Zum Auftakt spielt Bayern gegen Stuttgart.</td></tr>
+        <tr><td>die Abwehr</td><td>the defense</td><td>Die Spieler, die im Fußball das eigene Tor verteidigen.</td><td>Das Spiel gilt als Härtetest für die Abwehr.</td></tr>
+        <tr><td>der Härtetest</td><td>tough test, acid test</td><td>Eine schwierige Prüfung, die zeigt, wie stark etwas ist.</td><td>Das Spiel ist für beide Teams ein echter Härtetest.</td></tr>
+        <tr><td>das Oberhaus</td><td>the top division</td><td>Umgangssprachlich für die höchste Liga in einem Sport.</td><td>Schalke kehrt ins Fußball-Oberhaus zurück.</td></tr>
+        <tr><td>der Aufsteiger</td><td>the promoted team</td><td>Ein Verein, der in eine höhere Liga aufsteigt.</td><td>Elversberg ist in dieser Saison Aufsteiger.</td></tr>
+        <tr><td>Geschichte schreiben</td><td>to make history</td><td>Etwas Besonderes tun, an das man sich lange erinnert.</td><td>Elversberg schreibt als kleinster Standort Geschichte.</td></tr>
+        <tr><td>absichern</td><td>to secure, safeguard</td><td>Etwas stabil und sicher machen.</td><td>Die TV-Gelder sollen den Verein finanziell absichern.</td></tr>
+        <tr><td>überwiegen</td><td>to outweigh, predominate</td><td>Wenn etwas stärker oder größer ist als etwas anderes.</td><td>Trotzdem überwiegt bei den Fans die Vorfreude.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Erfolg bringen.</td><td>Ob sich der Aufstieg finanziell auszahlt, wird sich zeigen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Zum Auftakt …“</b> — Leitet den ersten Termin einer Serie oder Saison ein.<br><i>Zum Auftakt empfängt Bayern den VfB Stuttgart.</i></li>
+        <li><b>„… gilt als …“</b> <span class="rep">(Wiederholung)</span> — Eine allgemeine Einschätzung oder Meinung ausdrücken.<br><i>Das Spiel gilt bereits als echter Härtetest.</i></li>
+        <li><b>„Kaum jemand hätte gedacht, dass …“</b> — Überraschung über eine unerwartete Entwicklung ausdrücken.<br><i>Kaum jemand hätte gedacht, dass Elversberg aufsteigt.</i></li>
+        <li><b>„Immer wieder wird gefordert, dass …“</b> — Eine wiederkehrende öffentliche Forderung beschreiben.<br><i>Immer wieder wird gefordert, dass die Anstoßzeiten fairer verteilt werden.</i></li>
+        <li><b>„Trotzdem überwiegt …“</b> — Nach einer kritischen Aussage eine positive Schlussfolgerung einleiten.<br><i>Trotzdem überwiegt bei den Fans die Vorfreude.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Finalsätze mit „damit":</b> Der Satz <i>„Die Anstoßzeiten sollen fairer verteilt werden, damit nicht nur die großen Vereine profitieren"</i> zeigt, wie man mit „damit" einen Zweck oder ein Ziel ausdrückt. Anders als bei „um … zu" braucht „damit" ein eigenes Subjekt im Nebensatz — praktisch, wenn Haupt- und Nebensatz unterschiedliche Handelnde haben.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Konjunktiv II für überraschte Rückblicke:</b> Die Formulierung <i>„Kaum jemand hätte gedacht, dass …"</i> nutzt den Konjunktiv II der Vergangenheit (hätte + Partizip), um eine Erwartung auszudrücken, die sich als falsch herausgestellt hat. Diese Struktur hört man im Deutschen sehr oft, wenn über überraschende Entwicklungen gesprochen wird — nicht nur im Sport, sondern auch im Berufsleben.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wann beginnt die neue Bundesliga-Saison 2026/27, und wer spielt im Eröffnungsspiel?</li>
+          <li>Warum gilt der Aufstieg von Schalke 04 als besonders emotional für die Fans?</li>
+          <li>Was macht den Aufstieg von SV Elversberg historisch bemerkenswert?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich auszahlen</i>.</li>
+          <li>Schreibe einen Satz mit <i>Geschichte schreiben</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Kaum jemand hätte gedacht, dass …".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Findest du es fair, dass kleine Vereine wie Elversberg gegen finanzstarke Klubs wie Bayern München spielen müssen? Diskutiere, ob im Fußball mehr finanzielle Gerechtigkeit nötig wäre, und begründe deine Meinung mit mindestens zwei Argumenten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Bundesliga-Spielplan und Saisonstart 2026/27, Meldungen vom August 2026 (u. a. DFL Deutsche Fußball Liga, Sky Sport, Wikipedia).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

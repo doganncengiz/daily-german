@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 27. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 27. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Die deutsche Wirtschaft kehrt zurück auf Wachstumskurs</h2>
+    <div class="card">
+      <p>Nach einer schwierigen Zeit gibt es endlich wieder gute Nachrichten für die deutsche Wirtschaft: Im Juli ist sie zum ersten Mal seit vier Monaten wieder gewachsen. Das zeigen die aktuellen Zahlen des sogenannten Einkaufsmanagerindex (PMI), die das Analyseunternehmen S&P Global regelmäßig veröffentlicht. Der Gesamtindex stieg von 49,5 Punkten im Juni auf 51,2 Punkte im Juli und erreichte damit den höchsten Stand seit vier Monaten. Werte über 50 gelten als Zeichen für Wachstum, Werte darunter als Zeichen für Schrumpfung.</p>
+      <p>Besonders stark entwickelte sich das verarbeitende Gewerbe, also die klassische Industrie. Der Produktionsindex kletterte von 51,6 auf 54,7 Punkte — so hoch wie seit über vier Jahren nicht mehr. Auch die Exportaufträge legten deutlich zu, so stark wie zuletzt im Februar 2022. Der Dienstleistungssektor erholt sich zwar langsamer, zeigt aber ebenfalls erste Stabilisierungstendenzen.</p>
+      <p>Grund für den vorherigen Einbruch war vor allem der eskalierende Nahost-Konflikt, der seit Februar für steigende Energiepreise und gestörte Lieferketten gesorgt hatte. Laut Phil Smith von S&P Global Market Intelligence war die deutsche Wirtschaft nach Kriegsbeginn drei Monate lang geschrumpft — jetzt aber kehrt sie wieder in den Wachstumsbereich zurück, obwohl die Lage im Nahen Osten weiterhin angespannt bleibt und die Energiepreise zuletzt erneut unter Druck geraten sind.</p>
+      <p>Nicht alles ist bereits rosig: Die Beschäftigung sinkt weiter, wenn auch langsamer als zuvor. Gleichzeitig steigen die Einkaufspreise der Unternehmen etwas schneller, weil Kraftstoff teurer wird und die Löhne unter Druck bleiben. Trotzdem blicken viele Unternehmen wieder optimistischer in die Zukunft: Die Geschäftserwartungen für das kommende Jahr erreichten den höchsten Stand seit fünf Monaten. Ökonomen werten das als vorsichtig positives Signal — auch wenn niemand weiß, wie lange die Erholung anhält, solange die geopolitische Unsicherheit bestehen bleibt.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Einkaufsmanagerindex (PMI)</td><td>purchasing managers' index</td><td>Eine Zahl, die zeigt, ob die Wirtschaft gerade wächst oder schrumpft.</td><td>Der Einkaufsmanagerindex stieg auf 51,2 Punkte.</td></tr>
+        <tr><td>das verarbeitende Gewerbe</td><td>manufacturing industry</td><td>Die Industrie, die Rohstoffe zu fertigen Produkten verarbeitet.</td><td>Das verarbeitende Gewerbe wuchs besonders stark.</td></tr>
+        <tr><td>die Exportaufträge</td><td>export orders</td><td>Bestellungen, die Kunden aus dem Ausland aufgeben.</td><td>Die Exportaufträge legten deutlich zu.</td></tr>
+        <tr><td>der Einbruch</td><td>slump, sudden decline</td><td>Ein plötzlicher, starker Rückgang.</td><td>Der Einbruch der Wirtschaft begann im Februar.</td></tr>
+        <tr><td>die Lieferkette</td><td>supply chain</td><td>Der Weg eines Produkts vom Rohstoff bis zum Kunden.</td><td>Der Konflikt hat viele Lieferketten gestört.</td></tr>
+        <tr><td>schrumpfen</td><td>to shrink</td><td>Kleiner oder weniger werden.</td><td>Die Wirtschaft ist drei Monate lang geschrumpft.</td></tr>
+        <tr><td>angespannt</td><td>tense, strained</td><td>Voller Spannung oder Unsicherheit.</td><td>Die Lage im Nahen Osten bleibt angespannt.</td></tr>
+        <tr><td>die Geschäftserwartungen</td><td>business expectations</td><td>Das, was Unternehmen für die Zukunft erwarten.</td><td>Die Geschäftserwartungen erreichten ein Fünfmonatshoch.</td></tr>
+        <tr><td>sich auszahlen <span class="rep">(Wiederholung)</span></td><td>to pay off</td><td>Am Ende einen Vorteil oder Gewinn bringen.</td><td>Ob sich die Erholung auszahlt, muss sich erst noch zeigen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„zum ersten Mal seit … wieder …“</b> — Ausdrücken, dass etwas nach einer Pause erneut passiert.<br><i>Die Wirtschaft wuchs zum ersten Mal seit vier Monaten wieder.</i></li>
+        <li><b>„so … wie seit … nicht mehr“</b> — Einen aktuellen Wert mit der Vergangenheit vergleichen.<br><i>Der Produktionsindex war so hoch wie seit über vier Jahren nicht mehr.</i></li>
+        <li><b>„Grund für … war …“</b> — Eine Ursache klar benennen.<br><i>Grund für den Einbruch war der eskalierende Nahost-Konflikt.</i></li>
+        <li><b>„auch wenn …“</b> — Einen Vorbehalt einbauen, ohne die Hauptaussage zu entkräften.<br><i>Auch wenn niemand weiß, wie lange die Erholung anhält, sind die Zahlen ermutigend.</i></li>
+        <li><b>„etwas als … Signal werten“</b> — Eine Entwicklung fachlich einordnen und bewerten.<br><i>Ökonomen werten das als vorsichtig positives Signal.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Präteritum in Nachrichtentexten:</b> Formen wie <i>„stieg“, „kletterte“, „erreichte“</i> sind Präteritum (einfache Vergangenheit). Im gesprochenen Alltagsdeutsch benutzt man meist das Perfekt („ist gestiegen“), aber in geschriebenen Nachrichten und Berichten ist das Präteritum die Standardform — das klingt sachlicher und knapper.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Nebensätze mit „weil“ und „obwohl“:</b> Beide Konjunktionen schicken das konjugierte Verb ans Satzende: <i>„weil Kraftstoff teurer wird“</i> nennt einen Grund, <i>„obwohl die Lage angespannt bleibt“</i> zeigt einen Gegensatz. Diese Struktur ist im Deutschen sehr häufig, wenn man Ursachen erklärt oder eine Aussage einschränkt.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Um wie viele Punkte stieg der Einkaufsmanagerindex von Juni auf Juli?</li>
+          <li>Welcher Wirtschaftsbereich hat sich besonders stark erholt?</li>
+          <li>Was war der Hauptgrund für die vorherige Schwächephase der deutschen Wirtschaft?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>schrumpfen</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „so … wie seit … nicht mehr“.</li>
+          <li>Schreibe einen Satz mit einem „obwohl“-Nebensatz.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Wie stark hängt die deutsche Wirtschaft von internationalen Krisen wie dem Nahost-Konflikt ab? Nenne mindestens zwei Beispiele, bei denen internationale Ereignisse spürbare Auswirkungen auf dein eigenes Land oder deinen Alltag hatten.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: S&P Global PMI-Daten zur deutschen Wirtschaft, veröffentlicht am 24. Juli 2026 (Investing.com Deutschland, Wirtschaftsindikatoren).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

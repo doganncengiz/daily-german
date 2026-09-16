@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 9. Juli 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 9. Juli 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Künstliche Intelligenz erobert den deutschen Arbeitsalltag</h2>
+    <div class="card">
+      <p>In den letzten Monaten hat sich vieles in deutschen Büros verändert. Immer mehr Unternehmen setzen auf Künstliche Intelligenz (KI), um alltägliche Aufgaben schneller zu erledigen. Laut einer aktuellen Umfrage nutzt inzwischen jeder zweite Angestellte in Deutschland regelmäßig ein KI-Tool bei der Arbeit – sei es, um E-Mails zu formulieren, Protokolle zu schreiben oder Daten auszuwerten.</p>
+      <p>Besonders in der Software- und Technologiebranche ist der Wandel deutlich zu spüren. Viele Mitarbeiter berichten, dass sie dadurch mehr Zeit für kreative und strategische Aufgaben haben. Gleichzeitig machen sich einige Beschäftigte Sorgen, dass bestimmte Tätigkeiten in Zukunft komplett automatisiert werden könnten.</p>
+      <p>Ein Beispiel ist die Firma TechNova aus München. Dort wurde vor sechs Monaten ein KI-Assistent eingeführt, der Besprechungen zusammenfasst und Aufgaben automatisch verteilt. „Am Anfang waren viele Kollegen skeptisch", erzählt Teamleiterin Julia Bergmann, „aber inzwischen würde niemand mehr darauf verzichten wollen." Sie betont jedoch, dass die Technologie den Menschen nicht ersetzen, sondern unterstützen soll.</p>
+      <p>Experten empfehlen, offen mit dem Thema umzugehen und Mitarbeiter frühzeitig einzubeziehen, wenn neue Tools eingeführt werden. Nur so könne man Ängste abbauen und die Akzeptanz erhöhen. Zudem sei es wichtig, dass Unternehmen in Weiterbildung investieren, damit die Beschäftigten lernen, verantwortungsvoll mit KI umzugehen.</p>
+      <p>Trotz aller Herausforderungen sind sich viele einig: Wer die neuen Werkzeuge sinnvoll nutzt, kann effizienter arbeiten und sich auf das konzentrieren, was wirklich zählt. Die Zukunft der Arbeit wird also nicht von der Technologie allein bestimmt, sondern davon, wie klug wir sie einsetzen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Umfrage</td><td>survey</td><td>Eine Untersuchung, bei der viele Menschen zu einem Thema befragt werden.</td><td>Laut einer aktuellen Umfrage arbeiten viele Deutsche im Homeoffice.</td></tr>
+        <tr><td>der/die Angestellte</td><td>employee</td><td>Eine Person, die für eine Firma arbeitet.</td><td>Als Angestellter hat man Anspruch auf Urlaub.</td></tr>
+        <tr><td>auswerten</td><td>to analyze / evaluate</td><td>Daten genau prüfen und Ergebnisse daraus ziehen.</td><td>Das Team wertet die Verkaufszahlen jede Woche aus.</td></tr>
+        <tr><td>der Wandel</td><td>change, transformation</td><td>Eine große Veränderung, die über längere Zeit passiert.</td><td>Der digitale Wandel verändert viele Berufe.</td></tr>
+        <tr><td>skeptisch</td><td>skeptical</td><td>Man glaubt nicht sofort, dass etwas gut oder richtig ist.</td><td>Am Anfang war ich skeptisch, aber jetzt bin ich überzeugt.</td></tr>
+        <tr><td>verzichten (auf)</td><td>to do without, give up</td><td>Etwas nicht mehr benutzen oder haben wollen.</td><td>Ich möchte nicht mehr auf mein Smartphone verzichten.</td></tr>
+        <tr><td>ersetzen</td><td>to replace</td><td>Etwas durch etwas anderes austauschen.</td><td>Die neue Software ersetzt das alte System.</td></tr>
+        <tr><td>die Weiterbildung</td><td>further training</td><td>Kurse oder Schulungen, um neue Fähigkeiten zu lernen.</td><td>Meine Firma bietet regelmäßig Weiterbildungen an.</td></tr>
+        <tr><td>einbeziehen</td><td>to involve, include</td><td>Jemanden aktiv an etwas teilnehmen lassen.</td><td>Der Chef bezieht das ganze Team in die Entscheidung ein.</td></tr>
+        <tr><td>sich konzentrieren auf</td><td>to focus on</td><td>Die Aufmerksamkeit auf eine Sache richten.</td><td>Ich konzentriere mich heute auf das wichtigste Projekt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Laut einer aktuellen Umfrage..."</b> — praktisch, um Statistiken oder Nachrichten in Gesprächen oder Präsentationen zu zitieren.</li>
+        <li><b>„Am Anfang war(en)... skeptisch, aber inzwischen..."</b> — beschreibt einen Meinungswandel über die Zeit; sehr nützlich für Erfahrungsberichte im Job.</li>
+        <li><b>„Es ist wichtig, dass..."</b> — höfliche Art, eine Meinung oder Empfehlung im Berufsalltag auszudrücken.</li>
+        <li><b>„Wer X macht, kann Y."</b> — allgemeine Aussagen oder Ratschläge formulieren, ohne "wenn jemand..." zu sagen.</li>
+        <li><b>„sich auf etwas konzentrieren"</b> — sehr gebräuchlich bei der Arbeit, z. B. "Ich konzentriere mich auf die Deadline."</li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Passiv in Berichten:</b> "Dort <b>wurde</b> vor sechs Monaten ein KI-Assistent <b>eingeführt</b>." Im Deutschen benutzt man das Passiv oft in Nachrichten und Berichten, wenn die Handlung wichtiger ist als die Person, die sie ausführt. Merke: wurde + Partizip II.</p></div>
+      <div class="grammar-block"><p><b>Verallgemeinerung mit "Wer...":</b> "<b>Wer</b> die neuen Werkzeuge sinnvoll nutzt, <b>kann</b> effizienter arbeiten." Diese Struktur (wer + Verb, ... kann/wird...) ersetzt "Wenn jemand..." und klingt natürlicher, besonders in gesprochener Sprache und in Ratschlägen.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum setzen viele deutsche Unternehmen mittlerweile auf Künstliche Intelligenz?</li>
+          <li>Wie hat sich die Einstellung der Kollegen bei TechNova im Laufe der Zeit verändert?</li>
+          <li>Was empfehlen Experten, wenn Unternehmen neue KI-Tools einführen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit dem Wort "die Weiterbildung".</li>
+          <li>Beschreibe mit "sich konzentrieren auf", worauf du dich diese Woche bei der Arbeit konzentrierst.</li>
+          <li>Bilde einen Satz nach dem Muster "Wer ..., kann ...".</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, du sprichst mit einem Kollegen über KI am Arbeitsplatz. Erzähle: Nutzt du selbst KI-Tools bei der Arbeit? Was gefällt dir daran, und wo bist du eher skeptisch?</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

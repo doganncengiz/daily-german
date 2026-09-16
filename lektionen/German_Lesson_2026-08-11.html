@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 11. August 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 11. August 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Bundesliga-Fieber: Der Saisonstart 2026/27 naht</h2>
+    <div class="card">
+      <p>In wenigen Wochen ist es wieder so weit: Am 28. August 2026 startet die neue Bundesliga-Saison mit dem Eröffnungsspiel zwischen dem FC Bayern München und dem VfB Stuttgart in der Allianz Arena. Für viele Fans in ganz Deutschland ist das der eigentliche Beginn des Herbstes – noch vor dem ersten kühlen Wind oder dem bunten Laub.</p>
+      <p>Wie schon in den letzten Jahren gehen die Münchner als klarer Favorit in die neue Spielzeit. Der Rekordmeister hat im Sommer erneut kräftig investiert und sein Kader verstärkt. Neben dem Mittelfeldspieler Ismael Saibari, der von PSV Eindhoven kam, wechselte auch der Verteidiger Nathaniel Brown von Eintracht Frankfurt nach München – für die stolze Summe von 50 Millionen Euro. Zusammen mit etablierten Stars wie Harry Kane und Michael Olise verfügt Bayern damit über einen der stärksten Kader Europas.</p>
+      <p>Genau diese finanzielle Übermacht sorgt jedoch auch für Diskussionen. Kritiker bemängeln seit Jahren, dass kein anderer Verein in der Liga finanziell mithalten kann, was die Spannung an der Tabellenspitze deutlich verringert. Dortmund, Leipzig und die anderen Spitzenteams müssen sich daher etwas einfallen lassen, um den Bayern überhaupt gefährlich zu werden – sei es durch geschickte Transfers oder durch einen besonders eingespielten Mannschaftsgeist.</p>
+      <p>Trotzdem bleibt die Vorfreude auf den Saisonstart riesig. In den Fanshops füllen sich die Regale mit neuen Trikots, in den Kneipen wird schon über die ersten Spieltage diskutiert, und viele Arbeitskollegen tauschen sich in der Kaffeepause über ihre Tipps für die Tabelle aus. Ob sich an der Dominanz der Bayern in dieser Saison etwas ändert, bleibt abzuwarten – klar ist aber: Wenn der Ball wieder rollt, steht das Land still.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Spielzeit</td><td>season</td><td>Ein anderes Wort für „Saison" im Sport.</td><td>Die neue Spielzeit beginnt am 28. August.</td></tr>
+        <tr><td>der Kader</td><td>squad</td><td>Alle Spieler einer Mannschaft zusammen.</td><td>Bayern hat einen der stärksten Kader Europas.</td></tr>
+        <tr><td>verstärken</td><td>to strengthen</td><td>Ein Team durch neue, gute Spieler besser machen.</td><td>Der Verein hat sein Team im Sommer verstärkt.</td></tr>
+        <tr><td>die Übermacht</td><td>dominance, superiority</td><td>Wenn jemand deutlich stärker ist als alle anderen.</td><td>Die finanzielle Übermacht von Bayern sorgt für Diskussionen.</td></tr>
+        <tr><td>mithalten (können)</td><td>to keep up (with)</td><td>Genauso gut oder schnell sein wie jemand anderes.</td><td>Kein anderer Verein kann finanziell mithalten.</td></tr>
+        <tr><td>sich etwas einfallen lassen</td><td>to come up with something</td><td>Eine kreative Idee oder Lösung finden.</td><td>Die Konkurrenz muss sich etwas einfallen lassen.</td></tr>
+        <tr><td>eingespielt</td><td>well-coordinated, well-rehearsed</td><td>Wenn eine Gruppe schon lange zusammenarbeitet und sich gut versteht.</td><td>Ein eingespielter Mannschaftsgeist kann viel bewirken.</td></tr>
+        <tr><td>die Vorfreude</td><td>anticipation</td><td>Die Freude, die man schon vor einem schönen Ereignis spürt.</td><td>Die Vorfreude auf den Saisonstart ist riesig.</td></tr>
+        <tr><td>bemerkenswert <span class="rep">(Wiederholung)</span></td><td>remarkable, noteworthy</td><td>So auffällig, dass es besondere Aufmerksamkeit verdient.</td><td>Der Transfer von Nathaniel Brown war finanziell bemerkenswert.</td></tr>
+        <tr><td>gelten als <span class="rep">(Wiederholung)</span></td><td>to be considered as</td><td>Eine allgemeine Einschätzung über jemanden ausdrücken.</td><td>Bayern gilt als klarer Favorit auf die Meisterschaft.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„In wenigen Wochen ist es wieder so weit.“</b> — Ankündigen, dass ein erwartetes, wiederkehrendes Ereignis bald beginnt.<br><i>In wenigen Wochen ist es wieder so weit: Die Schule beginnt.</i></li>
+        <li><b>„Kritiker bemängeln, dass …“</b> — Kritik einleiten, die von einer Gruppe geäußert wird.<br><i>Kritiker bemängeln, dass die Mieten zu schnell steigen.</i></li>
+        <li><b>„Ob sich … ändert, bleibt abzuwarten.“</b> — Neutral ausdrücken, dass eine zukünftige Entwicklung noch unsicher ist.<br><i>Ob sich das Wetter am Wochenende ändert, bleibt abzuwarten.</i></li>
+        <li><b>„… steht das Land still.“</b> — Bildhaft beschreiben, dass sich fast alle Menschen für dasselbe Ereignis interessieren.<br><i>Wenn das Finale läuft, steht das Land still.</i></li>
+        <li><b>„Klar ist aber: …“</b> <span class="rep">(Wiederholung)</span> — Nach einer Unsicherheit eine sichere Schlussfolgerung einleiten.<br><i>Klar ist aber: Die neue Saison wird spannend.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Relativsätze mit „der/die/das“:</b> Im Satz <i>„der Mittelfeldspieler Ismael Saibari, der von PSV Eindhoven kam“</i> liefert der Relativsatz zusätzliche Information über eine Person, ohne einen neuen Hauptsatz zu brauchen. Das Relativpronomen richtet sich nach Genus und Numerus des Bezugsworts (hier: „der Mittelfeldspieler“ → „der“) und steht im Nebensatz ganz ans Satzende gerückt vom Verb.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„von“ + Dativ statt Genitiv:</b> In der gesprochenen und journalistischen Sprache ersetzt man den Genitiv oft durch „von“ + Dativ, z. B. <i>„die finanzielle Übermacht von Bayern“</i> statt „Bayerns finanzielle Übermacht“. Das klingt lockerer und wird besonders bei Eigennamen und im Alltag sehr häufig verwendet.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wann und wo findet das Eröffnungsspiel der Bundesliga-Saison 2026/27 statt?</li>
+          <li>Welche zwei neuen Spieler hat der FC Bayern München im Sommer verpflichtet?</li>
+          <li>Warum kritisieren manche Fans die finanzielle Situation in der Bundesliga?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>sich etwas einfallen lassen</i>.</li>
+          <li>Schreibe einen Satz mit <i>die Vorfreude</i>.</li>
+          <li>Schreibe einen Satz nach dem Muster „Ob sich … ändert, bleibt abzuwarten.“</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was denkst du: Ist es gut oder schlecht für eine Liga, wenn ein einziger Verein wie Bayern München so dominant ist? Nenne mindestens zwei Argumente für deine Meinung.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Berichte zum Bundesliga-Saisonstart und Transfermarkt 2026/27, u. a. bundesliga.com und Sky Sport (Stand: August 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -4951,276 +4951,1377 @@
 "fa": "امیدوار، مطمئن"
 },
 {
-"de": "die Umfrage", "en": "survey", "erk": "Eine Untersuchung, bei der viele Menschen zu einem Thema befragt werden.", "bsp": "Laut einer aktuellen Umfrage arbeiten viele Deutsche im Homeoffice.", "dates": ["2026-07-09", "2026-07-11"], "sq": "anketa", "tr": "anket", "uk": "опитування", "ar": "استطلاع رأي", "fa": "نظرسنجی"
-},
-{
-"de": "der/die Angestellte", "en": "employee", "erk": "Eine Person, die für eine Firma arbeitet.", "bsp": "Als Angestellter hat man Anspruch auf Urlaub.", "dates": ["2026-07-09"], "sq": "punonjësi / punonjësja", "tr": "çalışan", "uk": "найманий працівник / наймана працівниця", "ar": "الموظف / الموظفة", "fa": "کارمند"
-},
-{
-"de": "auswerten", "en": "to analyze / evaluate", "erk": "Daten genau prüfen und Ergebnisse daraus ziehen.", "bsp": "Das Team wertet die Verkaufszahlen jede Woche aus.", "dates": ["2026-07-09"], "sq": "të analizosh, të vlerësosh", "tr": "analiz etmek, değerlendirmek", "uk": "аналізувати, оцінювати", "ar": "يُحلّل، يُقيّم", "fa": "تحلیل و ارزیابی کردن"
-},
-{
-"de": "der Wandel", "en": "change, transformation", "erk": "Eine große Veränderung, die über längere Zeit passiert.", "bsp": "Der digitale Wandel verändert viele Berufe.", "dates": ["2026-07-09"], "sq": "ndryshimi, transformimi", "tr": "değişim, dönüşüm", "uk": "зміна, трансформація", "ar": "التحوّل، التغيّر", "fa": "دگرگونی، تحول"
-},
-{
-"de": "verzichten (auf)", "en": "to do without, give up", "erk": "Etwas nicht mehr benutzen oder haben wollen.", "bsp": "Ich möchte nicht mehr auf mein Smartphone verzichten.", "dates": ["2026-07-09"], "sq": "të heqësh dorë (nga)", "tr": "vazgeçmek, feragat etmek", "uk": "відмовлятися (від)", "ar": "يستغني (عن)، يتخلى (عن)", "fa": "صرف‌نظر کردن (از)، بی‌خیال شدن"
-},
-{
-"de": "ersetzen", "en": "to replace", "erk": "Etwas durch etwas anderes austauschen.", "bsp": "Die neue Software ersetzt das alte System.", "dates": ["2026-07-09"], "sq": "të zëvendësosh", "tr": "yerine koymak, değiştirmek", "uk": "замінювати", "ar": "يستبدل", "fa": "جایگزین کردن"
-},
-{
-"de": "einbeziehen", "en": "to involve, include", "erk": "Jemanden aktiv an etwas teilnehmen lassen.", "bsp": "Der Chef bezieht das ganze Team in die Entscheidung ein.", "dates": ["2026-07-09"], "sq": "të përfshish", "tr": "dahil etmek", "uk": "залучати, включати", "ar": "يُشرك، يُدرج", "fa": "مشارکت دادن، در نظر گرفتن"
-},
-{
-"de": "sich konzentrieren auf", "en": "to focus on", "erk": "Die Aufmerksamkeit auf eine Sache richten.", "bsp": "Ich konzentriere mich heute auf das wichtigste Projekt.", "dates": ["2026-07-09", "2026-07-10", "2026-07-13"], "sq": "të përqendrohesh te", "tr": "odaklanmak", "uk": "зосереджуватися на", "ar": "يركّز على", "fa": "تمرکز کردن روی"
-},
-{
-"de": "wechseln (zu)", "en": "to transfer, move (to)", "erk": "Von einem Verein, einer Firma oder einem Ort zu einem anderen gehen.", "bsp": "Der Spieler wechselt zu einem neuen Verein.", "dates": ["2026-07-10"], "sq": "të kalosh (te)", "tr": "geçmek, transfer olmak", "uk": "переходити (до)", "ar": "ينتقل (إلى)", "fa": "پیوستن (به)، منتقل شدن"
-},
-{
-"de": "das Testspiel", "en": "friendly match", "erk": "Ein Spiel ohne Punkte, das nur zum Üben dient.", "bsp": "Im Testspiel probiert der Trainer neue Aufstellungen aus.", "dates": ["2026-07-10"], "sq": "ndeshja miqësore", "tr": "hazırlık maçı", "uk": "товариський матч", "ar": "مباراة ودية", "fa": "بازی دوستانه"
-},
-{
-"de": "aufgeben", "en": "to give up", "erk": "Etwas nicht mehr weiterverfolgen.", "bsp": "Er hat seine Wechselpläne aufgegeben und bleibt beim Verein.", "dates": ["2026-07-10"], "sq": "të heqësh dorë", "tr": "vazgeçmek", "uk": "відмовлятися, полишати", "ar": "يتخلى عن، يستسلم", "fa": "دست کشیدن، منصرف شدن"
-},
-{
-"de": "sich einig sein", "en": "to agree, be in agreement", "erk": "Die gleiche Meinung wie andere haben.", "bsp": "Fans und Trainer sind sich einig: Die Saison wird spannend.", "dates": ["2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-17", "2026-07-18", "2026-07-21"], "sq": "të jesh dakord", "tr": "aynı fikirde olmak", "uk": "бути одностайними, погоджуватися", "ar": "يتفق في الرأي", "fa": "هم‌نظر بودن، توافق داشتن"
-},
-{
-"de": "die Nachfrage", "en": "demand", "erk": "Wie viel Menschen oder Firmen etwas kaufen oder haben wollen.", "bsp": "Die Nachfrage nach neuen Wohnungen ist hoch.", "dates": ["2026-07-11"], "sq": "kërkesa", "tr": "talep", "uk": "попит", "ar": "الطلب", "fa": "تقاضا"
-},
-{
-"de": "der Lieferengpass", "en": "supply bottleneck", "erk": "Ein Problem, weil bestimmte Waren oder Materialien fehlen.", "bsp": "Wegen des Lieferengpasses kam die Bestellung viel später an.", "dates": ["2026-07-11"], "sq": "mungesa në furnizim", "tr": "tedarik sıkıntısı", "uk": "перебої з постачанням", "ar": "نقص في الإمدادات", "fa": "کمبود در تأمین"
-},
-{
-"de": "der Rohstoff (Plural: Rohstoffe)", "en": "raw material", "erk": "Ein Grundmaterial, aus dem Produkte hergestellt werden, z. B. Metall oder Holz.", "bsp": "Ohne genug Rohstoffe kann die Fabrik nicht produzieren.", "dates": ["2026-07-11"], "sq": "lënda e parë", "tr": "ham madde", "uk": "сировина", "ar": "المادة الخام", "fa": "ماده اولیه"
-},
-{
-"de": "verzögern", "en": "to delay", "erk": "Bewirken, dass etwas später passiert als geplant.", "bsp": "Der Streik hat die Lieferung um zwei Wochen verzögert.", "dates": ["2026-07-11"], "sq": "të vonosh", "tr": "geciktirmek", "uk": "затримувати", "ar": "يؤخّر", "fa": "به تأخیر انداختن"
-},
-{
-"de": "einstellen (Mitarbeiter)", "en": "to hire (employees)", "erk": "Jemanden als neuen Mitarbeiter in eine Firma aufnehmen.", "bsp": "Die Firma stellt dieses Jahr kaum neue Leute ein.", "dates": ["2026-07-11"], "sq": "të punësosh", "tr": "işe almak", "uk": "наймати (працівників)", "ar": "يُوظّف", "fa": "استخدام کردن"
-},
-{
-"de": "entlasten", "en": "to relieve, ease the burden", "erk": "Jemandem helfen, indem man Kosten, Arbeit oder Druck reduziert.", "bsp": "Die Reform soll kleine Unternehmen finanziell entlasten.", "dates": ["2026-07-11"], "sq": "të lehtësosh barrën", "tr": "yükünü hafifletmek", "uk": "полегшувати навантаження", "ar": "يخفّف العبء عن", "fa": "از بار کسی کاستن"
-},
-{
-"de": "die Büropräsenz", "en": "office presence/attendance", "erk": "Wie oft man tatsächlich im Büro und nicht im Homeoffice arbeitet.", "bsp": "Viele Firmen verlangen wieder mehr Büropräsenz.", "dates": ["2026-07-12"], "sq": "prania në zyrë", "tr": "ofiste bulunma", "uk": "присутність в офісі", "ar": "الحضور في المكتب", "fa": "حضور در دفتر کار"
-},
-{
-"de": "verlangen", "en": "to demand, require", "erk": "Deutlich sagen, dass man etwas von jemandem erwartet.", "bsp": "Der Chef verlangt, dass alle pünktlich zum Meeting kommen.", "dates": ["2026-07-12"], "sq": "të kërkosh", "tr": "talep etmek, istemek", "uk": "вимагати", "ar": "يطالب بـ، يشترط", "fa": "مطالبه کردن، خواستن"
-},
-{
-"de": "die Vereinbarkeit (von X und Y)", "en": "compatibility, balance (of X and Y)", "erk": "Wenn zwei Bereiche des Lebens gut zusammenpassen, z. B. Beruf und Familie.", "bsp": "Flexible Arbeitszeiten verbessern die Vereinbarkeit von Beruf und Familie.", "dates": ["2026-07-12"], "sq": "pajtueshmëria (e X me Y)", "tr": "uyumluluk, denge", "uk": "сумісність, поєднання", "ar": "التوفيق بين، التوافق", "fa": "سازگاری، امکان تلفیق"
-},
-{
-"de": "die Führungskraft", "en": "manager, executive", "erk": "Eine Person, die in einer Firma eine leitende Position hat.", "bsp": "Die Führungskräfte trafen sich, um die neue Strategie zu besprechen.", "dates": ["2026-07-12"], "sq": "drejtuesi / drejtuesja", "tr": "yönetici", "uk": "керівник / керівниця", "ar": "المسؤول الإداري / المديرة", "fa": "مدیر، نیروی مدیریتی"
-},
-{
-"de": "sich äußern (zu)", "en": "to comment (on), express an opinion", "erk": "Öffentlich seine Meinung zu einem Thema sagen.", "bsp": "Die Ministerin äußerte sich heute zu den neuen Plänen.", "dates": ["2026-07-12"], "sq": "të shprehesh (për)", "tr": "görüş bildirmek", "uk": "висловлюватися (щодо)", "ar": "يُبدي رأيه (في)", "fa": "اظهارنظر کردن (درباره)"
-},
-{
-"de": "befürchten", "en": "to fear, worry (that)", "erk": "Denken, dass etwas Negatives passieren könnte.", "bsp": "Viele Manager befürchten, dass die Kosten weiter steigen.", "dates": ["2026-07-12", "2026-07-17", "2026-07-18"], "sq": "të kesh frikë se", "tr": "endişe etmek, korkmak", "uk": "побоюватися", "ar": "يخشى أن", "fa": "بیم داشتن، نگران بودن"
-},
-{
-"de": "hybrid", "en": "hybrid", "erk": "Eine Mischung aus zwei verschiedenen Formen, z. B. Büro und Homeoffice.", "bsp": "Unser Team arbeitet nach einem hybriden Modell.", "dates": ["2026-07-12"], "sq": "hibrid", "tr": "hibrit", "uk": "гібридний", "ar": "هجين", "fa": "ترکیبی، هیبریدی"
-},
-{
-"de": "die Wunschliste", "en": "wish list", "erk": "Eine Liste von Dingen, die man sich wünscht.", "bsp": "Mehr Urlaub steht ganz oben auf ihrer Wunschliste.", "dates": ["2026-07-12"], "sq": "lista e dëshirave", "tr": "istek listesi", "uk": "список бажань", "ar": "قائمة الأمنيات", "fa": "فهرست آرزوها"
-},
-{
-"de": "der große Wurf", "en": "the big breakthrough, the masterstroke", "erk": "Ein besonders großer, entscheidender Erfolg.", "bsp": "Für das deutsche Team wäre der Gesamtsieg der große Wurf.", "dates": ["2026-07-13"], "sq": "suksesi i madh, goditja vendimtare", "tr": "büyük başarı, büyük atılım", "uk": "великий прорив, вирішальний успіх", "ar": "الإنجاز الكبير، الضربة الموفقة", "fa": "موفقیت بزرگ، شاهکار"
-},
-{
-"de": "zutrauen (jemandem etwas)", "en": "to believe someone capable of something", "erk": "Denken, dass jemand eine bestimmte Leistung schaffen kann.", "bsp": "Experten trauen ihm in diesem Jahr den Sieg zu.", "dates": ["2026-07-13"], "sq": "të besosh se dikush është i aftë për diçka", "tr": "birini bir şeyi yapabilecek görmek", "uk": "вважати когось здатним на щось", "ar": "يعتقد أن شخصاً قادر على شيء", "fa": "کسی را قادر به انجام کاری دانستن"
-},
-{
-"de": "der Helfer (Edelhelfer)", "en": "domestique, key helper", "erk": "Ein Fahrer/eine Person, die ihre Kraft für den Erfolg eines anderen einsetzt.", "bsp": "Als Edelhelfer opfert er sich für den Kapitän des Teams.", "dates": ["2026-07-13"], "sq": "ndihmësi kryesor i ekipit", "tr": "takım liderinin kilit yardımcısı", "uk": "ключовий помічник у команді", "ar": "المساعد الرئيسي في الفريق", "fa": "یار و کمک‌کار اصلی تیم"
-},
-{
-"de": "die Bergetappe", "en": "mountain stage", "erk": "Ein Streckenabschnitt mit vielen und steilen Anstiegen.", "bsp": "In den Bergetappen entscheidet sich meist das Rennen.", "dates": ["2026-07-13"], "sq": "etapa malore", "tr": "dağ etabı", "uk": "гірський етап", "ar": "المرحلة الجبلية", "fa": "مرحله کوهستانی"
-},
-{
-"de": "sich behaupten", "en": "to hold one's own, assert oneself", "erk": "Trotz starker Konkurrenz erfolgreich bleiben.", "bsp": "Kann er sich gegen die stärkeren Favoriten behaupten?", "dates": ["2026-07-13", "2026-07-20"], "sq": "të afirmohesh, t'ia dalësh përballë konkurrencës", "tr": "kendini kanıtlamak, ayakta kalmak", "uk": "вистояти, утвердитися", "ar": "يثبت نفسه، يصمد أمام المنافسة", "fa": "خود را ثابت کردن، در رقابت دوام آوردن"
-},
-{
-"de": "die Spitzengruppe", "en": "leading group, front pack", "erk": "Die Gruppe der Besten, die vorne im Rennen liegt.", "bsp": "Er kämpft darum, den Anschluss an die Spitzengruppe zu halten.", "dates": ["2026-07-13"], "sq": "grupi kryesues", "tr": "lider grup", "uk": "група лідерів", "ar": "المجموعة المتصدرة", "fa": "گروه پیشتاز"
-},
-{
-"de": "die Hitzewelle", "en": "heat wave", "erk": "Eine Periode mit ungewöhnlich hohen Temperaturen über mehrere Tage.", "bsp": "Die aktuelle Hitzewelle sorgt für Rekordwerte in ganz Deutschland.", "dates": ["2026-07-14"], "sq": "vala e të nxehtit", "tr": "sıcak hava dalgası", "uk": "хвиля спеки", "ar": "موجة الحر", "fa": "موج گرما"
-},
-{
-"de": "der Wüstentag", "en": "desert day (day over 35 °C)", "erk": "Ein Tag, an dem die Temperatur auf über 35 Grad steigt.", "bsp": "Diese Woche gab es bereits drei Wüstentage in Folge.", "dates": ["2026-07-14"], "sq": "ditë me temperaturë mbi 35 °C", "tr": "35 °C'nin üzerindeki aşırı sıcak gün", "uk": "день зі спекою понад 35 °C", "ar": "يوم تتجاوز حرارته 35 درجة مئوية", "fa": "روز با دمای بالای ۳۵ درجه"
-},
-{
-"de": "die tropische Nacht", "en": "tropical night", "erk": "Eine Nacht, in der die Temperatur nicht unter 20 Grad fällt.", "bsp": "Wegen der tropischen Nächte können viele Menschen kaum schlafen.", "dates": ["2026-07-14"], "sq": "nata tropikale", "tr": "tropikal gece", "uk": "тропічна ніч", "ar": "ليلة مدارية", "fa": "شب گرمسیری"
-},
-{
-"de": "sich erholen (die Erholung)", "en": "to recover, relax", "erk": "Neue Kraft sammeln, nach Anstrengung wieder fit werden.", "bsp": "Ohne kühle Nächte fällt es schwer, sich richtig zu erholen.", "dates": ["2026-07-14"], "sq": "të çlodhesh, të rimëkëmbesh", "tr": "dinlenmek, toparlanmak", "uk": "відпочивати, відновлюватися", "ar": "يستريح، يستعيد عافيته", "fa": "استراحت کردن، تجدید قوا کردن"
-},
-{
-"de": "ausreichend", "en": "sufficient, enough", "erk": "Genug, in ausreichender Menge.", "bsp": "Ärzte empfehlen, bei Hitze ausreichend zu trinken.", "dates": ["2026-07-14"], "sq": "i mjaftueshëm", "tr": "yeterli", "uk": "достатній, достатньо", "ar": "كافٍ، بما يكفي", "fa": "کافی، به اندازه کافی"
-},
-{
-"de": "verlegen (etwas)", "en": "to move, reschedule something", "erk": "Eine Aktivität zeitlich verschieben.", "bsp": "Viele verlegen sportliche Aktivitäten in die frühen Morgenstunden.", "dates": ["2026-07-14"], "sq": "ta zhvendosësh, ta ricaktosh", "tr": "başka zamana almak, ertelemek", "uk": "переносити (на інший час)", "ar": "ينقل الموعد، يعيد جدولة شيء", "fa": "به زمان دیگری موکول کردن"
-},
-{
-"de": "die Klimaanlage", "en": "air conditioning", "erk": "Ein Gerät, das Räume kühlt.", "bsp": "Nicht jeder Arbeitsplatz in Deutschland hat eine Klimaanlage.", "dates": ["2026-07-14"], "sq": "kondicioneri", "tr": "klima", "uk": "кондиціонер", "ar": "مكيّف الهواء", "fa": "دستگاه تهویه مطبوع"
-},
-{
-"de": "sich vorbereiten auf", "en": "to prepare for", "erk": "Sich rechtzeitig auf etwas Kommendes einstellen.", "bsp": "Städte müssen sich auf heißere Sommer vorbereiten.", "dates": ["2026-07-14"], "sq": "të përgatitesh për", "tr": "hazırlanmak", "uk": "готуватися до", "ar": "يستعدّ لـ", "fa": "آماده شدن برای"
-},
-{
-"de": "sich zurückhalten", "en": "to hold back, be reluctant", "erk": "Vorsichtig sein und (noch) nichts entscheiden.", "bsp": "Viele Vereine halten sich vor der Weltmeisterschaft zurück.", "dates": ["2026-07-15", "2026-07-20"], "sq": "të përmbahesh, të tregohesh i kujdesshëm", "tr": "geri durmak, temkinli davranmak", "uk": "стримуватися, діяти обережно", "ar": "يتريّث، يمتنع", "fa": "خودداری کردن، محتاطانه عمل کردن"
-},
-{
-"de": "der Jungstar", "en": "young star (talent)", "erk": "Ein junger, sehr talentierter Spieler.", "bsp": "Der Jungstar wechselt für viel Geld nach England.", "dates": ["2026-07-15"], "sq": "ylli i ri", "tr": "genç yıldız", "uk": "молода зірка", "ar": "النجم الشاب", "fa": "ستاره جوان"
-},
-{
-"de": "auf Eis legen", "en": "to put on hold (Wiederholung: legen)", "erk": "Etwas vorübergehend stoppen oder verschieben.", "bsp": "Er hat seine Wechselpläne auf Eis gelegt.", "dates": ["2026-07-15"], "sq": "ta pezullosh përkohësisht", "tr": "askıya almak", "uk": "відкласти, призупинити", "ar": "يعلّق مؤقتاً", "fa": "موقتاً متوقف کردن، مسکوت گذاشتن"
-},
-{
-"de": "der Leistungsträger", "en": "key player", "erk": "Ein Spieler, auf den die Mannschaft besonders angewiesen ist.", "bsp": "Ohne ihren Leistungsträger tut sich die Mannschaft schwer.", "dates": ["2026-07-15"], "sq": "lojtari kyç", "tr": "kilit oyuncu", "uk": "ключовий гравець", "ar": "اللاعب الأساسي المؤثر", "fa": "بازیکن کلیدی"
-},
-{
-"de": "die Entwicklung", "en": "development", "erk": "Wie sich eine Sache im Laufe der Zeit verändert.", "bsp": "Fans beobachten die Entwicklungen mit Spannung.", "dates": ["2026-07-15"], "sq": "zhvillimi", "tr": "gelişme", "uk": "розвиток, перебіг подій", "ar": "التطور", "fa": "روند، تحول"
-},
-{
-"de": "das Bargeld", "en": "cash", "erk": "Geld in Form von Scheinen und Münzen.", "bsp": "Viele Deutsche zahlen kleinere Beträge lieber mit Bargeld.", "dates": ["2026-07-16"], "sq": "paratë e gatshme", "tr": "nakit para", "uk": "готівка", "ar": "النقود", "fa": "پول نقد"
-},
-{
-"de": "bar bezahlen", "en": "to pay in cash", "erk": "Mit Scheinen oder Münzen bezahlen, nicht mit Karte.", "bsp": "Beim Bäcker bezahlen viele Leute noch bar.", "dates": ["2026-07-16"], "sq": "të paguash me para në dorë", "tr": "nakit ödemek", "uk": "платити готівкою", "ar": "يدفع نقداً", "fa": "نقدی پرداخت کردن"
-},
-{
-"de": "die Ausgaben (Pl.)", "en": "expenses, spending", "erk": "Das Geld, das man für etwas ausgibt.", "bsp": "Mit Bargeld hat man die eigenen Ausgaben besser im Blick.", "dates": ["2026-07-16"], "sq": "shpenzimet", "tr": "harcamalar, giderler", "uk": "витрати", "ar": "المصروفات، النفقات", "fa": "هزینه‌ها، مخارج"
-},
-{
-"de": "kontaktlos bezahlen", "en": "to pay contactless", "erk": "Mit Karte oder Handy bezahlen, ohne sie einzustecken.", "bsp": "Immer mehr Cafés akzeptieren kontaktloses Bezahlen.", "dates": ["2026-07-16"], "sq": "të paguash pa kontakt", "tr": "temassız ödeme yapmak", "uk": "платити безконтактно", "ar": "يدفع دون تلامس", "fa": "بدون تماس پرداخت کردن"
-},
-{
-"de": "abschaffen", "en": "to abolish, do away with", "erk": "Etwas offiziell beenden oder nicht mehr benutzen.", "bsp": "Manche Länder wollen das Bargeld komplett abschaffen.", "dates": ["2026-07-16"], "sq": "të heqësh, të shfuqizosh", "tr": "kaldırmak", "uk": "скасовувати", "ar": "يلغي", "fa": "لغو کردن، کنار گذاشتن"
-},
-{
-"de": "der Datenschutz", "en": "data protection, privacy", "erk": "Der Schutz der persönlichen Daten einer Person.", "bsp": "Beim Bezahlen mit Karte machen sich manche Sorgen um den Datenschutz.", "dates": ["2026-07-16"], "sq": "mbrojtja e të dhënave", "tr": "veri koruma, veri gizliliği", "uk": "захист даних", "ar": "حماية البيانات، الخصوصية", "fa": "حفاظت از داده‌ها، حریم خصوصی"
-},
-{
-"de": "der Übergang", "en": "transition", "erk": "Der Wechsel von einem Zustand zu einem anderen.", "bsp": "Politik und Banken diskutieren über einen fairen Übergang zum digitalen Bezahlen.", "dates": ["2026-07-16"], "sq": "kalimi, tranzicioni", "tr": "geçiş", "uk": "перехід", "ar": "الانتقال", "fa": "گذار، انتقال"
-},
-{
-"de": "ausschließen", "en": "to exclude", "erk": "Jemanden nicht an etwas teilnehmen lassen.", "bsp": "Niemand soll vom Zahlungssystem ausgeschlossen werden.", "dates": ["2026-07-16"], "sq": "të përjashtosh", "tr": "dışlamak, hariç tutmak", "uk": "виключати", "ar": "يستبعد، يحرم من المشاركة", "fa": "محروم کردن، کنار گذاشتن"
-},
-{
-"de": "die Erhebung", "en": "survey, poll", "erk": "Eine systematische Befragung, um Informationen zu sammeln.", "bsp": "Laut einer aktuellen Erhebung zahlt mehr als die Hälfte mit Karte.", "dates": ["2026-07-16"], "sq": "anketa, mbledhja e të dhënave", "tr": "araştırma, anket", "uk": "опитування, дослідження", "ar": "مسح، استطلاع", "fa": "پیمایش، نظرسنجی"
-},
-{
-"de": "auf dem Prüfstand stehen", "en": "to be put to the test", "erk": "Genau untersucht und bewertet werden, ob etwas wirklich funktioniert.", "bsp": "Die Vier-Tage-Woche steht derzeit auf dem Prüfstand.", "dates": ["2026-07-17"], "sq": "të vihet në provë", "tr": "mercek altına alınmak, sınanmak", "uk": "проходити перевірку", "ar": "يخضع للاختبار والتقييم", "fa": "در حال بررسی و آزمون بودن"
-},
-{
-"de": "verpflichtend", "en": "mandatory, obligatory", "erk": "Etwas, das man tun muss, keine freiwillige Option.", "bsp": "Eine verpflichtende Vier-Tage-Woche wäre für alle Pflicht.", "dates": ["2026-07-17"], "sq": "i detyrueshëm", "tr": "zorunlu", "uk": "обов'язковий", "ar": "إلزامي", "fa": "الزامی، اجباری"
-},
-{
-"de": "der Personalmangel", "en": "staff shortage", "erk": "Wenn eine Firma oder Branche zu wenige Mitarbeiter hat.", "bsp": "Im Handwerk herrscht seit Jahren Personalmangel.", "dates": ["2026-07-17"], "sq": "mungesa e personelit", "tr": "personel eksikliği", "uk": "нестача персоналу", "ar": "نقص الموظفين", "fa": "کمبود نیروی انسانی"
-},
-{
-"de": "die Stellenanzeige", "en": "job posting", "erk": "Eine öffentliche Anzeige, mit der eine Firma neue Mitarbeiter sucht.", "bsp": "Nur wenige Stellenanzeigen erwähnen die Vier-Tage-Woche.", "dates": ["2026-07-17"], "sq": "shpallja e vendit të punës", "tr": "iş ilanı", "uk": "оголошення про вакансію", "ar": "إعلان الوظيفة", "fa": "آگهی استخدام"
-},
-{
-"de": "werben (mit etwas)", "en": "to advertise (with something)", "erk": "Etwas positiv hervorheben, um Kunden oder Bewerber anzulocken.", "bsp": "Manche Firmen werben gezielt mit flexiblen Arbeitszeiten.", "dates": ["2026-07-17"], "sq": "të reklamohesh (me diçka)", "tr": "bir şeyle reklam yapmak", "uk": "рекламувати, приваблювати чимось", "ar": "يروّج مستخدماً شيئاً", "fa": "با چیزی تبلیغ کردن"
-},
-{
-"de": "der Umbruch", "en": "upheaval, transformation", "erk": "Eine große, oft schnelle Veränderung eines Zustands.", "bsp": "Die KI sorgt gerade für einen echten Umbruch am Arbeitsmarkt.", "dates": ["2026-07-18"], "sq": "ndryshimi rrënjësor", "tr": "köklü değişim, dönüşüm", "uk": "докорінна зміна, перелом", "ar": "تحوّل جذري", "fa": "دگرگونی اساسی"
-},
-{
-"de": "Stellen abbauen / streichen", "en": "to cut jobs", "erk": "Arbeitsplätze in einer Firma reduzieren oder ganz beenden.", "bsp": "Der Konzern will in Europa mehrere tausend Stellen streichen.", "dates": ["2026-07-18"], "sq": "të shkurtohen vendet e punës", "tr": "işten çıkarmak, kadro azaltmak", "uk": "скорочувати робочі місця", "ar": "يقلّص الوظائف، يلغي وظائف", "fa": "تعدیل نیرو کردن، فرصت‌های شغلی را حذف کردن"
-},
-{
-"de": "die Tochtergesellschaft", "en": "subsidiary", "erk": "Eine Firma, die zu einem größeren Mutterkonzern gehört.", "bsp": "Allianz Partners ist eine Tochtergesellschaft der Allianz.", "dates": ["2026-07-18"], "sq": "filiali, shoqëria e kontrolluar", "tr": "bağlı ortaklık, iştirak", "uk": "дочірня компанія", "ar": "شركة تابعة", "fa": "شرکت تابعه"
-},
-{
-"de": "das Berufsbild", "en": "job profile, occupation type", "erk": "Die typische Beschreibung eines Berufs und seiner Aufgaben.", "bsp": "Durch KI entstehen völlig neue Berufsbilder.", "dates": ["2026-07-18"], "sq": "profili i profesionit", "tr": "meslek profili", "uk": "професійний профіль", "ar": "الوصف المهني، طبيعة المهنة", "fa": "شرح و مشخصات شغل"
-},
-{
-"de": "sich weiterbilden", "en": "to further one's education, upskill", "erk": "Neues Wissen oder neue Fähigkeiten dazulernen.", "bsp": "Viele Beschäftigte wollen sich im Umgang mit KI weiterbilden.", "dates": ["2026-07-18"], "sq": "të zhvillosh më tej aftësitë profesionale", "tr": "mesleki eğitim almak, kendini geliştirmek", "uk": "підвищувати кваліфікацію", "ar": "يطوّر مهاراته، يتلقى تدريباً إضافياً", "fa": "مهارت‌آموزی کردن، آموزش تکمیلی دیدن"
-},
-{
-"de": "überflüssig", "en": "superfluous, redundant", "erk": "Nicht mehr nötig oder gebraucht.", "bsp": "Manche fürchten, dass ihr Job durch KI überflüssig wird.", "dates": ["2026-07-18"], "sq": "i panevojshëm", "tr": "gereksiz, ihtiyaç dışı", "uk": "зайвий, непотрібний", "ar": "غير ضروري، زائد", "fa": "غیرضروری، زائد"
-},
-{
-"de": "die Verschiebung", "en": "shift, displacement", "erk": "Eine Veränderung, bei der sich etwas von einem Bereich in einen anderen bewegt.", "bsp": "Es geht um eine Verschiebung hin zu neuen Aufgaben, nicht um reinen Jobabbau.", "dates": ["2026-07-18"], "sq": "zhvendosja, kalimi", "tr": "kayma, yön değişikliği", "uk": "зміщення, перехід", "ar": "تحوّل، انتقال", "fa": "جابه‌جایی، تغییر جهت"
-},
-{
-"de": "entthronen", "en": "to dethrone", "erk": "Jemandem eine führende Position wegnehmen, die er vorher hatte.", "bsp": "Spanien hat den Titelverteidiger Argentinien entthront.", "dates": ["2026-07-20"], "sq": "të rrëzosh nga froni", "tr": "tahtından indirmek", "uk": "скинути з вершини, позбавити титулу", "ar": "يزيح عن العرش، ينتزع الصدارة من", "fa": "از تخت پایین کشیدن، عنوان را گرفتن"
-},
-{
-"de": "die Verlängerung", "en": "extra time, overtime", "erk": "Zusätzliche Spielzeit, wenn es nach 90 Minuten unentschieden steht.", "bsp": "Das Tor fiel erst in der Verlängerung.", "dates": ["2026-07-20"], "sq": "koha shtesë", "tr": "uzatma", "uk": "додатковий час", "ar": "الوقت الإضافي", "fa": "وقت اضافه"
-},
-{
-"de": "der Torschuss", "en": "shot on goal", "erk": "Ein Schuss, der aufs gegnerische Tor zielt.", "bsp": "Kein Team kam im Finale zu einem einzigen Torschuss.", "dates": ["2026-07-20"], "sq": "goditja në portë", "tr": "kaleye şut", "uk": "удар по воротах", "ar": "تسديدة على المرمى", "fa": "شوت به دروازه"
-},
-{
-"de": "der Joker / eingewechselt werden", "en": "substitute who changes the game / to be brought on", "erk": "Ein Spieler, der erst später ins Spiel kommt und dann entscheidend wirkt.", "bsp": "Torres kam als Joker und traf sofort.", "dates": ["2026-07-20"], "sq": "zëvendësuesi vendimtar / të futesh si zëvendësues", "tr": "oyuna girip maçı değiştiren yedek / oyuna alınmak", "uk": "вирішальний гравець із заміни / вийти на заміну", "ar": "البديل الحاسم / يدخل بديلاً", "fa": "بازیکن تعویضی تأثیرگذار / به‌عنوان بازیکن تعویضی وارد شدن"
-},
-{
-"de": "erlösen", "en": "to bring relief, to be the saving grace", "erk": "Eine lange Anspannung durch einen entscheidenden Moment beenden.", "bsp": "Sein Tor hat ganz Spanien erlöst.", "dates": ["2026-07-20"], "sq": "të çlirosh nga ankthi", "tr": "rahatlatmak, sıkıntıdan kurtarmak", "uk": "принести полегшення, позбавити напруги", "ar": "يريح، يخلّص من التوتر", "fa": "آسوده‌خاطر کردن، از نگرانی رهانیدن"
-},
-{
-"de": "die Niederlage", "en": "defeat, loss", "erk": "Ein verlorenes Spiel oder ein Misserfolg.", "bsp": "Für Argentinien ist es eine bittere Niederlage.", "dates": ["2026-07-20"], "sq": "humbja", "tr": "yenilgi, mağlubiyet", "uk": "поразка", "ar": "الهزيمة", "fa": "شکست"
-},
-{
-"de": "belasten", "en": "to burden, to strain", "erk": "Etwas schwerer oder schwieriger machen.", "bsp": "Steigende Energiepreise haben die Wirtschaft belastet.", "dates": ["2026-07-21"], "sq": "të rëndosh, të ngarkosh", "tr": "yük oluşturmak, zorlamak", "uk": "обтяжувати, створювати навантаження", "ar": "يثقل كاهل، يضغط على", "fa": "تحت فشار گذاشتن، سنگین کردن بار"
-},
-{
-"de": "die Insolvenz", "en": "insolvency, bankruptcy", "erk": "Wenn eine Firma ihre Rechnungen nicht mehr bezahlen kann.", "bsp": "Die Zahl der Insolvenzen ist stark gestiegen.", "dates": ["2026-07-21"], "sq": "paaftësia paguese, falimentimi", "tr": "iflas, ödeme aczi", "uk": "неплатоспроможність, банкрутство", "ar": "الإعسار، الإفلاس", "fa": "ورشکستگی، ناتوانی در پرداخت"
-},
-{
-"de": "der Anstieg", "en": "increase, rise", "erk": "Wenn eine Zahl oder ein Wert größer wird.", "bsp": "Das ist ein Anstieg von fast neun Prozent.", "dates": ["2026-07-21"], "sq": "rritja", "tr": "artış", "uk": "зростання", "ar": "الارتفاع، الزيادة", "fa": "افزایش"
-},
-{
-"de": "fragil", "en": "fragile", "erk": "Leicht zu zerstören oder instabil.", "bsp": "Die wirtschaftliche Erholung ist real, aber noch fragil.", "dates": ["2026-07-21"], "sq": "i brishtë, i paqëndrueshëm", "tr": "kırılgan", "uk": "крихкий, нестабільний", "ar": "هشّ، غير مستقر", "fa": "شکننده، ناپایدار"
-},
-{
-"de": "durchgreifen", "en": "to crack down, take firm action", "erk": "Entschlossen und konsequent gegen ein Problem vorgehen.", "bsp": "„Wir greifen durch“, sagt die DB-Chefin zum neuen Alkoholverbot.", "dates": ["2026-07-22"], "sq": "të ndërhysh me vendosmëri", "tr": "sert önlem almak, kararlı davranmak", "uk": "вживати рішучих заходів", "ar": "يتخذ إجراءات حازمة", "fa": "قاطعانه برخورد کردن"
-},
-{
-"de": "verbannen", "en": "to banish, ban", "erk": "Etwas offiziell und vollständig verbieten.", "bsp": "Die DB verbannt das Alkoholtrinken aus ihren Bahnhöfen.", "dates": ["2026-07-22"], "sq": "të ndalosh plotësisht", "tr": "yasaklamak, uzaklaştırmak", "uk": "забороняти, усувати", "ar": "يحظر، يمنع تماماً", "fa": "ممنوع کردن، کنار گذاشتن"
-},
-{
-"de": "der Angriff", "en": "attack, assault", "erk": "Eine gewaltsame Handlung gegen eine Person.", "bsp": "Auslöser war ein brutaler Angriff auf einen Mitarbeiter.", "dates": ["2026-07-22"], "sq": "sulmi", "tr": "saldırı", "uk": "напад", "ar": "اعتداء، هجوم", "fa": "حمله، تعرض"
-},
-{
-"de": "ausgenommen sein", "en": "to be excluded, exempt", "erk": "Nicht von einer Regel betroffen sein.", "bsp": "Gastronomiebetriebe sind von dem Verbot ausgenommen.", "dates": ["2026-07-22"], "sq": "të përjashtohesh nga një rregull", "tr": "muaf olmak, kapsam dışında olmak", "uk": "бути звільненим від дії правила", "ar": "يُستثنى من", "fa": "مستثنا بودن"
-},
-{
-"de": "der Platzverweis", "en": "order to leave the premises", "erk": "Die Anweisung, einen Ort sofort zu verlassen.", "bsp": "Wer gegen das Verbot verstößt, bekommt einen Platzverweis.", "dates": ["2026-07-22"], "sq": "urdhri për t'u larguar nga vendi", "tr": "mekândan çıkarma emri", "uk": "вимога негайно залишити місце", "ar": "أمر بمغادرة المكان", "fa": "دستور ترک محل"
-},
-{
-"de": "der Verstoß", "en": "violation, offense", "erk": "Ein Verhalten, das gegen eine Regel verstößt.", "bsp": "Bei wiederholten Verstößen droht ein Hausverbot.", "dates": ["2026-07-22"], "sq": "shkelja", "tr": "ihlal", "uk": "порушення", "ar": "مخالفة، انتهاك", "fa": "تخلف، نقض مقررات"
-},
-{
-"de": "das Hausverbot", "en": "ban from the premises", "erk": "Ein Verbot, einen bestimmten Ort noch einmal zu betreten.", "bsp": "Im schlimmsten Fall spricht die Bahn ein Hausverbot aus.", "dates": ["2026-07-22"], "sq": "ndalimi i hyrjes në një ambient", "tr": "mekâna giriş yasağı", "uk": "заборона входу до приміщення", "ar": "حظر دخول المكان", "fa": "ممنوعیت ورود به محل"
-},
-{
-"de": "die Maßnahme", "en": "measure, action", "erk": "Ein gezielter Schritt, um ein Ziel zu erreichen.", "bsp": "Viele Pendler begrüßen die neue Maßnahme.", "dates": ["2026-07-22"], "sq": "masa, veprimi", "tr": "önlem, tedbir", "uk": "захід", "ar": "إجراء، تدبير", "fa": "اقدام، تدبیر"
-},
-{
-"de": "schrittweise", "en": "step by step, gradually", "erk": "Nicht auf einmal, sondern nach und nach.", "bsp": "Das Verbot wird schrittweise an allen Bahnhöfen eingeführt.", "dates": ["2026-07-22"], "sq": "hap pas hapi, gradualisht", "tr": "adım adım, kademeli olarak", "uk": "поступово, крок за кроком", "ar": "تدريجياً، خطوة بخطوة", "fa": "گام‌به‌گام، به‌تدریج"
-},
-{
-"de": "der Höchststand", "en": "record level, all-time high", "erk": "Der höchste Wert, den es je gab.", "bsp": "Die Zahl der Remote-Stellen erreicht einen neuen Höchststand.", "dates": ["2026-07-23"], "sq": "niveli më i lartë, rekord", "tr": "rekor seviye, en yüksek düzey", "uk": "рекордний рівень, максимум", "ar": "أعلى مستوى، مستوى قياسي", "fa": "بالاترین حد، رکورد"
-},
-{
-"de": "ortsunabhängig", "en": "location-independent", "erk": "Nicht an einen bestimmten Arbeitsort gebunden.", "bsp": "Wer ortsunabhängig arbeitet, kann sich überall bewerben.", "dates": ["2026-07-23"], "sq": "i pavarur nga vendndodhja", "tr": "konumdan bağımsız", "uk": "незалежний від місця роботи", "ar": "غير مرتبط بمكان محدد", "fa": "مستقل از مکان"
-},
-{
-"de": "verschwimmen", "en": "to blur, become unclear", "erk": "Undeutlich werden, weil zwei Dinge kaum noch zu unterscheiden sind.", "bsp": "Die Grenze zwischen Büro und Zuhause verschwimmt zunehmend.", "dates": ["2026-07-23"], "sq": "të mjegullohet, të bëhet e paqartë", "tr": "bulanıklaşmak, belirsizleşmek", "uk": "розмиватися, ставати нечітким", "ar": "يتلاشى، يصبح غير واضح", "fa": "محو شدن، نامشخص شدن"
-},
-{
-"de": "der Zugriff", "en": "access", "erk": "Die Möglichkeit, auf etwas (z. B. Daten) zuzugreifen.", "bsp": "Jeder Zugriff auf sensible Daten wird überprüft.", "dates": ["2026-07-23"], "sq": "qasja", "tr": "erişim", "uk": "доступ", "ar": "إمكانية الوصول", "fa": "دسترسی"
-},
-{
-"de": "riskieren", "en": "to risk", "erk": "Eine mögliche negative Folge in Kauf nehmen.", "bsp": "Wer Sicherheitsstandards ignoriert, riskiert Datenschutzprobleme.", "dates": ["2026-07-23"], "sq": "të rrezikosh", "tr": "riske atmak", "uk": "ризикувати", "ar": "يخاطر بـ", "fa": "به خطر انداختن، ریسک کردن"
-},
-{
-"de": "der Quereinsteiger", "en": "career changer, lateral entrant", "erk": "Jemand, der aus einem anderen Berufsfeld neu einsteigt.", "bsp": "Immer mehr Firmen suchen gezielt Quereinsteiger.", "dates": ["2026-07-23"], "sq": "personi që kalon nga një fushë tjetër profesionale", "tr": "başka bir meslekten sektöre geçen kişi", "uk": "людина, яка переходить з іншої професійної сфери", "ar": "شخص ينتقل إلى مهنة من مجال آخر", "fa": "فردی که از حوزه شغلی دیگری وارد می‌شود"
+"de": "die Umfrage",
+"en": "survey",
+"erk": "Eine Untersuchung, bei der viele Menschen zu einem Thema befragt werden.",
+"bsp": "Laut einer aktuellen Umfrage arbeiten viele Deutsche im Homeoffice.",
+"dates": [
+"2026-07-09",
+"2026-07-11"
+],
+"sq": "anketa",
+"tr": "anket",
+"uk": "опитування",
+"ar": "استطلاع رأي",
+"fa": "نظرسنجی"
+},
+{
+"de": "der/die Angestellte",
+"en": "employee",
+"erk": "Eine Person, die für eine Firma arbeitet.",
+"bsp": "Als Angestellter hat man Anspruch auf Urlaub.",
+"dates": [
+"2026-07-09"
+],
+"sq": "punonjësi / punonjësja",
+"tr": "çalışan",
+"uk": "найманий працівник / наймана працівниця",
+"ar": "الموظف / الموظفة",
+"fa": "کارمند"
+},
+{
+"de": "auswerten",
+"en": "to analyze / evaluate",
+"erk": "Daten genau prüfen und Ergebnisse daraus ziehen.",
+"bsp": "Das Team wertet die Verkaufszahlen jede Woche aus.",
+"dates": [
+"2026-07-09"
+],
+"sq": "të analizosh, të vlerësosh",
+"tr": "analiz etmek, değerlendirmek",
+"uk": "аналізувати, оцінювати",
+"ar": "يُحلّل، يُقيّم",
+"fa": "تحلیل و ارزیابی کردن"
+},
+{
+"de": "der Wandel",
+"en": "change, transformation",
+"erk": "Eine große Veränderung, die über längere Zeit passiert.",
+"bsp": "Der digitale Wandel verändert viele Berufe.",
+"dates": [
+"2026-07-09"
+],
+"sq": "ndryshimi, transformimi",
+"tr": "değişim, dönüşüm",
+"uk": "зміна, трансформація",
+"ar": "التحوّل، التغيّر",
+"fa": "دگرگونی، تحول"
+},
+{
+"de": "verzichten (auf)",
+"en": "to do without, give up",
+"erk": "Etwas nicht mehr benutzen oder haben wollen.",
+"bsp": "Ich möchte nicht mehr auf mein Smartphone verzichten.",
+"dates": [
+"2026-07-09"
+],
+"sq": "të heqësh dorë (nga)",
+"tr": "vazgeçmek, feragat etmek",
+"uk": "відмовлятися (від)",
+"ar": "يستغني (عن)، يتخلى (عن)",
+"fa": "صرف‌نظر کردن (از)، بی‌خیال شدن"
+},
+{
+"de": "ersetzen",
+"en": "to replace",
+"erk": "Etwas durch etwas anderes austauschen.",
+"bsp": "Die neue Software ersetzt das alte System.",
+"dates": [
+"2026-07-09"
+],
+"sq": "të zëvendësosh",
+"tr": "yerine koymak, değiştirmek",
+"uk": "замінювати",
+"ar": "يستبدل",
+"fa": "جایگزین کردن"
+},
+{
+"de": "einbeziehen",
+"en": "to involve, include",
+"erk": "Jemanden aktiv an etwas teilnehmen lassen.",
+"bsp": "Der Chef bezieht das ganze Team in die Entscheidung ein.",
+"dates": [
+"2026-07-09"
+],
+"sq": "të përfshish",
+"tr": "dahil etmek",
+"uk": "залучати, включати",
+"ar": "يُشرك، يُدرج",
+"fa": "مشارکت دادن، در نظر گرفتن"
+},
+{
+"de": "sich konzentrieren auf",
+"en": "to focus on",
+"erk": "Die Aufmerksamkeit auf eine Sache richten.",
+"bsp": "Ich konzentriere mich heute auf das wichtigste Projekt.",
+"dates": [
+"2026-07-09",
+"2026-07-10",
+"2026-07-13"
+],
+"sq": "të përqendrohesh te",
+"tr": "odaklanmak",
+"uk": "зосереджуватися на",
+"ar": "يركّز على",
+"fa": "تمرکز کردن روی"
+},
+{
+"de": "wechseln (zu)",
+"en": "to transfer, move (to)",
+"erk": "Von einem Verein, einer Firma oder einem Ort zu einem anderen gehen.",
+"bsp": "Der Spieler wechselt zu einem neuen Verein.",
+"dates": [
+"2026-07-10"
+],
+"sq": "të kalosh (te)",
+"tr": "geçmek, transfer olmak",
+"uk": "переходити (до)",
+"ar": "ينتقل (إلى)",
+"fa": "پیوستن (به)، منتقل شدن"
+},
+{
+"de": "das Testspiel",
+"en": "friendly match",
+"erk": "Ein Spiel ohne Punkte, das nur zum Üben dient.",
+"bsp": "Im Testspiel probiert der Trainer neue Aufstellungen aus.",
+"dates": [
+"2026-07-10"
+],
+"sq": "ndeshja miqësore",
+"tr": "hazırlık maçı",
+"uk": "товариський матч",
+"ar": "مباراة ودية",
+"fa": "بازی دوستانه"
+},
+{
+"de": "aufgeben",
+"en": "to give up",
+"erk": "Etwas nicht mehr weiterverfolgen.",
+"bsp": "Er hat seine Wechselpläne aufgegeben und bleibt beim Verein.",
+"dates": [
+"2026-07-10"
+],
+"sq": "të heqësh dorë",
+"tr": "vazgeçmek",
+"uk": "відмовлятися, полишати",
+"ar": "يتخلى عن، يستسلم",
+"fa": "دست کشیدن، منصرف شدن"
+},
+{
+"de": "sich einig sein",
+"en": "to agree, be in agreement",
+"erk": "Die gleiche Meinung wie andere haben.",
+"bsp": "Fans und Trainer sind sich einig: Die Saison wird spannend.",
+"dates": [
+"2026-07-10",
+"2026-07-11",
+"2026-07-12",
+"2026-07-13",
+"2026-07-14",
+"2026-07-17",
+"2026-07-18",
+"2026-07-21"
+],
+"sq": "të jesh dakord",
+"tr": "aynı fikirde olmak",
+"uk": "бути одностайними, погоджуватися",
+"ar": "يتفق في الرأي",
+"fa": "هم‌نظر بودن، توافق داشتن"
+},
+{
+"de": "die Nachfrage",
+"en": "demand",
+"erk": "Wie viel Menschen oder Firmen etwas kaufen oder haben wollen.",
+"bsp": "Die Nachfrage nach neuen Wohnungen ist hoch.",
+"dates": [
+"2026-07-11"
+],
+"sq": "kërkesa",
+"tr": "talep",
+"uk": "попит",
+"ar": "الطلب",
+"fa": "تقاضا"
+},
+{
+"de": "der Lieferengpass",
+"en": "supply bottleneck",
+"erk": "Ein Problem, weil bestimmte Waren oder Materialien fehlen.",
+"bsp": "Wegen des Lieferengpasses kam die Bestellung viel später an.",
+"dates": [
+"2026-07-11"
+],
+"sq": "mungesa në furnizim",
+"tr": "tedarik sıkıntısı",
+"uk": "перебої з постачанням",
+"ar": "نقص في الإمدادات",
+"fa": "کمبود در تأمین"
+},
+{
+"de": "der Rohstoff (Plural: Rohstoffe)",
+"en": "raw material",
+"erk": "Ein Grundmaterial, aus dem Produkte hergestellt werden, z. B. Metall oder Holz.",
+"bsp": "Ohne genug Rohstoffe kann die Fabrik nicht produzieren.",
+"dates": [
+"2026-07-11"
+],
+"sq": "lënda e parë",
+"tr": "ham madde",
+"uk": "сировина",
+"ar": "المادة الخام",
+"fa": "ماده اولیه"
+},
+{
+"de": "verzögern",
+"en": "to delay",
+"erk": "Bewirken, dass etwas später passiert als geplant.",
+"bsp": "Der Streik hat die Lieferung um zwei Wochen verzögert.",
+"dates": [
+"2026-07-11"
+],
+"sq": "të vonosh",
+"tr": "geciktirmek",
+"uk": "затримувати",
+"ar": "يؤخّر",
+"fa": "به تأخیر انداختن"
+},
+{
+"de": "einstellen (Mitarbeiter)",
+"en": "to hire (employees)",
+"erk": "Jemanden als neuen Mitarbeiter in eine Firma aufnehmen.",
+"bsp": "Die Firma stellt dieses Jahr kaum neue Leute ein.",
+"dates": [
+"2026-07-11"
+],
+"sq": "të punësosh",
+"tr": "işe almak",
+"uk": "наймати (працівників)",
+"ar": "يُوظّف",
+"fa": "استخدام کردن"
+},
+{
+"de": "entlasten",
+"en": "to relieve, ease the burden",
+"erk": "Jemandem helfen, indem man Kosten, Arbeit oder Druck reduziert.",
+"bsp": "Die Reform soll kleine Unternehmen finanziell entlasten.",
+"dates": [
+"2026-07-11"
+],
+"sq": "të lehtësosh barrën",
+"tr": "yükünü hafifletmek",
+"uk": "полегшувати навантаження",
+"ar": "يخفّف العبء عن",
+"fa": "از بار کسی کاستن"
+},
+{
+"de": "die Büropräsenz",
+"en": "office presence/attendance",
+"erk": "Wie oft man tatsächlich im Büro und nicht im Homeoffice arbeitet.",
+"bsp": "Viele Firmen verlangen wieder mehr Büropräsenz.",
+"dates": [
+"2026-07-12"
+],
+"sq": "prania në zyrë",
+"tr": "ofiste bulunma",
+"uk": "присутність в офісі",
+"ar": "الحضور في المكتب",
+"fa": "حضور در دفتر کار"
+},
+{
+"de": "verlangen",
+"en": "to demand, require",
+"erk": "Deutlich sagen, dass man etwas von jemandem erwartet.",
+"bsp": "Der Chef verlangt, dass alle pünktlich zum Meeting kommen.",
+"dates": [
+"2026-07-12"
+],
+"sq": "të kërkosh",
+"tr": "talep etmek, istemek",
+"uk": "вимагати",
+"ar": "يطالب بـ، يشترط",
+"fa": "مطالبه کردن، خواستن"
+},
+{
+"de": "die Vereinbarkeit (von X und Y)",
+"en": "compatibility, balance (of X and Y)",
+"erk": "Wenn zwei Bereiche des Lebens gut zusammenpassen, z. B. Beruf und Familie.",
+"bsp": "Flexible Arbeitszeiten verbessern die Vereinbarkeit von Beruf und Familie.",
+"dates": [
+"2026-07-12"
+],
+"sq": "pajtueshmëria (e X me Y)",
+"tr": "uyumluluk, denge",
+"uk": "сумісність, поєднання",
+"ar": "التوفيق بين، التوافق",
+"fa": "سازگاری، امکان تلفیق"
+},
+{
+"de": "die Führungskraft",
+"en": "manager, executive",
+"erk": "Eine Person, die in einer Firma eine leitende Position hat.",
+"bsp": "Die Führungskräfte trafen sich, um die neue Strategie zu besprechen.",
+"dates": [
+"2026-07-12",
+"2026-09-17"
+],
+"sq": "drejtuesi / drejtuesja",
+"tr": "yönetici",
+"uk": "керівник / керівниця",
+"ar": "المسؤول الإداري / المديرة",
+"fa": "مدیر، نیروی مدیریتی"
+},
+{
+"de": "sich äußern (zu)",
+"en": "to comment (on), express an opinion",
+"erk": "Öffentlich seine Meinung zu einem Thema sagen.",
+"bsp": "Die Ministerin äußerte sich heute zu den neuen Plänen.",
+"dates": [
+"2026-07-12"
+],
+"sq": "të shprehesh (për)",
+"tr": "görüş bildirmek",
+"uk": "висловлюватися (щодо)",
+"ar": "يُبدي رأيه (في)",
+"fa": "اظهارنظر کردن (درباره)"
+},
+{
+"de": "befürchten",
+"en": "to fear, worry (that)",
+"erk": "Denken, dass etwas Negatives passieren könnte.",
+"bsp": "Viele Manager befürchten, dass die Kosten weiter steigen.",
+"dates": [
+"2026-07-12",
+"2026-07-17",
+"2026-07-18"
+],
+"sq": "të kesh frikë se",
+"tr": "endişe etmek, korkmak",
+"uk": "побоюватися",
+"ar": "يخشى أن",
+"fa": "بیم داشتن، نگران بودن"
+},
+{
+"de": "hybrid",
+"en": "hybrid",
+"erk": "Eine Mischung aus zwei verschiedenen Formen, z. B. Büro und Homeoffice.",
+"bsp": "Unser Team arbeitet nach einem hybriden Modell.",
+"dates": [
+"2026-07-12"
+],
+"sq": "hibrid",
+"tr": "hibrit",
+"uk": "гібридний",
+"ar": "هجين",
+"fa": "ترکیبی، هیبریدی"
+},
+{
+"de": "die Wunschliste",
+"en": "wish list",
+"erk": "Eine Liste von Dingen, die man sich wünscht.",
+"bsp": "Mehr Urlaub steht ganz oben auf ihrer Wunschliste.",
+"dates": [
+"2026-07-12"
+],
+"sq": "lista e dëshirave",
+"tr": "istek listesi",
+"uk": "список бажань",
+"ar": "قائمة الأمنيات",
+"fa": "فهرست آرزوها"
+},
+{
+"de": "der große Wurf",
+"en": "the big breakthrough, the masterstroke",
+"erk": "Ein besonders großer, entscheidender Erfolg.",
+"bsp": "Für das deutsche Team wäre der Gesamtsieg der große Wurf.",
+"dates": [
+"2026-07-13"
+],
+"sq": "suksesi i madh, goditja vendimtare",
+"tr": "büyük başarı, büyük atılım",
+"uk": "великий прорив, вирішальний успіх",
+"ar": "الإنجاز الكبير، الضربة الموفقة",
+"fa": "موفقیت بزرگ، شاهکار"
+},
+{
+"de": "zutrauen (jemandem etwas)",
+"en": "to believe someone capable of something",
+"erk": "Denken, dass jemand eine bestimmte Leistung schaffen kann.",
+"bsp": "Experten trauen ihm in diesem Jahr den Sieg zu.",
+"dates": [
+"2026-07-13"
+],
+"sq": "të besosh se dikush është i aftë për diçka",
+"tr": "birini bir şeyi yapabilecek görmek",
+"uk": "вважати когось здатним на щось",
+"ar": "يعتقد أن شخصاً قادر على شيء",
+"fa": "کسی را قادر به انجام کاری دانستن"
+},
+{
+"de": "der Helfer (Edelhelfer)",
+"en": "domestique, key helper",
+"erk": "Ein Fahrer/eine Person, die ihre Kraft für den Erfolg eines anderen einsetzt.",
+"bsp": "Als Edelhelfer opfert er sich für den Kapitän des Teams.",
+"dates": [
+"2026-07-13"
+],
+"sq": "ndihmësi kryesor i ekipit",
+"tr": "takım liderinin kilit yardımcısı",
+"uk": "ключовий помічник у команді",
+"ar": "المساعد الرئيسي في الفريق",
+"fa": "یار و کمک‌کار اصلی تیم"
+},
+{
+"de": "die Bergetappe",
+"en": "mountain stage",
+"erk": "Ein Streckenabschnitt mit vielen und steilen Anstiegen.",
+"bsp": "In den Bergetappen entscheidet sich meist das Rennen.",
+"dates": [
+"2026-07-13"
+],
+"sq": "etapa malore",
+"tr": "dağ etabı",
+"uk": "гірський етап",
+"ar": "المرحلة الجبلية",
+"fa": "مرحله کوهستانی"
+},
+{
+"de": "sich behaupten",
+"en": "to hold one's own, assert oneself",
+"erk": "Trotz starker Konkurrenz erfolgreich bleiben.",
+"bsp": "Kann er sich gegen die stärkeren Favoriten behaupten?",
+"dates": [
+"2026-07-13",
+"2026-07-20"
+],
+"sq": "të afirmohesh, t'ia dalësh përballë konkurrencës",
+"tr": "kendini kanıtlamak, ayakta kalmak",
+"uk": "вистояти, утвердитися",
+"ar": "يثبت نفسه، يصمد أمام المنافسة",
+"fa": "خود را ثابت کردن، در رقابت دوام آوردن"
+},
+{
+"de": "die Spitzengruppe",
+"en": "leading group, front pack",
+"erk": "Die Gruppe der Besten, die vorne im Rennen liegt.",
+"bsp": "Er kämpft darum, den Anschluss an die Spitzengruppe zu halten.",
+"dates": [
+"2026-07-13"
+],
+"sq": "grupi kryesues",
+"tr": "lider grup",
+"uk": "група лідерів",
+"ar": "المجموعة المتصدرة",
+"fa": "گروه پیشتاز"
+},
+{
+"de": "die Hitzewelle",
+"en": "heat wave",
+"erk": "Eine Periode mit ungewöhnlich hohen Temperaturen über mehrere Tage.",
+"bsp": "Die aktuelle Hitzewelle sorgt für Rekordwerte in ganz Deutschland.",
+"dates": [
+"2026-07-14"
+],
+"sq": "vala e të nxehtit",
+"tr": "sıcak hava dalgası",
+"uk": "хвиля спеки",
+"ar": "موجة الحر",
+"fa": "موج گرما"
+},
+{
+"de": "der Wüstentag",
+"en": "desert day (day over 35 °C)",
+"erk": "Ein Tag, an dem die Temperatur auf über 35 Grad steigt.",
+"bsp": "Diese Woche gab es bereits drei Wüstentage in Folge.",
+"dates": [
+"2026-07-14"
+],
+"sq": "ditë me temperaturë mbi 35 °C",
+"tr": "35 °C'nin üzerindeki aşırı sıcak gün",
+"uk": "день зі спекою понад 35 °C",
+"ar": "يوم تتجاوز حرارته 35 درجة مئوية",
+"fa": "روز با دمای بالای ۳۵ درجه"
+},
+{
+"de": "die tropische Nacht",
+"en": "tropical night",
+"erk": "Eine Nacht, in der die Temperatur nicht unter 20 Grad fällt.",
+"bsp": "Wegen der tropischen Nächte können viele Menschen kaum schlafen.",
+"dates": [
+"2026-07-14"
+],
+"sq": "nata tropikale",
+"tr": "tropikal gece",
+"uk": "тропічна ніч",
+"ar": "ليلة مدارية",
+"fa": "شب گرمسیری"
+},
+{
+"de": "sich erholen (die Erholung)",
+"en": "to recover, relax",
+"erk": "Neue Kraft sammeln, nach Anstrengung wieder fit werden.",
+"bsp": "Ohne kühle Nächte fällt es schwer, sich richtig zu erholen.",
+"dates": [
+"2026-07-14"
+],
+"sq": "të çlodhesh, të rimëkëmbesh",
+"tr": "dinlenmek, toparlanmak",
+"uk": "відпочивати, відновлюватися",
+"ar": "يستريح، يستعيد عافيته",
+"fa": "استراحت کردن، تجدید قوا کردن"
+},
+{
+"de": "ausreichend",
+"en": "sufficient, enough",
+"erk": "Genug, in ausreichender Menge.",
+"bsp": "Ärzte empfehlen, bei Hitze ausreichend zu trinken.",
+"dates": [
+"2026-07-14"
+],
+"sq": "i mjaftueshëm",
+"tr": "yeterli",
+"uk": "достатній, достатньо",
+"ar": "كافٍ، بما يكفي",
+"fa": "کافی، به اندازه کافی"
+},
+{
+"de": "verlegen (etwas)",
+"en": "to move, reschedule something",
+"erk": "Eine Aktivität zeitlich verschieben.",
+"bsp": "Viele verlegen sportliche Aktivitäten in die frühen Morgenstunden.",
+"dates": [
+"2026-07-14"
+],
+"sq": "ta zhvendosësh, ta ricaktosh",
+"tr": "başka zamana almak, ertelemek",
+"uk": "переносити (на інший час)",
+"ar": "ينقل الموعد، يعيد جدولة شيء",
+"fa": "به زمان دیگری موکول کردن"
+},
+{
+"de": "die Klimaanlage",
+"en": "air conditioning",
+"erk": "Ein Gerät, das Räume kühlt.",
+"bsp": "Nicht jeder Arbeitsplatz in Deutschland hat eine Klimaanlage.",
+"dates": [
+"2026-07-14"
+],
+"sq": "kondicioneri",
+"tr": "klima",
+"uk": "кондиціонер",
+"ar": "مكيّف الهواء",
+"fa": "دستگاه تهویه مطبوع"
+},
+{
+"de": "sich vorbereiten auf",
+"en": "to prepare for",
+"erk": "Sich rechtzeitig auf etwas Kommendes einstellen.",
+"bsp": "Städte müssen sich auf heißere Sommer vorbereiten.",
+"dates": [
+"2026-07-14"
+],
+"sq": "të përgatitesh për",
+"tr": "hazırlanmak",
+"uk": "готуватися до",
+"ar": "يستعدّ لـ",
+"fa": "آماده شدن برای"
+},
+{
+"de": "sich zurückhalten",
+"en": "to hold back, be reluctant",
+"erk": "Vorsichtig sein und (noch) nichts entscheiden.",
+"bsp": "Viele Vereine halten sich vor der Weltmeisterschaft zurück.",
+"dates": [
+"2026-07-15",
+"2026-07-20"
+],
+"sq": "të përmbahesh, të tregohesh i kujdesshëm",
+"tr": "geri durmak, temkinli davranmak",
+"uk": "стримуватися, діяти обережно",
+"ar": "يتريّث، يمتنع",
+"fa": "خودداری کردن، محتاطانه عمل کردن"
+},
+{
+"de": "der Jungstar",
+"en": "young star (talent)",
+"erk": "Ein junger, sehr talentierter Spieler.",
+"bsp": "Der Jungstar wechselt für viel Geld nach England.",
+"dates": [
+"2026-07-15"
+],
+"sq": "ylli i ri",
+"tr": "genç yıldız",
+"uk": "молода зірка",
+"ar": "النجم الشاب",
+"fa": "ستاره جوان"
+},
+{
+"de": "auf Eis legen",
+"en": "to put on hold (Wiederholung: legen)",
+"erk": "Etwas vorübergehend stoppen oder verschieben.",
+"bsp": "Er hat seine Wechselpläne auf Eis gelegt.",
+"dates": [
+"2026-07-15"
+],
+"sq": "ta pezullosh përkohësisht",
+"tr": "askıya almak",
+"uk": "відкласти, призупинити",
+"ar": "يعلّق مؤقتاً",
+"fa": "موقتاً متوقف کردن، مسکوت گذاشتن"
+},
+{
+"de": "der Leistungsträger",
+"en": "key player",
+"erk": "Ein Spieler, auf den die Mannschaft besonders angewiesen ist.",
+"bsp": "Ohne ihren Leistungsträger tut sich die Mannschaft schwer.",
+"dates": [
+"2026-07-15"
+],
+"sq": "lojtari kyç",
+"tr": "kilit oyuncu",
+"uk": "ключовий гравець",
+"ar": "اللاعب الأساسي المؤثر",
+"fa": "بازیکن کلیدی"
+},
+{
+"de": "die Entwicklung",
+"en": "development",
+"erk": "Wie sich eine Sache im Laufe der Zeit verändert.",
+"bsp": "Fans beobachten die Entwicklungen mit Spannung.",
+"dates": [
+"2026-07-15"
+],
+"sq": "zhvillimi",
+"tr": "gelişme",
+"uk": "розвиток, перебіг подій",
+"ar": "التطور",
+"fa": "روند، تحول"
+},
+{
+"de": "das Bargeld",
+"en": "cash",
+"erk": "Geld in Form von Scheinen und Münzen.",
+"bsp": "Viele Deutsche zahlen kleinere Beträge lieber mit Bargeld.",
+"dates": [
+"2026-07-16"
+],
+"sq": "paratë e gatshme",
+"tr": "nakit para",
+"uk": "готівка",
+"ar": "النقود",
+"fa": "پول نقد"
+},
+{
+"de": "bar bezahlen",
+"en": "to pay in cash",
+"erk": "Mit Scheinen oder Münzen bezahlen, nicht mit Karte.",
+"bsp": "Beim Bäcker bezahlen viele Leute noch bar.",
+"dates": [
+"2026-07-16"
+],
+"sq": "të paguash me para në dorë",
+"tr": "nakit ödemek",
+"uk": "платити готівкою",
+"ar": "يدفع نقداً",
+"fa": "نقدی پرداخت کردن"
+},
+{
+"de": "die Ausgaben (Pl.)",
+"en": "expenses, spending",
+"erk": "Das Geld, das man für etwas ausgibt.",
+"bsp": "Mit Bargeld hat man die eigenen Ausgaben besser im Blick.",
+"dates": [
+"2026-07-16"
+],
+"sq": "shpenzimet",
+"tr": "harcamalar, giderler",
+"uk": "витрати",
+"ar": "المصروفات، النفقات",
+"fa": "هزینه‌ها، مخارج"
+},
+{
+"de": "kontaktlos bezahlen",
+"en": "to pay contactless",
+"erk": "Mit Karte oder Handy bezahlen, ohne sie einzustecken.",
+"bsp": "Immer mehr Cafés akzeptieren kontaktloses Bezahlen.",
+"dates": [
+"2026-07-16"
+],
+"sq": "të paguash pa kontakt",
+"tr": "temassız ödeme yapmak",
+"uk": "платити безконтактно",
+"ar": "يدفع دون تلامس",
+"fa": "بدون تماس پرداخت کردن"
+},
+{
+"de": "abschaffen",
+"en": "to abolish, do away with",
+"erk": "Etwas offiziell beenden oder nicht mehr benutzen.",
+"bsp": "Manche Länder wollen das Bargeld komplett abschaffen.",
+"dates": [
+"2026-07-16"
+],
+"sq": "të heqësh, të shfuqizosh",
+"tr": "kaldırmak",
+"uk": "скасовувати",
+"ar": "يلغي",
+"fa": "لغو کردن، کنار گذاشتن"
+},
+{
+"de": "der Datenschutz",
+"en": "data protection, privacy",
+"erk": "Der Schutz der persönlichen Daten einer Person.",
+"bsp": "Beim Bezahlen mit Karte machen sich manche Sorgen um den Datenschutz.",
+"dates": [
+"2026-07-16"
+],
+"sq": "mbrojtja e të dhënave",
+"tr": "veri koruma, veri gizliliği",
+"uk": "захист даних",
+"ar": "حماية البيانات، الخصوصية",
+"fa": "حفاظت از داده‌ها، حریم خصوصی"
+},
+{
+"de": "der Übergang",
+"en": "transition",
+"erk": "Der Wechsel von einem Zustand zu einem anderen.",
+"bsp": "Politik und Banken diskutieren über einen fairen Übergang zum digitalen Bezahlen.",
+"dates": [
+"2026-07-16"
+],
+"sq": "kalimi, tranzicioni",
+"tr": "geçiş",
+"uk": "перехід",
+"ar": "الانتقال",
+"fa": "گذار، انتقال"
+},
+{
+"de": "ausschließen",
+"en": "to exclude",
+"erk": "Jemanden nicht an etwas teilnehmen lassen.",
+"bsp": "Niemand soll vom Zahlungssystem ausgeschlossen werden.",
+"dates": [
+"2026-07-16"
+],
+"sq": "të përjashtosh",
+"tr": "dışlamak, hariç tutmak",
+"uk": "виключати",
+"ar": "يستبعد، يحرم من المشاركة",
+"fa": "محروم کردن، کنار گذاشتن"
+},
+{
+"de": "die Erhebung",
+"en": "survey, poll",
+"erk": "Eine systematische Befragung, um Informationen zu sammeln.",
+"bsp": "Laut einer aktuellen Erhebung zahlt mehr als die Hälfte mit Karte.",
+"dates": [
+"2026-07-16"
+],
+"sq": "anketa, mbledhja e të dhënave",
+"tr": "araştırma, anket",
+"uk": "опитування, дослідження",
+"ar": "مسح، استطلاع",
+"fa": "پیمایش، نظرسنجی"
+},
+{
+"de": "auf dem Prüfstand stehen",
+"en": "to be put to the test",
+"erk": "Genau untersucht und bewertet werden, ob etwas wirklich funktioniert.",
+"bsp": "Die Vier-Tage-Woche steht derzeit auf dem Prüfstand.",
+"dates": [
+"2026-07-17"
+],
+"sq": "të vihet në provë",
+"tr": "mercek altına alınmak, sınanmak",
+"uk": "проходити перевірку",
+"ar": "يخضع للاختبار والتقييم",
+"fa": "در حال بررسی و آزمون بودن"
+},
+{
+"de": "verpflichtend",
+"en": "mandatory, obligatory",
+"erk": "Etwas, das man tun muss, keine freiwillige Option.",
+"bsp": "Eine verpflichtende Vier-Tage-Woche wäre für alle Pflicht.",
+"dates": [
+"2026-07-17"
+],
+"sq": "i detyrueshëm",
+"tr": "zorunlu",
+"uk": "обов'язковий",
+"ar": "إلزامي",
+"fa": "الزامی، اجباری"
+},
+{
+"de": "der Personalmangel",
+"en": "staff shortage",
+"erk": "Wenn eine Firma oder Branche zu wenige Mitarbeiter hat.",
+"bsp": "Im Handwerk herrscht seit Jahren Personalmangel.",
+"dates": [
+"2026-07-17"
+],
+"sq": "mungesa e personelit",
+"tr": "personel eksikliği",
+"uk": "нестача персоналу",
+"ar": "نقص الموظفين",
+"fa": "کمبود نیروی انسانی"
+},
+{
+"de": "die Stellenanzeige",
+"en": "job posting",
+"erk": "Eine öffentliche Anzeige, mit der eine Firma neue Mitarbeiter sucht.",
+"bsp": "Nur wenige Stellenanzeigen erwähnen die Vier-Tage-Woche.",
+"dates": [
+"2026-07-17"
+],
+"sq": "shpallja e vendit të punës",
+"tr": "iş ilanı",
+"uk": "оголошення про вакансію",
+"ar": "إعلان الوظيفة",
+"fa": "آگهی استخدام"
+},
+{
+"de": "werben (mit etwas)",
+"en": "to advertise (with something)",
+"erk": "Etwas positiv hervorheben, um Kunden oder Bewerber anzulocken.",
+"bsp": "Manche Firmen werben gezielt mit flexiblen Arbeitszeiten.",
+"dates": [
+"2026-07-17"
+],
+"sq": "të reklamohesh (me diçka)",
+"tr": "bir şeyle reklam yapmak",
+"uk": "рекламувати, приваблювати чимось",
+"ar": "يروّج مستخدماً شيئاً",
+"fa": "با چیزی تبلیغ کردن"
+},
+{
+"de": "der Umbruch",
+"en": "upheaval, transformation",
+"erk": "Eine große, oft schnelle Veränderung eines Zustands.",
+"bsp": "Die KI sorgt gerade für einen echten Umbruch am Arbeitsmarkt.",
+"dates": [
+"2026-07-18"
+],
+"sq": "ndryshimi rrënjësor",
+"tr": "köklü değişim, dönüşüm",
+"uk": "докорінна зміна, перелом",
+"ar": "تحوّل جذري",
+"fa": "دگرگونی اساسی"
+},
+{
+"de": "Stellen abbauen / streichen",
+"en": "to cut jobs",
+"erk": "Arbeitsplätze in einer Firma reduzieren oder ganz beenden.",
+"bsp": "Der Konzern will in Europa mehrere tausend Stellen streichen.",
+"dates": [
+"2026-07-18"
+],
+"sq": "të shkurtohen vendet e punës",
+"tr": "işten çıkarmak, kadro azaltmak",
+"uk": "скорочувати робочі місця",
+"ar": "يقلّص الوظائف، يلغي وظائف",
+"fa": "تعدیل نیرو کردن، فرصت‌های شغلی را حذف کردن"
+},
+{
+"de": "die Tochtergesellschaft",
+"en": "subsidiary",
+"erk": "Eine Firma, die zu einem größeren Mutterkonzern gehört.",
+"bsp": "Allianz Partners ist eine Tochtergesellschaft der Allianz.",
+"dates": [
+"2026-07-18"
+],
+"sq": "filiali, shoqëria e kontrolluar",
+"tr": "bağlı ortaklık, iştirak",
+"uk": "дочірня компанія",
+"ar": "شركة تابعة",
+"fa": "شرکت تابعه"
+},
+{
+"de": "das Berufsbild",
+"en": "job profile, occupation type",
+"erk": "Die typische Beschreibung eines Berufs und seiner Aufgaben.",
+"bsp": "Durch KI entstehen völlig neue Berufsbilder.",
+"dates": [
+"2026-07-18"
+],
+"sq": "profili i profesionit",
+"tr": "meslek profili",
+"uk": "професійний профіль",
+"ar": "الوصف المهني، طبيعة المهنة",
+"fa": "شرح و مشخصات شغل"
+},
+{
+"de": "sich weiterbilden",
+"en": "to further one's education, upskill",
+"erk": "Neues Wissen oder neue Fähigkeiten dazulernen.",
+"bsp": "Viele Beschäftigte wollen sich im Umgang mit KI weiterbilden.",
+"dates": [
+"2026-07-18"
+],
+"sq": "të zhvillosh më tej aftësitë profesionale",
+"tr": "mesleki eğitim almak, kendini geliştirmek",
+"uk": "підвищувати кваліфікацію",
+"ar": "يطوّر مهاراته، يتلقى تدريباً إضافياً",
+"fa": "مهارت‌آموزی کردن، آموزش تکمیلی دیدن"
+},
+{
+"de": "überflüssig",
+"en": "superfluous, redundant",
+"erk": "Nicht mehr nötig oder gebraucht.",
+"bsp": "Manche fürchten, dass ihr Job durch KI überflüssig wird.",
+"dates": [
+"2026-07-18",
+"2026-09-17"
+],
+"sq": "i panevojshëm",
+"tr": "gereksiz, ihtiyaç dışı",
+"uk": "зайвий, непотрібний",
+"ar": "غير ضروري، زائد",
+"fa": "غیرضروری، زائد"
+},
+{
+"de": "die Verschiebung",
+"en": "shift, displacement",
+"erk": "Eine Veränderung, bei der sich etwas von einem Bereich in einen anderen bewegt.",
+"bsp": "Es geht um eine Verschiebung hin zu neuen Aufgaben, nicht um reinen Jobabbau.",
+"dates": [
+"2026-07-18"
+],
+"sq": "zhvendosja, kalimi",
+"tr": "kayma, yön değişikliği",
+"uk": "зміщення, перехід",
+"ar": "تحوّل، انتقال",
+"fa": "جابه‌جایی، تغییر جهت"
+},
+{
+"de": "entthronen",
+"en": "to dethrone",
+"erk": "Jemandem eine führende Position wegnehmen, die er vorher hatte.",
+"bsp": "Spanien hat den Titelverteidiger Argentinien entthront.",
+"dates": [
+"2026-07-20"
+],
+"sq": "të rrëzosh nga froni",
+"tr": "tahtından indirmek",
+"uk": "скинути з вершини, позбавити титулу",
+"ar": "يزيح عن العرش، ينتزع الصدارة من",
+"fa": "از تخت پایین کشیدن، عنوان را گرفتن"
+},
+{
+"de": "die Verlängerung",
+"en": "extra time, overtime",
+"erk": "Zusätzliche Spielzeit, wenn es nach 90 Minuten unentschieden steht.",
+"bsp": "Das Tor fiel erst in der Verlängerung.",
+"dates": [
+"2026-07-20"
+],
+"sq": "koha shtesë",
+"tr": "uzatma",
+"uk": "додатковий час",
+"ar": "الوقت الإضافي",
+"fa": "وقت اضافه"
+},
+{
+"de": "der Torschuss",
+"en": "shot on goal",
+"erk": "Ein Schuss, der aufs gegnerische Tor zielt.",
+"bsp": "Kein Team kam im Finale zu einem einzigen Torschuss.",
+"dates": [
+"2026-07-20"
+],
+"sq": "goditja në portë",
+"tr": "kaleye şut",
+"uk": "удар по воротах",
+"ar": "تسديدة على المرمى",
+"fa": "شوت به دروازه"
+},
+{
+"de": "der Joker / eingewechselt werden",
+"en": "substitute who changes the game / to be brought on",
+"erk": "Ein Spieler, der erst später ins Spiel kommt und dann entscheidend wirkt.",
+"bsp": "Torres kam als Joker und traf sofort.",
+"dates": [
+"2026-07-20"
+],
+"sq": "zëvendësuesi vendimtar / të futesh si zëvendësues",
+"tr": "oyuna girip maçı değiştiren yedek / oyuna alınmak",
+"uk": "вирішальний гравець із заміни / вийти на заміну",
+"ar": "البديل الحاسم / يدخل بديلاً",
+"fa": "بازیکن تعویضی تأثیرگذار / به‌عنوان بازیکن تعویضی وارد شدن"
+},
+{
+"de": "erlösen",
+"en": "to bring relief, to be the saving grace",
+"erk": "Eine lange Anspannung durch einen entscheidenden Moment beenden.",
+"bsp": "Sein Tor hat ganz Spanien erlöst.",
+"dates": [
+"2026-07-20"
+],
+"sq": "të çlirosh nga ankthi",
+"tr": "rahatlatmak, sıkıntıdan kurtarmak",
+"uk": "принести полегшення, позбавити напруги",
+"ar": "يريح، يخلّص من التوتر",
+"fa": "آسوده‌خاطر کردن، از نگرانی رهانیدن"
+},
+{
+"de": "die Niederlage",
+"en": "defeat, loss",
+"erk": "Ein verlorenes Spiel oder ein Misserfolg.",
+"bsp": "Für Argentinien ist es eine bittere Niederlage.",
+"dates": [
+"2026-07-20"
+],
+"sq": "humbja",
+"tr": "yenilgi, mağlubiyet",
+"uk": "поразка",
+"ar": "الهزيمة",
+"fa": "شکست"
+},
+{
+"de": "belasten",
+"en": "to burden, to strain",
+"erk": "Etwas schwerer oder schwieriger machen.",
+"bsp": "Steigende Energiepreise haben die Wirtschaft belastet.",
+"dates": [
+"2026-07-21"
+],
+"sq": "të rëndosh, të ngarkosh",
+"tr": "yük oluşturmak, zorlamak",
+"uk": "обтяжувати, створювати навантаження",
+"ar": "يثقل كاهل، يضغط على",
+"fa": "تحت فشار گذاشتن، سنگین کردن بار"
+},
+{
+"de": "die Insolvenz",
+"en": "insolvency, bankruptcy",
+"erk": "Wenn eine Firma ihre Rechnungen nicht mehr bezahlen kann.",
+"bsp": "Die Zahl der Insolvenzen ist stark gestiegen.",
+"dates": [
+"2026-07-21"
+],
+"sq": "paaftësia paguese, falimentimi",
+"tr": "iflas, ödeme aczi",
+"uk": "неплатоспроможність, банкрутство",
+"ar": "الإعسار، الإفلاس",
+"fa": "ورشکستگی، ناتوانی در پرداخت"
+},
+{
+"de": "der Anstieg",
+"en": "increase, rise",
+"erk": "Wenn eine Zahl oder ein Wert größer wird.",
+"bsp": "Das ist ein Anstieg von fast neun Prozent.",
+"dates": [
+"2026-07-21"
+],
+"sq": "rritja",
+"tr": "artış",
+"uk": "зростання",
+"ar": "الارتفاع، الزيادة",
+"fa": "افزایش"
+},
+{
+"de": "fragil",
+"en": "fragile",
+"erk": "Leicht zu zerstören oder instabil.",
+"bsp": "Die wirtschaftliche Erholung ist real, aber noch fragil.",
+"dates": [
+"2026-07-21"
+],
+"sq": "i brishtë, i paqëndrueshëm",
+"tr": "kırılgan",
+"uk": "крихкий, нестабільний",
+"ar": "هشّ، غير مستقر",
+"fa": "شکننده، ناپایدار"
+},
+{
+"de": "durchgreifen",
+"en": "to crack down, take firm action",
+"erk": "Entschlossen und konsequent gegen ein Problem vorgehen.",
+"bsp": "„Wir greifen durch“, sagt die DB-Chefin zum neuen Alkoholverbot.",
+"dates": [
+"2026-07-22"
+],
+"sq": "të ndërhysh me vendosmëri",
+"tr": "sert önlem almak, kararlı davranmak",
+"uk": "вживати рішучих заходів",
+"ar": "يتخذ إجراءات حازمة",
+"fa": "قاطعانه برخورد کردن"
+},
+{
+"de": "verbannen",
+"en": "to banish, ban",
+"erk": "Etwas offiziell und vollständig verbieten.",
+"bsp": "Die DB verbannt das Alkoholtrinken aus ihren Bahnhöfen.",
+"dates": [
+"2026-07-22"
+],
+"sq": "të ndalosh plotësisht",
+"tr": "yasaklamak, uzaklaştırmak",
+"uk": "забороняти, усувати",
+"ar": "يحظر، يمنع تماماً",
+"fa": "ممنوع کردن، کنار گذاشتن"
+},
+{
+"de": "der Angriff",
+"en": "attack, assault",
+"erk": "Eine gewaltsame Handlung gegen eine Person.",
+"bsp": "Auslöser war ein brutaler Angriff auf einen Mitarbeiter.",
+"dates": [
+"2026-07-22"
+],
+"sq": "sulmi",
+"tr": "saldırı",
+"uk": "напад",
+"ar": "اعتداء، هجوم",
+"fa": "حمله، تعرض"
+},
+{
+"de": "ausgenommen sein",
+"en": "to be excluded, exempt",
+"erk": "Nicht von einer Regel betroffen sein.",
+"bsp": "Gastronomiebetriebe sind von dem Verbot ausgenommen.",
+"dates": [
+"2026-07-22"
+],
+"sq": "të përjashtohesh nga një rregull",
+"tr": "muaf olmak, kapsam dışında olmak",
+"uk": "бути звільненим від дії правила",
+"ar": "يُستثنى من",
+"fa": "مستثنا بودن"
+},
+{
+"de": "der Platzverweis",
+"en": "order to leave the premises",
+"erk": "Die Anweisung, einen Ort sofort zu verlassen.",
+"bsp": "Wer gegen das Verbot verstößt, bekommt einen Platzverweis.",
+"dates": [
+"2026-07-22"
+],
+"sq": "urdhri për t'u larguar nga vendi",
+"tr": "mekândan çıkarma emri",
+"uk": "вимога негайно залишити місце",
+"ar": "أمر بمغادرة المكان",
+"fa": "دستور ترک محل"
+},
+{
+"de": "der Verstoß",
+"en": "violation, offense",
+"erk": "Ein Verhalten, das gegen eine Regel verstößt.",
+"bsp": "Bei wiederholten Verstößen droht ein Hausverbot.",
+"dates": [
+"2026-07-22"
+],
+"sq": "shkelja",
+"tr": "ihlal",
+"uk": "порушення",
+"ar": "مخالفة، انتهاك",
+"fa": "تخلف، نقض مقررات"
+},
+{
+"de": "das Hausverbot",
+"en": "ban from the premises",
+"erk": "Ein Verbot, einen bestimmten Ort noch einmal zu betreten.",
+"bsp": "Im schlimmsten Fall spricht die Bahn ein Hausverbot aus.",
+"dates": [
+"2026-07-22"
+],
+"sq": "ndalimi i hyrjes në një ambient",
+"tr": "mekâna giriş yasağı",
+"uk": "заборона входу до приміщення",
+"ar": "حظر دخول المكان",
+"fa": "ممنوعیت ورود به محل"
+},
+{
+"de": "die Maßnahme",
+"en": "measure, action",
+"erk": "Ein gezielter Schritt, um ein Ziel zu erreichen.",
+"bsp": "Viele Pendler begrüßen die neue Maßnahme.",
+"dates": [
+"2026-07-22"
+],
+"sq": "masa, veprimi",
+"tr": "önlem, tedbir",
+"uk": "захід",
+"ar": "إجراء، تدبير",
+"fa": "اقدام، تدبیر"
+},
+{
+"de": "schrittweise",
+"en": "step by step, gradually",
+"erk": "Nicht auf einmal, sondern nach und nach.",
+"bsp": "Das Verbot wird schrittweise an allen Bahnhöfen eingeführt.",
+"dates": [
+"2026-07-22"
+],
+"sq": "hap pas hapi, gradualisht",
+"tr": "adım adım, kademeli olarak",
+"uk": "поступово, крок за кроком",
+"ar": "تدريجياً، خطوة بخطوة",
+"fa": "گام‌به‌گام، به‌تدریج"
+},
+{
+"de": "der Höchststand",
+"en": "record level, all-time high",
+"erk": "Der höchste Wert, den es je gab.",
+"bsp": "Die Zahl der Remote-Stellen erreicht einen neuen Höchststand.",
+"dates": [
+"2026-07-23"
+],
+"sq": "niveli më i lartë, rekord",
+"tr": "rekor seviye, en yüksek düzey",
+"uk": "рекордний рівень, максимум",
+"ar": "أعلى مستوى، مستوى قياسي",
+"fa": "بالاترین حد، رکورد"
+},
+{
+"de": "ortsunabhängig",
+"en": "location-independent",
+"erk": "Nicht an einen bestimmten Arbeitsort gebunden.",
+"bsp": "Wer ortsunabhängig arbeitet, kann sich überall bewerben.",
+"dates": [
+"2026-07-23"
+],
+"sq": "i pavarur nga vendndodhja",
+"tr": "konumdan bağımsız",
+"uk": "незалежний від місця роботи",
+"ar": "غير مرتبط بمكان محدد",
+"fa": "مستقل از مکان"
+},
+{
+"de": "verschwimmen",
+"en": "to blur, become unclear",
+"erk": "Undeutlich werden, weil zwei Dinge kaum noch zu unterscheiden sind.",
+"bsp": "Die Grenze zwischen Büro und Zuhause verschwimmt zunehmend.",
+"dates": [
+"2026-07-23"
+],
+"sq": "të mjegullohet, të bëhet e paqartë",
+"tr": "bulanıklaşmak, belirsizleşmek",
+"uk": "розмиватися, ставати нечітким",
+"ar": "يتلاشى، يصبح غير واضح",
+"fa": "محو شدن، نامشخص شدن"
+},
+{
+"de": "der Zugriff",
+"en": "access",
+"erk": "Die Möglichkeit, auf etwas (z. B. Daten) zuzugreifen.",
+"bsp": "Jeder Zugriff auf sensible Daten wird überprüft.",
+"dates": [
+"2026-07-23"
+],
+"sq": "qasja",
+"tr": "erişim",
+"uk": "доступ",
+"ar": "إمكانية الوصول",
+"fa": "دسترسی"
+},
+{
+"de": "riskieren",
+"en": "to risk",
+"erk": "Eine mögliche negative Folge in Kauf nehmen.",
+"bsp": "Wer Sicherheitsstandards ignoriert, riskiert Datenschutzprobleme.",
+"dates": [
+"2026-07-23"
+],
+"sq": "të rrezikosh",
+"tr": "riske atmak",
+"uk": "ризикувати",
+"ar": "يخاطر بـ",
+"fa": "به خطر انداختن، ریسک کردن"
+},
+{
+"de": "der Quereinsteiger",
+"en": "career changer, lateral entrant",
+"erk": "Jemand, der aus einem anderen Berufsfeld neu einsteigt.",
+"bsp": "Immer mehr Firmen suchen gezielt Quereinsteiger.",
+"dates": [
+"2026-07-23"
+],
+"sq": "personi që kalon nga një fushë tjetër profesionale",
+"tr": "başka bir meslekten sektöre geçen kişi",
+"uk": "людина, яка переходить з іншої професійної сфери",
+"ar": "شخص ينتقل إلى مهنة من مجال آخر",
+"fa": "فردی که از حوزه شغلی دیگری وارد می‌شود"
+},
+{
+"de": "testweise",
+"en": "on a trial basis, as a test",
+"erk": "Für eine begrenzte Zeit, um zu sehen, ob etwas funktioniert.",
+"bsp": "Wir führen die neue Regel erst einmal testweise ein.",
+"dates": [
+"2026-09-17"
+],
+"sq": "në mënyrë prove",
+"tr": "deneme amaçlı, test olarak",
+"uk": "у тестовому режимі",
+"ar": "على سبيل التجربة",
+"fa": "به‌صورت آزمایشی"
+},
+{
+"de": "asynchron",
+"en": "asynchronous",
+"erk": "Nicht zur gleichen Zeit — jeder reagiert, wann er Zeit hat.",
+"bsp": "Unser Team kommuniziert bei einfachen Fragen inzwischen asynchron.",
+"dates": [
+"2026-09-17"
+],
+"sq": "asinkron",
+"tr": "eşzamansız",
+"uk": "асинхронний",
+"ar": "غير متزامن",
+"fa": "ناهم‌زمان"
+},
+{
+"de": "verlagern",
+"en": "to shift, to move (something)",
+"erk": "Etwas an einen anderen Ort oder in eine andere Form bringen.",
+"bsp": "Wir verlagern das Update vom Meeting in den Chat.",
+"dates": [
+"2026-09-17"
+],
+"sq": "të zhvendosësh",
+"tr": "kaydırmak, taşımak",
+"uk": "переносити, зміщувати",
+"ar": "ينقل، يحوّل",
+"fa": "جابه‌جا کردن، منتقل کردن"
+},
+{
+"de": "die Tagesordnung",
+"en": "agenda",
+"erk": "Eine Liste mit den Themen, die in einem Termin besprochen werden sollen.",
+"bsp": "Ohne Tagesordnung sagt unser Team einen Termin inzwischen ab.",
+"dates": [
+"2026-09-17"
+],
+"sq": "rendi i ditës",
+"tr": "gündem",
+"uk": "порядок денний",
+"ar": "جدول الأعمال",
+"fa": "دستور جلسه"
+},
+{
+"de": "verdrängen",
+"en": "to push out, to crowd out",
+"erk": "Etwas verschwinden lassen, weil etwas anderes seinen Platz einnimmt.",
+"bsp": "Zu viel Fokus auf Effizienz kann den informellen Austausch verdrängen.",
+"dates": [
+"2026-09-17"
+],
+"sq": "të zhvendosësh (dikë/diçka)",
+"tr": "yerini almak, dışlamak",
+"uk": "витісняти",
+"ar": "يُزيح، يُقصي",
+"fa": "کنار زدن، جایگزین شدن"
+},
+{
+"de": "sichtbar",
+"en": "visible, tangible",
+"erk": "Etwas, das man deutlich erkennen oder zeigen kann.",
+"bsp": "Am Ende des Quartals braucht das Team sichtbare Ergebnisse.",
+"dates": [
+"2026-09-17"
+],
+"sq": "i dukshëm",
+"tr": "görünür, somut",
+"uk": "видимий, відчутний",
+"ar": "واضح، ملموس",
+"fa": "قابل مشاهده، ملموس"
 }
 ]

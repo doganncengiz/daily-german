@@ -1,0 +1,32 @@
+{
+"mc":[
+ {"q":"Wie viele Stunden verbringen Angestellte laut der Umfrage im Schnitt pro Woche in Meetings?",
+  "o":["Etwa vier Stunden.",
+       "Mehr als acht Stunden.",
+       "Fast acht Stunden pro Tag."],
+  "c":1,
+  "why":"Die Randstad-Umfrage nennt „im Schnitt mehr als acht Stunden pro Woche“. Vier Stunden ist zu wenig, und acht Stunden pro Tag verwechselt die Woche mit einem einzelnen Arbeitstag."},
+ {"q":"Was hat SAP testweise für einen Teil der Belegschaft eingeführt?",
+  "o":["Einen meetingfreien Tag pro Woche.",
+       "Eine komplette Homeoffice-Pflicht für alle Mitarbeitenden.",
+       "Eine Verkürzung der Arbeitswoche auf vier Tage."],
+  "c":0,
+  "why":"Der Text nennt konkret einen meetingfreien Tag pro Woche für einen Teil der Belegschaft. Eine Homeoffice-Pflicht oder eine Vier-Tage-Woche sind andere, bekannte Debatten, die hier nicht erwähnt werden."},
+ {"q":"Was sollen Mitarbeitende laut den neuen Regeln vor einem Meeting festlegen?",
+  "o":["Eine feste Redezeit für jede Person.",
+       "Eine klare Frage, die am Ende beantwortet sein muss.",
+       "Eine maximale Teilnehmerzahl von fünf Personen."],
+  "c":1,
+  "why":"Laut Text soll vor jedem Meeting eine klare Frage formuliert werden, die am Ende beantwortet ist — sonst gilt der Termin als „nicht startklar“. Redezeit-Limits oder eine Teilnehmerzahl-Grenze kommen im Text nicht vor."}
+],
+"schreib":[
+ "Die tägliche Statusrunde war eigentlich <b>überflüssig</b>, weil wir alles auch im Chat klären konnten.",
+ "Bei uns arbeiten <b>immer mehr</b> Kolleginnen und Kollegen projektübergreifend zusammen.",
+ "<b>Statt</b> eine lange E-Mail <b>zu</b> schreiben, rufe ich ihn kurz an. / <b>Anstatt dass</b> wir jede Woche ein Meeting ansetzen, schicken wir jetzt ein kurzes Update im Chat. <span class=\"hint\">(„anstatt dass“ nur bei unterschiedlichen Subjekten)</span>"
+],
+"sprech":{
+ "phrases":["Ich bin dafür/dagegen, weil …","Ein Argument dafür ist, dass …",
+            "Man könnte es so umsetzen, dass …","Ein Risiko dabei wäre, dass …",
+            "Insgesamt würde ich sagen, dass …"],
+ "modell":"„Ich bin klar dafür, dass wir einen meetingfreien Tag einführen. Im Moment sind viele Termine in meinem Kalender ehrlich gesagt <b>überflüssig</b>, und ich stehe oft <b>unter Druck</b>, trotzdem alle Aufgaben rechtzeitig zu schaffen. <b>Ein Argument dafür ist, dass</b> immer mehr Projekte parallel laufen und wir mehr Fokuszeit brauchen. <b>Man könnte es so umsetzen, dass</b> wir den Freitag komplett meetingfrei lassen und Updates stattdessen <b>asynchron</b> im Chat teilen. <b>Ein Risiko dabei wäre, dass</b> wichtige Entscheidungen liegen bleiben, aber <b>insgesamt würde ich sagen, dass</b> sich das am Ende auszahlt.“"}
+}

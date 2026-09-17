@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 17. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 17. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Kürzere Meetings, mehr Fokuszeit: Wie deutsche Büros ihre Produktivität retten wollen</h2>
+    <div class="card">
+      <p>Fast jeder kennt das Gefühl: Der Kalender ist voll, aber am Ende des Tages ist kaum etwas erledigt. Laut einer aktuellen Umfrage des Personaldienstleisters Randstad verbringen Angestellte in deutschen Büros im Schnitt mehr als acht Stunden pro Woche in Meetings — und fast jede zweite Person hält mindestens ein Drittel davon für überflüssig. Besonders betroffen sind mittlere Führungskräfte: Bei ihnen liegt der Anteil unnötiger Termine oft noch höher.</p>
+      <p>Immer mehr Unternehmen reagieren jetzt auf dieses Problem. Der Softwarekonzern SAP hat für einen Teil der Belegschaft testweise einen meetingfreien Tag pro Woche eingeführt, an dem ausschließlich konzentriert gearbeitet werden soll. Andere Firmen setzen auf kürzere Standardlängen: Statt automatisch eine Stunde einzuplanen, dauert ein Termin im Kalendertool künftig nur noch 25 oder 50 Minuten — die restliche Zeit bleibt als Puffer zwischen zwei Meetings.</p>
+      <p>Auch die Art der Kommunikation verändert sich. Viele Teams verlagern Statusupdates in schriftliche, asynchrone Formate: Eine kurze Nachricht in Teams oder Slack ersetzt das tägliche Kurzmeeting, weil nicht jede Information ein Live-Gespräch braucht. Wer trotzdem ein Meeting ansetzt, soll laut den neuen Regeln vorher eine klare Frage formulieren, die am Ende beantwortet sein muss — ohne Tagesordnung gilt der Termin in manchen Firmen inzwischen als „nicht startklar“.</p>
+      <p>Ob sich der Wandel auszahlt, ist noch offen. Kritiker warnen, dass zu viel Fokus auf Effizienz den informellen Austausch zwischen Kolleginnen und Kollegen verdrängt, der oft erst zu guten Ideen führt. Klar ist aber: Die Beschäftigten selbst stehen unter Druck, in immer kürzerer Zeit sichtbare Ergebnisse zu liefern — und genau deshalb wird an der Meeting-Kultur weitergearbeitet.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>überflüssig <span class="rep">(Wiederholung)</span></td><td>unnecessary, superfluous</td><td>Nicht wirklich nötig oder gebraucht.</td><td>Diese tägliche Kurzbesprechung ist eigentlich überflüssig.</td></tr>
+        <tr><td>die Führungskraft <span class="rep">(Wiederholung)</span></td><td>manager, executive</td><td>Eine Person, die in einer Firma eine leitende Position hat.</td><td>Führungskräfte nehmen oft an besonders vielen Terminen teil.</td></tr>
+        <tr><td>testweise</td><td>on a trial basis, as a test</td><td>Für eine begrenzte Zeit, um zu sehen, ob etwas funktioniert.</td><td>Wir führen die neue Regel erst einmal testweise ein.</td></tr>
+        <tr><td>asynchron</td><td>asynchronous</td><td>Nicht zur gleichen Zeit — jeder reagiert, wann er Zeit hat.</td><td>Unser Team kommuniziert bei einfachen Fragen inzwischen asynchron.</td></tr>
+        <tr><td>verlagern</td><td>to shift, to move (something)</td><td>Etwas an einen anderen Ort oder in eine andere Form bringen.</td><td>Wir verlagern das Update vom Meeting in den Chat.</td></tr>
+        <tr><td>die Tagesordnung</td><td>agenda</td><td>Eine Liste mit den Themen, die in einem Termin besprochen werden sollen.</td><td>Ohne Tagesordnung sagt unser Team einen Termin inzwischen ab.</td></tr>
+        <tr><td>verdrängen</td><td>to push out, to crowd out</td><td>Etwas verschwinden lassen, weil etwas anderes seinen Platz einnimmt.</td><td>Zu viel Fokus auf Effizienz kann den informellen Austausch verdrängen.</td></tr>
+        <tr><td>sichtbar</td><td>visible, tangible</td><td>Etwas, das man deutlich erkennen oder zeigen kann.</td><td>Am Ende des Quartals braucht das Team sichtbare Ergebnisse.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„im Schnitt“</b> — Durchschnittlich, im Durchschnitt.<br><i>Angestellte verbringen im Schnitt mehr als acht Stunden pro Woche in Meetings.</i></li>
+        <li><b>„auf etwas setzen“</b> — Sich für eine Lösung entscheiden und ihr vertrauen.<br><i>Andere Firmen setzen auf kürzere Standardlängen bei Terminen.</i></li>
+        <li><b>„gilt als …“</b> — Wird so bewertet, hat diesen Status.<br><i>Ohne Tagesordnung gilt der Termin inzwischen als „nicht startklar“.</i></li>
+        <li><b>„Klar ist aber, dass …“</b> — Nach einer offenen Frage trotzdem einen festen Punkt benennen.<br><i>Klar ist aber, dass die Beschäftigten unter Druck stehen, schnell Ergebnisse zu liefern.</i></li>
+        <li><b>„in immer kürzerer Zeit“</b> — Der verfügbare Zeitrahmen wird ständig kleiner.<br><i>Teams sollen in immer kürzerer Zeit sichtbare Ergebnisse liefern.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„immer“ + Komparativ — eine Entwicklung, die sich ständig verstärkt:</b> Im Text steht <i>„Immer mehr Unternehmen reagieren …“</i> und <i>„… in immer kürzerer Zeit sichtbare Ergebnisse liefern“</i>. Diese Struktur (<i>immer</i> + Komparativ) zeigt: Etwas nimmt kontinuierlich zu oder ab — sehr häufig in Nachrichtentexten und im Büroalltag. Weitere Beispiele: <i>Die Projekte werden immer komplexer. Immer weniger Kolleginnen und Kollegen nutzen noch das Telefon.</i></p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„statt … zu + Infinitiv“ vs. „anstatt dass“ — eine Alternative markieren:</b> Der Satz <i>„Statt automatisch eine Stunde einzuplanen, dauert ein Termin künftig nur noch 25 Minuten“</i> nutzt <i>statt … zu + Infinitiv</i>, weil das unausgesprochene Subjekt im Nebensatz zum Hauptsatz passt. Haben beide Satzteile unterschiedliche Subjekte, braucht man <i>anstatt dass</i>: <i>Anstatt dass wir jede Woche ein Meeting ansetzen, schickt jetzt jeder ein kurzes Update im Chat.</i> Achte bei trennbaren Verben auf die Position von <i>zu</i>: <i>ein·planen → einzuplanen</i>.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viele Stunden verbringen Angestellte laut der Umfrage im Schnitt pro Woche in Meetings?</li>
+          <li>Was hat SAP testweise für einen Teil der Belegschaft eingeführt?</li>
+          <li>Was sollen Mitarbeitende laut den neuen Regeln vor einem Meeting festlegen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>überflüssig</i> über eine Aufgabe oder ein Meeting bei der Arbeit.</li>
+          <li>Bilde einen Satz mit <i>immer + Komparativ</i> über eine Entwicklung, die du bei der Arbeit oder im Alltag beobachtest.</li>
+          <li>Schreibe zwei Sätze zum selben Thema: einmal mit <i>statt … zu + Infinitiv</i>, einmal mit <i>anstatt dass</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Dein Team überlegt, ob ihr einen meetingfreien Tag pro Woche einführen sollt. Bereite in ein bis zwei Minuten eine kurze mündliche Stellungnahme vor: Bist du dafür oder dagegen? Nenne mindestens zwei Gründe und schlage vor, wie ihr die Idee konkret umsetzen könntet.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quelle: Angelehnt an aktuelle Arbeitsmarktstudien zur Meeting-Kultur in deutschen Büros (u. a. Randstad-Umfragen zur Arbeitszufriedenheit) sowie Medienberichte über meetingfreie Tage bei deutschen Technologieunternehmen, September 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

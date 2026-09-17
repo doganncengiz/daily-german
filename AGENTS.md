@@ -8,8 +8,9 @@ what's written here, fix this file, don't let a second copy diverge.
 ## What this project is
 
 A static website for a B1/B2 German class of working adults in Germany, whose
-first languages are English, Turkish, Albanian, Ukrainian, Arabic, and
-Persian. Each weekday there's a new "lesson": a short reading text built from
+first languages include English, Turkish, Albanian, Ukrainian, Arabic,
+Persian, Spanish, French, and Italian. Each weekday there's a new "lesson":
+a short reading text built from
 current German news, plus vocabulary, useful phrases, grammar notes, and an
 exercise. Students open the site, read the day's lesson, and work through the
 exercise. There's also a searchable class-wide dictionary.
@@ -30,9 +31,10 @@ feedback, not just read.
 - Only **8 lessons** (2026-09-10 → 2026-09-17) have a real exercise
   (multiple-choice + a "Lösungen" answers tab). The other 53 have five tabs
   but no graded exercise — see Gaps.
-- `vocab.json` has 443 entries across 6 target languages and covers all 61
-  lessons, including the 14 backfilled July lessons. The July gap was closed
-  on 2026-09-16 by adding 91 deduplicated entries with merged date arrays.
+- `vocab.json` has 443 entries. Six target languages cover all 61 lessons;
+  Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
+  forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
+  entries with merged date arrays.
 - Existing translations are machine-generated and **not yet checked by
   native speakers**. `PROMPTS.md` has a ready-to-use ChatGPT prompt for a
   first-pass QA sweep.
@@ -173,12 +175,15 @@ that happens.
   "erk": "Etwas zeigt in Zahlen, wie die Realität aussieht.",
   "bsp": "Diese Kennzahl bildet den Aufwand nicht richtig ab.",
   "dates": ["2026-09-09"],
-  "sq": "...", "tr": "...", "uk": "...", "ar": "...", "fa": "..."
+  "sq": "...", "tr": "...", "uk": "...", "ar": "...", "fa": "...",
+  "es": "...", "fr": "...", "it": "..."
 }
 ```
 `dates` accumulates every lesson date the word appeared in (shown as an "n×"
 badge in the dictionary). `erk` = simple German explanation, `bsp` = example
-sentence. `sq/tr/uk/ar/fa` are Albanian/Turkish/Ukrainian/Arabic/Persian.
+sentence. `sq/tr/uk/ar/fa` are Albanian/Turkish/Ukrainian/Arabic/Persian and
+are required for every entry. `es/fr/it` are Spanish/French/Italian and are
+required for entries used on or after 2026-09-17; older entries may omit them.
 
 **`uebung_YYYY-MM-DD.json`** — one file per lesson with an exercise:
 ```json
@@ -209,7 +214,9 @@ Design prompt; keep both in sync if either changes.)
   `dir="rtl"` and stay right-aligned.
 - **Language selection is shared via `localStorage["dg-lang"]`** across the
   dictionary page and every lesson's vocab table. Don't change this key or
-  the mechanism.
+  the mechanism. Lessons before 2026-09-17 expose the six fully backfilled
+  languages; lessons from that date onward also expose Spanish, French, and
+  Italian.
 - **Tabs swap a CSS `active` class**, no page reload, no routing. Tab order
   is `['lese','vokabular','ausdruecke','grammatik','uebung']`, extended to
   `[...,'loesungen']` once `patch_uebung.py` has run on a lesson.

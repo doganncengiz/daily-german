@@ -14,7 +14,7 @@ vocab = {e["de"].lower(): e
          for e in json.loads((GEN / "vocab.json").read_text(encoding="utf-8"))}
 
 # code -> (German column label, is_rtl)
-LANGS = [
+CORE_LANGS = [
     ("en", "Englisch",   0),
     ("tr", "Türkisch",   0),
     ("sq", "Albanisch",  0),
@@ -22,8 +22,15 @@ LANGS = [
     ("ar", "Arabisch",   1),
     ("fa", "Persisch",   1),
 ]
+NEW_LANGS = [
+    ("es", "Spanisch",    0),
+    ("fr", "Französisch", 0),
+    ("it", "Italienisch", 0),
+]
+LANG_START = "2026-09-17"
 NATIVE = {"en": "English", "tr": "Türkçe", "sq": "Shqip",
-          "uk": "Українська", "ar": "العربية", "fa": "فارسی"}
+          "uk": "Українська", "ar": "العربية", "fa": "فارسی",
+          "es": "Español", "fr": "Français", "it": "Italiano"}
 
 SELECT_CSS = """
   .langbar{display:flex;justify-content:flex-end;margin:-6px 0 12px;}
@@ -49,6 +56,11 @@ def patch(path: Path):
     if 'class="langbar"' in h:
         return "already"
 
+    # Spanish, French, and Italian begin with the 17 September lesson.
+    # Older lessons keep the six languages for which every entry is complete.
+    lesson_date = path.stem.removeprefix("German_Lesson_")
+    langs = CORE_LANGS + NEW_LANGS if lesson_date >= LANG_START else CORE_LANGS
+
     tm = re.search(r"(<table>)(.*?)(</table>)", h, re.S)
     if not tm:
         return "no table"
@@ -56,7 +68,7 @@ def patch(path: Path):
 
     rows = re.findall(r"<tr>.*?</tr>", table_inner, re.S)
     new_inner = table_inner
-    data, idx, misses = [], 0, []
+    data, idx, misses, missing_translations = [], 0, [], []
 
     for row in rows:
         if "<th>" in row:
@@ -71,10 +83,14 @@ def patch(path: Path):
         de = clean(cells[0])
         entry = vocab.get(de.lower())
         if entry:
-            data.append({c: entry[c] for c, _, _ in LANGS})
+            row_data = {c: entry.get(c, "") for c, _, _ in langs}
+            data.append(row_data)
+            missing = [c for c, value in row_data.items() if not value]
+            if missing:
+                missing_translations.append(f"{de} ({','.join(missing)})")
         else:
             misses.append(de)
-            data.append({c: (cells[1] if c == "en" else "") for c, _, _ in LANGS})
+            data.append({c: (cells[1] if c == "en" else "") for c, _, _ in langs})
         # tag the meaning cell
         new_row = row.replace(f"<td>{cells[1]}</td>",
                               f'<td class="meaning" data-i="{idx}">{cells[1]}</td>', 1)
@@ -86,7 +102,7 @@ def patch(path: Path):
     # dropdown, right-aligned just above the vocabulary card
     opts = "".join(
         f'<option value="{c}"{" selected" if c=="en" else ""}>'
-        f'Deutsch &ndash; {NATIVE[c]}</option>' for c, _, _ in LANGS)
+        f'Deutsch &ndash; {NATIVE[c]}</option>' for c, _, _ in langs)
     bar = (f'<div class="langbar"><select id="vocabLang" '
            f'aria-label="Sprache der Bedeutung">{opts}</select></div>\n      ')
     h = h.replace('<h2 class="heading">Schlüsselvokabular</h2>\n    <div class="card">',
@@ -98,8 +114,8 @@ def patch(path: Path):
     script = f"""
   // --- Vokabel-Sprache -------------------------------------------------
   const VOC = {json.dumps(data, ensure_ascii=False, separators=(",", ":"))};
-  const VOC_LABEL = {json.dumps({c: lab for c, lab, _ in LANGS}, ensure_ascii=False)};
-  const VOC_RTL = {json.dumps([c for c, _, r in LANGS if r])};
+  const VOC_LABEL = {json.dumps({c: lab for c, lab, _ in langs}, ensure_ascii=False)};
+  const VOC_RTL = {json.dumps([c for c, _, r in langs if r])};
   const VOC_KEY = "dg-lang";
   const vocSel = document.getElementById('vocabLang');
 
@@ -126,7 +142,12 @@ def patch(path: Path):
 """
     h = h.replace("</script>", script + "</script>", 1)
     path.write_text(h, encoding="utf-8")
-    return f"ok ({idx} rows" + (f", {len(misses)} unmatched: {misses}" if misses else "") + ")"
+    details = f"ok ({idx} rows"
+    if misses:
+        details += f", {len(misses)} unmatched: {misses}"
+    if missing_translations:
+        details += f", missing translations: {missing_translations}"
+    return details + ")"
 
 target = Path(sys.argv[1])
 results = {}
@@ -135,5 +156,5 @@ for f in sorted(target.glob("German_Lesson_*.html")):
 ok = sum(1 for v in results.values() if v.startswith("ok"))
 print(f"patched {ok}/{len(results)} lessons")
 for k, v in results.items():
-    if not v.startswith("ok") or "unmatched" in v:
+    if not v.startswith("ok") or "unmatched" in v or "missing translations" in v:
         print(" ", k, "->", v)

@@ -184,8 +184,8 @@ index = f"""<!DOCTYPE html>
   <a class="dict" href="woerterbuch.html">
     <span class="label">Wörterbuch</span>
     <span class="dt">Alle Vokabeln an einem Ort</span>
-    <span class="dd">Suchbar &middot; 6 Sprachen: English, Türkçe, Shqip,
-    Українська, العربية, فارسی</span>
+    <span class="dd">Suchbar &middot; 6 Sprachen für alle Lektionen
+    &middot; ab 17. September zusätzlich Español, Français und Italiano</span>
   </a>
 
   {latest_block}

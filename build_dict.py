@@ -14,12 +14,15 @@ LANGS = [
     ("uk", "Українська", "Ukrainian",  0),
     ("ar", "العربية",     "Arabic",     1),
     ("fa", "فارسی",       "Persian",    1),
+    ("es", "Español",    "Spanish",    0),
+    ("fr", "Français",   "French",     0),
+    ("it", "Italiano",   "Italian",    0),
 ]
 rtl = [c for c, _, _, r in LANGS if r]
 
 rows = []
 for e in vocab:
-    tr = {c: e[c] for c, _, _, _ in LANGS}
+    tr = {c: e.get(c, "") for c, _, _, _ in LANGS}
     rows.append({"de": e["de"], "erk": e["erk"], "bsp": e["bsp"],
                  "n": len(e["dates"]), "t": tr})
 
@@ -137,6 +140,8 @@ html = f"""<!DOCTYPE html>
 
   <p class="note">Hinweis für den Unterricht: Die Übersetzungen wurden
   maschinell erstellt und sind noch nicht von Muttersprachlern geprüft.
+  Spanisch, Französisch und Italienisch sind ab der Lektion vom
+  17. September 2026 verfügbar; bei älteren Vokabeln erscheint ein Strich.
   Erklärung und Beispielsatz auf Deutsch sind die verlässliche Grundlage —
   die Übersetzung ist nur eine erste Orientierung. Korrekturen sind
   willkommen.</p>

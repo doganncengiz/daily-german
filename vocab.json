@@ -5267,7 +5267,10 @@
 "tr": "yönetici",
 "uk": "керівник / керівниця",
 "ar": "المسؤول الإداري / المديرة",
-"fa": "مدیر، نیروی مدیریتی"
+"fa": "مدیر، نیروی مدیریتی",
+"es": "el/la directivo/a, el/la responsable",
+"fr": "le/la cadre, le/la responsable",
+"it": "il/la dirigente, il/la responsabile"
 },
 {
 "de": "sich äußern (zu)",
@@ -5874,7 +5877,10 @@
 "tr": "gereksiz, ihtiyaç dışı",
 "uk": "зайвий, непотрібний",
 "ar": "غير ضروري، زائد",
-"fa": "غیرضروری، زائد"
+"fa": "غیرضروری، زائد",
+"es": "innecesario/a, superfluo/a",
+"fr": "inutile, superflu(e)",
+"it": "superfluo/a, non necessario/a"
 },
 {
 "de": "die Verschiebung",
@@ -6252,7 +6258,10 @@
 "tr": "deneme amaçlı, test olarak",
 "uk": "у тестовому режимі",
 "ar": "على سبيل التجربة",
-"fa": "به‌صورت آزمایشی"
+"fa": "به‌صورت آزمایشی",
+"es": "a modo de prueba, de forma experimental",
+"fr": "à titre d’essai",
+"it": "in via sperimentale, come prova"
 },
 {
 "de": "asynchron",
@@ -6266,7 +6275,10 @@
 "tr": "eşzamansız",
 "uk": "асинхронний",
 "ar": "غير متزامن",
-"fa": "ناهم‌زمان"
+"fa": "ناهم‌زمان",
+"es": "asíncrono/a",
+"fr": "asynchrone",
+"it": "asincrono/a"
 },
 {
 "de": "verlagern",
@@ -6280,7 +6292,10 @@
 "tr": "kaydırmak, taşımak",
 "uk": "переносити, зміщувати",
 "ar": "ينقل، يحوّل",
-"fa": "جابه‌جا کردن، منتقل کردن"
+"fa": "جابه‌جا کردن، منتقل کردن",
+"es": "trasladar, desplazar",
+"fr": "déplacer, transférer",
+"it": "spostare, trasferire"
 },
 {
 "de": "die Tagesordnung",
@@ -6294,7 +6309,10 @@
 "tr": "gündem",
 "uk": "порядок денний",
 "ar": "جدول الأعمال",
-"fa": "دستور جلسه"
+"fa": "دستور جلسه",
+"es": "el orden del día",
+"fr": "l’ordre du jour",
+"it": "l’ordine del giorno"
 },
 {
 "de": "verdrängen",
@@ -6308,7 +6326,10 @@
 "tr": "yerini almak, dışlamak",
 "uk": "витісняти",
 "ar": "يُزيح، يُقصي",
-"fa": "کنار زدن، جایگزین شدن"
+"fa": "کنار زدن، جایگزین شدن",
+"es": "desplazar, relegar",
+"fr": "évincer, supplanter",
+"it": "soppiantare, mettere da parte"
 },
 {
 "de": "sichtbar",
@@ -6322,6 +6343,9 @@
 "tr": "görünür, somut",
 "uk": "видимий, відчутний",
 "ar": "واضح، ملموس",
-"fa": "قابل مشاهده، ملموس"
+"fa": "قابل مشاهده، ملموس",
+"es": "visible, tangible",
+"fr": "visible, tangible",
+"it": "visibile, tangibile"
 }
 ]

@@ -1,0 +1,30 @@
+{
+"mc":[
+ {"q":"Wie viele Tage dauert die Wiesn 2026 insgesamt?",
+  "o":["19 Tage.",
+       "14 Tage.",
+       "16 Tage."],
+  "c":2,
+  "why":"Der Text nennt den Zeitraum vom 19. September bis zum 4. Oktober, also 16 Tage. 19 ist nur der Tag der Eröffnung, nicht die Gesamtdauer, und 14 Tage werden im Text gar nicht genannt."},
+ {"q":"In welcher Preisspanne liegt eine Maß Bier auf der Wiesn 2026?",
+  "o":["Zwischen 14,80 und 15,90 Euro.",
+       "Genau 15,61 Euro in allen Zelten.",
+       "Zwischen 12,00 und 14,50 Euro."],
+  "c":0,
+  "why":"Die offizielle Preisspanne reicht von 14,80 bis 15,90 Euro. Damit liegen die Preise im Durchschnitt 2,38 Prozent höher als 2025; die einzelnen Festwirte legen ihre Preise selbst fest."},
+ {"q":"Welche Höhe und Geschwindigkeit erreicht das neue Fahrgeschäft „Chaos Pendel“?",
+  "o":["Bis zu 42 Meter Höhe und 80 km/h.",
+       "Bis zu 25 Meter Höhe und 50 km/h.",
+       "Bis zu 80 Meter Höhe und 42 km/h."],
+  "c":0,
+  "why":"Das „Chaos Pendel“ schleudert seine Gäste laut Text bis auf 42 Meter Höhe und erreicht dabei bis zu 80 km/h. Die anderen Antworten vertauschen oder verändern diese Werte."}
+],
+"schreib":[
+ "Weil die Mieten in der Stadt so stark gestiegen sind, müssen viele Studierende <b>tiefer in die Tasche greifen</b>. <span class=\"hint\">(Der Ausdruck bedeutet „mehr bezahlen müssen“, nicht wörtlich verstehen)</span>",
+ "Bei uns im Team <b>werden</b> alle Überstunden am Monatsende schriftlich <b>festgehalten</b>. <span class=\"hint\">(Partizip II ganz am Satzende, „werden“ bleibt auf Position 2)</span>",
+ "<b>Ob</b> wir das Projekt bis Freitag <b>fertig</b> haben, <b>wird sich</b> erst am Donnerstagabend <b>zeigen</b>. <span class=\"hint\">(Der ganze ob-Satz ist das Subjekt — Verb im Nebensatz ganz am Ende)</span>"
+],
+"sprech":{
+ "phrases":["Meiner Meinung nach ist das sinnvoll, weil …","Auf der einen Seite …, auf der anderen Seite …","Ich hätte kein Problem damit, wenn …","Was mich stört, ist, dass …","Am Ende muss jeder für sich entscheiden, ob …"],
+ "modell":"„Ich finde die neuen <b>Maßnahmen</b> grundsätzlich sinnvoll. Auf einem so großen <b>Gelände</b> mit sechs Millionen Menschen kann der <b>Andrang</b> schnell gefährlich werden, deshalb finde ich es gut, dass jetzt Kameras <b>rund um die Uhr</b> kontrollieren. Auf der einen Seite finde ich es ärgerlich, dass Besucher wegen der Preise <b>tiefer in die Tasche greifen</b> müssen, aber auf der anderen Seite kostet mehr Sicherheit natürlich auch Geld. Am Ende würde ich sagen: Wenn das Fest dadurch <b>reibungslos</b> verläuft, ist mir das den höheren Preis wert.“"}
+}

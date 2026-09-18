@@ -6014,13 +6014,17 @@
 "erk": "Wenn eine Zahl oder ein Wert größer wird.",
 "bsp": "Das ist ein Anstieg von fast neun Prozent.",
 "dates": [
-"2026-07-21"
+"2026-07-21",
+"2026-09-18"
 ],
 "sq": "rritja",
 "tr": "artış",
 "uk": "зростання",
 "ar": "الارتفاع، الزيادة",
-"fa": "افزایش"
+"fa": "افزایش",
+"es": "el aumento, la subida",
+"fr": "la hausse, l’augmentation",
+"it": "l’aumento, la crescita"
 },
 {
 "de": "fragil",
@@ -6140,13 +6144,17 @@
 "erk": "Ein gezielter Schritt, um ein Ziel zu erreichen.",
 "bsp": "Viele Pendler begrüßen die neue Maßnahme.",
 "dates": [
-"2026-07-22"
+"2026-07-22",
+"2026-09-18"
 ],
 "sq": "masa, veprimi",
 "tr": "önlem, tedbir",
 "uk": "захід",
 "ar": "إجراء، تدبير",
-"fa": "اقدام، تدبیر"
+"fa": "اقدام، تدبیر",
+"es": "la medida",
+"fr": "la mesure",
+"it": "la misura, il provvedimento"
 },
 {
 "de": "schrittweise",
@@ -6347,5 +6355,107 @@
 "es": "visible, tangible",
 "fr": "visible, tangible",
 "it": "visibile, tangibile"
+},
+{
+"de": "das Gelände",
+"en": "the grounds, the site",
+"erk": "Ein großes Stück Land, auf dem eine Veranstaltung stattfindet.",
+"bsp": "Auf dem Gelände der Wiesn ist in diesem Jahr mehr Sicherheitspersonal unterwegs.",
+"dates": [
+"2026-09-18"
+],
+"sq": "zona",
+"tr": "alan",
+"uk": "територія",
+"ar": "الموقع",
+"fa": "منطقه",
+"es": "el recinto",
+"fr": "le site",
+"it": "l’area"
+},
+{
+"de": "tiefer in die Tasche greifen",
+"en": "to dig deeper into one's pocket, to pay more than usual",
+"erk": "Mehr Geld ausgeben müssen als sonst.",
+"bsp": "Wegen der höheren Bierpreise müssen die Besucher auf der Wiesn tiefer in die Tasche greifen.",
+"dates": [
+"2026-09-18"
+],
+"sq": "të paguash më shumë",
+"tr": "cebinden daha çok para çıkarmak",
+"uk": "платити більше, ніж зазвичай",
+"ar": "يدفع أكثر من المعتاد",
+"fa": "بیشتر خرج کردن",
+"es": "rascarse el bolsillo",
+"fr": "mettre la main à la poche",
+"it": "mettere mano al portafoglio"
+},
+{
+"de": "der Verzehr",
+"en": "the consumption",
+"erk": "Die Menge an Essen oder Getränken, die verbraucht wird.",
+"bsp": "Die Veranstalter rechnen mit einem Verzehr von sieben Millionen Litern Bier.",
+"dates": [
+"2026-09-18"
+],
+"sq": "konsumi",
+"tr": "tüketim",
+"uk": "споживання",
+"ar": "الاستهلاك",
+"fa": "مصرف",
+"es": "el consumo",
+"fr": "la consommation",
+"it": "il consumo"
+},
+{
+"de": "der Andrang",
+"en": "the crowd, the rush",
+"erk": "Sehr viele Menschen, die gleichzeitig an einen Ort wollen.",
+"bsp": "Kameras mit KI-Unterstützung sollen gefährlichen Andrang frühzeitig erkennen.",
+"dates": [
+"2026-09-18"
+],
+"sq": "turma",
+"tr": "kalabalık",
+"uk": "натовп",
+"ar": "الازدحام",
+"fa": "ازدحام",
+"es": "la afluencia",
+"fr": "l’affluence",
+"it": "l’afflusso"
+},
+{
+"de": "rund um die Uhr",
+"en": "around the clock, 24/7",
+"erk": "Den ganzen Tag und die ganze Nacht, ohne Pause.",
+"bsp": "Ein neues Koordinierungszentrum wertet die Kamerabilder rund um die Uhr aus.",
+"dates": [
+"2026-09-18"
+],
+"sq": "24 orë në ditë",
+"tr": "günün her saati",
+"uk": "цілодобово",
+"ar": "على مدار الساعة",
+"fa": "شبانه‌روزی",
+"es": "las 24 horas",
+"fr": "24 heures sur 24",
+"it": "24 ore su 24"
+},
+{
+"de": "reibungslos",
+"en": "smoothly, without problems",
+"erk": "Ohne Probleme, ohne Verzögerung.",
+"bsp": "Der Aufbau der Festzelte verlief in diesem Jahr reibungslos.",
+"dates": [
+"2026-09-18"
+],
+"sq": "pa probleme",
+"tr": "sorunsuz",
+"uk": "гладко",
+"ar": "بسلاسة",
+"fa": "بدون مشکل",
+"es": "sin problemas",
+"fr": "sans problème",
+"it": "senza problemi"
 }
 ]

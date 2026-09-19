@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 20. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 20. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Wochenend-Ausgabe</div>
+    <h2 class="heading">Mehr Mindestlohn, stille Sonntage, 56.000 Läufer</h2>
+    <div class="card">
+      <h3 class="art-kicker">Wirtschaft</h3>
+      <h4 class="art-title">14,60 Euro ab Januar — was die Mindestlohn-Stufe konkret bedeutet</h4>
+      <p>Zum 1. Januar 2027 steigt der gesetzliche Mindestlohn von 13,90 auf 14,60 Euro pro Stunde. Es ist die zweite Stufe einer Erhöhung, auf die sich die Mindestlohnkommission schon im Sommer 2025 geeinigt hatte — einstimmig, was in diesem Gremium aus Arbeitgebern und Gewerkschaften keineswegs selbstverständlich ist. Im Januar dieses Jahres war der Mindestlohn bereits von 12,82 auf 13,90 Euro geklettert.</p>
+      <p>Profitieren werden davon gut sechs Millionen Beschäftigte. Besonders deutlich zu spüren ist die Erhöhung in Branchen wie Gastronomie, Reinigung, Logistik und Einzelhandel.</p>
+      <p>Wichtig ist der Termin auch für alle mit einem Minijob. Die Verdienstgrenze hängt seit einigen Jahren direkt am Mindestlohn und steigt deshalb automatisch mit: von 603 Euro in diesem Jahr auf 633 Euro ab Januar. Wer einen Minijob hat, sollte trotzdem nachrechnen — die Grenze gilt pro Monat, und wer öfter einspringt als vereinbart, rutscht schneller darüber, als ihm lieb ist.</p>
+      <p>Die Bewertung fällt erwartungsgemäß unterschiedlich aus. Arbeitgeberverbände verweisen auf steigende Personalkosten, gerade in kleinen Betrieben. Gewerkschaften halten den Schritt für richtig, aber für zu klein. Für Beschäftigte heißt es vor allem: Im Januar lohnt sich ein genauer Blick auf die Abrechnung. Der neue Satz gilt automatisch — auch dann, wenn im alten Arbeitsvertrag noch eine niedrigere Zahl steht.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="art-kicker">Freizeit</h3>
+      <h4 class="art-title">Warum sonntags alles zu ist — und was stattdessen geht</h4>
+      <p>Wer neu in Deutschland ist, macht diesen Fehler meistens genau einmal: sonntags einkaufen gehen wollen. Die Supermärkte sind zu, und daran wird sich so schnell nichts ändern. Der Ladenschluss ist Ländersache, doch der Sonntag gilt fast überall als geschützter Tag. Geöffnet haben nur wenige Ausnahmen: Geschäfte in Bahnhöfen, Tankstellen und manche Bäckereien am Vormittag. Ein paar Mal im Jahr kommt ein verkaufsoffener Sonntag dazu, meist rund um ein Stadtfest.</p>
+      <p>Auch zu Hause gilt der Sonntag als Ruhetag. Rasenmähen, Bohren, Hämmern: besser nicht. Wer es trotzdem tut, bekommt spätestens beim nächsten Gespräch im Treppenhaus Ärger mit den Nachbarn. Bei der Waschmaschine gehen die Meinungen auseinander — erlaubt ist sie meistens, gern gesehen nicht überall. Ein Blick in die Hausordnung hilft.</p>
+      <p>Was bleibt, ist erstaunlich viel: der Spaziergang, in Deutschland fast schon eine Institution. Kaffee und Kuchen am Nachmittag. Flohmärkte, Museen, Schwimmbäder, der Besuch bei den Schwiegereltern. Und abends um 20:15 Uhr für viele Familien der Tatort.</p>
+      <p>Heute kommt in Berlin noch etwas dazu: Die Hauptstadt wählt ein neues Abgeordnetenhaus, die Wahllokale sind bis 18 Uhr geöffnet. Auch das ist typisch deutscher Sonntag — gewählt wird traditionell am Wochenende, damit möglichst viele Menschen Zeit haben.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="art-kicker">Sport</h3>
+      <h4 class="art-title">In einer Woche gehört Berlin den Läufern</h4>
+      <p>Am kommenden Sonntag, dem 27. September, startet der BMW Berlin-Marathon. Die Zahlen sind selbst für diese Stadt beachtlich: weit über 56.000 Athletinnen und Athleten aus mehr als 160 Nationen haben gemeldet. Damit gehört das Rennen zu den größten der Welt und ist Teil der Abbott World Marathon Majors.</p>
+      <p>Berlin gilt als eine der schnellsten Marathonstrecken der Welt — flach, breit, kaum enge Kurven. Zahlreiche Weltrekorde wurden hier aufgestellt. Bei den Frauen geht die Weltrekordhalterin Tigst Assefa an den Start, dazu die Vorjahressiegerin Rosemary Wanjiru, die 2025 nach 2:21:05 Stunden im Ziel war. Der Weltrekordhalter Sabastian Sawe hatte zunächst zugesagt, musste dann aber verletzt absagen.</p>
+      <p>Für alle anderen heißt das vor allem: Umwege einplanen. Rund um die Strecke sind am Sonntag viele Straßen gesperrt, an einigen Stellen kommt man nur zu Fuß über die Laufstrecke. Wer mit dem Auto durch die Innenstadt muss, sollte die Umleitung großzügig einplanen — mit den öffentlichen Verkehrsmitteln geht es an diesem Tag deutlich entspannter.</p>
+      <p>Heute läuft daneben die Bundesliga weiter: Bayer Leverkusen empfängt um 15:30 Uhr RB Leipzig, am Abend spielen Schalke 04 gegen Elversberg und Paderborn gegen Hoffenheim.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><th class="group" colspan="4">Wirtschaft</th></tr>
+        <tr><td>der Mindestlohn</td><td>minimum wage</td><td>Der niedrigste Lohn pro Stunde, den ein Betrieb zahlen muss.</td><td>Der Mindestlohn steigt zum 1. Januar auf 14,60 Euro.</td></tr>
+        <tr><td>die Verdienstgrenze</td><td>earnings limit</td><td>Der Betrag, den man höchstens verdienen darf.</td><td>Im Minijob liegt die Verdienstgrenze ab Januar bei 633 Euro.</td></tr>
+        <tr><td>die Abrechnung</td><td>payslip, statement</td><td>Das Papier, auf dem steht, was man verdient hat und was abgezogen wurde.</td><td>Im Januar lohnt sich ein genauer Blick auf die Abrechnung.</td></tr>
+        <tr><td>einstimmig</td><td>unanimous(ly)</td><td>Alle stimmen zu, niemand ist dagegen.</td><td>Die Kommission hat den Vorschlag einstimmig beschlossen.</td></tr>
+        <tr><td>sich einigen (auf) <span class="rep">(Wiederholung)</span></td><td>to agree (on)</td><td>Nach einer Diskussion gemeinsam eine Lösung finden.</td><td>Arbeitgeber und Gewerkschaften haben sich auf zwei Stufen geeinigt.</td></tr>
+        <tr><th class="group" colspan="4">Freizeit</th></tr>
+        <tr><td>der Ruhetag</td><td>day of rest</td><td>Ein Tag, an dem nicht gearbeitet wird und es leise sein soll.</td><td>Der Sonntag ist in Deutschland ein Ruhetag.</td></tr>
+        <tr><td>die Hausordnung</td><td>house rules (of a building)</td><td>Die Regeln, die für alle Parteien in einem Haus gelten.</td><td>Ob man sonntags waschen darf, steht in der Hausordnung.</td></tr>
+        <tr><td>verkaufsoffen</td><td>with shops open (Sunday)</td><td>So, dass die Geschäfte ausnahmsweise auch am Sonntag öffnen dürfen.</td><td>Im Dezember gibt es bei uns einen verkaufsoffenen Sonntag.</td></tr>
+        <tr><td>gelten als <span class="rep">(Wiederholung)</span></td><td>to be regarded as</td><td>Von den meisten Menschen für etwas gehalten werden.</td><td>Der Sonntag gilt fast überall als geschützter Tag.</td></tr>
+        <tr><th class="group" colspan="4">Sport</th></tr>
+        <tr><td>gesperrt</td><td>closed (to traffic)</td><td>Nicht befahrbar, weil etwas im Weg ist oder stattfindet.</td><td>Rund um die Strecke sind viele Straßen gesperrt.</td></tr>
+        <tr><td>absagen</td><td>to cancel, to withdraw</td><td>Einen Termin oder eine Teilnahme zurückziehen.</td><td>Der Favorit musste verletzt absagen.</td></tr>
+        <tr><td>die Umleitung <span class="rep">(Wiederholung)</span></td><td>diversion, detour</td><td>Ein anderer Weg, weil die normale Strecke gesperrt ist.</td><td>Wer mit dem Auto fährt, sollte die Umleitung großzügig einplanen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Ein Blick auf … lohnt sich.“</b> — Es ist klug, etwas genau anzuschauen.<br><i>Ein Blick auf die Abrechnung lohnt sich im Januar auf jeden Fall.</i></li>
+        <li><b>„… als ihm lieb ist“</b> — Mehr oder schneller, als jemand es eigentlich möchte.<br><i>Er arbeitet gerade öfter am Wochenende, als ihm lieb ist.</i></li>
+        <li><b>„Die Meinungen gehen auseinander.“</b> — Die Leute sind sich nicht einig.<br><i>Beim Thema Homeoffice gehen die Meinungen im Team auseinander.</i></li>
+        <li><b>„besser nicht“</b> — Kurze, höfliche Warnung im Alltag — man rät davon ab.<br><i>Sonntags bohren? Besser nicht.</i></li>
+        <li><b>„Ärger mit jemandem bekommen“</b> — Streit oder Probleme mit einer Person bekommen.<br><i>Sonst bekommst du Ärger mit den Nachbarn.</i></li>
+        <li><b>„etwas großzügig einplanen“</b> — Mehr Zeit oder Platz einrechnen, als man eigentlich braucht.<br><i>Plane die Fahrt zum Flughafen lieber großzügig ein.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Termine und Fristen: „ab“, „zum“, „seit“ und „bis“ sauber trennen:</b> Der Wirtschaftstext ist voller Datumsangaben, und genau daran erkennt man im Büro schnell das Sprachniveau. <i>Zum 1. Januar</i> nennt den <b>Stichtag</b>, an dem etwas in Kraft tritt (<i>Zum 1. Januar steigt der Mindestlohn</i>). <i>Ab Januar</i> beschreibt den <b>Zeitraum danach</b> (<i>Ab Januar gilt der neue Satz</i>). <i>Seit</i> blickt zurück auf etwas, das noch andauert (<i>Die Grenze hängt seit einigen Jahren am Mindestlohn</i>), <i>bis</i> nennt das Ende (<i>Die Wahllokale sind bis 18 Uhr geöffnet</i>). Alle vier stehen mit Dativ — außer <i>bis</i>, das allein meist ohne Artikel steht.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Höflich abraten: der deutsche Weg, „nein“ zu sagen:</b> Statt eines harten Verbots hört man im Alltag lieber weiche Formen — im Text etwa <i>„Rasenmähen, Bohren, Hämmern: besser nicht“</i> und <i>„Ein Blick in die Hausordnung hilft“</i>. Dieselbe Technik funktioniert im Job: <i>Das würde ich lassen. Davon würde ich eher abraten. Ich wäre da vorsichtig. Das ist erfahrungsgemäß keine gute Idee.</i> Der Konjunktiv II (<i>würde, wäre</i>) macht den Satz freundlich, ohne die Aussage zu schwächen — wer direkt <i>„Das darfst du nicht“</i> sagt, klingt schnell wie eine Hausmeisterin.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Auf welchen Betrag steigt der Mindestlohn zum 1. Januar 2027?</li>
+          <li>Wie hoch ist die Verdienstgrenze im Minijob ab Januar?</li>
+          <li>Welche Geschäfte dürfen laut Text sonntags öffnen?</li>
+          <li>Was sagt der Text über das Waschen am Sonntag?</li>
+          <li>Wie viele Athletinnen und Athleten haben für den Berlin-Marathon gemeldet?</li>
+          <li>Warum musste Sabastian Sawe seinen Start absagen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe zwei Sätze über dieselbe Änderung: einmal mit <i>zum</i> (Stichtag), einmal mit <i>ab</i> (Zeitraum).</li>
+          <li>Formuliere eine höfliche Warnung mit <i>Ich würde … lieber lassen</i> oder <i>Davon würde ich abraten</i>.</li>
+          <li>Schreibe einen Satz mit <i>gelten als</i> über deine Stadt, deinen Beruf oder deinen Verein.</li>
+          <li>Beschreibe in einem Satz mit <i>großzügig einplanen</i>, wie du dich auf einen wichtigen Termin vorbereitest.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">In deinem Team arbeiten mehrere Kolleginnen und Kollegen im Minijob, und ab Januar ändern sich Mindestlohn und Verdienstgrenze. Erkläre einer Kollegin in ein bis zwei Minuten, was sich konkret ändert, was sie selbst prüfen sollte — und sage auch, was du persönlich von der Erhöhung hältst.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quellen: Mindestlohnerhöhung 2026/2027 nach dem Beschluss der Mindestlohnkommission vom Juni 2025 und der Fünften Mindestlohnanpassungsverordnung (bundesregierung.de, igmetall.de); Minijob-Verdienstgrenzen 2026/2027; Ladenschluss- und Ruhezeitregeln der Länder; Teilnehmerzahlen und Elitefeld des BMW Berlin-Marathon 2026 (bmw-berlin-marathon.com); Bundesliga-Spielplan zum 4. Spieltag der Saison 2026/27.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

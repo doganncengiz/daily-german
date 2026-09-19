@@ -1122,13 +1122,17 @@
 "bsp": "Wer die Regel nicht befolgt, muss mit einem Bußgeld rechnen.",
 "dates": [
 "2026-08-03",
-"2026-08-24"
+"2026-08-24",
+"2026-09-19"
 ],
 "sq": "gjoba",
 "tr": "para cezası",
 "uk": "штраф",
 "ar": "غرامة مالية",
-"fa": "جریمه نقدی"
+"fa": "جریمه نقدی",
+"es": "la multa",
+"fr": "l’amende",
+"it": "la multa"
 },
 {
 "de": "dämpfen",
@@ -1364,13 +1368,17 @@
 "erk": "Im Sport: als Gastgeber gegen einen anderen Verein spielen.",
 "bsp": "Der Hamburger Amateurclub HEBC empfängt Borussia Dortmund.",
 "dates": [
-"2026-08-12"
+"2026-08-12",
+"2026-09-19"
 ],
 "sq": "të priste (një skuadër)",
 "tr": "(takım) ağırlamak, ev sahibi olmak",
 "uk": "приймати (команду)",
 "ar": "يستضيف",
-"fa": "میزبانی کردن"
+"fa": "میزبانی کردن",
+"es": "recibir (como local)",
+"fr": "recevoir (à domicile)",
+"it": "ospitare"
 },
 {
 "de": "die Energiewende",
@@ -1884,13 +1892,17 @@
 "erk": "Eine allgemeine Einschätzung über jemanden ausdrücken.",
 "bsp": "Bayern gilt als klarer Favorit auf die Meisterschaft.",
 "dates": [
-"2026-08-11"
+"2026-08-11",
+"2026-09-20"
 ],
 "sq": "të konsiderohet si",
 "tr": "olarak görülmek, sayılmak",
 "uk": "вважатися",
 "ar": "يُعدّ، يُعتبر",
-"fa": "به شمار آمدن"
+"fa": "به شمار آمدن",
+"es": "ser considerado",
+"fr": "être considéré comme",
+"it": "essere considerato"
 },
 {
 "de": "die Gemeinkosten",
@@ -2196,13 +2208,17 @@
 "erk": "Etwas Unangenehmes akzeptieren, weil es sich am Ende lohnt.",
 "bsp": "Für den günstigeren Preis nehme ich eine längere Fahrt in Kauf.",
 "dates": [
-"2026-09-16"
+"2026-09-16",
+"2026-09-19"
 ],
 "sq": "të pranojë (një pengesë)",
 "tr": "göze almak, katlanmak",
 "uk": "миритися з (недоліком)",
 "ar": "يقبل (بسلبية ما)، يتحمّل",
-"fa": "پذیرفتن (اشکالی)، به جان خریدن"
+"fa": "پذیرفتن (اشکالی)، به جان خریدن",
+"es": "aceptar (un inconveniente)",
+"fr": "accepter (un inconvénient)",
+"it": "accettare (uno svantaggio)"
 },
 {
 "de": "in Kraft treten",
@@ -3131,13 +3147,17 @@
 "erk": "Der Verein mit den meisten Meistertiteln.",
 "bsp": "Bayern gilt in Deutschland als Rekordmeister.",
 "dates": [
-"2026-08-18"
+"2026-08-18",
+"2026-09-19"
 ],
 "sq": "kampioni me rekord titujve",
 "tr": "rekor şampiyon",
 "uk": "найтитулованіший чемпіон",
 "ar": "حامل الرقم القياسي للألقاب",
-"fa": "پرافتخارترین قهرمان"
+"fa": "پرافتخارترین قهرمان",
+"es": "el club más laureado",
+"fr": "le club le plus titré",
+"it": "la squadra più titolata"
 },
 {
 "de": "die Rivalität",
@@ -3461,13 +3481,17 @@
 "erk": "Gemeinsam eine Entscheidung treffen.",
 "bsp": "Die Ligen haben sich auf einen gemeinsamen Termin geeinigt.",
 "dates": [
-"2026-09-01"
+"2026-09-01",
+"2026-09-20"
 ],
 "sq": "të merren vesh (për)",
 "tr": "(bir konuda) anlaşmak",
 "uk": "домовитися (про)",
 "ar": "يتّفقون على",
-"fa": "به توافق رسیدن (بر سر)"
+"fa": "به توافق رسیدن (بر سر)",
+"es": "ponerse de acuerdo (en)",
+"fr": "se mettre d’accord (sur)",
+"it": "mettersi d’accordo (su)"
 },
 {
 "de": "sich einspielen",
@@ -3816,13 +3840,17 @@
 "bsp": "Die Sonne liefert einen spürbaren Teil des Stroms.",
 "dates": [
 "2026-08-21",
-"2026-09-10"
+"2026-09-10",
+"2026-09-19"
 ],
 "sq": "i ndjeshëm, i dukshëm",
 "tr": "hissedilir, gözle görülür",
 "uk": "відчутний",
 "ar": "ملموس، محسوس",
-"fa": "محسوس، قابل احساس"
+"fa": "محسوس، قابل احساس",
+"es": "notable, perceptible",
+"fr": "sensible, net",
+"it": "evidente, sensibile"
 },
 {
 "de": "der Startschuss",
@@ -4220,13 +4248,17 @@
 "erk": "Ein anderer Weg, weil die normale Strecke gesperrt ist.",
 "bsp": "Die Umleitung kostet uns etwa 40 Minuten.",
 "dates": [
-"2026-09-16"
+"2026-09-16",
+"2026-09-20"
 ],
 "sq": "devijimi i rrugës",
 "tr": "güzergâh değişikliği, servis yolu",
 "uk": "об'їзд",
 "ar": "تحويلة، طريق بديل",
-"fa": "مسیر انحرافی، بایپس"
+"fa": "مسیر انحرافی، بایپس",
+"es": "el desvío",
+"fr": "la déviation",
+"it": "la deviazione"
 },
 {
 "de": "die Umsetzung",
@@ -4339,7 +4371,10 @@
 "tr": "baskı altına girmek",
 "uk": "опинитися під тиском",
 "ar": "يتعرض للضغط",
-"fa": "زیر فشار قرار گرفتن"
+"fa": "زیر فشار قرار گرفتن",
+"es": "verse bajo presión",
+"fr": "se retrouver sous pression",
+"it": "finire sotto pressione"
 },
 {
 "de": "unter Druck stehen",
@@ -5134,13 +5169,17 @@
 "erk": "Wie viel Menschen oder Firmen etwas kaufen oder haben wollen.",
 "bsp": "Die Nachfrage nach neuen Wohnungen ist hoch.",
 "dates": [
-"2026-07-11"
+"2026-07-11",
+"2026-09-19"
 ],
 "sq": "kërkesa",
 "tr": "talep",
 "uk": "попит",
 "ar": "الطلب",
-"fa": "تقاضا"
+"fa": "تقاضا",
+"es": "la demanda",
+"fr": "la demande",
+"it": "la domanda"
 },
 {
 "de": "der Lieferengpass",
@@ -5413,7 +5452,10 @@
 "tr": "lider grup",
 "uk": "група лідерів",
 "ar": "المجموعة المتصدرة",
-"fa": "گروه پیشتاز"
+"fa": "گروه پیشتاز",
+"es": "el grupo de cabeza",
+"fr": "le groupe de tête",
+"it": "il gruppo di testa"
 },
 {
 "de": "die Hitzewelle",
@@ -6457,5 +6499,277 @@
 "es": "sin problemas",
 "fr": "sans problème",
 "it": "senza problemi"
+},
+{
+"de": "sich verteuern",
+"en": "to become more expensive",
+"erk": "Teurer werden.",
+"bsp": "Kraftstoffe haben sich innerhalb eines Jahres um 27,7 Prozent verteuert.",
+"dates": [
+"2026-09-19"
+],
+"sq": "bëhet më i shtrenjtë",
+"tr": "pahalılaşmak",
+"uk": "дорожчати",
+"ar": "يصبح أغلى",
+"fa": "گران شدن",
+"es": "encarecerse",
+"fr": "devenir plus cher",
+"it": "rincarare"
+},
+{
+"de": "die Kerninflation",
+"en": "core inflation",
+"erk": "Die Preisentwicklung ohne Energie und Lebensmittel.",
+"bsp": "Fachleute schauen vor allem auf die Kerninflation.",
+"dates": [
+"2026-09-19"
+],
+"sq": "inflacioni bazë",
+"tr": "çekirdek enflasyon",
+"uk": "базова інфляція",
+"ar": "التضخم الأساسي",
+"fa": "تورم پایه",
+"es": "la inflación subyacente",
+"fr": "l’inflation sous-jacente",
+"it": "l’inflazione di fondo"
+},
+{
+"de": "der Eigenbedarf",
+"en": "personal use, own needs",
+"erk": "Nur für sich selbst und die eigene Familie, nicht zum Verkaufen.",
+"bsp": "Pilze sammeln ist erlaubt, aber nur für den Eigenbedarf.",
+"dates": [
+"2026-09-19"
+],
+"sq": "për nevoja personale",
+"tr": "kendi ihtiyacı, kişisel kullanım",
+"uk": "для власних потреб",
+"ar": "الاستخدام الشخصي",
+"fa": "مصرف شخصی",
+"es": "el consumo propio",
+"fr": "l’usage personnel",
+"it": "l’uso personale"
+},
+{
+"de": "die Faustregel",
+"en": "rule of thumb",
+"erk": "Eine einfache Regel, die ungefähr stimmt.",
+"bsp": "Als Faustregel gilt etwa ein Kilogramm pro Person und Tag.",
+"dates": [
+"2026-09-19"
+],
+"sq": "rregull e përgjithshme",
+"tr": "genel kural",
+"uk": "загальне правило",
+"ar": "قاعدة عامة",
+"fa": "قاعده کلی",
+"es": "la regla práctica, la regla orientativa",
+"fr": "la règle empirique, la règle pratique",
+"it": "la regola pratica, la regola empirica"
+},
+{
+"de": "geschützt",
+"en": "protected",
+"erk": "Durch ein Gesetz besonders gesichert.",
+"bsp": "Einige Arten sind geschützt und dürfen nicht gesammelt werden.",
+"dates": [
+"2026-09-19"
+],
+"sq": "i mbrojtur",
+"tr": "korunan, koruma altında",
+"uk": "захищений",
+"ar": "محمي",
+"fa": "حفاظت‌شده",
+"es": "protegido",
+"fr": "protégé",
+"it": "protetto"
+},
+{
+"de": "der Tabellenführer",
+"en": "league leader",
+"erk": "Die Mannschaft, die aktuell auf Platz eins steht.",
+"bsp": "Der Tabellenführer spielt am Samstag in Frankfurt.",
+"dates": [
+"2026-09-19"
+],
+"sq": "lideri i tabelës",
+"tr": "lider, puan durumunda birinci",
+"uk": "лідер турнірної таблиці",
+"ar": "متصدر الترتيب",
+"fa": "صدرنشین جدول",
+"es": "el líder de la tabla",
+"fr": "le leader du classement",
+"it": "la capolista"
+},
+{
+"de": "das Topspiel",
+"en": "the big match of the round",
+"erk": "Das wichtigste und interessanteste Spiel eines Spieltags.",
+"bsp": "Das Topspiel steigt am Abend um 18:30 Uhr.",
+"dates": [
+"2026-09-19"
+],
+"sq": "ndeshja kryesore",
+"tr": "haftanın maçı, dev maç",
+"uk": "центральний матч туру",
+"ar": "مباراة القمة",
+"fa": "بازی بزرگ هفته",
+"es": "el partido estrella",
+"fr": "le match phare",
+"it": "il big match"
+},
+{
+"de": "der Mindestlohn",
+"en": "minimum wage",
+"erk": "Der niedrigste Lohn pro Stunde, den ein Betrieb zahlen muss.",
+"bsp": "Der Mindestlohn steigt zum 1. Januar auf 14,60 Euro.",
+"dates": [
+"2026-09-20"
+],
+"sq": "paga minimale",
+"tr": "asgari ücret",
+"uk": "мінімальна зарплата",
+"ar": "الحد الأدنى للأجور",
+"fa": "حداقل دستمزد",
+"es": "el salario mínimo",
+"fr": "le salaire minimum",
+"it": "il salario minimo"
+},
+{
+"de": "die Verdienstgrenze",
+"en": "earnings limit",
+"erk": "Der Betrag, den man höchstens verdienen darf.",
+"bsp": "Im Minijob liegt die Verdienstgrenze ab Januar bei 633 Euro.",
+"dates": [
+"2026-09-20"
+],
+"sq": "kufiri i të ardhurave",
+"tr": "kazanç sınırı",
+"uk": "ліміт заробітку",
+"ar": "حد الدخل المسموح",
+"fa": "سقف درآمد",
+"es": "el límite de ingresos",
+"fr": "le plafond de revenus",
+"it": "il limite di reddito"
+},
+{
+"de": "die Abrechnung",
+"en": "payslip, statement",
+"erk": "Das Papier, auf dem steht, was man verdient hat und was abgezogen wurde.",
+"bsp": "Im Januar lohnt sich ein genauer Blick auf die Abrechnung.",
+"dates": [
+"2026-09-20"
+],
+"sq": "fleta e pagës",
+"tr": "maaş bordrosu",
+"uk": "розрахунковий лист",
+"ar": "كشف الراتب",
+"fa": "فیش حقوقی",
+"es": "la nómina",
+"fr": "la fiche de paie",
+"it": "la busta paga"
+},
+{
+"de": "einstimmig",
+"en": "unanimous, unanimously",
+"erk": "Alle stimmen zu, niemand ist dagegen.",
+"bsp": "Die Kommission hat den Vorschlag einstimmig beschlossen.",
+"dates": [
+"2026-09-20"
+],
+"sq": "njëzëri",
+"tr": "oybirliğiyle",
+"uk": "одноголосно",
+"ar": "بالإجماع",
+"fa": "به اتفاق آرا",
+"es": "por unanimidad",
+"fr": "à l’unanimité",
+"it": "all’unanimità"
+},
+{
+"de": "der Ruhetag",
+"en": "day of rest",
+"erk": "Ein Tag, an dem nicht gearbeitet wird und es leise sein soll.",
+"bsp": "Der Sonntag ist in Deutschland ein Ruhetag.",
+"dates": [
+"2026-09-20"
+],
+"sq": "dita e pushimit",
+"tr": "dinlenme günü",
+"uk": "день відпочинку",
+"ar": "يوم الراحة",
+"fa": "روز استراحت",
+"es": "el día de descanso",
+"fr": "le jour de repos",
+"it": "il giorno di riposo"
+},
+{
+"de": "die Hausordnung",
+"en": "house rules (of a building)",
+"erk": "Die Regeln, die für alle Parteien in einem Haus gelten.",
+"bsp": "Ob man sonntags waschen darf, steht in der Hausordnung.",
+"dates": [
+"2026-09-20"
+],
+"sq": "rregullorja e pallatit",
+"tr": "bina yönetmeliği, apartman kuralları",
+"uk": "правила проживання в будинку",
+"ar": "النظام الداخلي للمبنى",
+"fa": "مقررات ساختمان",
+"es": "el reglamento de la comunidad",
+"fr": "le règlement intérieur de l’immeuble",
+"it": "il regolamento condominiale"
+},
+{
+"de": "verkaufsoffen",
+"en": "with shops open (Sunday)",
+"erk": "So, dass die Geschäfte ausnahmsweise auch am Sonntag öffnen dürfen.",
+"bsp": "Im Dezember gibt es bei uns einen verkaufsoffenen Sonntag.",
+"dates": [
+"2026-09-20"
+],
+"sq": "me dyqane të hapura (të dielën)",
+"tr": "mağazaların açık olduğu (pazar)",
+"uk": "з відкритими магазинами (неділя)",
+"ar": "أحد تفتح فيه المتاجر",
+"fa": "یکشنبه‌ای که مغازه‌ها باز است",
+"es": "con comercios abiertos (el domingo)",
+"fr": "avec des magasins ouverts (le dimanche)",
+"it": "con i negozi aperti (la domenica)"
+},
+{
+"de": "gesperrt",
+"en": "closed (to traffic), blocked",
+"erk": "Nicht befahrbar, weil etwas im Weg ist oder stattfindet.",
+"bsp": "Rund um die Strecke sind viele Straßen gesperrt.",
+"dates": [
+"2026-09-20"
+],
+"sq": "i mbyllur (për qarkullim)",
+"tr": "kapalı, trafiğe kapalı",
+"uk": "перекритий",
+"ar": "مغلق أمام المرور",
+"fa": "بسته (برای عبور)",
+"es": "cortado (al tráfico)",
+"fr": "fermé (à la circulation)",
+"it": "chiuso (al traffico)"
+},
+{
+"de": "absagen",
+"en": "to cancel, to withdraw",
+"erk": "Einen Termin oder eine Teilnahme zurückziehen.",
+"bsp": "Der Favorit musste verletzt absagen.",
+"dates": [
+"2026-09-20"
+],
+"sq": "anuloj, tërhiqem",
+"tr": "iptal etmek",
+"uk": "скасувати, відмовитися",
+"ar": "يلغي، ينسحب",
+"fa": "لغو کردن",
+"es": "cancelar, anular",
+"fr": "annuler",
+"it": "annullare, disdire"
 }
 ]

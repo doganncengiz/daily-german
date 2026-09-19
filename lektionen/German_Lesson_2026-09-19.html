@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 19. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 19. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Wochenend-Ausgabe</div>
+    <h2 class="heading">Teurer Tank, volle Körbe, neue Tabellenspitze</h2>
+    <div class="card">
+      <h3 class="art-kicker">Wirtschaft</h3>
+      <h4 class="art-title">Der Tank treibt, der Kühlschrank bremst: Inflation bei 2,9 Prozent</h4>
+      <p>Die Verbraucherpreise in Deutschland sind im August um 2,9 Prozent gestiegen — im Vergleich zum Vorjahresmonat. Das Statistische Bundesamt hat diese Zahl in dieser Woche bestätigt. Wer nur auf den Kassenbon im Supermarkt schaut, versteht die Aufregung vielleicht nicht: Lebensmittel kosteten insgesamt bloß 0,1 Prozent mehr als vor einem Jahr. Butter war sogar fast 30 Prozent billiger, Milchprodukte rund fünf Prozent.</p>
+      <p>Den Unterschied macht die Tankstelle. Kraftstoffe haben sich innerhalb eines Jahres um 27,7 Prozent verteuert, Heizöl sogar um fast 50 Prozent. Energie insgesamt lag 10,5 Prozent über dem Vorjahreswert. Nur beim Strom ging es nach unten: minus 5,5 Prozent.</p>
+      <p>Für den Alltag heißt das: Wer täglich pendelt, spürt die Inflation deutlich stärker als jemand, der zu Fuß ins Büro geht. Fachleute schauen deshalb auf die sogenannte Kerninflation, also auf die Preise ohne Energie und Lebensmittel. Sie lag im August bei 2,4 Prozent — spürbar niedriger als die Gesamtrate. Zum Vergleich: Die Europäische Zentralbank strebt für den Euroraum mittelfristig eine Inflationsrate von zwei Prozent an.</p>
+      <p>Auch bei den Dienstleistungen bleibt der Preisdruck hoch: Sie wurden 2,8 Prozent teurer, die Wartung und Reparatur von Fahrzeugen sogar 4,7 Prozent. Die Mieten stiegen mit 1,9 Prozent vergleichsweise moderat. Wer in den nächsten Monaten über eine Gehaltserhöhung verhandelt, hat mit diesen Zahlen jedenfalls gute Argumente in der Hand.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="art-kicker">Freizeit</h3>
+      <h4 class="art-title">Ab in den Wald — aber bitte nur mit einem Korb</h4>
+      <p>September ist Pilzzeit. An den Wochenenden stehen auf den Parkplätzen am Waldrand plötzlich viele Autos, und in den Buchhandlungen verkaufen sich Bestimmungsbücher besser als sonst. Wer zum ersten Mal mitgeht, sollte allerdings ein paar Regeln kennen — sonst wird der Ausflug teuer.</p>
+      <p>Grundsätzlich gilt: Sammeln ist erlaubt, aber nur für den Eigenbedarf. Im Bundesnaturschutzgesetz steht dafür der Begriff „geringe Mengen“. Als Faustregel nennen Förster etwa ein Kilogramm pro Person und Tag, also ungefähr eine Mahlzeit für die Familie. Wer mit mehreren großen Körben zurückkommt, bekommt Ärger — je nach Fall kann ein Bußgeld fällig werden.</p>
+      <p>Tabu sind Naturschutzgebiete und Nationalparks. Auch einzelne Arten sind geschützt: Trüffel und Kaiserling darf man gar nicht mitnehmen. Steinpilze und Pfifferlinge dagegen sind in kleinen Mengen erlaubt.</p>
+      <p>Und dann ist da noch die wichtigste Regel: Nur mitnehmen, was man hundertprozentig kennt. Viele Städte haben eine Pilzberatungsstelle, die sich den Korb kostenlos ansieht. Wer unsicher ist, nimmt diesen Umweg besser in Kauf — bei giftigen Doppelgängern reicht ein Foto auf dem Handy nicht immer aus.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="art-kicker">Sport</h3>
+      <h4 class="art-title">Freiburg an der Spitze — und am Abend Stuttgart gegen Dortmund</h4>
+      <p>Der vierte Spieltag der Bundesliga beginnt mit einer ungewohnten Tabelle: Nach drei Spieltagen steht der SC Freiburg ganz oben. Heute Nachmittag muss der Tabellenführer beweisen, dass der starke Start kein Zufall war — um 15:30 Uhr bei Eintracht Frankfurt.</p>
+      <p>Zur gleichen Zeit laufen drei weitere Spiele: Borussia Mönchengladbach empfängt Mainz 05, Werder Bremen den FC Augsburg, und der Hamburger SV trifft auf den 1. FC Köln — ein Duell zweier Traditionsvereine, das viele Fans lange vermisst haben.</p>
+      <p>Das Topspiel steigt am Abend. Um 18:30 Uhr kommt Borussia Dortmund nach Stuttgart. Beide Mannschaften haben zuletzt gezeigt, dass sie nach vorne spielen wollen; mit einem 0:0 rechnet hier kaum jemand. Eröffnet hatte den Spieltag bereits gestern Abend der Rekordmeister FC Bayern gegen Union Berlin.</p>
+      <p>Am Sonntag geht es weiter: Bayer Leverkusen empfängt RB Leipzig um 15:30 Uhr, danach spielt Schalke 04 gegen Elversberg, zum Abschluss Paderborn gegen Hoffenheim.</p>
+      <p>Wer selbst im Verein spielt, kennt das Gefühl solcher Wochenenden: samstagvormittags das eigene Spiel, nachmittags die Konferenz im Radio. Und montags im Büro die Frage, die in Deutschland immer funktioniert: „Und, hast du das Spiel gesehen?“</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><th class="group" colspan="4">Wirtschaft</th></tr>
+        <tr><td>sich verteuern</td><td>to become more expensive</td><td>Teurer werden.</td><td>Kraftstoffe haben sich innerhalb eines Jahres um 27,7 Prozent verteuert.</td></tr>
+        <tr><td>spürbar</td><td>noticeable, noticeably</td><td>So, dass man den Unterschied deutlich merkt.</td><td>Die Kerninflation liegt spürbar niedriger als die Gesamtrate.</td></tr>
+        <tr><td>die Kerninflation</td><td>core inflation</td><td>Die Preisentwicklung ohne Energie und Lebensmittel.</td><td>Fachleute schauen vor allem auf die Kerninflation.</td></tr>
+        <tr><td>die Nachfrage <span class="rep">(Wiederholung)</span></td><td>demand</td><td>Wie viel Menschen oder Firmen etwas kaufen wollen.</td><td>Die Preise steigen, weil die Nachfrage stabil bleibt.</td></tr>
+        <tr><th class="group" colspan="4">Freizeit</th></tr>
+        <tr><td>der Eigenbedarf</td><td>personal use, own needs</td><td>Nur für sich selbst und die eigene Familie, nicht zum Verkaufen.</td><td>Pilze sammeln ist erlaubt, aber nur für den Eigenbedarf.</td></tr>
+        <tr><td>die Faustregel</td><td>rule of thumb</td><td>Eine einfache Regel, die ungefähr stimmt.</td><td>Als Faustregel gilt etwa ein Kilogramm pro Person und Tag.</td></tr>
+        <tr><td>das Bußgeld</td><td>fine, penalty</td><td>Geld, das man zahlen muss, wenn man eine Regel bricht.</td><td>Je nach Fall kann ein Bußgeld fällig werden.</td></tr>
+        <tr><td>geschützt</td><td>protected</td><td>Durch ein Gesetz besonders gesichert.</td><td>Einige Arten sind geschützt und dürfen nicht gesammelt werden.</td></tr>
+        <tr><td>in Kauf nehmen <span class="rep">(Wiederholung)</span></td><td>to accept (a downside)</td><td>Etwas Unangenehmes akzeptieren, weil es sich am Ende lohnt.</td><td>Wer unsicher ist, nimmt den Umweg zur Beratungsstelle besser in Kauf.</td></tr>
+        <tr><th class="group" colspan="4">Sport</th></tr>
+        <tr><td>der Tabellenführer</td><td>league leader, team at the top</td><td>Die Mannschaft, die aktuell auf Platz eins steht.</td><td>Der Tabellenführer spielt am Samstag in Frankfurt.</td></tr>
+        <tr><td>das Topspiel</td><td>the big match of the round</td><td>Das wichtigste und interessanteste Spiel eines Spieltags.</td><td>Das Topspiel steigt am Abend um 18:30 Uhr.</td></tr>
+        <tr><td>empfangen</td><td>to host (a team), to receive</td><td>Zu Hause spielen und den Gegner bei sich haben.</td><td>Leverkusen empfängt am Sonntag RB Leipzig.</td></tr>
+        <tr><td>der Rekordmeister <span class="rep">(Wiederholung)</span></td><td>record champion</td><td>Der Verein, der die meisten Meistertitel gewonnen hat.</td><td>Der Rekordmeister aus München hat den Spieltag eröffnet.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„gute Argumente in der Hand haben“</b> — Gute Gründe für eine Verhandlung oder Diskussion haben.<br><i>Mit diesen Zahlen hast du im Gehaltsgespräch gute Argumente in der Hand.</i></li>
+        <li><b>„Ärger bekommen“</b> — Probleme bekommen — mit einer Behörde, dem Vermieter oder dem Chef.<br><i>Wer den Müll falsch trennt, bekommt hier schnell Ärger mit den Nachbarn.</i></li>
+        <li><b>„tabu sein“</b> — Absolut verboten sein, gar nicht in Frage kommen.<br><i>Handys sind in dieser Besprechung tabu.</i></li>
+        <li><b>„je nach Fall“</b> — Abhängig von der konkreten Situation.<br><i>Je nach Fall dauert die Bearbeitung zwei bis vier Wochen.</i></li>
+        <li><b>„auf etwas schauen“</b> — Etwas beobachten und als Maßstab nehmen.<br><i>Wir schauen vor allem auf die Zahlen aus dem dritten Quartal.</i></li>
+        <li><b>„Und, hast du das Spiel gesehen?“</b> — Der Standard-Einstieg für Small Talk am Montagmorgen.<br><i>Und, hast du das Spiel gesehen? — Nur die zweite Halbzeit, ich bin eingeschlafen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>„um“ oder „auf“ — der wichtigste Unterschied bei Prozentzahlen:</b> Im Text steht <i>„Die Verbraucherpreise sind um 2,9 Prozent gestiegen“</i>. <i>Um</i> beschreibt die <b>Veränderung</b>, <i>auf</i> den <b>neuen Wert</b>: <i>Der Preis ist um 10 Prozent gestiegen</i> (er ist jetzt 10 Prozent höher) gegenüber <i>Der Preis ist auf 10 Euro gestiegen</i> (er beträgt jetzt 10 Euro). Dazu die Standardformeln aus jedem Geschäftsbericht: <i>im Vergleich zum Vorjahresmonat</i>, <i>10,5 Prozent über dem Vorjahreswert</i>, <i>die Rate lag bei 2,4 Prozent</i>. Wer diese vier Wendungen sicher benutzt, klingt in Meetings sofort professioneller.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Regeln ausdrücken: „nicht dürfen“ ist nicht „nicht müssen“:</b> Der Pilz-Text lebt von Regeln: <i>„Sammeln ist erlaubt“</i>, <i>„Trüffel darf man gar nicht mitnehmen“</i>, <i>„Tabu sind Naturschutzgebiete“</i>. Achtung bei der klassischen Falle: <i>Du darfst nicht parken</i> heißt <b>Verbot</b> — <i>Du musst nicht parken</i> heißt, es ist dir freigestellt. Für Verbote hört man im Alltag außerdem: <i>Das ist nicht erlaubt. Das geht leider nicht. Davon würde ich abraten.</i></p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie stark sind die Verbraucherpreise im August im Vergleich zum Vorjahr gestiegen?</li>
+          <li>Welche Energieart ist laut Text im Vergleich zum Vorjahr günstiger geworden?</li>
+          <li>Wie viel darf man als Faustregel pro Person und Tag sammeln?</li>
+          <li>Welche Pilze darf man laut Text gar nicht mitnehmen?</li>
+          <li>Wer steht vor dem vierten Spieltag an der Tabellenspitze?</li>
+          <li>Wann findet das Spiel Stuttgart gegen Dortmund statt?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>um … Prozent gestiegen</i> über eine Zahl aus deinem Arbeitsalltag.</li>
+          <li>Bilde zwei Sätze zum selben Thema: einmal mit <i>darf nicht</i>, einmal mit <i>muss nicht</i>.</li>
+          <li>Schreibe einen Satz mit <i>in Kauf nehmen</i> über eine Entscheidung an einem Wochenende.</li>
+          <li>Beschreibe in einem Satz mit <i>sich verteuern</i>, was bei dir zuletzt teurer geworden ist.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Eine neue Kollegin aus dem Ausland fragt dich, was man an einem typischen deutschen Wochenende macht. Erzähle ein bis zwei Minuten: Was machst du samstags und sonntags, was ist dir dabei wichtig — und was hat dich am deutschen Wochenende am Anfang überrascht?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quellen: Verbraucherpreisindex August 2026 des Statistischen Bundesamtes (destatis.de, Pressemitteilung vom September 2026); Regeln zum Pilzesammeln nach § 39 Bundesnaturschutzgesetz; Bundesliga-Spielplan und Tabelle zum 4. Spieltag der Saison 2026/27 (fussballdaten.de, sportschau.de).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

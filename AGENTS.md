@@ -22,16 +22,16 @@ The end goal (not yet fully reached — see Gaps below): every lesson page
 should let a student read the text *and* do an exercise with instant
 feedback, not just read.
 
-## Status snapshot (2026-09-20)
+## Status snapshot (2026-09-21)
 
-- 64 lessons exist (2026-07-09 → 2026-09-20), all as HTML in `lektionen/`.
+- 65 lessons exist (2026-07-09 → 2026-09-21), all as HTML in `lektionen/`.
   The first 14 (07-09 → 07-23) started as plain `.md` and were backfilled
   into the standard HTML lesson format by `convert_md_lessons.py` — see
   Build pipeline. Both the `.md` source and the generated `.html` are kept.
-- Only **11 lessons** (2026-09-10 → 2026-09-20) have a real exercise
+- Only **12 lessons** (2026-09-10 → 2026-09-21) have a real exercise
   (multiple-choice + a "Lösungen" answers tab). The other 53 have five tabs
   but no graded exercise — see Gaps.
-- `vocab.json` has 465 entries. Six target languages cover all 64 lessons;
+- `vocab.json` has 472 entries. Six target languages cover all 65 lessons;
   Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
   forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
   entries with merged date arrays.
@@ -45,6 +45,37 @@ feedback, not just read.
   `https://github.com/doganncengiz/daily-german`. The Pages workflow at
   `.github/workflows/pages.yml` builds and publishes `website/` after every
   push to `main`.
+
+## Two lesson formats (since 2026-09-19)
+
+Which format a lesson uses depends on the weekday. The scheduled task's prompt
+decides this first, before anything else.
+
+**Monday–Friday — Tagesausgabe.** One topic, one reading text of 200–350 words,
+5–10 vocabulary words (1–2 of them `(Wiederholung)`), 3–5 expressions,
+1–2 grammar points, 3 multiple-choice questions, 3 writing tasks, 1 Sprechanlass.
+This is the original format; every lesson up to 2026-09-18 uses it.
+
+**Saturday and Sunday — Wochenend-Ausgabe.** A newspaper-style issue with three
+short articles inside the `lese` panel, ~200–230 words each (~600–700 total),
+in a fixed order: **Wirtschaft**, **Freizeit**, **Sport**. Each article sits in
+its own `.card` with an `.art-kicker` (the section name) and an `.art-title`
+(its own headline); the panel's single `<h2 class="heading">` is the issue
+headline and is what the archive index shows. Then 12–14 vocabulary words
+grouped by section with **one `(Wiederholung)` per section**, 5–6 expressions,
+2 grammar points, 6 multiple-choice questions (two per article), 4 writing
+tasks, 1 Sprechanlass. First examples: `German_Lesson_2026-09-19.html` and
+`German_Lesson_2026-09-20.html`.
+
+The weekend layout needs four extra CSS rules appended after the shared style
+block — `.art-kicker`, `.art-title`, `.card + .card`, `th.group`. Everything
+else (the `<style>` prefix, the whole `<script>`, the five source tabs, the
+five-entry `tabOrder`, the single vocabulary table, the
+`<h3>Verständnisfragen</h3>` + `<ol>` block) is identical to a weekday lesson,
+because the patch scripts depend on all of it. In the weekend vocabulary table
+the three groups are separated by `<tr><th class="group" colspan="4">Wirtschaft</th></tr>`
+rows; `patch_vocab_lang.py` skips any row that is not four `<td>` cells, so
+these pass through harmlessly.
 
 ## Repository layout
 

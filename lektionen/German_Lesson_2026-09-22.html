@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 22. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 22. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">5 Stunden mehr, kein Cent mehr: Mercedes-Benz droht mit Werksschließung</h2>
+    <div class="card">
+      <p>„Wenn die Kosten in Deutschland nicht sinken, müssen wir ein deutsches Produktionswerk und ein deutsches Antriebswerk schließen.“ Mit diesem Satz hat Produktionschef Michael Schiebe Anfang September für Aufsehen gesorgt. Für die Belegschaft von Mercedes-Benz klingt das wie eine offene Drohung — und genau so verstehen es auch die Gewerkschaften.</p>
+      <p>Bei einer Betriebsversammlung am 8. September legte Rechtsdirektor Olaf Schick Zahlen vor, die zeigen sollen, wie teuer der Standort Deutschland im Vergleich ist. Die Produktionskosten liegen demnach in Rumänien um 81,7 Prozent, in Polen um 76,5 Prozent und in Ungarn um 75 Prozent niedriger als in Deutschland. Gleichzeitig arbeiten die Beschäftigten dort deutlich mehr: In Ungarn liegt die Jahresarbeitszeit 28 Prozent über der deutschen, in den USA sogar 33 Prozent.</p>
+      <p>Aus diesen Zahlen leitet das Management eine konkrete Forderung ab: die Rückkehr zur 40-Stunden-Woche — ohne Lohnausgleich für die fünf zusätzlichen Stunden pro Woche. Wie ernst es dem Konzern ist, zeigt Rastatt: Die A-Klasse und der kompakte G-Klasse-Nachfolger werden künftig im ungarischen Kecskemét gebaut, wo die Kapazität mit einer Investition von rund einer Milliarde Euro auf bis zu 400.000 Fahrzeuge verdoppelt wird. In Rastatt bleibt dann nur noch die CLA-Produktion übrig.</p>
+      <p>Der Betriebsrat und die IG Metall lehnen sowohl die Lohnkürzung als auch die längere Arbeitszeit ab und nennen das Vorgehen offen „Erpressung“. Ihre Sorge: Auch wenn ein Sicherungsabkommen aus dem Jahr 2025 Arbeitsplätze eigentlich bis 2034 schützen soll, könnten längere Arbeitszeiten viele Beschäftigte faktisch zum Gehen zwingen.</p>
+      <p>Hintergrund des Streits ist das Sparprogramm „Next Level Performance“, mit dem der Konzern bis 2027 rund 5 Milliarden Euro einsparen will. Mercedes-Benz steht dabei ohnehin schon wirtschaftlich unter Druck: Im ersten Quartal 2026 brach der Gewinn um 16,8 Prozent ein, der Umsatz sank um 5 Prozent auf 31,6 Milliarden Euro.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Belegschaft <span class="rep">(Wiederholung)</span></td><td>workforce, staff</td><td>Alle Mitarbeiterinnen und Mitarbeiter eines Unternehmens zusammen.</td><td>Für die Belegschaft von Mercedes-Benz klingt das wie eine offene Drohung.</td></tr>
+        <tr><td>unter Druck stehen <span class="rep">(Wiederholung)</span></td><td>to be under pressure</td><td>In einer schwierigen Lage sein, in der man schnell handeln muss.</td><td>Mercedes-Benz steht dabei ohnehin schon wirtschaftlich unter Druck.</td></tr>
+        <tr><td>für Aufsehen sorgen</td><td>to cause a stir</td><td>Etwas Überraschendes sagen oder tun, worüber danach viele reden.</td><td>Der Produktionschef hat mit seinem Satz für Aufsehen gesorgt.</td></tr>
+        <tr><td>die Betriebsversammlung</td><td>works assembly, staff meeting</td><td>Ein Treffen, bei dem die Geschäftsführung mit allen Beschäftigten spricht.</td><td>Bei der Betriebsversammlung legte der Rechtsdirektor Zahlen vor.</td></tr>
+        <tr><td>der Lohnausgleich</td><td>wage compensation</td><td>Geld, das man bekommt, wenn man mehr arbeitet oder etwas verliert.</td><td>Die Beschäftigten sollen fünf Stunden mehr arbeiten — ohne Lohnausgleich.</td></tr>
+        <tr><td>ablehnen</td><td>to reject</td><td>Nein sagen zu einem Vorschlag oder einer Forderung.</td><td>Der Betriebsrat lehnt die längere Arbeitszeit ab.</td></tr>
+        <tr><td>das Sicherungsabkommen</td><td>job security agreement</td><td>Ein Vertrag, der Arbeitsplätze für eine bestimmte Zeit schützen soll.</td><td>Das Sicherungsabkommen soll Arbeitsplätze bis 2034 schützen.</td></tr>
+        <tr><td>einbrechen</td><td>to plunge, to collapse (of figures)</td><td>Plötzlich stark sinken, meist bei Zahlen oder Werten.</td><td>Der Gewinn brach im ersten Quartal um 16,8 Prozent ein.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Wenn … nicht …, müssen wir …“</b> — Eine Drohung, die wie eine sachliche Bedingung klingt, typisch für Verhandlungen.<br><i>Wenn wir den Termin nicht schaffen, müssen wir den Kunden informieren.</i></li>
+        <li><b>„Zahlen vorlegen“</b> — Konkrete Fakten präsentieren, um eine Position zu stützen.<br><i>Der Vorstand legte am Montag neue Zahlen vor.</i></li>
+        <li><b>„eine Forderung ableiten aus …“</b> — Eine Forderung logisch aus Fakten oder Daten begründen.<br><i>Aus den Umfragewerten leitet die Partei eine neue Strategie ab.</i></li>
+        <li><b>„ohnehin schon“</b> — Betont, dass ein Zustand schon vorher bestand, bevor etwas Neues dazukommt.<br><i>Das Team ist ohnehin schon überlastet.</i></li>
+        <li><b>„Wie ernst es jemandem ist, zeigt …“</b> — Ein konkretes Beispiel als Beweis für die Ernsthaftigkeit einer Absicht nennen.<br><i>Wie ernst es der Firma ist, zeigt die neue Investition.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv Präsens: „werden … gebaut“, „wird … verdoppelt“</b> Im Text steht <i>„… werden künftig im ungarischen Kecskemét gebaut“</i> und <i>„die Kapazität … wird … verdoppelt“</i>. Das Passiv rückt den Vorgang in den Mittelpunkt, nicht die Person, die ihn ausführt — genau deshalb ist es in Nachrichtentexten so häufig: Wer die Klasse baut, ist unwichtig; wichtig ist, dass sie gebaut wird. Bildung: <i>werden</i> + Partizip II. Typischer Fehler: Lernende übersetzen den Akteur wörtlich mit „von“, obwohl er im Deutschen bei solchen Sätzen meist ganz wegfällt.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Konzessivsatz mit Konjunktiv II: „Auch wenn … soll, könnten …“</b> Der Satz <i>„Auch wenn ein Sicherungsabkommen … schützen soll, könnten längere Arbeitszeiten … zwingen“</i> gibt eine Tatsache zu (das Abkommen existiert) und nennt trotzdem ein mögliches Risiko im Konjunktiv II (<i>könnten</i>). Typischer Fehler: <i>auch wenn</i> mit <i>obwohl</i> verwechseln — <i>obwohl</i> passt nur zu einer sicheren Tatsache, <i>auch wenn</i> lässt offen, ob der Nebensatz überhaupt zutrifft oder nur hypothetisch ist, und braucht im Hauptsatz oft den Konjunktiv.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Um wie viel Prozent liegen die Produktionskosten in Ungarn laut Text niedriger als in Deutschland?</li>
+          <li>Was fordert das Management laut Text von der Belegschaft?</li>
+          <li>Wie reagieren der Betriebsrat und die IG Metall auf die Forderungen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz im Passiv über einen Prozess bei der Arbeit (z. B. mit „wird … gebaut“ oder „werden … produziert“).</li>
+          <li>Bilde einen Konzessivsatz mit „Auch wenn …, könnte(n) …“ über eine Regel, die eigentlich schützen soll, aber trotzdem ein Risiko birgt.</li>
+          <li>Schreibe einen Satz mit „ohnehin schon“ über eine Situation, die schon vor einer neuen Belastung schwierig war.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Ein Kollege bei der Arbeit ist besorgt, weil sein Unternehmen mit Stellenabbau oder längeren Arbeitszeiten droht. Erkläre ihm in ein bis zwei Minuten, wie du die Situation bei Mercedes-Benz verstehst — und was du an seiner Stelle tun würdest.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quellen: mbpassion.de („Mercedes erhöht Druck: Werksschließung als Drohkulisse im Streit um Lohnkosten“, September 2026), ad-hoc-news.de („Mercedes-Benz droht Werkschließungen: 40-Stunden-Woche ohne Ausgleich“, September 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "mc": [
+    {
+      "q": "Um wie viel Prozent liegen die Produktionskosten in Ungarn laut Text niedriger als in Deutschland?",
+      "o": ["33 Prozent", "81,7 Prozent", "75 Prozent"],
+      "c": 2,
+      "why": "Ungarn liegt laut Text bei 75 Prozent niedrigeren Produktionskosten. 81,7 Prozent bezieht sich im Text auf Rumänien, und 33 Prozent ist die höhere Jahresarbeitszeit in den USA — kein Kostenwert für Ungarn."
+    },
+    {
+      "q": "Was fordert das Management laut Text von der Belegschaft?",
+      "o": ["Eine Rückkehr zur 40-Stunden-Woche ohne Lohnausgleich", "Eine Kürzung der Wochenarbeitszeit auf 35 Stunden", "Einen Umzug aller Beschäftigten nach Ungarn"],
+      "c": 0,
+      "why": "Der Text nennt ausdrücklich die Rückkehr zur 40-Stunden-Woche ohne Lohnausgleich für die fünf zusätzlichen Stunden. Von einer kürzeren Arbeitszeit oder einem Umzug der Beschäftigten ist im Text keine Rede — umgezogen wird nur die Produktion einzelner Modelle."
+    },
+    {
+      "q": "Wie reagieren der Betriebsrat und die IG Metall auf die Forderungen?",
+      "o": ["Sie fordern im Gegenzug eine höhere Abfindung für alle Beschäftigten", "Sie lehnen sowohl die Lohnkürzung als auch die längere Arbeitszeit ab und sprechen von „Erpressung“", "Sie stimmen den längeren Arbeitszeiten zu, lehnen aber die Lohnkürzung ab"],
+      "c": 1,
+      "why": "Der Text sagt ausdrücklich, dass Betriebsrat und IG Metall beides — Lohnkürzung und längere Arbeitszeit — ablehnen und das Vorgehen „Erpressung“ nennen. Eine Zustimmung zu längeren Arbeitszeiten oder eine Forderung nach höherer Abfindung wird im Text nicht erwähnt."
+    }
+  ],
+  "schreib": [
+    "In Kecskemét <b>wird</b> die Kapazität mit einer Milliarden-Investition <b>verdoppelt</b>. <span class=\"hint\">Im Passiv braucht man „werden“ + Partizip II, nicht „sein“ — und der Akteur fällt im Deutschen oft ganz weg.</span>",
+    "<b>Auch wenn</b> die Vereinbarung die Arbeitsplätze schützen soll, <b>könnten</b> viele Beschäftigte trotzdem gehen. <span class=\"hint\">„Auch wenn“ nicht mit „obwohl“ verwechseln: „obwohl“ passt nur zu einer sicheren Tatsache.</span>",
+    "Das Team ist <b>ohnehin schon</b> überlastet, jetzt kommt auch noch das neue Projekt dazu. <span class=\"hint\">„ohnehin schon“ steht meist direkt vor dem Adjektiv oder Partizip, das den bestehenden Zustand beschreibt.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Aus meiner Sicht liegt das Problem vor allem daran, dass …",
+      "Ich kann die Sorge gut verstehen, denn …",
+      "An deiner Stelle würde ich zuerst …",
+      "Wichtig ist, dass man zwischen … und … unterscheidet.",
+      "Am Ende hängt viel davon ab, ob …"
+    ],
+    "modell": "Ehrlich gesagt verstehe ich deine Sorge gut. Bei Mercedes-Benz steht die ganze <b>Belegschaft</b> gerade ziemlich <b>unter Druck</b>, weil der Produktionschef mit einer Werksschließung gedroht hat und dafür bei einer <b>Betriebsversammlung</b> Zahlen vorgelegt wurden. Das Management verlangt mehr Arbeitsstunden ohne <b>Lohnausgleich</b> — aber der Betriebsrat <b>lehnt</b> das klar <b>ab</b>. An deiner Stelle würde ich erst einmal prüfen, was euer eigenes <b>Sicherungsabkommen</b> wirklich regelt, bevor ich mir zu große Sorgen mache."
+  }
+}

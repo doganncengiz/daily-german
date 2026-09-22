@@ -1,0 +1,30 @@
+{
+"mc":[
+ {"q":"Wie hoch war der durchschnittliche Zusatzbeitrag der Kassen Ende Juni tatsächlich?",
+  "o":["2,18 Prozent.",
+       "2,9 Prozent.",
+       "3,13 Prozent."],
+  "c":2,
+  "why":"Tatsächlich verlangten die Kassen im Schnitt 3,13 Prozent. 2,9 Prozent war nur der politische Richtwert, und 2,18 Prozent nimmt die eine günstigste Kasse — nicht der Durchschnitt."},
+ {"q":"Wie viel Geld fehlt laut Text im System für das Jahr 2027?",
+  "o":["Rund 19 Milliarden Euro.",
+       "Rund 380 Euro.",
+       "Rund 3,8 Milliarden Euro."],
+  "c":0,
+  "why":"Im System fehlen rund 19 Milliarden Euro — genau die Summe, die das Gesetz einsparen soll. 380 Euro ist die Jahresbelastung bei 3.500 Euro brutto, und die 3,8 stehen im Text für Prozent, nicht für Milliarden."},
+ {"q":"Was gilt, wenn die eigene Krankenkasse den Zusatzbeitrag erhöht?",
+  "o":["Man muss trotzdem zwölf Monate warten.",
+       "Man hat ein Sonderkündigungsrecht.",
+       "Ein Wechsel ist dann nicht mehr möglich."],
+  "c":1,
+  "why":"Bei einer Erhöhung gilt ein Sonderkündigungsrecht, man kann also früher wechseln. Die Zwölf-Monats-Regel beschreibt der Text als Normalfall ohne Erhöhung, und dass ein Wechsel unmöglich wäre, sagt er an keiner Stelle — im Gegenteil."}
+],
+"schreib":[
+ "<b>Ohne</b> die Verzögerung bei der Lieferung <b>wären</b> wir längst fertig. <span class=\"hint\">(gedachter Fall → Konjunktiv II „wären“, nicht „sind“)</span>",
+ "Ich habe <b>knapp</b> drei Jahre Erfahrung in dem Bereich, meine Kollegin schon <b>gut</b> zehn. <span class=\"hint\">(„knapp“ = etwas weniger, „gut“ = etwas mehr — nicht verwechseln)</span>",
+ "Der Umstieg auf das Jobticket <b>hat sich</b> nach zwei Monaten schon <b>gelohnt</b>. <span class=\"hint\">(sich lohnen ist reflexiv: etwas lohnt sich, nicht „etwas lohnt“)</span>"
+],
+"sprech":{
+ "phrases":["Das geht vielen so — das ist normal.","Vom Brutto gehen erst mal … ab.","Konkret heißt das für dich: …","Ein Tipp: Schau mal nach, ob …","Das klingt kompliziert, ist aber schnell erklärt."],
+ "modell":"„Das geht vielen so. Von deinem <b>Brutto</b> gehen erst mal die Sozialabgaben ab: Krankenversicherung, Pflege, Rente und Arbeitslosenversicherung. Bei der Krankenkasse liegt der <b>Beitragssatz</b> bei 14,6 Prozent, den teilen sich Betrieb und Beschäftigte — und dazu kommt noch der <b>Zusatzbeitrag</b> deiner Kasse, im Schnitt über drei Prozent. Der ist in den letzten Jahren gestiegen, deshalb bleibt von einer Erhöhung <b>netto</b> oft wenig übrig. Ein Tipp: Schau mal auf deiner <b>Abrechnung</b> nach, welchen Zusatzbeitrag deine Kasse nimmt. Die <b>Spanne</b> zwischen den Kassen ist wirklich groß, und ein Wechsel <b>lohnt sich</b> schneller, als man denkt.“"}
+}

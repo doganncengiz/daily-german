@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wo hat dm seine Online-Apotheke dm-med angemeldet?",
+      "o": [
+        "In Deutschland",
+        "In Tschechien",
+        "In Polen"
+      ],
+      "c": 1,
+      "why": "Der Text sagt ausdrücklich, dass dm-med „mit Sitz in Tschechien“ betrieben wird. Deutschland ist falsch, weil dm zwar eine deutsche Drogeriekette ist, die Online-Apotheke aber bewusst im Ausland angemeldet wurde; Polen wird im Text an keiner Stelle erwähnt."
+    },
+    {
+      "q": "Wie hoch ist der Anteil der dm-med-Kunden, die ausschließlich Medikamente kaufen?",
+      "o": [
+        "75 Prozent",
+        "6 Prozent",
+        "25 Prozent"
+      ],
+      "c": 2,
+      "why": "Laut Text liegt dieser Anteil bei 25 Prozent. 75 Prozent ist die Zahl der Kunden, die Medikamente MIT anderen Drogerieprodukten kombinieren, und 6 Prozent bezieht sich auf das Wachstum des Online-Verkaufs 2025 — beides andere Zahlen aus demselben Text."
+    },
+    {
+      "q": "Was plant die Drogeriekette Rossmann laut Text?",
+      "o": [
+        "Eine eigene Versandapotheke bis Jahresende",
+        "Den Kauf von dm-med",
+        "Die Schließung aller Filialen"
+      ],
+      "c": 0,
+      "why": "Der Text sagt, Rossmann plane „bis Jahresende eine eigene Versandapotheke, inklusive E-Rezept“. Ein Kauf von dm-med oder eine Schließung von Filialen wird im Text an keiner Stelle erwähnt."
+    }
+  ],
+  "schreib": [
+    "Der Verband <b>verklagte</b> das Unternehmen, weil er die Werbung für irreführend hielt. <span class=\"hint\">„verklagen“ braucht direkt ein Akkusativobjekt (die Person/Firma) — nicht „gegen jemanden verklagen“.</span>",
+    "Der Sprecher sagte, das Unternehmen <b>sei</b> rechtlich im Recht und <b>wolle</b> weiter expandieren. <span class=\"hint\">Bei „sein“ steht im Konjunktiv I „sei“, nicht „wäre“ — „wäre“ klingt nach einer Bedingung, nicht nach einer berichteten Aussage.</span>",
+    "<b>Der Ausgang</b> der Verhandlung <b>ist</b> noch völlig <b>offen</b>, niemand weiß, wie das Gericht am Ende entscheidet. <span class=\"hint\">„offen“ bedeutet hier „ungewiss“, nicht „geöffnet“ wie bei einer Tür.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Meiner Meinung nach sollte …",
+      "Auf der einen Seite …, auf der anderen Seite …",
+      "In meinem Heimatland ist das so geregelt, dass …",
+      "Ich finde es wichtig, dass …",
+      "Ein Vorteil/Nachteil davon wäre …"
+    ],
+    "modell": "Ich finde, dass Apotheken und Drogerien schon <b>getrennt</b> bleiben sollten. Wenn ich Medikamente kaufe, möchte ich eine echte Beratung, keine <b>Verwirrung</b> an der Kasse. Der <b>Anteil</b> der Menschen, die online bestellen, wird sicher weiter wachsen, aber ich möchte trotzdem <b>sicherstellen</b>, dass ich richtig beraten werde. In meinem Heimatland gibt es einen ähnlichen <b>Verband</b>, der genau das kontrolliert."
+  }
+}

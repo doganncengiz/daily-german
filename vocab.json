@@ -392,13 +392,17 @@
     "bsp": "Der Anteil der Nutzer liegt bei über 60 Prozent.",
     "dates": [
       "2026-09-14",
-      "2026-09-15"
+      "2026-09-15",
+      "2026-09-23"
     ],
     "sq": "pjesa, përqindja",
     "tr": "pay, oran",
     "uk": "частка, відсоток",
     "ar": "النسبة، الحصة",
-    "fa": "سهم، نسبت"
+    "fa": "سهم، نسبت",
+    "es": "la parte, la proporción",
+    "fr": "la part, la proportion",
+    "it": "la quota, la percentuale"
   },
   {
     "de": "anziehen (Konjunktur)",
@@ -3749,13 +3753,17 @@
     "erk": "Dafür sorgen, dass etwas wirklich passiert.",
     "bsp": "Die EU will sicherstellen, dass Bargeld verfügbar bleibt.",
     "dates": [
-      "2026-09-15"
+      "2026-09-15",
+      "2026-09-23"
     ],
     "sq": "të sigurojë",
     "tr": "sağlamak, garanti etmek",
     "uk": "забезпечувати, гарантувати",
     "ar": "يضمن، يكفل",
-    "fa": "تضمین کردن"
+    "fa": "تضمین کردن",
+    "es": "garantizar, asegurar",
+    "fr": "garantir, assurer",
+    "it": "garantire, assicurare"
   },
   {
     "de": "sichtlich",
@@ -5882,13 +5890,17 @@
     "erk": "Eine Firma, die zu einem größeren Mutterkonzern gehört.",
     "bsp": "Allianz Partners ist eine Tochtergesellschaft der Allianz.",
     "dates": [
-      "2026-07-18"
+      "2026-07-18",
+      "2026-09-23"
     ],
     "sq": "filiali, shoqëria e kontrolluar",
     "tr": "bağlı ortaklık, iştirak",
     "uk": "дочірня компанія",
     "ar": "شركة تابعة",
-    "fa": "شرکت تابعه"
+    "fa": "شرکت تابعه",
+    "es": "la filial",
+    "fr": "la filiale",
+    "it": "la filiale, la controllata"
   },
   {
     "de": "das Berufsbild",
@@ -6170,13 +6182,17 @@
     "erk": "Ein Verhalten, das gegen eine Regel verstößt.",
     "bsp": "Bei wiederholten Verstößen droht ein Hausverbot.",
     "dates": [
-      "2026-07-22"
+      "2026-07-22",
+      "2026-09-23"
     ],
     "sq": "shkelja",
     "tr": "ihlal",
     "uk": "порушення",
     "ar": "مخالفة، انتهاك",
-    "fa": "تخلف، نقض مقررات"
+    "fa": "تخلف، نقض مقررات",
+    "es": "la infracción",
+    "fr": "l'infraction, la violation",
+    "it": "la violazione, l'infrazione"
   },
   {
     "de": "das Hausverbot",
@@ -7005,5 +7021,209 @@
     "es": "desplomarse",
     "fr": "s'effondrer",
     "it": "crollare"
+  },
+  {
+    "de": "das Geschäftsmodell",
+    "en": "business model",
+    "erk": "Die Art, wie ein Unternehmen sein Geld verdient.",
+    "bsp": "„Rechtskonform“ nennt dm sein Geschäftsmodell.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "modeli i biznesit",
+    "tr": "iş modeli",
+    "uk": "бізнес-модель",
+    "ar": "نموذج العمل التجاري",
+    "fa": "مدل کسب‌وکار",
+    "es": "el modelo de negocio",
+    "fr": "le modèle économique",
+    "it": "il modello di business"
+  },
+  {
+    "de": "abgeben",
+    "en": "to dispense, to hand over",
+    "erk": "Etwas offiziell an jemanden weitergeben, z. B. beim Verkauf.",
+    "bsp": "Apothekenpflichtige Arzneimittel dürfen nur durch Apotheken abgegeben werden.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "të dorëzojë, të shpërndajë",
+    "tr": "teslim etmek, vermek",
+    "uk": "видавати, відпускати",
+    "ar": "يسلم، يصرف",
+    "fa": "تحویل دادن، عرضه کردن",
+    "es": "entregar, dispensar",
+    "fr": "délivrer, remettre",
+    "it": "consegnare, dispensare"
+  },
+  {
+    "de": "der Warenkorb",
+    "en": "shopping basket, cart",
+    "erk": "Der virtuelle „Korb“, in den man online Artikel vor dem Kauf legt.",
+    "bsp": "Dürfen Kunden Medikamente und Drogerieartikel im selben Warenkorb bestellen?",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "shporta e blerjeve",
+    "tr": "alışveriş sepeti",
+    "uk": "кошик покупок",
+    "ar": "سلة التسوق",
+    "fa": "سبد خرید",
+    "es": "el carrito de compra",
+    "fr": "le panier",
+    "it": "il carrello"
+  },
+  {
+    "de": "die Rechtssicherheit",
+    "en": "legal certainty",
+    "erk": "Die Sicherheit, genau zu wissen, was rechtlich erlaubt ist.",
+    "bsp": "Man wolle mit dem Verfahren vor allem eines: Rechtssicherheit.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "siguria juridike",
+    "tr": "hukuki güvenlik",
+    "uk": "правова визначеність",
+    "ar": "اليقين القانوني",
+    "fa": "امنیت حقوقی",
+    "es": "la seguridad jurídica",
+    "fr": "la sécurité juridique",
+    "it": "la certezza del diritto"
+  },
+  {
+    "de": "die Vorgaben einhalten",
+    "en": "to comply with regulations",
+    "erk": "Sich genau an Regeln oder Vorschriften halten.",
+    "bsp": "Die Tochtergesellschaft sei gewählt worden, um die Vorgaben einzuhalten.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "të respektojë rregullat",
+    "tr": "kurallara uymak",
+    "uk": "дотримуватися вимог",
+    "ar": "الالتزام بالمتطلبات",
+    "fa": "رعایت مقررات",
+    "es": "cumplir con las normas",
+    "fr": "respecter les règles",
+    "it": "rispettare le norme"
+  },
+  {
+    "de": "in Berufung gehen",
+    "en": "to appeal (a court decision)",
+    "erk": "Eine Gerichtsentscheidung von einem höheren Gericht neu prüfen lassen.",
+    "bsp": "Dürfte dm in Berufung vor dem Oberlandesgericht gehen.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "të apelojë",
+    "tr": "temyize gitmek, itiraz etmek",
+    "uk": "подати апеляцію",
+    "ar": "يستأنف الحكم",
+    "fa": "درخواست تجدیدنظر دادن",
+    "es": "apelar",
+    "fr": "faire appel",
+    "it": "fare ricorso in appello"
+  },
+  {
+    "de": "verhandeln",
+    "en": "to hear a case (in court), to negotiate",
+    "erk": "Vor Gericht über einen Streitfall sprechen, um eine Entscheidung vorzubereiten.",
+    "bsp": "Am Mittwoch verhandelte das Landgericht Karlsruhe einen Fall zum Online-Handel mit Medikamenten.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "të negociojë, të shqyrtojë (një çështje në gjyq)",
+    "tr": "müzakere etmek, (mahkemede) görüşmek",
+    "uk": "розглядати справу (в суді), вести переговори",
+    "ar": "يتفاوض، ينظر في قضية (أمام المحكمة)",
+    "fa": "مذاکره کردن، رسیدگی کردن (به پرونده در دادگاه)",
+    "es": "negociar, ver una causa (en el tribunal)",
+    "fr": "négocier, examiner une affaire (au tribunal)",
+    "it": "negoziare, trattare una causa (in tribunale)"
+  },
+  {
+    "de": "die Apotheke",
+    "en": "pharmacy",
+    "erk": "Ein Geschäft, in dem man Medikamente kauft, oft mit Beratung durch Fachpersonal.",
+    "bsp": "In Deutschland dürfen traditionell nur Apotheker Apotheken besitzen.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "farmacia",
+    "tr": "eczane",
+    "uk": "аптека",
+    "ar": "الصيدلية",
+    "fa": "داروخانه",
+    "es": "la farmacia",
+    "fr": "la pharmacie",
+    "it": "la farmacia"
+  },
+  {
+    "de": "der Verband",
+    "en": "association, industry body",
+    "erk": "Eine Organisation, die die gemeinsamen Interessen vieler Firmen oder Personen vertritt.",
+    "bsp": "Der Verband klagt im Auftrag großer Wirtschaftsverbände.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "shoqata, federata",
+    "tr": "dernek, birlik",
+    "uk": "асоціація, спілка",
+    "ar": "الرابطة، الاتحاد",
+    "fa": "انجمن، اتحادیه",
+    "es": "la asociación, el gremio",
+    "fr": "l'association, la fédération",
+    "it": "l'associazione, la federazione"
+  },
+  {
+    "de": "verklagen",
+    "en": "to sue, to take to court",
+    "erk": "Jemanden vor Gericht bringen, weil man findet, dass er etwas falsch gemacht hat.",
+    "bsp": "Die Wettbewerbszentrale verklagte dm vor Gericht in Karlsruhe.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "të padisë",
+    "tr": "dava etmek",
+    "uk": "подавати в суд, позивати",
+    "ar": "يقاضي، يرفع دعوى",
+    "fa": "شکایت کردن، طرح دعوی کردن",
+    "es": "demandar",
+    "fr": "poursuivre en justice",
+    "it": "citare in giudizio, fare causa"
+  },
+  {
+    "de": "trennen",
+    "en": "to separate",
+    "erk": "Zwei Dinge räumlich oder inhaltlich auseinanderhalten, statt sie zusammenzumischen.",
+    "bsp": "An der Kasse würden Apotheken- und Drogerieartikel getrennt angezeigt.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "të ndajë",
+    "tr": "ayırmak",
+    "uk": "розділяти, відокремлювати",
+    "ar": "يفصل، يفرّق",
+    "fa": "جدا کردن، تفکیک کردن",
+    "es": "separar",
+    "fr": "séparer",
+    "it": "separare"
+  },
+  {
+    "de": "die Verwirrung",
+    "en": "confusion",
+    "erk": "Ein Zustand, in dem man etwas nicht mehr klar unterscheiden oder verstehen kann.",
+    "bsp": "Der Deutsche Apothekerverband warnt vor Verwirrung bei Patientinnen und Patienten.",
+    "dates": [
+      "2026-09-23"
+    ],
+    "sq": "hutia, konfuzioni",
+    "tr": "kafa karışıklığı",
+    "uk": "плутанина, замішання",
+    "ar": "الارتباك، الحيرة",
+    "fa": "سردرگمی، گیجی",
+    "es": "la confusión",
+    "fr": "la confusion",
+    "it": "la confusione"
   }
 ]

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 23. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 23. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Rechtsstreit um dm-med: Wer darf online Medikamente verkaufen?</h2>
+    <div class="card">
+      <p>Am Mittwoch verhandelte das Landgericht Karlsruhe einen Fall, der zeigt, wie unklar die Regeln für den Online-Handel mit Medikamenten in Deutschland noch sind. Die Drogeriekette dm hat Ende 2025 eine eigene Online-Apotheke gegründet: dm-med, mit Sitz in Tschechien. Dort können Kundinnen und Kunden apothekenpflichtige, aber rezeptfreie Medikamente wie bestimmte Schmerzmittel bestellen — zusammen mit Shampoo, Windeln oder Duschgel im selben Warenkorb.</p>
+      <p>Genau das stört die Wettbewerbszentrale. Der Verband, der im Auftrag großer Wirtschaftsverbände klagt, verklagte dm vor Gericht in Karlsruhe. Sein Argument: dm-med sei nicht ausreichend von der normalen Drogerie getrennt. In Deutschland dürfen traditionell nur Apotheker Apotheken besitzen — das sogenannte Fremdbesitzverbot soll verhindern, dass große Konzerne den Medikamentenmarkt übernehmen.</p>
+      <p>dm widerspricht. Das Unternehmen betont, an der Online-Darstellung seit dem Start nichts geändert zu haben: An der Kasse würden Apotheken- und Drogerieartikel getrennt angezeigt. Marketingchef Sebastian Bayer sagte, dm wolle vor allem sicherstellen, dass das Geschäftsmodell rechtlich einwandfrei bleibt.</p>
+      <p>Zahlen zeigen, wie beliebt das Angebot bereits ist: Der Anteil der Kunden, die bei dm-med ausschließlich Medikamente kaufen, liegt bei 25 Prozent; die übrigen 75 Prozent kombinieren den Einkauf mit klassischen Drogerieprodukten. 2025 wuchs der Online-Verkauf von Medikamenten in Deutschland um 6 Prozent.</p>
+      <p>Der Deutsche Apothekerverband warnt dagegen vor Verwirrung bei Patientinnen und Patienten, wenn die Grenze zwischen Apotheke und Drogerie verschwimmt. Verbandspräsident Thomas Preis nennt Versandapotheken aus dem Ausland einen „Störfaktor" für die wohnortnahe Versorgung. Laut einer Umfrage bevorzugen drei Viertel der Patienten bei rezeptfreien Medikamenten weiterhin die persönliche Beratung vor Ort.</p>
+      <p>Der Ausgang des Verfahrens ist offen. Klar ist nur: Auch die Konkurrenz beobachtet den Fall genau — die Drogeriekette Rossmann plant bis Jahresende eine eigene Versandapotheke, inklusive E-Rezept.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>verhandeln</td><td>to hear a case (in court)</td><td>Vor Gericht über einen Streitfall sprechen, um eine Entscheidung vorzubereiten.</td><td>Am Mittwoch verhandelte das Landgericht Karlsruhe einen Fall zum Online-Handel mit Medikamenten.</td></tr>
+        <tr><td>die Apotheke</td><td>pharmacy</td><td>Ein Geschäft, in dem man Medikamente kauft, oft mit Beratung durch Fachpersonal.</td><td>In Deutschland dürfen traditionell nur Apotheker Apotheken besitzen.</td></tr>
+        <tr><td>der Verband</td><td>association, industry body</td><td>Eine Organisation, die die gemeinsamen Interessen vieler Firmen oder Personen vertritt.</td><td>Der Verband klagt im Auftrag großer Wirtschaftsverbände.</td></tr>
+        <tr><td>verklagen</td><td>to sue, to take to court</td><td>Jemanden vor Gericht bringen, weil man findet, dass er etwas falsch gemacht hat.</td><td>Die Wettbewerbszentrale verklagte dm vor Gericht in Karlsruhe.</td></tr>
+        <tr><td>trennen</td><td>to separate</td><td>Zwei Dinge räumlich oder inhaltlich auseinanderhalten, statt sie zusammenzumischen.</td><td>An der Kasse würden Apotheken- und Drogerieartikel getrennt angezeigt.</td></tr>
+        <tr><td>sicherstellen <span class="rep">(Wiederholung)</span></td><td>to ensure, guarantee</td><td>Dafür sorgen, dass etwas wirklich passiert.</td><td>Bayer sagte, dm wolle vor allem sicherstellen, dass das Geschäftsmodell rechtlich einwandfrei bleibt.</td></tr>
+        <tr><td>der Anteil <span class="rep">(Wiederholung)</span></td><td>share, proportion</td><td>Der Teil einer Gesamtmenge, oft in Prozent.</td><td>Der Anteil der Kunden, die bei dm-med ausschließlich Medikamente kaufen, liegt bei 25 Prozent.</td></tr>
+        <tr><td>die Verwirrung</td><td>confusion</td><td>Ein Zustand, in dem man etwas nicht mehr klar unterscheiden oder verstehen kann.</td><td>Der Deutsche Apothekerverband warnt vor Verwirrung bei Patientinnen und Patienten.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„im Auftrag von …“</b> — Im Namen von jemand anderem handeln, nicht aus eigenem Interesse.<br><i>Der Verband klagt im Auftrag großer Wirtschaftsverbände.</i></li>
+        <li><b>„der Ausgang ist offen“</b> — Niemand weiß, wie eine Sache am Ende ausgeht.<br><i>Der Ausgang des Verfahrens ist offen.</i></li>
+        <li><b>„vor Gericht landen/bringen/verhandeln“</b> — Ein Streit wird zu einem Fall, über den ein Gericht entscheidet.<br><i>Der Streit um dm-med landete vor Gericht in Karlsruhe.</i></li>
+        <li><b>„an … nichts geändert haben“</b> — Betonen, dass etwas seit langer Zeit unverändert geblieben ist.<br><i>dm hat an der Online-Darstellung seit dem Start nichts geändert.</i></li>
+        <li><b>„genau beobachten“</b> — Eine Entwicklung aufmerksam verfolgen, weil sie wichtig für einen selbst sein könnte.<br><i>Auch die Konkurrenz beobachtet den Fall genau.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Konjunktiv I in Nachrichtentexten: „sei“, „wolle“</b> Im Text steht <i>„dm-med sei nicht ausreichend von der normalen Drogerie getrennt“</i> und <i>„dm wolle vor allem sicherstellen, dass das Geschäftsmodell rechtlich einwandfrei bleibt“</i>. Journalistinnen und Journalisten nutzen den Konjunktiv I, um eine fremde Aussage wiederzugeben, ohne sie selbst zu bestätigen — es bleibt offen, wer am Ende recht hat. Bildung meist aus Verbstamm + Endung (er/sie/es sei, wolle, könne, müsse). Typischer Fehler: Lernende greifen automatisch zum Konjunktiv II (wäre, würde), der aber eher eine Bedingung oder Vermutung ausdrückt, nicht eine berichtete Aussage.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Feste Wendung: „vor Gericht“ + Dativ</b> Ausdrücke wie <i>„vor Gericht verhandeln“</i>, <i>„vor Gericht bringen“</i> oder <i>„vor Gericht landen“</i> stehen immer mit Dativ, auch wenn eigentlich eine Bewegung gemeint ist (wie bei „bringen“). Das weicht von der üblichen Regel ab, nach der Wechselpräpositionen bei Bewegung den Akkusativ verlangen. Typischer Fehler: Lernende sagen „vor ein Gericht bringen“ im Akkusativ, weil „bringen“ eine Bewegung beschreibt — bei dieser festen Wendung bleibt es aber immer bei „vor Gericht“ im Dativ.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wo hat dm seine Online-Apotheke dm-med angemeldet?</li>
+          <li>Wie hoch ist der Anteil der dm-med-Kunden, die ausschließlich Medikamente kaufen?</li>
+          <li>Was plant die Drogeriekette Rossmann laut Text?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „verklagen“ über einen möglichen Grund, warum ein Verband ein Unternehmen vor Gericht bringt.</li>
+          <li>Bilde einen Satz im Konjunktiv I (indirekte Rede), in dem du berichtest, was jemand behauptet hat — ohne es selbst zu bestätigen.</li>
+          <li>Schreibe einen Satz mit dem Ausdruck „der Ausgang ist offen“ über eine Situation, deren Ende du nicht vorhersagen kannst.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Sollten Drogerien wie dm auch Medikamente verkaufen dürfen, oder sollte das Apotheken vorbehalten bleiben? Erkläre in ein bis zwei Minuten deine Meinung — und wie das in deinem Heimatland geregelt ist.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quellen: t-online.de/dpa („Rechtsstreit um Online-Apotheke von dm – Fakten zum Mitreden“, 23. September 2026), Handelsblatt (dieselbe dpa-Meldung, 23. September 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

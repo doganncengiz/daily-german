@@ -22,16 +22,16 @@ The end goal (not yet fully reached — see Gaps below): every lesson page
 should let a student read the text *and* do an exercise with instant
 feedback, not just read.
 
-## Status snapshot (2026-09-21)
+## Status snapshot (2026-09-25)
 
-- 65 lessons exist (2026-07-09 → 2026-09-21), all as HTML in `lektionen/`.
+- 68 lessons exist (2026-07-09 → 2026-09-24), all as HTML in `lektionen/`.
   The first 14 (07-09 → 07-23) started as plain `.md` and were backfilled
   into the standard HTML lesson format by `convert_md_lessons.py` — see
   Build pipeline. Both the `.md` source and the generated `.html` are kept.
-- Only **12 lessons** (2026-09-10 → 2026-09-21) have a real exercise
+- **15 lessons** (2026-09-10 → 2026-09-24) have a real exercise
   (multiple-choice + a "Lösungen" answers tab). The other 53 have five tabs
   but no graded exercise — see Gaps.
-- `vocab.json` has 472 entries. Six target languages cover all 65 lessons;
+- `vocab.json` has 491 entries. Six target languages cover all 68 lessons;
   Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
   forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
   entries with merged date arrays.

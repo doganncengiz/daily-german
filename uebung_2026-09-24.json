@@ -1,0 +1,36 @@
+{
+  "mc": [
+    {
+      "q": "Wo findet das Spiel zwischen Deutschland und den Niederlanden statt?",
+      "o": ["In der Allianz Arena in München", "In der Johan Cruijff Arena in Amsterdam", "Im Signal Iduna Park in Dortmund"],
+      "c": 1,
+      "why": "Der Text nennt die Johan Cruijff Arena in Amsterdam ausdrücklich als Spielort. Die Allianz Arena und der Signal Iduna Park sind zwar echte deutsche Stadien – Letzterer sogar mit Klopps früherer Karriere bei Borussia Dortmund verbunden –, aber keiner von beiden ist der Ort des heutigen Spiels."
+    },
+    {
+      "q": "Warum musste Julian Nagelsmann seinen Posten als Bundestrainer verlassen?",
+      "o": ["Er hatte einen neuen Vertrag bei einem Verein unterschrieben.", "Der DFB wollte einen jüngeren Trainer verpflichten.", "Die Mannschaft schied enttäuschend bei der WM 2026 aus."],
+      "c": 2,
+      "why": "Laut Text musste Nagelsmann seinen Posten nach dem „enttäuschenden Aus bei der Weltmeisterschaft 2026“ räumen. Ein neuer Vereinsvertrag oder der Wunsch nach einem jüngeren Trainer werden im Text nicht erwähnt."
+    },
+    {
+      "q": "Was ist an den Trikots der deutschen Mannschaft heute Abend besonders?",
+      "o": ["Sie sind die letzte Kollektion von adidas vor dem Ende der Partnerschaft.", "Sie tragen zum ersten Mal den Namen des neuen Bundestrainers.", "Sie wurden speziell für Joshua Kimmichs Rekord entworfen."],
+      "c": 0,
+      "why": "Der Text erklärt, dass es sich um die letzte Kollektion von Ausrüster adidas handelt, bevor die Partnerschaft im Dezember endet. Die Trikots tragen keinen Trainernamen, und Kimmichs Rekord bezieht sich auf seine Einsätze gegen die Niederlande, nicht auf das Design der Trikots."
+    }
+  ],
+  "schreib": [
+    "Der neue Kollege <b>wurde</b> letzte Woche offiziell <b>verpflichtet</b>. <span class=\"hint\">„werden“ muss im Präteritum konjugiert werden (wurde) — „ist verpflichtet“ wäre ein bereits bestehender Zustand, nicht der Vorgang selbst.</span>",
+    "<b>Nachdem</b> sie das Projekt abgeschlossen <b>hatte</b>, bekam sie eine Beförderung. <span class=\"hint\">Im nachdem-Satz steht das frühere Ereignis im Plusquamperfekt, nicht in derselben Zeitform wie der Hauptsatz.</span>",
+    "Der Vortrag hat mich wirklich <b>begeistert</b>, weil die Rednerin so anschaulich erklärt hat. <span class=\"hint\">„begeistern“ steht meist mit der Ursache im Nominativ als Subjekt („etwas begeistert jemanden“), nicht umgekehrt.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Am meisten hat mich beeindruckt, dass ...",
+      "Diese Person hat mich vor allem dadurch begeistert, dass ...",
+      "Im Vergleich zu anderen war ... besonders, weil ...",
+      "Rückblickend würde ich sagen, dass ..."
+    ],
+    "modell": "Ehrlich gesagt hat mich mein erster Teamleiter im neuen Job am meisten begeistert. Er wurde erst kurz vor meinem Start verpflichtet und war eigentlich der Nachfolger von jemandem, der nach einem echten Aus im Projekt gehen musste. Seine Premiere als Chef war ziemlich schwierig, aber schon in den ersten Wochen seiner Amtszeit hat er das ganze Team wieder motiviert. Genau diese Fähigkeit, Menschen auch in schwierigen Momenten zu begeistern, hat mich am meisten beeindruckt."
+  }
+}

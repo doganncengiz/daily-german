@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 24. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 24. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Klopps Premiere: Neustart gegen den Erzrivalen Niederlande</h2>
+    <div class="card">
+      <p>Heute Abend beginnt für den deutschen Fußball ein neues Kapitel: Jürgen Klopp steht um 20:45 Uhr zum ersten Mal als Bundestrainer an der Seitenlinie. Schauplatz ist die Johan Cruijff Arena in Amsterdam, wo die Nationalmannschaft zum Auftakt der neuen Nations-League-Saison (Gruppe 2, Liga A) auf den Erzrivalen Niederlande trifft. Es ist bereits die 49. Begegnung zwischen den Nachbarländern; bisher steht es 18:12 für Deutschland, bei 18 Unentschieden. RTL überträgt das Spiel live im Free-TV und im Stream.</p>
+      <p>Klopp wurde am 24. Juli verpflichtet, nachdem Julian Nagelsmann nach dem enttäuschenden Aus bei der Weltmeisterschaft 2026 seinen Posten geräumt hatte. Sein Vertrag als Bundestrainer läuft über vier Jahre — bis zur EM 2028 und sogar bis zur WM 2030. DFB-Präsident Bernd Neuendorf sagte zur Vorstellung: „Klopp war unsere uneingeschränkte erste Wahl." Vor seinem neuen Amt hatte Klopp bereits in Mainz und bei Borussia Dortmund gearbeitet sowie zuletzt beim FC Liverpool, wo er 2019 die Champions League und 2020 die Premier League gewann.</p>
+      <p>Für die Partie hat Klopp 24 Spieler nominiert. Torhüter Marc-André ter Stegen kehrt zurück, und Mittelfeldspieler Joshua Kimmich bestreitet mit sieben Einsätzen gegen die Niederlande so viele wie kein anderer Spieler zuvor. Die Mannschaft läuft zudem in einem komplett schwarzen Trikot auf — es ist die letzte Kollektion von Ausrüster adidas, bevor die jahrzehntelange Partnerschaft im Dezember endet.</p>
+      <p>Klopp selbst zeigte sich vor seiner Premiere bewusst, wie besonders die neue Amtszeit für ihn ist: „Die Nationalmannschaft kann uns Deutsche verbinden wie kaum etwas anderes." Fans und Experten hoffen, dass er das Team nach dem schwierigen WM-Sommer wieder begeistern kann — als Nachfolger von Nagelsmann trägt er dafür von der ersten Minute an die Verantwortung.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Bundestrainer</td><td>the national team's head coach</td><td>Die Person, die die deutsche Fußball-Nationalmannschaft trainiert und die Aufstellung bestimmt.</td><td>Jürgen Klopp ist seit August 2026 der neue Bundestrainer.</td></tr>
+        <tr><td>verpflichten <span class="rep">(Wiederholung)</span></td><td>to sign, to hire</td><td>Einen Spieler oder Trainer offiziell für eine Aufgabe engagieren.</td><td>Der DFB hat Klopp am 24. Juli verpflichtet.</td></tr>
+        <tr><td>das Aus</td><td>the exit, elimination</td><td>Das Ende der Teilnahme an einem Wettbewerb, meist nach einer Niederlage.</td><td>Nach dem enttäuschenden Aus bei der WM 2026 musste Nagelsmann gehen.</td></tr>
+        <tr><td>der Erzrivale</td><td>the archrival</td><td>Ein Gegner, gegen den man traditionell mit besonders starken Gefühlen spielt.</td><td>Die Niederlande gelten als Erzrivale der deutschen Mannschaft.</td></tr>
+        <tr><td>die Premiere</td><td>the debut, first appearance</td><td>Der allererste Auftritt in einer neuen Rolle.</td><td>Für Klopp ist das Spiel heute seine Premiere als Bundestrainer.</td></tr>
+        <tr><td>der Nachfolger</td><td>the successor</td><td>Die Person, die eine Aufgabe von jemand anderem übernimmt.</td><td>Klopp ist der Nachfolger von Julian Nagelsmann.</td></tr>
+        <tr><td>begeistern</td><td>to excite, to inspire</td><td>Bei anderen Menschen große Freude oder Motivation auslösen.</td><td>Klopp soll die Fans nach dem schwachen Sommer wieder begeistern.</td></tr>
+        <tr><td>die Amtszeit</td><td>the term of office</td><td>Der Zeitraum, in dem jemand eine bestimmte Position innehat.</td><td>Seine Amtszeit als Bundestrainer dauert vier Jahre.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„zum ersten Mal als X an der Seitenlinie stehen“</b> — Der erste öffentliche Auftritt in einer neuen (Trainer-)Rolle.<br><i>Klopp steht heute zum ersten Mal als Bundestrainer an der Seitenlinie.</i></li>
+        <li><b>„jemanden verbinden wie kaum etwas anderes“</b> — Betonen, wie stark etwas Menschen zusammenbringt, stärker als fast alles sonst.<br><i>„Die Nationalmannschaft kann uns Deutsche verbinden wie kaum etwas anderes.“</i></li>
+        <li><b>„die uneingeschränkte erste Wahl sein“</b> — Ohne jeden Zweifel die bevorzugte Option unter mehreren Kandidaten sein.<br><i>„Klopp war unsere uneingeschränkte erste Wahl“, sagte DFB-Präsident Neuendorf.</i></li>
+        <li><b>„seinen Posten räumen“</b> — Eine Position oder ein Amt verlassen, oft nach Misserfolg oder Druck.<br><i>Nagelsmann musste nach dem Aus bei der WM seinen Posten räumen.</i></li>
+        <li><b>„jemanden für etwas nominieren“</b> — Jemanden offiziell für ein Spiel, ein Team oder eine Aufgabe auswählen.<br><i>Klopp hat 24 Spieler für die Partie gegen die Niederlande nominiert.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv im Präteritum: „wurde verpflichtet“</b> Im Text steht <i>„Klopp wurde am 24. Juli verpflichtet“</i>. Das Passiv bildet man mit „werden“ + Partizip II; im Präteritum heißt es also „wurde“ + Partizip II, nicht „ist“ + Partizip II (das wäre ein anderer Satztyp, das sogenannte Zustandspassiv, mit einer anderen Bedeutung). Typischer Fehler: Lernende verwechseln „wurde verpflichtet“ (der Vorgang der Verpflichtung) mit „ist verpflichtet“ (ein bereits bestehender Zustand).</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„nachdem“ + Plusquamperfekt</b> Im Satz <i>„nachdem Julian Nagelsmann … seinen Posten geräumt hatte“</i> steht das frühere Ereignis im Plusquamperfekt, weil der Hauptsatz („wurde Klopp verpflichtet“) im Präteritum steht und später passiert. Faustregel: Bei „nachdem“ muss die Vorzeitigkeit sichtbar sein — ist der Hauptsatz Präteritum/Perfekt, muss der nachdem-Satz eine Zeitstufe weiter zurückliegen (Plusquamperfekt). Typischer Fehler: Lernende benutzen im nachdem-Satz dieselbe Zeitform wie im Hauptsatz, statt eine Stufe zurückzugehen.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wo findet das Spiel zwischen Deutschland und den Niederlanden statt?</li>
+          <li>Warum musste Julian Nagelsmann seinen Posten als Bundestrainer verlassen?</li>
+          <li>Was ist an den Trikots der deutschen Mannschaft heute Abend besonders?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Bilde einen Satz im Passiv (Präteritum) über eine Person, die für eine Aufgabe verpflichtet wurde.</li>
+          <li>Bilde einen Satz mit „nachdem“ + Plusquamperfekt über zwei Dinge, die in der Vergangenheit nacheinander passiert sind.</li>
+          <li>Schreibe einen Satz mit dem Wort „begeistern“ über etwas oder jemanden, das/der dich vor Kurzem begeistert hat.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Erzählen Sie: Welcher Trainer, welche Trainerin oder welche Führungskraft hat Sie im Berufsleben oder im Sport besonders begeistert? Was hat diese Person anders gemacht als andere?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quellen: dfb.de („Nations League: Klopp-Premiere gegen die Niederlande live bei RTL“ und „Jürgen Klopp als Bundestrainer vorgestellt“, 2026), fussballdaten.de („Nations League: Niederlande gegen Deutschland – Datum, Anstoß & Sendezeit“, 24. September 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

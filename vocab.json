@@ -7024,7 +7024,8 @@
     "erk": "Plötzlich stark sinken, meist bei Zahlen oder Werten.",
     "bsp": "Der Gewinn brach im ersten Quartal um 16,8 Prozent ein.",
     "dates": [
-      "2026-09-22"
+      "2026-09-22",
+      "2026-09-26"
     ],
     "sq": "bie fort",
     "tr": "sert düşmek",
@@ -7075,7 +7076,8 @@
     "erk": "Eine Organisation, die die gemeinsamen Interessen vieler Firmen oder Personen vertritt.",
     "bsp": "Der Verband klagt im Auftrag großer Wirtschaftsverbände.",
     "dates": [
-      "2026-09-23"
+      "2026-09-23",
+      "2026-09-26"
     ],
     "sq": "shoqata, federata",
     "tr": "dernek, birlik",
@@ -7143,7 +7145,8 @@
     "erk": "Die Person, die die deutsche Fußball-Nationalmannschaft trainiert und die Aufstellung bestimmt.",
     "bsp": "Jürgen Klopp ist seit August 2026 der neue Bundestrainer.",
     "dates": [
-      "2026-09-24"
+      "2026-09-24",
+      "2026-09-26"
     ],
     "sq": "trajneri i kombëtares",
     "tr": "milli takım teknik direktörü",
@@ -7442,5 +7445,192 @@
     "es": "acelerar",
     "fr": "accélérer",
     "it": "accelerare"
+  },
+  {
+    "de": "die Kaufkraft",
+    "en": "purchasing power",
+    "erk": "Wie viel man mit seinem Geld tatsächlich kaufen kann.",
+    "bsp": "Hohe Energiepreise schmälern die Kaufkraft der Haushalte.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "fuqia blerëse",
+    "tr": "satın alma gücü",
+    "uk": "купівельна спроможність",
+    "ar": "القوة الشرائية",
+    "fa": "قدرت خرید",
+    "es": "el poder adquisitivo",
+    "fr": "le pouvoir d'achat",
+    "it": "il potere d'acquisto"
+  },
+  {
+    "de": "die Sparneigung",
+    "en": "propensity to save",
+    "erk": "Wie stark die Bereitschaft ist, Geld zu sparen statt auszugeben.",
+    "bsp": "Die Sparneigung erreichte den höchsten Stand seit 2008.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "prirja për kursim",
+    "tr": "tasarruf eğilimi",
+    "uk": "схильність до заощаджень",
+    "ar": "الميل إلى الادخار",
+    "fa": "تمایل به پس‌انداز",
+    "es": "la propensión al ahorro",
+    "fr": "la propension à l'épargne",
+    "it": "la propensione al risparmio"
+  },
+  {
+    "de": "die Anschaffungsneigung",
+    "en": "propensity to make purchases",
+    "erk": "Wie stark die Bereitschaft ist, größere Dinge zu kaufen.",
+    "bsp": "Die Anschaffungsneigung sank leicht auf minus 10,8 Punkte.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "prirja për blerje",
+    "tr": "satın alma eğilimi",
+    "uk": "схильність до купівлі",
+    "ar": "الميل إلى الشراء",
+    "fa": "تمایل به خرید کالاهای بادوام",
+    "es": "la propensión a la compra",
+    "fr": "la propension à l'achat",
+    "it": "la propensione all'acquisto"
+  },
+  {
+    "de": "die Konjunkturerwartung",
+    "en": "economic outlook expectations",
+    "erk": "Die Einschätzung, wie sich die gesamte Wirtschaft in naher Zukunft entwickelt.",
+    "bsp": "Die Konjunkturerwartungen legten zum fünften Mal in Folge zu.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "pritjet ekonomike",
+    "tr": "ekonomik beklentiler",
+    "uk": "економічні очікування",
+    "ar": "التوقعات الاقتصادية",
+    "fa": "انتظارات اقتصادی",
+    "es": "las expectativas económicas",
+    "fr": "les perspectives économiques",
+    "it": "le aspettative economiche"
+  },
+  {
+    "de": "die Vielfalt",
+    "en": "diversity",
+    "erk": "Wenn es viele verschiedene Menschen, Meinungen oder Kulturen nebeneinander gibt.",
+    "bsp": "Die Interkulturelle Woche wirbt für Demokratie und Vielfalt.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "shumëllojshmëria",
+    "tr": "çeşitlilik",
+    "uk": "різноманіття",
+    "ar": "التنوع",
+    "fa": "تنوع",
+    "es": "la diversidad",
+    "fr": "la diversité",
+    "it": "la diversità"
+  },
+  {
+    "de": "das Miteinander",
+    "en": "togetherness, coexistence",
+    "erk": "Das gemeinsame, freundliche Zusammenleben verschiedener Menschen.",
+    "bsp": "Die Aktion sollte das Miteinander zwischen Alteingesessenen und Zugewanderten stärken.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "bashkëjetesa",
+    "tr": "birlikte yaşama",
+    "uk": "співіснування",
+    "ar": "التعايش",
+    "fa": "هم‌زیستی",
+    "es": "la convivencia",
+    "fr": "le vivre-ensemble",
+    "it": "la convivenza"
+  },
+  {
+    "de": "spalten",
+    "en": "to divide, to split (society)",
+    "erk": "Eine Gruppe oder Gesellschaft in verfeindete Teile trennen.",
+    "bsp": "Manche versuchen gerade, die Gesellschaft zu spalten.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "të përçash",
+    "tr": "bölmek",
+    "uk": "розколювати",
+    "ar": "يفرّق، يشقّ",
+    "fa": "شکاف انداختن در جامعه",
+    "es": "dividir",
+    "fr": "diviser",
+    "it": "dividere"
+  },
+  {
+    "de": "zugewandert",
+    "en": "having immigrated, newly arrived",
+    "erk": "So, dass jemand aus einem anderen Land nach Deutschland gekommen ist und hier lebt.",
+    "bsp": "Es geht um mehr Miteinander zwischen deutschen und zugewanderten Nachbarn.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "i ardhur si emigrant",
+    "tr": "göç etmiş, sonradan gelmiş",
+    "uk": "той, хто іммігрував",
+    "ar": "مهاجر وافد",
+    "fa": "مهاجرت‌کرده",
+    "es": "inmigrado",
+    "fr": "immigré",
+    "it": "immigrato"
+  },
+  {
+    "de": "der Muskelfaserriss",
+    "en": "torn muscle fiber",
+    "erk": "Eine Verletzung, bei der feine Fasern in einem Muskel reißen.",
+    "bsp": "Jamal Musiala fällt mit einem Muskelfaserriss aus.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "shqyerja e fibrave të muskulit",
+    "tr": "kas lifi yırtığı",
+    "uk": "розрив м'язового волокна",
+    "ar": "تمزق الألياف العضلية",
+    "fa": "پارگی الیاف عضلانی",
+    "es": "la rotura de fibras",
+    "fr": "la déchirure musculaire",
+    "it": "lo strappo muscolare"
+  },
+  {
+    "de": "die Zerrung",
+    "en": "strain (of a muscle)",
+    "erk": "Eine leichte Verletzung, wenn ein Muskel zu stark gedehnt wird.",
+    "bsp": "Kai Havertz musste die Mannschaft wegen einer Zerrung verlassen.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "shtrembërimi i muskulit",
+    "tr": "kas gerilmesi",
+    "uk": "розтягнення м'яза",
+    "ar": "شد عضلي",
+    "fa": "کشیدگی عضله",
+    "es": "el tirón muscular",
+    "fr": "l'élongation musculaire",
+    "it": "lo stiramento muscolare"
+  },
+  {
+    "de": "heranführen (an)",
+    "en": "to gradually introduce (to)",
+    "erk": "Jemanden Schritt für Schritt an etwas gewöhnen, statt ihn sofort voll einzusetzen.",
+    "bsp": "Klopp will Wirtz erst behutsam wieder ans Training heranführen.",
+    "dates": [
+      "2026-09-26"
+    ],
+    "sq": "të përgatisësh gradualisht",
+    "tr": "yavaş yavaş alıştırmak",
+    "uk": "поступово залучати",
+    "ar": "يُدخل تدريجيًا",
+    "fa": "به‌تدریج آماده کردن",
+    "es": "introducir poco a poco",
+    "fr": "familiariser progressivement",
+    "it": "introdurre gradualmente"
   }
 ]

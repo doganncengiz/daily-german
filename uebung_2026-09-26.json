@@ -1,0 +1,80 @@
+{
+ "mc": [
+  {
+   "q": "Um wie viel Punkte fiel das Konsumklima im Vergleich zum Vormonat?",
+   "o": [
+    "Um 30,6 Punkte.",
+    "Um 16,7 Punkte.",
+    "Um 3,8 Punkte."
+   ],
+   "c": 2,
+   "why": "Das Konsumklima fiel um 3,8 Punkte (von minus 26,8 auf minus 30,6). 30,6 ist der neue Wert selbst, nicht die Differenz, und 16,7 Punkte ist der Rückgang der Einkommenserwartungen, eines Teilindex."
+  },
+  {
+   "q": "Was nennt Rolf Bürkl als Hauptgrund für die schlechteren Einkommenserwartungen?",
+   "o": [
+    "Hohe Energiepreise, die die Kaufkraft schmälern.",
+    "Steigende Zinsen der Banken.",
+    "Eine neue Steuer auf Ersparnisse."
+   ],
+   "c": 0,
+   "why": "Bürkl erklärt, die Mehrheit der Haushalte rechne damit, dass hohe Energiepreise ihre Kaufkraft schmälern. Zinsen oder eine neue Steuer werden im Text nicht genannt."
+  },
+  {
+   "q": "Zum wievielten Mal findet die Interkulturelle Woche 2026 statt?",
+   "o": [
+    "Zum 5.000. Mal.",
+    "Zum 51. Mal.",
+    "Zum 600. Mal."
+   ],
+   "c": 1,
+   "why": "2026 ist die 51. Ausgabe. 5.000 ist die Zahl der geplanten Veranstaltungen und 600 die Zahl der teilnehmenden Städte und Gemeinden — beides keine Zählung der Ausgaben."
+  },
+  {
+   "q": "Wie hieß die allererste Aktion von 1975?",
+   "o": [
+    "Tag des Flüchtlings.",
+    "Tag der Vielfalt.",
+    "Tag des ausländischen Mitbürgers."
+   ],
+   "c": 2,
+   "why": "1975 hieß die Aktion „Tag des ausländischen Mitbürgers\". „Tag des Flüchtlings\" ist ein späterer, fester Programmpunkt innerhalb der Woche, „Tag der Vielfalt\" kommt im Text nicht vor."
+  },
+  {
+   "q": "Warum fällt Jamal Musiala für das Spiel gegen Griechenland aus?",
+   "o": [
+    "Wegen einer Zerrung.",
+    "Wegen eines Muskelfaserrisses.",
+    "Weil er gesperrt ist."
+   ],
+   "c": 1,
+   "why": "Musiala fällt mit einem Muskelfaserriss aus. Die Zerrung betrifft Kai Havertz, und eine Sperre wird im Text nicht erwähnt."
+  },
+  {
+   "q": "Warum soll Florian Wirtz laut Klopp nicht sofort in der Startelf stehen?",
+   "o": [
+    "Weil er verletzt ist.",
+    "Weil er gesperrt ist.",
+    "Weil er erst behutsam ans Training herangeführt werden soll."
+   ],
+   "c": 2,
+   "why": "Klopp will Wirtz Schritt für Schritt wieder heranführen, statt ihn sofort voll einzusetzen. Von einer Verletzung oder Sperre bei Wirtz selbst ist im Text nicht die Rede — verletzt sind Musiala und Havertz."
+  }
+ ],
+ "schreib": [
+  "Das Konsumklima ist <b>auf</b> minus 30,6 Punkte gefallen, ein Rückgang <b>um</b> 3,8 Punkte. <span class=\"hint\">(„auf\" nennt den neuen Wert, „um\" die Differenz — die beiden nicht vertauschen)</span>",
+  "Der Sprecher erklärte, die Lage <b>sei</b> ernst, aber nicht hoffnungslos. <span class=\"hint\">(Konjunktiv II/I in indirekter Rede zeigt: das ist seine Aussage, nicht automatisch eine feststehende Tatsache)</span>",
+  "In unserem Team funktioniert <b>das Miteinander</b> besonders gut, weil sich alle gegenseitig helfen. <span class=\"hint\">(das Miteinander ist ein substantiviertes Adverb, immer mit „das\")</span>",
+  "Meine neue Kollegin wird gerade langsam <b>an</b> die Buchhaltung <b>herangeführt</b>, bevor sie eigene Kunden übernimmt. <span class=\"hint\">(heranführen an + Akkusativ; trennbares Verb: führt … heran)</span>"
+ ],
+ "sprech": {
+  "phrases": [
+   "Am meisten hilft meiner Meinung nach …",
+   "Wichtig ist vor allem, dass …",
+   "In meiner eigenen Nachbarschaft habe ich erlebt, dass …",
+   "Ein gutes Beispiel dafür ist …",
+   "Ich persönlich finde, das Miteinander funktioniert am besten, wenn …"
+  ],
+  "modell": "„Am meisten hilft meiner Meinung nach der ganz normale Alltag: ein gemeinsames Treppenhausfest, ein Elternabend in der Schule oder einfach das Gespräch beim Bäcker. In meiner eigenen Nachbarschaft habe ich erlebt, dass <b>das Miteinander</b> vor allem dann funktioniert, wenn man sich nicht nur bei offiziellen Anlässen sieht, sondern auch im ganz normalen Alltag. Wichtig ist vor allem, dass man neu <b>zugewanderte</b> Menschen nicht nur einlädt, sondern ihnen auch wirklich zuhört — und nicht nur redet, wie man <b>Vielfalt</b> feiern sollte, sondern sie im Alltag auch tatsächlich lebt.“"
+ }
+}

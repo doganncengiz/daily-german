@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 26. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 26. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Wochenend-Ausgabe</div>
+    <h2 class="heading">Konsumklima im Keller, „dafür!“ startet morgen, Klopps Heimpremiere</h2>
+
+    <div class="card">
+      <h3 class="art-kicker">Wirtschaft</h3>
+      <h4 class="art-title">−30,6 Punkte: Warum deutsche Verbraucher trotz besserer Unternehmensstimmung pessimistisch bleiben</h4>
+      <p>Während sich die Unternehmen laut ifo-Index zuletzt optimistischer zeigten, sieht es bei den Verbrauchern anders aus: Das GfK/NIM-Konsumklima ist für Oktober auf minus 30,6 Punkte gefallen, ein Rückgang um 3,8 Punkte gegenüber dem nach oben korrigierten Vormonatswert von minus 26,8. Die Stimmung der privaten Haushalte hat sich damit spürbar eingetrübt.</p>
+      <p>Verantwortlich dafür sind vor allem die Einkommenserwartungen: Sie brachen um 16,7 Punkte auf minus 15,0 Punkte ein — der niedrigste Stand seit April. Rolf Bürkl vom Marktforschungsinstitut NIM erklärt den Grund einfach: Die Mehrheit der Haushalte rechnet damit, dass hohe Energiepreise ihre Kaufkraft schmälern werden.</p>
+      <p>Wer weniger Einkommen erwartet, gibt logischerweise auch weniger aus: Die Anschaffungsneigung sank leicht um einen Punkt auf minus 10,8. Deutlicher zeigt sich die Vorsicht beim Sparen — die Sparneigung stieg um sechs Punkte und erreichte damit den höchsten Stand seit 2008.</p>
+      <p>Nicht alles an der Erhebung ist schlecht: Die Konjunkturerwartungen legten zum fünften Mal in Folge zu, wenn auch nur leicht, auf minus 3,4 Punkte. Die Menschen trauen der Gesamtwirtschaft also durchaus mehr zu als der eigenen Haushaltskasse — ein Muster, das Ökonomen schon länger beobachten. Grundlage der Erhebung ist eine monatliche Umfrage von GfK und dem Marktforschungsinstitut NIM unter mehreren tausend Verbraucherinnen und Verbrauchern; sie gilt als einer der wichtigsten Frühindikatoren dafür, wie viel Geld die Deutschen in den kommenden Monaten tatsächlich ausgeben werden.</p>
+    </div>
+
+
+    <div class="card">
+      <h3 class="art-kicker">Freizeit</h3>
+      <h4 class="art-title">„dafür!" — Morgen beginnt die Interkulturelle Woche 2026</h4>
+      <p>Morgen, am Sonntag, startet bundesweit die Interkulturelle Woche — in diesem Jahr schon zum 51. Mal. Bis zum 4. Oktober sind in mehr als 600 Städten und Gemeinden rund 5.000 Veranstaltungen geplant: Straßenfeste, Podiumsdiskussionen, Konzerte, Gottesdienste und Begegnungscafés, getragen von Kirchen, Kommunen, Gewerkschaften, Wohlfahrtsverbänden und Migrantenorganisationen gemeinsam.</p>
+      <p>Das Motto in diesem Jahr lautet schlicht „dafür!" — bewusst positiv gewählt, wie der ökumenische Vorbereitungsausschuss erklärt: In einer Zeit, in der manche versuchen, die Gesellschaft zu spalten, will die Woche zeigen, wofür die Mehrheit eigentlich steht — für Demokratie, Menschenrechte, Vielfalt und ein gutes Miteinander, statt nur gegen etwas zu sein.</p>
+      <p>Angefangen hat alles viel bescheidener: 1975 rief man den ersten „Tag des ausländischen Mitbürgers" aus, eine einzelne Aktion für mehr Miteinander zwischen deutschen und zugewanderten Nachbarn. Daraus wurde über die Jahrzehnte eine der größten zivilgesellschaftlichen Bewegungen Deutschlands — 2025 wurde bereits das 50-jährige Bestehen gefeiert.</p>
+      <p>Ein fester Programmpunkt hat sich dabei besonders etabliert: der „Tag des Flüchtlings", in diesem Jahr am Freitag, den 2. Oktober. Zu den Klassikern der Woche zählen interkulturelle Gottesdienste, Kochabende mit Rezepten aus aller Welt und Stadtführungen, die die Geschichte der Einwanderung vor Ort sichtbar machen — vieles davon organisiert von ganz gewöhnlichen Nachbarschaftsvereinen. Wer in den kommenden Tagen also in seiner Stadt Plakate mit „dafür!" entdeckt, weiß jetzt, worum es geht — und ist herzlich eingeladen mitzumachen.</p>
+    </div>
+
+
+    <div class="card">
+      <h3 class="art-kicker">Sport</h3>
+      <h4 class="art-title">Klopps Heimpremiere: Morgen gegen Griechenland in Augsburg</h4>
+      <p>Nach dem 1:1 gegen den Erzrivalen Niederlande am Donnerstag wartet auf Jürgen Klopp gleich die nächste Bewährungsprobe: Am morgigen Sonntag bestreitet der neue Bundestrainer um 20:45 Uhr in Augsburg sein erstes Heimspiel — gegen Griechenland, im Rahmen der Nations League. Der erste Sieg unter seiner Führung fehlt bislang noch.</p>
+      <p>Personell muss Klopp kurzfristig umplanen: Jamal Musiala fällt mit einem Muskelfaserriss aus, auch Kai Havertz musste die Mannschaft wegen einer Zerrung verlassen. Für beide rückten Florian Wirtz und Jonathan Burkardt nach. Im Tor soll diesmal Alexander Nübel stehen, nicht Marc-André ter Stegen.</p>
+      <p>Mit Spannung wird erwartet, ob Wirtz von Beginn an spielt. Klopp winkte ab: Ihn sofort in die Startelf zu stellen, wäre gerade „das Falscheste", was man tun könne — der Mittelfeldspieler solle erst behutsam wieder ans Training herangeführt werden, bevor er volle Spielzeit bekommt. Zunächst wird Wirtz also wohl von der Bank aus zusehen.</p>
+      <p>Für Klopp persönlich ist das Spiel auch deshalb besonders, weil es sein erstes Antreten vor heimischem Publikum als Bundestrainer ist — ein Amt, das er erst seit August 2026 innehat. Nach dem durchwachsenen Start würde ein Sieg gegen Griechenland dem angekündigten Umbruch beim DFB die dringend nötige positive Nachricht liefern, bevor es im Oktober mit zwei weiteren Nations-League-Spielen weitergeht.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><th class="group" colspan="4">Wirtschaft</th></tr>
+        <tr><td>einbrechen <span class="rep">(Wiederholung)</span></td><td>to plunge, to collapse (of figures)</td><td>Plötzlich stark sinken, meist bei Zahlen oder Werten.</td><td>Die Einkommenserwartungen brachen um 16,7 Punkte ein.</td></tr>
+        <tr><td>die Kaufkraft</td><td>purchasing power</td><td>Wie viel man mit seinem Geld tatsächlich kaufen kann.</td><td>Hohe Energiepreise schmälern die Kaufkraft der Haushalte.</td></tr>
+        <tr><td>die Sparneigung</td><td>propensity to save</td><td>Wie stark die Bereitschaft ist, Geld zu sparen statt auszugeben.</td><td>Die Sparneigung erreichte den höchsten Stand seit 2008.</td></tr>
+        <tr><td>die Anschaffungsneigung</td><td>propensity to make purchases</td><td>Wie stark die Bereitschaft ist, größere Dinge zu kaufen.</td><td>Die Anschaffungsneigung sank leicht auf minus 10,8 Punkte.</td></tr>
+        <tr><td>die Konjunkturerwartung</td><td>economic outlook expectations</td><td>Die Einschätzung, wie sich die gesamte Wirtschaft in naher Zukunft entwickelt.</td><td>Die Konjunkturerwartungen legten zum fünften Mal in Folge zu.</td></tr>
+        <tr><th class="group" colspan="4">Freizeit</th></tr>
+        <tr><td>der Verband <span class="rep">(Wiederholung)</span></td><td>association, industry body</td><td>Eine Organisation, die die gemeinsamen Interessen vieler Firmen oder Personen vertritt.</td><td>Getragen wird die Woche von Kirchen, Kommunen und vielen Verbänden.</td></tr>
+        <tr><td>die Vielfalt</td><td>diversity</td><td>Wenn es viele verschiedene Menschen, Meinungen oder Kulturen nebeneinander gibt.</td><td>Die Interkulturelle Woche wirbt für Demokratie und Vielfalt.</td></tr>
+        <tr><td>das Miteinander</td><td>togetherness, coexistence</td><td>Das gemeinsame, freundliche Zusammenleben verschiedener Menschen.</td><td>Es geht um mehr Miteinander zwischen deutschen und zugewanderten Nachbarn.</td></tr>
+        <tr><td>spalten</td><td>to divide, to split (society)</td><td>Eine Gruppe oder Gesellschaft in verfeindete Teile trennen.</td><td>Manche versuchen gerade, die Gesellschaft zu spalten.</td></tr>
+        <tr><td>zugewandert</td><td>having immigrated, newly arrived</td><td>So, dass jemand aus einem anderen Land nach Deutschland gekommen ist und hier lebt.</td><td>Es geht um mehr Miteinander zwischen deutschen und zugewanderten Nachbarn.</td></tr>
+        <tr><th class="group" colspan="4">Sport</th></tr>
+        <tr><td>der Bundestrainer <span class="rep">(Wiederholung)</span></td><td>the national team's head coach</td><td>Die Person, die die deutsche Fußball-Nationalmannschaft trainiert und die Aufstellung bestimmt.</td><td>Klopp bestreitet als Bundestrainer morgen sein erstes Heimspiel.</td></tr>
+        <tr><td>der Muskelfaserriss</td><td>torn muscle fiber</td><td>Eine Verletzung, bei der feine Fasern in einem Muskel reißen.</td><td>Jamal Musiala fällt mit einem Muskelfaserriss aus.</td></tr>
+        <tr><td>die Zerrung</td><td>strain (of a muscle)</td><td>Eine leichte Verletzung, wenn ein Muskel zu stark gedehnt wird.</td><td>Kai Havertz musste die Mannschaft wegen einer Zerrung verlassen.</td></tr>
+        <tr><td>heranführen (an)</td><td>to gradually introduce (to)</td><td>Jemanden Schritt für Schritt an etwas gewöhnen, statt ihn sofort voll einzusetzen.</td><td>Klopp will Wirtz erst behutsam wieder ans Training heranführen.</td></tr>
+      </table>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+
+      <ul class="expr">
+        <li><b>„sich eintrüben"</b> — Wenn eine Stimmung oder Lage langsam schlechter wird.<br><i>Die Stimmung der privaten Haushalte hat sich spürbar eingetrübt.</i></li>
+        <li><b>„jemandem mehr zutrauen als …"</b> — Von jemandem eine bessere Leistung erwarten als von etwas anderem.<br><i>Die Menschen trauen der Gesamtwirtschaft mehr zu als der eigenen Haushaltskasse.</i></li>
+        <li><b>„auf etwas eingeladen sein / herzlich eingeladen sein"</b> — Höflich und warm dazu aufgefordert werden, mitzumachen.<br><i>Alle sind herzlich eingeladen mitzumachen.</i></li>
+        <li><b>„statt nur gegen etwas zu sein"</b> — Lieber etwas Positives vertreten, als nur etwas abzulehnen.<br><i>Die Woche zeigt, wofür man steht, statt nur gegen etwas zu sein.</i></li>
+        <li><b>„kurzfristig umplanen"</b> — Pläne noch schnell und ohne viel Vorlauf ändern müssen.<br><i>Personell muss Klopp kurzfristig umplanen.</i></li>
+        <li><b>„eine Bewährungsprobe"</b> — Eine schwierige Situation, in der sich jemand beweisen muss.<br><i>Auf Klopp wartet gleich die nächste Bewährungsprobe.</i></li>
+      </ul>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+
+      <div class="grammar-block">
+        <p><b>Zahlen mit Vorzeichen: „minus" / „plus" und die Präposition „auf":</b> Wirtschaftstexte sind voller Zahlen mit Richtung. „Auf" nennt den neuen Wert, den etwas erreicht: <i>„Das Konsumklima ist auf minus 30,6 Punkte gefallen"</i>, <i>„Die Einkommenserwartungen brachen auf minus 15,0 Punkte ein."</i> „Um" dagegen nennt die Differenz, also wie viel sich etwas verändert hat: <i>„ein Rückgang um 3,8 Punkte"</i>, <i>„Sie brachen um 16,7 Punkte ein."</i> Wer beide Präpositionen verwechselt, erzeugt schnell falsche Zahlen — „um minus 30,6 Punkte" würde etwas ganz anderes bedeuten als „auf minus 30,6 Punkte".</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Der Konjunktiv II in indirekter Rede: Zitate höflich einbauen:</b> Im Sporttext wird Klopps Aussage nicht wörtlich, sondern über den Konjunktiv II wiedergegeben: <i>„Ihn sofort in die Startelf zu stellen, wäre das Falscheste, was man tun könne."</i> Das <i>wäre</i> und <i>könne</i> zeigen: Das ist Klopps Meinung, nicht automatisch die Meinung des Autors oder der Autorin. Typischer Lernerfehler ist, hier den Indikativ zu benutzen (<i>„ist das Falscheste"</i>) — das klingt dann wie eine eigene, feststehende Tatsache statt wie ein wiedergegebenes Zitat.</p>
+      </div>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Um wie viel Punkte fiel das Konsumklima im Vergleich zum Vormonat?</li>
+          <li>Was nennt Rolf Bürkl als Hauptgrund für die schlechteren Einkommenserwartungen?</li>
+          <li>Zum wievielten Mal findet die Interkulturelle Woche 2026 statt?</li>
+          <li>Wie hieß die allererste Aktion von 1975?</li>
+          <li>Warum fällt Jamal Musiala für das Spiel gegen Griechenland aus?</li>
+          <li>Warum soll Florian Wirtz laut Klopp nicht sofort in der Startelf stehen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe zwei Sätze über dieselbe Zahl: einmal mit <i>auf</i> (neuer Wert), einmal mit <i>um</i> (Differenz).</li>
+          <li>Gib eine fremde Aussage mit dem Konjunktiv II wieder (<i>er/sie sagte, das sei / wäre …</i>).</li>
+          <li>Schreibe einen Satz mit <i>das Miteinander</i> über deine eigene Nachbarschaft oder dein Team.</li>
+          <li>Schreibe einen Satz mit <i>heranführen (an)</i> über eine Fähigkeit, die du gerade lernst.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Die Interkulturelle Woche wirbt für Vielfalt und ein gutes Miteinander. Erzähle: Was hilft deiner Meinung nach am meisten, damit sich neu zugewanderte Menschen und Alteingesessene in einer Nachbarschaft wirklich näherkommen?</p>
+      </div>
+
+    </div>
+  </section>
+
+  <p class="source">Quellen: GfK/NIM-Konsumklima Oktober 2026 (nim.org, ms-aktuell.de); Interkulturelle Woche 2026, Motto „dafür!", Termine und Geschichte seit 1975 (interkulturellewoche.de, globaleslernen.de); Vorbericht und Kader zum Länderspiel Deutschland – Griechenland, UEFA Nations League, 27. September 2026 in Augsburg (fussballnationalmannschaft.net).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -7381,8 +7381,8 @@
   {
     "de": "die Agrarschau",
     "en": "agricultural show",
-    "erk": "Eine Ausstellung rund um Landwirtschaft und regionale Produkte.",
-    "bsp": "Parallel zum Rummel läuft eine Agrarschau mit Produkten aus der Region.",
+    "erk": "Eine Ausstellung rund um Landwirtschaft, Tiere und Technik.",
+    "bsp": "Parallel zum Rummel läuft eine große Agrarschau.",
     "dates": [
       "2026-09-27"
     ],
@@ -7413,21 +7413,21 @@
     "it": "il crampo"
   },
   {
-    "de": "verteidigen",
-    "en": "to defend (e.g. a title)",
-    "erk": "Einen Titel oder eine Position gegen andere behaupten.",
-    "bsp": "Adola verteidigte seinen Berliner Titel aus einem früheren Jahr.",
+    "de": "die Bestzeit",
+    "en": "personal best, fastest time",
+    "erk": "Die schnellste Zeit, die jemand bisher erreicht hat.",
+    "bsp": "Adola gewann mit einer persönlichen Bestzeit von 2:02:50 Stunden.",
     "dates": [
       "2026-09-27"
     ],
-    "sq": "të mbrosh (titullin)",
-    "tr": "savunmak (unvanı)",
-    "uk": "захищати (титул)",
-    "ar": "يدافع عن اللقب",
-    "fa": "دفاع کردن از عنوان",
-    "es": "defender (el título)",
-    "fr": "défendre (le titre)",
-    "it": "difendere (il titolo)"
+    "sq": "rekordi personal, koha më e mirë",
+    "tr": "kişisel en iyi derece",
+    "uk": "особистий рекорд, найкращий результат",
+    "ar": "أفضل زمن شخصي",
+    "fa": "بهترین رکورد شخصی",
+    "es": "la mejor marca personal",
+    "fr": "le record personnel",
+    "it": "il record personale"
   },
   {
     "de": "beschleunigen",
@@ -7620,7 +7620,7 @@
     "de": "heranführen (an)",
     "en": "to gradually introduce (to)",
     "erk": "Jemanden Schritt für Schritt an etwas gewöhnen, statt ihn sofort voll einzusetzen.",
-    "bsp": "Klopp will Wirtz erst behutsam wieder ans Training heranführen.",
+    "bsp": "Klopp will Wirtz Schritt für Schritt an die Abläufe im Team heranführen.",
     "dates": [
       "2026-09-26"
     ],

@@ -1,7 +1,7 @@
 {
  "mc": [
   {
-   "q": "Um wie viel Punkte fiel das Konsumklima im Vergleich zum Vormonat?",
+   "q": "Um wie viele Punkte fiel das Konsumklima im Vergleich zum Vormonat?",
    "o": [
     "Um 30,6 Punkte.",
     "Um 16,7 Punkte.",
@@ -23,12 +23,12 @@
   {
    "q": "Zum wievielten Mal findet die Interkulturelle Woche 2026 statt?",
    "o": [
-    "Zum 5.000. Mal.",
+    "Zum 6.000. Mal.",
     "Zum 51. Mal.",
-    "Zum 600. Mal."
+    "Zum 760. Mal."
    ],
    "c": 1,
-   "why": "2026 ist die 51. Ausgabe. 5.000 ist die Zahl der geplanten Veranstaltungen und 600 die Zahl der teilnehmenden Städte und Gemeinden — beides keine Zählung der Ausgaben."
+   "why": "2026 ist die 51. Ausgabe. Über 6.000 ist die Zahl der geplanten Veranstaltungen und mehr als 760 die Zahl der teilnehmenden Städte und Gemeinden — beides keine Zählung der Ausgaben."
   },
   {
    "q": "Wie hieß die allererste Aktion von 1975?",
@@ -55,10 +55,10 @@
    "o": [
     "Weil er verletzt ist.",
     "Weil er gesperrt ist.",
-    "Weil er erst behutsam ans Training herangeführt werden soll."
+    "Weil er erst genug Trainingszeit bekommen und an die Abläufe im Team herangeführt werden soll."
    ],
    "c": 2,
-   "why": "Klopp will Wirtz Schritt für Schritt wieder heranführen, statt ihn sofort voll einzusetzen. Von einer Verletzung oder Sperre bei Wirtz selbst ist im Text nicht die Rede — verletzt sind Musiala und Havertz."
+   "why": "Klopp will Wirtz erst genügend Trainingszeit mit der Mannschaft geben und ihn Schritt für Schritt an die Abläufe im Team heranführen. Von einer Verletzung oder Sperre bei Wirtz selbst ist im Text nicht die Rede — verletzt sind Musiala und Havertz."
   }
  ],
  "schreib": [

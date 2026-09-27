@@ -5,20 +5,20 @@
    "o": [
     "89,9 Punkte.",
     "88,8 Punkte.",
-    "90,4 Punkte."
+    "89,0 Punkte."
    ],
    "c": 0,
-   "why": "Der Index stieg im September auf 89,9 Punkte. 88,8 Punkte war der Wert im August (dem Vormonat), und 90,4 ist nur der Teilindex der Erwartungen, nicht der Gesamtindex."
+   "why": "Der Index stieg im September auf 89,9 Punkte. 88,8 Punkte war der Wert im August; 89,0 Punkte wird im Text nicht genannt."
   },
   {
    "q": "Wo war die Verbesserung laut Text besonders deutlich?",
    "o": [
     "Im Baugewerbe.",
     "In der Elektroindustrie.",
-    "Bei energieintensiven Betrieben."
+    "In der Automobilbranche."
    ],
    "c": 1,
-   "why": "Der Text nennt die Elektroindustrie ausdrücklich als Bereich mit spürbar besseren Erwartungen. Bau und energieintensive Betriebe werden dagegen als gedämpft beschrieben."
+   "why": "Der Text nennt die Elektroindustrie ausdrücklich als Bereich mit deutlich besseren Erwartungen. Die Automobilbranche bleibt auf schwierigem Terrain; im Bauhauptgewerbe veränderte sich der Index kaum."
   },
   {
    "q": "In welchem Jahr wurde der Cannstatter Wasen gegründet?",
@@ -31,34 +31,34 @@
    "why": "Der Text nennt 1818 als Gründungsjahr, nach einer schweren Hungersnot. 1810 ist das Gründungsjahr des Münchner Oktoberfests (leicht zu verwechseln), 1910 kommt im Text gar nicht vor."
   },
   {
-   "q": "Was läuft parallel zum Fest vom 27. September bis zum 4. Oktober?",
+   "q": "Was läuft parallel zum Volksfest vom 27. September bis zum 4. Oktober?",
    "o": [
-    "Eine Agrarschau mit regionalen Produkten.",
+    "Das 102. Landwirtschaftliche Hauptfest, eine große Agrarschau.",
     "Ein zweites Bierzelt.",
     "Ein tägliches Feuerwerk."
    ],
    "c": 0,
-   "why": "Der Text nennt ausdrücklich die Landesausstellung, eine Agrarschau mit regionalen Produkten aus Baden-Württemberg. Von einem zweiten Bierzelt oder täglichem Feuerwerk ist nicht die Rede."
+   "why": "Parallel läuft das 102. Landwirtschaftliche Hauptfest, eine große Agrarschau rund um Tiere, Technik, Natur und Ernährung. Von einem zweiten Bierzelt oder täglichem Feuerwerk ist nicht die Rede."
   },
   {
    "q": "Um wie viel verpasste Tigst Assefa den Weltrekord?",
    "o": [
     "Sie hat ihn nicht verpasst, sondern aufgestellt.",
     "Um 8 Minuten.",
-    "Um 1:08 Minute."
+    "Um eine Minute und acht Sekunden."
    ],
    "c": 2,
-   "why": "Sie verpasste den Rekord um 1:08 Minute. Die „über acht Minuten“ im Text beziehen sich auf ihre Zeit für die letzten 2,195 Kilometer, nicht auf den Rückstand zum Rekord."
+   "why": "Sie verpasste den Rekord um eine Minute und acht Sekunden. Die „über acht Minuten“ im Text beziehen sich auf ihre Zeit für die letzten 2,195 Kilometer, nicht auf den Rückstand zum Rekord."
   },
   {
    "q": "Wie lange brauchte Guye Adola für den Abschnitt zwischen Kilometer 30 und 35?",
    "o": [
     "2:03:19 Stunden.",
     "14:21 Minuten.",
-    "2:02:51 Stunden."
+    "2:02:50 Stunden."
    ],
    "c": 1,
-   "why": "Für diesen Fünf-Kilometer-Abschnitt brauchte er 14:21 Minuten. 2:02:51 ist seine Gesamtzeit, 2:03:19 die Zeit des Zweitplatzierten Gemechu Dida Diriba."
+   "why": "Für diesen Fünf-Kilometer-Abschnitt brauchte er 14:21 Minuten. 2:02:50 ist seine Gesamtzeit, 2:03:19 die Zeit des Zweitplatzierten Gemechu Dida."
   }
  ],
  "schreib": [

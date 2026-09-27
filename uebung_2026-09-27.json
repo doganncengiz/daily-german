@@ -1,0 +1,80 @@
+{
+ "mc": [
+  {
+   "q": "Auf welchen Wert stieg der ifo-Geschäftsklimaindex im September?",
+   "o": [
+    "89,9 Punkte.",
+    "88,8 Punkte.",
+    "90,4 Punkte."
+   ],
+   "c": 0,
+   "why": "Der Index stieg im September auf 89,9 Punkte. 88,8 Punkte war der Wert im August (dem Vormonat), und 90,4 ist nur der Teilindex der Erwartungen, nicht der Gesamtindex."
+  },
+  {
+   "q": "Wo war die Verbesserung laut Text besonders deutlich?",
+   "o": [
+    "Im Baugewerbe.",
+    "In der Elektroindustrie.",
+    "Bei energieintensiven Betrieben."
+   ],
+   "c": 1,
+   "why": "Der Text nennt die Elektroindustrie ausdrücklich als Bereich mit spürbar besseren Erwartungen. Bau und energieintensive Betriebe werden dagegen als gedämpft beschrieben."
+  },
+  {
+   "q": "In welchem Jahr wurde der Cannstatter Wasen gegründet?",
+   "o": [
+    "1910.",
+    "1810.",
+    "1818."
+   ],
+   "c": 2,
+   "why": "Der Text nennt 1818 als Gründungsjahr, nach einer schweren Hungersnot. 1810 ist das Gründungsjahr des Münchner Oktoberfests (leicht zu verwechseln), 1910 kommt im Text gar nicht vor."
+  },
+  {
+   "q": "Was läuft parallel zum Fest vom 27. September bis zum 4. Oktober?",
+   "o": [
+    "Eine Agrarschau mit regionalen Produkten.",
+    "Ein zweites Bierzelt.",
+    "Ein tägliches Feuerwerk."
+   ],
+   "c": 0,
+   "why": "Der Text nennt ausdrücklich die Landesausstellung, eine Agrarschau mit regionalen Produkten aus Baden-Württemberg. Von einem zweiten Bierzelt oder täglichem Feuerwerk ist nicht die Rede."
+  },
+  {
+   "q": "Um wie viel verpasste Tigst Assefa den Weltrekord?",
+   "o": [
+    "Sie hat ihn nicht verpasst, sondern aufgestellt.",
+    "Um 8 Minuten.",
+    "Um 1:08 Minute."
+   ],
+   "c": 2,
+   "why": "Sie verpasste den Rekord um 1:08 Minute. Die „über acht Minuten“ im Text beziehen sich auf ihre Zeit für die letzten 2,195 Kilometer, nicht auf den Rückstand zum Rekord."
+  },
+  {
+   "q": "Wie lange brauchte Guye Adola für den Abschnitt zwischen Kilometer 30 und 35?",
+   "o": [
+    "2:03:19 Stunden.",
+    "14:21 Minuten.",
+    "2:02:51 Stunden."
+   ],
+   "c": 1,
+   "why": "Für diesen Fünf-Kilometer-Abschnitt brauchte er 14:21 Minuten. 2:02:51 ist seine Gesamtzeit, 2:03:19 die Zeit des Zweitplatzierten Gemechu Dida Diriba."
+  }
+ ],
+ "schreib": [
+  "<b>Während</b> die Nachfrage nach Elektroautos steigt, sinkt sie bei klassischen Verbrennern deutlich. <span class=\"hint\">(„während“ markiert hier einen inhaltlichen Gegensatz, nicht nur Gleichzeitigkeit; im Hauptsatz folgt das Verb direkt nach dem Komma)</span>",
+  "Der Zug hatte zwanzig Minuten Verspätung. <b>Trotzdem</b> kamen wir pünktlich zur Besprechung. <span class=\"hint\">(nach „trotzdem“ folgt sofort das Verb — „trotzdem kamen wir“, nicht „trotzdem wir kamen“)</span>",
+  "Die neue Filiale <b>knüpft</b> bewusst <b>an</b> das Konzept des ersten Ladens <b>an</b>. <span class=\"hint\">(trennbares Verb mit „an“ + Akkusativ; das „an“ gehört ans Satzende)</span>",
+  "Ich habe den Bus um zwei Minuten <b>knapp verpasst</b> und musste eine halbe Stunde auf den nächsten warten. <span class=\"hint\">(oft mit einer genauen Zeit- oder Mengenangabe kombiniert: „um X verpassen“)</span>"
+ ],
+ "sprech": {
+  "phrases": [
+   "Bei uns gibt es ein Fest, das heißt …",
+   "Der Ursprung des Festes liegt darin, dass …",
+   "Für die Menschen dort ist der Besuch fast Pflicht.",
+   "Anders als beim Wasen wird bei uns vor allem … gefeiert.",
+   "Ich persönlich verbinde damit vor allem …"
+  ],
+  "modell": "„Bei uns in der Türkei gibt es zum Beispiel das Fest Nevruz, das für viele Familien fast Pflicht ist. So wie der Wasen an eine <b>Hungersnot</b> aus dem Jahr 1818 erinnert, hat auch unser Fest einen landwirtschaftlichen Ursprung: Es feiert das Ende des Winters und den Neuanfang der Aussaat. Anders als auf dem Cannstatter <b>Gelände</b> mit seinen acht Festzelten steht bei uns ein großes Feuer im Mittelpunkt, über das die Menschen springen. Ich <b>knüpfe</b> jedes Jahr wieder <b>an</b> diese Tradition <b>an</b>, weil sie mich an meine Familie erinnert.“"
+ }
+}

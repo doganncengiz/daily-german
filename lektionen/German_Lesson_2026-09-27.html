@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 27. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 27. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Wochenend-Ausgabe</div>
+    <h2 class="heading">Ifo-Index im Aufwind, 179. Wasen, äthiopischer Doppelsieg in Berlin</h2>
+
+    <div class="card">
+      <h3 class="art-kicker">Wirtschaft</h3>
+      <h4 class="art-title">89,9 statt 88,8: Warum deutsche Unternehmen wieder optimistischer sind</h4>
+      <p>Das ifo Institut hat am Donnerstag seinen monatlichen Geschäftsklimaindex veröffentlicht, und die Zahl macht Hoffnung: Im September stieg der Index von 88,8 auf 89,9 Punkte. Es ist bereits die dritte Verbesserung in Folge. Der Geschäftsklimaindex setzt sich aus zwei Teilen zusammen: der Einschätzung der aktuellen Lage und den Erwartungen für die kommenden sechs Monate. Beide Werte legten zu — die Lage auf 89,5 Punkte, die Erwartungen sogar auf 90,4.</p>
+      <p>Besonders deutlich war der Sprung in der Industrie, vor allem in der Elektroindustrie: Dort meldeten Firmen spürbar bessere Erwartungen als noch im August. Auch bei den Dienstleistern wuchs die Zuversicht, allerdings aus einem anderen Grund — hier war es vor allem die aktuelle Geschäftslage, mit der die Unternehmen zufriedener waren als zuletzt.</p>
+      <p>ifo-Präsident Clemens Fuest kommentierte die Zahlen zurückhaltend positiv: Die deutsche Wirtschaft komme langsam aus ihrer Schwächephase heraus, ein kräftiger Aufschwung sei das aber noch nicht. Ökonomen weisen zudem darauf hin, dass sich der Ausblick von Branche zu Branche stark unterscheidet — während Elektrotechnik und Maschinenbau aufholen, bleibt die Stimmung im Bau und bei energieintensiven Betrieben gedämpft.</p>
+      <p>Für Beschäftigte ist der Index trotzdem ein nützlicher Frühindikator: Steigt er mehrere Monate hintereinander, folgen meist auch mehr Investitionen und offene Stellen. Ob daraus 2027 tatsächlich mehr Jobs werden, bleibt abzuwarten.</p>
+    </div>
+
+
+    <div class="card">
+      <h3 class="art-kicker">Freizeit</h3>
+      <h4 class="art-title">Fruchtsäule, acht Festzelte, vier Millionen Gäste: der Cannstatter Wasen ist zurück</h4>
+      <p>Seit Freitag ist es in Stuttgart wieder laut, süß und ein bisschen nach gebrannten Mandeln: Der Cannstatter Volksfest, von den Einheimischen nur „der Wasen" genannt, hat seine 179. Auflage eröffnet. Bis zum 11. Oktober werden auf dem Gelände rund vier Millionen Besucherinnen und Besucher erwartet, dazu etwa 300 Schausteller- und Gastronomiebetriebe.</p>
+      <p>Anders als beim Münchner Oktoberfest steht in Cannstatt ein anderes Symbol im Mittelpunkt: die Fruchtsäule. Sie thront über dem Infopavillon, geschmückt mit Girlanden, Sonnenblumen und Feldfrüchten, und erinnert an den Ursprung des Festes. Gegründet wurde es 1818 von König Wilhelm I. von Württemberg — als landwirtschaftliches Fest, nachdem eine schwere Hungersnot das Land getroffen hatte. Es sollte neue Anbaumethoden zeigen und den Bauern Mut machen.</p>
+      <p>An diesen Ursprung knüpft das Fest bis heute an: Parallel zum Rummel läuft vom 27. September bis zum 4. Oktober die Landesausstellung, eine Agrarschau mit regionalen Produkten aus Baden-Württemberg. Wer zwischen Achterbahn und Bierzelt eine Pause braucht, findet dort Käse, Wein und Streuobst aus der Region.</p>
+      <p>Acht große Festzelte, darunter die Schwabenwelt und die Almhütte Royal, sorgen daneben für die klassische Wasen-Stimmung mit Blasmusik und Maßkrügen. Für viele Menschen aus der Region ist der Wasen-Besuch fast Pflicht — ein Herbst ohne ihn fühlt sich unvollständig an.</p>
+    </div>
+
+
+    <div class="card">
+      <h3 class="art-kicker">Sport</h3>
+      <h4 class="art-title">Assefa verpasst Weltrekord nur knapp, Adola triumphiert zum zweiten Mal</h4>
+      <p>Der BMW Berlin-Marathon, über den an dieser Stelle vor einer Woche schon vorausgeschaut wurde, ist gelaufen — und er hat gehalten, was er versprach. Wegen der Hitze startete das Rennen diesmal eine halbe Stunde früher als 2025, bei rund 19 Grad und Herbstsonne liefen die Profis trotzdem auf Rekordkurs.</p>
+      <p>Bei den Frauen übernahm Tigst Assefa aus Äthiopien schon nach fünf Kilometern die Führung und baute ihren Vorsprung stetig aus. Am 40-Kilometer-Punkt lag sie bei 2:03:00 Stunden — genau im Zeitplan für einen neuen Weltrekord. Doch auf den letzten 2,195 Kilometern bekam sie offenbar Krämpfe und brauchte für diese kurze Strecke über acht Minuten. Am Ende verpasste sie den Weltrekord von Ruth Chepngetich nur knapp, um 1:08 Minute, gewann aber in 2:11:04 — der drittschnellsten je gelaufenen Frauenzeit. Auf den Plätzen zwei und drei folgten mit Bedatu Hirpa und Dera Dida zwei weitere Äthiopierinnen.</p>
+      <p>Bei den Männern verteidigte Guye Adola seinen Berliner Titel aus einem früheren Jahr. Er hielt sich lange in der Spitzengruppe, beschleunigte dann zwischen Kilometer 30 und 35 und lief diesen Abschnitt in nur 14:21 Minuten. Am Ende stand die Uhr bei 2:02:51 Stunden. Auch bei den Männern ging der komplette Sieg an Äthiopien: ein doppelter Erfolg für das ostafrikanische Land an einem einzigen Sonntag in Berlin.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><th class="group" colspan="4">Wirtschaft</th></tr>
+        <tr><td>der Geschäftsklimaindex <span class="rep">(Wiederholung)</span></td><td>business climate index</td><td>Eine Zahl, die zeigt, wie zufrieden und wie zuversichtlich Unternehmen gerade sind.</td><td>Der Geschäftsklimaindex ist im September auf 89,9 Punkte gestiegen.</td></tr>
+        <tr><td>die Zuversicht</td><td>confidence, optimism</td><td>Ein positives Gefühl, dass etwas gut wird oder gut läuft.</td><td>Bei den Dienstleistern wuchs die Zuversicht spürbar.</td></tr>
+        <tr><td>die Elektroindustrie</td><td>electrical engineering industry</td><td>Der Wirtschaftszweig, der elektrische Geräte und Maschinen herstellt.</td><td>Besonders in der Elektroindustrie meldeten Firmen bessere Erwartungen.</td></tr>
+        <tr><td>der Dienstleister</td><td>service provider</td><td>Ein Unternehmen, das eine Leistung statt eines Produkts anbietet.</td><td>Auch bei den Dienstleistern war die Stimmung besser als im August.</td></tr>
+        <tr><td>der Ausblick</td><td>outlook</td><td>Die Einschätzung, wie sich etwas in der Zukunft entwickeln wird.</td><td>Der Ausblick unterscheidet sich stark von Branche zu Branche.</td></tr>
+        <tr><th class="group" colspan="4">Freizeit</th></tr>
+        <tr><td>das Gelände <span class="rep">(Wiederholung)</span></td><td>the grounds, the site</td><td>Ein großes Stück Land, auf dem eine Veranstaltung stattfindet.</td><td>Auf dem Gelände werden rund vier Millionen Besucher erwartet.</td></tr>
+        <tr><td>die Auflage</td><td>edition (of a recurring event)</td><td>Die wievielte Ausgabe einer regelmäßigen Veranstaltung.</td><td>Der Wasen feiert in diesem Jahr seine 179. Auflage.</td></tr>
+        <tr><td>anknüpfen an</td><td>to tie in with, to build on</td><td>Eine Verbindung zu etwas Früherem herstellen.</td><td>Die Agrarschau knüpft an den landwirtschaftlichen Ursprung des Festes an.</td></tr>
+        <tr><td>die Hungersnot</td><td>famine</td><td>Eine Zeit, in der es in einer Region nicht genug zu essen gibt.</td><td>Das Fest entstand 1818 nach einer schweren Hungersnot.</td></tr>
+        <tr><td>die Agrarschau</td><td>agricultural show</td><td>Eine Ausstellung rund um Landwirtschaft und regionale Produkte.</td><td>Parallel zum Rummel läuft eine Agrarschau mit Produkten aus der Region.</td></tr>
+        <tr><th class="group" colspan="4">Sport</th></tr>
+        <tr><td>knapp verpassen <span class="rep">(Wiederholung)</span></td><td>to narrowly miss</td><td>Etwas nur um eine kleine Differenz nicht erreichen.</td><td>Assefa verpasste den Weltrekord nur knapp.</td></tr>
+        <tr><td>der Krampf</td><td>cramp</td><td>Ein plötzliches, schmerzhaftes Zusammenziehen eines Muskels.</td><td>Auf den letzten Kilometern bekam sie offenbar Krämpfe.</td></tr>
+        <tr><td>verteidigen</td><td>to defend (e.g. a title)</td><td>Einen Titel oder eine Position gegen andere behaupten.</td><td>Adola verteidigte seinen Berliner Titel aus einem früheren Jahr.</td></tr>
+        <tr><td>beschleunigen</td><td>to accelerate, to speed up</td><td>Schneller werden oder das Tempo erhöhen.</td><td>Er beschleunigte zwischen Kilometer 30 und 35 deutlich.</td></tr>
+      </table>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+
+      <ul class="expr">
+        <li><b>„in Folge"</b> — Mehrmals hintereinander, ohne Unterbrechung.<br><i>Es ist bereits die dritte Verbesserung in Folge.</i></li>
+        <li><b>„sich von Branche zu Branche unterscheiden"</b> — Nicht überall gleich sein, je nach Wirtschaftszweig anders.<br><i>Der Ausblick unterscheidet sich stark von Branche zu Branche.</i></li>
+        <li><b>„fast Pflicht sein"</b> — Etwas, das fast alle in einer Gruppe regelmäßig tun.<br><i>Für viele Menschen aus der Region ist der Wasen-Besuch fast Pflicht.</i></li>
+        <li><b>„sich unvollständig anfühlen"</b> — Das Gefühl haben, dass etwas Wichtiges fehlt.<br><i>Ein Herbst ohne den Wasen fühlt sich für viele unvollständig an.</i></li>
+        <li><b>„im Zeitplan liegen"</b> — Genau in der geplanten Zeit sein, weder zu früh noch zu spät.<br><i>Am 40-Kilometer-Punkt lag sie genau im Zeitplan für einen neuen Weltrekord.</i></li>
+        <li><b>„ein doppelter Erfolg"</b> — Zwei Siege oder Erfolge gleichzeitig, oft für dieselbe Gruppe.<br><i>Für Äthiopien war es ein doppelter Erfolg an einem einzigen Sonntag.</i></li>
+      </ul>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+
+      <div class="grammar-block">
+        <p><b>„während" als Gegensatz, nicht nur als Zeitangabe:</b> Viele Lerner kennen „während" nur mit zeitlicher Bedeutung („während des Rennens"). Im Wirtschaftstext markiert es aber einen Gegensatz zwischen zwei gleichzeitigen Entwicklungen: <i>„während Elektrotechnik und Maschinenbau aufholen, bleibt die Stimmung im Bau gedämpft."</i> Der Nebensatz mit „während" steht meist vorn, das Verb ganz am Ende; im Hauptsatz danach folgt sofort das Verb <i>(bleibt)</i>, das Subjekt kommt erst danach. Wer diese Wortstellung beherrscht, klingt in Diskussionen präziser als mit einem einfachen „aber".</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>„trotzdem" am Satzanfang — Adverb, nicht Konjunktion:</b> „Trotzdem" drückt einen Gegensatz aus, ist aber kein Bindewort wie „obwohl", sondern ein Adverb: Es besetzt Position I, direkt danach folgt das Verb — <i>„Wegen der Hitze startete das Rennen früher, trotzdem liefen die Profis auf Rekordkurs."</i> Typischer Fehler: <i>„trotzdem die Profis liefen"</i>, als wäre „trotzdem" eine Konjunktion. Richtig ist entweder „trotzdem liefen die Profis" am Satzanfang oder „die Profis liefen trotzdem" mitten im Satz.</p>
+      </div>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Auf welchen Wert stieg der ifo-Geschäftsklimaindex im September?</li>
+          <li>Wo war die Verbesserung laut Text besonders deutlich?</li>
+          <li>In welchem Jahr wurde der Cannstatter Wasen gegründet?</li>
+          <li>Was läuft parallel zum Fest vom 27. September bis zum 4. Oktober?</li>
+          <li>Um wie viel verpasste Tigst Assefa den Weltrekord?</li>
+          <li>Wie lange brauchte Guye Adola für den Abschnitt zwischen Kilometer 30 und 35?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit <i>während</i>, der einen inhaltlichen Gegensatz beschreibt (nicht nur Gleichzeitigkeit).</li>
+          <li>Schreibe einen Satz, in dem <i>trotzdem</i> ganz am Satzanfang steht.</li>
+          <li>Schreibe einen Satz mit <i>anknüpfen an</i> über eine Tradition oder ein Projekt, das du kennst.</li>
+          <li>Schreibe einen Satz mit <i>knapp verpassen</i> über eine eigene Erfahrung.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Erzähle von einem Volksfest, Festival oder saisonalen Ereignis in deinem Heimatland, das für die Menschen dort ähnlich wichtig ist wie der Cannstatter Wasen in Baden-Württemberg. Was wird dort gefeiert, und was ist der Ursprung des Festes?</p>
+      </div>
+
+    </div>
+  </section>
+
+  <p class="source">Quellen: ifo Geschäftsklimaindex September 2026 und Pressemitteilung des ifo Instituts vom 24. September 2026 (ifo.de); Cannstatter Volksfest 2026, 179. Auflage, 25. September – 11. Oktober (cannstatter-volksfest.de, festivalsindeutschland.de); BMW Berlin-Marathon 2026, Ergebnisse Frauen- und Männerrennen (run247.com, olympics.com).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

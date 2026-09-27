@@ -1960,13 +1960,17 @@
     "erk": "Eine Zahl, die zeigt, wie zufrieden und wie zuversichtlich Unternehmen gerade sind.",
     "bsp": "Der ifo Geschäftsklimaindex ist im Juli gestiegen.",
     "dates": [
-      "2026-08-01"
+      "2026-08-01",
+      "2026-09-27"
     ],
     "sq": "indeksi i klimës së biznesit",
     "tr": "iş iklimi endeksi",
     "uk": "індекс ділового клімату",
     "ar": "مؤشر مناخ الأعمال",
-    "fa": "شاخص فضای کسب‌وکار"
+    "fa": "شاخص فضای کسب‌وکار",
+    "es": "el índice de clima empresarial",
+    "fr": "l'indice du climat des affaires",
+    "it": "l'indice del clima di fiducia delle imprese"
   },
   {
     "de": "Geschichte schreiben",
@@ -2475,13 +2479,17 @@
     "erk": "Etwas nur um eine kleine Differenz nicht erreichen.",
     "bsp": "Kanter verpasste das Podium nur knapp.",
     "dates": [
-      "2026-07-28"
+      "2026-07-28",
+      "2026-09-27"
     ],
     "sq": "të humbasë për një fije",
     "tr": "kıl payı kaçırmak",
     "uk": "ледь не досягти, впустити",
     "ar": "يفوته بفارق ضئيل",
-    "fa": "با اختلاف کم از دست دادن"
+    "fa": "با اختلاف کم از دست دادن",
+    "es": "faltar por poco",
+    "fr": "manquer de peu",
+    "it": "mancare di poco"
   },
   {
     "de": "der Knotenpunkt",
@@ -6436,7 +6444,8 @@
     "erk": "Ein großes Stück Land, auf dem eine Veranstaltung stattfindet.",
     "bsp": "Auf dem Gelände der Wiesn ist in diesem Jahr mehr Sicherheitspersonal unterwegs.",
     "dates": [
-      "2026-09-18"
+      "2026-09-18",
+      "2026-09-27"
     ],
     "sq": "zona",
     "tr": "alan",
@@ -7246,5 +7255,192 @@
     "es": "el mandato",
     "fr": "le mandat",
     "it": "il mandato"
+  },
+  {
+    "de": "die Zuversicht",
+    "en": "confidence, optimism",
+    "erk": "Ein positives Gefühl, dass etwas gut wird oder gut läuft.",
+    "bsp": "Bei den Dienstleistern wuchs die Zuversicht spürbar.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "optimizmi",
+    "tr": "iyimserlik",
+    "uk": "оптимізм",
+    "ar": "التفاؤل",
+    "fa": "خوش‌بینی",
+    "es": "el optimismo",
+    "fr": "l'optimisme",
+    "it": "l'ottimismo"
+  },
+  {
+    "de": "die Elektroindustrie",
+    "en": "electrical engineering industry",
+    "erk": "Der Wirtschaftszweig, der elektrische Geräte und Maschinen herstellt.",
+    "bsp": "Besonders in der Elektroindustrie meldeten Firmen bessere Erwartungen.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "industria elektrike",
+    "tr": "elektro endüstrisi",
+    "uk": "електротехнічна промисловість",
+    "ar": "صناعة الكهرباء",
+    "fa": "صنعت برق",
+    "es": "la industria eléctrica",
+    "fr": "l'industrie électrique",
+    "it": "l'industria elettrica"
+  },
+  {
+    "de": "der Dienstleister",
+    "en": "service provider",
+    "erk": "Ein Unternehmen, das eine Leistung statt eines Produkts anbietet.",
+    "bsp": "Auch bei den Dienstleistern war die Stimmung besser als im August.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "ofruesi i shërbimeve",
+    "tr": "hizmet sağlayıcı",
+    "uk": "постачальник послуг",
+    "ar": "مزوّد الخدمة",
+    "fa": "ارائه‌دهنده خدمات",
+    "es": "el proveedor de servicios",
+    "fr": "le prestataire de services",
+    "it": "il fornitore di servizi"
+  },
+  {
+    "de": "der Ausblick",
+    "en": "outlook",
+    "erk": "Die Einschätzung, wie sich etwas in der Zukunft entwickeln wird.",
+    "bsp": "Der Ausblick unterscheidet sich stark von Branche zu Branche.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "perspektiva",
+    "tr": "görünüm, beklenti",
+    "uk": "перспектива",
+    "ar": "التوقعات المستقبلية",
+    "fa": "چشم‌انداز",
+    "es": "la perspectiva",
+    "fr": "la perspective",
+    "it": "la prospettiva"
+  },
+  {
+    "de": "die Auflage",
+    "en": "edition (of a recurring event)",
+    "erk": "Die wievielte Ausgabe einer regelmäßigen Veranstaltung.",
+    "bsp": "Der Wasen feiert in diesem Jahr seine 179. Auflage.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "edicioni",
+    "tr": "edisyon",
+    "uk": "випуск",
+    "ar": "الإصدار",
+    "fa": "دوره",
+    "es": "la edición",
+    "fr": "l'édition",
+    "it": "l'edizione"
+  },
+  {
+    "de": "anknüpfen an",
+    "en": "to tie in with, to build on",
+    "erk": "Eine Verbindung zu etwas Früherem herstellen.",
+    "bsp": "Die Agrarschau knüpft an den landwirtschaftlichen Ursprung des Festes an.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "të lidhesh me",
+    "tr": "bir şeye bağlanmak, devam etmek",
+    "uk": "продовжувати (традицію)",
+    "ar": "يرتبط بـ ويواصل",
+    "fa": "پیوند زدن به",
+    "es": "enlazar con",
+    "fr": "renouer avec",
+    "it": "riallacciarsi a"
+  },
+  {
+    "de": "die Hungersnot",
+    "en": "famine",
+    "erk": "Eine Zeit, in der es in einer Region nicht genug zu essen gibt.",
+    "bsp": "Das Fest entstand 1818 nach einer schweren Hungersnot.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "zia e bukës",
+    "tr": "kıtlık",
+    "uk": "голод",
+    "ar": "المجاعة",
+    "fa": "قحطی",
+    "es": "la hambruna",
+    "fr": "la famine",
+    "it": "la carestia"
+  },
+  {
+    "de": "die Agrarschau",
+    "en": "agricultural show",
+    "erk": "Eine Ausstellung rund um Landwirtschaft und regionale Produkte.",
+    "bsp": "Parallel zum Rummel läuft eine Agrarschau mit Produkten aus der Region.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "panairi bujqësor",
+    "tr": "tarım fuarı",
+    "uk": "сільськогосподарська виставка",
+    "ar": "المعرض الزراعي",
+    "fa": "نمایشگاه کشاورزی",
+    "es": "la feria agrícola",
+    "fr": "le salon agricole",
+    "it": "la fiera agricola"
+  },
+  {
+    "de": "der Krampf",
+    "en": "cramp",
+    "erk": "Ein plötzliches, schmerzhaftes Zusammenziehen eines Muskels.",
+    "bsp": "Auf den letzten Kilometern bekam sie offenbar Krämpfe.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "ngërçi",
+    "tr": "kramp",
+    "uk": "судома",
+    "ar": "التشنج العضلي",
+    "fa": "گرفتگی عضله",
+    "es": "el calambre",
+    "fr": "la crampe",
+    "it": "il crampo"
+  },
+  {
+    "de": "verteidigen",
+    "en": "to defend (e.g. a title)",
+    "erk": "Einen Titel oder eine Position gegen andere behaupten.",
+    "bsp": "Adola verteidigte seinen Berliner Titel aus einem früheren Jahr.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "të mbrosh (titullin)",
+    "tr": "savunmak (unvanı)",
+    "uk": "захищати (титул)",
+    "ar": "يدافع عن اللقب",
+    "fa": "دفاع کردن از عنوان",
+    "es": "defender (el título)",
+    "fr": "défendre (le titre)",
+    "it": "difendere (il titolo)"
+  },
+  {
+    "de": "beschleunigen",
+    "en": "to accelerate, to speed up",
+    "erk": "Schneller werden oder das Tempo erhöhen.",
+    "bsp": "Er beschleunigte zwischen Kilometer 30 und 35 deutlich.",
+    "dates": [
+      "2026-09-27"
+    ],
+    "sq": "të përshpejtosh",
+    "tr": "hızlanmak, hız kazanmak",
+    "uk": "прискорюватися",
+    "ar": "يُسرع",
+    "fa": "شتاب گرفتن",
+    "es": "acelerar",
+    "fr": "accélérer",
+    "it": "accelerare"
   }
 ]

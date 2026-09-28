@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Warum ist Wüsts Reise in die Türkei historisch?",
+      "o": [
+        "Weil er der erste ausländische Regierungschef ist, der die Türkei besucht",
+        "Weil noch nie zuvor ein Regierungschef aus NRW die Türkei offiziell besucht hat",
+        "Weil er als erster deutscher Politiker überhaupt in die Türkei reist"
+      ],
+      "c": 1,
+      "why": "Richtig ist b): Der Text sagt ausdrücklich, dass noch nie zuvor ein Regierungschef aus NRW das Land offiziell besucht hat. a) ist falsch, weil im Text nicht von anderen ausländischen Regierungschefs die Rede ist — es geht nur um NRW. c) ist falsch, weil deutsche Politiker (z. B. der Bundeskanzler) die Türkei schon oft besucht haben; historisch ist nur der erste Besuch eines NRW-Regierungschefs."
+    },
+    {
+      "q": "Wie groß ist der Anteil des NRW-Türkei-Handels am gesamten deutsch-türkischen Handel?",
+      "o": [
+        "etwa die Hälfte",
+        "etwa ein Drittel",
+        "etwa ein Fünftel"
+      ],
+      "c": 2,
+      "why": "Richtig ist c): Der Text nennt ausdrücklich einen Anteil von rund einem Fünftel. a) ist falsch, diese Zahl kommt im Text gar nicht vor. b) ist falsch, weil ein Drittel im Text für etwas anderes steht — den Anteil der Menschen mit türkischen Wurzeln und den Anteil der Flüge, nicht für das Handelsvolumen."
+    },
+    {
+      "q": "Wer wird bei der Wirtschaftskonferenz in Istanbul ausgezeichnet?",
+      "o": [
+        "Ilkay Gündogan, für seinen Einsatz für Toleranz und kulturelle Verständigung",
+        "Hendrik Wüst, für seine Verdienste um die deutsch-türkischen Beziehungen",
+        "ein türkisches Unternehmen, für die höchsten Investitionen in NRW"
+      ],
+      "c": 0,
+      "why": "Richtig ist a): Der Text nennt Ilkay Gündogan als die Person, die für ihren Einsatz für Toleranz und kulturelle Verständigung ausgezeichnet wird. b) ist falsch, weil Wüst im Text der Reisende ist, aber nicht als Preisträger erwähnt wird. c) ist falsch, weil im Text kein Unternehmen ausgezeichnet wird."
+    }
+  ],
+  "schreib": [
+    "Die Migrationsgeschichte <b>prägt</b> seit sechs Jahrzehnten das Leben vieler Familien in NRW. <span class=\"hint\">Bei „seit“ + Zeitraum bleibt das Verb im Präsens, auch wenn die Handlung in der Vergangenheit begonnen hat — nicht „hat geprägt“.</span>",
+    "Ilkay Gündogan <b>wird</b> in Istanbul für seinen Einsatz für Toleranz <b>ausgezeichnet</b>. <span class=\"hint\">Im Präsens Passiv steht „werden“ an zweiter Stelle, das Partizip II wandert ans Satzende.</span>",
+    "Nach den Gesprächen in Ankara möchte Wüst mit der Türkei <b>ein neues Kapitel aufschlagen</b>. <span class=\"hint\">Der Ausdruck beschreibt einen bewussten Neuanfang, nicht nur eine kleine Veränderung.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Für mich persönlich bedeutet das …",
+      "Meine Familie hat ihre Wurzeln in …",
+      "Was mich daran besonders beeindruckt, ist …",
+      "Ich finde es wichtig, dass …",
+      "Ein Jubiläum, das für mich wichtig ist, ist …"
+    ],
+    "modell": "Für mich persönlich bedeutet Migration sehr viel, weil meine eigene Familie <b>Wurzeln</b> in einem anderen Land hat. Wir haben zu Hause immer über die Geschichte unserer Großeltern gesprochen, die vor vielen Jahren nach Deutschland gekommen sind. Ich finde es wichtig, dass man solche <b>Jubiläen</b> wie 65 Jahre Anwerbeabkommen nicht vergisst, weil sie zeigen, wie sehr Migration das Land geprägt hat und bis heute prägt. Für meine eigene Arbeit möchte ich außerdem manchmal selbst <b>ein neues Kapitel aufschlagen</b> und neue Wege ausprobieren."
+  }
+}

@@ -393,7 +393,8 @@
     "dates": [
       "2026-09-14",
       "2026-09-15",
-      "2026-09-23"
+      "2026-09-23",
+      "2026-09-28"
     ],
     "sq": "pjesa, përqindja",
     "tr": "pay, oran",
@@ -4593,13 +4594,17 @@
     "erk": "Ein Team durch neue, gute Spieler besser machen.",
     "bsp": "Der Verein hat sein Team im Sommer verstärkt.",
     "dates": [
-      "2026-08-11"
+      "2026-08-11",
+      "2026-09-28"
     ],
     "sq": "të forcojë",
     "tr": "güçlendirmek, takviye etmek",
     "uk": "підсилювати",
     "ar": "يعزّز، يقوّي",
-    "fa": "تقویت کردن"
+    "fa": "تقویت کردن",
+    "es": "reforzar, fortalecer",
+    "fr": "renforcer",
+    "it": "rafforzare"
   },
   {
     "de": "die Verstärkung",
@@ -7632,5 +7637,107 @@
     "es": "introducir poco a poco",
     "fr": "familiariser progressivement",
     "it": "introdurre gradualmente"
+  },
+  {
+    "de": "das Anwerbeabkommen",
+    "en": "recruitment agreement",
+    "erk": "Ein Vertrag zwischen zwei Ländern, mit dem gezielt Arbeitskräfte im Ausland gesucht werden.",
+    "bsp": "Das deutsch-türkische Anwerbeabkommen von 1961 brachte die ersten „Gastarbeiter“ nach Deutschland.",
+    "dates": [
+      "2026-09-28"
+    ],
+    "sq": "marrëveshja e rekrutimit",
+    "tr": "işçi alımı anlaşması",
+    "uk": "угода про набір робочої сили",
+    "ar": "اتفاقية استقدام العمالة",
+    "fa": "توافق‌نامه جذب نیروی کار",
+    "es": "el acuerdo de reclutamiento laboral",
+    "fr": "l'accord de recrutement de main-d'œuvre",
+    "it": "l'accordo di reclutamento della manodopera"
+  },
+  {
+    "de": "aufbrechen",
+    "en": "to set off, to depart",
+    "erk": "Eine Reise oder einen Weg beginnen.",
+    "bsp": "Wüst ist am Montag zu seiner Türkei-Reise aufgebrochen.",
+    "dates": [
+      "2026-09-28"
+    ],
+    "sq": "të niset",
+    "tr": "yola çıkmak",
+    "uk": "вирушати",
+    "ar": "ينطلق، يغادر",
+    "fa": "راهی شدن، عزیمت کردن",
+    "es": "partir, ponerse en marcha",
+    "fr": "partir, se mettre en route",
+    "it": "partire, mettersi in viaggio"
+  },
+  {
+    "de": "das Jubiläum",
+    "en": "the anniversary",
+    "erk": "Ein besonderer Jahrestag, an dem man sich an ein wichtiges Ereignis erinnert.",
+    "bsp": "NRW feiert in diesem Jahr gleich zwei Jubiläen.",
+    "dates": [
+      "2026-09-28"
+    ],
+    "sq": "përvjetori",
+    "tr": "yıl dönümü",
+    "uk": "ювілей",
+    "ar": "الذكرى السنوية",
+    "fa": "سالگرد",
+    "es": "el aniversario",
+    "fr": "l'anniversaire (jubilé)",
+    "it": "l'anniversario"
+  },
+  {
+    "de": "das Handelsvolumen",
+    "en": "trade volume",
+    "erk": "Der gesamte Wert der Waren, die zwischen zwei Ländern gehandelt werden.",
+    "bsp": "Das Handelsvolumen zwischen NRW und der Türkei liegt bei rund 10 Milliarden Euro im Jahr.",
+    "dates": [
+      "2026-09-28"
+    ],
+    "sq": "vëllimi tregtar",
+    "tr": "ticaret hacmi",
+    "uk": "обсяг торгівлі",
+    "ar": "حجم التبادل التجاري",
+    "fa": "حجم تجارت",
+    "es": "el volumen comercial",
+    "fr": "le volume des échanges",
+    "it": "il volume commerciale"
+  },
+  {
+    "de": "die Wurzeln (haben)",
+    "en": "roots, heritage",
+    "erk": "Die familiäre Herkunft, oft über mehrere Generationen.",
+    "bsp": "Viele Menschen in NRW haben türkische Wurzeln.",
+    "dates": [
+      "2026-09-28"
+    ],
+    "sq": "të kesh rrënjë",
+    "tr": "kökleri olmak",
+    "uk": "мати коріння",
+    "ar": "له جذور",
+    "fa": "ریشه داشتن",
+    "es": "tener raíces",
+    "fr": "avoir des racines",
+    "it": "avere radici"
+  },
+  {
+    "de": "auszeichnen",
+    "en": "to honor, to award",
+    "erk": "Jemandem einen Preis geben, weil er etwas Besonderes geleistet hat.",
+    "bsp": "Ilkay Gündogan wird in Istanbul für seinen Einsatz für Toleranz ausgezeichnet.",
+    "dates": [
+      "2026-09-28"
+    ],
+    "sq": "të nderojë (me çmim)",
+    "tr": "ödüllendirmek",
+    "uk": "нагороджувати",
+    "ar": "يكرّم، يمنح جائزة",
+    "fa": "تقدیر کردن، جایزه دادن",
+    "es": "condecorar, premiar",
+    "fr": "récompenser, distinguer",
+    "it": "premiare, insignire"
   }
 ]

@@ -8,9 +8,9 @@ einfügen.
 
 ## 1 — ChatGPT: Übersetzungen und Deutsch prüfen
 
-**Wofür:** Die 513 Wörterbuch-Einträge und die Lektionstexte gegenprüfen.
+**Wofür:** Die 519 Wörterbuch-Einträge und die Lektionstexte gegenprüfen.
 **Wie benutzen:** Prompt einfügen, dann 30–50 Zeilen aus `vocab.json` darunter
-kopieren. In Portionen arbeiten — nicht alle 513 auf einmal.
+kopieren. In Portionen arbeiten — nicht alle 519 auf einmal.
 
 ```
 Du bist Lektor für einen Deutschkurs auf B1/B2-Niveau. Die Klasse besteht aus
@@ -101,9 +101,9 @@ WAS ES GIBT
 
 1. Eine Archivseite (index.html): Liste aller Tageslektionen, neueste oben,
    nach Monat gruppiert. Dazu eine Kachel, die zum Wörterbuch führt.
-2. Ein Wörterbuch (woerterbuch.html): 513 Einträge in einer Tabelle, mit
+2. Ein Wörterbuch (woerterbuch.html): 519 Einträge in einer Tabelle, mit
    Suchfeld und einem Dropdown für die Übersetzungssprache.
-3. 70 Lektionsseiten, die neueren mit sechs Tabs: Lesetext, Vokabular,
+3. 71 Lektionsseiten, die neueren mit sechs Tabs: Lesetext, Vokabular,
    Ausdrücke, Grammatik, Übung, Lösungen.
 
 DIE BESTEHENDE FARBWELT — bitte beibehalten, sie gefällt mir:

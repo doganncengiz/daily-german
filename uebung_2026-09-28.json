@@ -23,17 +23,17 @@
     {
       "q": "Wer wird bei der Wirtschaftskonferenz in Istanbul ausgezeichnet?",
       "o": [
-        "Ilkay Gündogan, für seinen Einsatz für Toleranz und kulturelle Verständigung",
+        "İlkay Gündoğan, für Toleranz und Versöhnung zwischen den Kulturen",
         "Hendrik Wüst, für seine Verdienste um die deutsch-türkischen Beziehungen",
         "ein türkisches Unternehmen, für die höchsten Investitionen in NRW"
       ],
       "c": 0,
-      "why": "Richtig ist a): Der Text nennt Ilkay Gündogan als die Person, die für ihren Einsatz für Toleranz und kulturelle Verständigung ausgezeichnet wird. b) ist falsch, weil Wüst im Text der Reisende ist, aber nicht als Preisträger erwähnt wird. c) ist falsch, weil im Text kein Unternehmen ausgezeichnet wird."
+      "why": "Richtig ist a): Der Text nennt İlkay Gündoğan als die Person, die mit einem Preis für Toleranz und Versöhnung zwischen den Kulturen ausgezeichnet werden soll. b) ist falsch, weil Wüst im Text der Reisende ist, aber nicht als Preisträger erwähnt wird. c) ist falsch, weil im Text kein Unternehmen ausgezeichnet wird."
     }
   ],
   "schreib": [
-    "Die Migrationsgeschichte <b>prägt</b> seit sechs Jahrzehnten das Leben vieler Familien in NRW. <span class=\"hint\">Bei „seit“ + Zeitraum bleibt das Verb im Präsens, auch wenn die Handlung in der Vergangenheit begonnen hat — nicht „hat geprägt“.</span>",
-    "Ilkay Gündogan <b>wird</b> in Istanbul für seinen Einsatz für Toleranz <b>ausgezeichnet</b>. <span class=\"hint\">Im Präsens Passiv steht „werden“ an zweiter Stelle, das Partizip II wandert ans Satzende.</span>",
+    "Die Migrationsgeschichte <b>prägt</b> seit Jahrzehnten das Leben vieler Familien in NRW. <span class=\"hint\">Bei „seit“ + Zeitraum bleibt das Verb im Präsens, auch wenn die Handlung in der Vergangenheit begonnen hat — nicht „hat geprägt“.</span>",
+    "İlkay Gündoğan <b>wird</b> in Istanbul mit einem Preis für Toleranz <b>ausgezeichnet</b>. <span class=\"hint\">Im Präsens Passiv steht „werden“ an zweiter Stelle, das Partizip II wandert ans Satzende.</span>",
     "Nach den Gesprächen in Ankara möchte Wüst mit der Türkei <b>ein neues Kapitel aufschlagen</b>. <span class=\"hint\">Der Ausdruck beschreibt einen bewussten Neuanfang, nicht nur eine kleine Veränderung.</span>"
   ],
   "sprech": {

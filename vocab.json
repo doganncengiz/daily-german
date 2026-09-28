@@ -7640,9 +7640,9 @@
   },
   {
     "de": "das Anwerbeabkommen",
-    "en": "recruitment agreement",
-    "erk": "Ein Vertrag zwischen zwei Ländern, mit dem gezielt Arbeitskräfte im Ausland gesucht werden.",
-    "bsp": "Das deutsch-türkische Anwerbeabkommen von 1961 brachte die ersten „Gastarbeiter“ nach Deutschland.",
+    "en": "labor recruitment agreement",
+    "erk": "Ein Vertrag zwischen zwei Ländern, mit dem die Anwerbung von Arbeitskräften geregelt wird.",
+    "bsp": "Das deutsch-türkische Anwerbeabkommen von 1961 regelte die Anwerbung türkischer Arbeitskräfte.",
     "dates": [
       "2026-09-28"
     ],
@@ -7651,9 +7651,9 @@
     "uk": "угода про набір робочої сили",
     "ar": "اتفاقية استقدام العمالة",
     "fa": "توافق‌نامه جذب نیروی کار",
-    "es": "el acuerdo de reclutamiento laboral",
+    "es": "el acuerdo de contratación de trabajadores",
     "fr": "l'accord de recrutement de main-d'œuvre",
-    "it": "l'accordo di reclutamento della manodopera"
+    "it": "l'accordo sul reclutamento di manodopera"
   },
   {
     "de": "aufbrechen",
@@ -7686,14 +7686,14 @@
     "ar": "الذكرى السنوية",
     "fa": "سالگرد",
     "es": "el aniversario",
-    "fr": "l'anniversaire (jubilé)",
+    "fr": "l'anniversaire, le jubilé",
     "it": "l'anniversario"
   },
   {
     "de": "das Handelsvolumen",
     "en": "trade volume",
     "erk": "Der gesamte Wert der Waren, die zwischen zwei Ländern gehandelt werden.",
-    "bsp": "Das Handelsvolumen zwischen NRW und der Türkei liegt bei rund 10 Milliarden Euro im Jahr.",
+    "bsp": "Das Handelsvolumen zwischen NRW und der Türkei liegt bei 10 bis 12 Milliarden Euro im Jahr.",
     "dates": [
       "2026-09-28"
     ],
@@ -7704,7 +7704,7 @@
     "fa": "حجم تجارت",
     "es": "el volumen comercial",
     "fr": "le volume des échanges",
-    "it": "il volume commerciale"
+    "it": "il volume degli scambi commerciali"
   },
   {
     "de": "die Wurzeln (haben)",
@@ -7727,7 +7727,7 @@
     "de": "auszeichnen",
     "en": "to honor, to award",
     "erk": "Jemandem einen Preis geben, weil er etwas Besonderes geleistet hat.",
-    "bsp": "Ilkay Gündogan wird in Istanbul für seinen Einsatz für Toleranz ausgezeichnet.",
+    "bsp": "İlkay Gündoğan wird in Istanbul mit einem Preis für Toleranz ausgezeichnet.",
     "dates": [
       "2026-09-28"
     ],

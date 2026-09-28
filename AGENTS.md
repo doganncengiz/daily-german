@@ -22,16 +22,16 @@ The end goal (not yet fully reached — see Gaps below): every lesson page
 should let a student read the text *and* do an exercise with instant
 feedback, not just read.
 
-## Status snapshot (2026-09-27)
+## Status snapshot (2026-09-28)
 
-- 70 lessons exist (2026-07-09 → 2026-09-27), all as HTML in `lektionen/`.
+- 71 lessons exist (2026-07-09 → 2026-09-28), all as HTML in `lektionen/`.
   The first 14 (07-09 → 07-23) started as plain `.md` and were backfilled
   into the standard HTML lesson format by `convert_md_lessons.py` — see
   Build pipeline. Both the `.md` source and the generated `.html` are kept.
-- **17 lessons** (2026-09-10 → 2026-09-27) have a real exercise
+- **18 lessons** (2026-09-10 → 2026-09-28) have a real exercise
   (multiple-choice + a "Lösungen" answers tab). The other 53 have five tabs
   but no graded exercise — see Gaps.
-- `vocab.json` has 513 entries. Six target languages cover all 70 lessons;
+- `vocab.json` has 519 entries. Six target languages cover all 71 lessons;
   Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
   forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
   entries with merged date arrays.
@@ -81,7 +81,7 @@ these pass through harmlessly.
 
 ```
 lektionen/                      all source lesson files, see below
-vocab.json                      master dictionary: vocab from all 70 lessons
+vocab.json                      master dictionary: vocab from all 71 lessons
 uebung_YYYY-MM-DD.json          exercise content for one lesson (only 17 exist so far)
 build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the three scripts below
 build_dict.py                   generates website/woerterbuch.html from vocab.json
@@ -98,7 +98,7 @@ material/                       background reference only — NOT wired into the
 ### `lektionen/` — source lesson files
 
 ```
-German_Lesson_YYYY-MM-DD.html   one per lesson, 70 total (2026-07-09 → 2026-09-27)
+German_Lesson_YYYY-MM-DD.html   one per lesson, 71 total (2026-07-09 → 2026-09-28)
 German_Lesson_YYYY-MM-DD.md     the 14 earliest lessons (07-09..07-23) in their original
                                  plain-Markdown form, kept alongside the .html generated
                                  from them — treat the .md as the source of truth for
@@ -262,10 +262,10 @@ Design prompt; keep both in sync if either changes.)
 
 Roughly in priority order for reaching the "read + do an exercise" goal:
 
-1. **53 of 70 lessons have no exercise.** Only 2026-09-10 through 2026-09-27
+1. **53 of 71 lessons have no exercise.** Only 2026-09-10 through 2026-09-28
    have a `uebung_*.json`. Backfilling older lessons (or accepting that
    exercises start from Sep 10 onward) is an open decision, not made yet.
-2. **513 existing vocab translations are unreviewed machine output.**
+2. **519 existing vocab translations are unreviewed machine output.**
    `PROMPTS.md`'s ChatGPT prompt does a first pass in batches of 30-50; real
    reliability needs a native speaker per language, which hasn't happened yet.
 3. **No automated verification.** Testing is manual: open the generated file

@@ -21,20 +21,21 @@
             "why": "<b>Saisonbereinigt</b> — also ohne den üblichen Herbsteffekt — stieg die Arbeitslosigkeit um 12.000, während Analysten nur mit 1.000 gerechnet hatten. Nicht alle Branchen bauen Stellen ab: Dienstleister halten sich die Waage, manche stellen sogar ein."
         },
         {
-            "q": "Welche Branchen suchen laut Text trotz der insgesamt schwachen Lage noch aktiv neue Beschäftigte?",
+            "q": "Welche Branchen suchen laut Text trotz der insgesamt schwachen Lage noch aktiv neue Beschäftigte, und was bekommen neue Mitarbeiter dort meist?",
             "o": [
-                "Vor allem Industrie und Handel.",
-                "Ingenieurbüros sowie Rechts- und Steuerberatungen.",
-                "Ausschließlich der öffentliche Dienst."
+                "Industrie und Handel, dort meist keine Einarbeitung.",
+                "Ingenieurbüros sowie Rechts- und Steuerberatungen, dort meist eine gründliche Einarbeitung.",
+                "Ausschließlich der öffentliche Dienst, ohne Einarbeitung."
             ],
             "c": 1,
-            "why": "Der Text nennt ausdrücklich <b>Ingenieurbüros sowie Rechts- und Steuerberatungen</b> als Branchen, die zusätzliche Beschäftigte einstellen wollen — Industrie und Handel bauen dagegen weiter ab."
+            "why": "Der Text nennt <b>Ingenieurbüros sowie Rechts- und Steuerberatungen</b> als Branchen, die aktiv Verstärkung suchen; neue Beschäftigte bekommen dort meist eine <b>gründliche Einarbeitung</b>, weil diese Betriebe auf gut ausgebildetes Personal angewiesen sind."
         }
     ],
     "schreib": [
         "Im Vergleich zum Vormonat <b>sank</b> die Arbeitslosigkeit <b>um</b> 67.000 Personen.",
         "Saisonbereinigt <b>stieg</b> die Zahl der Arbeitslosen jedoch <b>um</b> 12.000.",
-        "In der Industrie <b>werden</b> weiterhin Stellen <b>abgebaut</b>, während Ingenieurbüros zusätzliche Beschäftigte suchen."
+        "In der Industrie <b>werden</b> weiterhin Stellen <b>abgebaut</b>, während Ingenieurbüros <b>Verstärkung</b> suchen.",
+        "Die Bundesagentur soll offene Stellen und passende Bewerber <b>vermitteln</b>, doch viele Betriebe sind auf Fachkräfte <b>angewiesen</b>, die es kaum gibt."
     ],
     "sprech": {
         "phrases": [

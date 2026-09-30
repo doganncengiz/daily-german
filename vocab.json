@@ -4619,20 +4619,6 @@
     "it": "rafforzare"
   },
   {
-    "de": "die Verstärkung",
-    "en": "reinforcement",
-    "erk": "Ein neuer Spieler, der ein Team besser macht.",
-    "bsp": "Manche Klubs suchen bis zuletzt nach Verstärkung.",
-    "dates": [
-      "2026-08-04"
-    ],
-    "sq": "forcimi, përforcimi",
-    "tr": "takviye",
-    "uk": "підсилення",
-    "ar": "تعزيز، دعم",
-    "fa": "تقویت"
-  },
-  {
     "de": "der Vertrag wurde aufgelöst",
     "en": "the contract was terminated",
     "erk": "Beide Seiten beenden die Zusammenarbeit vorzeitig.",
@@ -8047,5 +8033,91 @@
     "es": "equilibrarse, estar parejos",
     "fr": "s'équilibrer, se compenser",
     "it": "bilanciarsi, equivalersi"
+  },
+  {
+    "de": "die Bereitschaft",
+    "en": "willingness, readiness",
+    "erk": "Wenn jemand bereit ist, etwas zu tun.",
+    "bsp": "Trotz offener Stellen bleibt die Bereitschaft vieler Firmen zu Neueinstellungen gering.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "gatishmëria",
+    "tr": "isteklilik, hazır olma",
+    "uk": "готовність",
+    "ar": "الاستعداد",
+    "fa": "آمادگی (تمایل)",
+    "es": "disposición, buena voluntad",
+    "fr": "disposition, volonté",
+    "it": "disponibilità, volontà"
+  },
+  {
+    "de": "die Einarbeitung",
+    "en": "onboarding, initial training",
+    "erk": "Die Zeit am Anfang einer neuen Stelle, in der man alles lernt.",
+    "bsp": "Wer dort neu anfängt, bekommt meist eine gründliche Einarbeitung.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "trajnimi hyrës (në punë)",
+    "tr": "işe alıştırma, oryantasyon",
+    "uk": "введення в посаду, стажування на початку",
+    "ar": "التأهيل الوظيفي (فترة التدريب الأولي)",
+    "fa": "آموزش ورودی (دوره آشناسازی با کار)",
+    "es": "incorporación, período de formación inicial",
+    "fr": "intégration, période de formation initiale",
+    "it": "inserimento, periodo di formazione iniziale"
+  },
+  {
+    "de": "angewiesen sein auf",
+    "en": "to be dependent on, to rely on",
+    "erk": "Etwas dringend brauchen, ohne das es nicht geht.",
+    "bsp": "Gerade kleinere Betriebe sind auf gut ausgebildetes Personal angewiesen.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "të jesh i varur nga",
+    "tr": "bir şeye bağımlı/muhtaç olmak",
+    "uk": "бути залежним від, покладатися на",
+    "ar": "يعتمد على، يكون بحاجة إلى",
+    "fa": "به چیزی وابسته/نیازمند بودن",
+    "es": "depender de, estar supeditado a",
+    "fr": "dépendre de, être tributaire de",
+    "it": "dipendere da, essere vincolato a"
+  },
+  {
+    "de": "vermitteln",
+    "en": "to place, to broker (e.g. jobs)",
+    "erk": "Zwei Seiten zusammenbringen, z. B. offene Stellen und Bewerber.",
+    "bsp": "Genau hier soll die Bundesagentur vermitteln: offene Stellen und passende Bewerber zusammenbringen.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "të ndërmjetësojë (p.sh. vende pune)",
+    "tr": "aracılık etmek, eşleştirmek (iş bulma)",
+    "uk": "працевлаштовувати, посередничати",
+    "ar": "يتوسّط، ينسّق (كإيجاد وظائف)",
+    "fa": "واسطه‌گری کردن (مثلاً در یافتن شغل)",
+    "es": "mediar, colocar (p. ej. en un empleo)",
+    "fr": "intermédier, placer (ex. dans un emploi)",
+    "it": "mediare, collocare (es. in un impiego)"
+  },
+  {
+    "de": "die Verstärkung",
+    "en": "(staff) reinforcement, additional support",
+    "erk": "Zusätzliches Personal, das ein Team unterstützt.",
+    "bsp": "Ingenieurbüros suchen aktiv Verstärkung für ihre Teams.",
+    "dates": [
+      "2026-08-04",
+      "2026-10-01"
+    ],
+    "sq": "forcim (staf shtesë)",
+    "tr": "takviye (ek personel)",
+    "uk": "підкріплення (додатковий персонал)",
+    "ar": "تعزيز (دعم إضافي للفريق)",
+    "fa": "تقویت نیرو (نیروی کمکی)",
+    "es": "refuerzo (de personal)",
+    "fr": "renfort (de personnel)",
+    "it": "rinforzo (di personale)"
   }
 ]

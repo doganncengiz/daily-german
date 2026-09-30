@@ -205,7 +205,7 @@ index = f"""<!DOCTYPE html>
 # regenerate the dictionary too, if its generator sits alongside this script
 import subprocess
 _here = Path(__file__).parent
-for _helper in ("build_dict.py", "patch_vocab_lang.py", "patch_uebung.py"):
+for _helper in ("build_dict.py", "patch_vocab_lang.py", "patch_uebung.py", "patch_audio.py"):
     _p = _here / _helper
     if _p.exists():
         subprocess.run([sys.executable, str(_p), str(OUT)], check=True)

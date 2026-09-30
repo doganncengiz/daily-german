@@ -22,16 +22,16 @@ The end goal (not yet fully reached — see Gaps below): every lesson page
 should let a student read the text *and* do an exercise with instant
 feedback, not just read.
 
-## Status snapshot (2026-09-28)
+## Status snapshot (2026-09-30)
 
-- 71 lessons exist (2026-07-09 → 2026-09-28), all as HTML in `lektionen/`.
+- 73 lessons exist (2026-07-09 → 2026-09-30), all as HTML in `lektionen/`.
   The first 14 (07-09 → 07-23) started as plain `.md` and were backfilled
   into the standard HTML lesson format by `convert_md_lessons.py` — see
   Build pipeline. Both the `.md` source and the generated `.html` are kept.
-- **18 lessons** (2026-09-10 → 2026-09-28) have a real exercise
+- **20 lessons** (2026-09-10 → 2026-09-30) have a real exercise
   (multiple-choice + a "Lösungen" answers tab). The other 53 have five tabs
   but no graded exercise — see Gaps.
-- `vocab.json` has 519 entries. Six target languages cover all 71 lessons;
+- `vocab.json` has 531 entries. Six target languages cover all 73 lessons;
   Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
   forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
   entries with merged date arrays.
@@ -77,16 +77,42 @@ the three groups are separated by `<tr><th class="group" colspan="4">Wirtschaft<
 rows; `patch_vocab_lang.py` skips any row that is not four `<td>` cells, so
 these pass through harmlessly.
 
+## Read-aloud ("🔊 Vorlesen", added 2026-09-30)
+
+Every `.card` inside `<section id="lese">` gets a "🔊 Vorlesen" button (one
+per card — one for a weekday lesson, three for a weekend one, one per
+article). Clicking it uses the browser's own `window.speechSynthesis`
+(Web Speech API) to read that card's paragraph text aloud in German.
+
+This is intentionally the free/zero-infrastructure version: **no audio
+files, no TTS API, no API key, no extra build step beyond `patch_audio.py`.**
+The tradeoff, accepted for this v1, is that voice quality and even
+availability of a German voice depend entirely on the student's browser and
+OS — good on iOS/Safari and modern Chrome, patchy-to-silent on some older
+Android or Linux browsers. There's no fallback audio file if no German voice
+is installed; the browser just uses whatever default voice it has, or the
+button silently does nothing useful.
+
+If this needs to become more reliable later, the next step would be
+pre-generating real MP3s per lesson via a TTS API (OpenAI/ElevenLabs/Azure)
+in a new build step, similar in shape to how `uebung_*.json` feeds
+`patch_uebung.py` — that's real cost/complexity, not done, not decided.
+
+`patch_audio.py` only touches `website/*.html` (like the other patch
+scripts) — it does not modify `lektionen/` sources. It's idempotent (skips
+files that already have a `.tts-btn`).
+
 ## Repository layout
 
 ```
 lektionen/                      all source lesson files, see below
-vocab.json                      master dictionary: vocab from all 71 lessons
-uebung_YYYY-MM-DD.json          exercise content for one lesson (only 17 exist so far)
-build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the three scripts below
+vocab.json                      master dictionary: vocab from all 73 lessons
+uebung_YYYY-MM-DD.json          exercise content for one lesson (20 exist so far)
+build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the four scripts below
 build_dict.py                   generates website/woerterbuch.html from vocab.json
 patch_vocab_lang.py             injects the language dropdown into each lesson's vocab table (mutates website/*.html)
 patch_uebung.py                 converts a lesson's exercise into a/b/c multiple choice + adds a Lösungen tab (mutates website/*.html), only for lessons with a matching uebung_*.json
+patch_audio.py                  adds a free "🔊 Vorlesen" read-aloud button (Web Speech API) to every Lesetext card (mutates website/*.html) — see below
 convert_md_lessons.py           one-off/rerunnable: turns a lektionen/German_Lesson_*.md into the standard *.html format (see below)
 website/                        GENERATED OUTPUT — this is what would be uploaded to a static host
 PROMPTS.md                      ready-to-paste prompts: ChatGPT translation/text QA, Claude Design visual-design prompt
@@ -98,7 +124,7 @@ material/                       background reference only — NOT wired into the
 ### `lektionen/` — source lesson files
 
 ```
-German_Lesson_YYYY-MM-DD.html   one per lesson, 71 total (2026-07-09 → 2026-09-28)
+German_Lesson_YYYY-MM-DD.html   one per lesson, 71 total (2026-07-09 → 2026-09-29)
 German_Lesson_YYYY-MM-DD.md     the 14 earliest lessons (07-09..07-23) in their original
                                  plain-Markdown form, kept alongside the .html generated
                                  from them — treat the .md as the source of truth for
@@ -179,6 +205,8 @@ This regenerates everything under `website/`:
    vocab table in `website/`.
 5. Calls `patch_uebung.py` → adds the MCQ exercise + Lösungen tab to any
    lesson in `website/` that has a matching `uebung_YYYY-MM-DD.json`.
+6. Calls `patch_audio.py` → adds a "🔊 Vorlesen" read-aloud button to every
+   `.card` inside each lesson's `lese` panel. See "Read-aloud" below.
 
 **Never hand-edit files inside `website/`.** They're regenerated from
 scratch (well, mutated in place by the patch scripts) every run. Edit the

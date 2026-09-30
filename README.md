@@ -2,7 +2,9 @@
 
 A static B1/B2 German course website for working adults. Each lesson combines
 a current-affairs reading text with vocabulary, useful phrases, grammar notes,
-and—where available—an interactive exercise.
+and—where available—an interactive exercise. Each reading text also has a
+free "🔊 Vorlesen" read-aloud button (uses the browser's own text-to-speech,
+quality varies by device).
 
 ## Build locally
 

@@ -2,9 +2,8 @@
 
 A static B1/B2 German course website for working adults. Each lesson combines
 a current-affairs reading text with vocabulary, useful phrases, grammar notes,
-and—where available—an interactive exercise. Each reading text also has a
-free "🔊 Vorlesen" read-aloud button (uses the browser's own text-to-speech,
-quality varies by device).
+and—where available—an interactive exercise. Each reading text also has
+audio narration, generated locally with a free neural TTS engine (Piper).
 
 ## Build locally
 
@@ -15,6 +14,18 @@ python3 build_site.py
 The command generates the deployable site in `website/`. Do not edit files in
 that directory directly; edit the source lessons, vocabulary, exercises, or
 build scripts and rebuild.
+
+## Generating lesson audio
+
+```sh
+python3 -m venv .venv-audio  # once
+./.venv-audio/bin/pip install piper-tts lameenc  # once
+./.venv-audio/bin/python3 generate_audio.py
+```
+
+Run this before `build_site.py` whenever a new lesson is added. It's
+incremental — already-generated files are skipped — and free (runs fully
+offline, no API key). See AGENTS.md's "Read-aloud" section for details.
 
 ## Publishing
 

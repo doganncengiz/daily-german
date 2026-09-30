@@ -69,6 +69,14 @@ for L in lessons:
         prepare(L["file"].read_text(encoding="utf-8", errors="replace")),
         encoding="utf-8")
 
+# copy generated lesson narration (see generate_audio.py), if any exists yet
+AUDIO_SRC = BASE / "audio"
+if AUDIO_SRC.is_dir():
+    AUDIO_OUT = OUT / "audio"
+    AUDIO_OUT.mkdir(exist_ok=True)
+    for f in AUDIO_SRC.glob("*.mp3"):
+        shutil.copy2(f, AUDIO_OUT / f.name)
+
 # group by month
 groups = []
 for L in lessons:

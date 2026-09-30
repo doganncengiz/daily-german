@@ -77,30 +77,77 @@ the three groups are separated by `<tr><th class="group" colspan="4">Wirtschaft<
 rows; `patch_vocab_lang.py` skips any row that is not four `<td>` cells, so
 these pass through harmlessly.
 
-## Read-aloud ("🔊 Vorlesen", added 2026-09-30)
+## Read-aloud (lesson narration, added 2026-09-30)
 
-Every `.card` inside `<section id="lese">` gets a "🔊 Vorlesen" button (one
-per card — one for a weekday lesson, three for a weekend one, one per
-article). Clicking it uses the browser's own `window.speechSynthesis`
-(Web Speech API) to read that card's paragraph text aloud in German.
+Every `.card` inside `<section id="lese">` gets a custom player (one per
+card — one for a weekday lesson, three for a weekend one, one per article):
+play/pause, -15s, +15s, and an elapsed/total time readout, styled to match
+the site's existing pill-button look (not the browser's native `<audio
+controls>` widget — `patch_audio.py` hides the real `<audio>` element and
+drives it from three buttons instead). Plays a pre-generated MP3 of that
+card's paragraph text, read aloud in German.
 
-This is intentionally the free/zero-infrastructure version: **no audio
-files, no TTS API, no API key, no extra build step beyond `patch_audio.py`.**
-The tradeoff, accepted for this v1, is that voice quality and even
-availability of a German voice depend entirely on the student's browser and
-OS — good on iOS/Safari and modern Chrome, patchy-to-silent on some older
-Android or Linux browsers. There's no fallback audio file if no German voice
-is installed; the browser just uses whatever default voice it has, or the
-button silently does nothing useful.
+**v1 was browser-based `window.speechSynthesis` (no files, but poor/uneven
+quality and no punctuation-aware pacing). Replaced same-day** after hearing
+the actual quality — too inconsistent across devices, didn't pause properly
+at commas/periods. v2 uses a local neural TTS engine instead:
 
-If this needs to become more reliable later, the next step would be
-pre-generating real MP3s per lesson via a TTS API (OpenAI/ElevenLabs/Azure)
-in a new build step, similar in shape to how `uebung_*.json` feeds
-`patch_uebung.py` — that's real cost/complexity, not done, not decided.
+- **`generate_audio.py`** synthesizes one MP3 per Lesetext card using
+  **Piper** (github.com/OHF-Voice/piper1-gpl), an open-source offline neural
+  TTS engine. Genuinely free — no API key, no per-character cost, runs
+  entirely on this machine. Output: `audio/<lesson-date>-<card-index>.mp3`
+  (48kbps mono, via `lameenc` — no `ffmpeg` needed either).
+- **Voice: `thorsten-high` by default**, confirmed by ear on 2026-09-30
+  against 5 alternatives (a medium-quality Thorsten variant + 4 speakers
+  from a 236-speaker multi-voice model) — stays the default because it's
+  the only "high" quality-tier German voice available and clearly the most
+  natural overall. `thorsten-emotional-medium` (same speaker, different
+  model, lower quality tier) sounded more natural for *some* specific texts
+  despite that, so it's available as a **per-lesson opt-in override**, not
+  a wholesale switch: add `{"YYYY-MM-DD": "thorsten-emotional-medium"}` to
+  `voice_overrides.json` (project root, git-tracked, `{}` by default) —
+  applies to every card in that lesson. `VOICES` in `generate_audio.py` is
+  the registry of known voices if a third one is ever added. **Caveat:**
+  changing a date's entry after its MP3s already exist does nothing on its
+  own — delete those MP3 files first, then rerun, since generation skips
+  any file that already exists and has no way to know it was made with a
+  different voice.
+- It needs its own Python environment because piper-tts/lameenc are real
+  dependencies, unlike every other script in this repo (stdlib-only by
+  design): `.venv-audio/` (gitignored, created by
+  `python3 -m venv .venv-audio && ./.venv-audio/bin/pip install piper-tts lameenc`).
+  Run generation with `./.venv-audio/bin/python3 generate_audio.py`, **not**
+  plain `python3`.
+- First run downloads the ~114MB voice model into `.tts-voices/`
+  (gitignored) automatically. Piper's macOS wheel (1.8.0) has a packaging
+  bug where its own bundled espeak-ng phoneme data fails to load in place;
+  the fix is a *copy* of that data at `.tts-espeak-data/` (gitignored, also
+  built automatically), pointed to via the `ESPEAK_DATA_PATH` env var. This
+  was found by trial and error, not fully understood — if a future
+  piper-tts release fixes the underlying bug, this workaround can go.
+- **`audio/*.mp3` files themselves ARE committed** (unlike `.venv-audio/`,
+  `.tts-voices/`, `.tts-espeak-data/`) — they're lesson content that took
+  real local compute to produce, not reproducible tooling, same reasoning
+  as committing `lektionen/*.html` rather than regenerating it from
+  scratch each time.
+- Generation is idempotent and incremental: it skips any `<date>-<i>.mp3`
+  that already exists, so after adding new lessons, rerunning it only
+  generates the new files (~15–25 seconds of local compute per card).
+- `build_site.py` copies `audio/*.mp3` into `website/audio/` before running
+  `patch_audio.py`, which only inserts a player for a card if that MP3
+  already exists in the target — a lesson with no generated audio yet
+  simply gets no player (same "best effort" pattern as `patch_uebung.py`
+  and its `uebung_*.json` files). **So: after adding a new lesson, run
+  `./.venv-audio/bin/python3 generate_audio.py` before `python3
+  build_site.py`**, or the new lesson will publish without narration until
+  the next time both are run.
 
 `patch_audio.py` only touches `website/*.html` (like the other patch
 scripts) — it does not modify `lektionen/` sources. It's idempotent (skips
-files that already have a `.tts-btn`).
+files that already have a `.lese-player` element) — and since website/
+lesson HTML is always freshly copied from `lektionen/` at the start of
+every `build_site.py` run, a player-design change here takes effect on the
+very next build with no extra step.
 
 ## Repository layout
 
@@ -112,7 +159,10 @@ build_site.py                   orchestrator: builds website/index.html + copies
 build_dict.py                   generates website/woerterbuch.html from vocab.json
 patch_vocab_lang.py             injects the language dropdown into each lesson's vocab table (mutates website/*.html)
 patch_uebung.py                 converts a lesson's exercise into a/b/c multiple choice + adds a Lösungen tab (mutates website/*.html), only for lessons with a matching uebung_*.json
-patch_audio.py                  adds a free "🔊 Vorlesen" read-aloud button (Web Speech API) to every Lesetext card (mutates website/*.html) — see below
+patch_audio.py                  inserts an <audio> player into every Lesetext card that has a matching audio/*.mp3 (mutates website/*.html) — see below
+generate_audio.py               generates audio/<date>-<i>.mp3 lesson narration via local Piper TTS — needs .venv-audio/, see below
+voice_overrides.json            {} by default — maps specific lesson dates to a non-default TTS voice, see below
+audio/                          generated MP3 narration, one file per Lesetext card — COMMITTED (unlike website/), see below
 convert_md_lessons.py           one-off/rerunnable: turns a lektionen/German_Lesson_*.md into the standard *.html format (see below)
 website/                        GENERATED OUTPUT — this is what would be uploaded to a static host
 PROMPTS.md                      ready-to-paste prompts: ChatGPT translation/text QA, Claude Design visual-design prompt
@@ -199,14 +249,17 @@ python3 build_site.py
 This regenerates everything under `website/`:
 1. Copies each `lektionen/German_Lesson_*.html` into `website/`, adding a
    mobile viewport tag and an "← Alle Lektionen" back link.
-2. Builds `website/index.html` (archive, newest first, grouped by month).
-3. Calls `build_dict.py` → `website/woerterbuch.html`.
-4. Calls `patch_vocab_lang.py` → adds the language dropdown to every lesson's
+2. Copies `audio/*.mp3` into `website/audio/`, if the `audio/` folder exists.
+3. Builds `website/index.html` (archive, newest first, grouped by month).
+4. Calls `build_dict.py` → `website/woerterbuch.html`.
+5. Calls `patch_vocab_lang.py` → adds the language dropdown to every lesson's
    vocab table in `website/`.
-5. Calls `patch_uebung.py` → adds the MCQ exercise + Lösungen tab to any
+6. Calls `patch_uebung.py` → adds the MCQ exercise + Lösungen tab to any
    lesson in `website/` that has a matching `uebung_YYYY-MM-DD.json`.
-6. Calls `patch_audio.py` → adds a "🔊 Vorlesen" read-aloud button to every
-   `.card` inside each lesson's `lese` panel. See "Read-aloud" below.
+7. Calls `patch_audio.py` → adds an `<audio>` player to every `.card` inside
+   each lesson's `lese` panel that has a matching `audio/*.mp3`. See
+   "Read-aloud" below — **you need to run `generate_audio.py` separately
+   first**, this step only wires up files that already exist.
 
 **Never hand-edit files inside `website/`.** They're regenerated from
 scratch (well, mutated in place by the patch scripts) every run. Edit the
@@ -315,6 +368,9 @@ Roughly in priority order for reaching the "read + do an exercise" goal:
 - After any change to lesson content, vocab, or exercises, rerun
   `python3 build_site.py` and spot-check the relevant page in `website/`
   before considering the task done.
+- After adding a new lesson, also run
+  `./.venv-audio/bin/python3 generate_audio.py` (before `build_site.py`) so
+  it gets narration too — it's a separate step on purpose, see "Read-aloud".
 - If you're about to do something structural (restructure folders, change the
   hosting target, rewrite a build script's approach), check with the user
   first — this file documents current state, it doesn't pre-authorize

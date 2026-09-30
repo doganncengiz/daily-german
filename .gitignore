@@ -8,3 +8,12 @@ website/
 # Local teaching references and photographed coursebook pages. Keep these off
 # a public repository; they are not part of the website build.
 material/
+
+# Local audio-generation tooling (see generate_audio.py). Not committed:
+# the venv and voice model are large/reproducible, and are fetched/built by
+# generate_audio.py itself on first run. The generated audio/*.mp3 files
+# ARE committed (they're lesson content, not tooling).
+.venv-audio/
+.tts-voices/
+.tts-espeak-data/
+voice-samples/

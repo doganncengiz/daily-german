@@ -81,10 +81,11 @@ these pass through harmlessly.
 
 Every `.card` inside `<section id="lese">` gets a custom player (one per
 card — one for a weekday lesson, three for a weekend one, one per article):
-play/pause, -15s, +15s, and an elapsed/total time readout, styled to match
+accessible play/pause, -15s, +15s, a saved 0.75×/1×/1.25× speed control,
+and an elapsed/total time readout, styled to match
 the site's existing pill-button look (not the browser's native `<audio
 controls>` widget — `patch_audio.py` hides the real `<audio>` element and
-drives it from three buttons instead). Plays a pre-generated MP3 of that
+drives it from four buttons instead). Plays a pre-generated MP3 of that
 card's paragraph text, read aloud in German.
 
 **v1 was browser-based `window.speechSynthesis` (no files, but poor/uneven
@@ -107,11 +108,10 @@ at commas/periods. v2 uses a local neural TTS engine instead:
   a wholesale switch: add `{"YYYY-MM-DD": "thorsten-emotional-medium"}` to
   `voice_overrides.json` (project root, git-tracked, `{}` by default) —
   applies to every card in that lesson. `VOICES` in `generate_audio.py` is
-  the registry of known voices if a third one is ever added. **Caveat:**
-  changing a date's entry after its MP3s already exist does nothing on its
-  own — delete those MP3 files first, then rerun, since generation skips
-  any file that already exists and has no way to know it was made with a
-  different voice.
+  the registry of known voices if a third one is ever added. Changes to a
+  lesson's reading text, voice override, model, or synthesis settings are
+  detected through `audio/manifest.json`; rerunning the generator rebuilds
+  only the affected MP3s.
 - It needs its own Python environment because piper-tts/lameenc are real
   dependencies, unlike every other script in this repo (stdlib-only by
   design): `.venv-audio/` (gitignored, created by
@@ -119,20 +119,23 @@ at commas/periods. v2 uses a local neural TTS engine instead:
   Run generation with `./.venv-audio/bin/python3 generate_audio.py`, **not**
   plain `python3`.
 - First run downloads the ~114MB voice model into `.tts-voices/`
-  (gitignored) automatically. Piper's macOS wheel (1.8.0) has a packaging
-  bug where its own bundled espeak-ng phoneme data fails to load in place;
+  (gitignored) automatically. Downloads are written atomically and verified
+  against the SHA-256 checksums in `VOICES`. Piper's macOS wheel (1.8.0) has
+  a packaging bug where its own bundled espeak-ng phoneme data fails to load in place;
   the fix is a *copy* of that data at `.tts-espeak-data/` (gitignored, also
   built automatically), pointed to via the `ESPEAK_DATA_PATH` env var. This
   was found by trial and error, not fully understood — if a future
   piper-tts release fixes the underlying bug, this workaround can go.
-- **`audio/*.mp3` files themselves ARE committed** (unlike `.venv-audio/`,
+- **`audio/*.mp3` files and `audio/manifest.json` ARE committed** (unlike `.venv-audio/`,
   `.tts-voices/`, `.tts-espeak-data/`) — they're lesson content that took
   real local compute to produce, not reproducible tooling, same reasoning
   as committing `lektionen/*.html` rather than regenerating it from
   scratch each time.
-- Generation is idempotent and incremental: it skips any `<date>-<i>.mp3`
-  that already exists, so after adding new lessons, rerunning it only
-  generates the new files (~15–25 seconds of local compute per card).
+- Generation is idempotent and incremental: it fingerprints normalized text,
+  the selected voice, model checksum, and synthesis settings. It skips an MP3
+  only when the stored fingerprint still matches, so edits automatically
+  regenerate stale narration while unchanged files remain untouched
+  (~15–25 seconds of local compute per changed card).
 - `build_site.py` copies `audio/*.mp3` into `website/audio/` before running
   `patch_audio.py`, which only inserts a player for a card if that MP3
   already exists in the target — a lesson with no generated audio yet
@@ -163,6 +166,7 @@ patch_audio.py                  inserts an <audio> player into every Lesetext ca
 generate_audio.py               generates audio/<date>-<i>.mp3 lesson narration via local Piper TTS — needs .venv-audio/, see below
 voice_overrides.json            {} by default — maps specific lesson dates to a non-default TTS voice, see below
 audio/                          generated MP3 narration, one file per Lesetext card — COMMITTED (unlike website/), see below
+audio/manifest.json             generated fingerprints that keep MP3 narration in sync with lesson text and voice settings — COMMITTED
 convert_md_lessons.py           one-off/rerunnable: turns a lektionen/German_Lesson_*.md into the standard *.html format (see below)
 website/                        GENERATED OUTPUT — this is what would be uploaded to a static host
 PROMPTS.md                      ready-to-paste prompts: ChatGPT translation/text QA, Claude Design visual-design prompt

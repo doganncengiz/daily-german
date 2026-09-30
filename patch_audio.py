@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Add a custom audio player (play/pause, -15s, +15s, elapsed/total time) to
-each card in the Lesetext panel, pointing at the pre-generated MP3
+"""Add a custom audio player (play/pause, -15s, +15s, saved playback speed,
+elapsed/total time) to each card in the Lesetext panel, pointing at the pre-generated MP3
 narration for that card (see generate_audio.py).
 
 One player per `.card` inside <section id="lese">: weekday lessons have one
@@ -24,7 +24,7 @@ import sys
 from pathlib import Path
 
 CSS = """
-  .lese-player{display:flex;align-items:center;gap:8px;margin:0 0 16px 0;}
+  .lese-player{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 16px 0;}
   .lese-player audio{display:none;}
   .lp-btn{
     border:1px solid var(--border-soft);background:#ffffff;
@@ -34,11 +34,17 @@ CSS = """
     font-size:0.95rem;cursor:pointer;transition:all .15s ease;
   }
   .lp-btn:hover{border-color:#d8d2bf;color:var(--heading);}
+  .lp-btn:focus-visible{outline:2px solid var(--badge-date-text);outline-offset:2px;}
+  .lp-btn:disabled{opacity:.45;cursor:not-allowed;}
   .lp-play{
-    width:42px;height:42px;font-size:1rem;
+    width:auto;min-width:94px;height:42px;padding:0 14px;gap:7px;font-size:.86rem;
     background:var(--tab-active-bg);color:var(--tab-active-text);
     border-color:var(--tab-active-bg);
   }
+  .lp-play:hover{color:var(--tab-active-text);}
+  .lp-play-icon{font-size:1rem;line-height:1;}
+  .lp-seek{width:44px;font-size:.78rem;font-weight:700;}
+  .lp-rate{width:48px;font-size:.78rem;font-weight:700;}
   .lp-time{
     font-size:0.78rem;color:var(--label-grey);
     font-variant-numeric:tabular-nums;margin-left:2px;
@@ -47,42 +53,99 @@ CSS = """
 
 JS = """
   // --- Lesetext-Player (Audio, -15s/+15s) -------------------------------
+  const LP_RATE_KEY = 'dg-audio-rate';
+  const LP_RATES = [1, 0.75, 1.25];
+  let lpRate = 1;
+  try {
+    const savedRate = Number(localStorage.getItem(LP_RATE_KEY));
+    if (LP_RATES.includes(savedRate)) lpRate = savedRate;
+  } catch (e) {}
+
   function lpFormat(s){
     if (!isFinite(s) || s < 0) return '0:00';
     s = Math.round(s);
     return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
   }
+
+  function lpApplyRate(rate){
+    lpRate = rate;
+    document.querySelectorAll('.lese-player').forEach(player => {
+      const playerAudio = player.querySelector('audio');
+      const rateBtn = player.querySelector('.lp-rate');
+      playerAudio.playbackRate = rate;
+      playerAudio.defaultPlaybackRate = rate;
+      if ('preservesPitch' in playerAudio) playerAudio.preservesPitch = true;
+      rateBtn.textContent = String(rate).replace('.', ',') + '×';
+      rateBtn.setAttribute(
+        'aria-label', 'Geschwindigkeit: ' + String(rate).replace('.', ',') + '-fach'
+      );
+    });
+    try { localStorage.setItem(LP_RATE_KEY, String(rate)); } catch (e) {}
+  }
+
   document.querySelectorAll('.lese-player').forEach(wrap => {
     const audio = wrap.querySelector('audio');
     const playBtn = wrap.querySelector('.lp-play');
+    const playIcon = wrap.querySelector('.lp-play-icon');
+    const playText = wrap.querySelector('.lp-play-text');
     const backBtn = wrap.querySelector('.lp-back');
     const fwdBtn = wrap.querySelector('.lp-fwd');
+    const rateBtn = wrap.querySelector('.lp-rate');
     const timeEl = wrap.querySelector('.lp-time');
 
+    function setPlaying(playing){
+      playIcon.textContent = playing ? '⏸' : '▶';
+      playText.textContent = playing ? 'Pause' : 'Vorlesen';
+      playBtn.setAttribute('aria-label', playing ? 'Pausieren' : 'Abspielen');
+      playBtn.setAttribute('aria-pressed', String(playing));
+    }
     function updateTime(){
       timeEl.textContent = lpFormat(audio.currentTime) + ' / ' + lpFormat(audio.duration);
     }
-    audio.addEventListener('loadedmetadata', updateTime);
+    function updateSeekButtons(){
+      const ready = Number.isFinite(audio.duration);
+      backBtn.disabled = !ready;
+      fwdBtn.disabled = !ready;
+    }
+    audio.addEventListener('loadedmetadata', () => {
+      updateTime();
+      updateSeekButtons();
+      lpApplyRate(lpRate);
+    });
     audio.addEventListener('timeupdate', updateTime);
-    audio.addEventListener('play', () => { playBtn.textContent = '⏸'; });
-    audio.addEventListener('pause', () => { playBtn.textContent = '▶'; });
-    audio.addEventListener('ended', () => { playBtn.textContent = '▶'; });
+    audio.addEventListener('play', () => { setPlaying(true); });
+    audio.addEventListener('pause', () => { setPlaying(false); });
+    audio.addEventListener('ended', () => { setPlaying(false); });
 
     playBtn.addEventListener('click', () => {
       document.querySelectorAll('.lese-player audio').forEach(a => {
         if (a !== audio) a.pause();
       });
-      if (audio.paused) audio.play(); else audio.pause();
+      if (audio.paused) {
+        const started = audio.play();
+        if (started) started.catch(() => setPlaying(false));
+      } else {
+        audio.pause();
+      }
     });
     backBtn.addEventListener('click', () => {
+      if (!Number.isFinite(audio.duration)) return;
       audio.currentTime = Math.max(0, audio.currentTime - 15);
     });
     fwdBtn.addEventListener('click', () => {
-      audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 15);
+      if (!Number.isFinite(audio.duration)) return;
+      audio.currentTime = Math.min(audio.duration, audio.currentTime + 15);
+    });
+    rateBtn.addEventListener('click', () => {
+      const index = LP_RATES.indexOf(lpRate);
+      lpApplyRate(LP_RATES[(index + 1) % LP_RATES.length]);
     });
 
+    setPlaying(false);
+    updateSeekButtons();
     updateTime();
   });
+  lpApplyRate(lpRate);
 """
 
 
@@ -92,10 +155,13 @@ def player_html(date_str: str, i: int) -> str:
         f'<div class="lese-player">'
         f'<audio class="lese-audio" preload="metadata" src="{src}">'
         "Dein Browser unterstützt das Audio-Element nicht.</audio>"
-        f'<button class="lp-btn lp-back" type="button" aria-label="15 Sekunden zurück">⏪</button>'
-        f'<button class="lp-btn lp-play" type="button" aria-label="Abspielen">▶</button>'
-        f'<button class="lp-btn lp-fwd" type="button" aria-label="15 Sekunden vor">⏩</button>'
-        f'<span class="lp-time">0:00 / 0:00</span>'
+        f'<button class="lp-btn lp-seek lp-back" type="button" aria-label="15 Sekunden zurück" disabled>−15</button>'
+        f'<button class="lp-btn lp-play" type="button" aria-label="Abspielen" aria-pressed="false">'
+        f'<span class="lp-play-icon" aria-hidden="true">▶</span>'
+        f'<span class="lp-play-text">Vorlesen</span></button>'
+        f'<button class="lp-btn lp-seek lp-fwd" type="button" aria-label="15 Sekunden vor" disabled>+15</button>'
+        f'<button class="lp-btn lp-rate" type="button" aria-label="Geschwindigkeit: 1-fach">1×</button>'
+        f'<span class="lp-time" aria-live="off">0:00 / 0:00</span>'
         f'</div>\n      '
     )
 

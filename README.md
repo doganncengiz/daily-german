@@ -23,9 +23,12 @@ python3 -m venv .venv-audio  # once
 ./.venv-audio/bin/python3 generate_audio.py
 ```
 
-Run this before `build_site.py` whenever a new lesson is added. It's
-incremental — already-generated files are skipped — and free (runs fully
-offline, no API key). See AGENTS.md's "Read-aloud" section for details.
+Run this before `build_site.py` whenever a lesson is added or its reading text
+changes. It is incremental: `audio/manifest.json` records a fingerprint of the
+text, voice, and synthesis settings, so unchanged MP3s are skipped and stale
+ones are regenerated automatically. Generation is free and runs fully offline
+after the voice model has been downloaded. See AGENTS.md's "Read-aloud"
+section for details.
 
 ## Publishing
 

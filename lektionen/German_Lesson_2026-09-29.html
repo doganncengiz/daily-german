@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 29. September 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 29. September 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">57 Prozent: Erstmals nutzt die Mehrheit der deutschen Firmen KI</h2>
+    <div class="card">
+      <p>Künstliche Intelligenz ist in der deutschen Wirtschaft angekommen. Laut einer aktuellen Umfrage des Digitalverbands Bitkom, die am 14. September veröffentlicht wurde, setzen inzwischen 57 Prozent der Unternehmen KI ein – zum ersten Mal ist das die Mehrheit. Vor einem Jahr waren es erst 36 Prozent, vor zwei Jahren sogar nur 20 Prozent. Der Anteil hat sich also in zwei Jahren mehr als verdoppelt.</p>
+      <p>Befragt wurden 603 Unternehmen mit mindestens 20 Beschäftigten, und zwar telefonisch in den Kalenderwochen 28 bis 33. Weitere 38 Prozent planen den Einsatz von KI oder diskutieren darüber. Nur noch 4 Prozent halten das Thema für irrelevant; vor zwei Jahren waren es noch 41 Prozent.</p>
+      <p>Der Nutzen ist für viele Firmen spürbar: Unter den Unternehmen, die KI bereits einsetzen, sagen 66 Prozent, ihre Wettbewerbsfähigkeit habe sich verbessert. Außerdem betrachten 91 Prozent aller befragten Firmen KI als Schlüsseltechnologie der Zukunft, und 61 Prozent glauben, dass Unternehmen ohne KI langfristig keine Zukunft haben.</p>
+      <p>Bitkom-Präsident Ralf Wintergerst sagte, KI sei nicht mehr auf Pioniere beschränkt, die meisten Firmen stünden aber erst am Anfang. Tatsächlich schöpfen nur 3 Prozent das Potenzial der Technologie stark aus. Für viele Beschäftigte heißt das: KI wird bald zum normalen Arbeitsalltag gehören – Zeit, sich damit vertraut zu machen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Mehrheit</td><td>majority</td><td>Mehr als die Hälfte einer Gruppe.</td><td>Zum ersten Mal nutzt die Mehrheit der Unternehmen KI.</td></tr>
+        <tr><td>befragen</td><td>to survey, to question</td><td>Vielen Menschen oder Firmen Fragen zu einem Thema stellen.</td><td>Befragt wurden 603 Unternehmen mit mindestens 20 Beschäftigten.</td></tr>
+        <tr><td>die Wettbewerbsfähigkeit</td><td>competitiveness</td><td>Die Fähigkeit einer Firma, sich gegen andere Firmen im Markt zu behaupten.</td><td>66 Prozent sagen, ihre Wettbewerbsfähigkeit habe sich verbessert.</td></tr>
+        <tr><td>die Schlüsseltechnologie</td><td>key technology</td><td>Eine Technologie, die für die Zukunft besonders wichtig ist.</td><td>91 Prozent halten KI für eine Schlüsseltechnologie.</td></tr>
+        <tr><td>ausschöpfen</td><td>to make full use of, to tap</td><td>Die Möglichkeiten von etwas möglichst vollständig nutzen.</td><td>Nur 3 Prozent der Firmen schöpfen das Potenzial von KI stark aus.</td></tr>
+        <tr><td>der/die Beschäftigte</td><td>employee</td><td>Eine Person, die bei einer Firma angestellt ist.</td><td>Die Umfrage betrifft Unternehmen mit mindestens 20 Beschäftigten.</td></tr>
+        <tr><td>die Umfrage <span class="rep">(Wiederholung)</span></td><td>survey</td><td>Eine Untersuchung, bei der viele Menschen zu einem Thema befragt werden.</td><td>Laut einer aktuellen Umfrage nutzen 57 Prozent der Firmen KI.</td></tr>
+        <tr><td>etwas einsetzen <span class="rep">(Wiederholung)</span></td><td>to deploy, to put to use</td><td>Ein Mittel oder Werkzeug für eine Aufgabe verwenden.</td><td>Inzwischen setzen 57 Prozent der Unternehmen KI ein.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Laut einer Umfrage …“</b> — So leitet man eine Quelle oder Statistik ein.<br><i>Laut einer Umfrage nutzen 57 Prozent der Firmen KI.</i></li>
+        <li><b>„Vor einem Jahr waren es erst …“</b> — „erst“ betont, dass die Zahl früher klein war – im Vergleich zu heute.<br><i>Vor einem Jahr waren es erst 36 Prozent.</i></li>
+        <li><b>„am Anfang stehen“</b> — Noch ganz am Beginn eines Prozesses sein.<br><i>Die meisten Firmen stehen beim Thema KI noch am Anfang.</i></li>
+        <li><b>„in der Wirtschaft ankommen“</b> — Etwas ist nicht mehr neu, sondern im Alltag angekommen.<br><i>KI ist in der deutschen Wirtschaft angekommen.</i></li>
+        <li><b>„das Potenzial ausschöpfen“</b> — Alle Möglichkeiten einer Sache wirklich nutzen.<br><i>Nur wenige Firmen schöpfen das Potenzial von KI aus.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv Präteritum mit Inversion: „Befragt wurden 603 Unternehmen“</b> Berichte über Studien stehen fast immer im Präteritum. Hier steht das Partizip II („befragt“) am Satzanfang, danach „wurden“, dann das Subjekt. Das Verb richtet sich nach dem Subjekt hinter ihm: 603 Unternehmen → „wurden“. Typischer Fehler: „Befragt wurde 603 Unternehmen“ – weil man das Subjekt am Ende leicht vergisst.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Indirekte Rede in Nachrichten: „KI sei nicht mehr auf Pioniere beschränkt, die meisten Firmen stünden erst am Anfang“</b> Zeitungen geben Aussagen mit Konjunktiv wieder („sei“, „stünden“). Das signalisiert: Das ist nicht meine Meinung, sondern die von Herrn Wintergerst. „stünden“ ersetzt „stehen“, weil „stehen“ im Konjunktiv I genauso klingt wie im Indikativ. Typischer Fehler: Lernende benutzen diese Form im Gespräch. Dort sagt man einfach: „Er sagte, dass die meisten Firmen erst am Anfang stehen.“</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie hoch ist der Anteil der Unternehmen, die KI nutzen, laut der aktuellen Bitkom-Umfrage?</li>
+          <li>Wer wurde für die Umfrage befragt?</li>
+          <li>Was stimmt laut Text über das Potenzial von KI?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Bilde einen Satz im Passiv Präteritum mit dem Partizip am Satzanfang („Befragt wurden …“) über eine Umfrage oder Studie.</li>
+          <li>Vergleiche mit „Vor einem Jahr waren es erst …“ zwei Zahlen aus deinem Alltag oder deiner Arbeit.</li>
+          <li>Schreibe einen Satz mit „am Anfang stehen“ über dich, dein Team oder deine Firma und ein neues Thema (z. B. KI).</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Erzählen Sie: Nutzen Sie oder Ihr Team KI-Werkzeuge bei der Arbeit? Wofür, und was hat sich dadurch verändert? Wenn nicht: Wo würde KI Ihnen am meisten helfen?</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="source">Quellen: Bitkom e. V., Presseinformation „Erstmals nutzt die Mehrheit der Unternehmen KI“ (14. September 2026); ms-aktuell.de, „Mehrheit der Firmen setzt erstmals auf Künstliche Intelligenz“ (14. September 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

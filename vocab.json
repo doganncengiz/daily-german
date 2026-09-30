@@ -1676,13 +1676,17 @@
     "erk": "Ein Mittel oder Werkzeug für eine Aufgabe verwenden.",
     "bsp": "Wir setzen KI vor allem für Protokolle ein.",
     "dates": [
-      "2026-09-14"
+      "2026-09-14",
+      "2026-09-29"
     ],
     "sq": "të përdorë, të zbatojë",
     "tr": "kullanmak, devreye sokmak",
     "uk": "застосовувати, залучати",
     "ar": "يستخدم، يوظّف",
-    "fa": "به کار گرفتن"
+    "fa": "به کار گرفتن",
+    "es": "emplear, utilizar",
+    "fr": "utiliser, mettre en œuvre",
+    "it": "impiegare, utilizzare"
   },
   {
     "de": "etwas Wert beimessen",
@@ -1747,13 +1751,17 @@
     "bsp": "Eine kürzere Arbeitswoche soll dem Fachkräftemangel entgegenwirken.",
     "dates": [
       "2026-08-13",
-      "2026-09-07"
+      "2026-09-07",
+      "2026-09-30"
     ],
     "sq": "mungesa e fuqisë punëtore të kualifikuar",
     "tr": "nitelikli iş gücü açığı",
     "uk": "нестача кваліфікованих кадрів",
     "ar": "نقص العمالة الماهرة",
-    "fa": "کمبود نیروی متخصص"
+    "fa": "کمبود نیروی متخصص",
+    "es": "la escasez de personal cualificado",
+    "fr": "la pénurie de main-d'œuvre qualifiée",
+    "it": "la carenza di personale qualificato"
   },
   {
     "de": "festhängen",
@@ -4472,13 +4480,17 @@
     "erk": "Etwas doppelt so groß oder so viel machen.",
     "bsp": "Der KI-Einsatz hat sich innerhalb eines Jahres verdoppelt.",
     "dates": [
-      "2026-08-30"
+      "2026-08-30",
+      "2026-09-30"
     ],
     "sq": "të dyfishojë",
     "tr": "iki katına çıkarmak",
     "uk": "подвоїти",
     "ar": "يضاعف",
-    "fa": "دو برابر کردن"
+    "fa": "دو برابر کردن",
+    "es": "duplicar",
+    "fr": "doubler",
+    "it": "raddoppiare"
   },
   {
     "de": "verlässlich",
@@ -5029,13 +5041,17 @@
     "bsp": "Laut einer aktuellen Umfrage arbeiten viele Deutsche im Homeoffice.",
     "dates": [
       "2026-07-09",
-      "2026-07-11"
+      "2026-07-11",
+      "2026-09-29"
     ],
     "sq": "anketa",
     "tr": "anket",
     "uk": "опитування",
     "ar": "استطلاع رأي",
-    "fa": "نظرسنجی"
+    "fa": "نظرسنجی",
+    "es": "la encuesta",
+    "fr": "le sondage",
+    "it": "il sondaggio"
   },
   {
     "de": "der/die Angestellte",
@@ -7739,5 +7755,209 @@
     "es": "condecorar, premiar",
     "fr": "récompenser, distinguer",
     "it": "premiare, insignire"
+  },
+  {
+    "de": "die Mehrheit",
+    "en": "majority",
+    "erk": "Mehr als die Hälfte einer Gruppe.",
+    "bsp": "Zum ersten Mal nutzt die Mehrheit der Unternehmen KI.",
+    "dates": [
+      "2026-09-29"
+    ],
+    "sq": "shumica",
+    "tr": "çoğunluk",
+    "uk": "більшість",
+    "ar": "الأغلبية",
+    "fa": "اکثریت",
+    "es": "la mayoría",
+    "fr": "la majorité",
+    "it": "la maggioranza"
+  },
+  {
+    "de": "befragen",
+    "en": "to survey, to question",
+    "erk": "Vielen Menschen oder Firmen Fragen zu einem Thema stellen.",
+    "bsp": "Befragt wurden 603 Unternehmen mit mindestens 20 Beschäftigten.",
+    "dates": [
+      "2026-09-29"
+    ],
+    "sq": "të pyesë (në anketë)",
+    "tr": "anket yapmak, sormak",
+    "uk": "опитувати",
+    "ar": "يستطلع رأي، يسأل",
+    "fa": "نظرسنجی کردن، پرسیدن",
+    "es": "encuestar, preguntar",
+    "fr": "interroger, sonder",
+    "it": "intervistare, sondare"
+  },
+  {
+    "de": "die Wettbewerbsfähigkeit",
+    "en": "competitiveness",
+    "erk": "Die Fähigkeit einer Firma, sich gegen andere Firmen im Markt zu behaupten.",
+    "bsp": "66 Prozent sagen, ihre Wettbewerbsfähigkeit habe sich verbessert.",
+    "dates": [
+      "2026-09-29"
+    ],
+    "sq": "konkurrueshmëria",
+    "tr": "rekabet gücü",
+    "uk": "конкурентоспроможність",
+    "ar": "القدرة التنافسية",
+    "fa": "قدرت رقابت",
+    "es": "la competitividad",
+    "fr": "la compétitivité",
+    "it": "la competitività"
+  },
+  {
+    "de": "die Schlüsseltechnologie",
+    "en": "key technology",
+    "erk": "Eine Technologie, die für die Zukunft besonders wichtig ist.",
+    "bsp": "91 Prozent halten KI für eine Schlüsseltechnologie.",
+    "dates": [
+      "2026-09-29"
+    ],
+    "sq": "teknologji kyçe",
+    "tr": "anahtar teknoloji",
+    "uk": "ключова технологія",
+    "ar": "تكنولوجيا أساسية",
+    "fa": "فناوری کلیدی",
+    "es": "la tecnología clave",
+    "fr": "la technologie clé",
+    "it": "la tecnologia chiave"
+  },
+  {
+    "de": "ausschöpfen",
+    "en": "to make full use of, to tap",
+    "erk": "Die Möglichkeiten von etwas möglichst vollständig nutzen.",
+    "bsp": "Nur 3 Prozent der Firmen schöpfen das Potenzial von KI stark aus.",
+    "dates": [
+      "2026-09-29"
+    ],
+    "sq": "të shfrytëzojë plotësisht",
+    "tr": "tam olarak kullanmak",
+    "uk": "повністю використовувати",
+    "ar": "يستغل بالكامل",
+    "fa": "کاملاً بهره بردن",
+    "es": "aprovechar al máximo",
+    "fr": "exploiter pleinement",
+    "it": "sfruttare appieno"
+  },
+  {
+    "de": "der/die Beschäftigte",
+    "en": "employee",
+    "erk": "Eine Person, die bei einer Firma angestellt ist.",
+    "bsp": "Die Umfrage betrifft Unternehmen mit mindestens 20 Beschäftigten.",
+    "dates": [
+      "2026-09-29"
+    ],
+    "sq": "i punësuar",
+    "tr": "çalışan",
+    "uk": "працівник",
+    "ar": "موظف",
+    "fa": "کارمند",
+    "es": "el/la empleado/a",
+    "fr": "l'employé(e)",
+    "it": "il/la dipendente"
+  },
+  {
+    "de": "eine Stelle besetzen",
+    "en": "to fill a position",
+    "erk": "Für eine offene Stelle eine passende Person finden und einstellen.",
+    "bsp": "Im Handwerk dauert es 242 Tage, bis eine Stelle besetzt ist.",
+    "dates": [
+      "2026-09-30"
+    ],
+    "sq": "të plotësojë një vend pune",
+    "tr": "bir pozisyonu doldurmak",
+    "uk": "заповнити вакансію",
+    "ar": "يشغل وظيفة شاغرة",
+    "fa": "یک موقعیت شغلی را پر کردن",
+    "es": "cubrir un puesto",
+    "fr": "pourvoir un poste",
+    "it": "coprire un posto"
+  },
+  {
+    "de": "der Engpassberuf",
+    "en": "shortage occupation",
+    "erk": "Ein Beruf, in dem es viel zu wenige Fachkräfte gibt.",
+    "bsp": "Fast die Hälfte aller Engpassberufe liegt im Handwerk.",
+    "dates": [
+      "2026-09-30"
+    ],
+    "sq": "profesion me mungesë kuadrosh",
+    "tr": "darboğaz meslek (işgücü açığı olan meslek)",
+    "uk": "дефіцитна професія",
+    "ar": "مهنة تعاني من نقص العمالة",
+    "fa": "شغل با کمبود نیرو",
+    "es": "profesión con escasez de personal",
+    "fr": "métier en tension",
+    "it": "professione con carenza di personale"
+  },
+  {
+    "de": "die Gesamtwirtschaft",
+    "en": "the economy as a whole",
+    "erk": "Alle Branchen eines Landes zusammen.",
+    "bsp": "In der Gesamtwirtschaft dauert es nur 167 Tage.",
+    "dates": [
+      "2026-09-30"
+    ],
+    "sq": "ekonomia në tërësi",
+    "tr": "ekonominin tamamı",
+    "uk": "економіка в цілому",
+    "ar": "الاقتصاد ككل",
+    "fa": "کل اقتصاد",
+    "es": "la economía en su conjunto",
+    "fr": "l'ensemble de l'économie",
+    "it": "l'economia nel suo complesso"
+  },
+  {
+    "de": "der/die Auszubildende",
+    "en": "apprentice, trainee",
+    "erk": "Eine Person, die einen Beruf im Betrieb und in der Berufsschule lernt (kurz: Azubi).",
+    "bsp": "Neue Auszubildende gleichen die Abgänge nicht aus.",
+    "dates": [
+      "2026-09-30"
+    ],
+    "sq": "praktikant, nxënës profesional",
+    "tr": "çırak, meslek eğitimi öğrencisi",
+    "uk": "учень (на професійному навчанні)",
+    "ar": "متدرب",
+    "fa": "کارآموز",
+    "es": "el/la aprendiz",
+    "fr": "l'apprenti(e)",
+    "it": "l'apprendista"
+  },
+  {
+    "de": "ausgleichen",
+    "en": "to offset, to make up for",
+    "erk": "Einen Mangel oder Verlust durch etwas anderes wieder ausbalancieren.",
+    "bsp": "Junge Leute können den Verlust der Älteren nicht ausgleichen.",
+    "dates": [
+      "2026-09-30"
+    ],
+    "sq": "të kompensojë",
+    "tr": "dengelemek, telafi etmek",
+    "uk": "компенсувати",
+    "ar": "يعوّض",
+    "fa": "جبران کردن",
+    "es": "compensar",
+    "fr": "compenser",
+    "it": "compensare"
+  },
+  {
+    "de": "die Herbstbelebung",
+    "en": "autumn upturn (in the job market)",
+    "erk": "Im Herbst sinkt die Arbeitslosigkeit meist, weil viele Firmen wieder einstellen.",
+    "bsp": "Die Herbstbelebung dürfte nur moderat ausfallen.",
+    "dates": [
+      "2026-09-30"
+    ],
+    "sq": "ringjallja e vjeshtës (në tregun e punës)",
+    "tr": "sonbahar canlanması (iş piyasasında)",
+    "uk": "осіннє пожвавлення (ринку праці)",
+    "ar": "انتعاش الخريف (في سوق العمل)",
+    "fa": "رونق پاییزی (در بازار کار)",
+    "es": "la reactivación otoñal (del mercado laboral)",
+    "fr": "la reprise d'automne (sur le marché du travail)",
+    "it": "la ripresa autunnale (del mercato del lavoro)"
   }
 ]

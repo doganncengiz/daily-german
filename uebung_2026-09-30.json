@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie lange dauert es im Handwerk durchschnittlich, bis eine Stelle besetzt ist?",
+      "o": [
+        "167 Tage",
+        "242 Tage",
+        "123 Tage"
+      ],
+      "c": 1,
+      "why": "Richtig ist b): Im Handwerk dauert es im Durchschnitt 242 Tage. a) ist falsch, weil 167 Tage der Wert für die Gesamtwirtschaft sind. c) ist falsch, weil 123.000 die Zahl der offenen Stellen im Handwerk ist – das sind Stellen, keine Tage."
+    },
+    {
+      "q": "Wie hat sich der Anteil ausländischer Beschäftigter im Handwerk in zehn Jahren entwickelt?",
+      "o": [
+        "Er hat sich verdoppelt und liegt bei 17 Prozent.",
+        "Er ist in zehn Jahren um 4 Prozent gesunken.",
+        "Er liegt bei 9 Prozent."
+      ],
+      "c": 0,
+      "why": "Richtig ist a): Der Anteil hat sich in zehn Jahren verdoppelt und beträgt 17 Prozent. b) ist falsch, weil die 4 Prozent der Rückgang der Beschäftigung im Handwerk in fünf Jahren sind. c) ist falsch, weil 9 Prozent der Anteil junger Beschäftigter in der Gesamtwirtschaft ist."
+    },
+    {
+      "q": "Was sagt Andrea Nahles über den Arbeitsmarkt im August?",
+      "o": [
+        "Die Herbstbelebung sei stärker als erwartet.",
+        "Die Arbeitslosenquote sei auf 3,061 Prozent gestiegen.",
+        "Über die saisonalen Effekte hinaus sei wenig Dynamik zu erkennen."
+      ],
+      "c": 2,
+      "why": "Richtig ist c): Nahles sagte, über die saisonalen Effekte hinaus sei wenig Dynamik zu erkennen. a) ist falsch, weil die Herbstbelebung nach Einschätzung von Experten nur moderat ausfallen dürfte. b) ist falsch, weil 3,061 Millionen die Zahl der Arbeitslosen ist; die Quote lag bei 6,5 Prozent."
+    }
+  ],
+  "schreib": [
+    "<b>Es dauert</b> oft drei Wochen, <b>bis</b> ich einen Termin beim Bürgeramt bekomme. <span class=\"hint\">Nach „bis“ steht das Verb am Ende des Nebensatzes; das Subjekt steht direkt nach „bis“.</span>",
+    "Die Preise <b>dürften</b> im nächsten Jahr weiter <b>steigen</b>. <span class=\"hint\">„dürfte“ heißt hier „wahrscheinlich“, nicht „erlaubt“ – und der Infinitiv steht am Satzende.</span>",
+    "<b>Im Vergleich zum</b> letzten Jahr haben wir dieses Jahr doppelt so viele Kunden. <span class=\"hint\">Nach „im Vergleich zu“ steht der Dativ: zum letzten Jahr, zur Gesamtwirtschaft.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "In meinem Umfeld fehlen vor allem …",
+      "Bei uns dauert es oft …, bis …",
+      "Ich glaube, dass die Firmen mehr … müssten.",
+      "Im Vergleich zu früher …",
+      "Ein Problem dabei ist, dass …"
+    ],
+    "modell": "In meinem Umfeld gibt es einen deutlichen <b>Fachkräftemangel</b>, vor allem bei Elektrikern und Pflegekräften. Bei uns dauert es oft mehrere Monate, bis eine <b>Stelle besetzt</b> ist. Im Vergleich zu früher bewerben sich viel weniger Leute. Ich glaube, dass die Firmen mehr <b>Auszubildende</b> einstellen und besser bezahlen müssten. Außerdem können Fachkräfte aus dem Ausland den Mangel zum Teil <b>ausgleichen</b>, wenn die Anerkennung ihrer Abschlüsse schneller geht."
+  }
+}

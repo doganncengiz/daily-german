@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch ist der Anteil der Unternehmen, die KI nutzen, laut der aktuellen Bitkom-Umfrage?",
+      "o": [
+        "36 Prozent",
+        "38 Prozent",
+        "57 Prozent"
+      ],
+      "c": 2,
+      "why": "Richtig ist c): Der Text nennt 57 Prozent – zum ersten Mal die Mehrheit. a) ist falsch, weil 36 Prozent der Wert von vor einem Jahr sind. b) ist falsch, weil 38 Prozent die Firmen sind, die KI erst planen oder darüber diskutieren."
+    },
+    {
+      "q": "Wer wurde für die Umfrage befragt?",
+      "o": [
+        "603 Unternehmen mit mindestens 20 Beschäftigten",
+        "603 Unternehmen mit mindestens 57 Beschäftigten",
+        "57 Unternehmen mit mindestens 20 Beschäftigten"
+      ],
+      "c": 0,
+      "why": "Richtig ist a): Befragt wurden 603 Unternehmen mit mindestens 20 Beschäftigten. b) und c) sind falsch, weil die 57 im Text der Prozentsatz der KI-Nutzer ist, nicht eine Größe der Stichprobe."
+    },
+    {
+      "q": "Was stimmt laut Text über das Potenzial von KI?",
+      "o": [
+        "Die meisten Firmen schöpfen das Potenzial schon stark aus.",
+        "Nur 3 Prozent schöpfen das Potenzial stark aus; die meisten stehen erst am Anfang.",
+        "Nur 4 Prozent der Firmen setzen überhaupt KI ein."
+      ],
+      "c": 1,
+      "why": "Richtig ist b): Der Text sagt, nur 3 Prozent schöpfen das Potenzial stark aus, und die meisten stünden am Anfang. a) widerspricht genau dieser Aussage. c) ist falsch, weil 4 Prozent die Firmen sind, die KI für irrelevant halten – 57 Prozent setzen KI ein."
+    }
+  ],
+  "schreib": [
+    "<b>Befragt wurden</b> 500 Mitarbeitende aus verschiedenen Branchen. <span class=\"hint\">Das Verb richtet sich nach dem Subjekt hinter ihm (500 Mitarbeitende → „wurden“), nicht „wurde“.</span>",
+    "Vor einem Jahr hatten wir <b>erst</b> zwei Meetings pro Woche, heute sind es fünf. <span class=\"hint\">„erst“ zeigt, dass die Zahl früher klein war; „nur“ klingt eher wie eine Kritik an einer kleinen Zahl.</span>",
+    "Bei der Nutzung von KI <b>stehen</b> wir in unserem Team noch <b>am Anfang</b>. <span class=\"hint\">Nach „am“ folgt die Nominalform „Anfang“, nicht „im Anfang“ oder „an Anfang“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "In meinem Team nutzen wir KI vor allem für …",
+      "Das spart uns viel Zeit, weil …",
+      "Ich bin noch skeptisch, denn …",
+      "Bei diesem Thema stehen wir noch am Anfang.",
+      "Laut einer Umfrage …"
+    ],
+    "modell": "In meinem Team nutzen wir KI vor allem für Protokolle und erste Textentwürfe. Das spart uns jede Woche mehrere Stunden. Ich finde, dass sich dadurch unsere <b>Wettbewerbsfähigkeit</b> verbessert hat, aber wir <b>stehen</b> noch <b>am Anfang</b> und <b>schöpfen</b> das Potenzial sicher nicht voll <b>aus</b>. Ich bin außerdem etwas vorsichtig beim Datenschutz. Laut einer aktuellen <b>Umfrage</b> ist KI in der Wirtschaft <b>angekommen</b>, und ich glaube, dass sie für viele <b>Beschäftigte</b> bald ganz normal sein wird."
+  }
+}

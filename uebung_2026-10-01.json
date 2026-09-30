@@ -1,0 +1,49 @@
+{
+    "mc": [
+        {
+            "q": "Wie hoch war die Arbeitslosenquote im September 2026, und wie hat sie sich im Vergleich zum August verändert?",
+            "o": [
+                "6,4 Prozent, ein leichter Rückgang gegenüber 6,5 Prozent im August.",
+                "6,4 Prozent, unverändert gegenüber dem Vormonat.",
+                "7,4 Prozent, ein deutlicher Anstieg gegenüber dem Vormonat."
+            ],
+            "c": 0,
+            "why": "Die Quote sank leicht von 6,5 auf <b>6,4 Prozent</b> — die absolute Zahl fiel auf 2,994 Millionen, 67.000 weniger als im August."
+        },
+        {
+            "q": "Warum spricht BA-Chefin Andrea Nahles trotz sinkender absoluter Zahlen von einem „schwunglosen“ Start in die Herbstbelebung?",
+            "o": [
+                "Weil saisonbereinigt die Arbeitslosigkeit sogar um 12.000 gestiegen ist — deutlich mehr als von Bankanalysten erwartet.",
+                "Weil die Zahl der offenen Stellen im Vergleich zum Vorjahr gesunken ist.",
+                "Weil in allen Branchen gleichzeitig Stellen abgebaut werden."
+            ],
+            "c": 0,
+            "why": "<b>Saisonbereinigt</b> — also ohne den üblichen Herbsteffekt — stieg die Arbeitslosigkeit um 12.000, während Analysten nur mit 1.000 gerechnet hatten. Nicht alle Branchen bauen Stellen ab: Dienstleister halten sich die Waage, manche stellen sogar ein."
+        },
+        {
+            "q": "Welche Branchen suchen laut Text trotz der insgesamt schwachen Lage noch aktiv neue Beschäftigte?",
+            "o": [
+                "Vor allem Industrie und Handel.",
+                "Ingenieurbüros sowie Rechts- und Steuerberatungen.",
+                "Ausschließlich der öffentliche Dienst."
+            ],
+            "c": 1,
+            "why": "Der Text nennt ausdrücklich <b>Ingenieurbüros sowie Rechts- und Steuerberatungen</b> als Branchen, die zusätzliche Beschäftigte einstellen wollen — Industrie und Handel bauen dagegen weiter ab."
+        }
+    ],
+    "schreib": [
+        "Im Vergleich zum Vormonat <b>sank</b> die Arbeitslosigkeit <b>um</b> 67.000 Personen.",
+        "Saisonbereinigt <b>stieg</b> die Zahl der Arbeitslosen jedoch <b>um</b> 12.000.",
+        "In der Industrie <b>werden</b> weiterhin Stellen <b>abgebaut</b>, während Ingenieurbüros zusätzliche Beschäftigte suchen."
+    ],
+    "sprech": {
+        "phrases": [
+            "Ich habe den Eindruck, dass …",
+            "Bei uns in der Firma sieht das ähnlich/anders aus, weil …",
+            "Im Vergleich zum letzten Jahr …",
+            "Was mich überrascht hat, ist, dass …",
+            "Ob sich das ändert, muss sich erst noch zeigen."
+        ],
+        "modell": "„<b>Ich habe den Eindruck, dass</b> die Zahlen ehrlicher klingen als die Schlagzeile. „Unter drei Millionen“ hört sich gut an, aber saisonbereinigt ist die Lage eben nicht besser geworden. <b>Bei uns in der Firma sieht das ähnlich aus</b>: Wir stellen zwar ein paar Leute ein, aber von einer Welle kann keine Rede sein. <b>Im Vergleich zum letzten Jahr</b> suchen wir sogar vorsichtiger. <b>Was mich überrascht hat, ist</b>, dass ausgerechnet die Beratungsbranche weiter wächst, obwohl überall von Sparprogrammen die Rede ist. <b>Ob sich das im Winter ändert, muss sich erst noch zeigen.</b>“"
+    }
+}

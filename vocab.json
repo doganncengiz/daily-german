@@ -7830,7 +7830,8 @@
     "erk": "Die Möglichkeiten von etwas möglichst vollständig nutzen.",
     "bsp": "Nur 3 Prozent der Firmen schöpfen das Potenzial von KI stark aus.",
     "dates": [
-      "2026-09-29"
+      "2026-09-29",
+      "2026-10-01"
     ],
     "sq": "të shfrytëzojë plotësisht",
     "tr": "tam olarak kullanmak",
@@ -7847,7 +7848,8 @@
     "erk": "Eine Person, die bei einer Firma angestellt ist.",
     "bsp": "Die Umfrage betrifft Unternehmen mit mindestens 20 Beschäftigten.",
     "dates": [
-      "2026-09-29"
+      "2026-09-29",
+      "2026-10-01"
     ],
     "sq": "i punësuar",
     "tr": "çalışan",
@@ -7949,7 +7951,8 @@
     "erk": "Im Herbst sinkt die Arbeitslosigkeit meist, weil viele Firmen wieder einstellen.",
     "bsp": "Die Herbstbelebung dürfte nur moderat ausfallen.",
     "dates": [
-      "2026-09-30"
+      "2026-09-30",
+      "2026-10-01"
     ],
     "sq": "ringjallja e vjeshtës (në tregun e punës)",
     "tr": "sonbahar canlanması (iş piyasasında)",
@@ -7959,5 +7962,90 @@
     "es": "la reactivación otoñal (del mercado laboral)",
     "fr": "la reprise d'automne (sur le marché du travail)",
     "it": "la ripresa autunnale (del mercato del lavoro)"
+  },
+  {
+    "de": "sinken",
+    "en": "to fall, to decrease",
+    "erk": "Weniger werden; eine Zahl wird kleiner.",
+    "bsp": "Die Zahl der Arbeitslosen ist im September leicht gesunken.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "të bjerë, të ulet",
+    "tr": "düşmek, azalmak",
+    "uk": "знижуватися, падати",
+    "ar": "ينخفض، يتراجع",
+    "fa": "کاهش یافتن، پایین آمدن",
+    "es": "bajar, disminuir",
+    "fr": "baisser, diminuer",
+    "it": "scendere, diminuire"
+  },
+  {
+    "de": "saisonbereinigt",
+    "en": "seasonally adjusted",
+    "erk": "So berechnet, dass übliche saisonale Effekte (z. B. der Herbst) herausgerechnet sind.",
+    "bsp": "Saisonbereinigt ist die Arbeitslosigkeit trotzdem leicht gestiegen.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "e korrigjuar sipas sezonit",
+    "tr": "mevsimsel olarak düzeltilmiş",
+    "uk": "сезонно скоригований",
+    "ar": "معدَّل موسميًا",
+    "fa": "تعدیل‌شده فصلی",
+    "es": "ajustado estacionalmente",
+    "fr": "corrigé des variations saisonnières",
+    "it": "destagionalizzato"
+  },
+  {
+    "de": "das Beschäftigungsbarometer",
+    "en": "employment barometer",
+    "erk": "Ein Frühindikator, der zeigt, ob Firmen mehr oder weniger Personal einstellen wollen.",
+    "bsp": "Das ifo-Beschäftigungsbarometer stieg leicht auf 95,1 Punkte.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "barometri i punësimit",
+    "tr": "istihdam barometresi",
+    "uk": "барометр зайнятості",
+    "ar": "مقياس التوظيف",
+    "fa": "شاخص اشتغال",
+    "es": "barómetro del empleo",
+    "fr": "baromètre de l'emploi",
+    "it": "barometro dell'occupazione"
+  },
+  {
+    "de": "die Einstellungswelle",
+    "en": "hiring wave",
+    "erk": "Wenn sehr viele Firmen gleichzeitig in großer Zahl neue Mitarbeiter suchen.",
+    "bsp": "Trotz der offenen Stellen gibt es derzeit keine breite Einstellungswelle.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "valë punësimesh",
+    "tr": "işe alım dalgası",
+    "uk": "хвиля найму",
+    "ar": "موجة توظيف",
+    "fa": "موج استخدام",
+    "es": "ola de contrataciones",
+    "fr": "vague d'embauches",
+    "it": "ondata di assunzioni"
+  },
+  {
+    "de": "sich die Waage halten",
+    "en": "to balance out, to be evenly matched",
+    "erk": "Zwei Dinge sind ungefähr gleich groß oder gleich stark.",
+    "bsp": "Bei den Dienstleistern halten sich Einstellungen und Entlassungen etwa die Waage.",
+    "dates": [
+      "2026-10-01"
+    ],
+    "sq": "të jenë në ekuilibër",
+    "tr": "birbirini dengelemek, denk olmak",
+    "uk": "врівноважувати одне одного",
+    "ar": "يتوازنان، يتعادلان",
+    "fa": "با هم برابری کردن، تعادل داشتن",
+    "es": "equilibrarse, estar parejos",
+    "fr": "s'équilibrer, se compenser",
+    "it": "bilanciarsi, equivalersi"
   }
 ]

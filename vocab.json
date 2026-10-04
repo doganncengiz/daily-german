@@ -394,7 +394,8 @@
       "2026-09-14",
       "2026-09-15",
       "2026-09-23",
-      "2026-09-28"
+      "2026-09-28",
+      "2026-10-02"
     ],
     "sq": "pjesa, përqindja",
     "tr": "pay, oran",
@@ -1811,13 +1812,17 @@
     "erk": "Wie voll ein Behälter oder ein Speicher gerade ist.",
     "bsp": "Der Füllstand der Gasspeicher liegt bei 54 Prozent.",
     "dates": [
-      "2026-09-12"
+      "2026-09-12",
+      "2026-10-04"
     ],
     "sq": "niveli i mbushjes",
     "tr": "doluluk seviyesi",
     "uk": "рівень заповнення",
     "ar": "مستوى التعبئة",
-    "fa": "سطح پرشدگی"
+    "fa": "سطح پرشدگی",
+    "es": "el nivel de llenado",
+    "fr": "le niveau de remplissage",
+    "it": "il livello di riempimento"
   },
   {
     "de": "für Gesprächsstoff sorgen",
@@ -4208,13 +4213,17 @@
     "erk": "Wenn eine Firma eine andere Firma kauft und übernimmt.",
     "bsp": "SAP hat die Übernahme von Prior Labs abgeschlossen.",
     "dates": [
-      "2026-07-24"
+      "2026-07-24",
+      "2026-10-02"
     ],
     "sq": "marrja në kontroll, blerja",
     "tr": "devralma, satın alma",
     "uk": "поглинання, придбання",
     "ar": "الاستحواذ، الاستيلاء",
-    "fa": "تصاحب، خرید شرکت"
+    "fa": "تصاحب، خرید شرکت",
+    "es": "adquisición (hostil), toma de control",
+    "fr": "rachat, prise de contrôle",
+    "it": "acquisizione, scalata"
   },
   {
     "de": "übersehen",
@@ -4802,13 +4811,17 @@
       "2026-08-19",
       "2026-08-30",
       "2026-09-01",
-      "2026-09-02"
+      "2026-09-02",
+      "2026-10-04"
     ],
     "sq": "avantazhi, epërsia",
     "tr": "avantaj, öndelik",
     "uk": "перевага, форa",
     "ar": "تقدّم، سبق",
-    "fa": "برتری، پیش‌افتادگی"
+    "fa": "برتری، پیش‌افتادگی",
+    "es": "la ventaja",
+    "fr": "l'avance",
+    "it": "il vantaggio"
   },
   {
     "de": "wahlberechtigt sein",
@@ -6057,13 +6070,17 @@
     "erk": "Ein verlorenes Spiel oder ein Misserfolg.",
     "bsp": "Für Argentinien ist es eine bittere Niederlage.",
     "dates": [
-      "2026-07-20"
+      "2026-07-20",
+      "2026-10-03"
     ],
     "sq": "humbja",
     "tr": "yenilgi, mağlubiyet",
     "uk": "поразка",
     "ar": "الهزيمة",
-    "fa": "شکست"
+    "fa": "شکست",
+    "es": "la derrota",
+    "fr": "la défaite",
+    "it": "la sconfitta"
   },
   {
     "de": "belasten",
@@ -6265,13 +6282,17 @@
     "erk": "Der höchste Wert, den es je gab.",
     "bsp": "Die Zahl der Remote-Stellen erreicht einen neuen Höchststand.",
     "dates": [
-      "2026-07-23"
+      "2026-07-23",
+      "2026-10-03"
     ],
     "sq": "niveli më i lartë, rekord",
     "tr": "rekor seviye, en yüksek düzey",
     "uk": "рекордний рівень, максимум",
     "ar": "أعلى مستوى، مستوى قياسي",
-    "fa": "بالاترین حد، رکورد"
+    "fa": "بالاترین حد، رکورد",
+    "es": "el máximo, el nivel más alto",
+    "fr": "le record, le plus haut niveau",
+    "it": "il massimo, il livello più alto"
   },
   {
     "de": "ortsunabhängig",
@@ -6503,7 +6524,8 @@
     "erk": "Sehr viele Menschen, die gleichzeitig an einen Ort wollen.",
     "bsp": "Kameras mit KI-Unterstützung sollen gefährlichen Andrang frühzeitig erkennen.",
     "dates": [
-      "2026-09-18"
+      "2026-09-18",
+      "2026-10-04"
     ],
     "sq": "turma",
     "tr": "kalabalık",
@@ -6776,7 +6798,8 @@
     "erk": "So, dass die Geschäfte ausnahmsweise auch am Sonntag öffnen dürfen.",
     "bsp": "Im Dezember gibt es bei uns einen verkaufsoffenen Sonntag.",
     "dates": [
-      "2026-09-20"
+      "2026-09-20",
+      "2026-10-03"
     ],
     "sq": "me dyqane të hapura (të dielën)",
     "tr": "mağazaların açık olduğu (pazar)",
@@ -8119,5 +8142,430 @@
     "es": "refuerzo (de personal)",
     "fr": "renfort (de personnel)",
     "it": "rinforzo (di personale)"
+  },
+  {
+    "de": "die Zusage",
+    "en": "commitment, promise",
+    "erk": "Ein festes Versprechen, etwas zu tun.",
+    "bsp": "Die Bundesregierung verlangt schnelle Zusagen von UniCredit.",
+    "dates": [
+      "2026-10-02"
+    ],
+    "sq": "zotim, premtim",
+    "tr": "taahhüt, söz",
+    "uk": "зобов'язання, обіцянка",
+    "ar": "تعهد، وعد",
+    "fa": "تعهد، قول",
+    "es": "compromiso, promesa",
+    "fr": "engagement, promesse",
+    "it": "impegno, promessa"
+  },
+  {
+    "de": "der Aktionär",
+    "en": "shareholder",
+    "erk": "Eine Person oder Firma, der ein Teil einer Aktiengesellschaft gehört.",
+    "bsp": "Der Bund ist mit 13,3 Prozent zweitgrößter Aktionär der Commerzbank.",
+    "dates": [
+      "2026-10-02"
+    ],
+    "sq": "aksioner",
+    "tr": "hissedar",
+    "uk": "акціонер",
+    "ar": "مساهم",
+    "fa": "سهامدار",
+    "es": "accionista",
+    "fr": "actionnaire",
+    "it": "azionista"
+  },
+  {
+    "de": "der Aufsichtsrat",
+    "en": "supervisory board",
+    "erk": "Ein Gremium, das den Vorstand einer Firma kontrolliert und berät.",
+    "bsp": "Der Bund möchte seine zwei Sitze im Aufsichtsrat behalten.",
+    "dates": [
+      "2026-10-02"
+    ],
+    "sq": "këshilli mbikëqyrës",
+    "tr": "denetim kurulu",
+    "uk": "наглядова рада",
+    "ar": "مجلس الرقابة",
+    "fa": "هیئت نظارت",
+    "es": "consejo de supervisión",
+    "fr": "conseil de surveillance",
+    "it": "consiglio di sorveglianza"
+  },
+  {
+    "de": "hinnehmen",
+    "en": "to accept, to put up with",
+    "erk": "Etwas akzeptieren, obwohl es einem nicht gefällt.",
+    "bsp": "Die Regierung will die Entwicklung nicht einfach hinnehmen.",
+    "dates": [
+      "2026-10-02"
+    ],
+    "sq": "durim, pranoj (pa dëshirë)",
+    "tr": "kabullenmek, katlanmak",
+    "uk": "змиритися, миритися з",
+    "ar": "تقبّل، قبول على مضض",
+    "fa": "پذیرفتن، تحمل کردن",
+    "es": "aceptar, tolerar",
+    "fr": "accepter, tolérer",
+    "it": "accettare, subire"
+  },
+  {
+    "de": "ablösen",
+    "en": "to replace, to take over from",
+    "erk": "Jemanden in einer Position durch eine andere Person ersetzen.",
+    "bsp": "Orcel plant, Vorstandschefin Bettina Orlopp abzulösen.",
+    "dates": [
+      "2026-10-02"
+    ],
+    "sq": "zëvendësoj, shkarkoj",
+    "tr": "yerine geçmek, görevden almak",
+    "uk": "замінити, змістити",
+    "ar": "استبدال، إقالة",
+    "fa": "جایگزین کردن، برکنار کردن",
+    "es": "relevar, sustituir",
+    "fr": "remplacer, relever",
+    "it": "sostituire, rilevare"
+  },
+  {
+    "de": "börsennotiert",
+    "en": "listed on the stock exchange",
+    "erk": "Die Aktien der Firma werden an der Börse gehandelt.",
+    "bsp": "Die Commerzbank soll börsennotiert bleiben.",
+    "dates": [
+      "2026-10-02"
+    ],
+    "sq": "e listuar në bursë",
+    "tr": "borsada işlem gören",
+    "uk": "лістингова (на біржі)",
+    "ar": "مدرجة في البورصة",
+    "fa": "پذیرفته‌شده در بورس",
+    "es": "cotizada en bolsa",
+    "fr": "cotée en bourse",
+    "it": "quotata in borsa"
+  },
+  {
+    "de": "die Inflationsrate",
+    "en": "inflation rate",
+    "erk": "Die Zahl, die zeigt, um wie viel Prozent die Preise im Vergleich zum Vorjahr gestiegen sind.",
+    "bsp": "Die Inflationsrate lag im September bei 3,3 Prozent.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "norma e inflacionit",
+    "tr": "enflasyon oranı",
+    "uk": "рівень інфляції",
+    "ar": "معدل التضخم",
+    "fa": "نرخ تورم",
+    "es": "la tasa de inflación",
+    "fr": "le taux d’inflation",
+    "it": "il tasso di inflazione"
+  },
+  {
+    "de": "der Tankrabatt",
+    "en": "fuel tax cut (at the pump)",
+    "erk": "Eine staatliche Steuersenkung, damit Benzin und Diesel für eine Zeit billiger werden.",
+    "bsp": "Seit dem 1. Oktober gilt in Deutschland der Tankrabatt.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "zbritja e taksës së karburantit",
+    "tr": "akaryakıt vergi indirimi",
+    "uk": "знижка на пальне (зниження податку)",
+    "ar": "تخفيض ضريبة الوقود",
+    "fa": "کاهش مالیات سوخت",
+    "es": "la rebaja fiscal del combustible",
+    "fr": "la remise sur le carburant",
+    "it": "lo sconto sul carburante"
+  },
+  {
+    "de": "weitergeben",
+    "en": "to pass on",
+    "erk": "Etwas, das man bekommen hat, an eine andere Person oder Gruppe geben.",
+    "bsp": "Die Tankstelle will die Steuersenkung an die Kunden weitergeben.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "ia kalon dikujt tjetër",
+    "tr": "iletmek, yansıtmak",
+    "uk": "передавати далі, перекладати (на клієнтів)",
+    "ar": "تمرير، نقل إلى الآخرين",
+    "fa": "منتقل کردن",
+    "es": "trasladar, transmitir",
+    "fr": "répercuter, transmettre",
+    "it": "trasferire, passare"
+  },
+  {
+    "de": "der Feiertag",
+    "en": "public holiday",
+    "erk": "Ein besonderer Tag im Jahr, an dem die meisten Menschen nicht arbeiten müssen.",
+    "bsp": "Der 3. Oktober ist ein bundesweiter Feiertag.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "festa zyrtare",
+    "tr": "resmî tatil",
+    "uk": "святковий день",
+    "ar": "عطلة رسمية",
+    "fa": "تعطیل رسمی",
+    "es": "el día festivo",
+    "fr": "le jour férié",
+    "it": "il giorno festivo"
+  },
+  {
+    "de": "der Ersatztag",
+    "en": "day off in lieu",
+    "erk": "Ein freier Tag als Ausgleich, wenn ein Feiertag auf ein Wochenende fällt.",
+    "bsp": "Einen Ersatztag gibt es in diesem Jahr nicht.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "dita zëvendësuese e pushimit",
+    "tr": "telafi izin günü",
+    "uk": "компенсаційний вихідний",
+    "ar": "يوم عطلة بديل",
+    "fa": "روز تعطیل جایگزین",
+    "es": "el día libre compensatorio",
+    "fr": "le jour de congé compensatoire",
+    "it": "il giorno libero compensativo"
+  },
+  {
+    "de": "das Bürgerfest",
+    "en": "public festival, community festival",
+    "erk": "Ein großes, meist kostenloses Fest für alle Menschen einer Stadt.",
+    "bsp": "In Bremen findet das Bürgerfest zum Tag der Deutschen Einheit statt.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "festa e qytetarëve",
+    "tr": "halk festivali",
+    "uk": "міське свято для всіх жителів",
+    "ar": "مهرجان شعبي للمواطنين",
+    "fa": "جشن مردمی",
+    "es": "la fiesta ciudadana",
+    "fr": "la fête populaire",
+    "it": "la festa cittadina"
+  },
+  {
+    "de": "die Länderspielpause",
+    "en": "international break",
+    "erk": "Eine Zeit, in der die Ligen pausieren, weil die Nationalmannschaften spielen.",
+    "bsp": "Die Länderspielpause dauert fast drei Wochen.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "pushimi për ndeshjet e kombëtareve",
+    "tr": "milli maç arası",
+    "uk": "перерва на матчі збірних",
+    "ar": "فترة توقف المباريات الدولية",
+    "fa": "وقفه بازی‌های ملی",
+    "es": "el parón internacional",
+    "fr": "la trêve internationale",
+    "it": "la sosta per le nazionali"
+  },
+  {
+    "de": "das Rückspiel",
+    "en": "return leg, second leg",
+    "erk": "Das zweite Spiel zwischen denselben Teams, meist im Stadion des anderen Teams.",
+    "bsp": "Am Sonntag folgt das Rückspiel in Thessaloniki.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "ndeshja e kthimit",
+    "tr": "rövanş maçı",
+    "uk": "матч-відповідь",
+    "ar": "مباراة الإياب",
+    "fa": "بازی برگشت",
+    "es": "el partido de vuelta",
+    "fr": "le match retour",
+    "it": "la partita di ritorno"
+  },
+  {
+    "de": "ausverkauft",
+    "en": "sold out",
+    "erk": "Es gibt keine Karten oder Waren mehr zu kaufen.",
+    "bsp": "Das Stadion in Thessaloniki ist ausverkauft.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "i shitur krejtësisht",
+    "tr": "tükendi, biletler tükendi",
+    "uk": "розпродано",
+    "ar": "نفدت التذاكر، مباع بالكامل",
+    "fa": "فروخته‌شده، بلیت تمام شده",
+    "es": "agotado",
+    "fr": "complet, épuisé",
+    "it": "esaurito"
+  },
+  {
+    "de": "der Befreiungsschlag",
+    "en": "breakthrough, big relief",
+    "erk": "Ein Erfolg, der nach einer schwierigen Zeit viel Druck wegnimmt.",
+    "bsp": "Der Sieg gegen Serbien war für Klopp ein kleiner Befreiungsschlag.",
+    "dates": [
+      "2026-10-03"
+    ],
+    "sq": "çlirim nga presioni",
+    "tr": "rahatlatıcı atılım",
+    "uk": "прорив, що знімає тиск",
+    "ar": "انفراجة بعد فترة صعبة",
+    "fa": "رهایی از فشار",
+    "es": "el golpe liberador",
+    "fr": "le déclic libérateur",
+    "it": "la svolta liberatoria"
+  },
+  {
+    "de": "der Gasspeicher",
+    "en": "gas storage facility",
+    "erk": "Ein großer Behälter oder Hohlraum, in dem Gas für den Winter gelagert wird.",
+    "bsp": "Die Gasspeicher sind im Oktober nur zu 58 Prozent gefüllt.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "depozita e gazit",
+    "tr": "gaz deposu",
+    "uk": "газосховище",
+    "ar": "مخزن الغاز",
+    "fa": "مخزن گاز",
+    "es": "el almacén de gas",
+    "fr": "le stockage de gaz",
+    "it": "il deposito di gas"
+  },
+  {
+    "de": "die Heizperiode",
+    "en": "heating season",
+    "erk": "Die kalte Zeit im Jahr, in der man Wohnungen und Häuser heizt.",
+    "bsp": "Vor der Heizperiode will der Bund mehr Gas einlagern.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "sezoni i ngrohjes",
+    "tr": "ısınma sezonu",
+    "uk": "опалювальний сезон",
+    "ar": "موسم التدفئة",
+    "fa": "فصل گرمایش",
+    "es": "la temporada de calefacción",
+    "fr": "la saison de chauffage",
+    "it": "la stagione del riscaldamento"
+  },
+  {
+    "de": "beschaffen",
+    "en": "to procure, to obtain",
+    "erk": "Etwas besorgen, das man braucht, oft in größerer Menge.",
+    "bsp": "SEFE soll zusätzlich acht Terawattstunden Gas beschaffen.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "të sigurosh, të furnizosh",
+    "tr": "temin etmek",
+    "uk": "роздобувати, закуповувати",
+    "ar": "توفير، تأمين",
+    "fa": "تأمین کردن",
+    "es": "conseguir, adquirir",
+    "fr": "se procurer, acquérir",
+    "it": "procurare"
+  },
+  {
+    "de": "die Wiesn",
+    "en": "the Oktoberfest (Munich, colloquial)",
+    "erk": "Das Münchner Oktoberfest. So nennen es die Münchner.",
+    "bsp": "Heute geht die Wiesn zu Ende.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "Oktoberfesti i Mynihut",
+    "tr": "Münih Oktoberfest'i",
+    "uk": "Октоберфест (у Мюнхені)",
+    "ar": "مهرجان أكتوبر في ميونخ",
+    "fa": "جشن اکتبرفست مونیخ",
+    "es": "la Wiesn (Oktoberfest de Múnich)",
+    "fr": "la Wiesn (l'Oktoberfest de Munich)",
+    "it": "la Wiesn (l'Oktoberfest di Monaco)"
+  },
+  {
+    "de": "die Maß",
+    "en": "one-litre beer mug",
+    "erk": "Ein Bierkrug mit einem Liter Bier, typisch für Bayern.",
+    "bsp": "Eine Maß kostete zwischen 14,80 und 15,90 Euro.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "një krikë birre një litërshe",
+    "tr": "bir litrelik bira bardağı",
+    "uk": "літровий келих пива",
+    "ar": "كأس بيرة بسعة لتر",
+    "fa": "لیوان یک‌لیتری آبجو",
+    "es": "la jarra de un litro de cerveza",
+    "fr": "la chope d'un litre",
+    "it": "il boccale da un litro"
+  },
+  {
+    "de": "das Fundstück",
+    "en": "lost-and-found item",
+    "erk": "Ein Gegenstand, den jemand verloren und jemand anderes gefunden hat.",
+    "bsp": "Im Fundbüro wurden rund 4.000 Fundstücke registriert.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "send i gjetur",
+    "tr": "bulunan eşya",
+    "uk": "знайдена річ",
+    "ar": "غرض مفقود عُثر عليه",
+    "fa": "شیء پیدا شده",
+    "es": "el objeto encontrado",
+    "fr": "l'objet trouvé",
+    "it": "l'oggetto smarrito"
+  },
+  {
+    "de": "die Pole-Position",
+    "en": "pole position",
+    "erk": "Der beste Startplatz in einem Rennen, ganz vorne.",
+    "bsp": "Verstappen startete von der Pole-Position.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "pozicioni i parë në start",
+    "tr": "pole pozisyonu",
+    "uk": "поул-позиція",
+    "ar": "مركز الانطلاق الأول",
+    "fa": "جایگاه پول",
+    "es": "la pole position",
+    "fr": "la pole position",
+    "it": "la pole position"
+  },
+  {
+    "de": "die Aufholjagd",
+    "en": "comeback charge, catching up",
+    "erk": "Der Versuch, einen großen Rückstand schnell aufzuholen.",
+    "bsp": "Hamilton gelang eine starke Aufholjagd von Platz 18 aufs Podium.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "përpjekja për të shkurtuar diferencën",
+    "tr": "geriden dönüş",
+    "uk": "ривок для надолуження відставання",
+    "ar": "مطاردة لتعويض التأخر",
+    "fa": "تلاش برای جبران عقب‌ماندگی",
+    "es": "la remontada",
+    "fr": "la remontée",
+    "it": "la rimonta"
+  },
+  {
+    "de": "das Podium",
+    "en": "podium",
+    "erk": "Die drei besten Fahrer oder Teams stehen nach dem Rennen dort.",
+    "bsp": "Hamilton fuhr nach seiner Aufholjagd aufs Podium.",
+    "dates": [
+      "2026-10-04"
+    ],
+    "sq": "podiumi",
+    "tr": "podyum",
+    "uk": "подіум",
+    "ar": "منصة التتويج",
+    "fa": "سکوی قهرمانی",
+    "es": "el podio",
+    "fr": "le podium",
+    "it": "il podio"
   }
 ]

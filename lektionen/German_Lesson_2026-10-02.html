@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 2. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 2. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Commerzbank: 44 Prozent für UniCredit – und der Bund will Zusagen</h2>
+    <div class="card">
+      <p>Wie viel Kontrolle darf ein ausländischer Investor über eine deutsche Großbank bekommen? Diese Frage beschäftigt die Politik, seit die italienische UniCredit bei der Commerzbank eingestiegen ist. Nach dem Übernahmeangebot vom Sommer hält UniCredit direkt 26,77 Prozent der Aktien; zusammen mit den angedienten Aktien sind es 44,37 Prozent. Dazu kommen weitere 3,22 Prozent der Stimmrechte über Derivate. Damit steht UniCredit-Chef Andrea Orcel kurz vor der Hälfte.</p>
+      <p>Die Bundesregierung, mit 13,3 Prozent zweitgrößter Aktionär der Bank, will das nicht einfach hinnehmen. Sie verlangt schnelle Zusagen: Die Commerzbank soll börsennotiert bleiben, ihren Sitz in Frankfurt behalten, das Geschäft mit dem Mittelstand ausbauen und wichtige Entscheidungen in Deutschland treffen. Außerdem möchte der Bund seine zwei Sitze im Aufsichtsrat behalten. UniCredit antwortete, man begrüße den Dialog, lehne die Forderung nach Zusagen aber ab.</p>
+      <p>Orcel will die Übernahme im besten Fall im Januar 2027, spätestens Ende Februar abschließen. Er plant, den Aufsichtsrat neu zu besetzen und Vorstandschefin Bettina Orlopp abzulösen. Orlopp kontert: „Ich habe einen Vertrag bis 2029.“ Die Entscheidung der Europäischen Zentralbank wird noch im Oktober erwartet.</p>
+      <p>Die Debatte geht längst über den Einzelfall hinaus. Laut ARD-Tagesschau zeigen auch die Fälle Hugo Boss und ProSiebenSat.1, wie leicht Investoren in Deutschland ihren Anteil ausbauen können. Andere Länder setzen strengere Grenzen und schützen Minderheitsaktionäre besser. Ob Deutschland sein Übernahmerecht verschärft, ist offen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Übernahme <span class="rep">(Wiederholung)</span></td><td>takeover</td><td>Eine Firma kauft so viele Anteile einer anderen, dass sie sie kontrollieren kann.</td><td>UniCredit will die Übernahme der Commerzbank im Januar 2027 abschließen.</td></tr>
+        <tr><td>der Anteil <span class="rep">(Wiederholung)</span></td><td>share, stake, proportion</td><td>Der Teil eines Ganzen, z. B. einer Firma, der jemandem gehört.</td><td>Investoren können ihren Anteil an einer Firma oft leicht ausbauen.</td></tr>
+        <tr><td>die Zusage</td><td>commitment, promise</td><td>Ein festes Versprechen, etwas zu tun.</td><td>Die Bundesregierung verlangt schnelle Zusagen von UniCredit.</td></tr>
+        <tr><td>der Aktionär</td><td>shareholder</td><td>Eine Person oder Firma, der ein Teil einer Aktiengesellschaft gehört.</td><td>Der Bund ist mit 13,3 Prozent zweitgrößter Aktionär der Commerzbank.</td></tr>
+        <tr><td>der Aufsichtsrat</td><td>supervisory board</td><td>Ein Gremium, das den Vorstand einer Firma kontrolliert und berät.</td><td>Der Bund möchte seine zwei Sitze im Aufsichtsrat behalten.</td></tr>
+        <tr><td>hinnehmen</td><td>to accept, to put up with</td><td>Etwas akzeptieren, obwohl es einem nicht gefällt.</td><td>Die Regierung will die Entwicklung nicht einfach hinnehmen.</td></tr>
+        <tr><td>ablösen</td><td>to replace, to take over from</td><td>Jemanden in einer Position durch eine andere Person ersetzen.</td><td>Orcel plant, Vorstandschefin Bettina Orlopp abzulösen.</td></tr>
+        <tr><td>börsennotiert</td><td>listed on the stock exchange</td><td>Die Aktien der Firma werden an der Börse gehandelt.</td><td>Die Commerzbank soll börsennotiert bleiben.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„im besten Fall …, spätestens …“</b> — Nennt einen optimistischen und einen letzten möglichen Termin.<br><i>Orcel will im besten Fall im Januar, spätestens Ende Februar abschließen.</i></li>
+        <li><b>„etwas nicht einfach hinnehmen“</b> — Sagt, dass man etwas nicht still akzeptieren will.<br><i>Die Regierung will das nicht einfach hinnehmen.</i></li>
+        <li><b>„über den Einzelfall hinausgehen“</b> — Ein Thema betrifft mehr als nur ein Beispiel.<br><i>Die Debatte geht längst über den Einzelfall hinaus.</i></li>
+        <li><b>„kurz vor … stehen“</b> — Etwas ist fast erreicht.<br><i>UniCredit steht kurz vor der Hälfte der Aktien.</i></li>
+        <li><b>„Ob …, ist offen.“</b> — Höfliche Art zu sagen, dass noch nichts entschieden ist.<br><i>Ob Deutschland sein Übernahmerecht verschärft, ist offen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Vorgangspassiv mit „werden“:</b> „Die Entscheidung der EZB <i>wird</i> noch im Oktober <i>erwartet</i>.“ Das Passiv betont das Ergebnis, nicht die handelnde Person – typisch für Nachrichten. Typischer Fehler: „ist erwartet“ statt „wird erwartet“. Mit Modalverb: „Die Übernahme <i>kann</i> im Januar <i>abgeschlossen werden</i>.“</p></div>
+      <div class="grammar-block"><p><b>Konjunktiv I in der indirekten Rede:</b> „UniCredit antwortete, man <i>begrüße</i> den Dialog, <i>lehne</i> die Forderung aber <i>ab</i>.“ Zeitungen nutzen diese Form, um Aussagen anderer neutral wiederzugeben. Im Alltag reicht der Indikativ: „Sie sagt, sie begrüßt den Dialog.“ Für das Verstehen genügt es, Formen wie „begrüße“, „lehne“, „sei“ als Zitat zu erkennen.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viel Prozent der Commerzbank-Aktien hält UniCredit laut Text direkt?</li>
+          <li>Was verlangt die Bundesregierung von UniCredit?</li>
+          <li>Wie reagiert UniCredit auf die Forderung des Bundes?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz im Passiv mit „werden“ über eine Entscheidung, die bald erwartet wird.</li>
+          <li>Formuliere eine Forderung mit „verlangen, dass …“ (z. B. an eine Firma oder an den Staat).</li>
+          <li>Gib eine Aussage in indirekter Rede wieder, z. B.: Die Firma sagt: „Wir begrüßen das Gespräch.“</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Sollte der Staat bei wichtigen Banken und Firmen mitreden dürfen, wenn ein ausländischer Investor sie übernehmen will? Gib deine Meinung und nenne zwei Argumente.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quelle: ARD-Tagesschau, „Braucht Deutschland ein schärferes Übernahmerecht?“ (2. Oktober 2026, via newzs.de); Kreise-Meldung zu Forderungen des Bundes (29. September 2026, u. a. infranken.de); finanzen.net und Commerzbank-Pressemitteilung zum Ergebnis des UniCredit-Angebots (Juli 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

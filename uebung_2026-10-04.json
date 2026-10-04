@@ -1,0 +1,80 @@
+{
+ "mc": [
+  {
+   "q": "Wie hoch war der Füllstand der deutschen Gasspeicher am 2. Oktober?",
+   "o": [
+    "76 Prozent.",
+    "58 Prozent.",
+    "80 Prozent."
+   ],
+   "c": 1,
+   "why": "Am 2. Oktober lag der Füllstand bei 58 Prozent. 76 Prozent war der Wert vor einem Jahr zum gleichen Zeitpunkt, und 80 Prozent ist die Vorgabe für den 1. November."
+  },
+  {
+   "q": "Was soll das Unternehmen SEFE bis zum 15. Dezember tun?",
+   "o": [
+    "Zusätzlich acht Terawattstunden Gas beschaffen und einlagern.",
+    "Die Gaspreise für Haushalte um acht Prozent senken.",
+    "Acht neue LNG-Terminals bauen."
+   ],
+   "c": 0,
+   "why": "Das Wirtschaftsministerium hat SEFE beauftragt, zusätzlich acht Terawattstunden Gas zu beschaffen und einzulagern. Von Preissenkungen oder neuen LNG-Terminals steht nichts im Text."
+  },
+  {
+   "q": "Wie viele Gäste kamen laut Bilanz zur Wiesn 2026?",
+   "o": [
+    "6,7 Millionen.",
+    "447.000.",
+    "7,4 Millionen."
+   ],
+   "c": 2,
+   "why": "Die Bilanz nennt 7,4 Millionen Gäste. 6,7 Millionen ist die Zahl der getrunkenen Maß Festbier, und 447.000 Besucher zählte nur die Oide Wiesn."
+  },
+  {
+   "q": "Was berichtet die Bilanz über die Fundstücke?",
+   "o": [
+    "Es waren rund 4.000, etwa 12 Prozent mehr als 2025.",
+    "Es waren rund 4.000, etwa 12 Prozent weniger als 2025.",
+    "Es waren rund 40.000, darunter ein Akkordeon."
+   ],
+   "c": 1,
+   "why": "Im Fundbüro wurden rund 4.000 Fundstücke registriert, etwa 12 Prozent weniger als 2025. „Mehr“ widerspricht dem Text, und 40.000 steht nirgends; das Akkordeon war nur eines der Fundstücke."
+  },
+  {
+   "q": "Wer fuhr beim Grand Prix in Sepang als Dritter aufs Podium?",
+   "o": [
+    "Lewis Hamilton.",
+    "George Russell.",
+    "Kimi Antonelli."
+   ],
+   "c": 0,
+   "why": "Hamilton wurde nach seiner Aufholjagd von Platz 18 Dritter. Russell lag zwar lange auf Platz drei, fiel aber fünf Runden vor dem Ende aus, und Antonelli wurde Zweiter."
+  },
+  {
+   "q": "Was gilt für Alexander Zverev in Peking?",
+   "o": [
+    "Er verlor im Achtelfinale gegen Shang Juncheng.",
+    "Er trifft im Viertelfinale auf Jannik Sinner.",
+    "Er spielt im Viertelfinale gegen Novak Djokovic."
+   ],
+   "c": 2,
+   "why": "Zverev gewann im Achtelfinale 6:0 und 6:3 gegen Shang Juncheng, nun wartet Djokovic. Sinner fehlt wegen Knieproblemen."
+  }
+ ],
+ "schreib": [
+  "Die Chefin sagte, die Firma <b>habe</b> genug Aufträge und der Standort <b>sei</b> sicher. <span class=\"hint\">Typischer Fehler: „die Firma hat genug Aufträge“ im Zeitungsstil. Im Gespräch ist aber auch „dass“ + Indikativ völlig in Ordnung.</span>",
+  "<b>Unter der Woche</b> gehe ich nach der Arbeit schwimmen, am Wochenende koche ich lieber mit Freunden. <span class=\"hint\">Nicht „in der Woche“ und nicht „unter Woche“: Es heißt „unter der Woche“.</span>",
+  "Die Firma muss schnell neue Ersatzteile <b>beschaffen</b>, sonst steht die Produktion still. <span class=\"hint\">Mit Modalverb steht „beschaffen“ im Infinitiv am Ende; im Perfekt heißt es „hat beschafft“ (ohne „ge-“).</span>",
+  "Das Rennen <b>war</b> verrückt. Es <b>regnete</b> stark, und Hamilton <b>fiel</b> auf Platz 18 zurück. <span class=\"hint\">„war“ und „hatte“ nimmt man auch im Gespräch im Präteritum; bei „regnen“ und „fallen“ klingt das Perfekt im Alltag natürlicher.</span>"
+ ],
+ "sprech": {
+  "phrases": [
+   "Bei uns in … gibt es ein großes Fest, das …",
+   "Typisch sind dort …, und eine Portion kostet etwa …",
+   "Ich gehe eher unter der Woche hin, weil …",
+   "Der Andrang ist am Wochenende so groß, dass …",
+   "Mir gefällt (nicht), dass …"
+  ],
+  "modell": "In meiner Heimatstadt gibt es jedes Jahr im Sommer ein großes Stadtfest, das ein bisschen wie die <b>Wiesn</b> ist. Dort isst man Gegrilltes und trinkt Limonade oder Bier, und eine Portion kostet etwa zehn Euro. Ich gehe eher <b>unter der Woche</b> hin, weil dann weniger los ist. Am Wochenende ist der <b>Andrang</b> so groß, dass man lange warten muss. Mir gefällt, dass dort alle Generationen zusammen feiern."
+ }
+}

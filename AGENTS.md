@@ -22,16 +22,16 @@ The end goal (not yet fully reached — see Gaps below): every lesson page
 should let a student read the text *and* do an exercise with instant
 feedback, not just read.
 
-## Status snapshot (2026-09-30)
+## Status snapshot (2026-10-04)
 
-- 73 lessons exist (2026-07-09 → 2026-09-30), all as HTML in `lektionen/`.
+- 77 lessons exist (2026-07-09 → 2026-10-04), all as HTML in `lektionen/`.
   The first 14 (07-09 → 07-23) started as plain `.md` and were backfilled
   into the standard HTML lesson format by `convert_md_lessons.py` — see
   Build pipeline. Both the `.md` source and the generated `.html` are kept.
-- **20 lessons** (2026-09-10 → 2026-09-30) have a real exercise
+- **24 lessons** (2026-09-10 → 2026-10-04) have a real exercise
   (multiple-choice + a "Lösungen" answers tab). The other 53 have five tabs
   but no graded exercise — see Gaps.
-- `vocab.json` has 531 entries. Six target languages cover all 73 lessons;
+- `vocab.json` has 565 entries. Six target languages cover all 77 lessons;
   Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
   forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
   entries with merged date arrays.
@@ -156,8 +156,8 @@ very next build with no extra step.
 
 ```
 lektionen/                      all source lesson files, see below
-vocab.json                      master dictionary: vocab from all 73 lessons
-uebung_YYYY-MM-DD.json          exercise content for one lesson (20 exist so far)
+vocab.json                      master dictionary: vocab from all 77 lessons
+uebung_YYYY-MM-DD.json          exercise content for one lesson (24 exist so far)
 build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the four scripts below
 build_dict.py                   generates website/woerterbuch.html from vocab.json
 patch_vocab_lang.py             injects the language dropdown into each lesson's vocab table (mutates website/*.html)
@@ -347,10 +347,10 @@ Design prompt; keep both in sync if either changes.)
 
 Roughly in priority order for reaching the "read + do an exercise" goal:
 
-1. **53 of 71 lessons have no exercise.** Only 2026-09-10 through 2026-09-28
+1. **53 of 77 lessons have no exercise.** Only 2026-09-10 through 2026-10-04
    have a `uebung_*.json`. Backfilling older lessons (or accepting that
    exercises start from Sep 10 onward) is an open decision, not made yet.
-2. **519 existing vocab translations are unreviewed machine output.**
+2. **565 existing vocab translations are unreviewed machine output.**
    `PROMPTS.md`'s ChatGPT prompt does a first pass in batches of 30-50; real
    reliability needs a native speaker per language, which hasn't happened yet.
 3. **No automated verification.** Testing is manual: open the generated file

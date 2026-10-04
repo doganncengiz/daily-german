@@ -1,0 +1,80 @@
+{
+ "mc": [
+  {
+   "q": "Um wie viel Prozent lagen die Verbraucherpreise im September über dem Vorjahresmonat?",
+   "o": [
+    "2,4 Prozent.",
+    "3,3 Prozent.",
+    "3,7 Prozent."
+   ],
+   "c": 1,
+   "why": "Die Verbraucherpreise lagen 3,3 Prozent über dem Vorjahresmonat. 2,4 Prozent ist die Kerninflation ohne Energie und Nahrungsmittel; 3,7 Prozent war die Rate im Dezember 2023."
+  },
+  {
+   "q": "Was ändert sich seit dem 1. Oktober an der Tankstelle?",
+   "o": [
+    "Die Mehrwertsteuer auf Lebensmittel sinkt.",
+    "Der Staat zahlt Haushalten direkt 17 Euro aus.",
+    "Die Energiesteuer auf Benzin und Diesel sinkt bis Jahresende."
+   ],
+   "c": 2,
+   "why": "Der Tankrabatt senkt bis zum 31. Dezember die Energiesteuer auf Benzin und Diesel (rund 17 Cent pro Liter inklusive Mehrwertsteuer). Von Lebensmitteln ist keine Rede, und Direktzahlungen nennt der Text nur als Vorschlag von Marcel Fratzscher."
+  },
+  {
+   "q": "Was gilt laut Text, wenn ein Feiertag wie der 3. Oktober auf einen Samstag fällt?",
+   "o": [
+    "Es gibt keinen freien Ersatztag.",
+    "Der Feiertag wird auf Montag verschoben.",
+    "Die Supermärkte dürfen trotzdem öffnen."
+   ],
+   "c": 0,
+   "why": "Der Text sagt ausdrücklich: Einen Ersatztag gibt es nicht. Verschoben wird der Feiertag nicht, und Supermärkte, Discounter, Drogerien und Baumärkte bleiben bundesweit geschlossen."
+  },
+  {
+   "q": "Warum findet die zentrale Einheitsfeier in diesem Jahr in Bremen statt?",
+   "o": [
+    "In Berlin sitzt die Regierung, deshalb wird dort nicht gefeiert.",
+    "In Bremen wurde 1990 die Einheit unterschrieben.",
+    "Bremen hat derzeit den Vorsitz im Bundesrat."
+   ],
+   "c": 2,
+   "why": "Der Text nennt als Grund den Vorsitz im Bundesrat. Die Aussage zur Unterschrift 1990 steht nirgends im Text, und von Berlin ist in diesem Zusammenhang nicht die Rede."
+  },
+  {
+   "q": "Wer erzielte in der 39. Minute gegen Serbien das 1:0?",
+   "o": [
+    "Dimitrios Kourbelis.",
+    "Tom Bischof.",
+    "Florian Wirtz."
+   ],
+   "c": 1,
+   "why": "Tom Bischof traf in der 39. Minute. Florian Wirtz erhöhte erst in der 61. Minute auf 2:0, und Dimitrios Kourbelis schoss in Augsburg das Tor für Griechenland (74. Minute)."
+  },
+  {
+   "q": "Was gilt für das Rückspiel in Thessaloniki?",
+   "o": [
+    "Das Stadion ist ausverkauft und hat 28.000 Plätze.",
+    "Das Spiel beginnt am Samstagnachmittag.",
+    "Deutschland führt die Gruppe mit sieben Punkten an."
+   ],
+   "c": 0,
+   "why": "Das Stadion mit 28.000 Plätzen ist ausverkauft. Das Spiel ist am Sonntag um 20:45 Uhr, und Griechenland (nicht Deutschland) führt die Gruppe mit sieben Punkten an; Deutschland hat vier."
+  }
+ ],
+ "schreib": [
+  "Die Mieten sind in diesem Jahr <b>um</b> fünf Prozent <b>gestiegen</b>. <span class=\"hint\">Typischer Fehler: „auf fünf Prozent“ — das wäre der Endwert, nicht die Veränderung.</span>",
+  "In Deutschland sind die Läden am Feiertag zu, <b>weil</b> der Gesetzgeber den Ruhetag schützen <b>will</b>. <span class=\"hint\">Typischer Fehler: „weil der Gesetzgeber will den Ruhetag schützen“ — das Verb gehört ans Ende.</span>",
+  "Der Händler will die höheren Einkaufspreise nicht an die Kunden <b>weitergeben</b>. <span class=\"hint\">„weitergeben“ ist trennbar: im Hauptsatz „gibt … weiter“, im Nebensatz „weitergibt“.</span>",
+  "Der Pokalsieg war für den Verein ein echter <b>Befreiungsschlag</b> nach einer schwachen Saison. <span class=\"hint\">Der Artikel ist maskulin: „der Befreiungsschlag“, nicht „die“.</span>"
+ ],
+ "sprech": {
+  "phrases": [
+   "Bei uns in … ist es so, dass …",
+   "Wenn ein Feiertag auf ein Wochenende fällt, dann …",
+   "Es gibt (keinen) Ersatztag, aber …",
+   "Typisch ist, dass die Geschäfte … und die Menschen …",
+   "Ich finde das (nicht) sinnvoll, weil …"
+  ],
+  "modell": "In meinem Heimatland ist es oft so, dass ein Feiertag am Wochenende einfach verfällt – einen <b>Ersatztag</b> gibt es nur selten, so wie in Deutschland. Am Feiertag sind die großen Geschäfte oft <b>geschlossen</b>, aber Cafés und Restaurants haben geöffnet. Typisch ist, dass die Familien zusammen frühstücken und danach ein <b>Bürgerfest</b> in der Stadt besuchen. Ich finde das sinnvoll, weil der Tag dann wirklich ein gemeinsamer Tag für alle bleibt."
+ }
+}

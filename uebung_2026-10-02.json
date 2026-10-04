@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie viel Prozent der Commerzbank-Aktien hält UniCredit laut Text direkt?",
+      "o": [
+        "44,37 Prozent, weil auch die angedienten Aktien schon mitgezählt sind.",
+        "26,77 Prozent der Aktien.",
+        "13,3 Prozent, genauso viel wie der Bund."
+      ],
+      "c": 1,
+      "why": "UniCredit hält direkt <b>26,77 Prozent</b>. Die 44,37 Prozent ergeben sich erst zusammen mit den angedienten Aktien, und 13,3 Prozent gehören dem Bund."
+    },
+    {
+      "q": "Was verlangt die Bundesregierung von UniCredit?",
+      "o": [
+        "UniCredit soll seine Aktien an den Bund verkaufen.",
+        "Die Commerzbank soll künftig nicht mehr an der Börse gehandelt werden.",
+        "Die Commerzbank soll in Frankfurt bleiben und das Geschäft mit dem Mittelstand ausbauen."
+      ],
+      "c": 2,
+      "why": "Der Bund verlangt, dass die Bank <b>börsennotiert bleibt</b>, ihren <b>Sitz in Frankfurt</b> behält und den <b>Mittelstand</b> stärker bedient. Von einem Verkauf der Aktien oder einem Börsenrückzug steht nichts im Text."
+    },
+    {
+      "q": "Wie reagiert UniCredit auf die Forderung des Bundes?",
+      "o": [
+        "Sie begrüßt den Dialog, lehnt die Forderung nach Zusagen aber ab.",
+        "Sie sagt dem Bund alle Zusagen sofort zu.",
+        "Sie lehnt jedes Gespräch mit der Regierung ab."
+      ],
+      "c": 0,
+      "why": "UniCredit sagt, man <b>begrüße den Dialog</b>, lehne die Forderung nach <b>Zusagen</b> aber ab. Sie verweigert also die Zusagen, nicht das Gespräch."
+    }
+  ],
+  "schreib": [
+    "<b>Wenn</b> die Entscheidung der EZB im Oktober <b>erwartet wird</b>, kann die Übernahme im Januar 2027 <b>abgeschlossen werden</b>.<span class=\"hint\"> Passiv mit „werden“: „erwartet wird“, „abgeschlossen werden“ – nicht „ist erwartet“.</span>",
+    "Die Regierung <b>verlangt</b> von UniCredit, dass die Commerzbank <b>börsennotiert bleibt</b>.<span class=\"hint\"> Nach „verlangen, dass“ steht das Verb am Satzende; „bleiben“ trennt sich nicht vom Prädikativ „börsennotiert“.</span>",
+    "UniCredit sagt, man <b>begrüße</b> den Dialog, <b>lehne</b> die Forderung aber <b>ab</b>.<span class=\"hint\"> Konjunktiv I (begrüße, lehne … ab) kommt vor allem in Zeitungstexten vor; im Gespräch sagt man meist: „Sie sagt, sie begrüßt den Dialog …“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich finde, dass … / Meiner Meinung nach …",
+      "Das lässt sich nicht einfach hinnehmen, weil …",
+      "Auf der einen Seite …, auf der anderen Seite …",
+      "Ich kann beide Seiten verstehen, aber …",
+      "Ob das klappt, ist noch offen."
+    ],
+    "modell": "„<b>Ich finde, dass</b> der Bund ein berechtigtes Interesse hat: Die Commerzbank ist wichtig für den <b>Mittelstand</b>, und viele Firmen sind auf ihre Kredite angewiesen. <b>Auf der einen Seite</b> ist ein offener Markt gut, <b>auf der anderen Seite</b> darf man eine Großbank nicht einfach <b>hinnehmen</b> wie jede andere Firma. <b>Ich kann beide Seiten verstehen, aber</b> ohne klare <b>Zusagen</b> wären die Arbeitsplätze in Frankfurt gefährdet. <b>Ob das klappt, ist noch offen</b> – ich bin gespannt auf die Entscheidung der EZB.“"
+  }
+}

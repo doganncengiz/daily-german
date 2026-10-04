@@ -328,6 +328,34 @@
     "2026-10-01-0.mp3": {
       "fingerprint": "c4e31411adfe650a30eeee3c5ad3af7a48a18087b9739ad586464db00b02862c",
       "voice": "thorsten-high"
+    },
+    "2026-10-02-0.mp3": {
+      "fingerprint": "c2b7295500de92fe788d83a6b1043c395efd842777f2300cc52cc753e553f054",
+      "voice": "thorsten-high"
+    },
+    "2026-10-03-0.mp3": {
+      "fingerprint": "7bc6afb2265cfbd671444f345195248cd4d7c6f2ce3bdc0d4c62ae3d95f8cb11",
+      "voice": "thorsten-high"
+    },
+    "2026-10-03-1.mp3": {
+      "fingerprint": "61fb561e4d47f4c74e25c6586acda0ba8a4ca2a3d6d9ee6afbe5f68a152edb17",
+      "voice": "thorsten-high"
+    },
+    "2026-10-03-2.mp3": {
+      "fingerprint": "dc69af5a7de3d265e08a79416b6b12b10ce8b0ccf80f6c6e3bb5216ee13318a9",
+      "voice": "thorsten-high"
+    },
+    "2026-10-04-0.mp3": {
+      "fingerprint": "6c0b6d8d60d4cf61c8c52ec62f6dcd11db6680c3b3fdadee273f9b6daf6a6ab3",
+      "voice": "thorsten-high"
+    },
+    "2026-10-04-1.mp3": {
+      "fingerprint": "4aa3753f5bfec27ab800ba5c677b5908e8c9127c7dfdbb205dc01b9a92adfa80",
+      "voice": "thorsten-high"
+    },
+    "2026-10-04-2.mp3": {
+      "fingerprint": "eecd20a5660fb25552c304e611cbcbea33621c6eb82b25d4e3b7c2124471fb71",
+      "voice": "thorsten-high"
     }
   }
 }

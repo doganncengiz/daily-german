@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie viel Prozent der Fernzüge waren im September pünktlich?",
+      "o": [
+        "54,2 Prozent, so viele wie im August.",
+        "52,4 Prozent der Züge.",
+        "58,6 Prozent, weil auch ausgefallene Züge mitgezählt werden."
+      ],
+      "c": 1,
+      "why": "Im September waren <b>52,4 Prozent</b> pünktlich. 54,2 Prozent war der Wert im August, und 58,6 Prozent ist die Zahl für die Fahrgäste (Verspätung unter 15 Minuten, Ausfälle eingerechnet)."
+    },
+    {
+      "q": "Welches Ziel hatte sich Bahnchefin Palla für 2026 gesetzt?",
+      "o": [
+        "58,6 Prozent der Reisenden sollen weniger als 15 Minuten zu spät kommen.",
+        "Die Strecke zwischen Hannover und Berlin soll schon Ende 2026 saniert sein.",
+        "Im Fernverkehr sollten mindestens 60 Prozent der Züge pünktlich sein."
+      ],
+      "c": 2,
+      "why": "Palla wollte für 2026 <b>mindestens 60 Prozent</b> Pünktlichkeit im Fernverkehr. 58,6 Prozent ist ein gemessener Wert, und die Sanierung der Strecke dauert bis <b>Mitte Dezember 2027</b>."
+    },
+    {
+      "q": "Was bedeuten die Bauarbeiten zwischen Hannover und Berlin für die Reisenden?",
+      "o": [
+        "Die Fernzüge fahren über Braunschweig und Magdeburg, die Fahrt dauert 60 bis 80 Minuten länger.",
+        "Die Züge fahren über Wolfsburg, müssen dort aber langsamer fahren.",
+        "Die Strecke ist nur am Wochenende bis Dezember 2026 gesperrt."
+      ],
+      "c": 0,
+      "why": "Die Fernzüge nehmen die <b>Umleitung über Braunschweig und Magdeburg</b> und brauchen <b>60 bis 80 Minuten</b> länger. Voll gesperrt ist in der ersten Bauphase nur der östliche Abschnitt bis <b>12. Dezember 2026</b>; die Arbeiten auf der gesamten Achse dauern bis Dezember <b>2027</b>."
+    }
+  ],
+  "schreib": [
+    "Als pünktlich <b>gilt</b> ein Zug, <b>wenn</b> er weniger als sechs Minuten Verspätung <b>hat</b>.<span class=\"hint\"> Nach „wenn“ steht das Verb am Ende („hat“); davor „gelten als + Adjektiv“ – nicht „gelten wie“.</span>",
+    "<b>Seit</b> drei Wochen <b>fahre</b> ich mit dem Zug zur Arbeit.<span class=\"hint\"> Bei „seit“ steht das Präsens, nicht das Perfekt („bin gefahren“), weil die Situation noch andauert.</span>",
+    "Mein Zug hatte Verspätung, <b>weil</b> es eine Störung an der Strecke <b>gab</b>.<span class=\"hint\"> Nach „weil“ kommt das konjugierte Verb ans Ende – nicht „weil es gab eine Störung“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich fahre meistens mit … / Ich komme meistens mit … zur Arbeit.",
+      "Einmal habe ich wegen einer Verspätung … verpasst.",
+      "Seitdem plane ich immer einen Puffer ein.",
+      "Das hat mich viel Zeit und Nerven gekostet.",
+      "Beim nächsten Mal werde ich …"
+    ],
+    "modell": "„Ich fahre meistens mit dem Zug zur Arbeit. Einmal hatte mein Zug wegen einer <b>Störung</b> 40 Minuten <b>Verspätung</b>, und mein <b>Anschluss</b> war weg. Ich habe den Termin mit einem Kunden verpasst – das war mir sehr unangenehm. <b>Seitdem</b> plane ich bei wichtigen Terminen immer einen <b>Puffer</b> ein und fahre einen Zug früher. Bei einer <b>Umleitung</b> verlängert sich die <b>Fahrzeit</b> ja schnell, und die <b>Pünktlichkeit</b> ist leider nicht mehr, was sie mal war. <b>Beim nächsten Mal</b> schaue ich außerdem vorher in die App.“"
+  }
+}

@@ -3982,13 +3982,17 @@
     "erk": "Ein Problem, das den normalen Betrieb unterbricht.",
     "bsp": "Wegen einer technischen Störung hält der Zug hier länger.",
     "dates": [
-      "2026-09-16"
+      "2026-09-16",
+      "2026-10-05"
     ],
     "sq": "defekti, ndërprerja",
     "tr": "aksaklık, arıza",
     "uk": "збій, несправність",
     "ar": "خلل، اضطراب",
-    "fa": "اختلال، خرابی"
+    "fa": "اختلال، خرابی",
+    "es": "la avería",
+    "fr": "la perturbation",
+    "it": "il guasto"
   },
   {
     "de": "strukturierte Daten",
@@ -4291,7 +4295,8 @@
     "bsp": "Die Umleitung kostet uns etwa 40 Minuten.",
     "dates": [
       "2026-09-16",
-      "2026-09-20"
+      "2026-09-20",
+      "2026-10-05"
     ],
     "sq": "devijimi i rrugës",
     "tr": "güzergâh değişikliği, servis yolu",
@@ -8567,5 +8572,107 @@
     "es": "el podio",
     "fr": "le podium",
     "it": "il podio"
+  },
+  {
+    "de": "die Pünktlichkeit",
+    "en": "punctuality",
+    "erk": "Das Ergebnis: Wie oft kommt ein Zug rechtzeitig an?",
+    "bsp": "Im September lag die Pünktlichkeit im Fernverkehr bei 52,4 Prozent.",
+    "dates": [
+      "2026-10-05"
+    ],
+    "sq": "punktualiteti",
+    "tr": "dakiklik",
+    "uk": "пунктуальність",
+    "ar": "الالتزام بالمواعيد",
+    "fa": "وقت‌شناسی",
+    "es": "la puntualidad",
+    "fr": "la ponctualité",
+    "it": "la puntualità"
+  },
+  {
+    "de": "der Fernverkehr",
+    "en": "long-distance (rail) services",
+    "erk": "Züge wie ICE und IC, die zwischen großen Städten fahren.",
+    "bsp": "Im Fernverkehr hatte die Bahn 2026 nur im Frühjahr mehr als 60 Prozent.",
+    "dates": [
+      "2026-10-05"
+    ],
+    "sq": "transporti në distanca të gjata",
+    "tr": "uzun mesafe ulaşımı",
+    "uk": "далеке сполучення",
+    "ar": "النقل لمسافات طويلة",
+    "fa": "حمل‌ونقل راه دور",
+    "es": "el tráfico de larga distancia",
+    "fr": "le trafic grandes lignes",
+    "it": "il traffico a lunga percorrenza"
+  },
+  {
+    "de": "die Vollsperrung",
+    "en": "full closure",
+    "erk": "Eine Strecke oder Straße ist komplett gesperrt, niemand kann sie benutzen.",
+    "bsp": "Der östliche Abschnitt ist bis 12. Dezember vollständig gesperrt.",
+    "dates": [
+      "2026-10-05"
+    ],
+    "sq": "mbyllje e plotë",
+    "tr": "tam kapama",
+    "uk": "повне закриття",
+    "ar": "إغلاق كامل",
+    "fa": "بسته‌شدن کامل",
+    "es": "el cierre total",
+    "fr": "la fermeture totale",
+    "it": "la chiusura totale"
+  },
+  {
+    "de": "der Fahrgast",
+    "en": "passenger",
+    "erk": "Eine Person, die mit Bus oder Bahn fährt.",
+    "bsp": "Für Fahrgäste wird es jetzt noch schwieriger.",
+    "dates": [
+      "2026-10-05"
+    ],
+    "sq": "pasagjeri",
+    "tr": "yolcu",
+    "uk": "пасажир",
+    "ar": "الراكب",
+    "fa": "مسافر",
+    "es": "el pasajero",
+    "fr": "le passager",
+    "it": "il passeggero"
+  },
+  {
+    "de": "die Fahrzeit",
+    "en": "travel time, journey time",
+    "erk": "So lange dauert die Fahrt von A nach B.",
+    "bsp": "Die Umleitung verlängert die Fahrzeit um 60 bis 80 Minuten.",
+    "dates": [
+      "2026-10-05"
+    ],
+    "sq": "koha e udhëtimit",
+    "tr": "yolculuk süresi",
+    "uk": "час у дорозі",
+    "ar": "مدة الرحلة",
+    "fa": "مدت سفر",
+    "es": "la duración del viaje",
+    "fr": "la durée du trajet",
+    "it": "la durata del viaggio"
+  },
+  {
+    "de": "verlängern",
+    "en": "to extend, to lengthen",
+    "erk": "Etwas länger machen, als es vorher war.",
+    "bsp": "Die Baustelle verlängert meinen Arbeitsweg jeden Tag um eine halbe Stunde.",
+    "dates": [
+      "2026-10-05"
+    ],
+    "sq": "zgjat",
+    "tr": "uzatmak",
+    "uk": "подовжувати",
+    "ar": "يطيل، يمدّد",
+    "fa": "طولانی‌تر کردن",
+    "es": "alargar",
+    "fr": "allonger",
+    "it": "allungare"
   }
 ]

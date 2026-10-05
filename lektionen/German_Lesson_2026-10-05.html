@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 5. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 5. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">52,4 Prozent: Die Bahn bleibt unpünktlich – und Hannover–Berlin wird umgeleitet</h2>
+    <div class="card">
+      <p>Wer in Deutschland regelmäßig mit dem Zug fährt, kennt das Gefühl: Der Anschluss ist weg, auf der Anzeige steht „+15“. Die neuen Zahlen bestätigen den Eindruck. Im September war die Pünktlichkeit im Fernverkehr mit 52,4 Prozent weiter niedrig. Im August waren es 54,2 Prozent, im September 2025 noch 55,3 Prozent. Als pünktlich gilt ein Zug, wenn er weniger als sechs Minuten Verspätung hat. Nur im Januar war der Wert mit 52,1 Prozent noch schlechter.</p>
+      <p>Bahnchefin Evelyn Palla hatte sich für 2026 mindestens 60 Prozent vorgenommen. Über diese Marke kam die Bahn nur im März, April und Mai. Dass das Jahresziel noch erreicht wird, gilt inzwischen als unrealistisch. Als Gründe nennt das Unternehmen viele Baustellen und zahlreiche Störungen an der Infrastruktur. Zwischen Berlin und Wolfsburg müssen Züge langsamer fahren, weil die Gleise in schlechtem Zustand sind.</p>
+      <p>Für Fahrgäste wird es jetzt noch schwieriger: Seit Freitag laufen umfangreiche Bauarbeiten auf der Verbindung Hannover–Berlin. In der ersten Bauphase ist der östliche Abschnitt zwischen Fallersleben und Berlin-Spandau bis 12. Dezember 2026 vollständig gesperrt. Fernzüge werden über Braunschweig und Magdeburg umgeleitet; dadurch verlängert sich die Fahrzeit um 60 bis 80 Minuten. Die Arbeiten auf der gesamten Achse sollen bis Dezember 2027 dauern. Rechnet man ausgefallene Züge mit, erreichten im September nur 58,6 Prozent der Reisenden ihr Ziel mit weniger als 15 Minuten Verspätung. Unser Tipp: Plane bei wichtigen Terminen einen Puffer ein.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Umleitung <span class="rep">(Wiederholung)</span></td><td>diversion, detour</td><td>Ein anderer Weg, weil die normale Strecke gesperrt ist.</td><td>Die Umleitung führt über Braunschweig und Magdeburg.</td></tr>
+        <tr><td>die Störung <span class="rep">(Wiederholung)</span></td><td>disruption, malfunction</td><td>Ein Problem, das den normalen Betrieb unterbricht.</td><td>Viele Störungen an der Infrastruktur belasten den Bahnverkehr.</td></tr>
+        <tr><td>die Pünktlichkeit</td><td>punctuality</td><td>Das Ergebnis: Wie oft kommt ein Zug rechtzeitig an?</td><td>Im September lag die Pünktlichkeit im Fernverkehr bei 52,4 Prozent.</td></tr>
+        <tr><td>der Fernverkehr</td><td>long-distance (rail) services</td><td>Züge wie ICE und IC, die zwischen großen Städten fahren.</td><td>Im Fernverkehr hatte die Bahn 2026 nur im Frühjahr mehr als 60 Prozent.</td></tr>
+        <tr><td>die Vollsperrung</td><td>full closure</td><td>Eine Strecke oder Straße ist komplett gesperrt, niemand kann sie benutzen.</td><td>Der östliche Abschnitt ist bis 12. Dezember vollständig gesperrt.</td></tr>
+        <tr><td>der Fahrgast</td><td>passenger</td><td>Eine Person, die mit Bus oder Bahn fährt.</td><td>Für Fahrgäste wird es jetzt noch schwieriger.</td></tr>
+        <tr><td>die Fahrzeit</td><td>travel time, journey time</td><td>So lange dauert die Fahrt von A nach B.</td><td>Die Umleitung verlängert die Fahrzeit um 60 bis 80 Minuten.</td></tr>
+        <tr><td>verlängern</td><td>to extend, to lengthen</td><td>Etwas länger machen, als es vorher war.</td><td>Die Baustelle verlängert meinen Arbeitsweg jeden Tag um eine halbe Stunde.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„auf niedrigem Niveau verharren“</b> — Ein Wert bleibt schlecht und ändert sich kaum.<br><i>Die Pünktlichkeit verharrt auf niedrigem Niveau.</i></li>
+        <li><b>„etwas gilt als unrealistisch“</b> — Man glaubt nicht mehr, dass etwas klappt.<br><i>Das Jahresziel gilt inzwischen als unrealistisch.</i></li>
+        <li><b>„einen Puffer einplanen“</b> — Extra Zeit mitrechnen, falls etwas schiefgeht.<br><i>Plane bei wichtigen Terminen einen Puffer ein.</i></li>
+        <li><b>„Der Anschluss ist weg.“</b> — Man hat den Anschlusszug oder -bus verpasst.<br><i>Wegen der Verspätung ist mein Anschluss weg.</i></li>
+        <li><b>„mit … Minuten Verspätung ankommen“</b> — Sagt, wie spät ein Zug oder eine Person ist.<br><i>Der ICE kam mit 20 Minuten Verspätung in Berlin an.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„weil“ und „wenn“ – das Verb geht ans Ende:</b> „Züge müssen langsamer fahren, <i>weil</i> die Gleise in schlechtem Zustand <i>sind</i>.“ – „Als pünktlich gilt ein Zug, <i>wenn</i> er weniger als sechs Minuten Verspätung <i>hat</i>.“ Typischer Fehler: das Verb bleibt an zweiter Stelle („weil die Gleise sind in schlechtem Zustand“). Tipp: Nach „weil“ und „wenn“ kommt das konjugierte Verb ganz hinten. Auch „Als pünktlich gilt …“ ist ein häufiges Muster: „gelten als + Adjektiv“.</p></div>
+      <div class="grammar-block"><p><b>„seit“ + Präsens:</b> „<i>Seit</i> Freitag <i>gilt</i> eine Vollsperrung.“ Wenn etwas früher begonnen hat und jetzt noch andauert, steht im Deutschen das Präsens, nicht das Perfekt. Typischer Fehler: „Seit Freitag hat eine Vollsperrung gegolten.“ Richtig: „Seit zwei Wochen fahre ich mit dem Zug zur Arbeit.“ Außerdem: „noch + Komparativ“ verstärkt einen Vergleich – „Im Januar war der Wert noch schlechter.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viel Prozent der Fernzüge waren im September pünktlich?</li>
+          <li>Welches Ziel hatte sich Bahnchefin Palla für 2026 gesetzt?</li>
+          <li>Was bedeuten die Bauarbeiten zwischen Hannover und Berlin für die Reisenden?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Erkläre mit „Als … gilt … , wenn …“, wann etwas als gut oder schlecht gilt (z. B. ein Zug gilt als pünktlich).</li>
+          <li>Schreibe einen Satz mit „seit“ und Präsens über etwas, das bei dir schon länger so ist.</li>
+          <li>Begründe mit „weil“, warum ein Zug oder Bus bei dir Verspätung hatte.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Wie kommst du zur Arbeit oder zum Deutschkurs? Hast du schon einmal wegen einer Verspätung einen Termin verpasst? Erzähle, was passiert ist, und sage, was du beim nächsten Mal anders machst.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: Deutsche Bahn, „Pünktlichkeitswerte für den September 2026“ (2. Oktober 2026) und „Korridorsanierung Lehrte–Berlin: Ab Oktober startet erste Phase der Bauarbeiten“ (30. Juni 2026); Handelsblatt, „Deutsche Bahn: Pünktlichkeit der Fernzüge verharrt auf niedrigem Niveau“ (3. Oktober 2026).</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

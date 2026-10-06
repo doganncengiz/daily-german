@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 7. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 7. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Auslagern oder selbst machen? Eine Schneiderei prüft ihren Versand</h2>
+    <div class="card">
+      <p>Sabine Weber, Inhaberin einer kleinen Schneiderei in Köln, steht vor einer schwierigen Entscheidung. Bisher verpackt und verschickt ihr Team jede Bestellung selbst. Das kostet erheblich Zeit: Jeden Tag gehen viele Stunden für Etiketten, Kartons und den Gang zur Post drauf. Gleichzeitig kommen immer mehr Online-Bestellungen, sodass die Arbeit im Lager jede Woche mehr wird. Deshalb überlegt Weber, den Versand auszulagern.</p>
+      <p>Zurzeit sieht sie sich nach einem Partner um, der sich auf den Versand von Textilien spezialisiert hat. Ob sich das rechnet, weiß sie noch nicht. Am Anfang würde es sogar mehr kosten. Aber ihr Team könnte sich auf die wichtigen Aufgaben konzentrieren, nämlich auf das Nähen und die Beratung. Außerdem könnte sie ihr Angebot erweitern, zum Beispiel mit einem Änderungsservice für Kunden. Reklamationen gibt es bisher so gut wie keine, und das soll auch so bleiben.</p>
+      <p>Auch die Mitarbeiterinnen aus der Versandabteilung fragen sich, wie sich die Änderung auf ihre Arbeit auswirkt. Weber will bei allen Gesprächen Rücksicht auf ihre Wünsche nehmen und ihnen neue Aufgaben anbieten, etwa im Kundenservice. „Ich habe völlig unterschätzt, wie schwer so eine Entscheidung ist“, sagt sie. Sie hat dem Team ein Treffen versprochen, bei dem alle Fragen offen besprochen werden können. Unser Tipp: Schreibe Vor- und Nachteile auf, bevor du entscheidest.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>sich auswirken auf <span class="rep">(Wiederholung)</span></td><td>to affect, to have an impact on</td><td>Etwas hat eine Folge für etwas anderes.</td><td>Die Änderung wirkt sich auf die Arbeit im Versand aus.</td></tr>
+        <tr><td>sich konzentrieren auf <span class="rep">(Wiederholung)</span></td><td>to concentrate on, to focus on</td><td>Seine ganze Aufmerksamkeit auf eine Sache richten.</td><td>Das Team kann sich auf das Nähen und die Beratung konzentrieren.</td></tr>
+        <tr><td>sich umsehen nach</td><td>to look around for, to search for</td><td>Aktiv nach etwas Passendem suchen.</td><td>Wir sehen uns nach einer günstigen Wohnung um.</td></tr>
+        <tr><td>auslagern</td><td>to outsource</td><td>Eine Aufgabe von einer anderen Firma machen lassen.</td><td>Die Schneiderei will den Versand an einen Partner auslagern.</td></tr>
+        <tr><td>sich spezialisieren auf</td><td>to specialize in</td><td>Sich in einem Bereich besonders gut auskennen und vor allem das machen.</td><td>Der Partner hat sich auf den Versand von Textilien spezialisiert.</td></tr>
+        <tr><td>sich rechnen</td><td>to pay off, to be worthwhile</td><td>Sich finanziell lohnen.</td><td>Rechnet sich die Auslagerung wirklich?</td></tr>
+        <tr><td>erweitern</td><td>to expand</td><td>Etwas größer machen oder mehr davon anbieten.</td><td>Wir können unser Angebot um einen Änderungsservice erweitern.</td></tr>
+        <tr><td>Rücksicht nehmen auf</td><td>to be considerate of</td><td>Auf die Wünsche oder Probleme anderer achten.</td><td>Ich nehme Rücksicht auf deine Wünsche.</td></tr>
+        <tr><td>erheblich</td><td>considerable, substantial</td><td>Ziemlich groß oder viel, nicht wenig.</td><td>Der Versand kostet erheblich Zeit.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„so gut wie kein-“</b> — Fast nichts, praktisch null.<br><i>Wir haben so gut wie keine Reklamationen.</i></li>
+        <li><b>„Rechnet sich das?“</b> — Lohnt sich das finanziell? Funktioniert das wirtschaftlich?<br><i>Rechnet sich eine eigene Lagerhalle für uns?</i></li>
+        <li><b>„Ich habe völlig unterschätzt, wie …“</b> — Etwas war schwerer oder größer, als man dachte.<br><i>Ich habe völlig unterschätzt, wie viel Arbeit das ist.</i></li>
+        <li><b>„Ich bin der Meinung / Ansicht / Auffassung, dass …“</b> — So sagt man höflich und klar seine Meinung.<br><i>Ich bin der Ansicht, dass die Auslagerung sinnvoll ist.</i></li>
+        <li><b>„Ich bin gespannt auf eure Kommentare.“</b> — Ein freundlicher Schlusssatz in einer Mail an Kolleginnen und Kollegen.<br><i>Ich bin gespannt auf eure Kommentare zum Vorschlag.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Reflexive Verben mit fester Präposition:</b> „sich spezialisieren <i>auf</i> + Akkusativ“, „sich konzentrieren <i>auf</i> + Akkusativ“, „sich auswirken <i>auf</i> + Akkusativ“, „sich umsehen <i>nach</i> + Dativ“. Lerne das Verb immer mit der Präposition. Typischer Fehler: „sich spezialisieren in“ oder „sich konzentrieren zu“. Außerdem: „umsehen“ ist trennbar – „Ich sehe mich nach einer Nähmaschine <i>um</i>.“ Das Reflexivpronomen (mich, sich, uns) steht direkt nach dem Verb.</p></div>
+      <div class="grammar-block"><p><b>Konjunktiv II für Pläne und Möglichkeiten:</b> „Ihr Team <i>könnte</i> sich konzentrieren.“ – „Am Anfang <i>würde</i> es mehr kosten.“ Wer eine Entscheidung noch abwägt, benutzt „könnte“, „würde“, „wäre“ statt des Indikativs. Das klingt vorsichtig und höflich. Typischer Fehler: Man nimmt „wird“ („Es wird mehr kosten“) – dann klingt es wie eine feste Tatsache. Tipp: Für Vermutungen und Vorschläge „würde + Infinitiv“; bei „sein“, „haben“ und den Modalverben die eigene Form: „wäre“, „hätte“, „könnte“.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Warum überlegt Sabine Weber, den Versand auszulagern?</li>
+          <li>Was erwartet Weber von der Auslagerung?</li>
+          <li>Wie will Weber mit den Mitarbeiterinnen aus dem Versand umgehen?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „sich spezialisieren auf“ über dich, eine Kollegin oder eine Firma.</li>
+          <li>Schreibe mit „sich umsehen nach“ einen Satz darüber, wonach du gerade suchst (z. B. Wohnung, Job, Kurs).</li>
+          <li>Schreibe mit „sich auswirken auf“ einen Satz darüber, was sich positiv auf dein Deutschlernen auswirkt.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, du leitest eine kleine Firma. Welche Aufgabe würdest du auslagern, und welche nicht? Nenne mindestens einen Vorteil und ein Risiko.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Grundlage: Kursnotizen BSK70 vom 1. und 5. Oktober 2026 (Wortschatz und Redemittel aus dem Unterricht). Die Schneiderei Weber ist ein frei erfundenes Fallbeispiel; alle Angaben sind illustrativ.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

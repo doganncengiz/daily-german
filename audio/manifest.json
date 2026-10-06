@@ -360,6 +360,14 @@
     "2026-10-05-0.mp3": {
       "fingerprint": "3f79019ac20276055d1a8409cab1e9db2c7f3ec46888f9b728b51088f463b7a7",
       "voice": "thorsten-high"
+    },
+    "2026-10-06-0.mp3": {
+      "fingerprint": "64d4456415949a4ec3ae617ec7d8acf748326081465341944453f4e3721e407e",
+      "voice": "thorsten-high"
+    },
+    "2026-10-07-0.mp3": {
+      "fingerprint": "cb306aa327d2fe8ed16cff195a96e896b15b01225ce600e5298da02fcc933a2a",
+      "voice": "thorsten-high"
     }
   }
 }

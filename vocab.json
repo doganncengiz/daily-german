@@ -3411,13 +3411,17 @@
       "2026-08-18",
       "2026-09-10",
       "2026-09-11",
-      "2026-09-12"
+      "2026-09-12",
+      "2026-10-07"
     ],
     "sq": "të ndikojë në",
     "tr": "-i etkilemek",
     "uk": "впливати на",
     "ar": "يؤثّر على",
-    "fa": "تأثیر گذاشتن بر"
+    "fa": "تأثیر گذاشتن بر",
+    "es": "afectar a, repercutir en",
+    "fr": "avoir des répercussions sur",
+    "it": "ripercuotersi su"
   },
   {
     "de": "sich auszahlen",
@@ -5150,13 +5154,17 @@
     "dates": [
       "2026-07-09",
       "2026-07-10",
-      "2026-07-13"
+      "2026-07-13",
+      "2026-10-07"
     ],
     "sq": "të përqendrohesh te",
     "tr": "odaklanmak",
     "uk": "зосереджуватися на",
     "ar": "يركّز على",
-    "fa": "تمرکز کردن روی"
+    "fa": "تمرکز کردن روی",
+    "es": "concentrarse en",
+    "fr": "se concentrer sur",
+    "it": "concentrarsi su"
   },
   {
     "de": "wechseln (zu)",
@@ -8778,5 +8786,124 @@
     "es": "investigación del cerebro",
     "fr": "recherche sur le cerveau",
     "it": "ricerca sul cervello"
+  },
+  {
+    "de": "sich umsehen nach",
+    "en": "to look around for, to search for",
+    "erk": "Aktiv nach etwas Passendem suchen.",
+    "bsp": "Wir sehen uns nach einer günstigen Wohnung um.",
+    "dates": [
+      "2026-10-07"
+    ],
+    "sq": "kërkoj, shoh përreth për",
+    "tr": "aramak, etrafa bakınmak",
+    "uk": "розглядатися в пошуках",
+    "ar": "يبحث عن",
+    "fa": "دنبال چیزی گشتن",
+    "es": "buscar, echar un vistazo en busca de",
+    "fr": "chercher, se mettre en quête de",
+    "it": "cercare, guardarsi attorno per"
+  },
+  {
+    "de": "auslagern",
+    "en": "to outsource",
+    "erk": "Eine Aufgabe von einer anderen Firma machen lassen.",
+    "bsp": "Die Schneiderei will den Versand an einen Partner auslagern.",
+    "dates": [
+      "2026-10-07"
+    ],
+    "sq": "jashtësoj (shërbim)",
+    "tr": "dış kaynak kullanmak",
+    "uk": "передавати на аутсорсинг",
+    "ar": "يُسنِد إلى جهة خارجية",
+    "fa": "برون‌سپاری کردن",
+    "es": "externalizar",
+    "fr": "externaliser",
+    "it": "esternalizzare"
+  },
+  {
+    "de": "sich spezialisieren auf",
+    "en": "to specialize in",
+    "erk": "Sich in einem Bereich besonders gut auskennen und vor allem das machen.",
+    "bsp": "Der Partner hat sich auf den Versand von Textilien spezialisiert.",
+    "dates": [
+      "2026-10-07"
+    ],
+    "sq": "specializohem në",
+    "tr": "uzmanlaşmak",
+    "uk": "спеціалізуватися на",
+    "ar": "يتخصص في",
+    "fa": "تخصص پیدا کردن در",
+    "es": "especializarse en",
+    "fr": "se spécialiser dans",
+    "it": "specializzarsi in"
+  },
+  {
+    "de": "sich rechnen",
+    "en": "to pay off, to be worthwhile",
+    "erk": "Sich finanziell lohnen.",
+    "bsp": "Rechnet sich die Auslagerung wirklich?",
+    "dates": [
+      "2026-10-07"
+    ],
+    "sq": "ia vlen, është fitimprurëse",
+    "tr": "kârlı olmak, değmek",
+    "uk": "окупатися",
+    "ar": "يكون مجدياً مادياً",
+    "fa": "به‌صرفه بودن",
+    "es": "ser rentable",
+    "fr": "être rentable",
+    "it": "essere conveniente"
+  },
+  {
+    "de": "erweitern",
+    "en": "to expand",
+    "erk": "Etwas größer machen oder mehr davon anbieten.",
+    "bsp": "Wir können unser Angebot um einen Änderungsservice erweitern.",
+    "dates": [
+      "2026-10-07"
+    ],
+    "sq": "zgjeroj",
+    "tr": "genişletmek",
+    "uk": "розширювати",
+    "ar": "يوسّع",
+    "fa": "گسترش دادن",
+    "es": "ampliar",
+    "fr": "élargir",
+    "it": "ampliare"
+  },
+  {
+    "de": "Rücksicht nehmen auf",
+    "en": "to be considerate of",
+    "erk": "Auf die Wünsche oder Probleme anderer achten.",
+    "bsp": "Ich nehme Rücksicht auf deine Wünsche.",
+    "dates": [
+      "2026-10-07"
+    ],
+    "sq": "marr parasysh",
+    "tr": "saygı göstermek, göz önünde bulundurmak",
+    "uk": "зважати на",
+    "ar": "يراعي",
+    "fa": "ملاحظه کردن",
+    "es": "tener consideración con",
+    "fr": "tenir compte de",
+    "it": "avere riguardo per"
+  },
+  {
+    "de": "erheblich",
+    "en": "considerable, substantial",
+    "erk": "Ziemlich groß oder viel, nicht wenig.",
+    "bsp": "Der Versand kostet erheblich Zeit.",
+    "dates": [
+      "2026-10-07"
+    ],
+    "sq": "i konsiderueshëm",
+    "tr": "önemli ölçüde",
+    "uk": "значний",
+    "ar": "كبير، ملحوظ",
+    "fa": "قابل‌توجه، چشمگیر",
+    "es": "considerable",
+    "fr": "considérable",
+    "it": "considerevole"
   }
 ]

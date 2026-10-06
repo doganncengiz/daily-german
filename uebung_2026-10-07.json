@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Warum überlegt Sabine Weber, den Versand auszulagern?",
+      "o": [
+        "Das Verpacken und Verschicken kostet ihr Team erheblich viel Zeit.",
+        "Es gibt sehr viele Reklamationen von unzufriedenen Kunden.",
+        "Die Kunden wünschen sich einen Änderungsservice."
+      ],
+      "c": 0,
+      "why": "Der Grund ist der <b>Zeitaufwand</b>: viele Stunden pro Tag für Etiketten, Kartons und die Post. Reklamationen gibt es <b>so gut wie keine</b>, und der Änderungsservice ist nur eine Idee für später, kein Grund für die Auslagerung."
+    },
+    {
+      "q": "Was erwartet Weber von der Auslagerung?",
+      "o": [
+        "Sie spart sofort Geld und hat kein Risiko.",
+        "Die Mitarbeiterinnen aus dem Versand verlieren sicher ihre Arbeit.",
+        "Das Team kann sich auf Nähen und Beratung konzentrieren, und sie kann das Angebot erweitern."
+      ],
+      "c": 2,
+      "why": "Weber sieht die Chance, sich auf <b>Nähen und Beratung</b> zu konzentrieren und das Angebot zu <b>erweitern</b>. Sparen kann sie am Anfang nicht – es würde sogar <b>mehr kosten</b> –, und von Entlassungen steht nichts im Text: Sie will neue Aufgaben anbieten."
+    },
+    {
+      "q": "Wie will Weber mit den Mitarbeiterinnen aus dem Versand umgehen?",
+      "o": [
+        "Sie entscheidet allein und informiert die Mitarbeiterinnen erst später.",
+        "Sie will Rücksicht auf ihre Wünsche nehmen und ihnen neue Aufgaben anbieten.",
+        "Sie lässt den neuen Partner mit den Mitarbeiterinnen sprechen."
+      ],
+      "c": 1,
+      "why": "Weber will <b>bei allen Gesprächen Rücksicht auf die Wünsche</b> nehmen und zum Beispiel Aufgaben im Kundenservice anbieten. Die Gespräche führt sie selbst – nicht der Partner –, und sie entscheidet nicht allein ohne Information."
+    }
+  ],
+  "schreib": [
+    "Meine Kollegin hat sich <b>auf</b> Steuerrecht <b>spezialisiert</b>.<span class=\"hint\"> „sich spezialisieren auf“ + Akkusativ – nicht „in“ oder „für“; im Perfekt: „hat sich … spezialisiert“.</span>",
+    "Ich <b>sehe mich</b> gerade <b>nach</b> einem neuen Deutschkurs <b>um</b>.<span class=\"hint\"> „umsehen“ ist trennbar: „um“ steht am Satzende; „nach“ + Dativ. Nicht vergessen: „mich“.</span>",
+    "Regelmäßiges Üben <b>wirkt sich</b> positiv <b>auf</b> mein Deutsch <b>aus</b>.<span class=\"hint\"> „sich auswirken auf“ ist trennbar („aus“ am Ende) und braucht Akkusativ – nicht „Das auswirkt auf …“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich würde … auslagern, weil …",
+      "Ein Vorteil wäre, dass …",
+      "Das Risiko ist, dass …",
+      "Ich bin der Ansicht, dass sich das rechnet / nicht rechnet.",
+      "Ich würde aber Rücksicht auf … nehmen."
+    ],
+    "modell": "„Wenn ich eine kleine Firma leiten würde, würde ich den Versand und das Lager <b>auslagern</b>. Ein Vorteil wäre, dass sich mein Team auf die wichtigen Aufgaben <b>konzentrieren</b> könnte. Außerdem könnte ich mein Angebot <b>erweitern</b>. Das Risiko ist, dass es am Anfang <b>erheblich</b> mehr kostet und sich vielleicht nicht gleich <b>rechnet</b>. Ich würde mich deshalb zuerst nach einem Partner <b>umsehen</b>, der sich auf diesen Bereich <b>spezialisiert</b> hat. Die Buchhaltung würde ich aber behalten, weil das sehr sensibel ist. Und ich würde <b>Rücksicht</b> auf die Wünsche der Mitarbeiter <b>nehmen</b>, bevor ich etwas ändere.“"
+  }
+}

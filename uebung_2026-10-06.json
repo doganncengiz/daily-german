@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wer bekommt den Medizin-Nobelpreis 2026?",
+      "o": [
+        "Nur Karl Deisseroth von der Stanford University.",
+        "Zwei Forscher aus Berlin und Würzburg, ohne weitere Preisträger.",
+        "Peter Hegemann, Georg Nagel und Karl Deisseroth."
+      ],
+      "c": 2,
+      "why": "Der Preis geht an <b>drei</b> Forscher: die beiden Deutschen Hegemann (Berlin) und Nagel (Würzburg) <b>sowie</b> den US-Amerikaner Deisseroth (Stanford). Deisseroth ist also nicht allein, und die beiden Deutschen sind nicht die einzigen Preisträger."
+    },
+    {
+      "q": "Was ist Kanalrhodopsin?",
+      "o": [
+        "Ein Protein aus einer einzelligen Alge, das auf blaues Licht reagiert.",
+        "Ein Medikament, das Nervenzellen im Gehirn von Mäusen heilt.",
+        "Ein Gerät, mit dem Forscher Hirnströme messen."
+      ],
+      "c": 0,
+      "why": "Hegemann und Nagel entdeckten Kanalrhodopsin als <b>Protein aus einer Alge</b>; bei blauem Licht öffnet sich ein Kanal. Ein Medikament oder ein Messgerät ist es nicht – nur Deisseroths Methode wurde 2007 bei Mäusen eingesetzt."
+    },
+    {
+      "q": "Wie weit ist die Optogenetik bei der Behandlung von Patienten?",
+      "o": [
+        "Sie wird schon seit Jahren in jeder Klinik gegen Sehbehinderungen eingesetzt.",
+        "Therapien werden getestet, aber bis zur Anwendung bei Patienten ist es noch ein weiter Weg.",
+        "Sie wird nur in der Hirnforschung bei Mäusen benutzt, Therapien sind nicht geplant."
+      ],
+      "c": 1,
+      "why": "Der Text sagt: Therapien <b>werden getestet</b>, aber es ist <b>noch ein weiter Weg</b> bis zu Patienten. Eine breite Anwendung in Kliniken gibt es also noch nicht, und Therapien sind sehr wohl in Planung (z. B. gegen Sehbehinderungen)."
+    }
+  ],
+  "schreib": [
+    "Das Forscherteam <b>wird</b> mit einem internationalen Preis <b>ausgezeichnet</b>.<span class=\"hint\"> Passiv: „werden“ steht an Position 2, das Partizip „ausgezeichnet“ am Satzende – nicht „hat ausgezeichnet“.</span>",
+    "Mit dieser App <b>lassen sich</b> Termine einfach online <b>buchen</b>.<span class=\"hint\"> „sich lassen“ + Infinitiv am Satzende; das „sich“ nicht vergessen – nicht „Termine lassen buchen“.</span>",
+    "Meine Kollegin, <b>die</b> seit drei Jahren im Vertrieb <b>arbeitet</b>, spricht fünf Sprachen.<span class=\"hint\"> Komma vor und nach dem Relativsatz; „die“ (feminin) und das Verb am Ende – nicht „das“ oder „arbeitet im Vertrieb seit …“ hinten.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Für meinen Alltag ist … am wichtigsten.",
+      "Ohne … könnte ich nicht …",
+      "Das hat mein Leben/meine Arbeit sehr verändert.",
+      "Das gilt heute als selbstverständlich.",
+      "Früher war es ein weiter Weg bis …, heute …"
+    ],
+    "modell": "„Für meinen Alltag ist das Smartphone die wichtigste <b>Entdeckung</b> – oder besser gesagt: Erfindung. Damit <b>lassen sich</b> fast alle Dinge erledigen: Termine buchen, Nachrichten lesen, Rechnungen bezahlen. Heute <b>gilt</b> das als selbstverständlich, aber früher war es ein <b>weiter Weg</b> bis dahin. Ohne mein Handy müsste ich für jede Kleinigkeit zur Behörde oder zur Bank fahren. Die <b>Hirnforschung</b> finde ich ebenfalls spannend, weil sie zeigt, wie unsere <b>Nervenzellen</b> funktionieren – dafür werden die Forscher völlig zu Recht <b>ausgezeichnet</b>.“"
+  }
+}

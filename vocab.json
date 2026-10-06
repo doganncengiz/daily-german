@@ -1915,7 +1915,8 @@
     "bsp": "Bayern gilt als klarer Favorit auf die Meisterschaft.",
     "dates": [
       "2026-08-11",
-      "2026-09-20"
+      "2026-09-20",
+      "2026-10-06"
     ],
     "sq": "të konsiderohet si",
     "tr": "olarak görülmek, sayılmak",
@@ -7759,7 +7760,8 @@
     "erk": "Jemandem einen Preis geben, weil er etwas Besonderes geleistet hat.",
     "bsp": "İlkay Gündoğan wird in Istanbul mit einem Preis für Toleranz ausgezeichnet.",
     "dates": [
-      "2026-09-28"
+      "2026-09-28",
+      "2026-10-06"
     ],
     "sq": "të nderojë (me çmim)",
     "tr": "ödüllendirmek",
@@ -8674,5 +8676,107 @@
     "es": "alargar",
     "fr": "allonger",
     "it": "allungare"
+  },
+  {
+    "de": "die Entdeckung",
+    "en": "discovery",
+    "erk": "Man findet etwas, das vorher niemand kannte.",
+    "bsp": "Die Entdeckung von Kanalrhodopsin war ein Durchbruch.",
+    "dates": [
+      "2026-10-06"
+    ],
+    "sq": "zbulim",
+    "tr": "keşif",
+    "uk": "відкриття",
+    "ar": "اكتشاف",
+    "fa": "کشف",
+    "es": "descubrimiento",
+    "fr": "découverte",
+    "it": "scoperta"
+  },
+  {
+    "de": "verkünden",
+    "en": "to announce",
+    "erk": "Etwas offiziell und öffentlich bekannt geben.",
+    "bsp": "Das Karolinska-Institut verkündete die Preisträger am Montag.",
+    "dates": [
+      "2026-10-06"
+    ],
+    "sq": "shpall",
+    "tr": "duyurmak",
+    "uk": "оголошувати",
+    "ar": "يعلن",
+    "fa": "اعلام کردن",
+    "es": "anunciar",
+    "fr": "annoncer",
+    "it": "annunciare"
+  },
+  {
+    "de": "das Preisgeld",
+    "en": "prize money",
+    "erk": "Das Geld, das man mit einem Preis bekommt.",
+    "bsp": "Das Preisgeld beträgt 12 Millionen schwedische Kronen.",
+    "dates": [
+      "2026-10-06"
+    ],
+    "sq": "shuma e çmimit",
+    "tr": "ödül parası",
+    "uk": "грошова премія",
+    "ar": "مبلغ الجائزة",
+    "fa": "مبلغ جایزه",
+    "es": "dinero del premio",
+    "fr": "somme du prix",
+    "it": "montepremi"
+  },
+  {
+    "de": "die Nervenzelle",
+    "en": "nerve cell, neuron",
+    "erk": "Eine Zelle im Gehirn, die Signale weitergibt.",
+    "bsp": "Im Gehirn arbeiten Milliarden von Nervenzellen zusammen.",
+    "dates": [
+      "2026-10-06"
+    ],
+    "sq": "qelizë nervore",
+    "tr": "sinir hücresi",
+    "uk": "нервова клітина",
+    "ar": "خلية عصبية",
+    "fa": "سلول عصبی",
+    "es": "célula nerviosa",
+    "fr": "cellule nerveuse",
+    "it": "cellula nervosa"
+  },
+  {
+    "de": "gezielt",
+    "en": "targeted, deliberate",
+    "erk": "Mit einem klaren Ziel, nicht zufällig.",
+    "bsp": "Mit Licht lassen sich einzelne Zellen gezielt aktivieren.",
+    "dates": [
+      "2026-10-06"
+    ],
+    "sq": "i synuar",
+    "tr": "hedefli",
+    "uk": "цілеспрямований",
+    "ar": "موجَّه، مقصود",
+    "fa": "هدفمند",
+    "es": "dirigido, selectivo",
+    "fr": "ciblé",
+    "it": "mirato"
+  },
+  {
+    "de": "die Hirnforschung",
+    "en": "brain research",
+    "erk": "Die Wissenschaft, die untersucht, wie das Gehirn funktioniert.",
+    "bsp": "In der Hirnforschung ist Licht heute ein wichtiges Werkzeug.",
+    "dates": [
+      "2026-10-06"
+    ],
+    "sq": "kërkimi mbi trurin",
+    "tr": "beyin araştırması",
+    "uk": "дослідження мозку",
+    "ar": "أبحاث الدماغ",
+    "fa": "پژوهش مغز",
+    "es": "investigación del cerebro",
+    "fr": "recherche sur le cerveau",
+    "it": "ricerca sul cervello"
   }
 ]

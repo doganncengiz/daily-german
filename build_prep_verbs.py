@@ -22,6 +22,29 @@ filter_options = "\n".join(
 prep_answers = list(dict.fromkeys(entry["prep"] for entry in entries))
 payload = json.dumps(entries, ensure_ascii=False, separators=(",", ":"))
 
+# Same 9 languages / shared "dg-lang" localStorage key as woerterbuch.html and
+# every lesson's vocab table (see build_dict.py's LANGS) — keeps a student's
+# language choice consistent across the whole site. Translations beyond "en"
+# are filled in gradually (see PROMPTS.md); missing ones fall back to English
+# in the page's own JS, so the page is correct even before every entry has
+# all 9 languages.
+LANGS = [
+    ("en", "English", 0),
+    ("tr", "Türkçe", 0),
+    ("sq", "Shqip", 0),
+    ("uk", "Українська", 0),
+    ("ar", "العربية", 1),
+    ("fa", "فارسی", 1),
+    ("es", "Español", 0),
+    ("fr", "Français", 0),
+    ("it", "Italiano", 0),
+]
+lang_options = "\n".join(
+    f'<option value="{code}"{" selected" if code == "en" else ""}>{native}</option>'
+    for code, native, _ in LANGS
+)
+rtl_langs = json.dumps([code for code, _, rtl in LANGS if rtl])
+
 template = r'''<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -76,6 +99,7 @@ template = r'''<!DOCTYPE html>
   .prep-pill{flex:0 0 auto;background:#fff;border:1px solid #c9dce3;color:var(--blue);
     border-radius:999px;padding:5px 9px;font-size:.75rem;font-weight:750;white-space:nowrap;}
   .meaning{font-size:.9rem;color:var(--blue);font-weight:650;margin:0 0 12px;}
+  .meaning[dir="rtl"],.explanation[dir="rtl"],.question-meaning[dir="rtl"]{text-align:right;}
   .forms{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;}
   .form{background:rgba(255,255,255,.64);border-radius:10px;padding:8px 10px;min-width:0;}
   .form small{display:block;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
@@ -134,10 +158,13 @@ template = r'''<!DOCTYPE html>
 
   <section id="reference" class="view active">
     <div class="controls">
-      <input id="search" type="search" placeholder="Verb oder englische Bedeutung suchen …" autocomplete="off">
+      <input id="search" type="search" placeholder="Verb oder Bedeutung suchen …" autocomplete="off">
       <select id="prepFilter" aria-label="Nach Präposition filtern">
         <option value="">Alle Präpositionen</option>
 __FILTER_OPTIONS__
+      </select>
+      <select id="langSelect" aria-label="Sprache der Bedeutung">
+__LANG_OPTIONS__
       </select>
     </div>
     <p class="count" id="count"></p>
@@ -148,23 +175,32 @@ __FILTER_OPTIONS__
     <div class="game-shell" id="gameBox"></div>
   </section>
 
-  <p class="note">Grundlage: „Preposition mit Verben.xlsx“. Die englischen Bedeutungen und Erklärungen stammen aus der Tabelle. Die Beispielsätze wurden auf genau drei pro Verbindung vereinheitlicht und teilweise sprachlich bereinigt.</p>
+  <p class="note">Grundlage: „Preposition mit Verben.xlsx“. Die Beispielsätze wurden auf genau drei pro Verbindung vereinheitlicht und teilweise sprachlich bereinigt. Bedeutung und Erklärung gibt es bisher auf Englisch vollständig; weitere Sprachen werden ergänzt — ohne Übersetzung wird automatisch Englisch angezeigt.</p>
 </main>
 
 <script>
 const DATA = __DATA__;
 const PREP_ANSWERS = __PREP_ANSWERS__;
 const PREP_ORDER = __PREP_ORDER__;
+const RTL_LANGS = __RTL_LANGS__;
 const BEST_KEY = "dg-prep-best";
+const LANG_KEY = "dg-lang";
 const groupsEl = document.getElementById("groups");
 const searchEl = document.getElementById("search");
 const prepFilterEl = document.getElementById("prepFilter");
+const langSelectEl = document.getElementById("langSelect");
 const countEl = document.getElementById("count");
 const gameBox = document.getElementById("gameBox");
 
 function esc(value){return String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);}
 function shuffle(items){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function currentLang(){return langSelectEl.value||"en";}
+// Translations are filled in gradually (see PROMPTS.md) — fall back to
+// English for any entry that doesn't have the selected language yet.
+function localized(entry,field){const lang=currentLang();return entry[field][lang]||entry[field].en;}
+function rtlAttr(){return RTL_LANGS.includes(currentLang())?' dir="rtl"':"";}
 
+try{const saved=localStorage.getItem(LANG_KEY);if(saved)langSelectEl.value=saved;}catch(e){}
 document.querySelectorAll("[data-view]").forEach(button => button.addEventListener("click", () => {
   document.querySelectorAll("[data-view]").forEach(b => b.classList.toggle("active", b===button));
   document.querySelectorAll(".view").forEach(view => view.classList.toggle("active", view.id===button.dataset.view));
@@ -173,43 +209,75 @@ document.querySelectorAll("[data-view]").forEach(button => button.addEventListen
 function card(entry){
   return `<article class="verb-card">
     <div class="verb-top"><div class="verb-name">${esc(entry.verb)}</div><span class="prep-pill">${esc(entry.prep)}</span></div>
-    <p class="meaning">${esc(entry.meaning_en)}</p>
+    <p class="meaning"${rtlAttr()}>${esc(localized(entry,"meaning"))}</p>
     <div class="forms"><div class="form"><small>Präteritum</small><span>${esc(entry.praeteritum)}</span></div><div class="form"><small>Perfekt</small><span>${esc(entry.perfekt)}</span></div></div>
-    <details><summary>Erklärung und 3 Beispiele</summary><p class="explanation">${esc(entry.explanation_en)}</p><ol class="examples">${entry.examples.map(x=>`<li>${esc(x)}</li>`).join("")}</ol></details>
+    <details><summary>Erklärung und 3 Beispiele</summary><p class="explanation"${rtlAttr()}>${esc(localized(entry,"explanation"))}</p><ol class="examples">${entry.examples.map(x=>`<li>${esc(x)}</li>`).join("")}</ol></details>
   </article>`;
 }
 
 function renderReference(){
   const term=searchEl.value.trim().toLocaleLowerCase("de");
   const prep=prepFilterEl.value;
-  const hits=DATA.filter(entry => (!prep || entry.preposition===prep) && (!term || [entry.verb,entry.prep,entry.meaning_en,entry.explanation_en,...entry.examples].some(value=>value.toLocaleLowerCase("de").includes(term))));
+  const hits=DATA.filter(entry => (!prep || entry.preposition===prep) && (!term || [entry.verb,entry.prep,localized(entry,"meaning"),localized(entry,"explanation"),...entry.examples].some(value=>value.toLocaleLowerCase("de").includes(term))));
   countEl.textContent=term||prep ? `${hits.length} von ${DATA.length} Verbindungen` : `${DATA.length} Verbindungen insgesamt`;
   const sections=PREP_ORDER.map(name=>[name,hits.filter(entry=>entry.preposition===name)]).filter(([,items])=>items.length);
   groupsEl.innerHTML=sections.length ? sections.map(([name,items])=>`<section class="group"><div class="group-head"><h2>${esc(name)}</h2><span>${items.length} Verbindungen</span></div><div class="verb-grid">${items.map(card).join("")}</div></section>`).join("") : `<div class="empty">Keine Treffer.</div>`;
 }
+langSelectEl.addEventListener("change",()=>{try{localStorage.setItem(LANG_KEY,langSelectEl.value);}catch(e){}renderReference();});
 searchEl.addEventListener("input",renderReference);
 prepFilterEl.addEventListener("change",renderReference);
 renderReference();
 
-let questions=[];let questionIndex=0;let score=0;let streak=0;let answered=false;
+const STREAK_KEY="dg-prep-best-streak";
+const MISTAKES_KEY="dg-prep-mistakes";
+let questions=[];let questionIndex=0;let score=0;let streak=0;let peakStreak=0;let answered=false;
 function getBest(){try{return Number(localStorage.getItem(BEST_KEY)||0);}catch(e){return 0;}}
 function saveBest(value){try{localStorage.setItem(BEST_KEY,String(value));}catch(e){}}
+function getBestStreak(){try{return Number(localStorage.getItem(STREAK_KEY)||0);}catch(e){return 0;}}
+function saveBestStreak(value){try{localStorage.setItem(STREAK_KEY,String(value));}catch(e){}}
+function entryKey(entry){return entry.verb+"|"+entry.prep;}
+function loadMistakes(){try{return JSON.parse(localStorage.getItem(MISTAKES_KEY)||"{}");}catch(e){return {};}}
+function saveMistakes(map){try{localStorage.setItem(MISTAKES_KEY,JSON.stringify(map));}catch(e){}}
+function recordAnswer(entry,wasCorrect){
+  const mistakes=loadMistakes();const key=entryKey(entry);
+  const current=mistakes[key]||0;
+  mistakes[key]=wasCorrect?Math.max(0,Math.floor(current/2)):current+1;
+  saveMistakes(mistakes);
+}
+// Verben mit mehr vergangenen Fehlern erscheinen häufiger (einfache Spaced Repetition).
+function weightedSample(items,weights,count){
+  const pool=items.map((item,i)=>({item,weight:weights[i]}));
+  const picked=[];
+  for(let n=0;n<count&&pool.length;n++){
+    const total=pool.reduce((s,p)=>s+p.weight,0);
+    let r=Math.random()*total;let idx=0;
+    for(;idx<pool.length-1;idx++){r-=pool[idx].weight;if(r<=0)break;}
+    picked.push(pool[idx].item);pool.splice(idx,1);
+  }
+  return picked;
+}
 function gameStartScreen(){
-  gameBox.innerHTML=`<h2>Präpositionen trainieren</h2><p>Du bekommst zehn zufällig gewählte Verben. Wähle jeweils die passende Präposition mit Kasus. Nach jeder Antwort siehst du sofort die Lösung und drei Beispielsätze.</p><div class="game-stats"><span class="stat">10 Fragen</span><span class="stat">Bestwert: ${getBest()}/10</span></div><button class="primary" type="button" id="startGame">Spiel starten</button>`;
+  gameBox.innerHTML=`<h2>Präpositionen trainieren</h2><p>Du bekommst zehn Verben — Wörter, bei denen du bisher öfter danebenlagst, kommen etwas häufiger dran. Wähle jeweils die passende Präposition mit Kasus. Nach jeder Antwort siehst du sofort die Lösung und drei Beispielsätze.</p><div class="game-stats"><span class="stat">10 Fragen</span><span class="stat">Bestwert: ${getBest()}/10</span><span class="stat">Beste Serie: ${getBestStreak()}</span></div><button class="primary" type="button" id="startGame">Spiel starten</button>`;
   document.getElementById("startGame").addEventListener("click",startGame);
 }
-function startGame(){questions=shuffle(DATA).slice(0,10);questionIndex=0;score=0;streak=0;showQuestion();}
+function startGame(){
+  const mistakes=loadMistakes();
+  const weights=DATA.map(e=>1+(mistakes[entryKey(e)]||0)*2);
+  questions=weightedSample(DATA,weights,10);
+  questionIndex=0;score=0;streak=0;peakStreak=0;showQuestion();
+}
 function optionSet(correct){return shuffle([correct,...shuffle(PREP_ANSWERS.filter(x=>x!==correct)).slice(0,3)]);}
 function showQuestion(){
   answered=false;
   const q=questions[questionIndex];
-  gameBox.innerHTML=`<div class="game-stats"><span class="stat">Frage ${questionIndex+1}/10</span><span class="stat" id="scoreStat">Punkte: ${score}</span><span class="stat" id="streakStat">Serie: ${streak}</span><span class="stat">Bestwert: ${getBest()}/10</span></div><p class="question-label">Welche Präposition + welcher Kasus?</p><div class="question-verb">${esc(q.verb)}</div><p class="question-meaning">${esc(q.meaning_en)}</p><div class="answers">${optionSet(q.prep).map(option=>`<button type="button" class="answer" data-answer="${esc(option)}">${esc(option)}</button>`).join("")}</div><div id="feedback" aria-live="polite"></div>`;
+  gameBox.innerHTML=`<div class="game-stats"><span class="stat">Frage ${questionIndex+1}/10</span><span class="stat" id="scoreStat">Punkte: ${score}</span><span class="stat" id="streakStat">Serie: ${streak}</span><span class="stat">Bestwert: ${getBest()}/10</span><span class="stat">Beste Serie: ${getBestStreak()}</span></div><p class="question-label">Welche Präposition + welcher Kasus?</p><div class="question-verb">${esc(q.verb)}</div><p class="question-meaning"${rtlAttr()}>${esc(localized(q,"meaning"))}</p><div class="answers">${optionSet(q.prep).map(option=>`<button type="button" class="answer" data-answer="${esc(option)}">${esc(option)}</button>`).join("")}</div><div id="feedback" aria-live="polite"></div>`;
   gameBox.querySelectorAll(".answer").forEach(button=>button.addEventListener("click",()=>answerQuestion(button,q)));
 }
 function answerQuestion(button,q){
   if(answered)return;answered=true;
   const chosen=button.dataset.answer;const correct=chosen===q.prep;
-  if(correct){score++;streak++;}else{streak=0;}
+  if(correct){score++;streak++;if(streak>peakStreak)peakStreak=streak;}else{streak=0;}
+  recordAnswer(q,correct);
   document.getElementById("scoreStat").textContent=`Punkte: ${score}`;
   document.getElementById("streakStat").textContent=`Serie: ${streak}`;
   gameBox.querySelectorAll(".answer").forEach(b=>{b.disabled=true;if(b.dataset.answer===q.prep)b.classList.add("correct");});
@@ -219,8 +287,9 @@ function answerQuestion(button,q){
 }
 function showResult(){
   const best=Math.max(getBest(),score);saveBest(best);
+  const bestStreak=Math.max(getBestStreak(),peakStreak);saveBestStreak(bestStreak);
   const text=score>=9?"Sehr stark!":score>=7?"Gut gemacht!":score>=5?"Guter Anfang — noch eine Runde hilft.":"Übe zuerst einige Gruppen und versuche es dann erneut.";
-  gameBox.innerHTML=`<h2>Runde beendet</h2><div class="result-score">${score}/10</div><p>${text}</p><div class="game-stats"><span class="stat">Bestwert: ${best}/10</span></div><button class="primary" type="button" id="restartGame">Neue 10 Fragen</button>`;
+  gameBox.innerHTML=`<h2>Runde beendet</h2><div class="result-score">${score}/10</div><p>${text}</p><div class="game-stats"><span class="stat">Bestwert: ${best}/10</span><span class="stat">Beste Serie: ${bestStreak}</span></div><button class="primary" type="button" id="restartGame">Neue 10 Fragen</button>`;
   document.getElementById("restartGame").addEventListener("click",startGame);
 }
 gameStartScreen();
@@ -233,9 +302,11 @@ html = (template
         .replace("__COUNT__", str(len(entries)))
         .replace("__PREP_COUNT__", str(len(counts)))
         .replace("__FILTER_OPTIONS__", filter_options)
+        .replace("__LANG_OPTIONS__", lang_options)
         .replace("__DATA__", payload)
         .replace("__PREP_ANSWERS__", json.dumps(prep_answers, ensure_ascii=False))
-        .replace("__PREP_ORDER__", json.dumps(PREP_ORDER, ensure_ascii=False)))
+        .replace("__PREP_ORDER__", json.dumps(PREP_ORDER, ensure_ascii=False))
+        .replace("__RTL_LANGS__", rtl_langs))
 
 (OUT / "verben-mit-praepositionen.html").write_text(html, encoding="utf-8")
 print(f"verben-mit-praepositionen.html -> {OUT}  ({len(entries)} entries)")

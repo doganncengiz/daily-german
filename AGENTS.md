@@ -37,8 +37,10 @@ feedback, not just read.
   entries with merged date arrays.
 - A separate **Verben mit Präpositionen** reference contains 154 connections
   across 14 prepositions, with three examples per entry, search/filter tools,
-  and a random ten-question game with instant feedback. Its source data lives
-  in `praepositionsverben.json`; `build_prep_verbs.py` generates the page.
+  a shared-language dropdown (English only so far, see Data schemas below),
+  and a mistake-weighted ten-question game with a saved best score and best
+  streak. Its source data lives in `praepositionsverben.json`;
+  `build_prep_verbs.py` generates the page.
 - Existing translations are machine-generated and **not yet checked by
   native speakers**. `PROMPTS.md` has a ready-to-use ChatGPT prompt for a
   first-pass QA sweep.
@@ -323,10 +325,38 @@ explanation shown after answering). `schreib` = model written sentences.
 
 **`praepositionsverben.json`** — flat array imported from the teacher's
 `Preposition mit Verben.xlsx` workbook. Each entry stores the verb,
-preposition and case, English meaning/explanation, Präteritum, Perfekt,
-exactly three German examples, and a source sheet/row pointer. The generated
-page is searchable and grouped by preposition; its game picks ten random
-entries and stores only the best score in `localStorage["dg-prep-best"]`.
+preposition and case, Präteritum, Perfekt, exactly three German examples, a
+source sheet/row pointer, and two **per-language objects**:
+```json
+"meaning": {"en": "...", "tr": "", "sq": "", "uk": "", "ar": "", "fa": "", "es": "", "fr": "", "it": ""},
+"explanation": {"en": "...", "tr": "", ...}
+```
+Same 9 language codes and the same shared `localStorage["dg-lang"]` key as
+the dictionary and every lesson's vocab table (see Design system below) —
+so a student's language choice carries over to this page automatically.
+**Only "en" is populated as of 2026-10-07**; the page's JS falls back to
+English for any entry/language that's still `""`, so it's correct today,
+just English-only until the rest is translated. `PROMPTS.md` section 4 has
+a ready-to-paste Codex prompt for that translation pass, matching the
+pattern already used for `vocab.json` (section 3).
+
+The generated page is searchable and grouped by preposition; its game picks
+ten entries per round and its question-selection is **mistake-weighted**,
+not purely random: `localStorage["dg-prep-mistakes"]` tracks a per-entry
+miss count (keyed `verb|prep`), halved on a correct answer and incremented
+on a wrong one, and entries with more past misses get proportionally more
+likely to reappear (simple spaced repetition). Best score
+(`localStorage["dg-prep-best"]`) and best streak-within-a-round
+(`localStorage["dg-prep-best-streak"]`) are both tracked across sessions.
+
+A content bug worth knowing about if you touch this data: `denken|an`,
+`denken|über`, and `nachdenken|über` are three separate, legitimately
+different entries (different meanings) — a prior AI-assisted import mixed
+up a `denken|über` example sentence with `nachdenken`'s (the sentence used
+the separable prefix "nach"); that one instance was fixed 2026-10-07, but
+given this came from a bulk Excel import, there could be other
+example/verb mismatches not yet caught — same caveat as the unreviewed
+`vocab.json` translations.
 
 ## Design system / hard constraints
 

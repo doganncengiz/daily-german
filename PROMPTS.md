@@ -1,8 +1,8 @@
 # Prompts zum Weitergeben
 
-Drei fertige Prompts: einer für ChatGPT (Qualitätsprüfung), einer für Claude Design
-(Gestaltung), einer für Codex (fehlende Vokabeln ergänzen). Einfach kopieren und
-einfügen.
+Vier fertige Prompts: einer für ChatGPT (Qualitätsprüfung), einer für Claude Design
+(Gestaltung), zwei für Codex (fehlende Vokabeln ergänzen; Verben-mit-Präpositionen
+übersetzen). Einfach kopieren und einfügen.
 
 ---
 
@@ -218,6 +218,54 @@ Wichtig: Das sind, wie die bestehenden Einträge auch, KI-generierte
 als geprüft und ändere nichts an der bestehenden Prüf-Kennzeichnung
 (Hinweistext in woerterbuch.html). Fass website/ nicht direkt an — das ist
 generierter Output, der Build erzeugt es neu.
+```
+
+---
+
+## 4 — Codex: Verben-mit-Präpositionen in alle 9 Sprachen übersetzen
+
+**Wofür:** `praepositionsverben.json` (154 Einträge) hat "meaning" und
+"explanation" als Objekte mit einem Schlüssel pro Sprache (en, tr, sq, uk,
+ar, fa, es, fr, it) — aber bisher ist nur "en" befüllt. Die Seite
+`verben-mit-praepositionen.html` zeigt ohne Übersetzung automatisch Englisch
+an, funktioniert also schon jetzt, aber nur auf Englisch nützlich für alle,
+die kein Englisch können.
+
+**Wie benutzen:** Direkt in Codex (mit Repo-Zugriff) einfügen, im
+Projektordner `Daily German`.
+
+```
+Lies zuerst AGENTS.md im Projektordner, Abschnitt zur
+Verben-mit-Präpositionen-Seite — dort stehen Datenschema und Build-Ablauf.
+
+Aufgabe: In praepositionsverben.json fehlen für alle 154 Einträge die
+Übersetzungen von "meaning" und "explanation" in acht der neun Sprachen
+(nur "en" ist befüllt; tr, sq, uk, ar, fa, es, fr, it sind noch "").
+
+1. Für jeden Eintrag: Übersetze "meaning.en" (eine kurze Bedeutungsangabe,
+   wie "to think about") und "explanation.en" (ein ganzer erklärender Satz)
+   in die acht fehlenden Sprachen. Nutze "verb", "prep" und die drei
+   "examples" als Kontext, damit die Übersetzung zur richtigen Bedeutung
+   passt (viele deutsche Verben mit Präposition sind mehrdeutig, z. B.
+   "denken an" vs. "denken über" vs. "nachdenken über" — das sind
+   unterschiedliche Einträge mit unterschiedlicher Bedeutung).
+2. Gleiches Register wie die bestehenden Einträge: alltagstauglich, nicht
+   literarisch oder veraltet.
+3. Schema pro Eintrag bleibt exakt gleich, nur die leeren Strings werden
+   befüllt:
+   "meaning": {"en": "...", "tr": "...", "sq": "...", "uk": "...",
+               "ar": "...", "fa": "...", "es": "...", "fr": "...", "it": "..."}
+   "explanation": {... gleiche neun Schlüssel ...}
+4. Ändere nichts an "verb", "prep", "preposition", "case", "praeteritum",
+   "perfekt", "examples" oder "source" — nur die beiden Übersetzungsobjekte.
+5. Führe danach `python3 build_site.py` aus und prüfe, dass
+   verben-mit-praepositionen.html fehlerfrei baut (keine Python-Exception).
+   Stichprobe im Browser: Sprache im Dropdown wechseln (z. B. auf Arabisch),
+   prüfen, dass die Bedeutungs-/Erklärungstexte rechtsbündig erscheinen
+   (dir="rtl" wird automatisch gesetzt) und nicht leer bleiben.
+
+Wichtig: Wie bei vocab.json auch — das sind KI-generierte Übersetzungen,
+nicht von Muttersprachlern geprüft. Kennzeichne sie nicht als geprüft.
 ```
 
 ---

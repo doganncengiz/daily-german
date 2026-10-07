@@ -4,8 +4,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to think about",
-    "explanation_en": "To direct one's thoughts towards someone or something.",
     "praeteritum": "dachte",
     "perfekt": "hat gedacht",
     "examples": [
@@ -16,6 +14,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 4
+    },
+    "meaning": {
+      "en": "to think about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To direct one's thoughts towards someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -23,8 +43,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to remember",
-    "explanation_en": "To recall something from memory; to have a recollection of.",
     "praeteritum": "erinnerte sich",
     "perfekt": "hat sich erinnert",
     "examples": [
@@ -35,6 +53,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 5
+    },
+    "meaning": {
+      "en": "to remember",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To recall something from memory; to have a recollection of.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -42,8 +82,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to get used to",
-    "explanation_en": "To become accustomed to something; to adapt to a new situation.",
     "praeteritum": "gewöhnte sich",
     "perfekt": "hat sich gewöhnt",
     "examples": [
@@ -54,6 +92,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 6
+    },
+    "meaning": {
+      "en": "to get used to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To become accustomed to something; to adapt to a new situation.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -61,8 +121,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to believe in",
-    "explanation_en": "To have faith or confidence in the existence or truth of something or someone.",
     "praeteritum": "glaubte",
     "perfekt": "hat geglaubt",
     "examples": [
@@ -73,6 +131,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 7
+    },
+    "meaning": {
+      "en": "to believe in",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have faith or confidence in the existence or truth of something or someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -80,8 +160,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to contact / turn to",
-    "explanation_en": "To seek assistance, advice, or communication from someone or an organization.",
     "praeteritum": "wandte sich",
     "perfekt": "hat sich gewandt",
     "examples": [
@@ -92,6 +170,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 8
+    },
+    "meaning": {
+      "en": "to contact / turn to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To seek assistance, advice, or communication from someone or an organization.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -99,8 +199,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to stick to / adhere to",
-    "explanation_en": "To follow, obey, or abide by rules, agreements, or principles.",
     "praeteritum": "hielt sich",
     "perfekt": "hat sich gehalten",
     "examples": [
@@ -111,6 +209,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 9
+    },
+    "meaning": {
+      "en": "to stick to / adhere to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To follow, obey, or abide by rules, agreements, or principles.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -118,8 +238,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to send to",
-    "explanation_en": "To cause something to go from one place to another, usually by mail or electronically.",
     "praeteritum": "schickte",
     "perfekt": "hat geschickt",
     "examples": [
@@ -130,6 +248,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 10
+    },
+    "meaning": {
+      "en": "to send to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To cause something to go from one place to another, usually by mail or electronically.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -137,8 +277,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to write to",
-    "explanation_en": "To compose and send a written message to a person or organization.",
     "praeteritum": "schrieb",
     "perfekt": "hat geschrieben",
     "examples": [
@@ -149,6 +287,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 11
+    },
+    "meaning": {
+      "en": "to write to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To compose and send a written message to a person or organization.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -156,8 +316,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to border on",
-    "explanation_en": "To be adjacent to or share a boundary with something.",
     "praeteritum": "grenzte",
     "perfekt": "hat gegrenzt",
     "examples": [
@@ -168,6 +326,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 12
+    },
+    "meaning": {
+      "en": "to border on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be adjacent to or share a boundary with something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -175,8 +355,6 @@
     "prep": "an + Akkusativ",
     "preposition": "an",
     "case": "Akkusativ",
-    "meaning_en": "to distribute to",
-    "explanation_en": "To give out or spread something among a number of people or places.",
     "praeteritum": "verteilte",
     "perfekt": "hat verteilt",
     "examples": [
@@ -187,6 +365,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 13
+    },
+    "meaning": {
+      "en": "to distribute to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To give out or spread something among a number of people or places.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -194,8 +394,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to work on",
-    "explanation_en": "To be engaged in an activity, task, or project.",
     "praeteritum": "arbeitete",
     "perfekt": "hat gearbeitet",
     "examples": [
@@ -206,6 +404,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 14
+    },
+    "meaning": {
+      "en": "to work on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be engaged in an activity, task, or project.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -213,8 +433,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to participate in",
-    "explanation_en": "To take part in or be involved in an activity or event.",
     "praeteritum": "beteiligte sich",
     "perfekt": "hat sich beteiligt",
     "examples": [
@@ -225,6 +443,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 15
+    },
+    "meaning": {
+      "en": "to participate in",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To take part in or be involved in an activity or event.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -232,8 +472,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to fall ill with",
-    "explanation_en": "To become sick with a particular illness.",
     "praeteritum": "erkrankte",
     "perfekt": "ist erkrankt",
     "examples": [
@@ -244,6 +482,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 16
+    },
+    "meaning": {
+      "en": "to fall ill with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To become sick with a particular illness.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -251,8 +511,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to suffer from",
-    "explanation_en": "To experience pain, distress, or a specific medical condition.",
     "praeteritum": "litt",
     "perfekt": "hat gelitten",
     "examples": [
@@ -263,6 +521,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 17
+    },
+    "meaning": {
+      "en": "to suffer from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To experience pain, distress, or a specific medical condition.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -270,8 +550,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to die of",
-    "explanation_en": "To pass away due to a particular cause or illness.",
     "praeteritum": "starb",
     "perfekt": "ist gestorben",
     "examples": [
@@ -282,6 +560,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 18
+    },
+    "meaning": {
+      "en": "to die of",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To pass away due to a particular cause or illness.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -289,8 +589,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to take part in",
-    "explanation_en": "To be involved in an event, activity, or competition.",
     "praeteritum": "nahm teil",
     "perfekt": "hat teilgenommen",
     "examples": [
@@ -301,6 +599,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 19
+    },
+    "meaning": {
+      "en": "to take part in",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be involved in an event, activity, or competition.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -308,8 +628,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to recognize by",
-    "explanation_en": "To identify someone or something based on a specific characteristic or feature.",
     "praeteritum": "erkannte",
     "perfekt": "hat erkannt",
     "examples": [
@@ -320,6 +638,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 20
+    },
+    "meaning": {
+      "en": "to recognize by",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To identify someone or something based on a specific characteristic or feature.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -327,8 +667,6 @@
     "prep": "an + Dativ",
     "preposition": "an",
     "case": "Dativ",
-    "meaning_en": "to doubt",
-    "explanation_en": "To feel uncertain or unsure about something, often regarding its truth or reliability.",
     "praeteritum": "zweifelte",
     "perfekt": "hat gezweifelt",
     "examples": [
@@ -339,6 +677,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 21
+    },
+    "meaning": {
+      "en": "to doubt",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To feel uncertain or unsure about something, often regarding its truth or reliability.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -346,8 +706,6 @@
     "prep": "bei + Dativ",
     "preposition": "bei",
     "case": "Dativ",
-    "meaning_en": "to thank (someone)",
-    "explanation_en": "To express gratitude or appreciation to a person.",
     "praeteritum": "bedankte sich",
     "perfekt": "hat sich bedankt",
     "examples": [
@@ -358,6 +716,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 24
+    },
+    "meaning": {
+      "en": "to thank (someone)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express gratitude or appreciation to a person.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -365,8 +745,6 @@
     "prep": "bei + Dativ",
     "preposition": "bei",
     "case": "Dativ",
-    "meaning_en": "to complain to",
-    "explanation_en": "To express dissatisfaction or a grievance to someone.",
     "praeteritum": "beklagte sich",
     "perfekt": "hat sich beklagt",
     "examples": [
@@ -377,6 +755,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 25
+    },
+    "meaning": {
+      "en": "to complain to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express dissatisfaction or a grievance to someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -384,8 +784,6 @@
     "prep": "bei + Dativ",
     "preposition": "bei",
     "case": "Dativ",
-    "meaning_en": "to complain to",
-    "explanation_en": "To formally express a grievance or protest to an authority or person.",
     "praeteritum": "beschwerte sich",
     "perfekt": "hat sich beschwert",
     "examples": [
@@ -396,6 +794,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 26
+    },
+    "meaning": {
+      "en": "to complain to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To formally express a grievance or protest to an authority or person.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -403,8 +823,6 @@
     "prep": "bei + Dativ",
     "preposition": "bei",
     "case": "Dativ",
-    "meaning_en": "to apologize to",
-    "explanation_en": "To express regret for an offense, fault, or failure to a person.",
     "praeteritum": "entschuldigte sich",
     "perfekt": "hat sich entschuldigt",
     "examples": [
@@ -415,6 +833,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 27
+    },
+    "meaning": {
+      "en": "to apologize to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express regret for an offense, fault, or failure to a person.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -422,8 +862,6 @@
     "prep": "bei + Dativ",
     "preposition": "bei",
     "case": "Dativ",
-    "meaning_en": "to inquire with",
-    "explanation_en": "To seek information or ask questions from a person or source.",
     "praeteritum": "erkundigte sich",
     "perfekt": "hat sich erkundigt",
     "examples": [
@@ -434,6 +872,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 28
+    },
+    "meaning": {
+      "en": "to inquire with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To seek information or ask questions from a person or source.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -441,8 +901,6 @@
     "prep": "bei + Dativ",
     "preposition": "bei",
     "case": "Dativ",
-    "meaning_en": "to get information from",
-    "explanation_en": "To obtain knowledge or facts from a person or institution.",
     "praeteritum": "informierte sich",
     "perfekt": "hat sich informiert",
     "examples": [
@@ -453,6 +911,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 29
+    },
+    "meaning": {
+      "en": "to get information from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To obtain knowledge or facts from a person or institution.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -460,8 +940,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to start with",
-    "explanation_en": "To begin an activity or a process.",
     "praeteritum": "fing an",
     "perfekt": "hat angefangen",
     "examples": [
@@ -472,6 +950,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 31
+    },
+    "meaning": {
+      "en": "to start with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To begin an activity or a process.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -479,8 +979,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to stop with",
-    "explanation_en": "To cease an activity or a habit.",
     "praeteritum": "hörte auf",
     "perfekt": "hat aufgehört",
     "examples": [
@@ -491,6 +989,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 32
+    },
+    "meaning": {
+      "en": "to stop with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To cease an activity or a habit.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -498,8 +1018,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to hurry with",
-    "explanation_en": "To do something quickly or rush a process.",
     "praeteritum": "beeilte sich",
     "perfekt": "hat sich beeilt",
     "examples": [
@@ -510,6 +1028,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 33
+    },
+    "meaning": {
+      "en": "to hurry with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To do something quickly or rush a process.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -517,8 +1057,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to begin with",
-    "explanation_en": "To commence an activity or a process.",
     "praeteritum": "begann",
     "perfekt": "hat begonnen",
     "examples": [
@@ -529,6 +1067,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 34
+    },
+    "meaning": {
+      "en": "to begin with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To commence an activity or a process.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -536,8 +1096,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to deal with",
-    "explanation_en": "To engage oneself with a topic, task, or person.",
     "praeteritum": "beschäftigte sich",
     "perfekt": "hat sich beschäftigt",
     "examples": [
@@ -548,6 +1106,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 35
+    },
+    "meaning": {
+      "en": "to deal with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To engage oneself with a topic, task, or person.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -555,8 +1135,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to reach an agreement with",
-    "explanation_en": "To come to an agreement or settle a dispute with someone.",
     "praeteritum": "einigte sich",
     "perfekt": "hat sich geeinigt",
     "examples": [
@@ -567,6 +1145,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 36
+    },
+    "meaning": {
+      "en": "to reach an agreement with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To come to an agreement or settle a dispute with someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -574,8 +1174,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to fight with",
-    "explanation_en": "To struggle or contend with something (e.g., problems, an opponent).",
     "praeteritum": "kämpfte",
     "perfekt": "hat gekämpft",
     "examples": [
@@ -586,6 +1184,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 37
+    },
+    "meaning": {
+      "en": "to fight with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To struggle or contend with something (e.g., problems, an opponent).",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -593,8 +1213,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to rant at",
-    "explanation_en": "To scold or berate someone, usually in an angry tone.",
     "praeteritum": "schimpfte",
     "perfekt": "hat geschimpft",
     "examples": [
@@ -605,6 +1223,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 38
+    },
+    "meaning": {
+      "en": "to rant at",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To scold or berate someone, usually in an angry tone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -612,8 +1252,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to speak with",
-    "explanation_en": "To communicate verbally with someone.",
     "praeteritum": "sprach",
     "perfekt": "hat gesprochen",
     "examples": [
@@ -624,6 +1262,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 39
+    },
+    "meaning": {
+      "en": "to speak with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To communicate verbally with someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -631,8 +1291,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to argue with",
-    "explanation_en": "To have a disagreement or argument with someone.",
     "praeteritum": "stritt",
     "perfekt": "hat gestritten",
     "examples": [
@@ -643,6 +1301,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 40
+    },
+    "meaning": {
+      "en": "to argue with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have a disagreement or argument with someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -650,8 +1330,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to reconcile",
-    "explanation_en": "To make up after an argument; to get along again.",
     "praeteritum": "vertrug sich",
     "perfekt": "hat sich vertragen",
     "examples": [
@@ -662,6 +1340,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 41
+    },
+    "meaning": {
+      "en": "to reconcile",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To make up after an argument; to get along again.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -669,8 +1369,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to get along with",
-    "explanation_en": "To have a good relationship or rapport with someone.",
     "praeteritum": "verstand sich",
     "perfekt": "hat sich verstanden",
     "examples": [
@@ -681,6 +1379,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 42
+    },
+    "meaning": {
+      "en": "to get along with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have a good relationship or rapport with someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -688,8 +1408,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to delay",
-    "explanation_en": "To postpone or hold off on doing something.",
     "praeteritum": "wartete",
     "perfekt": "hat gewartet",
     "examples": [
@@ -700,6 +1418,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 43
+    },
+    "meaning": {
+      "en": "to delay",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To postpone or hold off on doing something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -707,8 +1447,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to play with",
-    "explanation_en": "To engage in play or a game with someone or something.",
     "praeteritum": "spielte",
     "perfekt": "hat gespielt",
     "examples": [
@@ -719,6 +1457,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 44
+    },
+    "meaning": {
+      "en": "to play with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To engage in play or a game with someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -726,8 +1486,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to hesitate with",
-    "explanation_en": "To delay or be reluctant in doing something.",
     "praeteritum": "zögerte",
     "perfekt": "hat gezögert",
     "examples": [
@@ -738,6 +1496,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 45
+    },
+    "meaning": {
+      "en": "to hesitate with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To delay or be reluctant in doing something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -745,8 +1525,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to deal with",
-    "explanation_en": "To concern oneself with or occupy oneself with a topic or matter.",
     "praeteritum": "befasste sich",
     "perfekt": "hat sich befasst",
     "examples": [
@@ -757,6 +1535,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 46
+    },
+    "meaning": {
+      "en": "to deal with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To concern oneself with or occupy oneself with a topic or matter.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -764,8 +1564,6 @@
     "prep": "mit + Dativ",
     "preposition": "mit",
     "case": "Dativ",
-    "meaning_en": "to collide with",
-    "explanation_en": "To crash into or make contact with something forcefully.",
     "praeteritum": "stieß zusammen",
     "perfekt": "ist zusammengestoßen",
     "examples": [
@@ -776,6 +1574,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 47
+    },
+    "meaning": {
+      "en": "to collide with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To crash into or make contact with something forcefully.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -783,8 +1603,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to pay attention to",
-    "explanation_en": "To be mindful of something; to give consideration or heed to.",
     "praeteritum": "achtete",
     "perfekt": "hat geachtet",
     "examples": [
@@ -795,6 +1613,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 50
+    },
+    "meaning": {
+      "en": "to pay attention to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be mindful of something; to give consideration or heed to.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -802,8 +1642,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to depend on",
-    "explanation_en": "To be determined or conditioned by something.",
     "praeteritum": "kam an",
     "perfekt": "ist angekommen",
     "examples": [
@@ -814,6 +1652,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 51
+    },
+    "meaning": {
+      "en": "to depend on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be determined or conditioned by something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -821,8 +1681,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to answer to",
-    "explanation_en": "To give a reply or response to a question or communication.",
     "praeteritum": "antwortete",
     "perfekt": "hat geantwortet",
     "examples": [
@@ -833,6 +1691,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 52
+    },
+    "meaning": {
+      "en": "to answer to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To give a reply or response to a question or communication.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -840,8 +1720,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to take care of / watch out for",
-    "explanation_en": "To look after someone/something; to be careful about something.",
     "praeteritum": "passte auf",
     "perfekt": "hat aufgepasst",
     "examples": [
@@ -852,6 +1730,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 53
+    },
+    "meaning": {
+      "en": "to take care of / watch out for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To look after someone/something; to be careful about something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -859,8 +1759,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to refer to",
-    "explanation_en": "To make reference to something; to be connected to or related to.",
     "praeteritum": "bezog sich",
     "perfekt": "hat sich bezogen",
     "examples": [
@@ -871,6 +1769,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 54
+    },
+    "meaning": {
+      "en": "to refer to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To make reference to something; to be connected to or related to.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -878,8 +1798,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to agree on",
-    "explanation_en": "To reach a consensus or come to an agreement about something.",
     "praeteritum": "einigte sich",
     "perfekt": "hat sich geeinigt",
     "examples": [
@@ -890,6 +1808,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 55
+    },
+    "meaning": {
+      "en": "to agree on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To reach a consensus or come to an agreement about something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -897,8 +1837,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to look forward to",
-    "explanation_en": "To anticipate something with pleasure or eagerness.",
     "praeteritum": "freute sich",
     "perfekt": "hat sich gefreut",
     "examples": [
@@ -909,6 +1847,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 56
+    },
+    "meaning": {
+      "en": "to look forward to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To anticipate something with pleasure or eagerness.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -916,8 +1876,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to concentrate on",
-    "explanation_en": "To focus one's attention or efforts on something.",
     "praeteritum": "konzentrierte sich",
     "perfekt": "hat sich konzentriert",
     "examples": [
@@ -928,6 +1886,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 57
+    },
+    "meaning": {
+      "en": "to concentrate on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To focus one's attention or efforts on something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -935,8 +1915,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to react to",
-    "explanation_en": "To respond or behave in a particular way in response to something.",
     "praeteritum": "reagierte",
     "perfekt": "hat reagiert",
     "examples": [
@@ -947,6 +1925,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 58
+    },
+    "meaning": {
+      "en": "to react to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To respond or behave in a particular way in response to something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -954,8 +1954,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to shoot at",
-    "explanation_en": "To fire a weapon at a target.",
     "praeteritum": "schoss",
     "perfekt": "hat geschossen",
     "examples": [
@@ -966,6 +1964,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 59
+    },
+    "meaning": {
+      "en": "to shoot at",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To fire a weapon at a target.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -973,8 +1993,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to rant about",
-    "explanation_en": "To express anger or strong disapproval about someone or something.",
     "praeteritum": "schimpfte",
     "perfekt": "hat geschimpft",
     "examples": [
@@ -985,6 +2003,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 60
+    },
+    "meaning": {
+      "en": "to rant about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express anger or strong disapproval about someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -992,8 +2032,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to rely on",
-    "explanation_en": "To depend on or trust someone/something.",
     "praeteritum": "verließ sich",
     "perfekt": "hat sich verlassen",
     "examples": [
@@ -1004,6 +2042,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 61
+    },
+    "meaning": {
+      "en": "to rely on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To depend on or trust someone/something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1011,8 +2071,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to prepare for",
-    "explanation_en": "To make oneself ready for an event or situation.",
     "praeteritum": "bereitete sich vor",
     "perfekt": "hat sich vorbereitet",
     "examples": [
@@ -1023,6 +2081,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 62
+    },
+    "meaning": {
+      "en": "to prepare for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To make oneself ready for an event or situation.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1030,8 +2110,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to do without",
-    "explanation_en": "To forgo or give up something voluntarily.",
     "praeteritum": "verzichtete",
     "perfekt": "hat verzichtet",
     "examples": [
@@ -1042,6 +2120,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 63
+    },
+    "meaning": {
+      "en": "to do without",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To forgo or give up something voluntarily.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1049,8 +2149,6 @@
     "prep": "auf + Akkusativ",
     "preposition": "auf",
     "case": "Akkusativ",
-    "meaning_en": "to wait for",
-    "explanation_en": "To remain in readiness for something or someone.",
     "praeteritum": "wartete",
     "perfekt": "hat gewartet",
     "examples": [
@@ -1061,6 +2159,28 @@
     "source": {
       "sheet": "an+ bei + mit + auf",
       "row": 64
+    },
+    "meaning": {
+      "en": "to wait for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To remain in readiness for something or someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1068,8 +2188,6 @@
     "prep": "vor + Dativ",
     "preposition": "vor",
     "case": "Dativ",
-    "meaning_en": "to be scared of",
-    "explanation_en": "To be suddenly frightened or startled by something.",
     "praeteritum": "erschrak vor",
     "perfekt": "ist vor ... erschrocken",
     "examples": [
@@ -1080,6 +2198,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 3
+    },
+    "meaning": {
+      "en": "to be scared of",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be suddenly frightened or startled by something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1087,8 +2227,6 @@
     "prep": "vor + Dativ",
     "preposition": "vor",
     "case": "Dativ",
-    "meaning_en": "to flee from",
-    "explanation_en": "To escape or run away from someone or something, often a danger.",
     "praeteritum": "floh vor",
     "perfekt": "ist vor ... geflohen",
     "examples": [
@@ -1099,6 +2237,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 4
+    },
+    "meaning": {
+      "en": "to flee from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To escape or run away from someone or something, often a danger.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1106,8 +2266,6 @@
     "prep": "vor + Dativ",
     "preposition": "vor",
     "case": "Dativ",
-    "meaning_en": "to escape from",
-    "explanation_en": "Similar to \"fliehen vor,\" often implies escaping from a difficult situation, responsibility, or danger.",
     "praeteritum": "flüchtete vor",
     "perfekt": "ist vor ... geflüchtet",
     "examples": [
@@ -1118,6 +2276,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 5
+    },
+    "meaning": {
+      "en": "to escape from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "Similar to \"fliehen vor,\" often implies escaping from a difficult situation, responsibility, or danger.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1125,8 +2305,6 @@
     "prep": "vor + Dativ",
     "preposition": "vor",
     "case": "Dativ",
-    "meaning_en": "to be afraid of",
-    "explanation_en": "To have a general fear or apprehension of something or someone.",
     "praeteritum": "fürchtete sich vor",
     "perfekt": "hat sich vor ... gefürchtet",
     "examples": [
@@ -1137,6 +2315,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 6
+    },
+    "meaning": {
+      "en": "to be afraid of",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have a general fear or apprehension of something or someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1144,8 +2344,6 @@
     "prep": "vor + Dativ",
     "preposition": "vor",
     "case": "Dativ",
-    "meaning_en": "to protect (oneself) from",
-    "explanation_en": "To shield or safeguard someone or oneself from harm, danger, or negative influences.",
     "praeteritum": "schützte (sich) vor",
     "perfekt": "hat (sich) vor ... geschützt",
     "examples": [
@@ -1156,6 +2354,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 7
+    },
+    "meaning": {
+      "en": "to protect (oneself) from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To shield or safeguard someone or oneself from harm, danger, or negative influences.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1163,8 +2383,6 @@
     "prep": "vor + Dativ",
     "preposition": "vor",
     "case": "Dativ",
-    "meaning_en": "to warn of/against",
-    "explanation_en": "To caution someone about a potential danger, risk, or negative outcome.",
     "praeteritum": "warnte vor",
     "perfekt": "hat vor ... gewarnt",
     "examples": [
@@ -1175,6 +2393,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 8
+    },
+    "meaning": {
+      "en": "to warn of/against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To caution someone about a potential danger, risk, or negative outcome.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1182,8 +2422,6 @@
     "prep": "aus + Dativ",
     "preposition": "aus",
     "case": "Dativ",
-    "meaning_en": "to consist of",
-    "explanation_en": "To be made up of certain components, ingredients, or parts.",
     "praeteritum": "bestand aus",
     "perfekt": "hat aus ... bestanden",
     "examples": [
@@ -1194,6 +2432,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 10
+    },
+    "meaning": {
+      "en": "to consist of",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be made up of certain components, ingredients, or parts.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1201,8 +2461,6 @@
     "prep": "aus + Dativ",
     "preposition": "aus",
     "case": "Dativ",
-    "meaning_en": "to arise from, to originate from",
-    "explanation_en": "To develop or emerge from a particular source, cause, or origin.",
     "praeteritum": "entstand aus",
     "perfekt": "ist aus ... entstanden",
     "examples": [
@@ -1213,6 +2471,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 11
+    },
+    "meaning": {
+      "en": "to arise from, to originate from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To develop or emerge from a particular source, cause, or origin.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1220,8 +2500,6 @@
     "prep": "aus + Dativ",
     "preposition": "aus",
     "case": "Dativ",
-    "meaning_en": "to come from, to originate from",
-    "explanation_en": "To originate from a specific place, time, family, or source.",
     "praeteritum": "stammte aus",
     "perfekt": "hat aus ... gestammt",
     "examples": [
@@ -1232,6 +2510,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 12
+    },
+    "meaning": {
+      "en": "to come from, to originate from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To originate from a specific place, time, family, or source.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1239,8 +2539,6 @@
     "prep": "aus + Dativ",
     "preposition": "aus",
     "case": "Dativ",
-    "meaning_en": "to translate from",
-    "explanation_en": "To convert text or speech from one language into another.",
     "praeteritum": "übersetzte aus",
     "perfekt": "hat aus ... übersetzt",
     "examples": [
@@ -1251,6 +2549,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 13
+    },
+    "meaning": {
+      "en": "to translate from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To convert text or speech from one language into another.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1258,8 +2578,6 @@
     "prep": "in + Akkusativ",
     "preposition": "in",
     "case": "Akkusativ",
-    "meaning_en": "to meddle in",
-    "explanation_en": "To interfere in someone else's business or a situation without being asked.",
     "praeteritum": "mischte sich in",
     "perfekt": "hat sich in ... eingemischt",
     "examples": [
@@ -1270,6 +2588,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 15
+    },
+    "meaning": {
+      "en": "to meddle in",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To interfere in someone else's business or a situation without being asked.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1277,8 +2617,6 @@
     "prep": "in + Akkusativ",
     "preposition": "in",
     "case": "Akkusativ",
-    "meaning_en": "to get into",
-    "explanation_en": "To accidentally or unexpectedly find oneself in a particular situation, often a difficult or undesirable one.",
     "praeteritum": "geriet in",
     "perfekt": "ist in ... geraten",
     "examples": [
@@ -1289,6 +2627,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 16
+    },
+    "meaning": {
+      "en": "to get into",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To accidentally or unexpectedly find oneself in a particular situation, often a difficult or undesirable one.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1296,8 +2656,6 @@
     "prep": "in + Akkusativ",
     "preposition": "in",
     "case": "Akkusativ",
-    "meaning_en": "to fall in love with",
-    "explanation_en": "To begin to feel romantic love for someone.",
     "praeteritum": "verliebte sich in",
     "perfekt": "hat sich in ... verliebt",
     "examples": [
@@ -1308,6 +2666,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 17
+    },
+    "meaning": {
+      "en": "to fall in love with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To begin to feel romantic love for someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1315,8 +2695,6 @@
     "prep": "in + Akkusativ",
     "preposition": "in",
     "case": "Akkusativ",
-    "meaning_en": "to transform into",
-    "explanation_en": "To change completely in form, nature, or character into something else.",
     "praeteritum": "verwandelte sich in",
     "perfekt": "hat sich in ... verwandelt",
     "examples": [
@@ -1327,6 +2705,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 18
+    },
+    "meaning": {
+      "en": "to transform into",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To change completely in form, nature, or character into something else.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1334,8 +2734,6 @@
     "prep": "in + Dativ",
     "preposition": "in",
     "case": "Dativ",
-    "meaning_en": "to consist of, to lie in",
-    "explanation_en": "To have as its essence or main characteristic; to lie in (for abstract concepts).",
     "praeteritum": "bestand in",
     "perfekt": "hat in ... bestanden",
     "examples": [
@@ -1346,6 +2744,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 19
+    },
+    "meaning": {
+      "en": "to consist of, to lie in",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have as its essence or main characteristic; to lie in (for abstract concepts).",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1353,8 +2773,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to depend on",
-    "explanation_en": "To be determined by or contingent on something; to rely on someone or something.",
     "praeteritum": "hing von",
     "perfekt": "hat von ... abgehangen",
     "examples": [
@@ -1365,6 +2783,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 21
+    },
+    "meaning": {
+      "en": "to depend on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be determined by or contingent on something; to rely on someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1372,8 +2812,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "it depends on",
-    "explanation_en": "An impersonal expression indicating that something is contingent on a specific factor.",
     "praeteritum": "hing davon ab",
     "perfekt": "hat davon abgehangen",
     "examples": [
@@ -1384,6 +2822,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 22
+    },
+    "meaning": {
+      "en": "it depends on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "An impersonal expression indicating that something is contingent on a specific factor.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1391,8 +2851,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to free from",
-    "explanation_en": "To set someone or something free from a burden, obligation, or captivity.",
     "praeteritum": "befreite von",
     "perfekt": "hat von ... befreit",
     "examples": [
@@ -1403,6 +2861,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 23
+    },
+    "meaning": {
+      "en": "to free from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To set someone or something free from a burden, obligation, or captivity.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1410,8 +2890,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to report on/about",
-    "explanation_en": "To give an account or description of something; to report on an event or experience.",
     "praeteritum": "berichtete von",
     "perfekt": "hat von ... berichtet",
     "examples": [
@@ -1422,6 +2900,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 24
+    },
+    "meaning": {
+      "en": "to report on/about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To give an account or description of something; to report on an event or experience.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1429,8 +2929,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to recover from",
-    "explanation_en": "To regain health, strength, or composure after an illness, effort, or difficult experience.",
     "praeteritum": "erholte sich von",
     "perfekt": "hat sich von ... erholt",
     "examples": [
@@ -1441,6 +2939,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 25
+    },
+    "meaning": {
+      "en": "to recover from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To regain health, strength, or composure after an illness, effort, or difficult experience.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1448,8 +2968,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to feed on",
-    "explanation_en": "To consume something as food; to subsist on something.",
     "praeteritum": "ernährte sich von",
     "perfekt": "hat sich von ... ernährt",
     "examples": [
@@ -1460,6 +2978,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 26
+    },
+    "meaning": {
+      "en": "to feed on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To consume something as food; to subsist on something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1467,8 +3007,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to tell about",
-    "explanation_en": "To narrate or recount something; to tell a story or give information about an event.",
     "praeteritum": "erzählte von",
     "perfekt": "hat von ... erzählt",
     "examples": [
@@ -1479,6 +3017,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 27
+    },
+    "meaning": {
+      "en": "to tell about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To narrate or recount something; to tell a story or give information about an event.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1486,8 +3046,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to demand from",
-    "explanation_en": "To ask for something with authority or insistence; to require something from someone.",
     "praeteritum": "forderte von",
     "perfekt": "hat von ... gefordert",
     "examples": [
@@ -1498,6 +3056,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 28
+    },
+    "meaning": {
+      "en": "to demand from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To ask for something with authority or insistence; to require something from someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1505,8 +3085,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to hear of/about",
-    "explanation_en": "To receive information or news about someone or something.",
     "praeteritum": "hörte von",
     "perfekt": "hat von ... gehört",
     "examples": [
@@ -1517,6 +3095,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 29
+    },
+    "meaning": {
+      "en": "to hear of/about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To receive information or news about someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1524,8 +3124,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to come from",
-    "explanation_en": "To originate from a place or person; to be derived from.",
     "praeteritum": "kam von",
     "perfekt": "ist von ... gekommen",
     "examples": [
@@ -1536,6 +3134,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 30
+    },
+    "meaning": {
+      "en": "to come from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To originate from a place or person; to be derived from.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1543,8 +3163,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to live off/from",
-    "explanation_en": "To subsist or support oneself by means of something (e.g., income, a specific food source).",
     "praeteritum": "lebte von",
     "perfekt": "hat von ... gelebt",
     "examples": [
@@ -1555,6 +3173,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 31
+    },
+    "meaning": {
+      "en": "to live off/from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To subsist or support oneself by means of something (e.g., income, a specific food source).",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1562,8 +3202,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to speak of/about",
-    "explanation_en": "To talk about someone or something.",
     "praeteritum": "sprach von",
     "perfekt": "hat von ... gesprochen",
     "examples": [
@@ -1574,6 +3212,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 32
+    },
+    "meaning": {
+      "en": "to speak of/about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To talk about someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1581,8 +3241,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to originate from, to come from",
-    "explanation_en": "To be derived or have its origin from a person, source, or event (often more abstract than \"stammen aus\").",
     "praeteritum": "stammte von",
     "perfekt": "hat von ... gestammt",
     "examples": [
@@ -1593,6 +3251,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 33
+    },
+    "meaning": {
+      "en": "to originate from, to come from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be derived or have its origin from a person, source, or event (often more abstract than \"stammen aus\").",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1600,8 +3280,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to dream of/about",
-    "explanation_en": "To have a dream about something or someone; to wish for something strongly.",
     "praeteritum": "träumte von",
     "perfekt": "hat von ... geträumt",
     "examples": [
@@ -1612,6 +3290,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 34
+    },
+    "meaning": {
+      "en": "to dream of/about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have a dream about something or someone; to wish for something strongly.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1619,8 +3319,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to translate from (someone)",
-    "explanation_en": "To translate something that was written by a specific person (emphasizing the author/source).",
     "praeteritum": "übersetzte von",
     "perfekt": "hat von ... übersetzt",
     "examples": [
@@ -1631,6 +3329,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 35
+    },
+    "meaning": {
+      "en": "to translate from (someone)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To translate something that was written by a specific person (emphasizing the author/source).",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1638,8 +3358,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to demand from, to request from",
-    "explanation_en": "To require or ask for something from someone, often with a sense of entitlement or urgency.",
     "praeteritum": "verlangte von",
     "perfekt": "hat von ... verlangt",
     "examples": [
@@ -1650,6 +3368,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 36
+    },
+    "meaning": {
+      "en": "to demand from, to request from",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To require or ask for something from someone, often with a sense of entitlement or urgency.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1657,8 +3397,6 @@
     "prep": "von + Dativ",
     "preposition": "von",
     "case": "Dativ",
-    "meaning_en": "to think highly/little of",
-    "explanation_en": "To have a high or low opinion of something or someone.",
     "praeteritum": "hielt viel/nichts von",
     "perfekt": "hat viel/nichts von ... gehalten",
     "examples": [
@@ -1669,6 +3407,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 37
+    },
+    "meaning": {
+      "en": "to think highly/little of",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have a high or low opinion of something or someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1676,8 +3436,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to be annoyed/angry about",
-    "explanation_en": "To feel irritation or anger concerning something.",
     "praeteritum": "ärgerte sich über",
     "perfekt": "hat sich über ... geärgert",
     "examples": [
@@ -1688,6 +3446,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 39
+    },
+    "meaning": {
+      "en": "to be annoyed/angry about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To feel irritation or anger concerning something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1695,8 +3475,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to get upset about",
-    "explanation_en": "To become agitated, excited, or upset about something.",
     "praeteritum": "regte sich über",
     "perfekt": "hat sich über ... aufgeregt",
     "examples": [
@@ -1707,6 +3485,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 40
+    },
+    "meaning": {
+      "en": "to get upset about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To become agitated, excited, or upset about something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1714,8 +3514,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to complain about (legal/strong tone)",
-    "explanation_en": "To express pain, sorrow, or dissatisfaction (can be more intense or persistent than \"sich beklagen\").",
     "praeteritum": "klagte über",
     "perfekt": "hat über ... geklagt",
     "examples": [
@@ -1726,6 +3524,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 41
+    },
+    "meaning": {
+      "en": "to complain about (legal/strong tone)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express pain, sorrow, or dissatisfaction (can be more intense or persistent than \"sich beklagen\").",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1733,8 +3553,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to complain about",
-    "explanation_en": "To express dissatisfaction or grievance about something.",
     "praeteritum": "beklagte sich über",
     "perfekt": "hat sich über ... beklagt",
     "examples": [
@@ -1745,6 +3563,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 42
+    },
+    "meaning": {
+      "en": "to complain about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express dissatisfaction or grievance about something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1752,8 +3592,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to complain about",
-    "explanation_en": "To express dissatisfaction or grievance, often to an authority (similar to \"sich beklagen über\").",
     "praeteritum": "beschwerte sich über",
     "perfekt": "hat sich über ... beschwert",
     "examples": [
@@ -1764,6 +3602,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 43
+    },
+    "meaning": {
+      "en": "to complain about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express dissatisfaction or grievance, often to an authority (similar to \"sich beklagen über\").",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1771,8 +3631,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to report on/about",
-    "explanation_en": "To give an account or description of something (more formal or detailed than \"berichten von\").",
     "praeteritum": "berichtete über",
     "perfekt": "hat über ... berichtet",
     "examples": [
@@ -1783,6 +3641,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 44
+    },
+    "meaning": {
+      "en": "to report on/about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To give an account or description of something (more formal or detailed than \"berichten von\").",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1790,18 +3670,38 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to think about",
-    "explanation_en": "To consider or reflect on a topic or idea.",
-    "praeteritum": "dachte über",
-    "perfekt": "hat über ... gedacht",
+    "praeteritum": "dachte",
+    "perfekt": "hat gedacht",
     "examples": [
-      "Ich denke über deinen Vorschlag nach.",
+      "Wie denkst du über den neuen Kollegen?",
       "Was hast du über das Problem gedacht?",
       "Was dachtest du über den Film?"
     ],
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 45
+    },
+    "meaning": {
+      "en": "to think about (have an opinion on)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have an opinion or view about something — asking or giving a judgment on a topic (different from \"nachdenken über\", which means to reflect/ponder).",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1809,8 +3709,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to agree on",
-    "explanation_en": "To reach an agreement or consensus on a particular matter.",
     "praeteritum": "einigte sich über",
     "perfekt": "hat sich über ... geeinigt",
     "examples": [
@@ -1821,6 +3719,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 46
+    },
+    "meaning": {
+      "en": "to agree on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To reach an agreement or consensus on a particular matter.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1828,8 +3748,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to tell about",
-    "explanation_en": "To narrate or give details about a topic (can be more descriptive than \"erzählen von\").",
     "praeteritum": "erzählte über",
     "perfekt": "hat über ... erzählt",
     "examples": [
@@ -1840,6 +3758,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 47
+    },
+    "meaning": {
+      "en": "to tell about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To narrate or give details about a topic (can be more descriptive than \"erzählen von\").",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1847,8 +3787,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to be happy about (present/past)",
-    "explanation_en": "To feel joy or happiness about something that has happened or is happening.",
     "praeteritum": "freute sich über",
     "perfekt": "hat sich über ... gefreut",
     "examples": [
@@ -1859,6 +3797,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 48
+    },
+    "meaning": {
+      "en": "to be happy about (present/past)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To feel joy or happiness about something that has happened or is happening.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1866,8 +3826,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to inform oneself about / to get informed about",
-    "explanation_en": "To gather information or make oneself knowledgeable about a particular subject.",
     "praeteritum": "informierte sich über",
     "perfekt": "hat sich über ... informiert",
     "examples": [
@@ -1878,6 +3836,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 49
+    },
+    "meaning": {
+      "en": "to inform oneself about / to get informed about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To gather information or make oneself knowledgeable about a particular subject.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1885,8 +3865,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to reflect on, to think deeply about",
-    "explanation_en": "To ponder deeply or reflect on a topic or decision.",
     "praeteritum": "dachte über",
     "perfekt": "hat über ... nachgedacht",
     "examples": [
@@ -1897,6 +3875,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 50
+    },
+    "meaning": {
+      "en": "to reflect on, to think deeply about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To ponder deeply or reflect on a topic or decision.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1904,8 +3904,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to complain/grumble about",
-    "explanation_en": "To express strong disapproval or annoyance about something, often verbally.",
     "praeteritum": "schimpfte über",
     "perfekt": "hat über ... geschimpft",
     "examples": [
@@ -1916,6 +3914,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 51
+    },
+    "meaning": {
+      "en": "to complain/grumble about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express strong disapproval or annoyance about something, often verbally.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1923,8 +3943,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to triumph over, to defeat",
-    "explanation_en": "To win or be victorious over an opponent or an obstacle.",
     "praeteritum": "siegte über",
     "perfekt": "hat über ... gesiegt",
     "examples": [
@@ -1935,6 +3953,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 52
+    },
+    "meaning": {
+      "en": "to triumph over, to defeat",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To win or be victorious over an opponent or an obstacle.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1942,8 +3982,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to speak about",
-    "explanation_en": "To talk or discuss a particular topic.",
     "praeteritum": "sprach über",
     "perfekt": "hat über ... gesprochen",
     "examples": [
@@ -1954,6 +3992,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 53
+    },
+    "meaning": {
+      "en": "to speak about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To talk or discuss a particular topic.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1961,8 +4021,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to have at one's disposal, to possess",
-    "explanation_en": "To have control or command over something; to possess resources or abilities.",
     "praeteritum": "verfügte über",
     "perfekt": "hat über ... verfügt",
     "examples": [
@@ -1973,6 +4031,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 54
+    },
+    "meaning": {
+      "en": "to have at one's disposal, to possess",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have control or command over something; to possess resources or abilities.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1980,8 +4060,6 @@
     "prep": "über + Akkusativ",
     "preposition": "über",
     "case": "Akkusativ",
-    "meaning_en": "to wonder about, to be surprised at",
-    "explanation_en": "To feel surprise or astonishment about something.",
     "praeteritum": "wunderte sich über",
     "perfekt": "hat sich über ... gewundert",
     "examples": [
@@ -1992,6 +4070,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 55
+    },
+    "meaning": {
+      "en": "to wonder about, to be surprised at",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To feel surprise or astonishment about something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -1999,8 +4099,6 @@
     "prep": "unter + Dativ",
     "preposition": "unter",
     "case": "Dativ",
-    "meaning_en": "to understand by",
-    "explanation_en": "To interpret something in a particular way; to mean something by a term or concept.",
     "praeteritum": "verstand unter",
     "perfekt": "hat unter ... verstanden",
     "examples": [
@@ -2011,6 +4109,28 @@
     "source": {
       "sheet": "aus+vor+ in +von + über",
       "row": 58
+    },
+    "meaning": {
+      "en": "to understand by",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To interpret something in a particular way; to mean something by a term or concept.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2018,8 +4138,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to ask/call on (someone) to do something",
-    "explanation_en": "To formally request or urge someone to do something.",
     "praeteritum": "forderte auf",
     "perfekt": "hat aufgefordert",
     "examples": [
@@ -2030,6 +4148,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 4
+    },
+    "meaning": {
+      "en": "to ask/call on (someone) to do something",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To formally request or urge someone to do something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2037,8 +4177,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to congratulate (someone) on",
-    "explanation_en": "To express good wishes to someone on a particular occasion.",
     "praeteritum": "beglückwünschte",
     "perfekt": "hat beglückwünscht",
     "examples": [
@@ -2049,6 +4187,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 5
+    },
+    "meaning": {
+      "en": "to congratulate (someone) on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express good wishes to someone on a particular occasion.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2056,8 +4216,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to use for",
-    "explanation_en": "To employ something for a particular purpose.",
     "praeteritum": "benutzte",
     "perfekt": "hat benutzt",
     "examples": [
@@ -2068,6 +4226,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 6
+    },
+    "meaning": {
+      "en": "to use for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To employ something for a particular purpose.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2075,8 +4255,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to bring to (a result/reaction)",
-    "explanation_en": "To cause something to reach a particular state or result.",
     "praeteritum": "brachte",
     "perfekt": "hat gebracht",
     "examples": [
@@ -2087,6 +4265,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 7
+    },
+    "meaning": {
+      "en": "to bring to (a result/reaction)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To cause something to reach a particular state or result.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2094,8 +4294,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to be suitable for",
-    "explanation_en": "To be fit or appropriate for a particular purpose or situation.",
     "praeteritum": "eignete sich",
     "perfekt": "hat sich geeignet",
     "examples": [
@@ -2106,6 +4304,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 8
+    },
+    "meaning": {
+      "en": "to be suitable for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be fit or appropriate for a particular purpose or situation.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2113,8 +4333,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to invite to",
-    "explanation_en": "To request the presence or participation of someone at an event.",
     "praeteritum": "lud ein",
     "perfekt": "hat eingeladen",
     "examples": [
@@ -2125,6 +4343,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 9
+    },
+    "meaning": {
+      "en": "to invite to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To request the presence or participation of someone at an event.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2132,8 +4372,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to decide to",
-    "explanation_en": "To make a firm resolution or choice to do something.",
     "praeteritum": "entschloss sich / entschied sich",
     "perfekt": "hat sich entschlossen / hat sich entschieden",
     "examples": [
@@ -2144,6 +4382,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 10
+    },
+    "meaning": {
+      "en": "to decide to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To make a firm resolution or choice to do something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2151,8 +4411,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to appoint as",
-    "explanation_en": "To officially assign a position or role to someone.",
     "praeteritum": "ernannte",
     "perfekt": "hat ernannt",
     "examples": [
@@ -2163,6 +4421,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 11
+    },
+    "meaning": {
+      "en": "to appoint as",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To officially assign a position or role to someone.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2170,8 +4450,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to raise/educate to become",
-    "explanation_en": "To bring up and train a child to be a certain type of person.",
     "praeteritum": "erzog",
     "perfekt": "hat erzogen",
     "examples": [
@@ -2182,6 +4460,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 12
+    },
+    "meaning": {
+      "en": "to raise/educate to become",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To bring up and train a child to be a certain type of person.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2189,8 +4489,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to serve as",
-    "explanation_en": "To function or be used for a particular purpose.",
     "praeteritum": "diente",
     "perfekt": "hat gedient",
     "examples": [
@@ -2201,6 +4499,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 13
+    },
+    "meaning": {
+      "en": "to serve as",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To function or be used for a particular purpose.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2208,8 +4528,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to belong to",
-    "explanation_en": "To be a part of a group",
     "praeteritum": "gehörte",
     "perfekt": "hat gehört",
     "examples": [
@@ -2220,6 +4538,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 14
+    },
+    "meaning": {
+      "en": "to belong to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be a part of a group",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2227,8 +4567,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to match/go with",
-    "explanation_en": "To be suitable or appropriate in combination with something else.",
     "praeteritum": "passte",
     "perfekt": "hat gepasst",
     "examples": [
@@ -2239,6 +4577,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 15
+    },
+    "meaning": {
+      "en": "to match/go with",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be suitable or appropriate in combination with something else.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2246,8 +4606,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to congratulate on",
-    "explanation_en": "To express pleasure to someone at their success or good fortune.",
     "praeteritum": "gratulierte",
     "perfekt": "hat gratuliert",
     "examples": [
@@ -2258,6 +4616,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 16
+    },
+    "meaning": {
+      "en": "to congratulate on",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express pleasure to someone at their success or good fortune.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2265,8 +4645,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to persuade to",
-    "explanation_en": "To convince someone to do something through reasoning or argument.",
     "praeteritum": "überredete",
     "perfekt": "hat überredet",
     "examples": [
@@ -2277,6 +4655,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 17
+    },
+    "meaning": {
+      "en": "to persuade to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To convince someone to do something through reasoning or argument.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2284,8 +4684,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to become/turn into",
-    "explanation_en": "To change into a new state form or identity.",
     "praeteritum": "wurde",
     "perfekt": "ist geworden",
     "examples": [
@@ -2296,6 +4694,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 18
+    },
+    "meaning": {
+      "en": "to become/turn into",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To change into a new state form or identity.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2303,8 +4723,6 @@
     "prep": "zu + Dativ",
     "preposition": "zu",
     "case": "Dativ",
-    "meaning_en": "to sentence to",
-    "explanation_en": "To declare someone guilty of a crime and assign a punishment.",
     "praeteritum": "verurteilte",
     "perfekt": "hat verurteilt",
     "examples": [
@@ -2315,6 +4733,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 19
+    },
+    "meaning": {
+      "en": "to sentence to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To declare someone guilty of a crime and assign a punishment.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2322,8 +4762,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to thank for",
-    "explanation_en": "To express gratitude or appreciation for something.",
     "praeteritum": "bedankte sich",
     "perfekt": "hat sich bedankt",
     "examples": [
@@ -2334,6 +4772,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 22
+    },
+    "meaning": {
+      "en": "to thank for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express gratitude or appreciation for something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2341,8 +4801,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to use for",
-    "explanation_en": "To employ something for a particular purpose.",
     "praeteritum": "benutzte",
     "perfekt": "hat benutzt",
     "examples": [
@@ -2353,6 +4811,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 23
+    },
+    "meaning": {
+      "en": "to use for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To employ something for a particular purpose.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2360,8 +4840,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to engage in, to commit to",
-    "explanation_en": "To commit to or be involved in a cause or activity.",
     "praeteritum": "engagierte sich",
     "perfekt": "hat sich engagiert",
     "examples": [
@@ -2372,6 +4850,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 24
+    },
+    "meaning": {
+      "en": "to engage in, to commit to",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To commit to or be involved in a cause or activity.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2379,8 +4879,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to advocate for, to support",
-    "explanation_en": "To actively support or work on behalf of someone or something.",
     "praeteritum": "setzte sich ein",
     "perfekt": "hat sich eingesetzt",
     "examples": [
@@ -2391,6 +4889,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 25
+    },
+    "meaning": {
+      "en": "to advocate for, to support",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To actively support or work on behalf of someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2398,8 +4918,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to apologize for",
-    "explanation_en": "To express regret for an offense, fault, or failure.",
     "praeteritum": "entschuldigte sich",
     "perfekt": "hat sich entschuldigt",
     "examples": [
@@ -2410,6 +4928,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 26
+    },
+    "meaning": {
+      "en": "to apologize for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express regret for an offense, fault, or failure.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2417,8 +4957,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to be interested in",
-    "explanation_en": "To have a curiosity or a desire to know about something.",
     "praeteritum": "interessierte sich",
     "perfekt": "hat sich interessiert",
     "examples": [
@@ -2429,6 +4967,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 27
+    },
+    "meaning": {
+      "en": "to be interested in",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To have a curiosity or a desire to know about something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2436,8 +4996,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to fight for",
-    "explanation_en": "To struggle or contend in support of something.",
     "praeteritum": "kämpfte",
     "perfekt": "hat gekämpft",
     "examples": [
@@ -2448,6 +5006,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 28
+    },
+    "meaning": {
+      "en": "to fight for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To struggle or contend in support of something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2455,8 +5035,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to take care of, ensure",
-    "explanation_en": "To take responsibility for something; to ensure that something happens.",
     "praeteritum": "sorgte",
     "perfekt": "hat gesorgt",
     "examples": [
@@ -2467,6 +5045,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 29
+    },
+    "meaning": {
+      "en": "to take care of, ensure",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To take responsibility for something; to ensure that something happens.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2474,8 +5074,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to vote for",
-    "explanation_en": "To cast a vote in support of a person, a proposal, or a cause.",
     "praeteritum": "stimmte",
     "perfekt": "hat gestimmt",
     "examples": [
@@ -2486,6 +5084,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 30
+    },
+    "meaning": {
+      "en": "to vote for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To cast a vote in support of a person, a proposal, or a cause.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2493,8 +5113,6 @@
     "prep": "für + Akkusativ",
     "preposition": "für",
     "case": "Akkusativ",
-    "meaning_en": "to advertise for",
-    "explanation_en": "To promote or publicize a product, service, or cause.",
     "praeteritum": "warb",
     "perfekt": "hat geworben",
     "examples": [
@@ -2505,6 +5123,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 31
+    },
+    "meaning": {
+      "en": "to advertise for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To promote or publicize a product, service, or cause.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2512,8 +5152,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to decide against",
-    "explanation_en": "To make a choice not to do something.",
     "praeteritum": "entschied sich",
     "perfekt": "hat sich entschieden",
     "examples": [
@@ -2524,6 +5162,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 34
+    },
+    "meaning": {
+      "en": "to decide against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To make a choice not to do something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2531,8 +5191,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to fight against",
-    "explanation_en": "To struggle or contend in opposition to something.",
     "praeteritum": "kämpfte",
     "perfekt": "hat gekämpft",
     "examples": [
@@ -2543,6 +5201,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 35
+    },
+    "meaning": {
+      "en": "to fight against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To struggle or contend in opposition to something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2550,8 +5230,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to protest against",
-    "explanation_en": "To express a strong objection or disapproval.",
     "praeteritum": "protestierte",
     "perfekt": "hat protestiert",
     "examples": [
@@ -2562,6 +5240,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 36
+    },
+    "meaning": {
+      "en": "to protest against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To express a strong objection or disapproval.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2569,8 +5269,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to play against",
-    "explanation_en": "To take part in a game or competition in opposition to someone or something.",
     "praeteritum": "spielte",
     "perfekt": "hat gespielt",
     "examples": [
@@ -2581,6 +5279,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 37
+    },
+    "meaning": {
+      "en": "to play against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To take part in a game or competition in opposition to someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2588,8 +5308,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to vote against",
-    "explanation_en": "To cast a vote in opposition to a person, a proposal, or a cause.",
     "praeteritum": "stimmte",
     "perfekt": "hat gestimmt",
     "examples": [
@@ -2600,6 +5318,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 38
+    },
+    "meaning": {
+      "en": "to vote against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To cast a vote in opposition to a person, a proposal, or a cause.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2607,8 +5347,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to violate, infringe",
-    "explanation_en": "To break or fail to comply with a rule, law, or agreement.",
     "praeteritum": "verstieß",
     "perfekt": "hat verstoßen",
     "examples": [
@@ -2619,6 +5357,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 39
+    },
+    "meaning": {
+      "en": "to violate, infringe",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To break or fail to comply with a rule, law, or agreement.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2626,8 +5386,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to defend against",
-    "explanation_en": "To protect or guard someone or something from attack or harm.",
     "praeteritum": "verteidigte",
     "perfekt": "hat verteidigt",
     "examples": [
@@ -2638,6 +5396,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 40
+    },
+    "meaning": {
+      "en": "to defend against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To protect or guard someone or something from attack or harm.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2645,8 +5425,6 @@
     "prep": "gegen + Akkusativ",
     "preposition": "gegen",
     "case": "Akkusativ",
-    "meaning_en": "to defend oneself against",
-    "explanation_en": "To protect oneself or resist an attack, criticism, or unwanted action.",
     "praeteritum": "wehrte sich",
     "perfekt": "hat sich gewehrt",
     "examples": [
@@ -2657,6 +5435,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 41
+    },
+    "meaning": {
+      "en": "to defend oneself against",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To protect oneself or resist an attack, criticism, or unwanted action.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2664,8 +5464,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to strive for, to make an effort for",
-    "explanation_en": "To strive or make an effort to obtain or achieve something.",
     "praeteritum": "bemühte sich",
     "perfekt": "hat sich bemüht",
     "examples": [
@@ -2676,6 +5474,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 44
+    },
+    "meaning": {
+      "en": "to strive for, to make an effort for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To strive or make an effort to obtain or achieve something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2683,8 +5503,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to worry about, to be anxious about",
-    "explanation_en": "To be anxious or worried about the well-being of a person or a situation.",
     "praeteritum": "ängstigte sich",
     "perfekt": "hat sich geängstigt",
     "examples": [
@@ -2695,6 +5513,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 45
+    },
+    "meaning": {
+      "en": "to worry about, to be anxious about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be anxious or worried about the well-being of a person or a situation.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2702,8 +5542,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to envy someone for",
-    "explanation_en": "To feel envy or covetousness towards someone for something they possess or have achieved.",
     "praeteritum": "beneidete",
     "perfekt": "hat beneidet",
     "examples": [
@@ -2714,6 +5552,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 46
+    },
+    "meaning": {
+      "en": "to envy someone for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To feel envy or covetousness towards someone for something they possess or have achieved.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2721,8 +5581,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to ask for, to request",
-    "explanation_en": "To make a request for something, often with a sense of politeness or urgency.",
     "praeteritum": "bat",
     "perfekt": "hat gebeten",
     "examples": [
@@ -2733,6 +5591,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 47
+    },
+    "meaning": {
+      "en": "to ask for, to request",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To make a request for something, often with a sense of politeness or urgency.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2740,8 +5620,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to apply for",
-    "explanation_en": "To formally apply for a position, an opportunity, or a specific role.",
     "praeteritum": "bewarb sich",
     "perfekt": "hat sich beworben",
     "examples": [
@@ -2752,6 +5630,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 48
+    },
+    "meaning": {
+      "en": "to apply for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To formally apply for a position, an opportunity, or a specific role.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2759,8 +5659,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "it's about, it concerns",
-    "explanation_en": "To be the main subject, topic, or concern of a conversation, story, or event.",
     "praeteritum": "ging",
     "perfekt": "ist gegangen",
     "examples": [
@@ -2771,6 +5669,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 49
+    },
+    "meaning": {
+      "en": "it's about, it concerns",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To be the main subject, topic, or concern of a conversation, story, or event.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2778,8 +5698,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to fight for (specific goal/object)",
-    "explanation_en": "To actively struggle or compete to win or secure something.",
     "praeteritum": "kämpfte",
     "perfekt": "hat gekämpft",
     "examples": [
@@ -2790,6 +5708,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 50
+    },
+    "meaning": {
+      "en": "to fight for (specific goal/object)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To actively struggle or compete to win or secure something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2797,8 +5737,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to take care of, to look after",
-    "explanation_en": "To take care of, attend to, or be concerned with the needs of someone or something.",
     "praeteritum": "kümmerte sich",
     "perfekt": "hat sich gekümmert",
     "examples": [
@@ -2809,6 +5747,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 51
+    },
+    "meaning": {
+      "en": "to take care of, to look after",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To take care of, attend to, or be concerned with the needs of someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2816,8 +5776,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to worry about",
-    "explanation_en": "To feel worried, concerned, or anxious about someone or something.",
     "praeteritum": "sorgte",
     "perfekt": "hat gesorgt",
     "examples": [
@@ -2828,6 +5786,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 52
+    },
+    "meaning": {
+      "en": "to worry about",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To feel worried, concerned, or anxious about someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2835,8 +5815,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to play for (stakes)",
-    "explanation_en": "To participate in a game or contest where a specific prize or stake is at risk.",
     "praeteritum": "spielte",
     "perfekt": "hat gespielt",
     "examples": [
@@ -2847,6 +5825,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 53
+    },
+    "meaning": {
+      "en": "to play for (stakes)",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To participate in a game or contest where a specific prize or stake is at risk.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2854,8 +5854,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to argue about, quarrel over",
-    "explanation_en": "To argue or quarrel with someone over a specific topic or item.",
     "praeteritum": "stritt (sich)",
     "perfekt": "hat (sich) gestritten",
     "examples": [
@@ -2866,6 +5864,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 54
+    },
+    "meaning": {
+      "en": "to argue about, quarrel over",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To argue or quarrel with someone over a specific topic or item.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2873,8 +5893,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to mourn for",
-    "explanation_en": "To feel deep sadness or grieve for someone who has died.",
     "praeteritum": "trauerte",
     "perfekt": "hat getrauert",
     "examples": [
@@ -2885,6 +5903,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 55
+    },
+    "meaning": {
+      "en": "to mourn for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To feel deep sadness or grieve for someone who has died.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2892,8 +5932,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to court, solicit, attract",
-    "explanation_en": "To try to attract or gain the support of someone or something.",
     "praeteritum": "warb",
     "perfekt": "hat geworben",
     "examples": [
@@ -2904,6 +5942,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 56
+    },
+    "meaning": {
+      "en": "to court, solicit, attract",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To try to attract or gain the support of someone or something.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   },
   {
@@ -2911,8 +5971,6 @@
     "prep": "um + Akkusativ",
     "preposition": "um",
     "case": "Akkusativ",
-    "meaning_en": "to struggle for, to wrestle for",
-    "explanation_en": "To struggle, wrestle, or compete with great effort to achieve a particular goal or outcome.",
     "praeteritum": "rang",
     "perfekt": "hat gerungen",
     "examples": [
@@ -2923,6 +5981,28 @@
     "source": {
       "sheet": "zu + für + gegen +um",
       "row": 57
+    },
+    "meaning": {
+      "en": "to struggle for, to wrestle for",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
+    },
+    "explanation": {
+      "en": "To struggle, wrestle, or compete with great effort to achieve a particular goal or outcome.",
+      "tr": "",
+      "sq": "",
+      "uk": "",
+      "ar": "",
+      "fa": "",
+      "es": "",
+      "fr": "",
+      "it": ""
     }
   }
 ]

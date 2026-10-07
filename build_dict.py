@@ -104,7 +104,9 @@ html = f"""<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
-  <p class="back"><a href="index.html">&larr; Alle Lektionen</a></p>
+  <p class="back"><a href="index.html">&larr; Alle Lektionen</a>
+    <span style="color:#cfc8b4;margin:0 8px;">&middot;</span>
+    <a href="verben-mit-praepositionen.html">Verben + Präpositionen</a></p>
 
   <div class="meta-row">
     <span class="badge badge-date">{len(rows)} Wörter</span>

@@ -348,6 +348,11 @@ on a wrong one, and entries with more past misses get proportionally more
 likely to reappear (simple spaced repetition). Best score
 (`localStorage["dg-prep-best"]`) and best streak-within-a-round
 (`localStorage["dg-prep-best-streak"]`) are both tracked across sessions.
+Each of the 14 prepositions has a stable muted pastel accent used on group
+headings and verb pills in the reference view. Game options deliberately stay
+neutral so color cannot reveal the answer. The written preposition and case
+always remain visible, so color is a supplementary learning cue rather than
+the only way information is communicated.
 
 A content bug worth knowing about if you touch this data: `denken|an`,
 `denken|über`, and `nachdenken|über` are three separate, legitimately

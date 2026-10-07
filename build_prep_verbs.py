@@ -14,6 +14,27 @@ entries = json.loads((GEN / "praepositionsverben.json").read_text(encoding="utf-
 
 PREP_ORDER = ["an", "bei", "mit", "auf", "vor", "aus", "in", "von",
               "über", "unter", "zu", "für", "gegen", "um"]
+PREP_PALETTE = {
+    "an":    ("#e8f1fb", "#315d87", "#c6d9ee"),
+    "bei":   ("#f2ebfb", "#634d83", "#d9cbed"),
+    "mit":   ("#e7f3ec", "#35634a", "#c5dfd0"),
+    "auf":   ("#fdf0dc", "#795527", "#ead2ab"),
+    "vor":   ("#f8e6e6", "#7a4242", "#e4c1c1"),
+    "aus":   ("#e4f3f3", "#2f6464", "#bddddd"),
+    "in":    ("#edf0fa", "#4b5680", "#ced4eb"),
+    "von":   ("#f3eadf", "#70523a", "#deccb9"),
+    "über":  ("#eee8f5", "#614d76", "#d5c8e2"),
+    "unter": ("#e8efe4", "#4d6642", "#cbd9c3"),
+    "zu":    ("#f8eadf", "#76513a", "#e4c8b5"),
+    "für":   ("#e9f0f7", "#3f5f7a", "#c8d8e7"),
+    "gegen": ("#f5e7e1", "#7a4939", "#dfc2b7"),
+    "um":    ("#f2ead6", "#6d592f", "#ddcfaa"),
+}
+prep_css = "\n".join(
+    f"  .prep-{i}{{--prep-bg:{bg};--prep-text:{text};--prep-border:{border};}}"
+    for i, prep in enumerate(PREP_ORDER)
+    for bg, text, border in [PREP_PALETTE[prep]]
+)
 counts = Counter(entry["preposition"] for entry in entries)
 filter_options = "\n".join(
     f'<option value="{escape(prep)}">{escape(prep)} ({counts[prep]})</option>'
@@ -58,6 +79,7 @@ template = r'''<!DOCTYPE html>
     --body:#2c2c2a;--muted:#77736b;--border:#d7e5ea;
     --cream:#f6f2e9;--good:#3f6b3f;--good-bg:#e6f0e1;
     --bad:#8b3e32;--bad-bg:#f6e7e3;}
+__PREP_CSS__
   *{box-sizing:border-box;}
   html{font-size:14px;}
   body{font-family:"Segoe UI",Helvetica,Arial,sans-serif;background:var(--page-bg);
@@ -89,14 +111,17 @@ template = r'''<!DOCTYPE html>
   .count{font-size:.8rem;color:var(--muted);margin:0 0 18px;}
   .group{margin:0 0 28px;}
   .group-head{display:flex;align-items:baseline;gap:9px;margin:0 0 10px;padding:0 4px;}
-  .group-head h2{font-size:1.2rem;color:var(--blue);margin:0;}
+  .group-head::before{content:"";width:9px;height:9px;border-radius:50%;
+    background:var(--prep-text,var(--blue));flex:0 0 auto;}
+  .group-head h2{font-size:1.2rem;color:var(--prep-text,var(--blue));margin:0;}
   .group-head span{font-size:.78rem;color:var(--muted);}
   .verb-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
   .verb-card{background:var(--card-bg);border:1px solid var(--border);border-radius:18px;
     padding:19px 20px;min-width:0;}
   .verb-top{display:flex;gap:10px;align-items:flex-start;justify-content:space-between;margin-bottom:12px;}
   .verb-name{font-size:1.12rem;font-weight:750;color:var(--heading);line-height:1.35;}
-  .prep-pill{flex:0 0 auto;background:#fff;border:1px solid #c9dce3;color:var(--blue);
+  .prep-pill{flex:0 0 auto;background:var(--prep-bg,#fff);
+    border:1px solid var(--prep-border,#c9dce3);color:var(--prep-text,var(--blue));
     border-radius:999px;padding:5px 9px;font-size:.75rem;font-weight:750;white-space:nowrap;}
   .meaning{font-size:.9rem;color:var(--blue);font-weight:650;margin:0 0 12px;}
   .meaning[dir="rtl"],.explanation[dir="rtl"],.question-meaning[dir="rtl"]{text-align:right;}
@@ -182,6 +207,7 @@ __LANG_OPTIONS__
 const DATA = __DATA__;
 const PREP_ANSWERS = __PREP_ANSWERS__;
 const PREP_ORDER = __PREP_ORDER__;
+const PREP_INDEX = Object.fromEntries(PREP_ORDER.map((prep,index)=>[prep,index]));
 const RTL_LANGS = __RTL_LANGS__;
 const BEST_KEY = "dg-prep-best";
 const LANG_KEY = "dg-lang";
@@ -207,7 +233,7 @@ document.querySelectorAll("[data-view]").forEach(button => button.addEventListen
 }));
 
 function card(entry){
-  return `<article class="verb-card">
+  return `<article class="verb-card prep-${PREP_INDEX[entry.preposition]}">
     <div class="verb-top"><div class="verb-name">${esc(entry.verb)}</div><span class="prep-pill">${esc(entry.prep)}</span></div>
     <p class="meaning"${rtlAttr()}>${esc(localized(entry,"meaning"))}</p>
     <div class="forms"><div class="form"><small>Präteritum</small><span>${esc(entry.praeteritum)}</span></div><div class="form"><small>Perfekt</small><span>${esc(entry.perfekt)}</span></div></div>
@@ -221,7 +247,7 @@ function renderReference(){
   const hits=DATA.filter(entry => (!prep || entry.preposition===prep) && (!term || [entry.verb,entry.prep,localized(entry,"meaning"),localized(entry,"explanation"),...entry.examples].some(value=>value.toLocaleLowerCase("de").includes(term))));
   countEl.textContent=term||prep ? `${hits.length} von ${DATA.length} Verbindungen` : `${DATA.length} Verbindungen insgesamt`;
   const sections=PREP_ORDER.map(name=>[name,hits.filter(entry=>entry.preposition===name)]).filter(([,items])=>items.length);
-  groupsEl.innerHTML=sections.length ? sections.map(([name,items])=>`<section class="group"><div class="group-head"><h2>${esc(name)}</h2><span>${items.length} Verbindungen</span></div><div class="verb-grid">${items.map(card).join("")}</div></section>`).join("") : `<div class="empty">Keine Treffer.</div>`;
+  groupsEl.innerHTML=sections.length ? sections.map(([name,items])=>`<section class="group prep-${PREP_INDEX[name]}"><div class="group-head"><h2>${esc(name)}</h2><span>${items.length} Verbindungen</span></div><div class="verb-grid">${items.map(card).join("")}</div></section>`).join("") : `<div class="empty">Keine Treffer.</div>`;
 }
 langSelectEl.addEventListener("change",()=>{try{localStorage.setItem(LANG_KEY,langSelectEl.value);}catch(e){}renderReference();});
 searchEl.addEventListener("input",renderReference);
@@ -299,6 +325,7 @@ gameStartScreen();
 '''
 
 html = (template
+        .replace("__PREP_CSS__", prep_css)
         .replace("__COUNT__", str(len(entries)))
         .replace("__PREP_COUNT__", str(len(counts)))
         .replace("__FILTER_OPTIONS__", filter_options)

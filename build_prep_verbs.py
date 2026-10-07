@@ -22,13 +22,13 @@ filter_options = "\n".join(
 prep_answers = list(dict.fromkeys(entry["prep"] for entry in entries))
 payload = json.dumps(entries, ensure_ascii=False, separators=(",", ":"))
 
-# Same 9 languages / shared "dg-lang" localStorage key as woerterbuch.html and
-# every lesson's vocab table (see build_dict.py's LANGS) — keeps a student's
-# language choice consistent across the whole site. Translations beyond "en"
-# are filled in gradually (see PROMPTS.md); missing ones fall back to English
-# in the page's own JS, so the page is correct even before every entry has
-# all 9 languages.
+# The nine translation languages use the same shared "dg-lang" localStorage
+# key as woerterbuch.html and the lesson vocab tables. This page additionally
+# offers German learner definitions. Other pages safely ignore that page-only
+# "de" choice and retain their own default. Missing translations fall back to
+# English until the remaining languages are filled (see PROMPTS.md).
 LANGS = [
+    ("de", "Deutsch (Deutsch–Deutsch)", 0),
     ("en", "English", 0),
     ("tr", "Türkçe", 0),
     ("sq", "Shqip", 0),
@@ -175,7 +175,7 @@ __LANG_OPTIONS__
     <div class="game-shell" id="gameBox"></div>
   </section>
 
-  <p class="note">Grundlage: „Preposition mit Verben.xlsx“. Die Beispielsätze wurden auf genau drei pro Verbindung vereinheitlicht und teilweise sprachlich bereinigt. Bedeutung und Erklärung gibt es bisher auf Englisch vollständig; weitere Sprachen werden ergänzt — ohne Übersetzung wird automatisch Englisch angezeigt.</p>
+  <p class="note">Grundlage: „Preposition mit Verben.xlsx“. Die Beispielsätze wurden auf genau drei pro Verbindung vereinheitlicht und teilweise sprachlich bereinigt. Bedeutung und Erklärung gibt es auf Deutsch und Englisch vollständig; weitere Sprachen werden ergänzt — ohne Übersetzung wird automatisch Englisch angezeigt.</p>
 </main>
 
 <script>

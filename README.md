@@ -19,7 +19,8 @@ build scripts and rebuild.
 
 The prepositional-verbs page is generated from `praepositionsverben.json` by
 `build_prep_verbs.py`. Every entry has three examples; the source material is
-the teacher's `Preposition mit Verben.xlsx` workbook.
+the teacher's `Preposition mit Verben.xlsx` workbook. All entries include
+English source meanings and simple German learner definitions.
 
 ## Generating lesson audio
 

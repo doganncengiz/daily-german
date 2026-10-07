@@ -8,7 +8,7 @@ Vier fertige Prompts: einer für ChatGPT (Qualitätsprüfung), einer für Claude
 
 ## 1 — ChatGPT: Übersetzungen und Deutsch prüfen
 
-**Wofür:** Die 519 Wörterbuch-Einträge und die Lektionstexte gegenprüfen.
+**Wofür:** Die 584 Wörterbuch-Einträge und die Lektionstexte gegenprüfen.
 **Wie benutzen:** Prompt einfügen, dann 30–50 Zeilen aus `vocab.json` darunter
 kopieren. In Portionen arbeiten — nicht alle 519 auf einmal.
 
@@ -99,11 +99,14 @@ schon.
 
 WAS ES GIBT
 
-1. Eine Archivseite (index.html): Liste aller Tageslektionen, neueste oben,
-   nach Monat gruppiert. Dazu eine Kachel, die zum Wörterbuch führt.
-2. Ein Wörterbuch (woerterbuch.html): 519 Einträge in einer Tabelle, mit
+1. Eine Start- und Archivseite (index.html): Liste aller Tageslektionen,
+   neueste oben, nach Monat gruppiert. Dazu Kacheln für Wörterbuch und
+   Verben mit Präpositionen.
+2. Ein Wörterbuch (woerterbuch.html): 584 Einträge in einer Tabelle, mit
    Suchfeld und einem Dropdown für die Übersetzungssprache.
-3. 71 Lektionsseiten, die neueren mit sechs Tabs: Lesetext, Vokabular,
+3. Eine Verben-mit-Präpositionen-Seite: 154 Verbindungen, Suche, Filter,
+   Deutsch–Deutsch-Erklärungen und ein 10-Fragen-Spiel.
+4. 80 Lektionsseiten, die neueren mit sechs Tabs: Lesetext, Vokabular,
    Ausdrücke, Grammatik, Übung, Lösungen.
 
 DIE BESTEHENDE FARBWELT — bitte beibehalten, sie gefällt mir:
@@ -126,10 +129,10 @@ DIE BESTEHENDE FARBWELT — bitte beibehalten, sie gefällt mir:
 
 WAS ICH VON DIR MÖCHTE
 
-1. Eine echte Startseite, die es noch nicht gibt. Sie soll in wenigen Sekunden
-   erklären, was das ist, und dann direkt zur heutigen Lektion und zum
-   Wörterbuch führen. Zielgruppe: Erwachsene, die morgens zehn Minuten Zeit
-   haben, nicht Studierende mit einem Semesterplan.
+1. Die bestehende Startseite weiterentwickeln. Sie soll in wenigen Sekunden
+   erklären, was das ist, und direkt zur heutigen Lektion, zum Wörterbuch und
+   zu den Verben mit Präpositionen führen. Zielgruppe: Erwachsene, die morgens
+   zehn Minuten Zeit haben, nicht Studierende mit einem Semesterplan.
 2. Einen besseren Aufbau der Archivseite. 50 Einträge als flache Liste werden
    bald unübersichtlich. Ich hätte gern Vorschläge — Gruppierung, Filter nach
    Thema, Suche, irgendetwas, das bei 200 Lektionen noch funktioniert.
@@ -222,14 +225,13 @@ generierter Output, der Build erzeugt es neu.
 
 ---
 
-## 4 — Codex: Verben-mit-Präpositionen in alle 9 Sprachen übersetzen
+## 4 — Codex: Verben-mit-Präpositionen in die 8 fehlenden Sprachen übersetzen
 
 **Wofür:** `praepositionsverben.json` (154 Einträge) hat "meaning" und
-"explanation" als Objekte mit einem Schlüssel pro Sprache (en, tr, sq, uk,
-ar, fa, es, fr, it) — aber bisher ist nur "en" befüllt. Die Seite
-`verben-mit-praepositionen.html` zeigt ohne Übersetzung automatisch Englisch
-an, funktioniert also schon jetzt, aber nur auf Englisch nützlich für alle,
-die kein Englisch können.
+"explanation" als Objekte mit einem Schlüssel pro Sprache (de, en, tr, sq,
+uk, ar, fa, es, fr, it). Deutsch und Englisch sind vollständig; die acht
+anderen Sprachen sind noch leer. Die Seite zeigt ohne Übersetzung automatisch
+Englisch an.
 
 **Wie benutzen:** Direkt in Codex (mit Repo-Zugriff) einfügen, im
 Projektordner `Daily German`.
@@ -239,8 +241,8 @@ Lies zuerst AGENTS.md im Projektordner, Abschnitt zur
 Verben-mit-Präpositionen-Seite — dort stehen Datenschema und Build-Ablauf.
 
 Aufgabe: In praepositionsverben.json fehlen für alle 154 Einträge die
-Übersetzungen von "meaning" und "explanation" in acht der neun Sprachen
-(nur "en" ist befüllt; tr, sq, uk, ar, fa, es, fr, it sind noch "").
+Übersetzungen von "meaning" und "explanation" in acht Sprachen. "de" und
+"en" sind befüllt; tr, sq, uk, ar, fa, es, fr und it sind noch "".
 
 1. Für jeden Eintrag: Übersetze "meaning.en" (eine kurze Bedeutungsangabe,
    wie "to think about") und "explanation.en" (ein ganzer erklärender Satz)
@@ -253,11 +255,12 @@ Aufgabe: In praepositionsverben.json fehlen für alle 154 Einträge die
    literarisch oder veraltet.
 3. Schema pro Eintrag bleibt exakt gleich, nur die leeren Strings werden
    befüllt:
-   "meaning": {"en": "...", "tr": "...", "sq": "...", "uk": "...",
+   "meaning": {"en": "...", "de": "...", "tr": "...", "sq": "...", "uk": "...",
                "ar": "...", "fa": "...", "es": "...", "fr": "...", "it": "..."}
-   "explanation": {... gleiche neun Schlüssel ...}
+   "explanation": {... gleiche zehn Schlüssel ...}
 4. Ändere nichts an "verb", "prep", "preposition", "case", "praeteritum",
-   "perfekt", "examples" oder "source" — nur die beiden Übersetzungsobjekte.
+   "perfekt", "examples", "source" oder die vorhandenen Werte in "de" und
+   "en" — nur die acht leeren Sprachwerte in den beiden Objekten.
 5. Führe danach `python3 build_site.py` aus und prüfe, dass
    verben-mit-praepositionen.html fehlerfrei baut (keine Python-Exception).
    Stichprobe im Browser: Sprache im Dropdown wechseln (z. B. auf Arabisch),

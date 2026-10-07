@@ -328,17 +328,17 @@ explanation shown after answering). `schreib` = model written sentences.
 preposition and case, Präteritum, Perfekt, exactly three German examples, a
 source sheet/row pointer, and two **per-language objects**:
 ```json
-"meaning": {"en": "...", "tr": "", "sq": "", "uk": "", "ar": "", "fa": "", "es": "", "fr": "", "it": ""},
-"explanation": {"en": "...", "tr": "", ...}
+"meaning": {"en": "...", "de": "...", "tr": "", "sq": "", "uk": "", "ar": "", "fa": "", "es": "", "fr": "", "it": ""},
+"explanation": {"en": "...", "de": "...", "tr": "", ...}
 ```
-Same 9 language codes and the same shared `localStorage["dg-lang"]` key as
-the dictionary and every lesson's vocab table (see Design system below) —
-so a student's language choice carries over to this page automatically.
-**Only "en" is populated as of 2026-10-07**; the page's JS falls back to
-English for any entry/language that's still `""`, so it's correct today,
-just English-only until the rest is translated. `PROMPTS.md` section 4 has
-a ready-to-paste Codex prompt for that translation pass, matching the
-pattern already used for `vocab.json` (section 3).
+The page offers German plus the same 9 translation languages used elsewhere
+and shares `localStorage["dg-lang"]` with the dictionary and lesson vocabulary
+tables (see Design system below). The page-only `de` choice is ignored safely
+by selectors that do not offer it. **"de" and "en" are populated as of
+2026-10-07**; the page's JS falls back to English for any other language that
+is still `""`. `PROMPTS.md` section 4 has a ready-to-paste Codex prompt for
+the remaining eight-language translation pass, matching the pattern already
+used for `vocab.json` (section 3).
 
 The generated page is searchable and grouped by preposition; its game picks
 ten entries per round and its question-selection is **mistake-weighted**,

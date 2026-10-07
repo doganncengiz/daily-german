@@ -15,7 +15,8 @@ python3 build_site.py
 
 The command generates the deployable site in `website/`. Do not edit files in
 that directory directly; edit the source lessons, vocabulary, exercises, or
-build scripts and rebuild.
+build scripts and rebuild. Dated exercise data is kept together in
+`uebungen/`, so the project root stays easy to scan.
 
 The prepositional-verbs page is generated from `praepositionsverben.json` by
 `build_prep_verbs.py`. Every entry has three examples; the source material is

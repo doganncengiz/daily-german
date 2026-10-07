@@ -146,7 +146,7 @@ at commas/periods. v2 uses a local neural TTS engine instead:
   `patch_audio.py`, which only inserts a player for a card if that MP3
   already exists in the target — a lesson with no generated audio yet
   simply gets no player (same "best effort" pattern as `patch_uebung.py`
-  and its `uebung_*.json` files). **So: after adding a new lesson, run
+  and its `uebungen/uebung_*.json` files). **So: after adding a new lesson, run
   `./.venv-audio/bin/python3 generate_audio.py` before `python3
   build_site.py`**, or the new lesson will publish without narration until
   the next time both are run.
@@ -164,12 +164,13 @@ very next build with no extra step.
 lektionen/                      all source lesson files, see below
 vocab.json                      master dictionary: vocab from all 80 lessons
 praepositionsverben.json        154 verb/preposition entries imported from the teacher workbook
-uebung_YYYY-MM-DD.json          exercise content for one lesson (27 exist so far)
+uebungen/                       dated exercise data, kept out of the project root
+  uebung_YYYY-MM-DD.json        exercise content for one lesson (27 exist so far)
 build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the five scripts below
 build_dict.py                   generates website/woerterbuch.html from vocab.json
 build_prep_verbs.py             generates website/verben-mit-praepositionen.html (reference + 10-question game)
 patch_vocab_lang.py             injects the language dropdown into each lesson's vocab table (mutates website/*.html)
-patch_uebung.py                 converts a lesson's exercise into a/b/c multiple choice + adds a Lösungen tab (mutates website/*.html), only for lessons with a matching uebung_*.json
+patch_uebung.py                 converts a lesson's exercise into a/b/c multiple choice + adds a Lösungen tab (mutates website/*.html), only for lessons with a matching uebungen/uebung_*.json
 patch_audio.py                  inserts an <audio> player into every Lesetext card that has a matching audio/*.mp3 (mutates website/*.html) — see below
 generate_audio.py               generates audio/<date>-<i>.mp3 lesson narration via local Piper TTS — needs .venv-audio/, see below
 voice_overrides.json            {} by default — maps specific lesson dates to a non-default TTS voice, see below
@@ -196,8 +197,8 @@ German_Lesson_YYYY-MM-DD.md     the 14 earliest lessons (07-09..07-23) in their 
 ```
 `build_site.py` reads lessons from `lektionen/` (falls back to the project
 root if that folder doesn't exist, for backward compatibility). Everything
-else — `vocab.json`, `uebung_*.json`, all the scripts — stays at the project
-root.
+else — `vocab.json`, `praepositionsverben.json`, and all the scripts — stays
+at the project root. Exercise files live together in `uebungen/`.
 
 ### `material/` — the physical coursebook track (separate from the website pipeline)
 
@@ -269,7 +270,8 @@ This regenerates everything under `website/`:
 6. Calls `patch_vocab_lang.py` → adds the language dropdown to every lesson's
    vocab table in `website/`.
 7. Calls `patch_uebung.py` → adds the MCQ exercise + Lösungen tab to any
-   lesson in `website/` that has a matching `uebung_YYYY-MM-DD.json`.
+   lesson in `website/` that has a matching
+   `uebungen/uebung_YYYY-MM-DD.json`.
 8. Calls `patch_audio.py` → adds an `<audio>` player to every `.card` inside
    each lesson's `lese` panel that has a matching `audio/*.mp3`. See
    "Read-aloud" below — **you need to run `generate_audio.py` separately
@@ -277,7 +279,7 @@ This regenerates everything under `website/`:
 
 **Never hand-edit files inside `website/`.** They're regenerated from
 scratch (well, mutated in place by the patch scripts) every run. Edit the
-source in `lektionen/`, `vocab.json`, or `uebung_*.json`, then rerun
+source in `lektionen/`, `vocab.json`, or `uebungen/uebung_*.json`, then rerun
 `build_site.py`. If you change a patch script's logic, delete and
 re-copy the affected `website/*.html` first (the patch scripts are
 idempotent-guarded — they check for a marker like `id="loesungen"` and skip
@@ -311,7 +313,7 @@ sentence. `sq/tr/uk/ar/fa` are Albanian/Turkish/Ukrainian/Arabic/Persian and
 are required for every entry. `es/fr/it` are Spanish/French/Italian and are
 required for entries used on or after 2026-09-17; older entries may omit them.
 
-**`uebung_YYYY-MM-DD.json`** — one file per lesson with an exercise:
+**`uebungen/uebung_YYYY-MM-DD.json`** — one file per lesson with an exercise:
 ```json
 {
   "mc": [ { "q": "...", "o": ["optA","optB","optC"], "c": 1, "why": "..." } ],
@@ -398,7 +400,7 @@ Design prompt; keep both in sync if either changes.)
 Roughly in priority order for reaching the "read + do an exercise" goal:
 
 1. **53 of 80 lessons have no exercise.** Only 2026-09-10 through 2026-10-07
-   have a `uebung_*.json`. Backfilling older lessons (or accepting that
+   have an `uebungen/uebung_*.json`. Backfilling older lessons (or accepting that
    exercises start from Sep 10 onward) is an open decision, not made yet.
 2. **584 existing vocab translations are unreviewed machine output.**
    `PROMPTS.md`'s ChatGPT prompt does a first pass in batches of 30-50; real

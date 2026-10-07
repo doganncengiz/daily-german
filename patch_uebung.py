@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Turn Verständnisfragen into a/b/c multiple choice and add a Lösungen tab.
 
-Only lessons that have a matching uebung_<date>.json file are touched.
+Only lessons that have a matching uebungen/uebung_<date>.json file are touched.
 """
 import json, re, sys
 from pathlib import Path
 
 GEN = Path(__file__).parent
+EXERCISE_DIR = GEN / "uebungen"
 LETTERS = "abc"
 
 CSS = """
@@ -158,7 +159,7 @@ def patch(path: Path, data: dict):
 
 target = Path(sys.argv[1])
 done = 0
-for f in sorted(GEN.glob("uebung_*.json")):
+for f in sorted(EXERCISE_DIR.glob("uebung_*.json")):
     date = f.stem.replace("uebung_", "")
     lesson = target / f"German_Lesson_{date}.html"
     if not lesson.exists():

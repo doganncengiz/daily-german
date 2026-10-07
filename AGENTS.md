@@ -35,6 +35,10 @@ feedback, not just read.
   Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
   forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
   entries with merged date arrays.
+- A separate **Verben mit Präpositionen** reference contains 154 connections
+  across 14 prepositions, with three examples per entry, search/filter tools,
+  and a random ten-question game with instant feedback. Its source data lives
+  in `praepositionsverben.json`; `build_prep_verbs.py` generates the page.
 - Existing translations are machine-generated and **not yet checked by
   native speakers**. `PROMPTS.md` has a ready-to-use ChatGPT prompt for a
   first-pass QA sweep.
@@ -157,9 +161,11 @@ very next build with no extra step.
 ```
 lektionen/                      all source lesson files, see below
 vocab.json                      master dictionary: vocab from all 80 lessons
+praepositionsverben.json        154 verb/preposition entries imported from the teacher workbook
 uebung_YYYY-MM-DD.json          exercise content for one lesson (27 exist so far)
-build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the four scripts below
+build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the five scripts below
 build_dict.py                   generates website/woerterbuch.html from vocab.json
+build_prep_verbs.py             generates website/verben-mit-praepositionen.html (reference + 10-question game)
 patch_vocab_lang.py             injects the language dropdown into each lesson's vocab table (mutates website/*.html)
 patch_uebung.py                 converts a lesson's exercise into a/b/c multiple choice + adds a Lösungen tab (mutates website/*.html), only for lessons with a matching uebung_*.json
 patch_audio.py                  inserts an <audio> player into every Lesetext card that has a matching audio/*.mp3 (mutates website/*.html) — see below
@@ -256,11 +262,13 @@ This regenerates everything under `website/`:
 2. Copies `audio/*.mp3` into `website/audio/`, if the `audio/` folder exists.
 3. Builds `website/index.html` (archive, newest first, grouped by month).
 4. Calls `build_dict.py` → `website/woerterbuch.html`.
-5. Calls `patch_vocab_lang.py` → adds the language dropdown to every lesson's
+5. Calls `build_prep_verbs.py` → generates the searchable prepositional-verbs
+   reference and its random ten-question game.
+6. Calls `patch_vocab_lang.py` → adds the language dropdown to every lesson's
    vocab table in `website/`.
-6. Calls `patch_uebung.py` → adds the MCQ exercise + Lösungen tab to any
+7. Calls `patch_uebung.py` → adds the MCQ exercise + Lösungen tab to any
    lesson in `website/` that has a matching `uebung_YYYY-MM-DD.json`.
-7. Calls `patch_audio.py` → adds an `<audio>` player to every `.card` inside
+8. Calls `patch_audio.py` → adds an `<audio>` player to every `.card` inside
    each lesson's `lese` panel that has a matching `audio/*.mp3`. See
    "Read-aloud" below — **you need to run `generate_audio.py` separately
    first**, this step only wires up files that already exist.
@@ -312,6 +320,13 @@ required for entries used on or after 2026-09-17; older entries may omit them.
 `mc` = comprehension multiple-choice (`c` = index of correct option, `why` =
 explanation shown after answering). `schreib` = model written sentences.
 `sprech` = speaking-prompt phrases + one model answer.
+
+**`praepositionsverben.json`** — flat array imported from the teacher's
+`Preposition mit Verben.xlsx` workbook. Each entry stores the verb,
+preposition and case, English meaning/explanation, Präteritum, Perfekt,
+exactly three German examples, and a source sheet/row pointer. The generated
+page is searchable and grouped by preposition; its game picks ten random
+entries and stores only the best score in `localStorage["dg-prep-best"]`.
 
 ## Design system / hard constraints
 

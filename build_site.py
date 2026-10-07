@@ -3,6 +3,7 @@
 
 Creates <folder>/website/ containing:
   - index.html  (archive page, newest first)
+  - woerterbuch.html and verben-mit-praepositionen.html
   - one copy of each German_Lesson_YYYY-MM-DD.html
 
 Re-run any time after new lessons are added.
@@ -40,7 +41,11 @@ BACK_LINK = (
     '&larr; Alle Lektionen</a>'
     '<span style="color:#cfc8b4;margin:0 8px;">&middot;</span>'
     '<a href="woerterbuch.html" style="color:#8c8778;text-decoration:none;">'
-    'Wörterbuch</a></p>'
+    'Wörterbuch</a>'
+    '<span style="color:#cfc8b4;margin:0 8px;">&middot;</span>'
+    '<a href="verben-mit-praepositionen.html" '
+    'style="color:#8c8778;text-decoration:none;">'
+    'Verben + Präpositionen</a></p>'
 )
 VIEWPORT = '<meta name="viewport" content="width=device-width, initial-scale=1">'
 
@@ -154,6 +159,13 @@ index = f"""<!DOCTYPE html>
   a.dict .dd{{display:block;font-size:0.85rem;color:#5d7a5d;line-height:1.6;}}
   a.dict .label{{color:#6d8a6d;}}
   a.dict:hover .dt{{text-decoration:underline;}}
+  a.prep{{display:block;background:#edf5f8;border-radius:20px;
+    padding:22px 26px;text-decoration:none;margin-bottom:14px;}}
+  a.prep .pt{{display:block;font-size:1.12rem;font-weight:700;
+    color:#315d70;margin:4px 0 6px;}}
+  a.prep .pd{{display:block;font-size:0.85rem;color:#5e7f8d;line-height:1.6;}}
+  a.prep .label{{color:#6e95a5;}}
+  a.prep:hover .pt{{text-decoration:underline;}}
   .month{{text-transform:uppercase;letter-spacing:.12em;font-size:0.76rem;
     color:var(--label-grey);font-weight:700;margin:26px 0 10px;}}
   ul.lessons{{list-style:none;padding:0;margin:0;}}
@@ -196,6 +208,13 @@ index = f"""<!DOCTYPE html>
     &middot; ab 17. September zusätzlich Español, Français und Italiano</span>
   </a>
 
+  <a class="prep" href="verben-mit-praepositionen.html">
+    <span class="label">Verben + Präpositionen</span>
+    <span class="pt">154 Verbindungen nachschlagen und üben</span>
+    <span class="pd">14 Präpositionen &middot; 3 Beispiele pro Verb
+    &middot; zufälliges 10er-Spiel mit sofortigem Feedback</span>
+  </a>
+
   {latest_block}
 
   <span class="label">Archiv</span>
@@ -213,7 +232,7 @@ index = f"""<!DOCTYPE html>
 # regenerate the dictionary too, if its generator sits alongside this script
 import subprocess
 _here = Path(__file__).parent
-for _helper in ("build_dict.py", "patch_vocab_lang.py", "patch_uebung.py", "patch_audio.py"):
+for _helper in ("build_dict.py", "build_prep_verbs.py", "patch_vocab_lang.py", "patch_uebung.py", "patch_audio.py"):
     _p = _here / _helper
     if _p.exists():
         subprocess.run([sys.executable, str(_p), str(OUT)], check=True)

@@ -1,0 +1,2928 @@
+[
+  {
+    "verb": "denken",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to think about",
+    "explanation_en": "To direct one's thoughts towards someone or something.",
+    "praeteritum": "dachte",
+    "perfekt": "hat gedacht",
+    "examples": [
+      "Ich muss oft an meine Familie denken, besonders wenn ich weit weg bin.",
+      "Ich denke oft an meine Zukunft und mache mir Gedanken über meinen Beruf.",
+      "Denk bitte an den Termin am Freitag."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 4
+    }
+  },
+  {
+    "verb": "sich erinnern",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to remember",
+    "explanation_en": "To recall something from memory; to have a recollection of.",
+    "praeteritum": "erinnerte sich",
+    "perfekt": "hat sich erinnert",
+    "examples": [
+      "Er erinnert sich nicht mehr an den genauen Tag unseres Treffens.",
+      "Ich erinnere mich noch genau an meinen ersten Schultag in Deutschland.",
+      "Wir erinnern uns gern an unsere erste Reise."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 5
+    }
+  },
+  {
+    "verb": "sich gewöhnen",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to get used to",
+    "explanation_en": "To become accustomed to something; to adapt to a new situation.",
+    "praeteritum": "gewöhnte sich",
+    "perfekt": "hat sich gewöhnt",
+    "examples": [
+      "Es dauert eine Weile, bis man sich an das neue System gewöhnt hat.",
+      "Nach ein paar Wochen habe ich mich an das neue Arbeitsumfeld gewöhnt.",
+      "Die neue Kollegin gewöhnt sich langsam an den Arbeitsablauf."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 6
+    }
+  },
+  {
+    "verb": "glauben",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to believe in",
+    "explanation_en": "To have faith or confidence in the existence or truth of something or someone.",
+    "praeteritum": "glaubte",
+    "perfekt": "hat geglaubt",
+    "examples": [
+      "Viele Menschen glauben an eine höhere Macht oder an die Kraft der Freundschaft.",
+      "Trotz der Schwierigkeiten glaube ich an den Erfolg meines Projekts.",
+      "Das Team glaubt fest an eine gute Lösung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 7
+    }
+  },
+  {
+    "verb": "sich wenden",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to contact / turn to",
+    "explanation_en": "To seek assistance, advice, or communication from someone or an organization.",
+    "praeteritum": "wandte sich",
+    "perfekt": "hat sich gewandt",
+    "examples": [
+      "Bei Fragen oder Problemen können Sie sich jederzeit an unser Support-Team wenden.",
+      "Wenn du ein Problem hast, kannst du dich jederzeit an unseren Support wenden.",
+      "Bitte wenden Sie sich an die Personalabteilung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 8
+    }
+  },
+  {
+    "verb": "sich halten",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to stick to / adhere to",
+    "explanation_en": "To follow, obey, or abide by rules, agreements, or principles.",
+    "praeteritum": "hielt sich",
+    "perfekt": "hat sich gehalten",
+    "examples": [
+      "Es ist wichtig, sich an die Verkehrsregeln zu halten, um Unfälle zu vermeiden.",
+      "In Deutschland muss man sich an viele Regeln im Straßenverkehr halten.",
+      "Alle Beschäftigten müssen sich an die Sicherheitsregeln halten."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 9
+    }
+  },
+  {
+    "verb": "schicken",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to send to",
+    "explanation_en": "To cause something to go from one place to another, usually by mail or electronically.",
+    "praeteritum": "schickte",
+    "perfekt": "hat geschickt",
+    "examples": [
+      "Ich werde die Dokumente morgen per E-Mail an alle Teilnehmer schicken.",
+      "Ich habe gestern ein Paket an meine Großeltern in der Türkei geschickt.",
+      "Bitte schicken Sie die Rechnung an unsere Buchhaltung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 10
+    }
+  },
+  {
+    "verb": "schreiben",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to write to",
+    "explanation_en": "To compose and send a written message to a person or organization.",
+    "praeteritum": "schrieb",
+    "perfekt": "hat geschrieben",
+    "examples": [
+      "Sie hat einen langen Brief an ihre Großmutter geschrieben, um ihr vom Urlaub zu erzählen.",
+      "Er hat eine lange E-Mail an seinen Professor geschrieben.",
+      "Ich schreibe heute noch an meinen Vermieter."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 11
+    }
+  },
+  {
+    "verb": "grenzen",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to border on",
+    "explanation_en": "To be adjacent to or share a boundary with something.",
+    "praeteritum": "grenzte",
+    "perfekt": "hat gegrenzt",
+    "examples": [
+      "Unser Garten grenzt direkt an den Park, was sehr praktisch ist.",
+      "Deutschland grenzt im Süden an die Schweiz und im Westen an Frankreich.",
+      "Das Firmengelände grenzt an einen großen Parkplatz."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 12
+    }
+  },
+  {
+    "verb": "verteilen",
+    "prep": "an + Akkusativ",
+    "preposition": "an",
+    "case": "Akkusativ",
+    "meaning_en": "to distribute to",
+    "explanation_en": "To give out or spread something among a number of people or places.",
+    "praeteritum": "verteilte",
+    "perfekt": "hat verteilt",
+    "examples": [
+      "Die Freiwilligen haben Lebensmittelpakete an bedürftige Familien verteilt.",
+      "Die Lehrerin hat die neuen Bücher an alle Schüler verteilt.",
+      "Der Verein verteilt warme Mahlzeiten an Bedürftige."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 13
+    }
+  },
+  {
+    "verb": "arbeiten",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to work on",
+    "explanation_en": "To be engaged in an activity, task, or project.",
+    "praeteritum": "arbeitete",
+    "perfekt": "hat gearbeitet",
+    "examples": [
+      "Er arbeitet seit Monaten intensiv an seiner Doktorarbeit.",
+      "Ich arbeite momentan an einer innovativen App für Sprachlerner.",
+      "Unser Team arbeitet an einer neuen Lösung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 14
+    }
+  },
+  {
+    "verb": "sich beteiligen",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to participate in",
+    "explanation_en": "To take part in or be involved in an activity or event.",
+    "praeteritum": "beteiligte sich",
+    "perfekt": "hat sich beteiligt",
+    "examples": [
+      "Viele Studierende beteiligten sich aktiv an der Diskussion im Seminar.",
+      "Viele Kollegen beteiligen sich aktiv an der Teamarbeit.",
+      "Auch die Auszubildenden beteiligen sich an dem Projekt."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 15
+    }
+  },
+  {
+    "verb": "erkranken",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to fall ill with",
+    "explanation_en": "To become sick with a particular illness.",
+    "praeteritum": "erkrankte",
+    "perfekt": "ist erkrankt",
+    "examples": [
+      "Leider ist mein Kollege an einer schweren Grippe erkrankt und kann nicht kommen.",
+      "Er ist plötzlich an einer seltenen Krankheit erkrankt.",
+      "Mehrere Mitarbeitende erkrankten an einer Grippe."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 16
+    }
+  },
+  {
+    "verb": "leiden",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to suffer from",
+    "explanation_en": "To experience pain, distress, or a specific medical condition.",
+    "praeteritum": "litt",
+    "perfekt": "hat gelitten",
+    "examples": [
+      "Sie leidet schon seit Jahren an chronischen Kopfschmerzen.",
+      "Seit Jahren leidet sie an chronischen Rückenschmerzen.",
+      "Viele Pendler leiden an den langen Fahrzeiten."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 17
+    }
+  },
+  {
+    "verb": "sterben",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to die of",
+    "explanation_en": "To pass away due to a particular cause or illness.",
+    "praeteritum": "starb",
+    "perfekt": "ist gestorben",
+    "examples": [
+      "Tragischerweise ist er im letzten Jahr an den Folgen eines Unfalls gestorben.",
+      "Sein Großvater ist im hohen Alter an Herzversagen gestorben.",
+      "Die Pflanze ist an Wassermangel gestorben."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 18
+    }
+  },
+  {
+    "verb": "teilnehmen",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to take part in",
+    "explanation_en": "To be involved in an event, activity, or competition.",
+    "praeteritum": "nahm teil",
+    "perfekt": "hat teilgenommen",
+    "examples": [
+      "Wir werden am nächsten Workshop teilnehmen, um unsere Fähigkeiten zu verbessern.",
+      "Ich nehme regelmäßig an Online-Sprachkursen teil, um mein Deutsch zu verbessern.",
+      "Nächste Woche nehme ich an einer Fortbildung teil."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 19
+    }
+  },
+  {
+    "verb": "erkennen",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to recognize by",
+    "explanation_en": "To identify someone or something based on a specific characteristic or feature.",
+    "praeteritum": "erkannte",
+    "perfekt": "hat erkannt",
+    "examples": [
+      "Ich konnte ihn sofort an seiner unverwechselbaren Stimme erkennen.",
+      "Ich habe ihn an seiner Stimme und seiner Art zu sprechen erkannt.",
+      "Man erkennt das Original an diesem Zeichen."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 20
+    }
+  },
+  {
+    "verb": "zweifeln",
+    "prep": "an + Dativ",
+    "preposition": "an",
+    "case": "Dativ",
+    "meaning_en": "to doubt",
+    "explanation_en": "To feel uncertain or unsure about something, often regarding its truth or reliability.",
+    "praeteritum": "zweifelte",
+    "perfekt": "hat gezweifelt",
+    "examples": [
+      "Sie zweifelt nicht an der Richtigkeit ihrer Entscheidung, obwohl es schwierig war.",
+      "Ich zweifle manchmal an meinen Entscheidungen, besonders in schwierigen Situationen.",
+      "Niemand zweifelt an seiner Erfahrung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 21
+    }
+  },
+  {
+    "verb": "sich bedanken",
+    "prep": "bei + Dativ",
+    "preposition": "bei",
+    "case": "Dativ",
+    "meaning_en": "to thank (someone)",
+    "explanation_en": "To express gratitude or appreciation to a person.",
+    "praeteritum": "bedankte sich",
+    "perfekt": "hat sich bedankt",
+    "examples": [
+      "Ich habe mich herzlich bei meinem Lehrer für die Hilfe bedankt.",
+      "Sie bedankte sich bei ihren Eltern für die finanzielle Unterstützung beim Studium.",
+      "Wir möchten uns bei allen Helfern bedanken."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 24
+    }
+  },
+  {
+    "verb": "sich beklagen",
+    "prep": "bei + Dativ",
+    "preposition": "bei",
+    "case": "Dativ",
+    "meaning_en": "to complain to",
+    "explanation_en": "To express dissatisfaction or a grievance to someone.",
+    "praeteritum": "beklagte sich",
+    "perfekt": "hat sich beklagt",
+    "examples": [
+      "Die Kundin hat sich bei der Rezeption über das kalte Zimmer beklagt.",
+      "Wir haben uns bei der Fluggesellschaft wegen des verlorenen Gepäcks beklagt.",
+      "Der Gast beklagte sich bei der Hotelleitung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 25
+    }
+  },
+  {
+    "verb": "sich beschweren",
+    "prep": "bei + Dativ",
+    "preposition": "bei",
+    "case": "Dativ",
+    "meaning_en": "to complain to",
+    "explanation_en": "To formally express a grievance or protest to an authority or person.",
+    "praeteritum": "beschwerte sich",
+    "perfekt": "hat sich beschwert",
+    "examples": [
+      "Ich habe mich bei meinem Chef über die langen Arbeitszeiten beschwert.",
+      "Er beschwerte sich bei der Gemeinde über den Zustand der öffentlichen Parks.",
+      "Sie beschwerte sich bei ihrem Internetanbieter."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 26
+    }
+  },
+  {
+    "verb": "sich entschuldigen",
+    "prep": "bei + Dativ",
+    "preposition": "bei",
+    "case": "Dativ",
+    "meaning_en": "to apologize to",
+    "explanation_en": "To express regret for an offense, fault, or failure to a person.",
+    "praeteritum": "entschuldigte sich",
+    "perfekt": "hat sich entschuldigt",
+    "examples": [
+      "Er hat sich bei seiner Kollegin für die Verspätung entschuldigt.",
+      "Du solltest dich bei deiner Schwester für deine unbedachten Worte entschuldigen.",
+      "Ich muss mich bei meinem Kollegen entschuldigen."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 27
+    }
+  },
+  {
+    "verb": "sich erkundigen",
+    "prep": "bei + Dativ",
+    "preposition": "bei",
+    "case": "Dativ",
+    "meaning_en": "to inquire with",
+    "explanation_en": "To seek information or ask questions from a person or source.",
+    "praeteritum": "erkundigte sich",
+    "perfekt": "hat sich erkundigt",
+    "examples": [
+      "Ich habe mich gestern bei der Ausländerbehörde nach dem Visum erkundigt.",
+      "Sie erkundigte sich bei der Bibliothek nach einem bestimmten Buch.",
+      "Er erkundigt sich beim Bürgeramt nach einem Termin."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 28
+    }
+  },
+  {
+    "verb": "sich informieren",
+    "prep": "bei + Dativ",
+    "preposition": "bei",
+    "case": "Dativ",
+    "meaning_en": "to get information from",
+    "explanation_en": "To obtain knowledge or facts from a person or institution.",
+    "praeteritum": "informierte sich",
+    "perfekt": "hat sich informiert",
+    "examples": [
+      "Du solltest dich bei der Krankenkasse über die Leistungen informieren.",
+      "Vor der Bewerbung informierte er sich ausführlich bei potenziellen Arbeitgebern.",
+      "Wir haben uns bei der Verbraucherzentrale informiert."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 29
+    }
+  },
+  {
+    "verb": "anfangen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to start with",
+    "explanation_en": "To begin an activity or a process.",
+    "praeteritum": "fing an",
+    "perfekt": "hat angefangen",
+    "examples": [
+      "Ich habe gestern mit dem Training angefangen.",
+      "Viele Studenten fangen mit dem Sprachenlernen an, sobald sie im Ausland sind.",
+      "Morgen fangen wir mit der neuen Aufgabe an."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 31
+    }
+  },
+  {
+    "verb": "aufhören",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to stop with",
+    "explanation_en": "To cease an activity or a habit.",
+    "praeteritum": "hörte auf",
+    "perfekt": "hat aufgehört",
+    "examples": [
+      "Er hat mit dem Rauchen aufgehört.",
+      "Bitte hör mit dem Lärm auf, ich kann mich nicht konzentrieren.",
+      "Sie möchte mit dem Rauchen aufhören."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 32
+    }
+  },
+  {
+    "verb": "sich beeilen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to hurry with",
+    "explanation_en": "To do something quickly or rush a process.",
+    "praeteritum": "beeilte sich",
+    "perfekt": "hat sich beeilt",
+    "examples": [
+      "Ich habe mich mit der Arbeit beeilt.",
+      "Wir müssen uns mit der Vorbereitung beeilen, sonst verpassen wir den Termin.",
+      "Bitte beeil dich mit dem Bericht."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 33
+    }
+  },
+  {
+    "verb": "beginnen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to begin with",
+    "explanation_en": "To commence an activity or a process.",
+    "praeteritum": "begann",
+    "perfekt": "hat begonnen",
+    "examples": [
+      "Wir haben pünktlich mit dem Unterricht begonnen.",
+      "Nach einer kurzen Pause beginnen wir mit dem nächsten Thema.",
+      "Die Sitzung beginnt mit einer kurzen Begrüßung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 34
+    }
+  },
+  {
+    "verb": "sich beschäftigen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to deal with",
+    "explanation_en": "To engage oneself with a topic, task, or person.",
+    "praeteritum": "beschäftigte sich",
+    "perfekt": "hat sich beschäftigt",
+    "examples": [
+      "Sie beschäftigt sich mit nachhaltiger Mode.",
+      "Im Moment beschäftige ich mich viel mit meiner Abschlussarbeit.",
+      "Im Kurs beschäftigen wir uns mit dem Arbeitsrecht."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 35
+    }
+  },
+  {
+    "verb": "sich einigen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to reach an agreement with",
+    "explanation_en": "To come to an agreement or settle a dispute with someone.",
+    "praeteritum": "einigte sich",
+    "perfekt": "hat sich geeinigt",
+    "examples": [
+      "Ich habe mich mit meiner Freundin geeinigt.",
+      "Die beiden Parteien einigten sich nach langen Verhandlungen miteinander.",
+      "Die Firma hat sich mit dem Betriebsrat geeinigt."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 36
+    }
+  },
+  {
+    "verb": "kämpfen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to fight with",
+    "explanation_en": "To struggle or contend with something (e.g., problems, an opponent).",
+    "praeteritum": "kämpfte",
+    "perfekt": "hat gekämpft",
+    "examples": [
+      "Er kämpft mit finanziellen Problemen.",
+      "Viele Menschen kämpfen täglich mit den Herausforderungen des Lebens.",
+      "Das Unternehmen kämpft mit hohen Energiekosten."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 37
+    }
+  },
+  {
+    "verb": "schimpfen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to rant at",
+    "explanation_en": "To scold or berate someone, usually in an angry tone.",
+    "praeteritum": "schimpfte",
+    "perfekt": "hat geschimpft",
+    "examples": [
+      "Die Mutter schimpft mit ihrem Sohn.",
+      "Der Trainer schimpfte mit seiner Mannschaft nach der Niederlage.",
+      "Der Kunde schimpfte mit dem unhöflichen Verkäufer."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 38
+    }
+  },
+  {
+    "verb": "sprechen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to speak with",
+    "explanation_en": "To communicate verbally with someone.",
+    "praeteritum": "sprach",
+    "perfekt": "hat gesprochen",
+    "examples": [
+      "Ich habe mit dem Kundenberater gesprochen.",
+      "Können wir bitte kurz mit dir über das Projekt sprechen?",
+      "Ich möchte mit Ihnen über den Vertrag sprechen."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 39
+    }
+  },
+  {
+    "verb": "streiten",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to argue with",
+    "explanation_en": "To have a disagreement or argument with someone.",
+    "praeteritum": "stritt",
+    "perfekt": "hat gestritten",
+    "examples": [
+      "Er streitet oft mit seinem Bruder.",
+      "Sie streiten sich nie mit ihren Freunden, sie finden immer eine Lösung.",
+      "Die Nachbarn stritten mit dem Vermieter."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 40
+    }
+  },
+  {
+    "verb": "sich vertragen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to reconcile",
+    "explanation_en": "To make up after an argument; to get along again.",
+    "praeteritum": "vertrug sich",
+    "perfekt": "hat sich vertragen",
+    "examples": [
+      "Nach dem Streit hat sie sich mit ihm vertragen.",
+      "Trotz ihrer Meinungsverschiedenheiten haben sich die Geschwister wieder vertragen.",
+      "Nach dem Gespräch vertrug er sich wieder mit seinem Bruder."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 41
+    }
+  },
+  {
+    "verb": "sich verstehen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to get along with",
+    "explanation_en": "To have a good relationship or rapport with someone.",
+    "praeteritum": "verstand sich",
+    "perfekt": "hat sich verstanden",
+    "examples": [
+      "Ich verstehe mich gut mit meinen Kollegen.",
+      "Es ist wichtig, dass man sich mit seinen Nachbarn gut versteht.",
+      "Sie versteht sich gut mit ihrem neuen Team."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 42
+    }
+  },
+  {
+    "verb": "warten",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to delay",
+    "explanation_en": "To postpone or hold off on doing something.",
+    "praeteritum": "wartete",
+    "perfekt": "hat gewartet",
+    "examples": [
+      "Wir sollten mit dem Start des Projekts warten, bis alle Genehmigungen vorliegen.",
+      "Warte bitte mit dem Essen, bis ich komme.",
+      "Warten Sie bitte mit der Zahlung bis Montag."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 43
+    }
+  },
+  {
+    "verb": "spielen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to play with",
+    "explanation_en": "To engage in play or a game with someone or something.",
+    "praeteritum": "spielte",
+    "perfekt": "hat gespielt",
+    "examples": [
+      "Die Kinder spielen mit dem Hund.",
+      "Sie spielt jeden Tag mit ihren Puppen im Garten.",
+      "Das Kind spielt gern mit seinen Bauklötzen."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 44
+    }
+  },
+  {
+    "verb": "zögern",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to hesitate with",
+    "explanation_en": "To delay or be reluctant in doing something.",
+    "praeteritum": "zögerte",
+    "perfekt": "hat gezögert",
+    "examples": [
+      "Er zögert mit der Antwort.",
+      "Manchmal zögert man mit wichtigen Entscheidungen, weil man Angst vor Fehlern hat.",
+      "Die Firma zögert noch mit der Entscheidung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 45
+    }
+  },
+  {
+    "verb": "sich befassen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to deal with",
+    "explanation_en": "To concern oneself with or occupy oneself with a topic or matter.",
+    "praeteritum": "befasste sich",
+    "perfekt": "hat sich befasst",
+    "examples": [
+      "Wir befassen uns mit der neuen Gesetzeslage.",
+      "Der Anwalt befasst sich intensiv mit dem Fall seines Mandanten.",
+      "Der Ausschuss befasst sich mit dem neuen Vorschlag."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 46
+    }
+  },
+  {
+    "verb": "zusammenstoßen",
+    "prep": "mit + Dativ",
+    "preposition": "mit",
+    "case": "Dativ",
+    "meaning_en": "to collide with",
+    "explanation_en": "To crash into or make contact with something forcefully.",
+    "praeteritum": "stieß zusammen",
+    "perfekt": "ist zusammengestoßen",
+    "examples": [
+      "Das Auto ist mit dem Bus zusammengestoßen.",
+      "Zwei Radfahrer sind auf dem engen Weg zusammengestoßen.",
+      "Auf der Kreuzung stieß ein Fahrrad mit einem Auto zusammen."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 47
+    }
+  },
+  {
+    "verb": "achten",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to pay attention to",
+    "explanation_en": "To be mindful of something; to give consideration or heed to.",
+    "praeteritum": "achtete",
+    "perfekt": "hat geachtet",
+    "examples": [
+      "Du solltest mehr auf deine Gesundheit achten.",
+      "Bitte achte auf die Verkehrsregeln, wenn du Auto fährst.",
+      "Achten Sie bitte auf die Frist."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 50
+    }
+  },
+  {
+    "verb": "ankommen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to depend on",
+    "explanation_en": "To be determined or conditioned by something.",
+    "praeteritum": "kam an",
+    "perfekt": "ist angekommen",
+    "examples": [
+      "Es kommt auf die richtige Strategie an.",
+      "Ob wir pünktlich ankommen, kommt auf den Verkehr an.",
+      "Bei dieser Aufgabe kommt es auf Genauigkeit an."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 51
+    }
+  },
+  {
+    "verb": "antworten",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to answer to",
+    "explanation_en": "To give a reply or response to a question or communication.",
+    "praeteritum": "antwortete",
+    "perfekt": "hat geantwortet",
+    "examples": [
+      "Sie hat schnell auf meine E-Mail geantwortet.",
+      "Bitte antworte mir so schnell wie möglich auf meine Frage.",
+      "Der Kundenservice antwortete auf meine Anfrage."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 52
+    }
+  },
+  {
+    "verb": "aufpassen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to take care of / watch out for",
+    "explanation_en": "To look after someone/something; to be careful about something.",
+    "praeteritum": "passte auf",
+    "perfekt": "hat aufgepasst",
+    "examples": [
+      "Kannst du bitte kurz auf mein Kind aufpassen?",
+      "Pass gut auf deine Wertsachen auf, wenn du in der Stadt bist.",
+      "Am Wochenende passe ich auf den Hund meiner Nachbarin auf."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 53
+    }
+  },
+  {
+    "verb": "sich beziehen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to refer to",
+    "explanation_en": "To make reference to something; to be connected to or related to.",
+    "praeteritum": "bezog sich",
+    "perfekt": "hat sich bezogen",
+    "examples": [
+      "Er bezog sich auf das Gespräch von gestern.",
+      "In ihrem Vortrag bezog sie sich auf die neuesten Forschungsergebnisse.",
+      "Diese Regel bezieht sich auf alle Mitarbeitenden."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 54
+    }
+  },
+  {
+    "verb": "sich einigen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to agree on",
+    "explanation_en": "To reach a consensus or come to an agreement about something.",
+    "praeteritum": "einigte sich",
+    "perfekt": "hat sich geeinigt",
+    "examples": [
+      "Wir haben uns auf einen fairen Preis geeinigt.",
+      "Die Projektgruppe hat sich auf einen gemeinsamen Zeitplan geeinigt.",
+      "Wir haben uns auf einen Termin geeinigt."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 55
+    }
+  },
+  {
+    "verb": "sich freuen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to look forward to",
+    "explanation_en": "To anticipate something with pleasure or eagerness.",
+    "praeteritum": "freute sich",
+    "perfekt": "hat sich gefreut",
+    "examples": [
+      "Ich freue mich auf den Sommerurlaub.",
+      "Wir freuen uns schon sehr auf das Wiedersehen mit der Familie.",
+      "Die Kinder freuen sich auf die Ferien."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 56
+    }
+  },
+  {
+    "verb": "sich konzentrieren",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to concentrate on",
+    "explanation_en": "To focus one's attention or efforts on something.",
+    "praeteritum": "konzentrierte sich",
+    "perfekt": "hat sich konzentriert",
+    "examples": [
+      "Bitte konzentriere dich auf die Aufgabe.",
+      "Der Student konnte sich gut auf das Lernen für die Prüfung konzentrieren.",
+      "Konzentriere dich bitte auf das Wesentliche."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 57
+    }
+  },
+  {
+    "verb": "reagieren",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to react to",
+    "explanation_en": "To respond or behave in a particular way in response to something.",
+    "praeteritum": "reagierte",
+    "perfekt": "hat reagiert",
+    "examples": [
+      "Wie hat sie auf die Nachricht reagiert?",
+      "Die Regierung musste schnell auf die Wirtschaftskrise reagieren.",
+      "Die Firma reagierte schnell auf die Beschwerde."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 58
+    }
+  },
+  {
+    "verb": "schießen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to shoot at",
+    "explanation_en": "To fire a weapon at a target.",
+    "praeteritum": "schoss",
+    "perfekt": "hat geschossen",
+    "examples": [
+      "Der Jäger hat auf das Wild geschossen.",
+      "Der Polizist musste auf den flüchtenden Täter schießen.",
+      "Der Spieler schoss auf das Tor."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 59
+    }
+  },
+  {
+    "verb": "schimpfen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to rant about",
+    "explanation_en": "To express anger or strong disapproval about someone or something.",
+    "praeteritum": "schimpfte",
+    "perfekt": "hat geschimpft",
+    "examples": [
+      "Er schimpfte ständig auf die Regierung.",
+      "Warum schimpfst du immer auf das Wetter?",
+      "Er schimpft auf den langen Arbeitsweg."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 60
+    }
+  },
+  {
+    "verb": "sich verlassen",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to rely on",
+    "explanation_en": "To depend on or trust someone/something.",
+    "praeteritum": "verließ sich",
+    "perfekt": "hat sich verlassen",
+    "examples": [
+      "Ich kann mich immer auf dich verlassen.",
+      "Verlass dich nicht nur auf dein Glück, sondern arbeite hart.",
+      "Wir können uns auf unsere Kolleginnen verlassen."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 61
+    }
+  },
+  {
+    "verb": "sich vorbereiten",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to prepare for",
+    "explanation_en": "To make oneself ready for an event or situation.",
+    "praeteritum": "bereitete sich vor",
+    "perfekt": "hat sich vorbereitet",
+    "examples": [
+      "Ich bereite mich auf die Prüfung vor.",
+      "Wir müssen uns gut auf das Vorstellungsgespräch vorbereiten.",
+      "Sie bereitet sich auf das Vorstellungsgespräch vor."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 62
+    }
+  },
+  {
+    "verb": "verzichten",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to do without",
+    "explanation_en": "To forgo or give up something voluntarily.",
+    "praeteritum": "verzichtete",
+    "perfekt": "hat verzichtet",
+    "examples": [
+      "Er verzichtet auf Süßigkeiten.",
+      "Viele Menschen verzichten aus gesundheitlichen Gründen auf Fleisch.",
+      "Im Büro verzichten wir auf Einwegbecher."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 63
+    }
+  },
+  {
+    "verb": "warten",
+    "prep": "auf + Akkusativ",
+    "preposition": "auf",
+    "case": "Akkusativ",
+    "meaning_en": "to wait for",
+    "explanation_en": "To remain in readiness for something or someone.",
+    "praeteritum": "wartete",
+    "perfekt": "hat gewartet",
+    "examples": [
+      "Ich warte auf dich vor dem Kino.",
+      "Sie musste lange auf die Ergebnisse der Untersuchung warten.",
+      "Wir warten noch auf die Bestätigung."
+    ],
+    "source": {
+      "sheet": "an+ bei + mit + auf",
+      "row": 64
+    }
+  },
+  {
+    "verb": "erschrecken",
+    "prep": "vor + Dativ",
+    "preposition": "vor",
+    "case": "Dativ",
+    "meaning_en": "to be scared of",
+    "explanation_en": "To be suddenly frightened or startled by something.",
+    "praeteritum": "erschrak vor",
+    "perfekt": "ist vor ... erschrocken",
+    "examples": [
+      "Ich erschrak vor dem lauten Knall.",
+      "Sie ist vor der Dunkelheit erschrocken.",
+      "Das Kind erschrak vor dem plötzlichen Geräusch."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 3
+    }
+  },
+  {
+    "verb": "fliehen",
+    "prep": "vor + Dativ",
+    "preposition": "vor",
+    "case": "Dativ",
+    "meaning_en": "to flee from",
+    "explanation_en": "To escape or run away from someone or something, often a danger.",
+    "praeteritum": "floh vor",
+    "perfekt": "ist vor ... geflohen",
+    "examples": [
+      "Der Dieb floh vor der Polizei.",
+      "Viele Menschen sind vor dem Krieg geflohen.",
+      "Die Tiere flohen vor dem Feuer."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 4
+    }
+  },
+  {
+    "verb": "flüchten",
+    "prep": "vor + Dativ",
+    "preposition": "vor",
+    "case": "Dativ",
+    "meaning_en": "to escape from",
+    "explanation_en": "Similar to \"fliehen vor,\" often implies escaping from a difficult situation, responsibility, or danger.",
+    "praeteritum": "flüchtete vor",
+    "perfekt": "ist vor ... geflüchtet",
+    "examples": [
+      "Er flüchtete vor der Verantwortung.",
+      "Sie sind vor der Gefahr geflüchtet.",
+      "Viele Menschen flüchteten vor den Überschwemmungen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 5
+    }
+  },
+  {
+    "verb": "sich fürchten",
+    "prep": "vor + Dativ",
+    "preposition": "vor",
+    "case": "Dativ",
+    "meaning_en": "to be afraid of",
+    "explanation_en": "To have a general fear or apprehension of something or someone.",
+    "praeteritum": "fürchtete sich vor",
+    "perfekt": "hat sich vor ... gefürchtet",
+    "examples": [
+      "Er fürchtete sich vor Spinnen.",
+      "Ich habe mich vor dem großen Hund gefürchtet.",
+      "Sie fürchtet sich vor der Prüfung."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 6
+    }
+  },
+  {
+    "verb": "(sich) schützen",
+    "prep": "vor + Dativ",
+    "preposition": "vor",
+    "case": "Dativ",
+    "meaning_en": "to protect (oneself) from",
+    "explanation_en": "To shield or safeguard someone or oneself from harm, danger, or negative influences.",
+    "praeteritum": "schützte (sich) vor",
+    "perfekt": "hat (sich) vor ... geschützt",
+    "examples": [
+      "Man schützt Kinder vor Gefahren.",
+      "Wir haben uns vor dem Regen geschützt.",
+      "Eine gute Jacke schützt vor Kälte."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 7
+    }
+  },
+  {
+    "verb": "warnen",
+    "prep": "vor + Dativ",
+    "preposition": "vor",
+    "case": "Dativ",
+    "meaning_en": "to warn of/against",
+    "explanation_en": "To caution someone about a potential danger, risk, or negative outcome.",
+    "praeteritum": "warnte vor",
+    "perfekt": "hat vor ... gewarnt",
+    "examples": [
+      "Er warnte mich vor der Gefahr.",
+      "Die Polizei hat vor Betrügern gewarnt.",
+      "Der Wetterdienst warnt vor starkem Regen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 8
+    }
+  },
+  {
+    "verb": "bestehen",
+    "prep": "aus + Dativ",
+    "preposition": "aus",
+    "case": "Dativ",
+    "meaning_en": "to consist of",
+    "explanation_en": "To be made up of certain components, ingredients, or parts.",
+    "praeteritum": "bestand aus",
+    "perfekt": "hat aus ... bestanden",
+    "examples": [
+      "Das Haus bestand aus Holz.",
+      "Unser Team hat aus fünf Mitgliedern bestanden.",
+      "Der Kurs besteht aus zwölf Modulen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 10
+    }
+  },
+  {
+    "verb": "entstehen",
+    "prep": "aus + Dativ",
+    "preposition": "aus",
+    "case": "Dativ",
+    "meaning_en": "to arise from, to originate from",
+    "explanation_en": "To develop or emerge from a particular source, cause, or origin.",
+    "praeteritum": "entstand aus",
+    "perfekt": "ist aus ... entstanden",
+    "examples": [
+      "Aus dieser Idee entstand ein großes Projekt.",
+      "Die Stadt ist aus einem kleinen Dorf entstanden.",
+      "Aus dem Gespräch entstand eine neue Idee."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 11
+    }
+  },
+  {
+    "verb": "stammen",
+    "prep": "aus + Dativ",
+    "preposition": "aus",
+    "case": "Dativ",
+    "meaning_en": "to come from, to originate from",
+    "explanation_en": "To originate from a specific place, time, family, or source.",
+    "praeteritum": "stammte aus",
+    "perfekt": "hat aus ... gestammt",
+    "examples": [
+      "Sie stammt aus der Türkei.",
+      "Dieses Lied stammt aus den 80er-Jahren.",
+      "Der Begriff stammt aus dem Lateinischen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 12
+    }
+  },
+  {
+    "verb": "übersetzen",
+    "prep": "aus + Dativ",
+    "preposition": "aus",
+    "case": "Dativ",
+    "meaning_en": "to translate from",
+    "explanation_en": "To convert text or speech from one language into another.",
+    "praeteritum": "übersetzte aus",
+    "perfekt": "hat aus ... übersetzt",
+    "examples": [
+      "Er übersetzte den Text aus dem Deutschen ins Englische.",
+      "Ich habe das Buch aus dem Französischen übersetzt.",
+      "Sie übersetzt den Artikel aus dem Spanischen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 13
+    }
+  },
+  {
+    "verb": "sich einmischen",
+    "prep": "in + Akkusativ",
+    "preposition": "in",
+    "case": "Akkusativ",
+    "meaning_en": "to meddle in",
+    "explanation_en": "To interfere in someone else's business or a situation without being asked.",
+    "praeteritum": "mischte sich in",
+    "perfekt": "hat sich in ... eingemischt",
+    "examples": [
+      "Seine Schwiegermutter mischte sich in den Streit ein.",
+      "Sie hat sich immer in unsere Angelegenheiten eingemischt.",
+      "Bitte misch dich nicht in das Gespräch ein."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 15
+    }
+  },
+  {
+    "verb": "geraten",
+    "prep": "in + Akkusativ",
+    "preposition": "in",
+    "case": "Akkusativ",
+    "meaning_en": "to get into",
+    "explanation_en": "To accidentally or unexpectedly find oneself in a particular situation, often a difficult or undesirable one.",
+    "praeteritum": "geriet in",
+    "perfekt": "ist in ... geraten",
+    "examples": [
+      "Die Minions gerieten gleich in Schwierigkeiten.",
+      "Wir sind in eine schwierige Lage geraten.",
+      "Durch den Fehler geriet das Projekt in Zeitnot."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 16
+    }
+  },
+  {
+    "verb": "sich verlieben",
+    "prep": "in + Akkusativ",
+    "preposition": "in",
+    "case": "Akkusativ",
+    "meaning_en": "to fall in love with",
+    "explanation_en": "To begin to feel romantic love for someone.",
+    "praeteritum": "verliebte sich in",
+    "perfekt": "hat sich in ... verliebt",
+    "examples": [
+      "Er verliebte sich in sie auf den ersten Blick.",
+      "Sie hat sich in ihren besten Freund verliebt.",
+      "Sie verliebte sich in ihre spätere Frau."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 17
+    }
+  },
+  {
+    "verb": "sich verwandeln",
+    "prep": "in + Akkusativ",
+    "preposition": "in",
+    "case": "Akkusativ",
+    "meaning_en": "to transform into",
+    "explanation_en": "To change completely in form, nature, or character into something else.",
+    "praeteritum": "verwandelte sich in",
+    "perfekt": "hat sich in ... verwandelt",
+    "examples": [
+      "Der Frosch verwandelte sich in einen Prinzen.",
+      "Das Wasser hat sich in Eis verwandelt.",
+      "Die alte Fabrik verwandelte sich in ein Kulturzentrum."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 18
+    }
+  },
+  {
+    "verb": "bestehen",
+    "prep": "in + Dativ",
+    "preposition": "in",
+    "case": "Dativ",
+    "meaning_en": "to consist of, to lie in",
+    "explanation_en": "To have as its essence or main characteristic; to lie in (for abstract concepts).",
+    "praeteritum": "bestand in",
+    "perfekt": "hat in ... bestanden",
+    "examples": [
+      "Sein Problem bestand in seiner Ungeduld.",
+      "Die Schwierigkeit besteht in der knappen Zeit.",
+      "Die Aufgabe besteht in der sorgfältigen Prüfung aller Daten."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 19
+    }
+  },
+  {
+    "verb": "abhängen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to depend on",
+    "explanation_en": "To be determined by or contingent on something; to rely on someone or something.",
+    "praeteritum": "hing von",
+    "perfekt": "hat von ... abgehangen",
+    "examples": [
+      "Der Erfolg hängt von deiner Mühe ab.",
+      "Es hing von dem Wetter ab, ob wir fahren konnten.",
+      "Alles hat von seiner Entscheidung abgehangen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 21
+    }
+  },
+  {
+    "verb": "davon abhängen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "it depends on",
+    "explanation_en": "An impersonal expression indicating that something is contingent on a specific factor.",
+    "praeteritum": "hing davon ab",
+    "perfekt": "hat davon abgehangen",
+    "examples": [
+      "Es hängt davon ab, ob du pünktlich bist.",
+      "Ob wir gehen, hing davon ab, wie das Wetter war.",
+      "Der Preis hängt von der bestellten Menge ab."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 22
+    }
+  },
+  {
+    "verb": "befreien",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to free from",
+    "explanation_en": "To set someone or something free from a burden, obligation, or captivity.",
+    "praeteritum": "befreite von",
+    "perfekt": "hat von ... befreit",
+    "examples": [
+      "Sie befreiten die Stadt von der Besatzung.",
+      "Er befreite sie von der schweren Last.",
+      "Ich habe mich von der Angst befreit."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 23
+    }
+  },
+  {
+    "verb": "berichten",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to report on/about",
+    "explanation_en": "To give an account or description of something; to report on an event or experience.",
+    "praeteritum": "berichtete von",
+    "perfekt": "hat von ... berichtet",
+    "examples": [
+      "Er berichtete von seinen Reisen.",
+      "Die Zeitung hat von dem Unfall berichtet.",
+      "Die Kollegin berichtete von ihrem ersten Arbeitstag."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 24
+    }
+  },
+  {
+    "verb": "sich erholen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to recover from",
+    "explanation_en": "To regain health, strength, or composure after an illness, effort, or difficult experience.",
+    "praeteritum": "erholte sich von",
+    "perfekt": "hat sich von ... erholt",
+    "examples": [
+      "Sie erholte sich von ihrer Krankheit.",
+      "Ich habe mich von der Anstrengung erholt.",
+      "Ich habe mich vom Stress erholt."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 25
+    }
+  },
+  {
+    "verb": "sich ernähren",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to feed on",
+    "explanation_en": "To consume something as food; to subsist on something.",
+    "praeteritum": "ernährte sich von",
+    "perfekt": "hat sich von ... ernährt",
+    "examples": [
+      "Viele Tiere ernähren sich von Pflanzen.",
+      "Der Löwe hat sich von Fleisch ernährt.",
+      "Früher hat man sich von Brot und Milch ernährt."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 26
+    }
+  },
+  {
+    "verb": "erzählen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to tell about",
+    "explanation_en": "To narrate or recount something; to tell a story or give information about an event.",
+    "praeteritum": "erzählte von",
+    "perfekt": "hat von ... erzählt",
+    "examples": [
+      "Sie erzählte von ihrem Urlaub.",
+      "Er hat uns von seinen Abenteuern erzählt.",
+      "Mein Opa hat von seiner Kindheit erzählt."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 27
+    }
+  },
+  {
+    "verb": "fordern",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to demand from",
+    "explanation_en": "To ask for something with authority or insistence; to require something from someone.",
+    "praeteritum": "forderte von",
+    "perfekt": "hat von ... gefordert",
+    "examples": [
+      "Der Lehrer forderte mehr Disziplin von den Schülern.",
+      "Ich habe das Geld von ihm gefordert.",
+      "Der Kunde fordert eine schnelle Antwort von der Firma."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 28
+    }
+  },
+  {
+    "verb": "hören",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to hear of/about",
+    "explanation_en": "To receive information or news about someone or something.",
+    "praeteritum": "hörte von",
+    "perfekt": "hat von ... gehört",
+    "examples": [
+      "Hast du von dem neuen Projekt gehört?",
+      "Ich habe von seinen Erfolgen gehört.",
+      "Hast du von ihm gehört?"
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 29
+    }
+  },
+  {
+    "verb": "kommen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to come from",
+    "explanation_en": "To originate from a place or person; to be derived from.",
+    "praeteritum": "kam von",
+    "perfekt": "ist von ... gekommen",
+    "examples": [
+      "Das Paket kam von Deutschland.",
+      "Der Geruch ist von den Blumen gekommen.",
+      "Das Paket ist von Amazon gekommen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 30
+    }
+  },
+  {
+    "verb": "leben",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to live off/from",
+    "explanation_en": "To subsist or support oneself by means of something (e.g., income, a specific food source).",
+    "praeteritum": "lebte von",
+    "perfekt": "hat von ... gelebt",
+    "examples": [
+      "Er lebt von seinem Gehalt.",
+      "Viele Künstler haben von ihrer Kunst gelebt.",
+      "Er lebte von Ersparnissen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 31
+    }
+  },
+  {
+    "verb": "sprechen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to speak of/about",
+    "explanation_en": "To talk about someone or something.",
+    "praeteritum": "sprach von",
+    "perfekt": "hat von ... gesprochen",
+    "examples": [
+      "Wir sprachen von unseren Zukunftsplänen.",
+      "Er hat von dir gesprochen.",
+      "Wir sprachen von früheren Zeiten."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 32
+    }
+  },
+  {
+    "verb": "stammen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to originate from, to come from",
+    "explanation_en": "To be derived or have its origin from a person, source, or event (often more abstract than \"stammen aus\").",
+    "praeteritum": "stammte von",
+    "perfekt": "hat von ... gestammt",
+    "examples": [
+      "Die Idee stammt von ihm.",
+      "Diese Redewendung hat von einem alten Sprichwort gestammt.",
+      "Dieses Lied stammt von Mozart."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 33
+    }
+  },
+  {
+    "verb": "träumen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to dream of/about",
+    "explanation_en": "To have a dream about something or someone; to wish for something strongly.",
+    "praeteritum": "träumte von",
+    "perfekt": "hat von ... geträumt",
+    "examples": [
+      "Sie träumt von einer Reise um die Welt.",
+      "Ich habe von dir geträumt.",
+      "Er träumt von einer eigenen Werkstatt."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 34
+    }
+  },
+  {
+    "verb": "übersetzen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to translate from (someone)",
+    "explanation_en": "To translate something that was written by a specific person (emphasizing the author/source).",
+    "praeteritum": "übersetzte von",
+    "perfekt": "hat von ... übersetzt",
+    "examples": [
+      "Sie übersetzte den Roman von dem berühmten Autor.",
+      "Ich habe das Gedicht von Rilke übersetzt.",
+      "Der Text wurde von einer erfahrenen Übersetzerin übersetzt."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 35
+    }
+  },
+  {
+    "verb": "verlangen",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to demand from, to request from",
+    "explanation_en": "To require or ask for something from someone, often with a sense of entitlement or urgency.",
+    "praeteritum": "verlangte von",
+    "perfekt": "hat von ... verlangt",
+    "examples": [
+      "Der Chef verlangte viel von seinen Mitarbeitern.",
+      "Sie hat eine Entschuldigung von ihm verlangt.",
+      "Wir verlangen von dem Anbieter eine Erklärung."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 36
+    }
+  },
+  {
+    "verb": "viel/nichts halten",
+    "prep": "von + Dativ",
+    "preposition": "von",
+    "case": "Dativ",
+    "meaning_en": "to think highly/little of",
+    "explanation_en": "To have a high or low opinion of something or someone.",
+    "praeteritum": "hielt viel/nichts von",
+    "perfekt": "hat viel/nichts von ... gehalten",
+    "examples": [
+      "Er hielt viel von ihrer Meinung.",
+      "Ich halte nichts von diesem Vorschlag.",
+      "Sie hat nichts von der Idee gehalten."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 37
+    }
+  },
+  {
+    "verb": "sich ärgern",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to be annoyed/angry about",
+    "explanation_en": "To feel irritation or anger concerning something.",
+    "praeteritum": "ärgerte sich über",
+    "perfekt": "hat sich über ... geärgert",
+    "examples": [
+      "Er ärgerte sich über den Fehler.",
+      "Ich habe mich über die Verspätung geärgert.",
+      "Ich ärgerte mich über den Stau."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 39
+    }
+  },
+  {
+    "verb": "sich aufregen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to get upset about",
+    "explanation_en": "To become agitated, excited, or upset about something.",
+    "praeteritum": "regte sich über",
+    "perfekt": "hat sich über ... aufgeregt",
+    "examples": [
+      "Sie regte sich über die Ungerechtigkeit auf.",
+      "Warum hast du dich über so eine Kleinigkeit aufgeregt?",
+      "Sie regte sich über den Lärm auf."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 40
+    }
+  },
+  {
+    "verb": "klagen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to complain about (legal/strong tone)",
+    "explanation_en": "To express pain, sorrow, or dissatisfaction (can be more intense or persistent than \"sich beklagen\").",
+    "praeteritum": "klagte über",
+    "perfekt": "hat über ... geklagt",
+    "examples": [
+      "Sie klagte über starke Kopfschmerzen.",
+      "Er hat über sein Schicksal geklagt.",
+      "Der Patient klagte über starke Schmerzen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 41
+    }
+  },
+  {
+    "verb": "sich beklagen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to complain about",
+    "explanation_en": "To express dissatisfaction or grievance about something.",
+    "praeteritum": "beklagte sich über",
+    "perfekt": "hat sich über ... beklagt",
+    "examples": [
+      "Die Kunden beklagten sich über den schlechten Service.",
+      "Er hat sich über die Hitze beklagt.",
+      "Der Gast beklagte sich über das kalte Essen."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 42
+    }
+  },
+  {
+    "verb": "sich beschweren",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to complain about",
+    "explanation_en": "To express dissatisfaction or grievance, often to an authority (similar to \"sich beklagen über\").",
+    "praeteritum": "beschwerte sich über",
+    "perfekt": "hat sich über ... beschwert",
+    "examples": [
+      "Die Mieter beschwerten sich über den Lärm.",
+      "Ich habe mich über das Essen beschwert.",
+      "Ich beschwerte mich über die Verspätung."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 43
+    }
+  },
+  {
+    "verb": "berichten",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to report on/about",
+    "explanation_en": "To give an account or description of something (more formal or detailed than \"berichten von\").",
+    "praeteritum": "berichtete über",
+    "perfekt": "hat über ... berichtet",
+    "examples": [
+      "Der Journalist berichtete über die politischen Ereignisse.",
+      "Sie hat über ihre Erfahrungen berichtet.",
+      "Im Meeting berichtet sie über den Projektstand."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 44
+    }
+  },
+  {
+    "verb": "denken",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to think about",
+    "explanation_en": "To consider or reflect on a topic or idea.",
+    "praeteritum": "dachte über",
+    "perfekt": "hat über ... gedacht",
+    "examples": [
+      "Ich denke über deinen Vorschlag nach.",
+      "Was hast du über das Problem gedacht?",
+      "Was dachtest du über den Film?"
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 45
+    }
+  },
+  {
+    "verb": "sich einigen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to agree on",
+    "explanation_en": "To reach an agreement or consensus on a particular matter.",
+    "praeteritum": "einigte sich über",
+    "perfekt": "hat sich über ... geeinigt",
+    "examples": [
+      "Sie einigten sich über den Preis.",
+      "Wir haben uns über den Termin geeinigt.",
+      "Wir einigten uns über den Preis."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 46
+    }
+  },
+  {
+    "verb": "erzählen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to tell about",
+    "explanation_en": "To narrate or give details about a topic (can be more descriptive than \"erzählen von\").",
+    "praeteritum": "erzählte über",
+    "perfekt": "hat über ... erzählt",
+    "examples": [
+      "Sie erzählte über ihr Leben in Afrika.",
+      "Er hat viel über seine Arbeit erzählt.",
+      "Ich habe über meine Familie erzählt."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 47
+    }
+  },
+  {
+    "verb": "sich freuen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to be happy about (present/past)",
+    "explanation_en": "To feel joy or happiness about something that has happened or is happening.",
+    "praeteritum": "freute sich über",
+    "perfekt": "hat sich über ... gefreut",
+    "examples": [
+      "Er freute sich über das Geschenk.",
+      "Ich habe mich über deine Nachricht gefreut.",
+      "Sie hat sich über die Note gefreut."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 48
+    }
+  },
+  {
+    "verb": "sich informieren",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to inform oneself about / to get informed about",
+    "explanation_en": "To gather information or make oneself knowledgeable about a particular subject.",
+    "praeteritum": "informierte sich über",
+    "perfekt": "hat sich über ... informiert",
+    "examples": [
+      "Er informierte sich über die neuesten Nachrichten.",
+      "Wir haben uns über das Thema informiert.",
+      "Ich informierte mich über den Kurs."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 49
+    }
+  },
+  {
+    "verb": "nachdenken",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to reflect on, to think deeply about",
+    "explanation_en": "To ponder deeply or reflect on a topic or decision.",
+    "praeteritum": "dachte über",
+    "perfekt": "hat über ... nachgedacht",
+    "examples": [
+      "Ich denke oft über den Sinn des Lebens nach.",
+      "Sie hat über ihre Entscheidung nachgedacht.",
+      "Ich dachte über das Angebot nach."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 50
+    }
+  },
+  {
+    "verb": "schimpfen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to complain/grumble about",
+    "explanation_en": "To express strong disapproval or annoyance about something, often verbally.",
+    "praeteritum": "schimpfte über",
+    "perfekt": "hat über ... geschimpft",
+    "examples": [
+      "Er schimpfte über das schlechte Wetter.",
+      "Die Kinder haben über das Essen geschimpft.",
+      "Die Mutter hat über das Chaos geschimpft."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 51
+    }
+  },
+  {
+    "verb": "siegen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to triumph over, to defeat",
+    "explanation_en": "To win or be victorious over an opponent or an obstacle.",
+    "praeteritum": "siegte über",
+    "perfekt": "hat über ... gesiegt",
+    "examples": [
+      "Die Mannschaft siegte über ihren Gegner.",
+      "Das Gute hat über das Böse gesiegt.",
+      "Sie haben über die Konkurrenz gesiegt."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 52
+    }
+  },
+  {
+    "verb": "sprechen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to speak about",
+    "explanation_en": "To talk or discuss a particular topic.",
+    "praeteritum": "sprach über",
+    "perfekt": "hat über ... gesprochen",
+    "examples": [
+      "Wir sprachen über die Zukunft.",
+      "Die Politiker haben über die Wirtschaftskrise gesprochen.",
+      "Wir sprechen morgen über die nächsten Schritte."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 53
+    }
+  },
+  {
+    "verb": "verfügen",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to have at one's disposal, to possess",
+    "explanation_en": "To have control or command over something; to possess resources or abilities.",
+    "praeteritum": "verfügte über",
+    "perfekt": "hat über ... verfügt",
+    "examples": [
+      "Sie verfügt über große Erfahrung in diesem Bereich.",
+      "Das Unternehmen hat über ausreichende Mittel verfügt.",
+      "Er verfügte über viel Erfahrung."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 54
+    }
+  },
+  {
+    "verb": "sich wundern",
+    "prep": "über + Akkusativ",
+    "preposition": "über",
+    "case": "Akkusativ",
+    "meaning_en": "to wonder about, to be surprised at",
+    "explanation_en": "To feel surprise or astonishment about something.",
+    "praeteritum": "wunderte sich über",
+    "perfekt": "hat sich über ... gewundert",
+    "examples": [
+      "Ich wunderte mich über seine plötzliche Abreise.",
+      "Er hat sich über ihre Reaktion gewundert.",
+      "Ich wunderte mich über die Rechnung."
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 55
+    }
+  },
+  {
+    "verb": "verstehen",
+    "prep": "unter + Dativ",
+    "preposition": "unter",
+    "case": "Dativ",
+    "meaning_en": "to understand by",
+    "explanation_en": "To interpret something in a particular way; to mean something by a term or concept.",
+    "praeteritum": "verstand unter",
+    "perfekt": "hat unter ... verstanden",
+    "examples": [
+      "Was verstehst du unter \"Glück\"?",
+      "Ich habe unter diesem Begriff immer etwas anderes verstanden.",
+      "Was verstehst du unter „Freiheit“?"
+    ],
+    "source": {
+      "sheet": "aus+vor+ in +von + über",
+      "row": 58
+    }
+  },
+  {
+    "verb": "auffordern",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to ask/call on (someone) to do something",
+    "explanation_en": "To formally request or urge someone to do something.",
+    "praeteritum": "forderte auf",
+    "perfekt": "hat aufgefordert",
+    "examples": [
+      "Der Mann fordert die Frau zum Tanzen auf.",
+      "Er forderte ihn dazu auf, die Wahrheit zu sagen.",
+      "Sie wurden dazu aufgefordert, ihre Ausweise zu zeigen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 4
+    }
+  },
+  {
+    "verb": "beglückwünschen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to congratulate (someone) on",
+    "explanation_en": "To express good wishes to someone on a particular occasion.",
+    "praeteritum": "beglückwünschte",
+    "perfekt": "hat beglückwünscht",
+    "examples": [
+      "Ich beglückwünsche dich zum neuen Job!",
+      "Wir beglückwünschen Sie herzlich zu Ihrem Geburtstag.",
+      "Er beglückwünschte sie zum Examen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 5
+    }
+  },
+  {
+    "verb": "benutzen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to use for",
+    "explanation_en": "To employ something for a particular purpose.",
+    "praeteritum": "benutzte",
+    "perfekt": "hat benutzt",
+    "examples": [
+      "Er benutzt die Tennisbälle zum Lärmreduzieren.",
+      "Das Messer wird zum Schneiden von Brot benutzt.",
+      "Sie benutzt ihren Laptop zum Arbeiten und Surfen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 6
+    }
+  },
+  {
+    "verb": "bringen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to bring to (a result/reaction)",
+    "explanation_en": "To cause something to reach a particular state or result.",
+    "praeteritum": "brachte",
+    "perfekt": "hat gebracht",
+    "examples": [
+      "Diese Zwiebeln bringen mich zum Weinen!",
+      "Seine Rede brachte die Menge zum Nachdenken.",
+      "Der Unfall brachte das Projekt zum Stillstand."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 7
+    }
+  },
+  {
+    "verb": "sich eignen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to be suitable for",
+    "explanation_en": "To be fit or appropriate for a particular purpose or situation.",
+    "praeteritum": "eignete sich",
+    "perfekt": "hat sich geeignet",
+    "examples": [
+      "Die Gabel eignet sich nicht zum Suppeessen.",
+      "Dieses Werkzeug eignet sich gut zum Reparieren von Fahrrädern.",
+      "Das Buch eignet sich hervorragend zum Deutschlernen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 8
+    }
+  },
+  {
+    "verb": "einladen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to invite to",
+    "explanation_en": "To request the presence or participation of someone at an event.",
+    "praeteritum": "lud ein",
+    "perfekt": "hat eingeladen",
+    "examples": [
+      "Wir laden euch herzlich zur Party ein.",
+      "Er hat mich zum Abendessen eingeladen.",
+      "Sie wurden zur Hochzeit eingeladen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 9
+    }
+  },
+  {
+    "verb": "sich entschließen / sich entscheiden",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to decide to",
+    "explanation_en": "To make a firm resolution or choice to do something.",
+    "praeteritum": "entschloss sich / entschied sich",
+    "perfekt": "hat sich entschlossen / hat sich entschieden",
+    "examples": [
+      "Sie hat sich dazu entschlossen, nach Berlin zu ziehen.",
+      "Er hat sich dazu entschieden, das Angebot anzunehmen.",
+      "Wir haben uns dazu entschlossen, ein Haus zu kaufen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 10
+    }
+  },
+  {
+    "verb": "ernennen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to appoint as",
+    "explanation_en": "To officially assign a position or role to someone.",
+    "praeteritum": "ernannte",
+    "perfekt": "hat ernannt",
+    "examples": [
+      "Er wurde zum Präsidenten ernannt.",
+      "Sie wurde zur Abteilungsleiterin ernannt.",
+      "Der König ernannte ihn zum Ritter."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 11
+    }
+  },
+  {
+    "verb": "erziehen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to raise/educate to become",
+    "explanation_en": "To bring up and train a child to be a certain type of person.",
+    "praeteritum": "erzog",
+    "perfekt": "hat erzogen",
+    "examples": [
+      "Ich erziehe meine Kinder zu verantwortungsbewussten Erwachsenen.",
+      "Sie erzogen ihre Tochter zu einer selbstständigen Frau.",
+      "Er wurde dazu erzogen, immer ehrlich zu sein."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 12
+    }
+  },
+  {
+    "verb": "dienen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to serve as",
+    "explanation_en": "To function or be used for a particular purpose.",
+    "praeteritum": "diente",
+    "perfekt": "hat gedient",
+    "examples": [
+      "Die Software dient zum Programmieren.",
+      "Dieser Stift dient dazu, Notizen zu machen.",
+      "Die Besprechung dient zur Vorbereitung des Projekts."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 13
+    }
+  },
+  {
+    "verb": "gehören",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to belong to",
+    "explanation_en": "To be a part of a group",
+    "praeteritum": "gehörte",
+    "perfekt": "hat gehört",
+    "examples": [
+      "Er gehört zu den besten Studenten der Klasse.",
+      "Dieses Buch gehört zu meiner Sammlung.",
+      "Sauberkeit gehört zum guten Ton."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 14
+    }
+  },
+  {
+    "verb": "passen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to match/go with",
+    "explanation_en": "To be suitable or appropriate in combination with something else.",
+    "praeteritum": "passte",
+    "perfekt": "hat gepasst",
+    "examples": [
+      "Die Schuhe passen gut zu deinem Kleid.",
+      "Der Wein passt perfekt zum Essen.",
+      "Diese Farbe passt nicht zu meinen Haaren."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 15
+    }
+  },
+  {
+    "verb": "gratulieren",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to congratulate on",
+    "explanation_en": "To express pleasure to someone at their success or good fortune.",
+    "praeteritum": "gratulierte",
+    "perfekt": "hat gratuliert",
+    "examples": [
+      "Ich gratuliere dir zum Geburtstag.",
+      "Er gratulierte ihr zum bestandenen Führerschein.",
+      "Wir gratulieren Ihnen zur Geburt Ihres Kindes."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 16
+    }
+  },
+  {
+    "verb": "überreden",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to persuade to",
+    "explanation_en": "To convince someone to do something through reasoning or argument.",
+    "praeteritum": "überredete",
+    "perfekt": "hat überredet",
+    "examples": [
+      "Ich habe ihn dazu überredet, mitzukommen.",
+      "Sie hat mich dazu überreden, den Job anzunehmen.",
+      "Er versuchte, sie zum Bleiben zu überreden."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 17
+    }
+  },
+  {
+    "verb": "werden",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to become/turn into",
+    "explanation_en": "To change into a new state form or identity.",
+    "praeteritum": "wurde",
+    "perfekt": "ist geworden",
+    "examples": [
+      "Die Raupe wird bald zu einem Schmetterling.",
+      "Wasser kann bei 0 Grad zu Eis werden.",
+      "Er wurde zu einem wichtigen Mitglied des Teams."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 18
+    }
+  },
+  {
+    "verb": "verurteilen",
+    "prep": "zu + Dativ",
+    "preposition": "zu",
+    "case": "Dativ",
+    "meaning_en": "to sentence to",
+    "explanation_en": "To declare someone guilty of a crime and assign a punishment.",
+    "praeteritum": "verurteilte",
+    "perfekt": "hat verurteilt",
+    "examples": [
+      "Er wurde zu zwei Jahren Gefängnis verurteilt.",
+      "Sie wurde zu einer Geldstrafe verurteilt.",
+      "Der Richter verurteilte ihn zur lebenslangen Haft."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 19
+    }
+  },
+  {
+    "verb": "sich bedanken",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to thank for",
+    "explanation_en": "To express gratitude or appreciation for something.",
+    "praeteritum": "bedankte sich",
+    "perfekt": "hat sich bedankt",
+    "examples": [
+      "Ich bedanke mich für deine Hilfe.",
+      "Sie hat sich für die Geschenke bedankt.",
+      "Wir bedanken uns für die Einladung."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 22
+    }
+  },
+  {
+    "verb": "benutzen",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to use for",
+    "explanation_en": "To employ something for a particular purpose.",
+    "praeteritum": "benutzte",
+    "perfekt": "hat benutzt",
+    "examples": [
+      "Ich benutze mein Handy für alles.",
+      "Wir haben das Auto für die Reise benutzt.",
+      "Er benutzt das Messer für das Schneiden von Gemüse."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 23
+    }
+  },
+  {
+    "verb": "sich engagieren",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to engage in, to commit to",
+    "explanation_en": "To commit to or be involved in a cause or activity.",
+    "praeteritum": "engagierte sich",
+    "perfekt": "hat sich engagiert",
+    "examples": [
+      "Er engagiert sich für Umweltschutz.",
+      "Viele Studenten haben sich für Menschenrechte engagiert.",
+      "Sie engagiert sich für benachteiligte Kinder."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 24
+    }
+  },
+  {
+    "verb": "sich einsetzen",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to advocate for, to support",
+    "explanation_en": "To actively support or work on behalf of someone or something.",
+    "praeteritum": "setzte sich ein",
+    "perfekt": "hat sich eingesetzt",
+    "examples": [
+      "Die Lehrerin setzt sich für ihre Schüler ein.",
+      "Sie hat sich für bessere Arbeitsbedingungen eingesetzt.",
+      "Der Anwalt setzt sich für die Rechte seines Mandanten ein."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 25
+    }
+  },
+  {
+    "verb": "sich entschuldigen",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to apologize for",
+    "explanation_en": "To express regret for an offense, fault, or failure.",
+    "praeteritum": "entschuldigte sich",
+    "perfekt": "hat sich entschuldigt",
+    "examples": [
+      "Ich entschuldige mich für die Verspätung.",
+      "Er hat sich für seinen Fehler entschuldigt.",
+      "Sie entschuldigt sich für ihr schlechtes Benehmen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 26
+    }
+  },
+  {
+    "verb": "sich interessieren",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to be interested in",
+    "explanation_en": "To have a curiosity or a desire to know about something.",
+    "praeteritum": "interessierte sich",
+    "perfekt": "hat sich interessiert",
+    "examples": [
+      "Ich interessiere mich für Geschichte.",
+      "Sie hat sich immer für Kunst interessiert.",
+      "Er interessiert sich für alte Autos."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 27
+    }
+  },
+  {
+    "verb": "kämpfen",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to fight for",
+    "explanation_en": "To struggle or contend in support of something.",
+    "praeteritum": "kämpfte",
+    "perfekt": "hat gekämpft",
+    "examples": [
+      "James Bond kämpft für das Gute.",
+      "Die Bürger haben für ihre Rechte gekämpft.",
+      "Die Soldaten kämpfen für die Freiheit ihres Landes."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 28
+    }
+  },
+  {
+    "verb": "sorgen",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to take care of, ensure",
+    "explanation_en": "To take responsibility for something; to ensure that something happens.",
+    "praeteritum": "sorgte",
+    "perfekt": "hat gesorgt",
+    "examples": [
+      "Die Eltern sorgen für ihre Kinder.",
+      "Er hat für ausreichend Essen gesorgt.",
+      "Wer sorgt für die Organisation der Party?"
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 29
+    }
+  },
+  {
+    "verb": "stimmen",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to vote for",
+    "explanation_en": "To cast a vote in support of a person, a proposal, or a cause.",
+    "praeteritum": "stimmte",
+    "perfekt": "hat gestimmt",
+    "examples": [
+      "Die Mitarbeiter stimmen für das neue Projekt.",
+      "Ich habe für den Kandidaten gestimmt.",
+      "Die Bevölkerung hat für den neuen Bürgermeister gestimmt."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 30
+    }
+  },
+  {
+    "verb": "werben",
+    "prep": "für + Akkusativ",
+    "preposition": "für",
+    "case": "Akkusativ",
+    "meaning_en": "to advertise for",
+    "explanation_en": "To promote or publicize a product, service, or cause.",
+    "praeteritum": "warb",
+    "perfekt": "hat geworben",
+    "examples": [
+      "Die Firma Coca Cola wirbt für ihr Produkt.",
+      "Der Verein hat für neue Mitglieder geworben.",
+      "Die Regierung wirbt für den Schutz der Umwelt."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 31
+    }
+  },
+  {
+    "verb": "sich entscheiden",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to decide against",
+    "explanation_en": "To make a choice not to do something.",
+    "praeteritum": "entschied sich",
+    "perfekt": "hat sich entschieden",
+    "examples": [
+      "Ich habe mich gegen das Angebot entschieden.",
+      "Sie entscheidet sich gegen den Umzug.",
+      "Er hat sich gegen das Studium entschieden."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 34
+    }
+  },
+  {
+    "verb": "kämpfen",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to fight against",
+    "explanation_en": "To struggle or contend in opposition to something.",
+    "praeteritum": "kämpfte",
+    "perfekt": "hat gekämpft",
+    "examples": [
+      "James Bond kämpft gegen das Böse.",
+      "Viele Menschen kämpfen gegen Armut.",
+      "Der Boxer kämpft gegen seinen Gegner."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 35
+    }
+  },
+  {
+    "verb": "protestieren",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to protest against",
+    "explanation_en": "To express a strong objection or disapproval.",
+    "praeteritum": "protestierte",
+    "perfekt": "hat protestiert",
+    "examples": [
+      "Die Bürger protestieren gegen die neue Steuer.",
+      "Die Studenten haben gegen die Reformen protestiert.",
+      "Wir protestieren gegen Ungerechtigkeit."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 36
+    }
+  },
+  {
+    "verb": "spielen",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to play against",
+    "explanation_en": "To take part in a game or competition in opposition to someone or something.",
+    "praeteritum": "spielte",
+    "perfekt": "hat gespielt",
+    "examples": [
+      "Heute spielen wir gegen das beste Team.",
+      "Deutschland hat gegen Frankreich gespielt.",
+      "Die Kinder spielen im Park gegen eine andere Mannschaft."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 37
+    }
+  },
+  {
+    "verb": "stimmen",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to vote against",
+    "explanation_en": "To cast a vote in opposition to a person, a proposal, or a cause.",
+    "praeteritum": "stimmte",
+    "perfekt": "hat gestimmt",
+    "examples": [
+      "Die Mitarbeiter stimmen gegen das neue Projekt.",
+      "Ich habe gegen den Vorschlag gestimmt.",
+      "Die Opposition hat gegen das neue Gesetz gestimmt."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 38
+    }
+  },
+  {
+    "verb": "verstoßen",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to violate, infringe",
+    "explanation_en": "To break or fail to comply with a rule, law, or agreement.",
+    "praeteritum": "verstieß",
+    "perfekt": "hat verstoßen",
+    "examples": [
+      "Er verstößt gegen die Regeln.",
+      "Die Firma hat gegen das Gesetz verstoßen.",
+      "Das Land verstößt gegen internationale Verträge."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 39
+    }
+  },
+  {
+    "verb": "verteidigen",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to defend against",
+    "explanation_en": "To protect or guard someone or something from attack or harm.",
+    "praeteritum": "verteidigte",
+    "perfekt": "hat verteidigt",
+    "examples": [
+      "Die Armee verteidigt das Land gegen Angriffe.",
+      "Der Anwalt verteidigt seinen Mandanten gegen die Vorwürfe.",
+      "Die Burg wurde gegen die feindlichen Truppen verteidigt."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 40
+    }
+  },
+  {
+    "verb": "sich wehren",
+    "prep": "gegen + Akkusativ",
+    "preposition": "gegen",
+    "case": "Akkusativ",
+    "meaning_en": "to defend oneself against",
+    "explanation_en": "To protect oneself or resist an attack, criticism, or unwanted action.",
+    "praeteritum": "wehrte sich",
+    "perfekt": "hat sich gewehrt",
+    "examples": [
+      "Sie wehrt sich gegen die Vorwürfe.",
+      "Er hat sich gegen die Angreifer gewehrt.",
+      "Ich wehre mich gegen die Ungerechtigkeit."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 41
+    }
+  },
+  {
+    "verb": "sich bemühen",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to strive for, to make an effort for",
+    "explanation_en": "To strive or make an effort to obtain or achieve something.",
+    "praeteritum": "bemühte sich",
+    "perfekt": "hat sich bemüht",
+    "examples": [
+      "Ich bemühe mich um gute Noten.",
+      "Sie hat sich um eine Lösung bemüht.",
+      "Sie bemüht sich um eine gute Ausbildung."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 44
+    }
+  },
+  {
+    "verb": "sich ängstigen",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to worry about, to be anxious about",
+    "explanation_en": "To be anxious or worried about the well-being of a person or a situation.",
+    "praeteritum": "ängstigte sich",
+    "perfekt": "hat sich geängstigt",
+    "examples": [
+      "Die Mutter ängstigt sich um ihr Kind.",
+      "Er hat sich sehr um die Zukunft geängstigt.",
+      "Die Eltern ängstigen sich um ihre Tochter."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 45
+    }
+  },
+  {
+    "verb": "beneiden",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to envy someone for",
+    "explanation_en": "To feel envy or covetousness towards someone for something they possess or have achieved.",
+    "praeteritum": "beneidete",
+    "perfekt": "hat beneidet",
+    "examples": [
+      "Ich beneide ihn um seinen Erfolg.",
+      "Sie hat mich um meine neue Stelle beneidet.",
+      "Viele beneiden sie um ihre Gelassenheit."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 46
+    }
+  },
+  {
+    "verb": "bitten",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to ask for, to request",
+    "explanation_en": "To make a request for something, often with a sense of politeness or urgency.",
+    "praeteritum": "bat",
+    "perfekt": "hat gebeten",
+    "examples": [
+      "Er bittet um Hilfe.",
+      "Ich habe meinen Freund um Rat gebeten.",
+      "Darf ich Sie um einen Gefallen bitten?"
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 47
+    }
+  },
+  {
+    "verb": "sich bewerben",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to apply for",
+    "explanation_en": "To formally apply for a position, an opportunity, or a specific role.",
+    "praeteritum": "bewarb sich",
+    "perfekt": "hat sich beworben",
+    "examples": [
+      "Ich bewerbe mich um eine neue Stelle.",
+      "Sie hat sich um das Stipendium beworben.",
+      "Wir bewerben uns um eine Stelle bei diesem Unternehmen."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 48
+    }
+  },
+  {
+    "verb": "es geht",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "it's about, it concerns",
+    "explanation_en": "To be the main subject, topic, or concern of a conversation, story, or event.",
+    "praeteritum": "ging",
+    "perfekt": "ist gegangen",
+    "examples": [
+      "Im Film geht es um eine Liebesgeschichte.",
+      "Worum ging es in der Diskussion?",
+      "Bei diesem Spiel geht es um alles oder nichts."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 49
+    }
+  },
+  {
+    "verb": "kämpfen",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to fight for (specific goal/object)",
+    "explanation_en": "To actively struggle or compete to win or secure something.",
+    "praeteritum": "kämpfte",
+    "perfekt": "hat gekämpft",
+    "examples": [
+      "Die Teams kämpfen um den Pokal.",
+      "Sie hat hart um ihre Freiheit gekämpft.",
+      "Beide Teams kämpfen um den ersten Platz."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 50
+    }
+  },
+  {
+    "verb": "sich kümmern",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to take care of, to look after",
+    "explanation_en": "To take care of, attend to, or be concerned with the needs of someone or something.",
+    "praeteritum": "kümmerte sich",
+    "perfekt": "hat sich gekümmert",
+    "examples": [
+      "Der Vater kümmert sich um sein Kind.",
+      "Sie hat sich um die Gäste gekümmert.",
+      "Wer kümmert sich während des Urlaubs um die Pflanzen?"
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 51
+    }
+  },
+  {
+    "verb": "sich sorgen",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to worry about",
+    "explanation_en": "To feel worried, concerned, or anxious about someone or something.",
+    "praeteritum": "sorgte",
+    "perfekt": "hat gesorgt",
+    "examples": [
+      "Ich sorge mich um deine Gesundheit.",
+      "Die Eltern sorgten sich um ihr Kind.",
+      "Sie sorgt sich um die Gesundheit ihrer Mutter."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 52
+    }
+  },
+  {
+    "verb": "spielen",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to play for (stakes)",
+    "explanation_en": "To participate in a game or contest where a specific prize or stake is at risk.",
+    "praeteritum": "spielte",
+    "perfekt": "hat gespielt",
+    "examples": [
+      "Wir spielen um Geld.",
+      "Sie haben um hohe Summen gespielt.",
+      "Die Mannschaften spielen heute um den Pokal."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 53
+    }
+  },
+  {
+    "verb": "(sich) streiten",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to argue about, quarrel over",
+    "explanation_en": "To argue or quarrel with someone over a specific topic or item.",
+    "praeteritum": "stritt (sich)",
+    "perfekt": "hat (sich) gestritten",
+    "examples": [
+      "Die Kinder streiten sich um die Fernbedienung.",
+      "Wir haben uns um die Rechnung gestritten.",
+      "Die Geschwister streiten sich um das Erbe."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 54
+    }
+  },
+  {
+    "verb": "trauern",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to mourn for",
+    "explanation_en": "To feel deep sadness or grieve for someone who has died.",
+    "praeteritum": "trauerte",
+    "perfekt": "hat getrauert",
+    "examples": [
+      "Sie trauert um ihren verstorbenen Vater.",
+      "Die ganze Nation hat um den Präsidenten getrauert.",
+      "Die Familie trauert um einen engen Freund."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 55
+    }
+  },
+  {
+    "verb": "werben",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to court, solicit, attract",
+    "explanation_en": "To try to attract or gain the support of someone or something.",
+    "praeteritum": "warb",
+    "perfekt": "hat geworben",
+    "examples": [
+      "Das Unternehmen wirbt um neue Talente.",
+      "Er wirbt um ihre Gunst.",
+      "Die Stadt wirbt um neue Fachkräfte."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 56
+    }
+  },
+  {
+    "verb": "ringen",
+    "prep": "um + Akkusativ",
+    "preposition": "um",
+    "case": "Akkusativ",
+    "meaning_en": "to struggle for, to wrestle for",
+    "explanation_en": "To struggle, wrestle, or compete with great effort to achieve a particular goal or outcome.",
+    "praeteritum": "rang",
+    "perfekt": "hat gerungen",
+    "examples": [
+      "Die Politiker ringen um einen Kompromiss.",
+      "Sie ringt um Fassung nach der schlechten Nachricht.",
+      "Die Parteien ringen um eine gemeinsame Lösung."
+    ],
+    "source": {
+      "sheet": "zu + für + gegen +um",
+      "row": 57
+    }
+  }
+]

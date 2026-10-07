@@ -4,6 +4,8 @@ A static B1/B2 German course website for working adults. Each lesson combines
 a current-affairs reading text with vocabulary, useful phrases, grammar notes,
 and—where available—an interactive exercise. Each reading text also has
 audio narration, generated locally with a free neural TTS engine (Piper).
+The homepage also links to a searchable reference for 154 verbs with fixed
+prepositions, including a random ten-question practice game.
 
 ## Build locally
 
@@ -14,6 +16,10 @@ python3 build_site.py
 The command generates the deployable site in `website/`. Do not edit files in
 that directory directly; edit the source lessons, vocabulary, exercises, or
 build scripts and rebuild.
+
+The prepositional-verbs page is generated from `praepositionsverben.json` by
+`build_prep_verbs.py`. Every entry has three examples; the source material is
+the teacher's `Preposition mit Verben.xlsx` workbook.
 
 ## Generating lesson audio
 

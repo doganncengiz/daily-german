@@ -17,3 +17,6 @@ material/
 .tts-voices/
 .tts-espeak-data/
 voice-samples/
+
+# Some ONNX Runtime builds leave this harmless telemetry-session marker.
+:memory:.ses

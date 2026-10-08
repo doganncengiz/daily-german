@@ -8,7 +8,7 @@ Vier fertige Prompts: einer für ChatGPT (Qualitätsprüfung), einer für Claude
 
 ## 1 — ChatGPT: Übersetzungen und Deutsch prüfen
 
-**Wofür:** Die 584 Wörterbuch-Einträge und die Lektionstexte gegenprüfen.
+**Wofür:** Die 598 Wörterbuch-Einträge und die Lektionstexte gegenprüfen.
 **Wie benutzen:** Prompt einfügen, dann 30–50 Zeilen aus `vocab.json` darunter
 kopieren. In Portionen arbeiten — nicht alle 519 auf einmal.
 
@@ -102,11 +102,11 @@ WAS ES GIBT
 1. Eine Start- und Archivseite (index.html): Liste aller Tageslektionen,
    neueste oben, nach Monat gruppiert. Dazu Kacheln für Wörterbuch und
    Verben mit Präpositionen.
-2. Ein Wörterbuch (woerterbuch.html): 584 Einträge in einer Tabelle, mit
+2. Ein Wörterbuch (woerterbuch.html): 598 Einträge in einer Tabelle, mit
    Suchfeld und einem Dropdown für die Übersetzungssprache.
 3. Eine Verben-mit-Präpositionen-Seite: 154 Verbindungen, Suche, Filter,
    Deutsch–Deutsch-Erklärungen und ein 10-Fragen-Spiel.
-4. 80 Lektionsseiten, die neueren mit sechs Tabs: Lesetext, Vokabular,
+4. 82 Lektionsseiten, die neueren mit sechs Tabs: Lesetext, Vokabular,
    Ausdrücke, Grammatik, Übung, Lösungen.
 
 DIE BESTEHENDE FARBWELT — bitte beibehalten, sie gefällt mir:

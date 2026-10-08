@@ -3150,13 +3150,17 @@
     "bsp": "Biontech hat seine Prognose nach unten korrigiert.",
     "dates": [
       "2026-08-05",
-      "2026-08-06"
+      "2026-08-06",
+      "2026-10-08"
     ],
     "sq": "parashikimi",
     "tr": "tahmin, öngörü",
     "uk": "прогноз",
     "ar": "توقّع، تنبؤ",
-    "fa": "پیش‌بینی"
+    "fa": "پیش‌بینی",
+    "es": "pronóstico, previsión",
+    "fr": "prévision",
+    "it": "previsione"
   },
   {
     "de": "der Puffer",
@@ -3988,7 +3992,8 @@
     "bsp": "Wegen einer technischen Störung hält der Zug hier länger.",
     "dates": [
       "2026-09-16",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-09"
     ],
     "sq": "defekti, ndërprerja",
     "tr": "aksaklık, arıza",
@@ -6148,13 +6153,17 @@
     "erk": "Leicht zu zerstören oder instabil.",
     "bsp": "Die wirtschaftliche Erholung ist real, aber noch fragil.",
     "dates": [
-      "2026-07-21"
+      "2026-07-21",
+      "2026-10-08"
     ],
     "sq": "i brishtë, i paqëndrueshëm",
     "tr": "kırılgan",
     "uk": "крихкий, нестабільний",
     "ar": "هشّ، غير مستقر",
-    "fa": "شکننده، ناپایدار"
+    "fa": "شکننده، ناپایدار",
+    "es": "frágil",
+    "fr": "fragile",
+    "it": "fragile"
   },
   {
     "de": "durchgreifen",
@@ -6265,7 +6274,8 @@
     "bsp": "Viele Pendler begrüßen die neue Maßnahme.",
     "dates": [
       "2026-07-22",
-      "2026-09-18"
+      "2026-09-18",
+      "2026-10-09"
     ],
     "sq": "masa, veprimi",
     "tr": "önlem, tedbir",
@@ -8905,5 +8915,243 @@
     "es": "considerable",
     "fr": "considérable",
     "it": "considerevole"
+  },
+  {
+    "de": "anheben",
+    "en": "to raise, to increase",
+    "erk": "Eine Zahl, einen Preis oder einen Wert höher machen.",
+    "bsp": "Die Regierung hebt ihre Prognose von 0,5 auf 1,3 Prozent an.",
+    "dates": [
+      "2026-10-08"
+    ],
+    "sq": "ngre, rrit",
+    "tr": "yükseltmek, artırmak",
+    "uk": "підвищити",
+    "ar": "يرفع، يزيد",
+    "fa": "بالا بردن، افزایش دادن",
+    "es": "elevar, subir",
+    "fr": "relever, augmenter",
+    "it": "alzare, aumentare"
+  },
+  {
+    "de": "die Herbstprojektion",
+    "en": "autumn projection (government economic forecast)",
+    "erk": "Die offizielle Wirtschaftsprognose der Bundesregierung im Herbst.",
+    "bsp": "Die Ministerin stellt die Herbstprojektion in Berlin vor.",
+    "dates": [
+      "2026-10-08"
+    ],
+    "sq": "parashikimi ekonomik i vjeshtës i qeverisë",
+    "tr": "hükümetin sonbahar ekonomi tahmini",
+    "uk": "осінній економічний прогноз уряду",
+    "ar": "التوقعات الاقتصادية الخريفية للحكومة",
+    "fa": "پیش‌بینی اقتصادی پاییزی دولت",
+    "es": "proyección económica de otoño del Gobierno",
+    "fr": "projection économique d'automne du gouvernement",
+    "it": "proiezione economica autunnale del governo"
+  },
+  {
+    "de": "warnen vor",
+    "en": "to warn against",
+    "erk": "Jemandem sagen, dass etwas gefährlich oder ein Risiko ist.",
+    "bsp": "Die Ministerin warnt vor zu viel Euphorie.",
+    "dates": [
+      "2026-10-08"
+    ],
+    "sq": "paralajmëroj për",
+    "tr": "-e karşı uyarmak",
+    "uk": "попереджати про",
+    "ar": "يحذّر من",
+    "fa": "هشدار دادن درباره",
+    "es": "advertir de",
+    "fr": "mettre en garde contre",
+    "it": "mettere in guardia da"
+  },
+  {
+    "de": "die Infrastruktur",
+    "en": "infrastructure",
+    "erk": "Straßen, Schienen, Netze und Gebäude, die ein Land braucht.",
+    "bsp": "Der Staat investiert in die Infrastruktur.",
+    "dates": [
+      "2026-10-08"
+    ],
+    "sq": "infrastruktura",
+    "tr": "altyapı",
+    "uk": "інфраструктура",
+    "ar": "البنية التحتية",
+    "fa": "زیرساخت",
+    "es": "infraestructura",
+    "fr": "infrastructure",
+    "it": "infrastruttura"
+  },
+  {
+    "de": "die Sozialbeiträge",
+    "en": "social security contributions",
+    "erk": "Das Geld, das Arbeitnehmer und Arbeitgeber für Rente, Kranken- und Arbeitslosenversicherung zahlen.",
+    "bsp": "Die Sozialbeiträge sollen nicht weiter steigen.",
+    "dates": [
+      "2026-10-08"
+    ],
+    "sq": "kontributet sociale",
+    "tr": "sosyal sigorta primleri",
+    "uk": "соціальні внески",
+    "ar": "اشتراكات الضمان الاجتماعي",
+    "fa": "حق‌بیمه‌های اجتماعی",
+    "es": "cotizaciones sociales",
+    "fr": "cotisations sociales",
+    "it": "contributi sociali"
+  },
+  {
+    "de": "wettbewerbsfähig",
+    "en": "competitive",
+    "erk": "Gut genug, um im Vergleich mit anderen Firmen oder Ländern zu bestehen.",
+    "bsp": "Die Industrie braucht wettbewerbsfähige Energiepreise.",
+    "dates": [
+      "2026-10-08"
+    ],
+    "sq": "konkurrues",
+    "tr": "rekabetçi",
+    "uk": "конкурентоспроможний",
+    "ar": "قادر على المنافسة",
+    "fa": "رقابتی",
+    "es": "competitivo",
+    "fr": "compétitif",
+    "it": "competitivo"
+  },
+  {
+    "de": "die Bürokratie",
+    "en": "bureaucracy, red tape",
+    "erk": "Viele Regeln, Formulare und Verfahren bei Ämtern und Firmen.",
+    "bsp": "Kleine Betriebe leiden unter zu viel Bürokratie.",
+    "dates": [
+      "2026-10-08"
+    ],
+    "sq": "burokracia",
+    "tr": "bürokrasi",
+    "uk": "бюрократія",
+    "ar": "البيروقراطية",
+    "fa": "بوروکراسی",
+    "es": "burocracia",
+    "fr": "bureaucratie",
+    "it": "burocrazia"
+  },
+  {
+    "de": "entnehmen",
+    "en": "to gather from, to take from (information)",
+    "erk": "Aus einem Text oder Dokument eine Information herauslesen.",
+    "bsp": "Ich habe dem Artikel entnommen, dass die Rentenversicherung Defizite hat.",
+    "dates": [
+      "2026-10-09"
+    ],
+    "sq": "nxjerr (informacion nga një tekst)",
+    "tr": "(bir metinden) çıkarmak, anlamak",
+    "uk": "дізнатися з (тексту), взяти з",
+    "ar": "يستنتج من، يأخذ من",
+    "fa": "برداشت کردن از (متن)",
+    "es": "deducir de, extraer de",
+    "fr": "tirer de, déduire de",
+    "it": "ricavare da, desumere da"
+  },
+  {
+    "de": "beeindrucken",
+    "en": "to impress",
+    "erk": "Jemandem sehr gut gefallen, sodass er Respekt hat.",
+    "bsp": "Du hast mich mit deiner Webseite beeindruckt.",
+    "dates": [
+      "2026-10-09"
+    ],
+    "sq": "bëj përshtypje",
+    "tr": "etkilemek",
+    "uk": "вражати",
+    "ar": "يُثير الإعجاب",
+    "fa": "تحت‌تأثیر قرار دادن",
+    "es": "impresionar",
+    "fr": "impressionner",
+    "it": "impressionare"
+  },
+  {
+    "de": "beitragen zu",
+    "en": "to contribute to",
+    "erk": "Helfen, dass etwas gelingt oder passiert.",
+    "bsp": "Gute Planung trägt zum Erfolg des Projekts bei.",
+    "dates": [
+      "2026-10-09"
+    ],
+    "sq": "kontribuoj për",
+    "tr": "katkıda bulunmak",
+    "uk": "сприяти, робити внесок у",
+    "ar": "يساهم في",
+    "fa": "کمک کردن به، سهیم بودن در",
+    "es": "contribuir a",
+    "fr": "contribuer à",
+    "it": "contribuire a"
+  },
+  {
+    "de": "zur Verfügung stellen",
+    "en": "to provide, to make available",
+    "erk": "Jemandem etwas geben oder anbieten, damit er es nutzen kann.",
+    "bsp": "Die Firma stellt uns Laptops zur Verfügung.",
+    "dates": [
+      "2026-10-09"
+    ],
+    "sq": "vë në dispozicion",
+    "tr": "kullanıma sunmak",
+    "uk": "надавати в розпорядження",
+    "ar": "يضع تحت التصرف",
+    "fa": "در اختیار گذاشتن",
+    "es": "poner a disposición",
+    "fr": "mettre à disposition",
+    "it": "mettere a disposizione"
+  },
+  {
+    "de": "zusichern",
+    "en": "to assure, to guarantee",
+    "erk": "Fest versprechen, dass etwas so sein oder geschehen wird.",
+    "bsp": "Wir sichern Ihnen zu, dass der Fehler nicht wieder passiert.",
+    "dates": [
+      "2026-10-09"
+    ],
+    "sq": "siguroj, premtoj",
+    "tr": "güvence vermek",
+    "uk": "гарантувати, запевняти",
+    "ar": "يؤكد، يَعِد بـ",
+    "fa": "تضمین کردن، قول دادن",
+    "es": "asegurar, garantizar",
+    "fr": "assurer, garantir",
+    "it": "assicurare, garantire"
+  },
+  {
+    "de": "berechtigt",
+    "en": "justified, legitimate",
+    "erk": "Mit gutem Grund; man hat ein Recht darauf.",
+    "bsp": "Ihre Kritik ist berechtigt.",
+    "dates": [
+      "2026-10-09"
+    ],
+    "sq": "i justifikuar, me të drejtë",
+    "tr": "haklı, yerinde",
+    "uk": "виправданий, обґрунтований",
+    "ar": "مُبرَّر، محق",
+    "fa": "موجه، بجا",
+    "es": "justificado",
+    "fr": "justifié, fondé",
+    "it": "giustificato, fondato"
+  },
+  {
+    "de": "die Unannehmlichkeit",
+    "en": "inconvenience, trouble",
+    "erk": "Eine Situation, die Ärger oder Mühe macht.",
+    "bsp": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+    "dates": [
+      "2026-10-09"
+    ],
+    "sq": "shqetësim, telash",
+    "tr": "rahatsızlık, güçlük",
+    "uk": "незручність",
+    "ar": "إزعاج، متاعب",
+    "fa": "ناراحتی، دردسر",
+    "es": "inconveniente, molestia",
+    "fr": "désagrément",
+    "it": "disagio, inconveniente"
   }
 ]

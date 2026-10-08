@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie viel Wachstum erwartet die Regierung für dieses Jahr, und mit wem liegt sie auf einer Linie?",
+      "o": [
+        "0,5 Prozent – wie die Wirtschaftsforschungsinstitute.",
+        "1,3 Prozent – wie die Wirtschaftsforschungsinstitute.",
+        "1,3 Prozent – deutlich mehr als die Institute."
+      ],
+      "c": 1,
+      "why": "Die Regierung rechnet mit <b>1,3 Prozent</b> und liegt damit <b>auf einer Linie</b> mit den Instituten. Die 0,5 Prozent waren die Prognose aus dem <b>Frühjahr</b>, und dass sie über den Instituten liegt, steht nirgends im Text."
+    },
+    {
+      "q": "Welche Gründe nennt Reiche für die Besserung der Wirtschaft?",
+      "o": [
+        "Niedrigere Energiepreise und weniger Bürokratie.",
+        "Der Ifo-Index und eine Rentenreform.",
+        "Stärkere Exporte und staatliche Investitionen in die Infrastruktur."
+      ],
+      "c": 2,
+      "why": "Reiche nennt <b>stärkere Exporte</b> und <b>staatliche Investitionen in die Modernisierung der Infrastruktur</b>. Energiepreise und Bürokratie sind <b>Forderungen</b> für künftige Reformen, nicht Gründe für die Besserung; der Ifo-Index zeigt nur die bessere Stimmung, und die Rentenreform ist umstritten."
+    },
+    {
+      "q": "Wie bewertet Reiche die Lage trotz der besseren Zahlen?",
+      "o": [
+        "Sie warnt vor zu viel Euphorie, weil das Wachstum noch fragil ist.",
+        "Sie sagt, die Krise sei vorbei und weitere Reformen seien nicht nötig.",
+        "Sie erwartet, dass die Stimmung in den Unternehmen bald wieder schlechter wird."
+      ],
+      "c": 0,
+      "why": "Reiche sagt: „Die Lage bleibt fragil“, und <b>warnt vor zu viel Euphorie</b>. Sie verlangt im Gegenteil <b>weitere Reformen</b> („Hausaufgaben“), und der Ifo-Index ist zuletzt den fünften Monat in Folge <b>gestiegen</b> – von sinkender Stimmung ist keine Rede."
+    }
+  ],
+  "schreib": [
+    "Der Minister <b>warnt vor</b> zu vielen Risiken beim Online-Banking.<span class=\"hint\"> „warnen vor“ + Dativ – nicht „warnen für“ oder „warnen über“. Auch: „Er warnt <b>vor</b> dem Risiko“, nicht „das Risiko warnen“.</span>",
+    "Die Firma <b>hebt</b> die Preise im nächsten Monat um drei Prozent <b>an</b>.<span class=\"hint\"> „anheben“ ist trennbar: „an“ steht am Satzende. Im Perfekt: „hat … angehoben“ – nicht „angehebt“.</span>",
+    "Ich war nervös, weil ich nicht genug <b>gelernt hatte</b>.<span class=\"hint\"> Im „weil“-Satz steht das Hilfsverb am Ende: „… gelernt <b>hatte</b>“. Nicht „weil ich hatte nicht gelernt“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Für mich ist … am wichtigsten, weil …",
+      "Ich bin der Ansicht, dass …",
+      "Ein Beispiel dafür ist …",
+      "Das wirkt sich direkt auf meinen Alltag aus.",
+      "Ich verlange nicht viel, aber …"
+    ],
+    "modell": "„Für mich wäre <b>weniger Bürokratie</b> am wichtigsten. Letzte Woche habe ich fast drei Stunden gebraucht, um ein Formular beim Amt auszufüllen, und ich musste zweimal wiederkommen. Ich bin der Ansicht, dass vieles digital und einfacher gehen müsste. Ich verlange nicht, dass es perfekt ist, aber die Regeln sollten klarer sein. Auch flexible Arbeitszeiten wären gut, weil sie sich positiv auf mein Familienleben <b>auswirken</b> würden. Bei den <b>Sozialbeiträgen</b> bin ich vorsichtiger: Das Thema ist umstritten, und ich <b>warne</b> davor, nur an heute zu denken.“"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Warum ist es an diesem Abend zu chaotischen Zuständen gekommen?",
+      "o": [
+        "Der Gast hatte zu spät reserviert.",
+        "Drei Köche waren krank, und eine Störung zeigte die Gästezahl falsch an.",
+        "Das Restaurant war außerhalb der Sprechzeiten geschlossen."
+      ],
+      "c": 1,
+      "why": "Es gab <b>zwei Gründe</b>: <b>drei kranke Köche</b> und eine <b>Störung im Reservierungssystem</b>. Dass der Gast zu spät reserviert hat, steht nirgends im Text, und „außerhalb der Sprechzeiten“ kommt im Text nicht als Grund für die Probleme vor."
+    },
+    {
+      "q": "Was hat das Restaurant getan, um solche Probleme zu vermeiden?",
+      "o": [
+        "Es hat die Preise gesenkt.",
+        "Es hat alle Köche entlassen.",
+        "Es hat Notfallpläne für kurzfristige Personalausfälle erstellt."
+      ],
+      "c": 2,
+      "why": "Das Restaurant hat <b>Notfallpläne für kurzfristige Personalausfälle</b> erstellt und ein neues Reservierungsteam eingerichtet. Von gesenkten Preisen oder Entlassungen steht nichts im Text; die kranken Köche waren der <b>Grund</b> des Problems, nicht die Lösung."
+    },
+    {
+      "q": "Was bekommt Herr Yılmaz als kleine Geste?",
+      "o": [
+        "Einen Gutschein, den er ausdrucken kann; das Restaurant übernimmt bis zu 80 Euro.",
+        "Ein kostenloses Essen für zehn Personen.",
+        "Eine Einladung zur Eröffnung eines neuen Restaurants."
+      ],
+      "c": 0,
+      "why": "Herr Yılmaz bekommt einen <b>Gutschein zum Ausdrucken</b>; das Restaurant übernimmt die nächste Rechnung <b>bis zu 80 Euro</b>. Ein kostenloses Essen für zehn Personen ist wegen des Limits von 80 Euro falsch, und von einer Eröffnung ist keine Rede."
+    }
+  ],
+  "schreib": [
+    "Ich habe dem Vertrag <b>entnommen</b>, dass die Kündigungsfrist drei Monate beträgt.<span class=\"hint\"> „entnehmen“ + Dativ („dem Vertrag“); im Perfekt: „habe … entnommen“ – nicht „entnehmt“ oder „entgenommen“.</span>",
+    "Ich übe jeden Tag zehn Minuten, <b>um</b> mein Deutsch <b>zu</b> verbessern.<span class=\"hint\"> Nach „um“ steht der Infinitiv mit „zu“ am Ende. Bei trennbaren Verben: „um das Formular auszufüllen“ (zu in der Mitte).</span>",
+    "Unser Mitarbeiter war krank, <b>deshalb</b> <b>musste</b> ich die Aufgabe übernehmen.<span class=\"hint\"> Nach „deshalb“ steht das Verb sofort an Position 2 – nicht „deshalb ich musste“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Wir können Ihren Ärger gut verstehen.",
+      "Wir möchten uns für … entschuldigen.",
+      "Der Grund dafür war, dass … / Das lag daran, dass …",
+      "Um solche Probleme zu vermeiden, haben wir …",
+      "Wir sichern Ihnen zu, dass …"
+    ],
+    "modell": "„Guten Tag, Frau Berger, wir können Ihren Ärger sehr gut verstehen und möchten uns für die <b>Unannehmlichkeiten</b> entschuldigen. Ihre Beschwerde ist <b>berechtigt</b>. Die Lieferung kam zu spät, weil es eine <b>Störung</b> in unserem Lager gab. Um solche Probleme zu vermeiden, leiten wir <b>Maßnahmen</b> ein und haben einen Notfallplan erstellt. Wir <b>sichern</b> Ihnen <b>zu</b>, dass Ihre nächste Bestellung pünktlich ankommt. Als kleine Geste <b>stellen</b> wir Ihnen einen Gutschein <b>zur Verfügung</b>.“"
+  }
+}

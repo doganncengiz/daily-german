@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 10. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 10. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Wochenend-Ausgabe</div>
+    <h2 class="heading">2,0 Prozent mehr Produktion, Herbstferien in elf Bundesländern, 3:2 für den HSV</h2>
+    <div class="card">
+      <h3 class="art-kicker">Wirtschaft</h3>
+      <h4 class="art-title">Exporte im Plus, Pleiten im Plus: Die Wirtschaft sendet gemischte Signale</h4>
+      <p>Die deutsche Wirtschaft sendet zurzeit gemischte Signale. Positiv: Die reale Produktion stieg im August saisonbereinigt um 2,0 Prozent gegenüber dem Vormonat. Auch der Außenhandel liegt im Jahresvergleich deutlich vorn: Die Ausfuhren waren im August um 6,2 Prozent höher als im August 2025, die Einfuhren um 5,5 Prozent. Im Vergleich zum Juli gingen die Exporte allerdings um 0,8 Prozent zurück, während die Importe um 0,9 Prozent zunahmen. Die Industrie läuft also wieder besser, doch das Auslandsgeschäft schwankt von Monat zu Monat.</p>
+      <p>Weniger erfreulich sind die Zahlen zu den Firmenpleiten. Im Juli zählte das Statistische Bundesamt 2.373 Unternehmensinsolvenzen, das sind 8,0 Prozent mehr als im Vorjahresmonat. Auch Bauherren spüren den Druck: Neue Wohngebäude waren im August 5,5 Prozent teurer als ein Jahr zuvor. Im Mai hatte der Anstieg noch bei 5,0 Prozent gelegen.</p>
+      <p>Was heißt das für den Alltag? Wer in einer exportstarken Branche arbeitet, kann etwas optimistischer sein. Wer bauen oder renovieren will, muss dagegen weiter mit hohen Preisen rechnen. Und wer einen Betrieb führt, schaut nicht nur auf die Aufträge, sondern auch auf Kosten und Zahlungsfähigkeit. Und weil sich die Daten von Monat zu Monat ändern, lohnt sich bei jeder Zahl die Frage: Verglichen womit – mit dem Vormonat oder mit dem Vorjahresmonat?</p>
+    </div>
+    <div class="card">
+      <h3 class="art-kicker">Freizeit</h3>
+      <h4 class="art-title">Herbstferien: Hessen ist schon unterwegs, Bayern kommt zuletzt</h4>
+      <p>Für viele Familien hat der Herbst längst begonnen – mit Urlaubsplänen. In Hessen, Rheinland-Pfalz und im Saarland sind seit dem 5. Oktober Herbstferien. Am Montag, dem 12. Oktober, folgen Bremen, Niedersachsen, Sachsen, Schleswig-Holstein und Thüringen; dort ist bis zum 24. Oktober schulfrei. Nordrhein-Westfalen startet am 17. Oktober, Berlin, Brandenburg, Hamburg und Sachsen-Anhalt am 19. Oktober, Baden-Württemberg am 26. Oktober. Mecklenburg-Vorpommern hat vom 15. bis zum 24. Oktober frei. Als letztes Bundesland beginnt Bayern am 2. November.</p>
+      <p>Der ADAC erwartet viel Verkehr, aber meist weniger als im Sommer. Vor allem freitagnachmittags ist der Andrang auf den Autobahnen am größten, besonders auf der A1, A3, A7, A8, A9 und auf dem Münchner Ring A99. Wer mit dem Auto in die Alpen verreist, sollte wissen: Pässe können kurzfristig gesperrt werden, und im Oktober kann in den Bergen schon Schnee liegen. Als Alternative nennt der ADAC das Deutschland-Ticket. Beliebt sind Wanderregionen, Küsten, Seen, Radwege, Städtereisen und Flüge nach Mallorca und auf die Kanaren.</p>
+      <p>Wer mit Brückentagen plant, hat es 2026 schwerer: Die meisten Feiertage fallen auf ein Wochenende. Flexible Reisende können das Problem etwas entschärfen, zum Beispiel mit einer Abfahrt unter der Woche statt am Freitag. Im August zählte das Statistische Bundesamt 58,7 Millionen Übernachtungen in Deutschland, 1,1 Prozent weniger als im Vorjahresmonat.</p>
+    </div>
+    <div class="card">
+      <h3 class="art-kicker">Sport</h3>
+      <h4 class="art-title">Nach der Länderspielpause: Der HSV gewinnt ein wildes Spiel mit 3:2</h4>
+      <p>Nach zwei Wochen Länderspielpause ist die Bundesliga zurück. Am 5. Spieltag stehen von Freitag bis Sonntag neun Spiele auf dem Programm, darunter Augsburg gegen Bayern München, Mainz gegen Leverkusen und das rheinische Derby Köln gegen Gladbach, bei dem Blessin sein Debüt als neuer Gladbach-Trainer gibt.</p>
+      <p>Das wildeste Spiel am Samstagnachmittag lief in Sinsheim. Der Hamburger SV hatte zuletzt 2:1 gegen Köln gewonnen und ging in der 12. Minute durch Yussuf Poulsen in Führung. Nach diesem Rückstand glich Hoffenheim kurz vor der Pause durch ein Eigentor aus, und nach 53 Minuten traf Bambasé Conté zum 2:1. Ein weiterer Treffer des HSV wurde vom Videoschiedsrichter zurückgenommen, weil es vorher sowohl ein Foul als auch ein Handspiel gegeben hatte. Vor dem Köln-Spiel stand der HSV noch ohne Sieg und ohne eigenes Tor am Tabellenende.</p>
+      <p>Nachdem Bernardo in der 65. Minute die Gelb-Rote Karte gesehen hatte, musste Hoffenheim zu zehnt weiterspielen. In der 83. Minute köpfte der eingewechselte Terem Moffi den HSV zum 2:2. Doch dabei blieb es nicht: In der vierten Minute der Nachspielzeit traf Miro Muheim aus etwa 20 Metern zum 3:2. Kurz danach war das Spiel zu Ende. Damit holte Hamburg den ersten Auswärtssieg der Saison und hatte nach fünf Spielen sechs Punkte. Hoffenheim blieb bei drei Punkten und rutschte auf Platz 17. Die Gelb-Rote Karte war der Wendepunkt: Vorher hatte Hoffenheim das Spiel kontrolliert, danach wurde der HSV immer gefährlicher und drehte die Partie mit zwei späten Toren.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><th class="group" colspan="4">Wirtschaft</th></tr>
+        <tr><td>die Insolvenz <span class="rep">(Wiederholung)</span></td><td>insolvency, bankruptcy</td><td>Wenn eine Firma ihre Rechnungen nicht mehr bezahlen kann.</td><td>Im Juli zählte das Statistische Bundesamt 2.373 Unternehmensinsolvenzen.</td></tr>
+        <tr><td>der Vorjahresmonat</td><td>same month of the previous year</td><td>Derselbe Monat im Jahr davor, zum Beispiel Juli 2025 für Juli 2026.</td><td>Im Juli gab es 8,0 Prozent mehr Insolvenzen als im Vorjahresmonat.</td></tr>
+        <tr><td>saisonbereinigt</td><td>seasonally adjusted</td><td>Zahlen, aus denen normale Schwankungen im Jahr herausgerechnet sind, zum Beispiel wegen Ferien oder Wetter.</td><td>Die Produktion stieg saisonbereinigt um 2,0 Prozent.</td></tr>
+        <tr><td>die Ausfuhr</td><td>export(s)</td><td>Waren, die ein Land ins Ausland verkauft.</td><td>Die Ausfuhren lagen im August über dem Vorjahreswert.</td></tr>
+        <tr><th class="group" colspan="4">Freizeit</th></tr>
+        <tr><td>der Andrang <span class="rep">(Wiederholung)</span></td><td>the crowd, the rush</td><td>Sehr viele Menschen, die gleichzeitig an einen Ort wollen.</td><td>Freitagnachmittags ist der Andrang auf den Autobahnen am größten.</td></tr>
+        <tr><td>die Herbstferien</td><td>autumn holidays</td><td>Schulfrei im Oktober oder November, meist ein bis zwei Wochen.</td><td>In Hessen haben die Herbstferien am 5. Oktober begonnen.</td></tr>
+        <tr><td>der Brückentag</td><td>bridge day (day off between holiday and weekend)</td><td>Ein Arbeitstag zwischen einem Feiertag und dem Wochenende, den viele als Urlaubstag nehmen.</td><td>Dieses Jahr gibt es weniger Brückentage, weil viele Feiertage auf ein Wochenende fallen.</td></tr>
+        <tr><td>die Übernachtung</td><td>overnight stay</td><td>Eine Nacht, die man außerhalb von zu Hause schläft, zum Beispiel im Hotel.</td><td>Im August gab es 58,7 Millionen Übernachtungen in Deutschland.</td></tr>
+        <tr><td>verreisen</td><td>to go away (on a trip)</td><td>Für kurze oder längere Zeit an einen anderen Ort fahren, oft im Urlaub.</td><td>Wer in den Herbstferien verreist, sollte nicht freitags losfahren.</td></tr>
+        <tr><th class="group" colspan="4">Sport</th></tr>
+        <tr><td>der Rückstand <span class="rep">(Wiederholung)</span></td><td>time gap, deficit</td><td>Man liegt hinter einem anderen Team oder Fahrer.</td><td>Nach dem Rückstand glich Hoffenheim vor der Pause aus.</td></tr>
+        <tr><td>das Eigentor</td><td>own goal</td><td>Ein Spieler schießt den Ball ins Tor der eigenen Mannschaft.</td><td>Durch ein Eigentor gelang Hoffenheim das 1:1.</td></tr>
+        <tr><td>die Nachspielzeit</td><td>stoppage time</td><td>Die Minuten, die nach den 90 Minuten noch gespielt werden.</td><td>In der Nachspielzeit fiel das Tor zum 3:2.</td></tr>
+        <tr><td>einwechseln</td><td>to bring on a substitute</td><td>Einen Spieler neu ins Spiel schicken, ein anderer geht raus.</td><td>Der eingewechselte Moffi köpfte das 2:2.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„gemischte Signale senden“</b> — Es gibt gute und schlechte Nachrichten gleichzeitig, das Bild ist nicht klar.<br><i>Die Wirtschaft sendet zurzeit gemischte Signale.</i></li>
+        <li><b>„im Vergleich zum Vormonat“</b> — So vergleicht man eine Zahl mit dem Monat davor (oder „gegenüber dem Vorjahr“ mit dem Jahr davor).<br><i>Im Vergleich zum Juli gingen die Exporte um 0,8 Prozent zurück.</i></li>
+        <li><b>„mit etwas rechnen müssen“</b> — Wissen oder erwarten, dass etwas Unangenehmes kommt.<br><i>Bauherren müssen weiter mit hohen Preisen rechnen.</i></li>
+        <li><b>„auf dem Programm stehen“</b> — Etwas ist geplant oder findet statt.<br><i>Am 5. Spieltag stehen neun Spiele auf dem Programm.</i></li>
+        <li><b>„in Führung gehen“</b> — Das erste Tor schießen oder vorne liegen.<br><i>Der HSV ging in der 12. Minute in Führung.</i></li>
+        <li><b>„zu zehnt spielen“</b> — Mit zehn statt elf Spielern spielen, meist nach einem Platzverweis. Auch „zu zweit“, „zu dritt“ im Alltag.<br><i>Nach der Gelb-Roten Karte musste Hoffenheim zu zehnt weiterspielen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Veränderungen mit Prozent vergleichen:</b> Zahlen in den Nachrichten haben fast immer einen Vergleichspunkt: <i>„um 2,0 Prozent gegenüber dem Vormonat“</i>, <i>„5,5 Prozent teurer als ein Jahr zuvor“</i>, <i>„im Vergleich zum Juli“</i>. Nach <i>gegenüber</i> und <i>im Vergleich zu</i> steht der Dativ. Nach einem Komparativ heißt es <i>als</i>: <i>teurer als</i>, <i>mehr als</i>. Typischer Fehler: <i>„mehr wie“</i> oder <i>„höher wie“</i>. Das hört man im Alltag, aber es ist nicht korrekt. Für Veränderungen nimmt man <i>um</i>: <i>„Die Preise sind um fünf Prozent gestiegen.“</i> Der Stand danach steht mit <i>auf</i>: <i>„… auf 15,90 Euro“</i>.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b>Plusquamperfekt mit „nachdem“:</b> Was zuerst passiert ist, steht im Plusquamperfekt (<i>hatte</i> / <i>war</i> + Partizip II), das spätere Ereignis im Präteritum: <i>„Nachdem Bernardo die Gelb-Rote Karte gesehen hatte, musste Hoffenheim zu zehnt weiterspielen.“</i> Der Nebensatz schiebt das Verb ans Ende, und das Hilfsverb steht ganz hinten. Typischer Fehler: beide Teile im gleichen Tempus, zum Beispiel <i>„Nachdem er die Karte sah, …“</i>. Im Gespräch sagt man meist Perfekt statt Präteritum: <i>„Nachdem ich nach Hause gekommen war, habe ich gekocht.“</i></p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Um wie viel Prozent stieg die reale Produktion im August gegenüber dem Vormonat?</li>
+          <li>Was berichtet das Statistische Bundesamt über die Unternehmensinsolvenzen im Juli?</li>
+          <li>Welche Bundesländer haben ab Montag, dem 12. Oktober, bis zum 24. Oktober Herbstferien?</li>
+          <li>Was gilt laut Text für die Feiertage 2026?</li>
+          <li>Wer erzielte in der Nachspielzeit das entscheidende Tor zum 3:2?</li>
+          <li>Was passierte in der 65. Minute des Spiels in Sinsheim?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit einem Vergleich in Prozent (<i>um … Prozent</i>, <i>gegenüber dem Vorjahr</i>), zum Beispiel über Preise, Miete oder Arbeitszeit.</li>
+          <li>Schreibe einen Satz mit <i>verreisen</i> oder <i>die Herbstferien</i>: Wohin fährst du, und wie kommst du dorthin?</li>
+          <li>Schreibe einen Satz mit <i>nachdem</i> und dem Plusquamperfekt (<i>hatte</i> / <i>war</i> + Partizip II) über etwas, das du gestern gemacht hast.</li>
+          <li>Schreibe einen Satz mit <i>gemischte Signale</i>, zum Beispiel über deine Firma, das Wetter oder eine Prüfung.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Wann bist du zuletzt verreist oder hast Urlaub gemacht? Wohin ging es, wie bist du gefahren, und wie groß war der Andrang? Hast du Brückentage genutzt?</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: Produktion, Außenhandel, Insolvenzen, Baupreise und Übernachtungen im Oktober 2026: Statistisches Bundesamt (destatis.de, Pressemitteilungen vom 7.–9. Oktober 2026); Herbstferien und Verkehr: ADAC (adac.de vom 6. Oktober 2026); Bundesliga, 5. Spieltag, Hoffenheim–HSV: t-online.de (Liveticker, Endstand am 10. Oktober 2026) und DFB-Datencenter.</p>
+</div>
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

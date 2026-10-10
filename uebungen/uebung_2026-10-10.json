@@ -1,0 +1,80 @@
+{
+ "mc": [
+  {
+   "q": "Um wie viel Prozent stieg die reale Produktion im August gegenüber dem Vormonat?",
+   "o": [
+    "0,8 Prozent.",
+    "2,0 Prozent.",
+    "6,2 Prozent."
+   ],
+   "c": 1,
+   "why": "Die Produktion stieg um 2,0 Prozent gegenüber dem Vormonat. 0,8 Prozent war der Rückgang der Exporte gegenüber Juli, und 6,2 Prozent war das Exportplus gegenüber dem Vorjahr."
+  },
+  {
+   "q": "Was berichtet das Statistische Bundesamt über die Unternehmensinsolvenzen im Juli?",
+   "o": [
+    "Es gab 2.373 Fälle, 8,0 Prozent mehr als im Vorjahresmonat.",
+    "Es gab 2.373 Fälle, 8,0 Prozent weniger als im Vorjahresmonat.",
+    "Die Zahl sank um 0,9 Prozent gegenüber dem Vormonat."
+   ],
+   "c": 0,
+   "why": "Im Juli gab es 2.373 Unternehmensinsolvenzen, 8,0 Prozent mehr als im Vorjahresmonat. „Weniger“ widerspricht dem Text, und 0,9 Prozent ist die Zahl für den Anstieg der Importe."
+  },
+  {
+   "q": "Welche Bundesländer haben ab Montag, dem 12. Oktober, bis zum 24. Oktober Herbstferien?",
+   "o": [
+    "Hessen, Rheinland-Pfalz und das Saarland.",
+    "Baden-Württemberg und Bayern.",
+    "Bremen, Niedersachsen, Sachsen, Schleswig-Holstein und Thüringen."
+   ],
+   "c": 2,
+   "why": "Diese fünf Länder folgen am 12. Oktober. Hessen, Rheinland-Pfalz und das Saarland haben schon seit dem 5. Oktober frei, Baden-Württemberg startet am 26. Oktober und Bayern erst am 2. November."
+  },
+  {
+   "q": "Was gilt laut Text für die Feiertage 2026?",
+   "o": [
+    "Es gibt besonders viele Brückentage.",
+    "Die meisten Feiertage fallen auf ein Wochenende, deshalb gibt es weniger Brückentage.",
+    "Alle Feiertage fallen auf einen Freitag."
+   ],
+   "c": 1,
+   "why": "Der Text sagt, dass die meisten Feiertage auf ein Wochenende fallen und man mit Brückentagen deshalb schwerer planen kann. Besonders viele Brückentage und „alle auf einen Freitag“ stehen nirgends im Text."
+  },
+  {
+   "q": "Wer erzielte in der Nachspielzeit das entscheidende Tor zum 3:2?",
+   "o": [
+    "Miro Muheim.",
+    "Bambasé Conté.",
+    "Yussuf Poulsen."
+   ],
+   "c": 0,
+   "why": "Miro Muheim traf in der vierten Minute der Nachspielzeit zum 3:2. Poulsen schoss das 1:0 in der 12. Minute, Conté das 2:1 nach 53 Minuten."
+  },
+  {
+   "q": "Was passierte in der 65. Minute des Spiels in Sinsheim?",
+   "o": [
+    "Hoffenheim ging mit 3:1 in Führung.",
+    "Der HSV traf zum 1:0.",
+    "Bernardo sah die Gelb-Rote Karte, und Hoffenheim spielte zu zehnt."
+   ],
+   "c": 2,
+   "why": "In der 65. Minute bekam Bernardo Gelb-Rot. Das Spiel stand damals 2:1 für Hoffenheim, ein 3:1 gab es nie, und das 1:0 für den HSV fiel schon in der 12. Minute."
+  }
+ ],
+ "schreib": [
+  "Die Mieten sind im Vergleich zum Vorjahr <b>um</b> fünf Prozent gestiegen, und das ist mehr <b>als</b> mein Gehalt. <span class=\"hint\">Typischer Fehler: „mehr wie“ statt „mehr als“; und „um“ fehlt oft: „gestiegen um 5 Prozent“ ist richtig, aber „gestiegen 5 Prozent“ nicht.</span>",
+  "Wer in den <b>Herbstferien</b> mit dem Auto <b>verreist</b>, sollte freitagnachmittags nicht losfahren. <span class=\"hint\">Perfekt von „verreisen“ mit „sein“: „Ich bin verreist“, nicht „ich habe verreist“. Und kein „ge-“: nicht „vergereist“.</span>",
+  "<b>Nachdem</b> ich gestern nach Hause gekommen <b>war</b>, habe ich gekocht. <span class=\"hint\">Im Nebensatz mit „nachdem“ steht das Plusquamperfekt (war/hatte + Partizip II) am Satzende. Typischer Fehler: beide Teile im gleichen Tempus, z. B. „Nachdem ich nach Hause kam, …“ klingt oft ungenau; im Gespräch geht es, wenn die Reihenfolge klar ist.</span>",
+  "Die Lage in unserer Firma ist unklar: Wir bekommen viele Aufträge, aber der Chef spart bei Personal. Das sind <b>gemischte Signale</b>. <span class=\"hint\">„Signale“ steht meist im Plural, und man sagt „senden“ oder „geben“: Die Firma sendet gemischte Signale.</span>"
+ ],
+ "sprech": {
+  "phrases": [
+   "Ich bin im … nach … gefahren, weil …",
+   "Die Fahrt hat etwa … Stunden gedauert.",
+   "Es war viel/wenig los, der Andrang war …",
+   "Ich habe einen Brückentag genommen / keinen Brückentag gehabt.",
+   "Am schönsten war, dass …"
+  ],
+  "modell": "Im Oktober bin ich für drei Tage nach Hamburg <b>verreist</b>. Ich bin mit dem Zug gefahren, weil ich den <b>Andrang</b> auf der Autobahn vermeiden wollte. Die Fahrt hat etwa vier Stunden gedauert. Ich habe einen <b>Brückentag</b> genommen und zwei <b>Übernachtungen</b> im Hotel gebucht. Am schönsten war, dass wir am Hafen spazieren gehen konnten und das Wetter gut war."
+ }
+}

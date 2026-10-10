@@ -3242,13 +3242,17 @@
     "erk": "Der zeitliche Abstand zu einem Konkurrenten.",
     "bsp": "Evenepoel hatte über sechs Minuten Rückstand auf Pogačar.",
     "dates": [
-      "2026-07-28"
+      "2026-07-28",
+      "2026-10-10"
     ],
     "sq": "diferenca, mbetja pas",
     "tr": "fark, geride kalma",
     "uk": "відставання",
     "ar": "فارق التأخر",
-    "fa": "اختلاف، عقب‌ماندگی"
+    "fa": "اختلاف، عقب‌ماندگی",
+    "es": "el retraso, la desventaja",
+    "fr": "le retard",
+    "it": "lo svantaggio, il ritardo"
   },
   {
     "de": "die Rundfahrt",
@@ -6121,13 +6125,17 @@
     "erk": "Wenn eine Firma ihre Rechnungen nicht mehr bezahlen kann.",
     "bsp": "Die Zahl der Insolvenzen ist stark gestiegen.",
     "dates": [
-      "2026-07-21"
+      "2026-07-21",
+      "2026-10-10"
     ],
     "sq": "paaftësia paguese, falimentimi",
     "tr": "iflas, ödeme aczi",
     "uk": "неплатоспроможність, банкрутство",
     "ar": "الإعسار، الإفلاس",
-    "fa": "ورشکستگی، ناتوانی در پرداخت"
+    "fa": "ورشکستگی، ناتوانی در پرداخت",
+    "es": "la insolvencia, la quiebra",
+    "fr": "l'insolvabilité, la faillite",
+    "it": "l'insolvenza, il fallimento"
   },
   {
     "de": "der Anstieg",
@@ -6549,7 +6557,8 @@
     "bsp": "Kameras mit KI-Unterstützung sollen gefährlichen Andrang frühzeitig erkennen.",
     "dates": [
       "2026-09-18",
-      "2026-10-04"
+      "2026-10-04",
+      "2026-10-10"
     ],
     "sq": "turma",
     "tr": "kalabalık",
@@ -8020,7 +8029,8 @@
     "erk": "So berechnet, dass übliche saisonale Effekte (z. B. der Herbst) herausgerechnet sind.",
     "bsp": "Saisonbereinigt ist die Arbeitslosigkeit trotzdem leicht gestiegen.",
     "dates": [
-      "2026-10-01"
+      "2026-10-01",
+      "2026-10-10"
     ],
     "sq": "e korrigjuar sipas sezonit",
     "tr": "mevsimsel olarak düzeltilmiş",
@@ -9153,5 +9163,158 @@
     "es": "inconveniente, molestia",
     "fr": "désagrément",
     "it": "disagio, inconveniente"
+  },
+  {
+    "de": "der Vorjahresmonat",
+    "en": "same month of the previous year",
+    "erk": "Derselbe Monat im Jahr davor, zum Beispiel Juli 2025 für Juli 2026.",
+    "bsp": "Im Juli gab es 8,0 Prozent mehr Insolvenzen als im Vorjahresmonat.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "muaji i njëjtë i vitit të kaluar",
+    "tr": "geçen yılın aynı ayı",
+    "uk": "той самий місяць минулого року",
+    "ar": "الشهر نفسه من العام السابق",
+    "fa": "همان ماه سال قبل",
+    "es": "el mismo mes del año anterior",
+    "fr": "le même mois de l'année précédente",
+    "it": "lo stesso mese dell'anno precedente"
+  },
+  {
+    "de": "die Ausfuhr",
+    "en": "export(s)",
+    "erk": "Waren, die ein Land ins Ausland verkauft.",
+    "bsp": "Die Ausfuhren lagen im August über dem Vorjahreswert.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "eksporti",
+    "tr": "ihracat",
+    "uk": "експорт",
+    "ar": "التصدير",
+    "fa": "صادرات",
+    "es": "la exportación",
+    "fr": "l'exportation",
+    "it": "l'esportazione"
+  },
+  {
+    "de": "die Herbstferien",
+    "en": "autumn holidays",
+    "erk": "Schulfrei im Oktober oder November, meist ein bis zwei Wochen.",
+    "bsp": "In Hessen haben die Herbstferien am 5. Oktober begonnen.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "pushimet e vjeshtës",
+    "tr": "sonbahar tatili",
+    "uk": "осінні канікули",
+    "ar": "عطلة الخريف",
+    "fa": "تعطیلات پاییزی",
+    "es": "las vacaciones de otoño",
+    "fr": "les vacances d'automne",
+    "it": "le vacanze autunnali"
+  },
+  {
+    "de": "der Brückentag",
+    "en": "bridge day (day off between holiday and weekend)",
+    "erk": "Ein Arbeitstag zwischen einem Feiertag und dem Wochenende, den viele als Urlaubstag nehmen.",
+    "bsp": "Dieses Jahr gibt es weniger Brückentage, weil viele Feiertage auf ein Wochenende fallen.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "ditë ura (pushim mes festës dhe fundjavës)",
+    "tr": "köprü günü (tatil ile hafta sonu arasındaki izin günü)",
+    "uk": "міст між святом і вихідними (додатковий вихідний)",
+    "ar": "يوم جسر (يوم إجازة بين العطلة الرسمية وعطلة نهاية الأسبوع)",
+    "fa": "روز پل (روز مرخصی بین تعطیلی و آخر هفته)",
+    "es": "el puente (día libre entre festivo y fin de semana)",
+    "fr": "le pont (jour de congé entre un jour férié et le week-end)",
+    "it": "il ponte (giorno libero tra festivo e weekend)"
+  },
+  {
+    "de": "die Übernachtung",
+    "en": "overnight stay",
+    "erk": "Eine Nacht, die man außerhalb von zu Hause schläft, zum Beispiel im Hotel.",
+    "bsp": "Im August gab es 58,7 Millionen Übernachtungen in Deutschland.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "qëndrim natën, fjetje",
+    "tr": "geceleme",
+    "uk": "ночівля",
+    "ar": "المبيت",
+    "fa": "اقامت شبانه",
+    "es": "la pernoctación",
+    "fr": "la nuitée",
+    "it": "il pernottamento"
+  },
+  {
+    "de": "verreisen",
+    "en": "to go away (on a trip)",
+    "erk": "Für kurze oder längere Zeit an einen anderen Ort fahren, oft im Urlaub.",
+    "bsp": "Wer in den Herbstferien verreist, sollte nicht freitags losfahren.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "të shkosh në udhëtim",
+    "tr": "seyahate çıkmak",
+    "uk": "поїхати у подорож",
+    "ar": "السفر",
+    "fa": "سفر کردن",
+    "es": "irse de viaje",
+    "fr": "partir en voyage",
+    "it": "partire per un viaggio"
+  },
+  {
+    "de": "das Eigentor",
+    "en": "own goal",
+    "erk": "Ein Spieler schießt den Ball ins Tor der eigenen Mannschaft.",
+    "bsp": "Durch ein Eigentor gelang Hoffenheim das 1:1.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "autogol",
+    "tr": "kendi kalesine gol",
+    "uk": "автогол",
+    "ar": "هدف عكسي",
+    "fa": "گل به خودی",
+    "es": "el gol en propia puerta",
+    "fr": "le but contre son camp",
+    "it": "l'autogol"
+  },
+  {
+    "de": "die Nachspielzeit",
+    "en": "stoppage time",
+    "erk": "Die Minuten, die nach den 90 Minuten noch gespielt werden.",
+    "bsp": "In der Nachspielzeit fiel das Tor zum 3:2.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "koha shtesë",
+    "tr": "uzatma süresi",
+    "uk": "додатковий час",
+    "ar": "الوقت بدل الضائع",
+    "fa": "وقت اضافه",
+    "es": "el tiempo añadido",
+    "fr": "le temps additionnel",
+    "it": "il recupero"
+  },
+  {
+    "de": "einwechseln",
+    "en": "to bring on a substitute",
+    "erk": "Einen Spieler neu ins Spiel schicken, ein anderer geht raus.",
+    "bsp": "Der eingewechselte Moffi köpfte das 2:2.",
+    "dates": [
+      "2026-10-10"
+    ],
+    "sq": "të bësh ndërrim (lojtari)",
+    "tr": "oyuna almak (oyuncu değişikliği)",
+    "uk": "замінити гравця",
+    "ar": "إشراك لاعب بديل",
+    "fa": "تعویض کردن بازیکن",
+    "es": "sustituir (a un jugador)",
+    "fr": "faire entrer un remplaçant",
+    "it": "far entrare un sostituto"
   }
 ]

@@ -1,0 +1,80 @@
+{
+ "mc": [
+  {
+   "q": "Wie stark könnten die Importe aus China laut dem Bericht sinken?",
+   "o": [
+    "Um mehr als die Hälfte.",
+    "Um etwa 44 Prozent.",
+    "Um ein Drittel."
+   ],
+   "c": 0,
+   "why": "Laut Bericht könnten die Importe aus China um mehr als die Hälfte sinken. 44 Prozent ist der Anteil der Hybride an den Neuzulassungen im August, und „jeder dritte“ Plug-in-Hybrid stammte im zweiten Quartal von einem chinesischen Hersteller."
+  },
+  {
+   "q": "Wer muss der Einigung noch zustimmen?",
+   "o": [
+    "Der Autoverband VDA und der Importeursverband.",
+    "Die EU-Staaten.",
+    "Der chinesische Handelsminister Wang Wentao."
+   ],
+   "c": 1,
+   "why": "Die Ergebnisse gehen an Ursula von der Leyen, die Zustimmung der EU-Staaten steht noch aus. Der VDA kommentiert nur, und Wang Wentao hat in Peking bereits verhandelt."
+  },
+  {
+   "q": "Was geschieht in der Nacht zum 25. Oktober?",
+   "o": [
+    "Die Uhren springen von 2 auf 3 Uhr vor.",
+    "Die Uhren werden von 2 auf 3 Uhr zurückgestellt.",
+    "Die Uhren werden von 3 auf 2 Uhr zurückgestellt."
+   ],
+   "c": 2,
+   "why": "In der Nacht zum 25. Oktober wird um 3 Uhr auf 2 Uhr zurückgestellt. Der Sprung von 2 auf 3 Uhr war die Umstellung im Frühjahr, am 29. März; die zweite Antwort dreht die Uhrzeiten falsch herum."
+  },
+  {
+   "q": "Was ist aus dem Beschluss des Europaparlaments von 2019 geworden?",
+   "o": [
+    "Er trat 2020 in Kraft.",
+    "Er ist bis heute nicht umgesetzt.",
+    "Das Parlament hat ihn wieder zurückgenommen."
+   ],
+   "c": 1,
+   "why": "Das Parlament stimmte 2019 für das Ende der Zeitumstellung, umgesetzt ist der Beschluss bis heute nicht, auch aus Sorge vor einem Flickenteppich aus Zeitzonen. Von Inkrafttreten oder Rücknahme steht nichts im Text."
+  },
+  {
+   "q": "Wie stand es im Spiel Leipzig gegen Frankfurt zur Halbzeit?",
+   "o": [
+    "Es stand 4:0 für Leipzig.",
+    "Es stand 6:0 für Leipzig.",
+    "Es stand 2:0 für Leipzig."
+   ],
+   "c": 0,
+   "why": "Zur Halbzeit führte Leipzig 4:0, die Tore in der zweiten Halbzeit machten daraus 6:0. 2:0 stand es nur im Spiel Mainz gegen Leverkusen nach neun Minuten."
+  },
+  {
+   "q": "Wie verlief das Spiel zwischen Mainz und Leverkusen?",
+   "o": [
+    "Mainz führte früh 2:0 und gewann 4:3.",
+    "Das Spiel endete 2:2.",
+    "Leverkusen führte früh 2:0, Mainz glich aus, am Ende gewann Leverkusen 4:3."
+   ],
+   "c": 2,
+   "why": "Andrich und Schick brachten Leverkusen früh 2:0 in Führung, Caci glich mit einem Doppelpack aus, danach trafen Quansah und Diaby; Hollerbachs 3:4 kam zu spät. Das 2:2 war nur der Zwischenstand vor der Pause."
+  }
+ ],
+ "schreib": [
+  "Der Strom ist <b>um</b> 5 Prozent teurer geworden und liegt jetzt <b>bei</b> 32 Cent pro Kilowattstunde. <span class=\"hint\">„um“ nennt die Differenz, „auf“ oder „bei“ den Endwert: nicht „auf 5 Prozent teurer“.</span>",
+  "<b>Wer</b> am Samstag früh <b>aufsteht</b>, <b>hat</b> mehr vom Tag. <span class=\"hint\">Nach dem Nebensatz mit „wer“ beginnt der Hauptsatz sofort mit dem Verb, ohne „er“ oder „der“.</span>",
+  "Im Team haben wir eine <b>Einigung</b> erzielt: Wir treffen uns künftig montags um 9 Uhr. <span class=\"hint\">Man „erzielt eine Einigung“ oder „einigt sich auf etwas“, aber man „macht“ keine Einigung.</span>",
+  "Der Gastgeber <b>führte</b> <b>zur Halbzeit</b> mit 2:0. Nach der Pause <b>glich</b> der Gast durch einen <b>Doppelpack</b> noch <b>aus</b>. <span class=\"hint\">„zur Halbzeit“ (nicht „in der Halbzeit“); „ausgleichen“ ist trennbar: „er glich aus“.</span>"
+ ],
+ "sprech": {
+  "phrases": [
+   "Bei mir stellt sich … von selbst um, aber …",
+   "Nach der Umstellung bin ich meistens …",
+   "Ich wäre dafür / dagegen, die Zeitumstellung abzuschaffen, weil …",
+   "Für mich persönlich wäre … besser, denn …",
+   "Auf der anderen Seite muss man bedenken, dass …"
+  ],
+  "modell": "Bei mir stellt sich das Handy von selbst um, aber die Uhr im Auto muss ich jedes Mal selbst <b>zurückstellen</b>. Nach der <b>Zeitumstellung</b> bin ich ein paar Tage müde, weil meine <b>innere Uhr</b> nicht sofort mitkommt. Ich würde die Umstellung <b>abschaffen</b>, am liebsten mit der <b>Winterzeit</b> als Dauerzeit, denn dann wäre es morgens früher hell. Dafür braucht die EU aber eine <b>Einigung</b>, sonst gibt es einen Flickenteppich aus Zeitzonen."
+ }
+}

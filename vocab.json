@@ -2179,13 +2179,17 @@
     "erk": "Die Firma, die ein Produkt herstellt.",
     "bsp": "Der Hersteller muss Ersatzteile bereitstellen.",
     "dates": [
-      "2026-08-14"
+      "2026-08-14",
+      "2026-10-11"
     ],
     "sq": "prodhuesi",
     "tr": "üretici, imalatçı",
     "uk": "виробник",
     "ar": "الشركة المُصنِّعة",
-    "fa": "تولیدکننده"
+    "fa": "تولیدکننده",
+    "es": "el fabricante",
+    "fr": "le fabricant",
+    "it": "il produttore"
   },
   {
     "de": "der Hinweis",
@@ -5777,13 +5781,17 @@
     "erk": "Etwas offiziell beenden oder nicht mehr benutzen.",
     "bsp": "Manche Länder wollen das Bargeld komplett abschaffen.",
     "dates": [
-      "2026-07-16"
+      "2026-07-16",
+      "2026-10-11"
     ],
     "sq": "të heqësh, të shfuqizosh",
     "tr": "kaldırmak",
     "uk": "скасовувати",
     "ar": "يلغي",
-    "fa": "لغو کردن، کنار گذاشتن"
+    "fa": "لغو کردن، کنار گذاشتن",
+    "es": "abolir",
+    "fr": "abolir, supprimer",
+    "it": "abolire"
   },
   {
     "de": "der Datenschutz",
@@ -6694,7 +6702,8 @@
     "erk": "Die Mannschaft, die aktuell auf Platz eins steht.",
     "bsp": "Der Tabellenführer spielt am Samstag in Frankfurt.",
     "dates": [
-      "2026-09-19"
+      "2026-09-19",
+      "2026-10-11"
     ],
     "sq": "lideri i tabelës",
     "tr": "lider, puan durumunda birinci",
@@ -9316,5 +9325,192 @@
     "es": "sustituir (a un jugador)",
     "fr": "faire entrer un remplaçant",
     "it": "far entrare un sostituto"
+  },
+  {
+    "de": "die Einigung",
+    "en": "agreement",
+    "erk": "Das Ergebnis, wenn zwei Seiten nach einem Streit eine gemeinsame Lösung finden.",
+    "bsp": "Die EU und China haben eine vorläufige Einigung erzielt.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "marrëveshje",
+    "tr": "anlaşma",
+    "uk": "угода, домовленість",
+    "ar": "اتفاق",
+    "fa": "توافق",
+    "es": "el acuerdo",
+    "fr": "l'accord",
+    "it": "l'accordo"
+  },
+  {
+    "de": "begrenzen",
+    "en": "to limit, to restrict",
+    "erk": "Dafür sorgen, dass etwas nicht über eine bestimmte Menge hinausgeht.",
+    "bsp": "China will seine Exporte nach Europa begrenzen.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "kufizoj",
+    "tr": "sınırlamak",
+    "uk": "обмежувати",
+    "ar": "تحديد، تقييد",
+    "fa": "محدود کردن",
+    "es": "limitar",
+    "fr": "limiter",
+    "it": "limitare"
+  },
+  {
+    "de": "der Zoll",
+    "en": "customs duty, tariff",
+    "erk": "Eine Steuer, die man für Waren aus dem Ausland bezahlt.",
+    "bsp": "Seit 2024 erhebt die EU Zölle auf chinesische Elektroautos.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "tarifa doganore",
+    "tr": "gümrük vergisi",
+    "uk": "мито",
+    "ar": "رسوم جمركية",
+    "fa": "تعرفه گمرکی",
+    "es": "el arancel",
+    "fr": "le droit de douane",
+    "it": "il dazio"
+  },
+  {
+    "de": "die Zeitumstellung",
+    "en": "changing the clocks (daylight saving time change)",
+    "erk": "Zweimal im Jahr stellt man die Uhr um eine Stunde vor oder zurück.",
+    "bsp": "In der Nacht zum 25. Oktober ist wieder Zeitumstellung.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "ndryshimi i orës",
+    "tr": "saat değişikliği",
+    "uk": "переведення годинника",
+    "ar": "تغيير التوقيت",
+    "fa": "تغییر ساعت",
+    "es": "el cambio de hora",
+    "fr": "le changement d'heure",
+    "it": "il cambio dell'ora"
+  },
+  {
+    "de": "zurückstellen",
+    "en": "to set back (a clock)",
+    "erk": "Eine Uhr auf eine frühere Zeit stellen.",
+    "bsp": "Um 3 Uhr werden die Uhren auf 2 Uhr zurückgestellt.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "e kthej prapa (orën)",
+    "tr": "geri almak (saati)",
+    "uk": "переводити назад (годинник)",
+    "ar": "تأخير (الساعة)",
+    "fa": "عقب کشیدن (ساعت)",
+    "es": "retrasar (el reloj)",
+    "fr": "reculer (l'horloge)",
+    "it": "spostare indietro (l'orologio)"
+  },
+  {
+    "de": "die innere Uhr",
+    "en": "body clock",
+    "erk": "Der natürliche Rhythmus des Körpers: Wann man müde oder wach ist.",
+    "bsp": "Viele Menschen spüren die Zeitumstellung in ihrer inneren Uhr.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "ora e brendshme",
+    "tr": "biyolojik saat",
+    "uk": "внутрішній годинник",
+    "ar": "الساعة البيولوجية",
+    "fa": "ساعت بیولوژیکی",
+    "es": "el reloj biológico",
+    "fr": "l'horloge interne",
+    "it": "l'orologio biologico"
+  },
+  {
+    "de": "die Winterzeit",
+    "en": "winter time (standard time)",
+    "erk": "Die normale Zeit im Winter, nach dem Zurückstellen der Uhr.",
+    "bsp": "Am 25. Oktober beginnt die Winterzeit.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "ora e dimrit",
+    "tr": "kış saati",
+    "uk": "зимовий час",
+    "ar": "التوقيت الشتوي",
+    "fa": "ساعت زمستانی",
+    "es": "el horario de invierno",
+    "fr": "l'heure d'hiver",
+    "it": "l'ora solare"
+  },
+  {
+    "de": "der Hattrick",
+    "en": "hat-trick (three goals by one player)",
+    "erk": "Ein Spieler schießt drei Tore in einem Spiel.",
+    "bsp": "Nkunku erzielte vor der Halbzeit einen Hattrick.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "tri gola (hat-trick)",
+    "tr": "hat-trick (üç gol)",
+    "uk": "хет-трик",
+    "ar": "هاتريك",
+    "fa": "هتتریک",
+    "es": "el triplete (hat-trick)",
+    "fr": "le triplé",
+    "it": "la tripletta"
+  },
+  {
+    "de": "der Kantersieg",
+    "en": "landslide victory, thrashing",
+    "erk": "Ein Sieg mit sehr vielen Toren Unterschied.",
+    "bsp": "Leipzig feierte gegen Frankfurt einen Kantersieg.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "fitore e thellë",
+    "tr": "farklı galibiyet",
+    "uk": "розгромна перемога",
+    "ar": "فوز كاسح",
+    "fa": "پیروزی پرگل",
+    "es": "la goleada",
+    "fr": "la victoire écrasante",
+    "it": "la vittoria schiacciante"
+  },
+  {
+    "de": "der Doppelpack",
+    "en": "brace (two goals by one player)",
+    "erk": "Ein Spieler schießt zwei Tore in einem Spiel.",
+    "bsp": "Caci glich mit einem Doppelpack zum 2:2 aus.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "dy gola nga i njëjti lojtar",
+    "tr": "bir oyuncunun iki golü",
+    "uk": "дубль (два голи)",
+    "ar": "ثنائية (هدفان)",
+    "fa": "دو گل توسط یک بازیکن",
+    "es": "el doblete",
+    "fr": "le doublé",
+    "it": "la doppietta"
+  },
+  {
+    "de": "die Halbzeit",
+    "en": "half (of a match), half-time",
+    "erk": "Die Hälfte eines Spiels oder die Pause dazwischen.",
+    "bsp": "Zur Halbzeit stand es in Leipzig schon 4:0.",
+    "dates": [
+      "2026-10-11"
+    ],
+    "sq": "pjesa (e lojës)",
+    "tr": "devre",
+    "uk": "тайм",
+    "ar": "الشوط",
+    "fa": "نیمه (بازی)",
+    "es": "el descanso, la mitad",
+    "fr": "la mi-temps",
+    "it": "il tempo (di gioco)"
   }
 ]

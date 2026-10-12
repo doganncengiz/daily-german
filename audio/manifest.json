@@ -400,6 +400,10 @@
     "2026-10-11-2.mp3": {
       "fingerprint": "ebcc23a34d1b443e9c19ba1f03fab2670e12d815302754df419dd8723a536bf2",
       "voice": "thorsten-high"
+    },
+    "2026-10-12-0.mp3": {
+      "fingerprint": "fd91d4dccf47e76750c0f2016e17d12ed0854738411e76b28405ab28869bb78b",
+      "voice": "thorsten-high"
     }
   }
 }

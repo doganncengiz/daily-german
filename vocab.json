@@ -1501,7 +1501,10 @@
     "tr": "artış, zam",
     "uk": "підвищення",
     "ar": "الزيادة، الرفع",
-    "fa": "افزایش"
+    "fa": "افزایش",
+    "es": "el aumento",
+    "fr": "l'augmentation",
+    "it": "l'aumento"
   },
   {
     "de": "die Erholung",
@@ -2050,13 +2053,17 @@
     "erk": "Jemandem etwas erlauben oder ermöglichen.",
     "bsp": "Die Hersteller gewährten einen ersten Blick auf ihre Neuheiten.",
     "dates": [
-      "2026-09-02"
+      "2026-09-02",
+      "2026-10-12"
     ],
     "sq": "të akordojë, të dhurojë",
     "tr": "tanımak, vermek",
     "uk": "надавати, гарантувати",
     "ar": "يمنح، يتيح",
-    "fa": "اعطا کردن، فراهم کردن"
+    "fa": "اعطا کردن، فراهم کردن",
+    "es": "conceder",
+    "fr": "accorder",
+    "it": "concedere"
   },
   {
     "de": "die Gewährleistung",
@@ -3055,13 +3062,17 @@
     "bsp": "Für viele Pendler gehören Verspätungen zum Alltag.",
     "dates": [
       "2026-09-03",
-      "2026-09-09"
+      "2026-09-09",
+      "2026-10-12"
     ],
     "sq": "udhëtari i përditshëm",
     "tr": "(işe) günlük gidip gelen kişi",
     "uk": "маятниковий пасажир",
     "ar": "المتنقّل اليومي",
-    "fa": "مسافر روزانه"
+    "fa": "مسافر روزانه",
+    "es": "la persona que viaja a diario al trabajo",
+    "fr": "le/la pendulaire",
+    "it": "il/la pendolare"
   },
   {
     "de": "das Pflichtspiel",
@@ -9512,5 +9523,90 @@
     "es": "el descanso, la mitad",
     "fr": "la mi-temps",
     "it": "il tempo (di gioco)"
+  },
+  {
+    "de": "die Preisanpassung",
+    "en": "price adjustment",
+    "erk": "Der Preis wird neu festgelegt, meistens nach oben.",
+    "bsp": "Die Preisanpassung gilt für alle Abos gleichzeitig.",
+    "dates": [
+      "2026-10-12"
+    ],
+    "sq": "përshtatja e çmimit",
+    "tr": "fiyat ayarlaması",
+    "uk": "коригування цін",
+    "ar": "تعديل الأسعار",
+    "fa": "تعدیل قیمت",
+    "es": "el ajuste de precio",
+    "fr": "l'ajustement des prix",
+    "it": "l'adeguamento del prezzo"
+  },
+  {
+    "de": "der Kostenindex",
+    "en": "cost index",
+    "erk": "Eine Zahl, die zeigt, wie stark Kosten (z. B. für Personal und Energie) gestiegen sind.",
+    "bsp": "Der Kostenindex bestimmt, wie stark der Ticketpreis steigt.",
+    "dates": [
+      "2026-10-12"
+    ],
+    "sq": "indeksi i kostove",
+    "tr": "maliyet endeksi",
+    "uk": "індекс витрат",
+    "ar": "مؤشر التكاليف",
+    "fa": "شاخص هزینه‌ها",
+    "es": "el índice de costes",
+    "fr": "l'indice des coûts",
+    "it": "l'indice dei costi"
+  },
+  {
+    "de": "der Nachlass",
+    "en": "discount, reduction",
+    "erk": "Ein Teil des Preises, den man nicht bezahlen muss.",
+    "bsp": "Für Kunden mit Abo gibt es einen Nachlass von zehn Prozent.",
+    "dates": [
+      "2026-10-12"
+    ],
+    "sq": "zbritja",
+    "tr": "indirim",
+    "uk": "знижка",
+    "ar": "خصم، تخفيض",
+    "fa": "تخفیف",
+    "es": "el descuento",
+    "fr": "la réduction",
+    "it": "lo sconto"
+  },
+  {
+    "de": "die Finanzierung",
+    "en": "funding, financing",
+    "erk": "Das Geld, das für ein Projekt oder ein Angebot bereitgestellt wird.",
+    "bsp": "Die Finanzierung des Projekts ist für drei Jahre gesichert.",
+    "dates": [
+      "2026-10-12"
+    ],
+    "sq": "financimi",
+    "tr": "finansman",
+    "uk": "фінансування",
+    "ar": "التمويل",
+    "fa": "تأمین مالی",
+    "es": "la financiación",
+    "fr": "le financement",
+    "it": "il finanziamento"
+  },
+  {
+    "de": "das Jobticket",
+    "en": "employer-subsidised ticket",
+    "erk": "Ein Ticket für Bus und Bahn, bei dem der Arbeitgeber einen Teil bezahlt.",
+    "bsp": "Mein Arbeitgeber bietet ein Jobticket an.",
+    "dates": [
+      "2026-10-12"
+    ],
+    "sq": "bileta e punës (me pjesëmarrje të punëdhënësit)",
+    "tr": "işveren destekli bilet",
+    "uk": "квиток від роботодавця",
+    "ar": "تذكرة الموظف (بدعم من صاحب العمل)",
+    "fa": "بلیت کارمندی (با سهم کارفرما)",
+    "es": "el billete para empleados (con ayuda de la empresa)",
+    "fr": "le billet employeur (abonnement subventionné)",
+    "it": "il biglietto aziendale (agevolato dal datore di lavoro)"
   }
 ]

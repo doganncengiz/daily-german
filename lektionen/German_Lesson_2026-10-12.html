@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 12. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 12. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">66,80 Euro: Das Deutschlandticket wird ab Januar 2027 teurer</h2>
+    <div class="card">
+      <p>Wer in Deutschland täglich mit Bus und Bahn zur Arbeit fährt, zahlt ab Januar 2027 mehr: Das Deutschlandticket kostet dann 66,80 Euro im Monat. Aktuell sind es 63 Euro. Das entspricht einer Erhöhung um 3,80 Euro, also um rund 6,1 Prozent. Das Ticket gilt bundesweit im Nahverkehr, aber in der Regel nicht in ICE und IC. Den neuen Preis hat der Koordinierungsrat von Bund und Ländern festgelegt; die Entscheidung wurde Ende September bekannt gegeben.</p>
+      <p>Grundlage der Preisanpassung ist ein Kostenindex, den die Verkehrsminister der Länder im März beschlossen haben. Er berücksichtigt unter anderem die Personal- und Energiekosten der Verkehrsunternehmen. Damit folgt der Preis künftig einem festen Verfahren. Das Ticket gibt es seit Mai 2023: Es startete mit 49 Euro, 2025 stieg der Preis auf 58 Euro und 2026 auf 63 Euro. Damit wird das Ticket gegenüber dem Start um fast 18 Euro teurer. Inzwischen nutzen mehr als 14 Millionen Menschen das Angebot. Der Bund hat die Finanzierung bis Ende 2029 gesichert.</p>
+      <p>Auch das Jobticket wird angepasst: Sein Preis nach fünf Prozent Rabatt beträgt künftig 63,46 Euro. Diesen Nachlass gewähren die Verkehrsunternehmen, wenn der Arbeitgeber mindestens 25 Prozent des regulären Ticketpreises als Zuschuss zahlt. Das sind 2027 mindestens 16,70 Euro. Beschäftigte zahlen dann höchstens 46,76 Euro selbst. Das Semesterticket für Studierende steigt auf 40,08 Euro. Für Pendler lohnt sich deshalb ein Gespräch im Betrieb: Fragen Sie nach, ob Ihr Arbeitgeber ein Jobticket anbietet.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Pendler / die Pendlerin <span class="rep">(Wiederholung)</span></td><td>commuter</td><td>Jemand, der regelmäßig von zu Hause zur Arbeit in eine andere Stadt oder einen anderen Ort fährt.</td><td>Viele Pendler nutzen morgens den Regionalzug.</td></tr>
+        <tr><td>die Preisanpassung</td><td>price adjustment</td><td>Der Preis wird neu festgelegt, meistens nach oben.</td><td>Die Preisanpassung gilt für alle Abos gleichzeitig.</td></tr>
+        <tr><td>der Kostenindex</td><td>cost index</td><td>Eine Zahl, die zeigt, wie stark Kosten (z. B. für Personal und Energie) gestiegen sind.</td><td>Der Kostenindex bestimmt, wie stark der Ticketpreis steigt.</td></tr>
+        <tr><td>gewähren <span class="rep">(Wiederholung)</span></td><td>to grant</td><td>Jemandem offiziell etwas geben oder erlauben.</td><td>Viele Firmen gewähren Beschäftigten einen Nachlass auf das Ticket.</td></tr>
+        <tr><td>der Nachlass</td><td>discount, reduction</td><td>Ein Teil des Preises, den man nicht bezahlen muss.</td><td>Für Kunden mit Abo gibt es einen Nachlass von zehn Prozent.</td></tr>
+        <tr><td>die Finanzierung</td><td>funding, financing</td><td>Das Geld, das für ein Projekt oder ein Angebot bereitgestellt wird.</td><td>Die Finanzierung des Projekts ist für drei Jahre gesichert.</td></tr>
+        <tr><td>das Jobticket</td><td>employer-subsidised ticket</td><td>Ein Ticket für Bus und Bahn, bei dem der Arbeitgeber einen Teil bezahlt.</td><td>Mein Arbeitgeber bietet ein Jobticket an.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Ab dem 1. Januar gilt …“</b> — So sagt man, ab wann ein Preis oder eine Regel neu ist.<br><i>Ab dem 1. Januar gilt ein neuer Preis.</i></li>
+        <li><b>„Das entspricht einer Erhöhung um …“</b> — Man nennt den Unterschied zum alten Wert; „um“ zeigt die Differenz.<br><i>Das entspricht einer Erhöhung um sechs Prozent.</i></li>
+        <li><b>„Die Finanzierung ist bis … gesichert.“</b> — Das Geld ist bis zu einem bestimmten Zeitpunkt sicher.<br><i>Die Finanzierung ist bis Ende 2029 gesichert.</i></li>
+        <li><b>„Es lohnt sich, … zu …“</b> — Etwas bringt einen Vorteil, deshalb sollte man es tun.<br><i>Es lohnt sich, beim Arbeitgeber nach einem Jobticket zu fragen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Preise und Zahlen: „um“ und „auf“:</b> „Der Preis steigt <i>um</i> 3,80 Euro <i>auf</i> 66,80 Euro.“ „um“ nennt den Unterschied (wie viel mehr?), „auf“ nennt den neuen Wert (wo landet der Preis?). Das funktioniert genauso bei „sinken“, „wachsen“ und „erhöhen“. Typischer Fehler: „Der Preis steigt um 66,80 Euro“ (das ist nicht der Unterschied) oder „steigt in 66,80 Euro“. Merke: um = Differenz, auf = Ergebnis.</p></div>
+      <div class="grammar-block"><p><b>„seit“ + Präsens + Dativ:</b> „Das Ticket gibt es <i>seit Mai 2023</i>.“ Wenn etwas früher begonnen hat und immer noch gilt, steht im Deutschen das Präsens – nicht das Perfekt. Danach folgt der Dativ: „seit <i>dem</i> Jahr 2023“, „seit <i>zwei</i> Jahren“. Typischer Fehler: „Ich habe das Ticket seit zwei Jahren gehabt“ oder „seit zwei Jahre“. Richtig: „Ich habe das Ticket seit zwei Jahren.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie stark steigt der Preis des Deutschlandtickets ab Januar 2027?</li>
+          <li>Worauf basiert die Preisanpassung?</li>
+          <li>Was stimmt laut Text?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „steigen um … auf …“ über einen Preis oder eine Miete.</li>
+          <li>Schreibe einen Satz mit „gewähren“ (z. B. einen Rabatt, Urlaub oder einen Zuschuss).</li>
+          <li>Schreibe einen Satz mit „seit“ über etwas, das du schon länger machst.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Ein Kollege fragt dich, was sich beim Deutschlandticket ändert. Antworte mündlich in fünf Sätzen: neuer Preis, Erhöhung, Grund, Jobticket, dein Tipp.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: <a href="https://www.bayern.de/preisanpassung-bei-deutschlandticket/">Bayerisches Landesportal: Preisanpassung bei Deutschlandticket (30. September 2026)</a>; <a href="https://www.ihk.de/ostwestfalen/newsportal/deutschlandticket-7193778">IHK Ostwestfalen: Deutschlandticket – Das ändert sich 2027</a>; <a href="https://www.adac.de/news/deutschlandticket-2027/">ADAC: Deutschlandticket 2027 (1. Oktober 2026)</a>. Vereinfacht für B1/B2; geprüft am 12. Oktober 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie stark steigt der Preis des Deutschlandtickets ab Januar 2027?",
+      "o": [
+        "Um 3,80 Euro auf 66,80 Euro.",
+        "Um 6,10 Euro auf 63 Euro.",
+        "Um 8 Euro auf 58 Euro."
+      ],
+      "c": 0,
+      "why": "Der Preis steigt <b>um 3,80 Euro</b> (von 63 auf <b>66,80 Euro</b>), das sind rund 6,1 <b>Prozent</b>. Die 6,1 sind also keine Euro-Summe, und 58 Euro war der Preis im Jahr 2025, nicht der aktuelle."
+    },
+    {
+      "q": "Worauf basiert die Preisanpassung?",
+      "o": [
+        "Auf einer Abstimmung der Nutzer im Internet.",
+        "Auf einem Kostenindex, der unter anderem Personal- und Energiekosten berücksichtigt.",
+        "Auf der Zahl der verkauften Tickets im Jahr 2026."
+      ],
+      "c": 1,
+      "why": "Die Verkehrsminister der Länder haben im März einen <b>Kostenindex</b> beschlossen, der Personal- und Energiekosten berücksichtigt. Von einer Online-Abstimmung oder von Verkaufszahlen als Grundlage steht nichts im Text."
+    },
+    {
+      "q": "Was stimmt laut Text?",
+      "o": [
+        "Das Ticket startete im Mai 2023 mit 58 Euro.",
+        "Der Bund hat die Finanzierung nur bis Ende 2027 gesichert.",
+        "Mehr als 14 Millionen Menschen nutzen das Ticket."
+      ],
+      "c": 2,
+      "why": "Mehr als <b>14 Millionen Menschen</b> nutzen das Angebot. Das Ticket startete mit <b>49 Euro</b> (58 Euro gab es erst 2025), und die Finanzierung ist bis <b>Ende 2029</b> gesichert, nicht nur bis 2027."
+    }
+  ],
+  "schreib": [
+    "Die Miete steigt <b>um</b> 50 Euro <b>auf</b> 950 Euro.<span class=\"hint\"> „um“ nennt die Differenz, „auf“ den neuen Wert – nicht „steigt um 950 Euro“, wenn 950 der neue Preis ist.</span>",
+    "Mein Arbeitgeber <b>gewährt</b> uns einen Zuschuss zum Jobticket.<span class=\"hint\"> „gewähren“ + Dativ + Akkusativ; Perfekt: „hat gewährt“ – nicht „hat gegewährt“.</span>",
+    "Ich lerne <b>seit</b> zwei Jahren Deutsch.<span class=\"hint\"> Nach „seit“ steht das Präsens und der Dativ („zwei Jahren“) – nicht „habe gelernt seit zwei Jahre“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ab Januar 2027 gilt …",
+      "Das entspricht einer Erhöhung um …",
+      "Grundlage ist ein Kostenindex, der … berücksichtigt.",
+      "Beim Jobticket zahlt mein Arbeitgeber einen Zuschuss von …",
+      "Es lohnt sich, beim Arbeitgeber nachzufragen."
+    ],
+    "modell": "„Hast du schon gehört? Ab Januar 2027 kostet das Deutschlandticket 66,80 Euro statt 63 Euro. Das entspricht einer <b>Erhöhung</b> um rund sechs Prozent. Grundlage ist ein <b>Kostenindex</b>, der Personal- und Energiekosten berücksichtigt; die <b>Preisanpassung</b> hat der Koordinierungsrat bestätigt. Ich bin <b>Pendler</b>, deshalb frage ich meinen Arbeitgeber nach einem <b>Jobticket</b>. Wenn er mindestens 16,70 Euro Zuschuss zahlt, <b>gewähren</b> die Verkehrsunternehmen zusätzlich fünf Prozent <b>Nachlass</b>, und ich zahle höchstens 46,76 Euro selbst.“"
+  }
+}

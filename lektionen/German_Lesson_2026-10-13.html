@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 13. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 13. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">98,8 Milliarden Euro Defizit: Der Staat gibt mehr aus, als er einnimmt</h2>
+    <div class="card">
+      <p>Der Staat in Deutschland hat im ersten Halbjahr 2026 deutlich mehr Geld ausgegeben als eingenommen. Das teilte das Statistische Bundesamt am 2. Oktober mit. Das Defizit von Bund, Ländern, Gemeinden und Sozialversicherung beträgt 98,8 Milliarden Euro. Im ersten Halbjahr 2025 waren es 58,5 Milliarden Euro. Die Einnahmen stiegen um etwa 2 Prozent auf 1.011,8 Milliarden Euro, die Ausgaben dagegen um etwa 6 Prozent auf 1.110,6 Milliarden Euro. Die Zahlen sind noch vorläufig.</p>
+      <p>Den größten Anteil hat der Bund mit einem Defizit von 72,3 Milliarden Euro; ein Jahr zuvor waren es 30,0 Milliarden. Seine Einnahmen sanken um 5 Prozent, die Steuereinnahmen um 3,1 Prozent. Als Gründe nennen die Statistiker die niedrigere Stromsteuer für Industrie und Landwirtschaft seit Januar und die Senkung der Kraftstoffsteuer im Mai und Juni. Die Länder kommen auf ein Defizit von 6,3 Milliarden Euro, die Gemeinden auf 20,1 Milliarden Euro – so viel wie im Rekordhalbjahr 2025. Die Sozialversicherung ist mit minus 68 Millionen Euro fast ausgeglichen, auch weil der Bund ihr Darlehen von insgesamt 10,2 Milliarden Euro gegeben hat.</p>
+      <p>Auffällig ist der Anstieg der Zinsausgaben: Sie wuchsen bei Bund, Ländern und Gemeinden um 21,2 Prozent auf 31,2 Milliarden Euro. Die Sachinvestitionen, also Ausgaben für Bauten und Sachgüter, blieben mit 43,1 Milliarden Euro unverändert, bei den Gemeinden gingen sie sogar um 4,5 Prozent zurück. Für den Alltag kann das bedeuten: Höhere Zinskosten schränken den Spielraum für Schulen, Straßen und öffentlichen Verkehr ein. Welche Projekte eine Stadt tatsächlich umsetzt, hängt jedoch von ihrem eigenen Haushalt ab. Einen ausführlichen Bericht will das Amt Mitte Oktober veröffentlichen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Defizit</td><td>deficit</td><td>Der Staat gibt mehr Geld aus, als er einnimmt.</td><td>Das Defizit des Bundes hat sich mehr als verdoppelt.</td></tr>
+        <tr><td>die Einnahmen (Pl.)</td><td>income, revenue</td><td>Das Geld, das man bekommt, zum Beispiel durch Steuern.</td><td>Die Einnahmen des Staates stiegen um zwei Prozent.</td></tr>
+        <tr><td>die Ausgaben (Pl.) <span class="rep">(Wiederholung)</span></td><td>expenses, spending</td><td>Das Geld, das man für etwas ausgibt.</td><td>Die Ausgaben stiegen im ersten Halbjahr stärker als die Einnahmen.</td></tr>
+        <tr><td>die Zinsausgaben (Pl.)</td><td>interest payments</td><td>Das Geld, das man für Zinsen auf Schulden zahlt.</td><td>Die Zinsausgaben belasten den Haushalt immer stärker.</td></tr>
+        <tr><td>die Sozialversicherung</td><td>social insurance</td><td>Die Kassen für Rente, Gesundheit, Pflege und Arbeitslosigkeit.</td><td>Von meinem Gehalt gehen Beiträge an die Sozialversicherung.</td></tr>
+        <tr><td>die Investition</td><td>investment</td><td>Geld, das man für etwas Langfristiges ausgibt, z. B. für Straßen oder Schulen.</td><td>Die Stadt plant Investitionen in neue Schulen.</td></tr>
+        <tr><td>vorläufig</td><td>provisional, preliminary</td><td>Noch nicht endgültig; die Zahlen können sich noch ändern.</td><td>Das vorläufige Ergebnis wird später noch geprüft.</td></tr>
+        <tr><td>der Anstieg <span class="rep">(Wiederholung)</span></td><td>increase, rise</td><td>Eine Zahl wird größer.</td><td>Der Anstieg der Zinsausgaben fällt besonders stark aus.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Im Vergleich zum Vorjahreszeitraum …“</b> — So vergleicht man eine Zahl mit demselben Zeitraum im letzten Jahr.<br><i>Im Vergleich zum Vorjahreszeitraum ist das Defizit deutlich gewachsen.</i></li>
+        <li><b>„… mehr … als …“</b> — Zwei Mengen werden verglichen; nach dem Komparativ steht „als“.<br><i>Der Staat hat mehr Geld ausgegeben als eingenommen.</i></li>
+        <li><b>„Auffällig ist …“</b> — Damit lenkt man die Aufmerksamkeit auf einen wichtigen Punkt.<br><i>Auffällig ist der Anstieg der Zinsausgaben.</i></li>
+        <li><b>„Für den Alltag kann das bedeuten: …“</b> — Man beschreibt eine mögliche praktische Folge.<br><i>Für den Alltag kann das bedeuten: Für neue Schulen bleibt weniger Spielraum.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Vergleich mit „als“:</b> „Der Staat hat <i>mehr</i> Geld ausgegeben <i>als</i> eingenommen.“ Nach einem Komparativ (mehr, weniger, größer, höher) steht „als“. „wie“ benutzt man nur bei Gleichheit: „so hoch <i>wie</i> im Vorjahr“. Typischer Fehler: „mehr wie“ oder „höher wie“. Merke: Unterschied = als, Gleichheit = wie.</p></div>
+      <div class="grammar-block"><p><b>„dagegen“ steht auf Position 1 – das Verb bleibt an Position 2:</b> „Die Einnahmen stiegen um 2 Prozent. <i>Dagegen stiegen</i> die Ausgaben um 6 Prozent.“ „dagegen“ zeigt einen Gegensatz. Steht es am Satzanfang, folgt sofort das Verb, dann das Subjekt. Im Satz selbst kann es auch in der Mitte stehen: „Die Ausgaben stiegen <i>dagegen</i> um 6 Prozent.“ Typischer Fehler: „Dagegen die Ausgaben stiegen …“ – das Verb muss an Position 2 stehen.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie hoch ist das Defizit des Staates im ersten Halbjahr 2026?</li>
+          <li>Warum sanken die Steuereinnahmen des Bundes?</li>
+          <li>Was stimmt laut Text?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „mehr … als …“ über Einnahmen und Ausgaben (z. B. in deinem Haushalt).</li>
+          <li>Schreibe einen Satz mit „dagegen“ am Satzanfang, der zwei Zahlen vergleicht.</li>
+          <li>Schreibe einen Satz mit „vorläufig“ (z. B. über ein Ergebnis oder eine Zahl).</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Eine Kollegin fragt dich, warum in den Nachrichten vom Staatsdefizit die Rede ist. Antworte mündlich in fünf Sätzen: Höhe, Vergleich zum Vorjahr, Einnahmen und Ausgaben, Zinsen, was das für den Alltag heißt.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_351_711.html">Statistisches Bundesamt: Öffentliches Finanzierungsdefizit im 1. Halbjahr 2026 bei 98,8 Milliarden Euro (Pressemitteilung Nr. 351, 2. Oktober 2026)</a>. Vereinfacht für B1/B2; geprüft am 13. Oktober 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

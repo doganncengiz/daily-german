@@ -5764,13 +5764,17 @@
     "erk": "Das Geld, das man für etwas ausgibt.",
     "bsp": "Mit Bargeld hat man die eigenen Ausgaben besser im Blick.",
     "dates": [
-      "2026-07-16"
+      "2026-07-16",
+      "2026-10-13"
     ],
     "sq": "shpenzimet",
     "tr": "harcamalar, giderler",
     "uk": "витрати",
     "ar": "المصروفات، النفقات",
-    "fa": "هزینه‌ها، مخارج"
+    "fa": "هزینه‌ها، مخارج",
+    "es": "los gastos",
+    "fr": "les dépenses",
+    "it": "le spese"
   },
   {
     "de": "kontaktlos bezahlen",
@@ -6163,7 +6167,8 @@
     "bsp": "Das ist ein Anstieg von fast neun Prozent.",
     "dates": [
       "2026-07-21",
-      "2026-09-18"
+      "2026-09-18",
+      "2026-10-13"
     ],
     "sq": "rritja",
     "tr": "artış",
@@ -9608,5 +9613,107 @@
     "es": "el billete para empleados (con ayuda de la empresa)",
     "fr": "le billet employeur (abonnement subventionné)",
     "it": "il biglietto aziendale (agevolato dal datore di lavoro)"
+  },
+  {
+    "de": "das Defizit",
+    "en": "deficit",
+    "erk": "Der Staat gibt mehr Geld aus, als er einnimmt.",
+    "bsp": "Das Defizit des Bundes hat sich mehr als verdoppelt.",
+    "dates": [
+      "2026-10-13"
+    ],
+    "sq": "deficiti",
+    "tr": "açık, bütçe açığı",
+    "uk": "дефіцит",
+    "ar": "العجز",
+    "fa": "کسری",
+    "es": "el déficit",
+    "fr": "le déficit",
+    "it": "il disavanzo, il deficit"
+  },
+  {
+    "de": "die Einnahmen (Pl.)",
+    "en": "income, revenue",
+    "erk": "Das Geld, das man bekommt, zum Beispiel durch Steuern.",
+    "bsp": "Die Einnahmen des Staates stiegen um zwei Prozent.",
+    "dates": [
+      "2026-10-13"
+    ],
+    "sq": "të ardhurat",
+    "tr": "gelirler",
+    "uk": "надходження, доходи",
+    "ar": "الإيرادات",
+    "fa": "درآمدها",
+    "es": "los ingresos",
+    "fr": "les recettes",
+    "it": "le entrate"
+  },
+  {
+    "de": "die Zinsausgaben (Pl.)",
+    "en": "interest payments",
+    "erk": "Das Geld, das man für Zinsen auf Schulden zahlt.",
+    "bsp": "Die Zinsausgaben belasten den Haushalt immer stärker.",
+    "dates": [
+      "2026-10-13"
+    ],
+    "sq": "shpenzimet për interesa",
+    "tr": "faiz giderleri",
+    "uk": "витрати на відсотки",
+    "ar": "نفقات الفوائد",
+    "fa": "هزینه‌های بهره",
+    "es": "los gastos por intereses",
+    "fr": "les charges d'intérêts",
+    "it": "le spese per interessi"
+  },
+  {
+    "de": "die Sozialversicherung",
+    "en": "social insurance",
+    "erk": "Die Kassen für Rente, Gesundheit, Pflege und Arbeitslosigkeit.",
+    "bsp": "Von meinem Gehalt gehen Beiträge an die Sozialversicherung.",
+    "dates": [
+      "2026-10-13"
+    ],
+    "sq": "sigurimet shoqërore",
+    "tr": "sosyal sigorta",
+    "uk": "соціальне страхування",
+    "ar": "التأمين الاجتماعي",
+    "fa": "بیمه اجتماعی",
+    "es": "el seguro social",
+    "fr": "la sécurité sociale",
+    "it": "le assicurazioni sociali"
+  },
+  {
+    "de": "die Investition",
+    "en": "investment",
+    "erk": "Geld, das man für etwas Langfristiges ausgibt, z. B. für Straßen oder Schulen.",
+    "bsp": "Die Stadt plant Investitionen in neue Schulen.",
+    "dates": [
+      "2026-10-13"
+    ],
+    "sq": "investimi",
+    "tr": "yatırım",
+    "uk": "інвестиція",
+    "ar": "الاستثمار",
+    "fa": "سرمایه‌گذاری",
+    "es": "la inversión",
+    "fr": "l'investissement",
+    "it": "l'investimento"
+  },
+  {
+    "de": "vorläufig",
+    "en": "provisional, preliminary",
+    "erk": "Noch nicht endgültig; die Zahlen können sich noch ändern.",
+    "bsp": "Das vorläufige Ergebnis wird später noch geprüft.",
+    "dates": [
+      "2026-10-13"
+    ],
+    "sq": "i përkohshëm, paraprak",
+    "tr": "geçici, ön",
+    "uk": "попередній, тимчасовий",
+    "ar": "مؤقت، أولي",
+    "fa": "موقت، اولیه",
+    "es": "provisional",
+    "fr": "provisoire",
+    "it": "provvisorio"
   }
 ]

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch ist das Defizit des Staates im ersten Halbjahr 2026?",
+      "o": [
+        "58,5 Milliarden Euro.",
+        "98,8 Milliarden Euro.",
+        "72,3 Milliarden Euro."
+      ],
+      "c": 1,
+      "why": "Das gesamte Defizit beträgt <b>98,8 Milliarden Euro</b>. Die 58,5 Milliarden waren der Wert im ersten Halbjahr 2025, und die 72,3 Milliarden Euro sind nur das Defizit des Bundes."
+    },
+    {
+      "q": "Warum sanken die Steuereinnahmen des Bundes?",
+      "o": [
+        "Weil die Zinsausgaben so stark gestiegen sind.",
+        "Weil viele Gemeinden kein Geld mehr hatten.",
+        "Wegen der niedrigeren Stromsteuer und der gesenkten Kraftstoffsteuer."
+      ],
+      "c": 2,
+      "why": "Als Gründe nennt der Text die niedrigere <b>Stromsteuer</b> seit Januar und die Senkung der <b>Kraftstoffsteuer</b> im Mai und Juni. Zinsausgaben sind Ausgaben und keine Ursache für sinkende Steuereinnahmen, und die Lage der Gemeinden wird im Text nicht als Grund genannt."
+    },
+    {
+      "q": "Was stimmt laut Text?",
+      "o": [
+        "Die Zinsausgaben wuchsen um 21,2 Prozent.",
+        "Die Investitionen stiegen insgesamt um 4,5 Prozent.",
+        "Die Sozialversicherung hatte ein Defizit von 10,2 Milliarden Euro."
+      ],
+      "c": 0,
+      "why": "Die Zinsausgaben wuchsen um <b>21,2 Prozent</b> auf 31,2 Milliarden Euro. Die Investitionen blieben insgesamt <b>unverändert</b> (nur bei den Gemeinden minus 4,5 Prozent), und die Sozialversicherung war mit minus 68 Millionen Euro <b>fast ausgeglichen</b>; die 10,2 Milliarden Euro sind das Darlehen des Bundes."
+    }
+  ],
+  "schreib": [
+    "In meinem Haushalt geben wir <b>mehr</b> Geld für Miete aus <b>als</b> für Lebensmittel.<span class=\"hint\"> Nach dem Komparativ steht „als“ – nicht „mehr wie“.</span>",
+    "Die Einnahmen stiegen um zwei Prozent. <b>Dagegen stiegen</b> die Ausgaben um sechs Prozent.<span class=\"hint\"> Nach „dagegen“ am Satzanfang kommt sofort das Verb – nicht „Dagegen die Ausgaben stiegen“.</span>",
+    "Das <b>vorläufige</b> Ergebnis der Umfrage liegt bei 52 Prozent.<span class=\"hint\"> „vorläufig“ ist ein Adjektiv und bekommt eine Endung: das vorläufige Ergebnis, ein vorläufiges Ergebnis.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Das Defizit beträgt …",
+      "Im Vergleich zum Vorjahreszeitraum …",
+      "Die Einnahmen stiegen um …, die Ausgaben dagegen um …",
+      "Auffällig ist der Anstieg der Zinsausgaben.",
+      "Für den Alltag kann das bedeuten: …"
+    ],
+    "modell": "„Der Staat hat im ersten Halbjahr 2026 ein <b>Defizit</b> von 98,8 Milliarden Euro, im Vorjahr waren es 58,5 Milliarden. Die <b>Einnahmen</b> stiegen nur um etwa zwei Prozent, die <b>Ausgaben</b> dagegen um etwa sechs Prozent. Besonders auffällig ist der <b>Anstieg</b> der <b>Zinsausgaben</b> um mehr als 21 Prozent. Die <b>Investitionen</b> blieben dagegen unverändert, und die Zahlen sind noch <b>vorläufig</b>. Für den Alltag kann das bedeuten: Höhere Zinskosten schränken den Spielraum für Schulen und Straßen ein.“"
+  }
+}

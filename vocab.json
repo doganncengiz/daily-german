@@ -8311,7 +8311,8 @@
     "erk": "Die Zahl, die zeigt, um wie viel Prozent die Preise im Vergleich zum Vorjahr gestiegen sind.",
     "bsp": "Die Inflationsrate lag im September bei 3,3 Prozent.",
     "dates": [
-      "2026-10-03"
+      "2026-10-03",
+      "2026-10-14"
     ],
     "sq": "norma e inflacionit",
     "tr": "enflasyon oranı",
@@ -8328,7 +8329,8 @@
     "erk": "Eine staatliche Steuersenkung, damit Benzin und Diesel für eine Zeit billiger werden.",
     "bsp": "Seit dem 1. Oktober gilt in Deutschland der Tankrabatt.",
     "dates": [
-      "2026-10-03"
+      "2026-10-03",
+      "2026-10-14"
     ],
     "sq": "zbritja e taksës së karburantit",
     "tr": "akaryakıt vergi indirimi",
@@ -9715,5 +9717,90 @@
     "es": "provisional",
     "fr": "provisoire",
     "it": "provvisorio"
+  },
+  {
+    "de": "die Teuerung",
+    "en": "rise in prices",
+    "erk": "Dinge werden im Laufe der Zeit teurer.",
+    "bsp": "Die Teuerung trifft vor allem Menschen mit kleinem Einkommen.",
+    "dates": [
+      "2026-10-14"
+    ],
+    "sq": "rritja e çmimeve",
+    "tr": "fiyat artışı, pahalılık",
+    "uk": "подорожчання",
+    "ar": "غلاء الأسعار",
+    "fa": "گرانی",
+    "es": "el encarecimiento, la subida de precios",
+    "fr": "la hausse des prix",
+    "it": "il rincaro"
+  },
+  {
+    "de": "der Kraftstoff",
+    "en": "fuel",
+    "erk": "Benzin oder Diesel für Autos.",
+    "bsp": "Kraftstoff kostete im September deutlich mehr als vor einem Jahr.",
+    "dates": [
+      "2026-10-14"
+    ],
+    "sq": "karburanti",
+    "tr": "akaryakıt, yakıt",
+    "uk": "пальне",
+    "ar": "الوقود",
+    "fa": "سوخت",
+    "es": "el combustible",
+    "fr": "le carburant",
+    "it": "il carburante"
+  },
+  {
+    "de": "das Heizöl",
+    "en": "heating oil",
+    "erk": "Flüssiger Brennstoff, mit dem man Häuser warm macht.",
+    "bsp": "Vor dem Winter bestellen viele Familien Heizöl.",
+    "dates": [
+      "2026-10-14"
+    ],
+    "sq": "nafta për ngrohje",
+    "tr": "kalorifer yakıtı",
+    "uk": "мазут для опалення",
+    "ar": "زيت التدفئة",
+    "fa": "نفت گرمایشی",
+    "es": "el gasóleo de calefacción",
+    "fr": "le fioul domestique",
+    "it": "il gasolio da riscaldamento"
+  },
+  {
+    "de": "der Vormonat",
+    "en": "previous month",
+    "erk": "Der Monat vor dem aktuellen Monat.",
+    "bsp": "Gegenüber dem Vormonat stiegen die Preise um 0,6 Prozent.",
+    "dates": [
+      "2026-10-14"
+    ],
+    "sq": "muaji i kaluar",
+    "tr": "bir önceki ay",
+    "uk": "попередній місяць",
+    "ar": "الشهر السابق",
+    "fa": "ماه قبل",
+    "es": "el mes anterior",
+    "fr": "le mois précédent",
+    "it": "il mese precedente"
+  },
+  {
+    "de": "bestätigen",
+    "en": "to confirm",
+    "erk": "Man sagt: Etwas ist richtig oder gilt wirklich.",
+    "bsp": "Das Statistische Bundesamt bestätigte die erste Schätzung.",
+    "dates": [
+      "2026-10-14"
+    ],
+    "sq": "konfirmoj",
+    "tr": "doğrulamak, teyit etmek",
+    "uk": "підтверджувати",
+    "ar": "يؤكد",
+    "fa": "تأیید کردن",
+    "es": "confirmar",
+    "fr": "confirmer",
+    "it": "confermare"
   }
 ]

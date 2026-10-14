@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 14. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 14. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">3,3 Prozent: Die Inflation steigt – Sprit und Heizöl treiben die Preise</h2>
+    <div class="card">
+      <p>Die Inflationsrate in Deutschland lag im September 2026 bei 3,3 Prozent. Das bestätigte das Statistische Bundesamt am 13. Oktober. Im August waren es 2,9 Prozent. Gegenüber dem Vormonat stiegen die Verbraucherpreise um 0,6 Prozent. Wichtig ist der Unterschied: Die Inflationsrate vergleicht die Preise mit dem gleichen Monat des Vorjahres. Der Monatsvergleich zeigt dagegen, was sich seit August verändert hat.</p>
+      <p>Besonders teuer wurden Kraftstoffe und Heizöl. Benzin und Diesel kosteten im Durchschnitt 37,1 Prozent mehr als im September 2025. Leichtes Heizöl wurde sogar um 74,9 Prozent teurer. Energie insgesamt kostete 14,9 Prozent mehr. Gleichzeitig wurde Strom um 5,5 Prozent und Erdgas um 2,8 Prozent billiger. Ein Tankrabatt gilt seit dem 1. Oktober. Er konnte die Zahlen für September deshalb noch nicht beeinflussen.</p>
+      <p>Bei Lebensmitteln stiegen die Preise insgesamt nur um 0,4 Prozent. Trotzdem gab es große Unterschiede: Eier wurden um 15,2 Prozent und frisches Gemüse um 12 Prozent teurer. Butter kostete dagegen fast 30 Prozent weniger. Für den Alltag heißt das: Eine Durchschnittszahl beschreibt nicht jeden Einkauf. Wer viel Auto fährt oder mit Öl heizt, kann die Teuerung besonders deutlich merken. Wer die eigenen Ausgaben verstehen möchte, kann zum Beispiel die letzten beiden Einkaufszettel vergleichen. Wie viel habe ich bezahlt? Habe ich dieselben Produkte gekauft? Solche Fragen helfen auch im Gespräch mit Kollegen: Statt „Alles wird teurer“ lässt sich genauer sagen, welche Kosten im eigenen Haushalt gestiegen sind.</p>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Inflationsrate <span class="rep">(Wiederholung)</span></td><td>inflation rate</td><td>Die Zahl, die zeigt, um wie viel Prozent die Preise im Vergleich zum Vorjahr gestiegen sind.</td><td>Die Inflationsrate lag im September bei 3,3 Prozent.</td></tr>
+        <tr><td>die Teuerung</td><td>rise in prices</td><td>Dinge werden im Laufe der Zeit teurer.</td><td>Die Teuerung trifft vor allem Menschen mit kleinem Einkommen.</td></tr>
+        <tr><td>der Kraftstoff</td><td>fuel</td><td>Benzin oder Diesel für Autos.</td><td>Kraftstoff kostete im September deutlich mehr als vor einem Jahr.</td></tr>
+        <tr><td>das Heizöl</td><td>heating oil</td><td>Flüssiger Brennstoff, mit dem man Häuser warm macht.</td><td>Vor dem Winter bestellen viele Familien Heizöl.</td></tr>
+        <tr><td>der Vormonat</td><td>previous month</td><td>Der Monat vor dem aktuellen Monat.</td><td>Gegenüber dem Vormonat stiegen die Preise um 0,6 Prozent.</td></tr>
+        <tr><td>bestätigen</td><td>to confirm</td><td>Man sagt: Etwas ist richtig oder gilt wirklich.</td><td>Das Statistische Bundesamt bestätigte die erste Schätzung.</td></tr>
+        <tr><td>der Tankrabatt <span class="rep">(Wiederholung)</span></td><td>fuel tax cut (at the pump)</td><td>Eine staatliche Steuersenkung, damit Benzin und Diesel für eine Zeit billiger werden.</td><td>Seit dem 1. Oktober gilt in Deutschland der Tankrabatt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Gegenüber dem Vormonat …“</b> — So vergleicht man eine Zahl mit dem Monat davor.<br><i>Gegenüber dem Vormonat stiegen die Preise um 0,6 Prozent.</i></li>
+        <li><b>„… ist auf … gestiegen“</b> — Man nennt den neuen Wert; „um“ nennt dagegen die Veränderung.<br><i>Die Inflationsrate ist auf 3,3 Prozent gestiegen.</i></li>
+        <li><b>„Wer …, merkt …“</b> — Ein praktischer Satz für alle, die von etwas betroffen sind.<br><i>Wer mit Öl heizt, merkt die Teuerung sofort.</i></li>
+        <li><b>„Hintergrund ist …“</b> — Damit erklärt man, warum etwas passiert.<br><i>Hintergrund ist der Anstieg der Energiepreise.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„auf“ oder „um“ bei Zahlen:</b> „Die Inflation ist <i>auf</i> 3,3 Prozent gestiegen“ nennt den neuen Wert. „Die Preise stiegen <i>um</i> 0,6 Prozent“ nennt den Unterschied. Typischer Fehler: „Die Inflation ist um 3,3 Prozent gestiegen“, obwohl 3,3 der neue Stand ist. Merke: auf = Ergebnis, um = Veränderung.</p></div>
+      <div class="grammar-block"><p><b>Der Komparativ mit „mehr“ und „weniger“ + „als“:</b> „Kraftstoffe kosteten <i>mehr als</i> vor einem Jahr“, „Strom kostete <i>weniger als</i> im Vorjahr.“ Mit Zahlen sagt man auch: „Strom kostete 5,5 Prozent <i>weniger</i>.“ Auch „weniger teuer“ ist richtig; „billiger“ ist kürzer. Nach einem Komparativ steht „als“, nicht „wie“: „Strom ist billiger als im Vorjahr.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie hoch war die Inflationsrate im September 2026?</li>
+          <li>Welche Produkte wurden laut Text besonders stark teurer?</li>
+          <li>Was stimmt laut Text?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „ist auf … gestiegen“ (z. B. über Preise, Mieten oder deine Arbeitszeit).</li>
+          <li>Schreibe einen Satz mit „gegenüber dem Vormonat“ über eine Zahl aus deinem Alltag.</li>
+          <li>Schreibe einen Satz mit „Wer …, merkt …“ über die Teuerung.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Ein Kollege fragt dich, warum alles teurer geworden ist. Antworte mündlich in fünf Sätzen: Höhe der Inflationsrate, Vergleich zum Vormonat, Hauptgrund, was billiger wurde, was das für den Alltag heißt.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quelle: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html">Statistisches Bundesamt: Inflationsrate im September 2026 bei +3,3 % (13. Oktober 2026)</a>. Vereinfacht für B1/B2; Alltagshinweise als Lernbeispiele ergänzt. Geprüft am 14. Oktober 2026.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

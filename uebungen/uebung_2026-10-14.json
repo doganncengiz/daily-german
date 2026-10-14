@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch war die Inflationsrate im September 2026?",
+      "o": [
+        "2,9 Prozent.",
+        "3,7 Prozent.",
+        "3,3 Prozent."
+      ],
+      "c": 2,
+      "why": "Im September 2026 lag die Inflationsrate bei <b>3,3 Prozent</b>. Die 2,9 Prozent sind der Wert vom August."
+    },
+    {
+      "q": "Welche Produkte wurden laut Text besonders stark teurer?",
+      "o": [
+        "Die gestiegenen Strompreise.",
+        "Die höheren Preise für Kraftstoffe und Heizöl.",
+        "Die stark gestiegenen Nahrungsmittelpreise."
+      ],
+      "c": 1,
+      "why": "Besonders stark stiegen die Preise für <b>Kraftstoffe</b> (+37,1 Prozent) und <b>Heizöl</b> (fast +75 Prozent). Strom wurde dagegen <b>billiger</b> (−5,5 Prozent), und Nahrungsmittel stiegen insgesamt nur um 0,4 Prozent."
+    },
+    {
+      "q": "Was stimmt laut Text?",
+      "o": [
+        "Butter kostete fast 30 Prozent weniger als vor einem Jahr.",
+        "Erdgas wurde um 2,8 Prozent teurer.",
+        "Eier wurden um 12 Prozent teurer."
+      ],
+      "c": 0,
+      "why": "Butter kostete <b>fast 30 Prozent weniger</b>. Erdgas wurde um 2,8 Prozent <b>billiger</b>, und die 12 Prozent gehören zu frischem Gemüse; Eier wurden um 15,2 Prozent teurer."
+    }
+  ],
+  "schreib": [
+    "Die Mieten in meiner Stadt sind <b>auf</b> 14 Euro pro Quadratmeter <b>gestiegen</b>.<span class=\"hint\"> „auf“ nennt den neuen Wert; für den Unterschied nimmt man „um“: „um zwei Euro gestiegen“.</span>",
+    "<b>Gegenüber dem Vormonat</b> habe ich 50 Euro mehr für Lebensmittel ausgegeben.<span class=\"hint\"> „gegenüber“ steht mit Dativ: gegenüber dem Vormonat, gegenüber dem Vorjahr.</span>",
+    "<b>Wer</b> jeden Tag mit dem Auto zur Arbeit fährt, <b>merkt</b> die hohen Spritpreise sofort.<span class=\"hint\"> Nach „Wer …,“ steht das Verb am Ende des Nebensatzes; danach beginnt der Hauptsatz mit dem Verb: „merkt“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Die Inflationsrate ist auf … Prozent gestiegen.",
+      "Gegenüber dem Vormonat …",
+      "Hintergrund ist …",
+      "Strom wurde dagegen billiger.",
+      "Wer …, merkt …"
+    ],
+    "modell": "„Die <b>Inflationsrate</b> lag im September bei 3,3 Prozent, im August waren es 2,9 Prozent. <b>Gegenüber dem Vormonat</b> stiegen die Preise um 0,6 Prozent. Besonders deutlich wurden <b>Kraftstoff</b> und <b>Heizöl</b> teurer. Strom und Erdgas wurden dagegen billiger. Wer viel Auto fährt, kann die <b>Teuerung</b> deutlich merken; der <b>Tankrabatt</b> gilt erst seit Oktober.“"
+  }
+}

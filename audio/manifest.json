@@ -408,6 +408,10 @@
     "2026-10-13-0.mp3": {
       "fingerprint": "4cf794cc46f650d56c2bd5c254ff9ffea6ac7ec8da4f2239907275e839da69fd",
       "voice": "thorsten-high"
+    },
+    "2026-10-14-0.mp3": {
+      "fingerprint": "0af54f69c92a719d39d30daa042789d8e19d7fbac3d9bb08088b93df7a2b84e9",
+      "voice": "thorsten-high"
     }
   }
 }

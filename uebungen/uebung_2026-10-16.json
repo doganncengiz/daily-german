@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch ist die vorgesehene Förderung und für welches Alter gilt sie?",
+      "o": [
+        "Zehn Euro einmalig für Neugeborene.",
+        "Zehn Euro monatlich für Kinder und Jugendliche von sechs bis 18 Jahren.",
+        "Zehn Euro monatlich erst ab dem 18. Geburtstag."
+      ],
+      "c": 1,
+      "why": "Vorgesehen sind <b>zehn Euro pro Monat</b> für Kinder und Jugendliche <b>von sechs bis 18 Jahren</b>. Die Förderung beginnt mit dem Jahrgang 2020."
+    },
+    {
+      "q": "Was ist vorgesehen, wenn Eltern keinen Vertrag abschließen?",
+      "o": [
+        "Das Geld verfällt sofort.",
+        "Es gibt keine Förderung.",
+        "Das Geld wird gemeinsam am Kapitalmarkt angelegt."
+      ],
+      "c": 2,
+      "why": "Die Förderung soll auch ohne eigenen Vertrag nicht verloren gehen. Das Geld wird dann <b>gemeinsam am Kapitalmarkt angelegt</b>."
+    },
+    {
+      "q": "Was zeigt die Umfrage von YouGov für den GDV?",
+      "o": [
+        "74 Prozent der Eltern bewerten die Frühstartrente positiv.",
+        "74 Prozent der Eltern kennen die Frühstartrente gut.",
+        "74 Prozent der Eltern finden die 10 Euro zu wenig."
+      ],
+      "c": 0,
+      "why": "<b>74 Prozent</b> bewerten das Programm positiv. Gut kennen es nur <b>38 Prozent</b>, und die 10 Euro finden <b>32 Prozent</b> zu wenig."
+    }
+  ],
+  "schreib": [
+    "Das Praktikum läuft <b>ab</b> dem 1. März <b>bis</b> Ende Mai.<span class=\"hint\"> „ab“ und „bis“ stehen ohne Artikel vor Datum oder Monat: „ab Montag“, „bis Freitag“. Mit Artikel: „ab dem 1. März“, „bis zum 31. Mai“ – nicht „bis dem“.</span>",
+    "Das Formular <b>lässt sich</b> online <b>ausfüllen</b>.<span class=\"hint\"> Nach „lässt sich“ steht der Infinitiv ohne „zu“ am Satzende. Nicht: „lässt sich online zu ausfüllen“.</span>",
+    "<b>Wer</b> viel im Homeoffice arbeitet, <b>sollte</b> regelmäßig Pausen machen.<span class=\"hint\"> Im Wer-Satz steht das Verb am Ende, danach folgt „sollte“. Auch „Wer viel arbeitet, der sollte Pausen machen“ ist richtig.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Der Bundestag hat … beschlossen.",
+      "Vorgesehen sind … Euro pro Monat.",
+      "Die Förderung beginnt mit dem Jahrgang …",
+      "Laut einer Umfrage …",
+      "Ich könnte mir vorstellen, dass …"
+    ],
+    "modell": "„Der Bundestag hat heute die <b>Frühstartrente</b> beschlossen. Vorgesehen sind zehn Euro monatlich für Kinder und Jugendliche von sechs bis 18 Jahren, beginnend mit dem <b>Jahrgang</b> 2020. Eltern sollen ein <b>Altersvorsorgedepot</b> eröffnen und zusätzlich eigenes Geld <b>einzahlen</b> können. Laut einer <b>Umfrage</b> finden 74 Prozent der befragten Eltern das Programm gut. Ich finde es wichtig, dass Familien verständliche Informationen bekommen.“"
+  }
+}

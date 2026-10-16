@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 16. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 16. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">10 Euro im Monat: Der Bundestag beschließt die Frühstartrente</h2>
+    <div class="card">
+      <p>Heute, am 16. Oktober 2026, hat der Bundestag die Frühstartrente beschlossen. Damit soll das Sparen für das Alter schon in der Kindheit beginnen. Vorgesehen sind zehn Euro vom Staat pro Monat für Kinder und Jugendliche von sechs bis 18 Jahren. Die Förderung beginnt mit dem Jahrgang 2020. Ab 2027 soll jedes Jahr ein weiterer Geburtsjahrgang hinzukommen. Die Finanzierung übernimmt der Bund. Für ältere Kinder ist diese staatliche Förderung nicht vorgesehen.</p>
+      <p>Eltern sollen für ihr Kind einen Vertrag über ein Altersvorsorgedepot abschließen können. Ein solches Depot dient dazu, Geld langfristig anzulegen. Eltern und Verwandte können zusätzlich eigenes Geld einzahlen. Auch ohne Vertrag der Eltern soll die Förderung nicht verloren gehen: Dann wird das Geld gemeinsam am Kapitalmarkt angelegt. Die staatlich geförderten Beträge sind grundsätzlich für das Rentenalter bestimmt und nicht für alltägliche Einkäufe.</p>
+      <p>Eine YouGov-Umfrage im Auftrag des Versicherungsverbands GDV zeigt Zustimmung, aber auch Informationsbedarf. Befragt wurden 1.005 Eltern. 74 Prozent bewerten die Frühstartrente positiv. Nur 38 Prozent wussten vorher ungefähr, worum es geht; 30 Prozent hatten noch nichts davon gehört. 32 Prozent finden zehn Euro zu wenig. 76 Prozent könnten sich vorstellen, selbst Geld einzuzahlen.</p>
+      <p>Für ein Gespräch über die Nachricht helfen genaue Fragen: Welche Kinder werden gefördert? Ab wann gilt eine Regel? Gilt sie vielleicht rückwirkend, also auch für eine vergangene Zeit? Wer Informationen sucht, sollte zwischen einer beschlossenen Regel und einer persönlichen Meinung unterscheiden. Auch eine einfache Rechnung lässt sich prüfen: Zehn Euro pro Monat ergeben in zwölf Jahren 1.440 Euro. Mögliche Gewinne, Verluste und Kosten sind dabei nicht berücksichtigt.</p>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Frühstartrente</td><td>early-start pension</td><td>Der Staat zahlt für Kinder schon früh Geld in eine Altersvorsorge ein.</td><td>Der Bundestag hat die Frühstartrente beschlossen.</td></tr>
+        <tr><td>das Altersvorsorgedepot</td><td>retirement savings account</td><td>Ein Depot, in dem man Geld für das Alter anlegt.</td><td>Der Staat zahlt zehn Euro im Monat in ein Altersvorsorgedepot ein.</td></tr>
+        <tr><td>einzahlen</td><td>to pay in</td><td>Man gibt Geld auf ein Konto oder in ein Depot.</td><td>Eltern können zusätzlich eigenes Geld einzahlen.</td></tr>
+        <tr><td>anlegen</td><td>to invest</td><td>Man legt Geld so an, dass es mehr werden kann.</td><td>Tun Eltern nichts, legt der Bund das Geld gemeinsam an.</td></tr>
+        <tr><td>der Jahrgang</td><td>birth cohort, year group</td><td>Alle Menschen, die im selben Jahr geboren sind.</td><td>Die Förderung beginnt mit dem Jahrgang 2020.</td></tr>
+        <tr><td>rückwirkend</td><td>retroactively</td><td>Eine Regel gilt auch für eine Zeit in der Vergangenheit.</td><td>Die neue Regel gilt rückwirkend ab Januar.</td></tr>
+        <tr><td>die Umfrage <span class="rep">(Wiederholung)</span></td><td>survey</td><td>Man fragt viele Menschen nach ihrer Meinung.</td><td>Laut einer Umfrage bewerten 74 Prozent das Programm positiv.</td></tr>
+        <tr><td>die Finanzierung <span class="rep">(Wiederholung)</span></td><td>financing</td><td>Das Geld, mit dem man ein Projekt bezahlt.</td><td>Die Finanzierung übernimmt der Bund.</td></tr>
+        <tr><td>die Investition</td><td>investment</td><td>Man gibt jetzt Geld aus, damit man später einen Nutzen hat.</td><td>Zehn Euro im Monat sind eine kleine Investition in die Zukunft.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Das Gesetz tritt am … in Kraft.“</b> — So sagt man, ab wann eine neue Regel gilt.<br><i>Eine neue Regel tritt erst zu einem bestimmten Termin in Kraft.</i></li>
+        <li><b>„Ab … bis …“</b> — Damit nennt man Anfang und Ende eines Zeitraums.<br><i>Die Förderung ist für Kinder und Jugendliche von sechs bis 18 Jahren vorgesehen.</i></li>
+        <li><b>„Laut einer Umfrage …“</b> — Damit sagt man, woher eine Zahl kommt.<br><i>Laut einer Umfrage bewerten 74 Prozent das Programm positiv.</i></li>
+        <li><b>„sich etwas vorstellen können“</b> — Man hält etwas für möglich oder kann es sich gut denken.<br><i>76 Prozent könnten sich vorstellen, selbst Geld einzuzahlen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„sich lassen“ + Infinitiv:</b> „Eine Rechnung lässt sich prüfen“ bedeutet: Man kann sie prüfen. Der Infinitiv steht ohne „zu“ am Ende. Beispiel: „Das Formular lässt sich online ausfüllen.“ Nicht: „Das Formular lässt sich online zu ausfüllen.“</p></div>
+      <div class="grammar-block"><p><b>„Wer …, sollte …“:</b> „Wer Informationen sucht, sollte die Quelle prüfen.“ „Wer“ bedeutet hier „jeder, der“. Im Wer-Satz steht das Verb am Ende; danach folgt das Verb des Hauptsatzes. Auch „Wer Informationen sucht, der sollte die Quelle prüfen“ ist richtig: Das zusätzliche „der“ betont den Bezug.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie hoch ist die vorgesehene Förderung und für welches Alter gilt sie?</li>
+          <li>Was ist vorgesehen, wenn Eltern keinen Vertrag abschließen?</li>
+          <li>Was zeigt die Umfrage von YouGov für den GDV?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „ab … bis …“ über einen Zeitraum, der für deinen Beruf oder dein Studium wichtig ist.</li>
+          <li>Schreibe einen Satz mit „lässt sich“, zum Beispiel über eine App oder ein Formular.</li>
+          <li>Schreibe einen Satz mit „Wer …, sollte …“ als Tipp für Kolleginnen und Kollegen.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Eine Freundin fragt dich: „Mein Sohn ist 2021 geboren. Was ist diese Frühstartrente eigentlich?“ Antworte mündlich in fünf Sätzen: wie hoch die vorgesehene Förderung ist, welche Kinder sie erhalten sollen, was Eltern tun können, was die Umfrage zeigt, was du davon hältst.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: <a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624">Deutscher Bundestag: Bundestag beschließt die Frühstartrente (16. Oktober 2026)</a>; <a href="https://www.t-online.de/finanzen/ratgeber/altersvorsorge/altersvorsorgedepot/id_101481328/altersvorsorge-fruehstartrente-was-eltern-ueber-das-gesetz-wissen-sollten.html">t-online: YouGov-Umfrage zur Frühstartrente (16. Oktober 2026)</a>. Vereinfacht für B1/B2; geprüft am 16. Oktober 2026. Die Lernfragen und die Rechnung (10 Euro × 12 Monate × 12 Jahre) wurden ergänzt. Der Bundestagsbeschluss bedeutet nicht, dass bereits Geld ausgezahlt wird.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

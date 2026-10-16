@@ -5075,7 +5075,8 @@
     "dates": [
       "2026-07-09",
       "2026-07-11",
-      "2026-09-29"
+      "2026-09-29",
+      "2026-10-16"
     ],
     "sq": "anketa",
     "tr": "anket",
@@ -6259,13 +6260,17 @@
     "erk": "Die Anweisung, einen Ort sofort zu verlassen.",
     "bsp": "Wer gegen das Verbot verstößt, bekommt einen Platzverweis.",
     "dates": [
-      "2026-07-22"
+      "2026-07-22",
+      "2026-10-15"
     ],
     "sq": "urdhri për t'u larguar nga vendi",
     "tr": "mekândan çıkarma emri",
     "uk": "вимога негайно залишити місце",
     "ar": "أمر بمغادرة المكان",
-    "fa": "دستور ترک محل"
+    "fa": "دستور ترک محل",
+    "es": "la orden de abandonar el lugar",
+    "fr": "l'ordre de quitter les lieux",
+    "it": "l'ordine di allontanamento"
   },
   {
     "de": "der Verstoß",
@@ -6291,13 +6296,17 @@
     "erk": "Ein Verbot, einen bestimmten Ort noch einmal zu betreten.",
     "bsp": "Im schlimmsten Fall spricht die Bahn ein Hausverbot aus.",
     "dates": [
-      "2026-07-22"
+      "2026-07-22",
+      "2026-10-15"
     ],
     "sq": "ndalimi i hyrjes në një ambient",
     "tr": "mekâna giriş yasağı",
     "uk": "заборона входу до приміщення",
     "ar": "حظر دخول المكان",
-    "fa": "ممنوعیت ورود به محل"
+    "fa": "ممنوعیت ورود به محل",
+    "es": "la prohibición de entrada",
+    "fr": "l'interdiction d'accès",
+    "it": "il divieto di accesso"
   },
   {
     "de": "die Maßnahme",
@@ -9588,7 +9597,8 @@
     "erk": "Das Geld, das für ein Projekt oder ein Angebot bereitgestellt wird.",
     "bsp": "Die Finanzierung des Projekts ist für drei Jahre gesichert.",
     "dates": [
-      "2026-10-12"
+      "2026-10-12",
+      "2026-10-16"
     ],
     "sq": "financimi",
     "tr": "finansman",
@@ -9690,7 +9700,8 @@
     "erk": "Geld, das man für etwas Langfristiges ausgibt, z. B. für Straßen oder Schulen.",
     "bsp": "Die Stadt plant Investitionen in neue Schulen.",
     "dates": [
-      "2026-10-13"
+      "2026-10-13",
+      "2026-10-16"
     ],
     "sq": "investimi",
     "tr": "yatırım",
@@ -9802,5 +9813,226 @@
     "es": "confirmar",
     "fr": "confirmer",
     "it": "confermare"
+  },
+  {
+    "de": "das Alkoholverbot",
+    "en": "ban on alcohol",
+    "erk": "Eine Regel: Man darf an einem Ort keinen Alkohol trinken.",
+    "bsp": "Seit dem 15. Oktober gilt an Bahnhöfen ein Alkoholverbot.",
+    "dates": [
+      "2026-10-15"
+    ],
+    "sq": "ndalimi i alkoolit",
+    "tr": "alkol yasağı",
+    "uk": "заборона алкоголю",
+    "ar": "حظر الكحول",
+    "fa": "ممنوعیت الکل",
+    "es": "la prohibición de alcohol",
+    "fr": "l'interdiction de l'alcool",
+    "it": "il divieto di alcol"
+  },
+  {
+    "de": "das Hausrecht",
+    "en": "right of the owner to set rules on their premises",
+    "erk": "Wem ein Ort gehört, der darf dort Regeln machen und Personen wegschicken.",
+    "bsp": "Die Bahn setzt das Verbot mit ihrem Hausrecht durch.",
+    "dates": [
+      "2026-10-15"
+    ],
+    "sq": "e drejta e pronarit të ambientit",
+    "tr": "mülk sahibinin kendi alanında kural koyma hakkı",
+    "uk": "право власника встановлювати правила на своїй території",
+    "ar": "حق مالك المكان في وضع القواعد",
+    "fa": "حق صاحب مکان برای تعیین قوانین",
+    "es": "el derecho del propietario sobre el recinto",
+    "fr": "le droit du propriétaire des lieux",
+    "it": "il diritto del proprietario del locale"
+  },
+  {
+    "de": "durchsetzen",
+    "en": "to enforce",
+    "erk": "Man sorgt dafür, dass eine Regel wirklich gilt.",
+    "bsp": "Die Bahn will das Verbot konsequent durchsetzen.",
+    "dates": [
+      "2026-10-15"
+    ],
+    "sq": "zbatoj (një rregull)",
+    "tr": "uygulatmak, yürürlüğe koymak",
+    "uk": "забезпечувати виконання",
+    "ar": "يفرض تطبيق (قاعدة)",
+    "fa": "اجرا کردن، اعمال کردن",
+    "es": "hacer cumplir",
+    "fr": "faire respecter",
+    "it": "far rispettare"
+  },
+  {
+    "de": "bundesweit",
+    "en": "nationwide",
+    "erk": "In ganz Deutschland, nicht nur in einer Stadt oder einem Bundesland.",
+    "bsp": "Das Verbot gilt bundesweit.",
+    "dates": [
+      "2026-10-15"
+    ],
+    "sq": "në të gjithë vendin",
+    "tr": "ülke genelinde",
+    "uk": "по всій країні",
+    "ar": "على مستوى البلاد",
+    "fa": "در سراسر کشور",
+    "es": "en todo el país",
+    "fr": "dans toute l'Allemagne",
+    "it": "in tutta la Germania"
+  },
+  {
+    "de": "die Ausnahme",
+    "en": "exception",
+    "erk": "Ein Fall, für den die normale Regel nicht gilt.",
+    "bsp": "Restaurants im Bahnhof sind eine Ausnahme.",
+    "dates": [
+      "2026-10-15"
+    ],
+    "sq": "përjashtimi",
+    "tr": "istisna",
+    "uk": "виняток",
+    "ar": "استثناء",
+    "fa": "استثنا",
+    "es": "la excepción",
+    "fr": "l'exception",
+    "it": "l'eccezione"
+  },
+  {
+    "de": "die Streife",
+    "en": "patrol",
+    "erk": "Mitarbeitende oder Polizisten gehen regelmäßig durch einen Ort und kontrollieren.",
+    "bsp": "Bei der Streife informieren die Mitarbeitenden zuerst.",
+    "dates": [
+      "2026-10-15"
+    ],
+    "sq": "patrulla",
+    "tr": "devriye",
+    "uk": "патруль",
+    "ar": "دورية",
+    "fa": "گشت",
+    "es": "la patrulla",
+    "fr": "la patrouille",
+    "it": "la pattuglia"
+  },
+  {
+    "de": "verschlossen",
+    "en": "closed, sealed",
+    "erk": "Nicht offen, zum Beispiel eine Flasche mit Deckel.",
+    "bsp": "Verschlossene Flaschen dürfen im Gepäck bleiben.",
+    "dates": [
+      "2026-10-15"
+    ],
+    "sq": "i mbyllur",
+    "tr": "kapalı, mühürlü",
+    "uk": "закритий",
+    "ar": "مغلق",
+    "fa": "بسته",
+    "es": "cerrado",
+    "fr": "fermé",
+    "it": "chiuso"
+  },
+  {
+    "de": "die Frühstartrente",
+    "en": "early-start pension",
+    "erk": "Der Staat zahlt für Kinder schon früh Geld in eine Altersvorsorge ein.",
+    "bsp": "Der Bundestag hat die Frühstartrente beschlossen.",
+    "dates": [
+      "2026-10-16"
+    ],
+    "sq": "kursimi për pension që fillon në fëmijëri",
+    "tr": "erken başlayan emeklilik birikimi",
+    "uk": "пенсія з раннього старту",
+    "ar": "ادخار للتقاعد يبدأ في الطفولة",
+    "fa": "پس‌انداز بازنشستگی از دوران کودکی",
+    "es": "pensión de inicio temprano",
+    "fr": "retraite par capitalisation dès l'enfance",
+    "it": "pensione di avvio precoce"
+  },
+  {
+    "de": "das Altersvorsorgedepot",
+    "en": "retirement savings account",
+    "erk": "Ein Depot, in dem man Geld für das Alter anlegt.",
+    "bsp": "Der Staat zahlt zehn Euro im Monat in ein Altersvorsorgedepot ein.",
+    "dates": [
+      "2026-10-16"
+    ],
+    "sq": "llogari kursimi për pension",
+    "tr": "emeklilik tasarruf hesabı",
+    "uk": "рахунок для пенсійних накопичень",
+    "ar": "حساب ادخار للتقاعد",
+    "fa": "حساب پس‌انداز بازنشستگی",
+    "es": "cuenta de ahorro para la jubilación",
+    "fr": "compte d'épargne retraite",
+    "it": "conto di risparmio previdenziale"
+  },
+  {
+    "de": "einzahlen",
+    "en": "to pay in",
+    "erk": "Man gibt Geld auf ein Konto oder in ein Depot.",
+    "bsp": "Eltern können zusätzlich eigenes Geld einzahlen.",
+    "dates": [
+      "2026-10-16"
+    ],
+    "sq": "depozitoj",
+    "tr": "yatırmak",
+    "uk": "вносити гроші",
+    "ar": "يودع",
+    "fa": "واریز کردن",
+    "es": "ingresar",
+    "fr": "verser",
+    "it": "versare"
+  },
+  {
+    "de": "anlegen",
+    "en": "to invest",
+    "erk": "Man legt Geld so an, dass es mehr werden kann.",
+    "bsp": "Tun Eltern nichts, legt der Bund das Geld gemeinsam an.",
+    "dates": [
+      "2026-10-16"
+    ],
+    "sq": "investoj",
+    "tr": "yatırım yapmak",
+    "uk": "інвестувати",
+    "ar": "يستثمر",
+    "fa": "سرمایه‌گذاری کردن",
+    "es": "invertir",
+    "fr": "placer, investir",
+    "it": "investire"
+  },
+  {
+    "de": "der Jahrgang",
+    "en": "birth cohort, year group",
+    "erk": "Alle Menschen, die im selben Jahr geboren sind.",
+    "bsp": "Die Förderung beginnt mit dem Jahrgang 2020.",
+    "dates": [
+      "2026-10-16"
+    ],
+    "sq": "gjenerata e lindjes",
+    "tr": "doğum yılı grubu",
+    "uk": "рік народження (група)",
+    "ar": "فئة المواليد",
+    "fa": "گروه سنی متولدین یک سال",
+    "es": "cohorte (año de nacimiento)",
+    "fr": "génération (année de naissance)",
+    "it": "annata"
+  },
+  {
+    "de": "rückwirkend",
+    "en": "retroactively",
+    "erk": "Eine Regel gilt auch für eine Zeit in der Vergangenheit.",
+    "bsp": "Die neue Regel gilt rückwirkend ab Januar.",
+    "dates": [
+      "2026-10-16"
+    ],
+    "sq": "me efekt prapaveprues",
+    "tr": "geriye dönük",
+    "uk": "зі зворотною силою",
+    "ar": "بأثر رجعي",
+    "fa": "عطف به ماسبق",
+    "es": "con efecto retroactivo",
+    "fr": "rétroactivement",
+    "it": "con effetto retroattivo"
   }
 ]

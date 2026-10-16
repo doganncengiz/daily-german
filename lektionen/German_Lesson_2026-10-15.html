@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 15. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 15. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">5.700 Bahnhöfe: Ab heute gilt ein Alkoholverbot</h2>
+    <div class="card">
+      <p>Seit heute, dem 15. Oktober 2026, gilt an rund 5.700 Bahnhöfen der Deutschen Bahn ein bundesweites Alkoholverbot. Es betrifft Bahnsteige, Zugänge und andere öffentlich zugängliche Bereiche. Wer dort Bier, Wein oder Schnaps trinkt, verstößt gegen die Hausordnung. Erlaubt bleibt dagegen, verschlossene Flaschen in der Tasche oder im Koffer mitzunehmen. Auch Restaurants und Bars im Bahnhof dürfen weiter Alkohol ausschenken. Nimmt ein Gast sein Getränk aber mit auf den Bahnsteig, gilt das Verbot wieder.</p>
+      <p>Die Bahn setzt die Regel mit ihrem Hausrecht durch. Bei ihren Streifen sprechen Sicherheitskräfte Personen an, die gegen das Verbot verstoßen. Wer gegen das Verbot verstößt, kann einen Platzverweis bekommen. Bei wiederholten Verstößen droht ein Hausverbot. Von Geldbußen ist in den Berichten nicht die Rede. Konzernchefin Evelyn Palla sagt: „Alkoholfrei heißt: weniger Gewalt und weniger Müll.“ Die Bahn will vor allem die Sicherheit für Fahrgäste und Personal verbessern. Zahlen zu Vorfällen nannten die Berichte allerdings nicht.</p>
+      <p>In den Zügen ändert sich nichts. Im Fernverkehr gibt es kein generelles Verbot, die Bordbistros verkaufen weiter Alkohol. Im Regionalverkehr können je nach Anbieter unterschiedliche Regeln gelten; einige haben Alkohol schon verboten. Brandenburgs Infrastrukturminister Robert Crumbach fordert, das Verbot auf alle Züge im öffentlichen Nahverkehr auszuweiten. Für Pendler heißt das: Das Feierabendbier am Gleis ist vorbei, die geschlossene Flasche in der Tasche bleibt erlaubt. Ob die Regel im Alltag wirkt, werden die ersten Wochen zeigen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Alkoholverbot</td><td>ban on alcohol</td><td>Eine Regel: Man darf an einem Ort keinen Alkohol trinken.</td><td>Seit dem 15. Oktober gilt an Bahnhöfen ein Alkoholverbot.</td></tr>
+        <tr><td>das Hausrecht</td><td>right of the owner to set rules on their premises</td><td>Wem ein Ort gehört, der darf dort Regeln machen und Personen wegschicken.</td><td>Die Bahn setzt das Verbot mit ihrem Hausrecht durch.</td></tr>
+        <tr><td>der Platzverweis <span class="rep">(Wiederholung)</span></td><td>order to leave the premises</td><td>Die Anweisung, einen Ort sofort zu verlassen.</td><td>Wer gegen das Verbot verstößt, kann einen Platzverweis bekommen.</td></tr>
+        <tr><td>durchsetzen</td><td>to enforce</td><td>Man sorgt dafür, dass eine Regel wirklich gilt.</td><td>Die Bahn will das Verbot konsequent durchsetzen.</td></tr>
+        <tr><td>bundesweit</td><td>nationwide</td><td>In ganz Deutschland, nicht nur in einer Stadt oder einem Bundesland.</td><td>Das Verbot gilt bundesweit.</td></tr>
+        <tr><td>die Ausnahme</td><td>exception</td><td>Ein Fall, für den die normale Regel nicht gilt.</td><td>Restaurants im Bahnhof sind eine Ausnahme.</td></tr>
+        <tr><td>die Streife</td><td>patrol</td><td>Mitarbeitende oder Polizisten gehen regelmäßig durch einen Ort und kontrollieren.</td><td>Bei der Streife informieren die Mitarbeitenden zuerst.</td></tr>
+        <tr><td>verschlossen</td><td>closed, sealed</td><td>Nicht offen, zum Beispiel eine Flasche mit Deckel.</td><td>Verschlossene Flaschen dürfen im Gepäck bleiben.</td></tr>
+        <tr><td>das Hausverbot <span class="rep">(Wiederholung)</span></td><td>ban from the premises</td><td>Ein Verbot, einen bestimmten Ort noch einmal zu betreten.</td><td>Bei wiederholten Verstößen droht ein Hausverbot.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Seit … gilt …“</b> — So nennt man den Beginn einer Regel.<br><i>Seit dem 15. Oktober gilt ein Alkoholverbot an Bahnhöfen.</i></li>
+        <li><b>„Erlaubt bleibt …, verboten ist …“</b> — Damit trennt man klar, was geht und was nicht.<br><i>Erlaubt bleibt die geschlossene Flasche, verboten ist das Trinken am Gleis.</i></li>
+        <li><b>„Bei Verstößen droht …“</b> — Damit nennt man die Folgen, wenn jemand die Regel bricht.<br><i>Bei wiederholten Verstößen droht ein Hausverbot.</i></li>
+        <li><b>„Für … heißt das: …“</b> — Damit erklärt man, was eine Nachricht praktisch bedeutet.<br><i>Für Pendler heißt das: Das Bier am Gleis ist vorbei.</i></li>
+        <li><b>„Ob …, wird sich zeigen.“</b> — Man weiß es noch nicht und wartet ab.<br><i>Ob die Regel wirkt, wird sich zeigen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Bedingung ohne „wenn“:</b> „Nimmt ein Gast sein Getränk mit auf den Bahnsteig, gilt das Verbot wieder.“ Das ist dasselbe wie „Wenn ein Gast sein Getränk mitnimmt, gilt …“. Das Verb steht an erster Stelle, danach beginnt der Hauptsatz ebenfalls mit dem Verb. Typischer Fehler: „Nimmt ein Gast …, das Verbot gilt wieder.“ Merke: zweimal Verb vorne.</p></div>
+      <div class="grammar-block"><p><b>„dürfen“ und „müssen“ mit „nicht“:</b> „Man darf nicht trinken“ heißt: Es ist verboten. „Man muss nicht trinken“ heißt nur: Es ist nicht nötig. Typischer Fehler: „Du musst hier nicht rauchen“, obwohl Rauchen verboten ist. Richtig: „Du darfst hier nicht rauchen.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wo gilt das Alkoholverbot seit dem 15. Oktober?</li>
+          <li>Was passiert laut Text, wenn sich jemand nicht an die Regel hält?</li>
+          <li>Was stimmt laut Text für die Züge?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „dürfen weiter …“ über eine Regel, die an deinem Arbeitsplatz gleich bleibt.</li>
+          <li>Schreibe einen Satz ohne „wenn“, zum Beispiel: „Nimmt jemand …, gilt …“.</li>
+          <li>Schreibe einen Satz mit „Bei wiederholten … droht …“ über eine Regel im Beruf oder in der Schule.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Ein Kollege fragt dich: „Stimmt es, dass man am Bahnhof kein Bier mehr trinken darf?“ Antworte mündlich in fünf Sätzen: ab wann und wo die Regel gilt, was erlaubt bleibt, wie die Bahn sie durchsetzt, was in den Zügen gilt, was du davon hältst.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: <a href="https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/An-allen-Bahnhoefen-gilt-ab-morgen-das-Alkoholkonsumverbot-14066490">Deutsche Bahn: Alkoholkonsumverbot an allen Bahnhöfen (14. Oktober 2026)</a>; <a href="https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/Deutsche-Bahn-Alkoholkonsumverbot-an-allen-Bahnhoefen-13980686">DB: Ankündigung und Folgen bei Verstößen (21. Juli 2026)</a>; <a href="https://www.tagesschau.de/inland/bahn-alkoholverbot-102.html">tagesschau: Alkoholverbot in Kraft (15. Oktober 2026)</a>; <a href="https://mil.brandenburg.de/mil/de/presse/detail/~14-10-2026-sicherheit-im-nahverkehr">Brandenburg: Sicherheit im Nahverkehr (14. Oktober 2026)</a>. Vereinfacht für B1/B2; geprüft am 16. Oktober 2026. Die aktuelle DB-Angabe umfasst 5.400 Stationen von DB InfraGO und rund 300 von DB RegioNetz.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wo gilt das Alkoholverbot seit dem 15. Oktober?",
+      "o": [
+        "An rund 5.700 Bahnhöfen der Deutschen Bahn.",
+        "In allen Fernzügen der Deutschen Bahn.",
+        "Nur an den größten Hauptbahnhöfen."
+      ],
+      "c": 0,
+      "why": "Das Verbot gilt <b>bundesweit an rund 5.700 Bahnhöfen</b>. In den Zügen ändert sich dagegen nichts, und von „nur großen Hauptbahnhöfen“ steht nichts im Text."
+    },
+    {
+      "q": "Was passiert laut Text, wenn sich jemand nicht an die Regel hält?",
+      "o": [
+        "Man muss sofort eine Geldbuße zahlen.",
+        "Man muss jede Flasche im Bahnhof abgeben.",
+        "Sicherheitskräfte sprechen die Person an; bei Verstößen ist ein Platzverweis möglich."
+      ],
+      "c": 2,
+      "why": "Sicherheitskräfte sprechen Personen an. Bei Verstößen kann es einen <b>Platzverweis</b>, bei Wiederholung ein Hausverbot geben. Von Geldbußen ist im Text <b>nicht</b> die Rede, und verschlossene Flaschen bleiben <b>erlaubt</b>."
+    },
+    {
+      "q": "Was stimmt laut Text für die Züge?",
+      "o": [
+        "In allen Regionalzügen gilt dasselbe Verbot der Bahn.",
+        "Im Fernverkehr gibt es kein generelles Verbot, und die Bordbistros verkaufen weiter Alkohol.",
+        "Brandenburg hat das Verbot für alle Nahverkehrszüge schon eingeführt."
+      ],
+      "c": 1,
+      "why": "Im Fernverkehr gibt es <b>kein generelles Verbot</b>. Im Regionalverkehr entscheidet <b>der jeweilige Anbieter</b>, und Brandenburgs Minister Crumbach <b>fordert</b> eine Ausweitung nur."
+    }
+  ],
+  "schreib": [
+    "Im Büro <b>dürfen</b> wir <b>weiter</b> von zu Hause arbeiten, aber am Montag müssen wir im Team-Meeting sein.<span class=\"hint\"> „dürfen“ steht konjugiert an Position 2, der Infinitiv am Ende: „dürfen weiter von zu Hause arbeiten“. Nicht: „dürfen weiter zu arbeiten“.</span>",
+    "<b>Bringt</b> jemand sein Handy in die Prüfung mit, <b>gilt</b> die Prüfung als nicht bestanden.<span class=\"hint\"> Ohne „wenn“ steht das Verb an erster Stelle im Nebensatz; danach beginnt der zweite Teil ebenfalls mit dem Verb: „gilt“.</span>",
+    "Bei wiederholten Verspätungen <b>droht</b> dem Mitarbeiter <b>eine Abmahnung</b>.<span class=\"hint\"> „drohen“ steht oft mit Dativ der Person: „dem Mitarbeiter droht …“. Das Verb richtet sich nach dem, was droht: „droht eine Abmahnung“, aber „drohen Strafen“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Seit dem 15. Oktober gilt …",
+      "Erlaubt bleibt …, verboten ist …",
+      "Bei Verstößen droht …",
+      "In den Zügen ändert sich nichts.",
+      "Ich finde die Regel sinnvoll, weil …"
+    ],
+    "modell": "„Seit dem 15. Oktober gilt an rund 5.700 Bahnhöfen ein <b>Alkoholverbot</b>. Man darf dort nicht mehr trinken, aber <b>verschlossene</b> Flaschen im Gepäck bleiben erlaubt. Die Bahn will die Regel mit ihrem <b>Hausrecht</b> <b>durchsetzen</b>: Sicherheitskräfte sprechen Personen an, bei Verstößen kann es einen <b>Platzverweis</b> geben und bei Wiederholung droht ein <b>Hausverbot</b>. In den Zügen ändert sich nichts. Ich finde die Regel sinnvoll, weil sich <b>Fahrgäste</b> am Bahnhof dann sicherer fühlen können.“"
+  }
+}

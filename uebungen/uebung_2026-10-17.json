@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Was darf UniCredit nach der Entscheidung der EZB-Bankenaufsicht tun?",
+      "o": [
+        "Nur genau 30 Prozent der Commerzbank halten.",
+        "Die Schwelle von 30 Prozent überschreiten und ohne Obergrenze weitere Aktien kaufen.",
+        "Die Commerzbank sofort ganz übernehmen und den Sitz nach Mailand verlegen."
+      ],
+      "c": 1,
+      "why": "UniCredit darf die 30-Prozent-Schwelle überschreiten und ohne Obergrenze aufstocken. Die erste Antwort widerspricht dem Text („überschreiten“); die dritte ist falsch, weil die letzten Verfahren erst etwa zum Jahresende abgeschlossen sein sollen und der Bund den Sitz in Frankfurt erhalten will."
+    },
+    {
+      "q": "Was forderte Finanzminister Klingbeil für die Commerzbank?",
+      "o": [
+        "Die Bank soll ihren Sitz nach Mailand verlegen.",
+        "Die Bank soll ihr Geschäft mit dem Mittelstand aufgeben.",
+        "Sie soll börsennotiert bleiben und ihren Sitz in Frankfurt behalten."
+      ],
+      "c": 2,
+      "why": "Klingbeil forderte, dass die Bank <b>börsennotiert bleibt</b>, ihren <b>Sitz in Frankfurt</b> behält und weiterhin den Mittelstand betreut."
+    },
+    {
+      "q": "Was stimmt über das Lullusfest in Bad Hersfeld?",
+      "o": [
+        "Es läuft bis zum 19. Oktober und gilt laut Stadt als das älteste Volksfest Deutschlands.",
+        "Es endete am 12. Oktober mit dem Lullusfeuer.",
+        "Es findet abends auf der Burg Greifenstein statt."
+      ],
+      "c": 0,
+      "why": "Das Fest läuft noch bis zum 19. Oktober, und die Stadt nennt es das älteste Volksfest Deutschlands. Am 12. Oktober hat es begonnen, es endete nicht. Die Burg Greifenstein gehört zur Gruselführung im Lahn-Dill-Kreis, nicht zum Lullusfest."
+    },
+    {
+      "q": "Was gilt für die Führung auf der Burg Greifenstein?",
+      "o": [
+        "Sie ist ausdrücklich für Kinder unter 14 Jahren gedacht.",
+        "Man muss sich vorher per E-Mail anmelden.",
+        "Sie findet tagsüber statt, und man kann spontan mitgehen."
+      ],
+      "c": 1,
+      "why": "Eine Anmeldung per E-Mail ist erforderlich. Für Kinder unter 14 Jahren ist manches nicht geeignet, die Führung ist also nicht für sie gedacht; und sie findet abends im Dunkeln statt, spontan mitgehen geht nicht."
+    },
+    {
+      "q": "Was ist laut Vorschau für Dortmund bei einem Sieg möglich?",
+      "o": [
+        "Der BVB steht sofort als deutscher Meister fest.",
+        "Dortmund scheidet aus der Champions League aus.",
+        "Der BVB könnte vorübergehend an die Tabellenspitze zurückkehren."
+      ],
+      "c": 2,
+      "why": "Ein Sieg könnte Dortmund laut Vorbericht <b>vorübergehend an die Tabellenspitze</b> bringen. Eine Meisterschaft wird am 6. Spieltag noch nicht entschieden."
+    },
+    {
+      "q": "Wie ist die Lage von RB Leipzig vor dem Spiel in München?",
+      "o": [
+        "Leipzig hat seine neun Bundesliga-Punkte ausschließlich zu Hause geholt.",
+        "Leipzig hat seine ersten beiden Auswärtsspiele gewonnen.",
+        "Leipzig hat in dieser Saison noch keine Punkte geholt."
+      ],
+      "c": 0,
+      "why": "Leipzig holte alle <b>neun Punkte im eigenen Stadion</b>. Die ersten beiden Auswärtsspiele gingen verloren."
+    }
+  ],
+  "schreib": [
+    "Im Büro <b>wurde</b> gestern der neue Urlaubsplan <b>genehmigt</b>. <span class=\"hint\">Das Partizip II steht am Ende; nicht „wurde genehmigen“. „Wurde“ ist Singular, bei mehreren Dingen heißt es „wurden“.</span>",
+    "Der neue Stürmer <b>soll</b> nächste Woche wieder <b>spielen</b>. <span class=\"hint\">„sollen“ meint hier „laut Bericht oder Plan“, nicht „muss“. Der Infinitiv steht am Satzende.</span>",
+    "Die Miete ist in diesem Jahr um <b>gut</b> 5 Prozent gestiegen, das sind <b>knapp</b> 40 Euro mehr im Monat. <span class=\"hint\">„gut“ = ein bisschen mehr, „knapp“ = ein bisschen weniger als die Zahl. Nicht mit dem Adjektiv „gut“ im Sinn von „schön“ verwechseln.</span>",
+    "Am Wochenende gehe ich auf das <b>Volksfest</b> in meiner Stadt. Für die Führung im Dunkeln ist eine <b>Anmeldung</b> nötig, und ich finde sie ziemlich <b>gruselig</b>. <span class=\"hint\">„die Anmeldung“ ist feminin; das Verb ist „sich anmelden“ (trennbar, reflexiv): „Ich melde mich an.“</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Am liebsten gehe ich … , weil …",
+      "Ich finde es schön, wenn …",
+      "Das ist nichts für mich, denn …",
+      "Ich würde jedem empfehlen, … zu besuchen.",
+      "Das ist nichts für schwache Nerven, aber …"
+    ],
+    "modell": "Am liebsten gehe ich im Herbst auf ein <b>Volksfest</b>. Ich mag die Stimmung, das Essen und die Musik. Eine <b>gruselige</b> Führung wäre nichts für mich, das ist nichts für schwache Nerven. Wenn eine <b>Anmeldung</b> nötig ist, melde ich mich lieber früh an. Einem neuen Kollegen würde ich empfehlen, am Wochenende das Fest in der Nachbarstadt zu besuchen, weil dort viel los ist."
+  }
+}

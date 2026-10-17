@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 17. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 17. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Wochenend-Ausgabe</div>
+    <h2 class="heading">Grünes Licht für die Commerzbank-Übernahme, Herbstfeste in Hessen, Topspiele in Berlin und München</h2>
+        <div class="card">
+      <h3 class="art-kicker">Wirtschaft</h3>
+      <h4 class="art-title">Grünes Licht für UniCredit: Die Commerzbank rückt näher an die Übernahme</h4>
+      <p>Die italienische Großbank UniCredit hat eine wichtige Genehmigung für die geplante Übernahme der Commerzbank erhalten. Am Donnerstagabend teilte sie mit, dass die EZB-Bankenaufsicht grünes Licht gegeben habe. UniCredit darf die Schwelle von 30 Prozent der Kapitalbeteiligung überschreiten und den Anteil ohne Obergrenze weiter erhöhen. Die Bank bezeichnet die Entscheidung als einen Meilenstein. Das bedeutet aber nicht, dass die Übernahme bereits vollständig abgeschlossen ist.</p>
+      <p>Weitere behördliche Verfahren und Bedingungen stehen noch aus. UniCredit rechnet damit, dass diese etwa zum Jahresende erledigt sind. Dann erwartet die Bank rund 50 Prozent der Stimmrechte und damit die Möglichkeit, die Kontrolle zu übernehmen. Schon im Mai hatte sie ein Angebot für sämtliche Commerzbank-Aktien vorgelegt. Eine Beteiligung beschreibt den Anteil an einem Unternehmen; Stimmrechte bestimmen, wie stark ein Aktionär bei Entscheidungen mitreden kann.</p>
+      <p>Die Bundesregierung hatte sich lange gegen die Übernahme gewehrt. Finanzminister Lars Klingbeil forderte bereits im September, dass die Commerzbank eine börsennotierte Aktiengesellschaft mit Sitz in Frankfurt bleibt und weiterhin mittelständische Unternehmen betreut. Für Beschäftigte sind bei einer Übernahme auch Fragen nach Arbeitsplätzen wichtig: Bleibt mein Standort erhalten? Droht ein Stellenabbau? Solche Fragen zeigen, warum eine Nachricht über Banken auch den Berufsalltag betrifft. Wer darüber spricht, sollte zwischen einer Genehmigung, einem geplanten Schritt und einem abgeschlossenen Vorgang unterscheiden. Nicht jede positive Entscheidung bedeutet, dass schon alles entschieden ist.</p>
+    </div>
+    <div class="card">
+      <h3 class="art-kicker">Freizeit</h3>
+      <h4 class="art-title">Herbstferien, Volksfest und Gruselführung: Was in Hessen am Wochenende los ist</h4>
+      <p>Für viele Familien in Nordrhein-Westfalen beginnen heute die Herbstferien; in Hessen haben sie am 5. Oktober begonnen und enden heute. Wer nicht verreist, kann das Wochenende für einen Ausflug nutzen. In Bad Hersfeld läuft noch bis zum 19. Oktober das Lullusfest. Die Stadt bezeichnet es als das älteste Volksfest Deutschlands und nennt das Jahr 852 als Ursprung. Eröffnet wurde es am Montag, dem 12. Oktober. Zum Beginn wird traditionell mittags das Lullusfeuer angezündet.</p>
+      <p>Eine andere Möglichkeit bietet die Burg Greifenstein im Lahn-Dill-Kreis. Am 16. und 17. Oktober stehen dort abends Gruselführungen auf dem Programm. Der angekündigte Beginn ist jeweils um 18 Uhr. Die Besucher erleben die Burg in der Dunkelheit und hören Geschichten über ihre düsteren Seiten. Manche Themen sind für Kinder unter 14 Jahren nicht geeignet; die Eltern entscheiden selbst. Eine Anmeldung per E-Mail ist erforderlich. Einfach spontan mitzugehen, ist deshalb keine gute Planung.</p>
+      <p>Für ein gemeinsames Wochenende hilft eine kurze Absprache: Möchten wir lieber ein Volksfest besuchen oder an einer Führung teilnehmen? Wie kommen wir dorthin? Was darf der Ausflug kosten? Wer eine Einladung schreibt, kann direkt Treffpunkt und Uhrzeit nennen. Auch die Rückfahrt lässt sich vorher planen. Eine gruselige Geschichte ist nicht für jeden das Richtige. Man kann freundlich sagen: „Das ist nichts für mich; ich würde lieber spazieren gehen.“ So findet die Gruppe leichter eine Aktivität, die allen gefällt.</p>
+    </div>
+    <div class="card">
+      <h3 class="art-kicker">Sport</h3>
+      <h4 class="art-title">Union gegen Dortmund, Bayern gegen Leipzig: Zwei Spiele am 6. Spieltag</h4>
+      <p>Der 6. Spieltag der Bundesliga bringt am Samstag zwei interessante Begegnungen. Union Berlin empfängt Borussia Dortmund um 15.30 Uhr im Stadion An der Alten Försterei. Der BVB will nach dem 2:2 gegen Werder Bremen und einer Niederlage in der Champions League wieder gewinnen. Laut dem Vorbericht des Vereins könnte Dortmund mit einem Sieg vorübergehend an die Tabellenspitze zurückkehren. Für die Mannschaft steht also viel auf dem Spiel. Emre Can und Giannis Konstantelias fehlen nach Kreuzbandrissen; Nico Schlotterbeck soll wieder zur Verfügung stehen.</p>
+      <p>Am Abend folgt um 18.30 Uhr das Topspiel: Bayern München gegen RB Leipzig in der Allianz Arena. Bayern war vor diesem Wochenende zu Hause seit 14 Pflichtspielen ungeschlagen. Leipzig holte seine bisherigen neun Bundesliga-Punkte dagegen ausschließlich im eigenen Stadion. Die ersten beiden Auswärtsspiele dieser Saison gingen verloren. Die Münchner spielten zuletzt in Augsburg 2:2. Diese Zahlen beschreiben die Ausgangslage, entscheiden aber kein Spiel. Die tatsächliche Aufstellung steht erst kurz vor dem Anpfiff fest.</p>
+      <p>Im Gespräch unter Kollegen lohnt sich deshalb die Unterscheidung zwischen einer Nachricht und einer Vermutung. „Der Spieler fehlt“ nennt eine bekannte Information. „Er soll zurückkehren“ beschreibt eine Erwartung. „Ich glaube, Bayern gewinnt“ ist eine persönliche Einschätzung. Auch der Begriff Dreierkette lässt sich erklären: Drei Verteidiger bilden die hintere Reihe. Diese Vorschau beschreibt den Stand vor den Spielen; die Ergebnisse sind darin noch nicht enthalten.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><th class="group" colspan="4">Wirtschaft</th></tr>
+        <tr><td>die Übernahme <span class="rep">(Wiederholung)</span></td><td>takeover, acquisition</td><td>Eine Firma kauft so viele Anteile einer anderen Firma, dass sie sie kontrolliert.</td><td>Die EZB hat die Übernahme der Commerzbank genehmigt.</td></tr>
+        <tr><td>genehmigen</td><td>to approve, to authorise</td><td>Eine Behörde sagt offiziell Ja zu einem Plan.</td><td>Die EZB-Bankenaufsicht hat die Übernahme genehmigt.</td></tr>
+        <tr><td>die Beteiligung</td><td>stake, shareholding</td><td>Der Anteil, den man an einer Firma besitzt.</td><td>UniCredit darf ihre Beteiligung an der Commerzbank erhöhen.</td></tr>
+        <tr><td>der Meilenstein</td><td>milestone</td><td>Ein wichtiger Schritt auf dem Weg zu einem Ziel.</td><td>UniCredit nennt die Entscheidung einen Meilenstein.</td></tr>
+        <tr><td>der Stellenabbau</td><td>job cuts</td><td>Eine Firma streicht Arbeitsplätze, damit weniger Leute dort arbeiten.</td><td>Die Beschäftigten fürchten einen Stellenabbau.</td></tr>
+        <tr><th class="group" colspan="4">Freizeit</th></tr>
+        <tr><td>die Herbstferien <span class="rep">(Wiederholung)</span></td><td>autumn holidays</td><td>Schulfreie Zeit im Oktober oder November, meist ein bis zwei Wochen.</td><td>In Nordrhein-Westfalen beginnen heute die Herbstferien.</td></tr>
+        <tr><td>das Volksfest</td><td>public fair, folk festival</td><td>Ein großes Fest im Freien mit Musik, Essen und Fahrgeschäften.</td><td>In Bad Hersfeld läuft noch das älteste Volksfest Deutschlands.</td></tr>
+        <tr><td>die Anmeldung</td><td>registration, sign-up</td><td>Man nennt vorher seinen Namen, damit man teilnehmen darf.</td><td>Für die Führung ist eine Anmeldung per E-Mail erforderlich.</td></tr>
+        <tr><td>gruselig</td><td>creepy, spooky</td><td>So, dass man ein bisschen Angst bekommt.</td><td>Die Führung im Dunkeln ist ziemlich gruselig.</td></tr>
+        <tr><th class="group" colspan="4">Sport</th></tr>
+        <tr><td>das Topspiel <span class="rep">(Wiederholung)</span></td><td>the big match of the round</td><td>Das wichtigste und interessanteste Spiel eines Spieltags.</td><td>Bayern gegen Leipzig ist das Topspiel des Wochenendes.</td></tr>
+        <tr><td>ungeschlagen</td><td>unbeaten</td><td>Ohne Niederlage.</td><td>Bayern war zu Hause seit 14 Pflichtspielen ungeschlagen.</td></tr>
+        <tr><td>die Aufstellung</td><td>line-up</td><td>Die Liste der Spieler, die am Anfang eines Spiels auf dem Feld stehen.</td><td>Die Aufstellung steht erst kurz vor dem Anpfiff fest.</td></tr>
+        <tr><td>der Kreuzbandriss</td><td>cruciate ligament tear</td><td>Eine schwere Verletzung im Knie.</td><td>Zwei Dortmunder fehlen wegen eines Kreuzbandrisses.</td></tr>
+        <tr><td>die Dreierkette</td><td>back three (defence)</td><td>Drei Verteidiger stehen im Fußball nebeneinander vor dem Tor.</td><td>Die Mannschaft spielt heute mit einer Dreierkette.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„grünes Licht geben“</b> — Offiziell erlauben, dass etwas beginnen darf.<br><i>Die EZB hat grünes Licht für die Übernahme gegeben.</i></li>
+        <li><b>„gut 13 Prozent“, „knapp 30 Prozent“, „fast 50 Prozent“</b> — „gut“ heißt: ein bisschen mehr als die Zahl. „knapp“ und „fast“ heißen: ein bisschen weniger.<br><i>Für das Fest kommen gut 100 Gäste; knapp 30 haben sich schon angemeldet.</i></li>
+        <li><b>„Das kam nicht überraschend.“</b> — Man hat damit gerechnet, es war keine große Neuigkeit.<br><i>Die Entscheidung kam nicht überraschend.</i></li>
+        <li><b>„nichts für schwache Nerven“</b> — Etwas ist so gruselig oder aufregend, dass es nicht jeder gut aushält.<br><i>Die Führung im Dunkeln ist nichts für schwache Nerven.</i></li>
+        <li><b>„Eine Anmeldung ist erforderlich.“</b> — Man muss sich vorher melden, sonst darf man nicht teilnehmen. Auf Einladungen steht oft: „Um Anmeldung wird gebeten.“<br><i>Für die Führung ist eine Anmeldung per E-Mail erforderlich.</i></li>
+        <li><b>„Es steht viel auf dem Spiel.“</b> — Das Ergebnis ist sehr wichtig, weil man viel gewinnen oder verlieren kann.<br><i>Für den BVB steht in Berlin viel auf dem Spiel.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block">
+        <p><b>Passiv in Nachrichten: <i>wurde … genehmigt</i>, <i>sollen … werden</i>.</b> Wenn nicht wichtig ist, wer etwas tut, sondern was passiert, nimmt man das Passiv: <i>„Eröffnet wurde das Fest am Montag.“</i> – <i>„Die Verfahren sollen bis Jahresende abgeschlossen werden.“</i> Das Passiv besteht aus <i>werden</i> und dem Partizip II am Satzende; im Präteritum heißt es <i>wurde</i>/<i>wurden</i>. Mit einem Modalverb steht <i>werden</i> im Infinitiv ganz am Ende: <i>sollen abgeschlossen werden</i>. Typische Fehler: <i>„wird genehmigen“</i> statt <i>„wird genehmigt“</i>, oder <i>„ist genehmigt“</i> für einen Vorgang. <i>„Die Übernahme ist genehmigt“</i> beschreibt den Zustand, <i>„wurde genehmigt“</i> den Vorgang.</p>
+      </div>
+      <div class="grammar-block">
+        <p><b><i>sollen</i> für Pläne und Berichte.</b> Im Sport und in den Nachrichten bedeutet <i>sollen</i> oft: „Laut Berichten oder Plan ist das vorgesehen“, aber es ist nicht sicher. <i>„Die Mannschaft spielt heute mit einer Dreierkette.“</i> – das ist die erwartete Aufstellung, nicht der Befehl an ihn. Auch <i>„Die Verfahren sollen bis Jahresende abgeschlossen werden“</i> ist ein Plan. Typischer Fehler: <i>sollen</i> immer als „muss“ zu verstehen oder mit <i>müssen</i> zu verwechseln. <i>Müssen</i> sagt, dass es nötig ist; <i>sollen</i> sagt, dass es vorgesehen oder berichtet ist.</p>
+      </div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Was darf UniCredit nach der Entscheidung der EZB-Bankenaufsicht tun?</li>
+          <li>Was forderte Finanzminister Klingbeil für die Commerzbank?</li>
+          <li>Was stimmt über das Lullusfest in Bad Hersfeld?</li>
+          <li>Was gilt für die Führung auf der Burg Greifenstein?</li>
+          <li>Was ist laut Vorschau für Dortmund bei einem Sieg möglich?</li>
+          <li>Wie ist die Lage von RB Leipzig vor dem Spiel in München?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz im Passiv (<i>wurde/wird/werden</i> + Partizip II) über etwas, das bei dir im Betrieb oder im Alltag entschieden oder genehmigt wurde.</li>
+          <li>Schreibe einen Satz mit <i>sollen</i> über etwas, das du nur gehört oder gelesen hast, zum Beispiel über ein Spiel, das Wetter oder deine Firma.</li>
+          <li>Schreibe einen Satz mit <i>gut</i>, <i>knapp</i> oder <i>fast</i> und einer Zahl aus deinem Alltag (Miete, Preis, Personen, Prozent).</li>
+          <li>Schreibe zwei Sätze über ein Fest oder einen Ausflug in deiner Stadt, mit <i>Volksfest</i>, <i>Anmeldung</i> oder <i>gruselig</i>.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Was machst du im Herbst am liebsten: Volksfest, Führung, Wanderung oder Fußballspiel? Was würdest du jemandem empfehlen, der neu in deiner Stadt ist? Begründe deine Meinung.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen, geprüft am 17. Oktober 2026: Wirtschaft – <a href="https://www.unicreditgroup.eu/en/press-media/press-releases-price-sensitive/2026/october/unicredit-receives-ecb-approval-to-acquire-control-of-commerzban.html">UniCredit, 15. Oktober</a>, <a href="https://www.tagesschau.de/wirtschaft/ezb-uebernahme-commerzbank-100.html">tagesschau, 15. Oktober</a> und <a href="https://www.tagesschau.de/wirtschaft/unternehmen/klingbeil-bedingungen-unicredit-commerzbank-100.html">Klingbeils Forderungen, 14. September</a>. Freizeit – <a href="https://www.lullusfest.de/">Stadt Bad Hersfeld: Lullusfest</a>, <a href="https://mittelhessen.app/events/gruselfuehrung-greifenstein-greifenstein-2026-10-16-1800">Termine der Gruselführung</a>, <a href="https://ev-dill.de/detail-veranstaltungen/termin/details-55790">Hinweise zur Führung</a> und <a href="https://bass.schule.nrw/191.htm">Ferienordnung NRW</a>. Sport – <a href="https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/16/Kovac-will-mit-dem-BVB-in-Berlin-zurueck-an-die-Leistungsgrenze.html">BVB-Vorbericht, 16. Oktober</a>, <a href="https://fcbayern.com/de/news/2026/10/fc-bayern-vs-rb-leipzig-die-faktenlage-zum-samstagabend-topspiel">FC Bayern: Faktenlage, 14. Oktober</a> und <a href="https://fcbayern.com/de/spiele/profis/bundesliga/2026-2027/fc-bayern-muenchen-rb-leipzig-17-10-2026/videos">Spieltermin</a>. Für B1/B2 vereinfacht und um Lernbeispiele ergänzt. Sport als Vorschau vor den Spielen.</p>
+</div>
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

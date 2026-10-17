@@ -4247,7 +4247,8 @@
     "bsp": "SAP hat die Übernahme von Prior Labs abgeschlossen.",
     "dates": [
       "2026-07-24",
-      "2026-10-02"
+      "2026-10-02",
+      "2026-10-17"
     ],
     "sq": "marrja në kontroll, blerja",
     "tr": "devralma, satın alma",
@@ -6745,7 +6746,8 @@
     "erk": "Das wichtigste und interessanteste Spiel eines Spieltags.",
     "bsp": "Das Topspiel steigt am Abend um 18:30 Uhr.",
     "dates": [
-      "2026-09-19"
+      "2026-09-19",
+      "2026-10-17"
     ],
     "sq": "ndeshja kryesore",
     "tr": "haftanın maçı, dev maç",
@@ -9240,7 +9242,8 @@
     "erk": "Schulfrei im Oktober oder November, meist ein bis zwei Wochen.",
     "bsp": "In Hessen haben die Herbstferien am 5. Oktober begonnen.",
     "dates": [
-      "2026-10-10"
+      "2026-10-10",
+      "2026-10-17"
     ],
     "sq": "pushimet e vjeshtës",
     "tr": "sonbahar tatili",
@@ -10034,5 +10037,192 @@
     "es": "con efecto retroactivo",
     "fr": "rétroactivement",
     "it": "con effetto retroattivo"
+  },
+  {
+    "de": "genehmigen",
+    "en": "to approve, to authorise",
+    "erk": "Eine Behörde sagt offiziell Ja zu einem Plan.",
+    "bsp": "Die EZB-Bankenaufsicht hat die Übernahme genehmigt.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "miraton, e lejon zyrtarisht",
+    "tr": "onaylamak",
+    "uk": "схвалювати, дозволяти",
+    "ar": "يوافق رسميًا على",
+    "fa": "تأیید کردن، مجوز دادن",
+    "es": "aprobar, autorizar",
+    "fr": "approuver, autoriser",
+    "it": "approvare, autorizzare"
+  },
+  {
+    "de": "die Beteiligung",
+    "en": "stake, shareholding",
+    "erk": "Der Anteil, den man an einer Firma besitzt.",
+    "bsp": "UniCredit darf ihre Beteiligung an der Commerzbank erhöhen.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "pjesa e aksioneve në një kompani",
+    "tr": "hisse payı",
+    "uk": "частка в компанії",
+    "ar": "حصة في شركة",
+    "fa": "سهم در شرکت",
+    "es": "participación (accionarial)",
+    "fr": "participation (au capital)",
+    "it": "partecipazione (azionaria), quota"
+  },
+  {
+    "de": "der Meilenstein",
+    "en": "milestone",
+    "erk": "Ein wichtiger Schritt auf dem Weg zu einem Ziel.",
+    "bsp": "UniCredit nennt die Entscheidung einen Meilenstein.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "hap i rëndësishëm, moment kyç",
+    "tr": "dönüm noktası, kilometre taşı",
+    "uk": "віха",
+    "ar": "علامة فارقة",
+    "fa": "نقطه عطف",
+    "es": "hito",
+    "fr": "étape importante, jalon",
+    "it": "pietra miliare"
+  },
+  {
+    "de": "der Stellenabbau",
+    "en": "job cuts",
+    "erk": "Eine Firma streicht Arbeitsplätze, damit weniger Leute dort arbeiten.",
+    "bsp": "Die Beschäftigten fürchten einen Stellenabbau.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "shkurtimi i vendeve të punës",
+    "tr": "istihdam azaltımı, işten çıkarmalar",
+    "uk": "скорочення робочих місць",
+    "ar": "تقليص الوظائف",
+    "fa": "کاهش شغل‌ها",
+    "es": "recorte de empleos",
+    "fr": "suppression d'emplois",
+    "it": "taglio di posti di lavoro"
+  },
+  {
+    "de": "das Volksfest",
+    "en": "public fair, folk festival",
+    "erk": "Ein großes Fest im Freien mit Musik, Essen und Fahrgeschäften.",
+    "bsp": "In Bad Hersfeld läuft noch das älteste Volksfest Deutschlands.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "festë popullore",
+    "tr": "halk şenliği",
+    "uk": "народне гуляння",
+    "ar": "مهرجان شعبي",
+    "fa": "جشن مردمی",
+    "es": "feria popular, fiesta popular",
+    "fr": "fête populaire",
+    "it": "festa popolare"
+  },
+  {
+    "de": "die Anmeldung",
+    "en": "registration, sign-up",
+    "erk": "Man nennt vorher seinen Namen, damit man teilnehmen darf.",
+    "bsp": "Für die Führung ist eine Anmeldung per E-Mail erforderlich.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "regjistrimi",
+    "tr": "kayıt, başvuru",
+    "uk": "реєстрація, запис",
+    "ar": "التسجيل",
+    "fa": "ثبت‌نام",
+    "es": "inscripción",
+    "fr": "inscription",
+    "it": "iscrizione"
+  },
+  {
+    "de": "gruselig",
+    "en": "creepy, spooky",
+    "erk": "So, dass man ein bisschen Angst bekommt.",
+    "bsp": "Die Führung im Dunkeln ist ziemlich gruselig.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "i frikshëm",
+    "tr": "ürkütücü, korkutucu",
+    "uk": "моторошний",
+    "ar": "مخيف",
+    "fa": "ترسناک",
+    "es": "escalofriante, espeluznante",
+    "fr": "effrayant, lugubre",
+    "it": "spaventoso, da brividi"
+  },
+  {
+    "de": "ungeschlagen",
+    "en": "unbeaten",
+    "erk": "Ohne Niederlage.",
+    "bsp": "Bayern war zu Hause seit 14 Pflichtspielen ungeschlagen.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "pa humbje",
+    "tr": "yenilmemiş",
+    "uk": "непереможений",
+    "ar": "غير مهزوم",
+    "fa": "بدون شکست",
+    "es": "invicto",
+    "fr": "invaincu",
+    "it": "imbattuto"
+  },
+  {
+    "de": "die Aufstellung",
+    "en": "line-up",
+    "erk": "Die Liste der Spieler, die am Anfang eines Spiels auf dem Feld stehen.",
+    "bsp": "Die Aufstellung steht erst kurz vor dem Anpfiff fest.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "formacioni i ekipit",
+    "tr": "ilk on bir, takım kadrosu",
+    "uk": "склад команди на матч",
+    "ar": "التشكيلة",
+    "fa": "ترکیب تیم",
+    "es": "alineación",
+    "fr": "composition d'équipe",
+    "it": "formazione"
+  },
+  {
+    "de": "der Kreuzbandriss",
+    "en": "cruciate ligament tear",
+    "erk": "Eine schwere Verletzung im Knie.",
+    "bsp": "Zwei Dortmunder fehlen wegen eines Kreuzbandrisses.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "këputja e ligamentit të kryqëzuar",
+    "tr": "çapraz bağ kopması",
+    "uk": "розрив хрестоподібної зв'язки",
+    "ar": "تمزق الرباط الصليبي",
+    "fa": "پارگی رباط صلیبی",
+    "es": "rotura del ligamento cruzado",
+    "fr": "rupture des ligaments croisés",
+    "it": "rottura del legamento crociato"
+  },
+  {
+    "de": "die Dreierkette",
+    "en": "back three (defence)",
+    "erk": "Drei Verteidiger stehen im Fußball nebeneinander vor dem Tor.",
+    "bsp": "Die Mannschaft spielt heute mit einer Dreierkette.",
+    "dates": [
+      "2026-10-17"
+    ],
+    "sq": "mbrojtja me tre mbrojtës",
+    "tr": "üçlü savunma hattı",
+    "uk": "захист із трьох гравців",
+    "ar": "خط دفاع من ثلاثة لاعبين",
+    "fa": "خط دفاع سه نفره",
+    "es": "defensa de tres, línea de tres",
+    "fr": "défense à trois",
+    "it": "difesa a tre"
   }
 ]

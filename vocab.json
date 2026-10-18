@@ -5077,7 +5077,8 @@
       "2026-07-09",
       "2026-07-11",
       "2026-09-29",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-18"
     ],
     "sq": "anketa",
     "tr": "anket",
@@ -6729,7 +6730,8 @@
     "bsp": "Der Tabellenführer spielt am Samstag in Frankfurt.",
     "dates": [
       "2026-09-19",
-      "2026-10-11"
+      "2026-10-11",
+      "2026-10-18"
     ],
     "sq": "lideri i tabelës",
     "tr": "lider, puan durumunda birinci",
@@ -8031,7 +8033,8 @@
     "bsp": "Die Herbstbelebung dürfte nur moderat ausfallen.",
     "dates": [
       "2026-09-30",
-      "2026-10-01"
+      "2026-10-01",
+      "2026-10-18"
     ],
     "sq": "ringjallja e vjeshtës (në tregun e punës)",
     "tr": "sonbahar canlanması (iş piyasasında)",
@@ -9328,7 +9331,8 @@
     "erk": "Die Minuten, die nach den 90 Minuten noch gespielt werden.",
     "bsp": "In der Nachspielzeit fiel das Tor zum 3:2.",
     "dates": [
-      "2026-10-10"
+      "2026-10-10",
+      "2026-10-18"
     ],
     "sq": "koha shtesë",
     "tr": "uzatma süresi",
@@ -10224,5 +10228,158 @@
     "es": "defensa de tres, línea de tres",
     "fr": "défense à trois",
     "it": "difesa a tre"
+  },
+  {
+    "de": "die Arbeitslosenquote",
+    "en": "unemployment rate",
+    "erk": "Der Anteil der Arbeitslosen an allen Erwerbspersonen, in Prozent.",
+    "bsp": "Die Arbeitslosenquote sank im September auf 6,4 Prozent.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "norma e papunësisë",
+    "tr": "işsizlik oranı",
+    "uk": "рівень безробіття",
+    "ar": "معدل البطالة",
+    "fa": "نرخ بیکاری",
+    "es": "la tasa de desempleo",
+    "fr": "le taux de chômage",
+    "it": "il tasso di disoccupazione"
+  },
+  {
+    "de": "schwunglos",
+    "en": "sluggish, lacklustre",
+    "erk": "Ohne Energie und ohne starke Entwicklung nach vorn.",
+    "bsp": "Nahles nannte den Auftakt der Herbstbelebung schwunglos.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "pa energji, i ngadaltë",
+    "tr": "durgun, cansız",
+    "uk": "мляво, без динаміки",
+    "ar": "فاتر، بلا زخم",
+    "fa": "کم‌رمق، بی‌جان",
+    "es": "sin impulso, flojo",
+    "fr": "sans élan, mou",
+    "it": "fiacco, senza slancio"
+  },
+  {
+    "de": "die Trendwende",
+    "en": "turnaround, change of trend",
+    "erk": "Eine Entwicklung ändert ihre Richtung, zum Beispiel von schlechter zu besser.",
+    "bsp": "Eine einzelne Monatszahl zeigt noch keine sichere Trendwende.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "kthesë e tendencës",
+    "tr": "trend dönüşü",
+    "uk": "зміна тенденції",
+    "ar": "تحوّل في الاتجاه",
+    "fa": "تغییر روند",
+    "es": "el cambio de tendencia",
+    "fr": "le renversement de tendance",
+    "it": "l'inversione di tendenza"
+  },
+  {
+    "de": "die Branche",
+    "en": "industry, sector",
+    "erk": "Ein Wirtschaftsbereich, zum Beispiel Bau, Handel oder IT.",
+    "bsp": "Die Chancen hängen stark von der Branche ab.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "dega (e ekonomisë)",
+    "tr": "sektör",
+    "uk": "галузь",
+    "ar": "قطاع",
+    "fa": "صنعت، حوزهٔ کاری",
+    "es": "el sector",
+    "fr": "le secteur",
+    "it": "il settore"
+  },
+  {
+    "de": "repräsentativ",
+    "en": "representative",
+    "erk": "So ausgewählt, dass die befragte Gruppe die untersuchte Bevölkerung möglichst gut abbildet.",
+    "bsp": "Die Studie beruht auf einer repräsentativen Umfrage.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "përfaqësues",
+    "tr": "temsili",
+    "uk": "репрезентативний",
+    "ar": "تمثيلي",
+    "fa": "نمایندهٔ جامعهٔ آماری",
+    "es": "representativo",
+    "fr": "représentatif",
+    "it": "rappresentativo"
+  },
+  {
+    "de": "faulenzen",
+    "en": "to laze around",
+    "erk": "Nichts tun und sich ausruhen, ohne schlechtes Gewissen.",
+    "bsp": "Am Sonntag will ich nur faulenzen.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "të pushosh pa bërë asgjë",
+    "tr": "tembellik etmek, keyif yapmak",
+    "uk": "байдикувати, лінуватися",
+    "ar": "الكسل والاسترخاء",
+    "fa": "تنبلی کردن، لم دادن",
+    "es": "holgazanear, no hacer nada",
+    "fr": "paresser, buller",
+    "it": "poltrire, oziare"
+  },
+  {
+    "de": "ausschlafen",
+    "en": "to sleep in",
+    "erk": "So lange schlafen, bis man richtig ausgeruht ist.",
+    "bsp": "Am Wochenende schlafe ich gern aus.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "të flesh sa të ngopesh",
+    "tr": "doyasıya uyumak",
+    "uk": "виспатися",
+    "ar": "النوم حتى الشبع",
+    "fa": "تا دلت بخواهد خوابیدن",
+    "es": "dormir hasta saciarse",
+    "fr": "faire la grasse matinée",
+    "it": "dormire quanto si vuole"
+  },
+  {
+    "de": "der Ehrentreffer",
+    "en": "consolation goal",
+    "erk": "Ein Tor, das bei einer klaren Niederlage das Ergebnis etwas verbessert.",
+    "bsp": "Leipzig schoss in der Nachspielzeit den Ehrentreffer.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "gol ngushëllimi",
+    "tr": "teselli golü",
+    "uk": "почесний гол",
+    "ar": "هدف التشريف",
+    "fa": "گل تسلی‌بخش",
+    "es": "el gol de honor",
+    "fr": "le but de l'honneur",
+    "it": "il gol della bandiera"
+  },
+  {
+    "de": "die Startelf",
+    "en": "starting eleven",
+    "erk": "Die elf Spieler, die am Anfang eines Fußballspiels auf dem Feld stehen.",
+    "bsp": "Kompany änderte die Startelf auf drei Positionen.",
+    "dates": [
+      "2026-10-18"
+    ],
+    "sq": "formacioni fillestar",
+    "tr": "ilk 11",
+    "uk": "стартовий склад",
+    "ar": "التشكيلة الأساسية",
+    "fa": "ترکیب اصلی",
+    "es": "el once inicial",
+    "fr": "le onze de départ",
+    "it": "la formazione titolare"
   }
 ]

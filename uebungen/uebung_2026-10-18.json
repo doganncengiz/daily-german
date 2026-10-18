@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Was stimmt über die Zahl der Arbeitslosen im September?",
+      "o": [
+        "Sie stieg gegenüber August um 67.000 auf mehr als drei Millionen.",
+        "Sie sank auf 2,994 Millionen, das sind 67.000 weniger als im August.",
+        "Sie lag 40.000 unter dem Wert vom September 2025."
+      ],
+      "c": 1,
+      "why": "Die Zahl sank <b>um 67.000 auf 2,994 Millionen</b>. Die erste Antwort widerspricht dem Text (gesunken, nicht gestiegen); die dritte dreht den Vorjahresvergleich um: Es sind 40.000 <b>mehr</b> als im September 2025."
+    },
+    {
+      "q": "Warum nennt Andrea Nahles den Beginn der Herbstbelebung „schwunglos“?",
+      "o": [
+        "Weil die Arbeitslosenquote auf über sieben Prozent gestiegen ist.",
+        "Weil es weniger freie Stellen gibt als vor einem Jahr.",
+        "Weil die wirtschaftliche Verbesserung auf dem Arbeitsmarkt noch nicht ankommt."
+      ],
+      "c": 2,
+      "why": "Nahles sagt, die Verbesserung <b>komme auf dem Arbeitsmarkt noch nicht an</b>. Die Quote liegt bei 6,4 Prozent, nicht über sieben; und es gibt mit 660.000 sogar 30.000 <b>mehr</b> gemeldete Stellen als vor einem Jahr."
+    },
+    {
+      "q": "Worauf beruht der Freizeit-Monitor 2026?",
+      "o": [
+        "Auf einer repräsentativen Umfrage mit mehr als 3.000 Menschen ab 18 Jahren.",
+        "Auf einer Befragung von 98 Personen zu mehr als 3.000 Aktivitäten.",
+        "Auf Besucherzahlen von Freizeitparks in ganz Deutschland."
+      ],
+      "c": 0,
+      "why": "Befragt wurden <b>mehr als 3.000 Menschen ab 18 Jahren</b> zu rund 100 Aktivitäten. Die zweite Antwort vertauscht die Zahlen (98 ist die Zahl der Aktivitäten, nicht der Personen); von Besucherzahlen steht nichts im Text."
+    },
+    {
+      "q": "Was zeigt der Freizeit-Monitor über das Faulenzen?",
+      "o": [
+        "Nur noch 47 Prozent faulenzen bewusst; 2016 waren es 62 Prozent.",
+        "Bewusst faulenzen nennen 62 Prozent; 2016 waren es erst 47 Prozent.",
+        "Mehr Menschen als früher schlafen aus: 57 statt 63 Prozent."
+      ],
+      "c": 1,
+      "why": "Faulenzen hat zugenommen: <b>62 Prozent heute, 47 Prozent im Jahr 2016</b>. Die erste Antwort dreht die Zahlen um; bei der dritten ist der Trend falsch: Von 63 auf 57 Prozent bedeutet, dass <b>weniger</b> Menschen ausschlafen."
+    },
+    {
+      "q": "Wie endete das Spiel zwischen Bayern und Leipzig?",
+      "o": [
+        "3:1; Leipzig traf noch in der ersten Halbzeit.",
+        "6:1; Kane schoss einen Dreierpack.",
+        "6:1; Díaz traf dreimal."
+      ],
+      "c": 2,
+      "why": "Es endete <b>6:1</b>, und <b>Díaz</b> erzielte den Dreierpack (12., 47., 69. Minute). Kane traf nur einmal (53.), und das einzige Leipziger Tor fiel erst in der Nachspielzeit; zur Halbzeit stand es 3:0."
+    },
+    {
+      "q": "Was gilt nach dem Samstagabend für Bayern und Leipzig?",
+      "o": [
+        "Bayern ist mit 14 Punkten vorläufig Tabellenführer; Leipzig hat auswärts noch keinen Punkt geholt.",
+        "Bayern hat 9 Punkte, Leipzig 14; beide haben auswärts schon gewonnen.",
+        "Leipzig ist neuer Tabellenführer, Bayern hat 20 Spiele verloren."
+      ],
+      "c": 0,
+      "why": "Bayern hat <b>14 Punkte</b> und ist vorläufig vorn; Leipzig hat 9 Punkte und <b>keinen Punkt auswärts</b>. Die zweite Antwort vertauscht die Punktzahlen; bei der dritten stimmt nichts: Bayern war vor dem Spiel 20 Partien <b>ungeschlagen</b>."
+    }
+  ],
+  "schreib": [
+    "Mein Gehalt ist in diesem Jahr <b>um</b> 150 Euro <b>auf</b> 3.150 Euro <b>gestiegen</b>. <span class=\"hint\">„um“ nennt den Unterschied, „auf“ den neuen Wert. Nicht „gestiegen auf 150 Euro“, wenn 150 der Unterschied ist.</span>",
+    "Mein Chef sagte, das Projekt <b>sei</b> im Plan und die Kunden <b>hätten</b> keine Beschwerden. <span class=\"hint\">„sei“ ist der Konjunktiv I von „sein“. Wenn Konjunktiv I und Indikativ gleich aussehen, kann Konjunktiv II helfen: „Die Kunden haben“ wird in indirekter Rede zu „die Kunden hätten“.</span>",
+    "Am Wochenende will ich zuerst <b>ausschlafen</b> und dann <b>faulenzen</b>. Laut einer <b>Umfrage</b> machen das viele Deutsche genauso. <span class=\"hint\">„ausschlafen“ ist trennbar: „Ich schlafe aus“, aber „Ich will ausschlafen“. Und „faulenzen“ klingt locker, nicht negativ.</span>",
+    "Nach dem <b>Dreierpack</b> von Díaz ist Bayern vorläufig <b>Tabellenführer</b>. Leipzig schoss nur einen <b>Ehrentreffer</b>. <span class=\"hint\">„der Dreierpack“ und „der Tabellenführer“ sind maskulin; „vorläufig“ heißt: Das kann sich noch ändern, weil noch Spiele fehlen.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Am liebsten … ich am Wochenende, weil …",
+      "Ich bin eher der Typ für …, denn …",
+      "Das hängt davon ab, ob …",
+      "Ich plane meistens vorher / Ich entscheide lieber spontan, weil …",
+      "Für mich ist es wichtig, dass …"
+    ],
+    "modell": "Am Wochenende bin ich eher der Typ für Ruhe. Zuerst will ich <b>ausschlafen</b> und dann ein bisschen <b>faulenzen</b>. Laut einer <b>Umfrage</b> machen das viele Menschen in Deutschland, und ich finde das völlig normal. Am Sonntag gehe ich meistens eine Stunde spazieren oder schaue ein Fußballspiel. Das hängt davon ab, wie anstrengend die Woche war. Einen großen Ausflug plane ich nur, wenn das Wetter gut ist."
+  }
+}

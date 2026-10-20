@@ -6335,13 +6335,17 @@
     "erk": "Nicht auf einmal, sondern nach und nach.",
     "bsp": "Das Verbot wird schrittweise an allen Bahnhöfen eingeführt.",
     "dates": [
-      "2026-07-22"
+      "2026-07-22",
+      "2026-10-20"
     ],
     "sq": "hap pas hapi, gradualisht",
     "tr": "adım adım, kademeli olarak",
     "uk": "поступово, крок за кроком",
     "ar": "تدريجياً، خطوة بخطوة",
-    "fa": "گام‌به‌گام، به‌تدریج"
+    "fa": "گام‌به‌گام، به‌تدریج",
+    "es": "paso a paso, gradualmente",
+    "fr": "progressivement, étape par étape",
+    "it": "gradualmente, passo dopo passo"
   },
   {
     "de": "der Höchststand",
@@ -7553,7 +7557,8 @@
     "erk": "Wie viel man mit seinem Geld tatsächlich kaufen kann.",
     "bsp": "Hohe Energiepreise schmälern die Kaufkraft der Haushalte.",
     "dates": [
-      "2026-09-26"
+      "2026-09-26",
+      "2026-10-19"
     ],
     "sq": "fuqia blerëse",
     "tr": "satın alma gücü",
@@ -9007,7 +9012,8 @@
     "erk": "Jemandem sagen, dass etwas gefährlich oder ein Risiko ist.",
     "bsp": "Die Ministerin warnt vor zu viel Euphorie.",
     "dates": [
-      "2026-10-08"
+      "2026-10-08",
+      "2026-10-20"
     ],
     "sq": "paralajmëroj për",
     "tr": "-e karşı uyarmak",
@@ -9878,7 +9884,8 @@
     "erk": "In ganz Deutschland, nicht nur in einer Stadt oder einem Bundesland.",
     "bsp": "Das Verbot gilt bundesweit.",
     "dates": [
-      "2026-10-15"
+      "2026-10-15",
+      "2026-10-20"
     ],
     "sq": "në të gjithë vendin",
     "tr": "ülke genelinde",
@@ -10099,7 +10106,8 @@
     "erk": "Eine Firma streicht Arbeitsplätze, damit weniger Leute dort arbeiten.",
     "bsp": "Die Beschäftigten fürchten einen Stellenabbau.",
     "dates": [
-      "2026-10-17"
+      "2026-10-17",
+      "2026-10-19"
     ],
     "sq": "shkurtimi i vendeve të punës",
     "tr": "istihdam azaltımı, işten çıkarmalar",
@@ -10381,5 +10389,209 @@
     "es": "el once inicial",
     "fr": "le onze de départ",
     "it": "la formazione titolare"
+  },
+  {
+    "de": "die Nullrunde",
+    "en": "pay freeze (a year with no raise)",
+    "erk": "Eine Zeit, in der das Gehalt nicht steigt.",
+    "bsp": "Für viele Beschäftigte soll bis 2030 eine Nullrunde gelten.",
+    "dates": [
+      "2026-10-19"
+    ],
+    "sq": "raund pa rritje pagash",
+    "tr": "zam yapılmayan dönem (sıfır zam)",
+    "uk": "період без підвищення зарплати",
+    "ar": "فترة بلا زيادة في الأجور",
+    "fa": "دوره بدون افزایش حقوق",
+    "es": "ronda sin subida salarial",
+    "fr": "année sans augmentation de salaire",
+    "it": "turno senza aumenti salariali"
+  },
+  {
+    "de": "einfrieren",
+    "en": "to freeze (e.g. wages)",
+    "erk": "Etwas bleibt auf dem gleichen Stand und ändert sich nicht.",
+    "bsp": "VW soll die Gehälter bis 2030 einfrieren wollen.",
+    "dates": [
+      "2026-10-19"
+    ],
+    "sq": "ngrij (p.sh. pagat)",
+    "tr": "dondurmak",
+    "uk": "заморожувати",
+    "ar": "تجميد",
+    "fa": "منجمد کردن",
+    "es": "congelar",
+    "fr": "geler",
+    "it": "congelare"
+  },
+  {
+    "de": "der Haustarifvertrag",
+    "en": "company-level collective agreement",
+    "erk": "Ein Vertrag zwischen einer Firma und der Gewerkschaft über Lohn und Arbeitszeit.",
+    "bsp": "Für rund 130.000 Beschäftigte gilt der Haustarifvertrag.",
+    "dates": [
+      "2026-10-19"
+    ],
+    "sq": "kontratë kolektive e kompanisë",
+    "tr": "işyeri toplu iş sözleşmesi",
+    "uk": "внутрішньофірмовий тарифний договір",
+    "ar": "عقد جماعي خاص بالشركة",
+    "fa": "قرارداد جمعی شرکت",
+    "es": "convenio colectivo de empresa",
+    "fr": "convention collective d'entreprise",
+    "it": "contratto collettivo aziendale"
+  },
+  {
+    "de": "die Verhandlungsrunde",
+    "en": "round of negotiations",
+    "erk": "Ein Treffen, bei dem Firma und Gewerkschaft über Lohn und Bedingungen sprechen.",
+    "bsp": "Volkswagen verwies auf die kommende Verhandlungsrunde.",
+    "dates": [
+      "2026-10-19"
+    ],
+    "sq": "raund negociatash",
+    "tr": "müzakere turu",
+    "uk": "раунд переговорів",
+    "ar": "جولة مفاوضات",
+    "fa": "دور مذاکرات",
+    "es": "ronda de negociación",
+    "fr": "cycle de négociations",
+    "it": "tornata di trattative"
+  },
+  {
+    "de": "das Realeinkommen",
+    "en": "real income",
+    "erk": "Das Einkommen nach Abzug der Preissteigerung: Wie viel kann man sich wirklich kaufen?",
+    "bsp": "Das Realeinkommen könnte um bis zu zehn Prozent sinken.",
+    "dates": [
+      "2026-10-19"
+    ],
+    "sq": "e ardhura reale",
+    "tr": "reel gelir",
+    "uk": "реальний дохід",
+    "ar": "الدخل الحقيقي",
+    "fa": "درآمد واقعی",
+    "es": "ingreso real",
+    "fr": "revenu réel",
+    "it": "reddito reale"
+  },
+  {
+    "de": "die Sonderzahlung",
+    "en": "extra payment, bonus",
+    "erk": "Geld, das man zusätzlich zum normalen Gehalt bekommt, zum Beispiel zu Weihnachten.",
+    "bsp": "Auch die Sonderzahlungen sollen sinken.",
+    "dates": [
+      "2026-10-19"
+    ],
+    "sq": "pagesë shtesë (bonus)",
+    "tr": "ek ödeme",
+    "uk": "додаткова виплата (премія)",
+    "ar": "دفعة إضافية (مكافأة)",
+    "fa": "پرداخت ویژه (پاداش)",
+    "es": "pago extraordinario",
+    "fr": "versement exceptionnel (prime)",
+    "it": "pagamento straordinario"
+  },
+  {
+    "de": "die Kryptowährung",
+    "en": "cryptocurrency",
+    "erk": "Ein digitaler Wert wie Bitcoin, dessen Übertragungen kryptografisch gesichert werden.",
+    "bsp": "Kunden können in der App Kryptowährungen kaufen und verkaufen.",
+    "dates": [
+      "2026-10-20"
+    ],
+    "sq": "kriptovalutë",
+    "tr": "kripto para",
+    "uk": "криптовалюта",
+    "ar": "عملة مشفّرة",
+    "fa": "ارز دیجیتال",
+    "es": "criptomoneda",
+    "fr": "cryptomonnaie",
+    "it": "criptovaluta"
+  },
+  {
+    "de": "verwahren",
+    "en": "to hold in custody, to keep safe",
+    "erk": "Etwas sicher aufbewahren, zum Beispiel für einen Kunden.",
+    "bsp": "Die DekaBank verwahrt die Kryptowerte zusammen mit der Börse Stuttgart.",
+    "dates": [
+      "2026-10-20"
+    ],
+    "sq": "ruaj (në depozitë)",
+    "tr": "saklamak",
+    "uk": "зберігати (на зберігання)",
+    "ar": "يحفظ (للعميل)",
+    "fa": "نگهداری کردن",
+    "es": "custodiar",
+    "fr": "conserver (garder en dépôt)",
+    "it": "custodire"
+  },
+  {
+    "de": "die Kursschwankung",
+    "en": "price fluctuation",
+    "erk": "Der Preis steigt und fällt immer wieder stark.",
+    "bsp": "Die App warnt vor starken Kursschwankungen.",
+    "dates": [
+      "2026-10-20"
+    ],
+    "sq": "luhatje e çmimit",
+    "tr": "fiyat dalgalanması",
+    "uk": "коливання курсу",
+    "ar": "تقلّب الأسعار",
+    "fa": "نوسان قیمت",
+    "es": "fluctuación del precio",
+    "fr": "fluctuation des cours",
+    "it": "oscillazione dei prezzi"
+  },
+  {
+    "de": "hochspekulativ",
+    "en": "highly speculative",
+    "erk": "Mit sehr großem Risiko: Man kann viel gewinnen, aber auch viel verlieren.",
+    "bsp": "Der Verband nennt Kryptowerte hochspekulative Anlagen.",
+    "dates": [
+      "2026-10-20"
+    ],
+    "sq": "shumë spekulativ",
+    "tr": "çok spekülatif",
+    "uk": "дуже спекулятивний",
+    "ar": "شديد المخاطرة (مضاربة)",
+    "fa": "بسیار پرریسک",
+    "es": "altamente especulativo",
+    "fr": "hautement spéculatif",
+    "it": "altamente speculativo"
+  },
+  {
+    "de": "der Totalverlust",
+    "en": "total loss",
+    "erk": "Man verliert das ganze Geld, das man angelegt hat.",
+    "bsp": "Es gibt das Risiko eines Totalverlusts.",
+    "dates": [
+      "2026-10-20"
+    ],
+    "sq": "humbje totale",
+    "tr": "toplam kayıp",
+    "uk": "повна втрата",
+    "ar": "خسارة كاملة",
+    "fa": "زیان کامل",
+    "es": "pérdida total",
+    "fr": "perte totale",
+    "it": "perdita totale"
+  },
+  {
+    "de": "die Anlageberatung",
+    "en": "investment advice",
+    "erk": "Eine persönliche Beratung dazu, welche Geldanlagen zu einer Person passen können.",
+    "bsp": "Zu Kryptowerten gibt es keine Anlageberatung.",
+    "dates": [
+      "2026-10-20"
+    ],
+    "sq": "këshillim investimi",
+    "tr": "yatırım danışmanlığı",
+    "uk": "інвестиційна консультація",
+    "ar": "استشارة استثمارية",
+    "fa": "مشاوره سرمایه‌گذاری",
+    "es": "asesoramiento de inversión",
+    "fr": "conseil en investissement",
+    "it": "consulenza sugli investimenti"
   }
 ]

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie läuft der Start des Kryptohandels bei den Sparkassen ab?",
+      "o": [
+        "Alle mehr als 300 Sparkassen starten am 19. Oktober gleichzeitig.",
+        "Jede Sparkasse entscheidet selbst, wann sie mitmacht; pro Monat sollen 30 bis 40 weitere dazukommen.",
+        "Zuerst dürfen nur die Sparkassen in Bayern mitmachen."
+      ],
+      "c": 1,
+      "why": "Der Start erfolgt <b>schrittweise</b>: Jede Sparkasse entscheidet selbst, und der DSGV will <b>30 bis 40 weitere pro Monat</b> anschließen. Einen <b>bundesweiten Starttermin gibt es nicht</b>, und Bayern ist nur ein Beispiel: Dort ist bisher nur eine Sparkasse am Start."
+    },
+    {
+      "q": "Was sagen die Sparkassen zu den Kryptowerten?",
+      "o": [
+        "Sie empfehlen Kryptowerte als sichere Geldanlage.",
+        "Sie beraten die Kunden persönlich in der Filiale, bevor diese kaufen.",
+        "Sie beraten nicht dazu und warnen vor starken Kursschwankungen und einem Totalverlust."
+      ],
+      "c": 2,
+      "why": "Die Sparkassen <b>empfehlen nichts und beraten nicht</b>; der Verband nennt Kryptowerte <b>„hochspekulative Anlagen“</b> und die App zeigt eine Warnung. „Sichere Geldanlage“ und „persönliche Beratung“ widersprechen dem Text."
+    },
+    {
+      "q": "Wer verwahrt die Kryptowerte?",
+      "o": [
+        "Die DekaBank zusammen mit der Börse Stuttgart.",
+        "Die jeweilige Sparkasse allein.",
+        "Der Sparkassenverband DSGV."
+      ],
+      "c": 0,
+      "why": "Der Text sagt: Die <b>DekaBank</b> verwahrt die Kryptowerte <b>zusammen mit der Börse Stuttgart</b>. Die einzelne Sparkasse entscheidet nur über ihren Starttermin, und der DSGV koordiniert den Start, verwahrt aber nichts."
+    }
+  ],
+  "schreib": [
+    "<b>Wer</b> regelmäßig spart, kann sich später mehr leisten.<span class=\"hint\"> Nach dem „Wer“-Satz steht direkt das Verb des Hauptsatzes. Nicht: „Wer regelmäßig spart, er kann …“.</span>",
+    "Viele Menschen unterschätzen <b>das Risiko eines</b> Preisverfalls.<span class=\"hint\"> Genitiv: „eines Preisverfalls“ mit „-s“. Nicht: „das Risiko eines Preisverfall“.</span>",
+    "Die Verbraucherzentrale <b>warnt vor</b> falschen Gewinnversprechen im Internet.<span class=\"hint\"> „warnen vor“ + Dativ („vor falschen Versprechen“). Nicht: „warnen für“ oder „warnen über“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Neu ist, dass …",
+      "Das Angebot startet schrittweise.",
+      "Die App warnt vor starken Kursschwankungen.",
+      "Wer kauft, trägt das Risiko selbst.",
+      "Ich würde erst mal abwarten und mich genau informieren."
+    ],
+    "modell": "„Neu ist, dass die Sparkassen jetzt <b>Kryptowährungen</b> wie Bitcoin in ihrer App anbieten. Der Start erfolgt <b>schrittweise</b>: Es gibt keinen <b>bundesweiten</b> Termin, jede Sparkasse entscheidet selbst. Die App <b>warnt vor</b> starken <b>Kursschwankungen</b> und dem Risiko eines <b>Totalverlusts</b>, und es gibt keine <b>Anlageberatung</b>. Wer kauft, entscheidet also allein. Ich finde es wichtig, ein Angebot von einer Empfehlung zu unterscheiden.“"
+  }
+}

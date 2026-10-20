@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie lange soll die Nullrunde laut Bericht gelten?",
+      "o": [
+        "Nur bis Januar, wenn die möglichen Streiks beginnen.",
+        "Bis 2030.",
+        "Nur im vierten Quartal."
+      ],
+      "c": 1,
+      "why": "Laut Bericht soll die Nullrunde <b>bis 2030</b> gelten. Das <b>vierte Quartal</b> ist nur der Start der neuen Verhandlungsleitlinien, und <b>Januar</b> betrifft die möglichen Streiks der IG Metall."
+    },
+    {
+      "q": "Wie reagiert Volkswagen auf den Bericht?",
+      "o": [
+        "Das Unternehmen bestätigt die Pläne.",
+        "Das Unternehmen weist alle Punkte als falsch zurück.",
+        "Das Unternehmen äußert sich nicht zu „Spekulationen“ und verweist auf die kommende Verhandlungsrunde."
+      ],
+      "c": 2,
+      "why": "VW wollte sich <b>nicht zu „solchen Spekulationen“ äußern</b> und verwies auf die <b>Verhandlungsrunde</b>. Es hat die Pläne weder bestätigt noch ausdrücklich zurückgewiesen."
+    },
+    {
+      "q": "Warum könnte das Realeinkommen um bis zu zehn Prozent sinken?",
+      "o": [
+        "Wegen der Inflation: Das Gehalt bliebe gleich, aber man kann sich weniger kaufen.",
+        "Weil das Grundgehalt direkt um zehn Prozent gekürzt wird.",
+        "Weil zehn Prozent der Beschäftigten entlassen werden."
+      ],
+      "c": 0,
+      "why": "Der Text sagt: <b>Wegen der Inflation</b> bliebe das Gehalt gleich, aber die Kaufkraft sinkt. Von einer direkten Kürzung des Grundgehalts oder von zehn Prozent Entlassungen steht nichts im Text."
+    }
+  ],
+  "schreib": [
+    "<b>Laut</b> einem Bericht <b>soll</b> die Firma im nächsten Jahr 200 neue Stellen schaffen.<span class=\"hint\"> „laut“ steht mit Dativ („laut einem Bericht“). „soll“ drückt hier aus: Man berichtet das, es ist nicht sicher. Nicht mit „muss“ verwechseln.</span>",
+    "<b>Wegen</b> der hohen Preise kaufen viele Menschen weniger ein.<span class=\"hint\"> In der Schriftsprache steht nach „wegen“ der Genitiv: „wegen der Preise“. „wegen den Preisen“ hört man oft, ist aber umgangssprachlich.</span>",
+    "Der Chef wollte <b>sich</b> nicht <b>zu</b> den Gerüchten <b>äußern</b>.<span class=\"hint\"> In diesem Muster steht „sich äußern zu“ mit Dativ: „sich zu den Gerüchten äußern“. Ohne Reflexivpronomen gibt es ein anderes korrektes Muster: „Der Chef äußert Kritik“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Laut einem Bericht soll …",
+      "Das ist bisher nur ein Bericht, nichts ist bestätigt.",
+      "Das heißt: …",
+      "Volkswagen wollte sich nicht dazu äußern.",
+      "Ich könnte mir vorstellen, dass …"
+    ],
+    "modell": "„Laut einem Bericht der Süddeutschen Zeitung soll VW für viele Beschäftigte bis 2030 eine <b>Nullrunde</b> planen, also die Gehälter <b>einfrieren</b>. Das heißt: Wegen der Inflation könnte das <b>Realeinkommen</b> um bis zu zehn Prozent sinken. Auch <b>Sonderzahlungen</b> sollen sinken. Volkswagen hat nichts bestätigt und verweist auf die kommende <b>Verhandlungsrunde</b>. Ich finde, man sollte erst abwarten, was wirklich beschlossen wird.“"
+  }
+}

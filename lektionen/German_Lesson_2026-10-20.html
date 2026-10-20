@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 20. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 20. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Bitcoin in der Sparkassen-App: Erste Sparkassen starten den Kryptohandel</h2>
+    <div class="card">
+      <p>Seit Montag, dem 19. Oktober 2026, können die ersten Kundinnen und Kunden einiger Sparkassen in ihrer Banking-App Kryptowährungen kaufen und verkaufen. Zum Start gibt es fünf: Bitcoin, Ethereum, Ripple, Solana und Polygon. Die Technik liefert die DekaBank, das Wertpapierhaus der Sparkassen. Sie verwahrt die Kryptowerte zusammen mit der Börse Stuttgart.</p>
+      <p>Einen bundesweiten Starttermin gibt es nicht. Jede Sparkasse entscheidet selbst, wann sie mitmacht. Der Start erfolgt deshalb schrittweise: Der Sparkassenverband DSGV will pro Monat 30 bis 40 weitere Institute anschließen, bis zum ersten Halbjahr 2027 sollen die meisten interessierten Sparkassen dabei sein. In Deutschland gibt es mehr als 300 Sparkassen. In Bayern ist bisher nur die Sparkasse Rottal-Inn am Start; 70 Prozent der 38 bayerischen Sparkassen haben sich aber für das Angebot entschieden.</p>
+      <p>Die Sparkassen empfehlen Kryptowerte nicht und beraten auch nicht dazu. Der Verband nennt sie „hochspekulative Anlagen“. Deshalb warnt die App ihre Kunden ausdrücklich vor starken Kursschwankungen und vor dem Risiko eines Totalverlusts. Das Angebot richtet sich an „digitale Selbstentscheider“. Wer kauft, entscheidet also allein und trägt das Risiko selbst.</p>
+      <p>Neu ist nicht die Technik, denn Bitcoin gibt es schon lange. Neu ist, dass eine klassische Bank mit einem sehr bekannten Namen das Handeln so einfach macht. Genau deshalb lohnt sich ein genauer Blick, bevor man den ersten Euro investiert: Ein Angebot ist keine Empfehlung.</p>
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Kryptowährung</td><td>cryptocurrency</td><td>Ein digitaler Wert wie Bitcoin, dessen Übertragungen kryptografisch gesichert werden.</td><td>Kunden können in der App Kryptowährungen kaufen und verkaufen.</td></tr>
+        <tr><td>verwahren</td><td>to hold in custody, to keep safe</td><td>Etwas sicher aufbewahren, zum Beispiel für einen Kunden.</td><td>Die DekaBank verwahrt die Kryptowerte zusammen mit der Börse Stuttgart.</td></tr>
+        <tr><td>die Kursschwankung</td><td>price fluctuation</td><td>Der Preis steigt und fällt immer wieder stark.</td><td>Die App warnt vor starken Kursschwankungen.</td></tr>
+        <tr><td>hochspekulativ</td><td>highly speculative</td><td>Mit sehr großem Risiko: Man kann viel gewinnen, aber auch viel verlieren.</td><td>Der Verband nennt Kryptowerte hochspekulative Anlagen.</td></tr>
+        <tr><td>der Totalverlust</td><td>total loss</td><td>Man verliert das ganze Geld, das man angelegt hat.</td><td>Es gibt das Risiko eines Totalverlusts.</td></tr>
+        <tr><td>die Anlageberatung</td><td>investment advice</td><td>Eine persönliche Beratung dazu, welche Geldanlagen zu einer Person passen können.</td><td>Zu Kryptowerten gibt es keine Anlageberatung.</td></tr>
+        <tr><td>bundesweit</td><td>nationwide</td><td>In ganz Deutschland, in allen Bundesländern.</td><td>Es gibt keinen bundesweiten Starttermin.</td></tr>
+        <tr><td>schrittweise <span class="rep">(Wiederholung)</span></td><td>step by step, gradually</td><td>Nicht alles auf einmal, sondern nacheinander.</td><td>Der Start erfolgt schrittweise: Jede Sparkasse entscheidet selbst.</td></tr>
+        <tr><td>warnen vor <span class="rep">(Wiederholung)</span></td><td>to warn about</td><td>Jemandem sagen, dass etwas gefährlich sein kann.</td><td>Die App warnt vor starken Kursschwankungen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„auf eigenes Risiko“</b> — Man trägt die Folgen selbst, wenn etwas schiefgeht.<br><i>Wer Kryptowerte kauft, handelt auf eigenes Risiko.</i></li>
+        <li><b>„Wer …, (der) …“</b> — Ein Satzmuster für allgemeine Aussagen: „Jeder, der …“.<br><i>Wer kauft, entscheidet allein.</i></li>
+        <li><b>„pro Monat“ / „im ersten Halbjahr 2027“</b> — Typische Zeitangaben in Nachrichten und im Job.<br><i>Pro Monat sollen 30 bis 40 weitere Sparkassen dazukommen.</i></li>
+        <li><b>„Ein Angebot ist keine Empfehlung.“</b> — Damit sagt man: Etwas ist möglich, aber niemand rät dazu.<br><i>Die Sparkasse bietet Bitcoin an, aber sie rät nicht dazu: Ein Angebot ist keine Empfehlung.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„Wer …, (der) …“ für allgemeine Aussagen:</b> „Wer kauft, entscheidet allein.“ „Wer“ meint hier „jeder, der“. Der Nebensatz mit „wer“ steht vorn, das Verb steht am Ende des Nebensatzes, danach kommt das Verb des Hauptsatzes sofort: „Wer viel riskiert, kann viel verlieren.“ Nach dem Wer-Satz kann auch das verweisende „der“ stehen: „Wer kauft, der entscheidet allein.“ Ohne „der“ beginnt der Hauptsatz direkt mit dem Verb.</p></div>
+      <div class="grammar-block"><p><b>Genitiv bei „das Risiko eines Totalverlusts“:</b> Nach Nomen wie „Risiko“ oder „Gefahr“ steht oft der Genitiv: „das Risiko eines Totalverlusts“, „die Gefahr einer Kurskorrektur“. Maskuline und neutrale Nomen bekommen im Genitiv meist ein „-s“ oder „-es“. Achte auf die Genitivendung: „eines Totalverlusts“, nicht „eines Totalverlust“. Auch „das Risiko von einem Totalverlust“ ist grammatisch möglich; die Genitivform ist kürzer. Nach „warnen vor“ steht dagegen der Dativ: „vor starken Kursschwankungen“.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie läuft der Start des Kryptohandels bei den Sparkassen ab?</li>
+          <li>Was sagen die Sparkassen zu den Kryptowerten?</li>
+          <li>Wer verwahrt die Kryptowerte?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen allgemeinen Satz mit „Wer …, …“ über Geld oder Sparen.</li>
+          <li>Schreibe einen Satz mit „das Risiko“ + Genitiv, zum Beispiel über Geldanlagen oder Online-Käufe.</li>
+          <li>Schreibe einen Satz mit „warnen vor“ + Dativ.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Ein Kollege fragt dich: „Hast du gelesen? Die Sparkassen bieten jetzt Bitcoin an. Was heißt das eigentlich?“ Antworte mündlich in fünf Sätzen: was neu ist, wie der Start abläuft, wovor die Sparkassen warnen, wer das Risiko trägt, was du davon hältst.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: <a href="https://www.deka.de/krypto/angebot">DekaBank: Informationen zum Krypto-Angebot</a>; <a href="https://www.wiwo.de/unternehmen/banken/bitcoin-und-co-sparkassen-starten-schrittweise-kryptohandel-mit-warnung/100263121.html">WirtschaftsWoche/dpa: Sparkassen starten schrittweise Kryptohandel – mit Warnung (19. Oktober 2026)</a>; <a href="https://www.infranken.de/ratgeber/karriere-geld/sparkassen-starten-heute-mit-krypto-geschaeft-das-sollten-sie-zu-bitcoin-co-wissen-art-6404528">infranken: Sparkassen starten heute mit Krypto-Geschäft (19. Oktober 2026)</a>; <a href="https://winfuture.de/news,162039.html">WinFuture: Erste Sparkassen starten Krypto-Angebot per App (19. Oktober 2026)</a>. Vereinfacht für B1/B2; geprüft am 20. Oktober 2026. Die Lernfragen wurden ergänzt. Kein Anlagetipp.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

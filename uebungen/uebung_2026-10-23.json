@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Worauf konzentriert sich Teamleiter Murat Aksoy im Lernbeispiel?",
+      "o": [
+        "Auf die Kundin, die sich beschwert hat.",
+        "Auf die Kollegin, die den Fehler gemacht hat.",
+        "Auf den Ablauf: Niemand hatte die Packliste zweimal geprüft."
+      ],
+      "c": 2,
+      "why": "Im erfundenen Beispiel konzentriert sich Aksoy auf den <b>Ablauf</b>: Niemand hatte die Packliste zweimal geprüft."
+    },
+    {
+      "q": "Wozu dokumentiert das Team die Arbeitsschritte?",
+      "o": [
+        "Um später die Fehlerquelle zu finden.",
+        "Damit die Kundin das Protokoll lesen kann.",
+        "Damit neue Mitarbeiter keine Schulung brauchen."
+      ],
+      "c": 0,
+      "why": "Das Team dokumentiert jeden Schritt, <b>um später die Fehlerquelle zu finden</b>. Das Protokoll ist für Kollegen im Intranet gedacht, nicht für die Kundin, und neue Mitarbeiter bekommen ja gerade Schulungen."
+    },
+    {
+      "q": "Wofür bietet die Firma Schulungen an?",
+      "o": [
+        "Damit alle schneller arbeiten und keine Regeln mehr lesen müssen.",
+        "Damit alle auf dem letzten Stand sind und sich an die Abläufe gewöhnen.",
+        "Damit die Handscanner billiger werden."
+      ],
+      "c": 1,
+      "why": "Schulungen helfen neuen Mitarbeitern, <b>sich an die Abläufe zu gewöhnen</b>, und tragen dazu bei, dass alle <b>auf dem letzten Stand</b> sind. Regeln lesen müssen alle weiterhin (sie sollen die Vorgaben einhalten), und die Handscanner stellt die Firma zur Verfügung."
+    }
+  ],
+  "schreib": [
+    "Ich <b>ärgere mich über</b> die langen Wartezeiten bei der Ausländerbehörde.<span class=\"hint\"> „sich ärgern über“ + Akkusativ. Nicht: „sich ärgern für / mit / von“.</span>",
+    "Wir protokollieren die Besprechung, <b>damit</b> alle Kollegen das Ergebnis später lesen <b>können</b>.<span class=\"hint\"> Zwei verschiedene Subjekte (wir / alle Kollegen) → „damit“, Verb am Ende. Nicht: „um alle Kollegen … zu lesen“.</span>",
+    "Wir dokumentieren die Schritte, <b>um</b> Zeit <b>zu</b> sparen.<span class=\"hint\"> Gleiches Subjekt → „um … zu“ + Infinitiv. Das „zu“ steht direkt vor dem Infinitiv.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Fehler passieren, aber …",
+      "Es lag daran, dass …",
+      "Wir dokumentieren das, um …",
+      "Damit das nicht noch einmal passiert, …",
+      "Die Firma stellt uns … zur Verfügung."
+    ],
+    "modell": "„Heute ist ein Fehler passiert: Ein Kunde hat das falsche Produkt bekommen. Es lag daran, dass niemand die Liste zweimal geprüft hat. Wir <b>dokumentieren</b> den Ablauf und <b>protokollieren</b> die Besprechung, um die Fehlerquelle zu finden. Damit das nicht noch einmal passiert, müssen alle die <b>Vorgaben einhalten</b>. Die Firma stellt uns dafür neue Scanner <b>zur Verfügung</b>, und eine <b>Schulung</b> hilft, dass alle auf dem letzten Stand sind.“"
+  }
+}

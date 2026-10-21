@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Warum soll die Verordnung geändert werden?",
+      "o": [
+        "Damit der Test nur noch online stattfindet.",
+        "Damit Schreiben nicht mehr geprüft wird.",
+        "Um Betrug zu unterbinden und die Anforderungen an die Teilbereiche zu präzisieren."
+      ],
+      "c": 2,
+      "why": "Dem Ministerium zufolge soll die Änderung <b>Betrug unterbinden</b>. Die Vorschrift legt fest, welche Ergebnisse in den drei Bereichen für B1 erforderlich sind."
+    },
+    {
+      "q": "Welche Ergebnisse sind künftig für das Gesamtergebnis B1 erforderlich?",
+      "o": [
+        "B1 im Sprechen, B1 in einem weiteren Bereich und mindestens A2 im verbleibenden Bereich.",
+        "B1 nur im Sprechen; die übrigen Bereiche spielen keine Rolle.",
+        "B1 in jedem Bereich ohne Ausnahme."
+      ],
+      "c": 0,
+      "why": "Erforderlich sind <b>B1 im Sprechen</b> und in mindestens einem der Bereiche Hören/Lesen oder Schreiben. Im übrigen Bereich braucht man <b>mindestens A2</b>."
+    },
+    {
+      "q": "Was gilt für jemanden mit B1 im Sprechen und in Hören/Lesen?",
+      "o": [
+        "Der Schreibteil darf leer bleiben.",
+        "Im Schreiben ist zusätzlich mindestens A2 erforderlich.",
+        "Es muss kein Schreibteil abgegeben werden."
+      ],
+      "c": 1,
+      "why": "Auch mit B1 im Sprechen und in Hören/Lesen ist <b>mindestens A2 im Schreiben</b> nötig. Ein leerer Schreibteil genügt nicht."
+    }
+  ],
+  "schreib": [
+    "Die Lehrerin sagt, Schreiben <b>sei</b> wichtig.<span class=\"hint\"> Auch mit „dass“ ist Konjunktiv I möglich: „Sie sagt, dass Schreiben wichtig sei.“ In beiden Nebensätzen steht das Verb am Ende.</span>",
+    "<b>Dem Bericht zufolge</b> steigen die Preise im Winter weiter.<span class=\"hint\"> Hier steht die Wortgruppe „dem Bericht“ im Dativ vor „zufolge“.</span>",
+    "Die Teilnehmer sagen, sie <b>hätten</b> alle Aufgaben geübt.<span class=\"hint\"> „sie haben“ sieht im Konjunktiv I und Indikativ gleich aus. Deshalb kann „hätten“ als Ersatzform stehen.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Dem Ministerium zufolge …",
+      "Für das Gesamtergebnis B1 braucht man …",
+      "Im verbleibenden Bereich ist mindestens A2 erforderlich.",
+      "Die Prüfungsstelle ist für organisatorische Fragen zuständig.",
+      "Ich finde es wichtig, dass …"
+    ],
+    "modell": "„Dem Ministerium <b>zufolge</b> soll die Änderung Betrug <b>unterbinden</b>. Für das Gesamtergebnis B1 braucht man B1 im Sprechen und in einem weiteren Bereich. Im dritten Bereich ist mindestens A2 erforderlich. Man sollte deshalb auch regelmäßig kurze Nachrichten <b>verfassen</b>. Ich finde es sinnvoll, alle Fertigkeiten zu üben und organisatorische Fragen mit der Prüfungsstelle zu klären.“"
+  }
+}

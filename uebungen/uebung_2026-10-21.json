@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Was hat der BGH am 21. Oktober entschieden?",
+      "o": [
+        "Die Schufa muss sofort schließen.",
+        "Vier Urteile wurden aufgehoben und die Verfahren zurückverwiesen.",
+        "Die vier Kläger bekommen automatisch Schadensersatz."
+      ],
+      "c": 1,
+      "why": "Der BGH hat vier Urteile <b>aufgehoben</b> und die Verfahren an das Oberlandesgericht <b>zurückverwiesen</b>. Dort müssen die Fälle erneut geprüft werden."
+    },
+    {
+      "q": "Was hatte das Oberlandesgericht Dresden entschieden?",
+      "o": [
+        "Die Schufa muss ihren alten Score sofort abschaffen.",
+        "Die bisherige Auskunft ist in jedem Fall ausreichend.",
+        "Die Schufa muss weitere Informationen zur Berechnung geben."
+      ],
+      "c": 2,
+      "why": "Die früheren Urteile betrafen weitergehende <b>Auskünfte zur Berechnung</b>. Der BGH hat sie aufgehoben, weil Voraussetzungen des Anspruchs noch geprüft werden müssen."
+    },
+    {
+      "q": "Welche Bedeutung hat eine erfolgreiche Revision laut Text?",
+      "o": [
+        "Sie bedeutet nicht automatisch, dass die andere Seite in allen Punkten unrecht hat.",
+        "Sie beendet immer alle weiteren Verfahren.",
+        "Sie beweist, dass alle Berechnungen richtig waren."
+      ],
+      "c": 0,
+      "why": "Nach einer erfolgreichen Revision kann eine <b>erneute Prüfung</b> nötig sein. Das beantwortet noch nicht automatisch alle Fragen des Falls."
+    }
+  ],
+  "schreib": [
+    "Ich weiß nicht, <b>ob</b> mein Vertrag nächstes Jahr teurer <b>wird</b>.<span class=\"hint\"> Nach „ob“ und „wie“ steht das Verb am Ende. Nicht: „Ich weiß nicht, ob wird mein Vertrag teurer.“</span>",
+    "Der Beitrag <b>soll</b> im nächsten Jahr erhöht <b>werden</b>.<span class=\"hint\"> Modalverb + Partizip II + „werden“. Nicht: „soll erhöht wurde“ oder „soll erhöht“.</span>",
+    "Zwei Kunden <b>haben</b> den Anbieter wegen falscher Preise <b>verklagt</b>.<span class=\"hint\"> „verklagen“ ist untrennbar: Partizip „verklagt“ ohne „ge-“. Nicht: „geverklagt“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Es geht darum, ob …",
+      "Vier Privatpersonen haben die Schufa verklagt.",
+      "Die Verfahren müssen erneut geprüft werden.",
+      "Das bedeutet nicht automatisch, dass …",
+      "Verständliche Informationen sind wichtig, weil …"
+    ],
+    "modell": "„Vier Privatpersonen haben die Schufa <b>verklagt</b>, weil sie die Berechnung ihrer Werte genauer verstehen wollen. Der BGH hat vier frühere Urteile aufgehoben. Die Fälle müssen jetzt in Dresden erneut geprüft werden. Wichtig ist unter anderem, ob der Score für eine Entscheidung <b>maßgeblich</b> war. Ich finde <b>nachvollziehbare</b> Informationen wichtig, weil Menschen verstehen möchten, welche Daten verwendet werden.“"
+  }
+}

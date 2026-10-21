@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 21. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    box-shadow:0 4px 10px rgba(0,0,0,0.06);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 21. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext</div>
+    <h2 class="heading">Schufa-Score: Der BGH schickt vier Fälle zurück nach Dresden</h2>
+    <div class="card">
+      <p>Am 21. Oktober 2026 hat der Bundesgerichtshof in Karlsruhe über Auskünfte zum alten Schufa-Score entschieden. Vier Privatpersonen hatten die Auskunftei verklagt. Sie wollten genauer verstehen, wie ihre Werte berechnet wurden. Das Oberlandesgericht hatte weitere Auskünfte verlangt, unter anderem zur Gewichtung der Kriterien. Der BGH hat vier Urteile des Oberlandesgerichts Dresden aufgehoben und die Verfahren zurückverwiesen. Das bedeutet: Das Oberlandesgericht muss die Fälle erneut prüfen. Nicht alle Fragen der Kläger sind damit endgültig beantwortet.</p>
+      <p>Im Mittelpunkt steht der Auskunftsanspruch nach dem Datenschutzrecht. Entscheidend ist unter anderem, ob ein Score für eine Vertragsentscheidung maßgeblich war und die betroffene Person dadurch erheblich beeinträchtigt wurde. Ein Score ist eine Zahl, mit der Zahlungsrisiken eingeschätzt werden. Er ist keine sichere Aussage darüber, wie sich ein einzelner Mensch tatsächlich verhalten wird.</p>
+      <p>Nach dem Bericht über die Urteile müssen Betroffene die Voraussetzungen grundsätzlich darlegen. Der BGH erleichtert ihnen das jedoch: Wurde ein Score übermittelt und folgte zeitnah eine nachteilige Vertragsentscheidung, kann dies für einen maßgeblichen Einfluss sprechen. Besteht der entsprechende Auskunftsanspruch, reichen die bisher erteilten Informationen laut BGH nicht aus. Die Schufa war gegen die früheren Urteile in Revision gegangen.</p>
+      <p>Für den Alltag ist das Thema wichtig, weil verständliche Informationen helfen, Entscheidungen nachzuvollziehen. Wer ein Verfahren intransparent findet, fragt zum Beispiel: Welche Daten wurden verwendet? Welche Gewichtung haben einzelne Kriterien? Warum wurde mein Antrag abgelehnt? Diese Fragen eignen sich auch für Gespräche über Datenschutz am Arbeitsplatz. Der Fall zeigt außerdem: Eine erfolgreiche Revision bedeutet nicht automatisch, dass die andere Seite in allen Punkten unrecht hat.</p>
+
+
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Auskunftsanspruch</td><td>right to information</td><td>Das Recht, von einer Firma zu verlangen, dass sie sagt, welche Daten sie hat.</td><td>Vier Privatpersonen klagen wegen ihres Auskunftsanspruchs gegen die Schufa.</td></tr>
+        <tr><td>der Score</td><td>score, rating</td><td>Eine Zahl, mit der mögliche Zahlungsrisiken eingeschätzt werden.</td><td>Ein Score kann eine Vertragsentscheidung beeinflussen.</td></tr>
+        <tr><td>intransparent</td><td>not transparent, opaque</td><td>Man kann nicht gut verstehen, wie etwas funktioniert oder entschieden wird.</td><td>Die Kläger finden das alte Verfahren intransparent.</td></tr>
+        <tr><td>nachvollziehbar</td><td>comprehensible, traceable</td><td>So klar, dass man Schritt für Schritt verstehen kann, wie etwas entsteht.</td><td>Die Reform soll Scores nachvollziehbarer machen.</td></tr>
+        <tr><td>die Revision</td><td>appeal on points of law</td><td>Ein Antrag bei einem höheren Gericht, ein Urteil rechtlich zu prüfen.</td><td>Die Schufa ging in Revision, um eine klare Antwort zu bekommen.</td></tr>
+        <tr><td>maßgeblich</td><td>decisive, determining</td><td>So wichtig, dass es eine Entscheidung stark beeinflusst.</td><td>Ein Score spielt bei einem Kredit oft eine maßgebliche Rolle.</td></tr>
+        <tr><td>die Gewichtung</td><td>weighting</td><td>Wie wichtig ein einzelner Punkt im Vergleich zu anderen ist.</td><td>Die Schufa soll erklären, wie die Kriterien gewichtet werden.</td></tr>
+        <tr><td>der Datenschutz <span class="rep">(Wiederholung)</span></td><td>data protection, privacy</td><td>Der Schutz der persönlichen Daten einer Person.</td><td>Die Regeln des Datenschutzes gelten auch für Scores.</td></tr>
+        <tr><td>verklagen <span class="rep">(Wiederholung)</span></td><td>to sue, to take to court</td><td>Jemanden vor Gericht bringen, weil man findet, dass er etwas falsch gemacht hat.</td><td>Vier Privatpersonen haben die Auskunftei verklagt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Es geht um …“ / „Es geht darum, ob …“</b> — Damit sagt man, was das Thema ist. Sehr häufig in Nachrichten und Meetings.<br><i>Es geht darum, ob die Schufa mehr erklären muss.</i></li>
+        <li><b>„Egal, wie … ausfällt, …“</b> — Das Ergebnis ist noch offen, aber etwas gilt in jedem Fall.<br><i>Egal, wie das Verfahren endet: Verständliche Informationen bleiben wichtig.</i></li>
+        <li><b>„auf Anfrage“</b> — Man bekommt etwas nur, wenn man danach fragt.<br><i>Auf Anfrage erhält die Kollegin weitere Informationen zum Vertrag.</i></li>
+        <li><b>„in Revision gehen“</b> — Ein Urteil von einem höheren Gericht prüfen lassen.<br><i>Die Schufa ging in Revision, weil sie bundesweit Klarheit wollte.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Indirekte Frage:</b> „Der BGH entscheidet, <b>wie umfassend</b> die Schufa informieren <b>muss</b>.“ Nach „wie“, „ob“, „warum“ oder „was“ steht das Verb am Ende des Nebensatzes. „Ob“ benutzt man bei Ja/Nein-Fragen: „Es geht darum, <b>ob</b> der Score nachvollziehbar <b>ist</b>.“ Typischer Fehler: die Verbstellung der direkten Frage behalten („…, wie muss die Schufa informieren“).</p></div>
+      <div class="grammar-block"><p><b>Passiv mit Modalverb:</b> „Die Kriterien <b>müssen</b> verständlich erklärt <b>werden</b>.“ Muster: Modalverb + Partizip II + „werden“ am Ende. So betont man eine notwendige Handlung, ohne zu sagen, wer sie ausführt. Typischer Fehler: „werden“ vergessen („Der Score soll abgeschafft“) oder „wurde“ statt „werden“ am Ende benutzen.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Was hat der BGH am 21. Oktober entschieden?</li>
+          <li>Was hatte das Oberlandesgericht Dresden entschieden?</li>
+          <li>Welche Bedeutung hat eine erfolgreiche Revision laut Text?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit einer indirekten Frage („Ich weiß nicht, ob …“ / „Es geht darum, wie …“) über Geld oder Verträge.</li>
+          <li>Schreibe einen Satz im Passiv mit Modalverb („… soll / muss … werden“) über eine Regel oder eine Reform.</li>
+          <li>Schreibe einen Satz mit „verklagen“ im Perfekt (zum Beispiel über Verbraucher und Firmen).</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Eine Kollegin fragt dich: „Was hat der BGH zur Schufa entschieden?“ Antworte mündlich in fünf Sätzen: wer geklagt hat, warum die Kläger Informationen wollen, was der BGH entschieden hat, was das für die weiteren Verfahren bedeutet und warum verständliche Auskünfte wichtig sind.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen, geprüft am 21. Oktober 2026: <a href="https://www.rechtundpolitik.com/justiz/bundesgerichtshof/bgh-staerkt-auskunftsrechte-bei-schufa-scorewerten/">JPD: BGH präzisiert Auskunftsansprüche (21. Oktober)</a>; <a href="https://unternehmen-heute.de/news.php?newsid=6715427">AFP: Informationen zum alten Schufa-Wert (21. Oktober)</a>; <a href="https://www.schufa.de/newsroom/schufa/revisionen-schufa-bundesgerichtshof-erfolgreich/index.jsp">SCHUFA: Stellungnahme zu den Revisionen (21. Oktober)</a>. Vereinfacht für B1/B2; Lernfragen und Alltagsbeispiele ergänzt.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

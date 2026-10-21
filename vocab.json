@@ -4481,13 +4481,17 @@
     "erk": "Dafür sorgen, dass etwas gar nicht passieren kann.",
     "bsp": "Ein Preiswettbewerb wird damit von Anfang an unterbunden.",
     "dates": [
-      "2026-09-04"
+      "2026-09-04",
+      "2026-10-22"
     ],
     "sq": "të pengojë, të ndalojë",
     "tr": "önlemek, engellemek",
     "uk": "запобігати, припиняти",
     "ar": "يمنع، يحظر",
-    "fa": "جلوگیری کردن"
+    "fa": "جلوگیری کردن",
+    "es": "impedir",
+    "fr": "empêcher",
+    "it": "impedire"
   },
   {
     "de": "unvermeidlich",
@@ -4570,13 +4574,17 @@
     "erk": "Eine Vorschrift, die eine Behörde oder die EU verbindlich festlegt.",
     "bsp": "Der Kern der neuen KI-Verordnung tritt am 2. August in Kraft.",
     "dates": [
-      "2026-08-24"
+      "2026-08-24",
+      "2026-10-22"
     ],
     "sq": "rregullore",
     "tr": "yönetmelik, tüzük",
     "uk": "регламент, постанова",
     "ar": "لائحة، نظام",
-    "fa": "آیین‌نامه، مقرره"
+    "fa": "آیین‌نامه، مقرره",
+    "es": "reglamento, decreto",
+    "fr": "ordonnance, règlement",
+    "it": "regolamento, ordinanza"
   },
   {
     "de": "verpflichten",
@@ -5817,13 +5825,17 @@
     "erk": "Der Schutz der persönlichen Daten einer Person.",
     "bsp": "Beim Bezahlen mit Karte machen sich manche Sorgen um den Datenschutz.",
     "dates": [
-      "2026-07-16"
+      "2026-07-16",
+      "2026-10-21"
     ],
     "sq": "mbrojtja e të dhënave",
     "tr": "veri koruma, veri gizliliği",
     "uk": "захист даних",
     "ar": "حماية البيانات، الخصوصية",
-    "fa": "حفاظت از داده‌ها، حریم خصوصی"
+    "fa": "حفاظت از داده‌ها، حریم خصوصی",
+    "es": "protección de datos",
+    "fr": "protection des données",
+    "it": "protezione dei dati"
   },
   {
     "de": "der Übergang",
@@ -7199,7 +7211,8 @@
     "erk": "Jemanden vor Gericht bringen, weil man findet, dass er etwas falsch gemacht hat.",
     "bsp": "Die Wettbewerbszentrale verklagte dm vor Gericht in Karlsruhe.",
     "dates": [
-      "2026-09-23"
+      "2026-09-23",
+      "2026-10-21"
     ],
     "sq": "të padisë",
     "tr": "dava etmek",
@@ -7848,7 +7861,8 @@
     "erk": "Mehr als die Hälfte einer Gruppe.",
     "bsp": "Zum ersten Mal nutzt die Mehrheit der Unternehmen KI.",
     "dates": [
-      "2026-09-29"
+      "2026-09-29",
+      "2026-10-22"
     ],
     "sq": "shumica",
     "tr": "çoğunluk",
@@ -9132,7 +9146,8 @@
     "erk": "Helfen, dass etwas gelingt oder passiert.",
     "bsp": "Gute Planung trägt zum Erfolg des Projekts bei.",
     "dates": [
-      "2026-10-09"
+      "2026-10-09",
+      "2026-10-23"
     ],
     "sq": "kontribuoj për",
     "tr": "katkıda bulunmak",
@@ -9149,7 +9164,8 @@
     "erk": "Jemandem etwas geben oder anbieten, damit er es nutzen kann.",
     "bsp": "Die Firma stellt uns Laptops zur Verfügung.",
     "dates": [
-      "2026-10-09"
+      "2026-10-09",
+      "2026-10-23"
     ],
     "sq": "vë në dispozicion",
     "tr": "kullanıma sunmak",
@@ -10593,5 +10609,362 @@
     "es": "asesoramiento de inversión",
     "fr": "conseil en investissement",
     "it": "consulenza sugli investimenti"
+  },
+  {
+    "de": "der Auskunftsanspruch",
+    "en": "right to information",
+    "erk": "Das Recht, von einer Firma zu verlangen, dass sie sagt, welche Daten sie hat.",
+    "bsp": "Vier Privatpersonen klagen wegen ihres Auskunftsanspruchs gegen die Schufa.",
+    "dates": [
+      "2026-10-21"
+    ],
+    "sq": "e drejta për informacion",
+    "tr": "bilgi alma hakkı",
+    "uk": "право на отримання інформації",
+    "ar": "حق الحصول على المعلومات",
+    "fa": "حق دریافت اطلاعات",
+    "es": "derecho de acceso a la información",
+    "fr": "droit d'accès à l'information",
+    "it": "diritto di accesso alle informazioni"
+  },
+  {
+    "de": "der Score",
+    "en": "score, rating",
+    "erk": "Eine Zahl, mit der mögliche Zahlungsrisiken eingeschätzt werden.",
+    "bsp": "Ein Score kann eine Vertragsentscheidung beeinflussen.",
+    "dates": [
+      "2026-10-21"
+    ],
+    "sq": "pikëzimi",
+    "tr": "skor, puan",
+    "uk": "скоринговий бал",
+    "ar": "درجة التقييم",
+    "fa": "امتیاز",
+    "es": "puntuación",
+    "fr": "score",
+    "it": "punteggio"
+  },
+  {
+    "de": "intransparent",
+    "en": "not transparent, opaque",
+    "erk": "Man kann nicht gut verstehen, wie etwas funktioniert oder entschieden wird.",
+    "bsp": "Die Kläger finden das alte Verfahren intransparent.",
+    "dates": [
+      "2026-10-21"
+    ],
+    "sq": "jotransparent",
+    "tr": "şeffaf olmayan",
+    "uk": "непрозорий",
+    "ar": "غير شفاف",
+    "fa": "غیرشفاف",
+    "es": "poco transparente",
+    "fr": "opaque",
+    "it": "poco trasparente"
+  },
+  {
+    "de": "nachvollziehbar",
+    "en": "comprehensible, traceable",
+    "erk": "So klar, dass man Schritt für Schritt verstehen kann, wie etwas entsteht.",
+    "bsp": "Die Reform soll Scores nachvollziehbarer machen.",
+    "dates": [
+      "2026-10-21"
+    ],
+    "sq": "i kuptueshëm",
+    "tr": "anlaşılır, takip edilebilir",
+    "uk": "зрозумілий",
+    "ar": "مفهوم ويمكن تتبعه",
+    "fa": "قابل درک",
+    "es": "comprensible",
+    "fr": "compréhensible",
+    "it": "comprensibile"
+  },
+  {
+    "de": "die Revision",
+    "en": "appeal on points of law",
+    "erk": "Ein Antrag bei einem höheren Gericht, ein Urteil rechtlich zu prüfen.",
+    "bsp": "Die Schufa ging in Revision, um eine klare Antwort zu bekommen.",
+    "dates": [
+      "2026-10-21"
+    ],
+    "sq": "apeli në Gjykatën e Lartë",
+    "tr": "temyiz",
+    "uk": "касаційна скарга",
+    "ar": "طعن بالنقض",
+    "fa": "فرجام‌خواهی",
+    "es": "recurso de casación",
+    "fr": "pourvoi en cassation",
+    "it": "ricorso per cassazione"
+  },
+  {
+    "de": "maßgeblich",
+    "en": "decisive, determining",
+    "erk": "So wichtig, dass es eine Entscheidung stark beeinflusst.",
+    "bsp": "Ein Score spielt bei einem Kredit oft eine maßgebliche Rolle.",
+    "dates": [
+      "2026-10-21"
+    ],
+    "sq": "vendimtar",
+    "tr": "belirleyici",
+    "uk": "вирішальний",
+    "ar": "حاسم",
+    "fa": "تعیین‌کننده",
+    "es": "determinante",
+    "fr": "déterminant",
+    "it": "determinante"
+  },
+  {
+    "de": "die Gewichtung",
+    "en": "weighting",
+    "erk": "Wie wichtig ein einzelner Punkt im Vergleich zu anderen ist.",
+    "bsp": "Die Schufa soll erklären, wie die Kriterien gewichtet werden.",
+    "dates": [
+      "2026-10-21"
+    ],
+    "sq": "peshimi",
+    "tr": "ağırlıklandırma",
+    "uk": "зважування, вага",
+    "ar": "الوزن النسبي",
+    "fa": "وزن‌دهی",
+    "es": "ponderación",
+    "fr": "pondération",
+    "it": "ponderazione"
+  },
+  {
+    "de": "betrügen",
+    "en": "to cheat, to deceive",
+    "erk": "Etwas Unehrliches tun, um einen Vorteil zu bekommen. Das Nomen: der Betrug.",
+    "bsp": "Wer bei einer Prüfung unerlaubte Hilfsmittel benutzt, kann betrügen.",
+    "dates": [
+      "2026-10-22"
+    ],
+    "sq": "mashtroj",
+    "tr": "hile yapmak, aldatmak",
+    "uk": "шахраювати, обманювати",
+    "ar": "يغش، يحتال",
+    "fa": "تقلب کردن، فریب دادن",
+    "es": "engañar, hacer trampa",
+    "fr": "tricher, tromper",
+    "it": "imbrogliare, barare"
+  },
+  {
+    "de": "verfassen",
+    "en": "to write, to compose",
+    "erk": "Einen Text schreiben, besonders einen offiziellen Text.",
+    "bsp": "Die Teilnehmer verfassen eine kurze Nachricht.",
+    "dates": [
+      "2026-10-22"
+    ],
+    "sq": "hartoj",
+    "tr": "kaleme almak, yazmak",
+    "uk": "складати, писати",
+    "ar": "يحرّر، يكتب",
+    "fa": "نوشتن، تنظیم کردن",
+    "es": "redactar",
+    "fr": "rédiger",
+    "it": "redigere"
+  },
+  {
+    "de": "die Vorschrift",
+    "en": "regulation, rule",
+    "erk": "Eine Regel, die man einhalten muss.",
+    "bsp": "Die neue Vorschrift soll den Betrug stoppen.",
+    "dates": [
+      "2026-10-22"
+    ],
+    "sq": "rregull, dispozitë",
+    "tr": "kural, talimat",
+    "uk": "припис, правило",
+    "ar": "قاعدة، تعليمات",
+    "fa": "مقررات، دستور",
+    "es": "norma, prescripción",
+    "fr": "prescription, consigne",
+    "it": "norma, prescrizione"
+  },
+  {
+    "de": "verbindlich",
+    "en": "binding, mandatory",
+    "erk": "Man muss sich daran halten. Es ist nicht freiwillig.",
+    "bsp": "An verbindliche Regeln müssen sich alle halten.",
+    "dates": [
+      "2026-10-22"
+    ],
+    "sq": "i detyrueshëm",
+    "tr": "bağlayıcı",
+    "uk": "обов'язковий",
+    "ar": "ملزم",
+    "fa": "الزام‌آور",
+    "es": "vinculante",
+    "fr": "obligatoire, contraignant",
+    "it": "vincolante"
+  },
+  {
+    "de": "zufolge",
+    "en": "according to",
+    "erk": "Nachgestellt nach einem Nomen im Dativ: So steht es in einer Quelle.",
+    "bsp": "Dem Ministerium zufolge soll die Änderung Betrug verhindern.",
+    "dates": [
+      "2026-10-22"
+    ],
+    "sq": "sipas",
+    "tr": "…e göre",
+    "uk": "згідно з",
+    "ar": "وفقاً لـ",
+    "fa": "طبق، بر اساس",
+    "es": "según",
+    "fr": "selon, d'après",
+    "it": "secondo"
+  },
+  {
+    "de": "zuständig",
+    "en": "responsible, in charge",
+    "erk": "Eine Person oder Stelle muss sich um eine Aufgabe kümmern.",
+    "bsp": "Die Prüfungsstelle ist für organisatorische Fragen zuständig.",
+    "dates": [
+      "2026-10-22"
+    ],
+    "sq": "kompetent, përgjegjës",
+    "tr": "yetkili, sorumlu",
+    "uk": "відповідальний, компетентний",
+    "ar": "مختص، مسؤول",
+    "fa": "مسئول، صلاحیت‌دار",
+    "es": "responsable, competente",
+    "fr": "responsable, compétent",
+    "it": "competente, responsabile"
+  },
+  {
+    "de": "protokollieren",
+    "en": "to record in the minutes",
+    "erk": "Das Ergebnis einer Besprechung schriftlich festhalten.",
+    "bsp": "Das Team protokolliert das Ergebnis der Besprechung.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "mbaj procesverbal",
+    "tr": "tutanak tutmak",
+    "uk": "протоколювати",
+    "ar": "يدوّن محضر الاجتماع",
+    "fa": "صورت‌جلسه نوشتن",
+    "es": "levantar acta",
+    "fr": "consigner dans un procès-verbal",
+    "it": "verbalizzare"
+  },
+  {
+    "de": "dokumentieren",
+    "en": "to document",
+    "erk": "Arbeitsschritte oder Ergebnisse aufschreiben, damit man sie später nachlesen kann.",
+    "bsp": "Wir dokumentieren jeden Arbeitsschritt.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "dokumentoj",
+    "tr": "belgelemek",
+    "uk": "документувати",
+    "ar": "يوثّق",
+    "fa": "مستند کردن",
+    "es": "documentar",
+    "fr": "documenter",
+    "it": "documentare"
+  },
+  {
+    "de": "die Vorgabe",
+    "en": "guideline, requirement",
+    "erk": "Eine Regel oder Anweisung, die von oben kommt.",
+    "bsp": "Alle sollen die Vorgaben einhalten.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "udhëzim, kërkesë",
+    "tr": "talimat, şart",
+    "uk": "вимога, настанова",
+    "ar": "توجيه، شرط",
+    "fa": "دستورالعمل، الزام",
+    "es": "directriz, requisito",
+    "fr": "consigne, exigence",
+    "it": "direttiva, requisito"
+  },
+  {
+    "de": "einhalten",
+    "en": "to comply with, to stick to",
+    "erk": "Sich an eine Regel oder einen Termin halten.",
+    "bsp": "Wir halten die Regeln ein.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "respektoj",
+    "tr": "uymak",
+    "uk": "дотримуватися",
+    "ar": "يلتزم بـ",
+    "fa": "رعایت کردن",
+    "es": "cumplir, respetar",
+    "fr": "respecter",
+    "it": "rispettare"
+  },
+  {
+    "de": "die Schulung",
+    "en": "training (course)",
+    "erk": "Ein Kurs im Unternehmen, in dem man etwas Neues lernt.",
+    "bsp": "Die Firma bietet Schulungen für neue Mitarbeiter an.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "trajnim",
+    "tr": "eğitim",
+    "uk": "навчання, тренінг",
+    "ar": "دورة تدريبية",
+    "fa": "آموزش",
+    "es": "formación, capacitación",
+    "fr": "formation",
+    "it": "formazione"
+  },
+  {
+    "de": "auf dem letzten Stand sein",
+    "en": "to be up to date",
+    "erk": "Alle neuen Informationen und Regeln kennen.",
+    "bsp": "Schulungen helfen, dass alle auf dem letzten Stand sind.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "të jesh i përditësuar",
+    "tr": "güncel olmak",
+    "uk": "бути в курсі",
+    "ar": "أن تكون مطّلعاً على آخر المستجدات",
+    "fa": "به‌روز بودن",
+    "es": "estar al día",
+    "fr": "être à jour",
+    "it": "essere aggiornato"
+  },
+  {
+    "de": "sich gewöhnen an",
+    "en": "to get used to",
+    "erk": "Etwas Neues wird mit der Zeit normal. Danach steht der Akkusativ.",
+    "bsp": "Neue Mitarbeiter müssen sich an die Abläufe gewöhnen.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "mësohem me",
+    "tr": "alışmak",
+    "uk": "звикати до",
+    "ar": "يعتاد على",
+    "fa": "عادت کردن به",
+    "es": "acostumbrarse a",
+    "fr": "s'habituer à",
+    "it": "abituarsi a"
+  },
+  {
+    "de": "sich ärgern über",
+    "en": "to be annoyed about",
+    "erk": "Wütend oder genervt sein wegen etwas. Danach steht der Akkusativ.",
+    "bsp": "Er ärgert sich über den Ablauf, nicht über die Kollegin.",
+    "dates": [
+      "2026-10-23"
+    ],
+    "sq": "nervozohem për",
+    "tr": "sinirlenmek, kızmak",
+    "uk": "злитися через",
+    "ar": "ينزعج من",
+    "fa": "عصبانی شدن از",
+    "es": "enfadarse por",
+    "fr": "s'énerver à cause de",
+    "it": "arrabbiarsi per"
   }
 ]

@@ -1,0 +1,79 @@
+{
+  "mc": [
+    {
+      "q": "Was sagt die Zahl von 20.600 Wohnungen aus?",
+      "o": [
+        "So viele Wohnungen waren im August bezugsfertig.",
+        "Für so viele Wohnungen wurde im August der Bau genehmigt.",
+        "So viele Wohnungen wurden im August vermietet."
+      ],
+      "c": 1,
+      "why": "Die Zahl betrifft Genehmigungen, keine fertiggestellten oder vermieteten Wohnungen."
+    },
+    {
+      "q": "Was ist ein Umbau?",
+      "o": [
+        "Die Veränderung eines vorhandenen Gebäudes.",
+        "Der Bau eines völlig neuen Gebäudes.",
+        "Die Suche nach einer neuen Mietwohnung."
+      ],
+      "c": 0,
+      "why": "Beim Umbau wird ein bestehendes Gebäude verändert."
+    },
+    {
+      "q": "Wie werden die Uhren am 25. Oktober umgestellt?",
+      "o": [
+        "Von zwei auf drei Uhr.",
+        "Von drei auf vier Uhr.",
+        "Von drei auf zwei Uhr."
+      ],
+      "c": 2,
+      "why": "Die Uhren werden um eine Stunde zurückgestellt."
+    },
+    {
+      "q": "Was passiert normalerweise bei einem Smartphone mit automatischer Zeiteinstellung?",
+      "o": [
+        "Es passt die Uhrzeit selbst an.",
+        "Es muss immer ausgeschaltet werden.",
+        "Es zeigt grundsätzlich die Sommerzeit an."
+      ],
+      "c": 0,
+      "why": "Bei aktivierter automatischer Zeiteinstellung erfolgt die Anpassung normalerweise von selbst."
+    },
+    {
+      "q": "Wie stand es zur Halbzeit in Stuttgart?",
+      "o": [
+        "2:0 für Stuttgart.",
+        "1:1.",
+        "3:1 für Gladbach."
+      ],
+      "c": 1,
+      "why": "Scally glich vor der Pause aus; zur Halbzeit stand es 1:1."
+    },
+    {
+      "q": "Was bewirkte der Anschlusstreffer von Demirović?",
+      "o": [
+        "Stuttgart gewann.",
+        "Stuttgart glich aus.",
+        "Stuttgart verkürzte den Rückstand auf ein Tor."
+      ],
+      "c": 2,
+      "why": "Nach dem Treffer stand es 2:3. Gladbach lag weiterhin vorn."
+    }
+  ],
+  "schreib": [
+    "Im August <b>wurden</b> in Deutschland 20.600 Wohnungen <b>genehmigt</b>.",
+    "<b>Bevor</b> ich schlafen gehe, stelle ich die Wanduhr zurück. <b>Bevor</b> ich das Haus verlasse, prüfe ich die Uhrzeit.",
+    "Hast du am Sonntag Zeit für einen Spaziergang? Wir treffen uns <b>um zehn Uhr am Parkeingang</b>.",
+    "<b>Zuerst</b> ging Stuttgart in Führung. <b>Danach</b> drehte Gladbach das Spiel und gewann mit 3:2."
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich schlage vor, dass wir …",
+      "Bevor ich losgehe, …",
+      "Passt dir zehn Uhr?",
+      "Wir treffen uns am …"
+    ],
+    "modell": "Ich möchte am Sonntag ausschlafen. Bevor ich schlafen gehe, stelle ich meine Wanduhr zurück. Ich schlage vor, dass wir uns um zehn Uhr am Parkeingang treffen. Danach können wir spazieren gehen und einen Kaffee trinken. Passt dir das?"
+  }
+}

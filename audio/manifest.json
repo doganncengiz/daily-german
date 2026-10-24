@@ -464,6 +464,18 @@
     "2026-10-23-0.mp3": {
       "fingerprint": "29c63895944625b74fc538219776d0ab637b85cc09e4a5a33b0d13d5c3f5646f",
       "voice": "thorsten-high"
+    },
+    "2026-10-24-0.mp3": {
+      "fingerprint": "07d00d33e09ec4560e03f171bded609c49e36a5dfc685224e3e62bc5da0ed3ac",
+      "voice": "thorsten-high"
+    },
+    "2026-10-24-1.mp3": {
+      "fingerprint": "36b0e934b520b0850f30f5b2ff9c34b795f99a5291f6009fad354b650c591e57",
+      "voice": "thorsten-high"
+    },
+    "2026-10-24-2.mp3": {
+      "fingerprint": "acc86b4d1034a3a813a555b2873a8969d247d9779790c8f6be177f8ad5254b17",
+      "voice": "thorsten-high"
     }
   }
 }

@@ -3258,7 +3258,8 @@
     "bsp": "Evenepoel hatte über sechs Minuten Rückstand auf Pogačar.",
     "dates": [
       "2026-07-28",
-      "2026-10-10"
+      "2026-10-10",
+      "2026-10-24"
     ],
     "sq": "diferenca, mbetja pas",
     "tr": "fark, geride kalma",
@@ -9439,7 +9440,8 @@
     "erk": "Zweimal im Jahr stellt man die Uhr um eine Stunde vor oder zurück.",
     "bsp": "In der Nacht zum 25. Oktober ist wieder Zeitumstellung.",
     "dates": [
-      "2026-10-11"
+      "2026-10-11",
+      "2026-10-24"
     ],
     "sq": "ndryshimi i orës",
     "tr": "saat değişikliği",
@@ -10071,7 +10073,8 @@
     "erk": "Eine Behörde sagt offiziell Ja zu einem Plan.",
     "bsp": "Die EZB-Bankenaufsicht hat die Übernahme genehmigt.",
     "dates": [
-      "2026-10-17"
+      "2026-10-17",
+      "2026-10-24"
     ],
     "sq": "miraton, e lejon zyrtarisht",
     "tr": "onaylamak",
@@ -10361,7 +10364,8 @@
     "erk": "So lange schlafen, bis man richtig ausgeruht ist.",
     "bsp": "Am Wochenende schlafe ich gern aus.",
     "dates": [
-      "2026-10-18"
+      "2026-10-18",
+      "2026-10-24"
     ],
     "sq": "të flesh sa të ngopesh",
     "tr": "doyasıya uyumak",
@@ -10966,5 +10970,141 @@
     "es": "enfadarse por",
     "fr": "s'énerver à cause de",
     "it": "arrabbiarsi per"
+  },
+  {
+    "de": "die Baugenehmigung",
+    "en": "building permit",
+    "erk": "Die offizielle Erlaubnis, ein Gebäude zu bauen oder umzubauen.",
+    "bsp": "Ohne Baugenehmigung darf das Vorhaben nicht beginnen.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "inşaat ruhsatı",
+    "sq": "leja e ndërtimit",
+    "uk": "дозвіл на будівництво",
+    "ar": "رخصة البناء",
+    "fa": "مجوز ساخت",
+    "es": "permiso de construcción",
+    "fr": "permis de construire",
+    "it": "permesso di costruire"
+  },
+  {
+    "de": "der Neubau",
+    "en": "new construction; new building",
+    "erk": "Ein Gebäude wird neu gebaut; auch das neue Gebäude selbst heißt so.",
+    "bsp": "Beim Neubau entstehen zusätzliche Wohnungen.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "yeni inşaat; yeni bina",
+    "sq": "ndërtimi i ri; ndërtesa e re",
+    "uk": "нове будівництво; новобудова",
+    "ar": "بناء جديد؛ مبنى جديد",
+    "fa": "ساخت‌وساز جدید؛ ساختمان نوساز",
+    "es": "construcción nueva; edificio nuevo",
+    "fr": "construction neuve; bâtiment neuf",
+    "it": "nuova costruzione; edificio nuovo"
+  },
+  {
+    "de": "der Umbau",
+    "en": "conversion; remodelling",
+    "erk": "Ein vorhandenes Gebäude wird verändert.",
+    "bsp": "Durch den Umbau entstehen zwei Wohnungen.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "tadilat; yeniden düzenleme",
+    "sq": "rikonstruksioni; përshtatja e ndërtesës",
+    "uk": "перебудова",
+    "ar": "إعادة بناء؛ تعديل مبنى",
+    "fa": "بازسازی؛ تغییر ساختمان",
+    "es": "reforma; remodelación",
+    "fr": "transformation; réaménagement",
+    "it": "ristrutturazione; trasformazione"
+  },
+  {
+    "de": "die Normalzeit",
+    "en": "standard time",
+    "erk": "Die reguläre Zeit ohne die zusätzliche Stunde der Sommerzeit.",
+    "bsp": "Nach der Umstellung gilt wieder die Normalzeit.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "standart saat",
+    "sq": "ora standarde",
+    "uk": "стандартний час",
+    "ar": "التوقيت العادي",
+    "fa": "زمان استاندارد",
+    "es": "hora estándar",
+    "fr": "heure normale",
+    "it": "ora solare"
+  },
+  {
+    "de": "der Zeiger",
+    "en": "hand of a clock",
+    "erk": "Der Teil einer Uhr, der auf eine Zahl zeigt.",
+    "bsp": "Ich stelle den Zeiger eine Stunde zurück.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "saat ibresi",
+    "sq": "akrepi i orës",
+    "uk": "стрілка годинника",
+    "ar": "عقرب الساعة",
+    "fa": "عقربهٔ ساعت",
+    "es": "manecilla del reloj",
+    "fr": "aiguille de montre",
+    "it": "lancetta dell’orologio"
+  },
+  {
+    "de": "der Ausgleich",
+    "en": "equaliser; equal score",
+    "erk": "Im Sport: Ein Tor sorgt dafür, dass beide Mannschaften gleich viele Tore haben.",
+    "bsp": "Scally erzielte den Ausgleich zum 1:1.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "beraberlik golü; eşitlik",
+    "sq": "goli i barazimit; barazimi",
+    "uk": "зрівняння рахунку",
+    "ar": "هدف التعادل؛ التعادل",
+    "fa": "گل تساوی؛ تساوی",
+    "es": "gol del empate; empate",
+    "fr": "égalisation; but égalisateur",
+    "it": "pareggio; gol del pareggio"
+  },
+  {
+    "de": "der Anschlusstreffer",
+    "en": "goal that reduces the deficit to one",
+    "erk": "Ein Tor, nach dem die Mannschaft nur noch ein Tor zurückliegt.",
+    "bsp": "Der Anschlusstreffer zum 2:3 fiel in der 83. Minute.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "farkı bire indiren gol",
+    "sq": "goli që e ul disavantazhin në një gol",
+    "uk": "гол, що скорочує відставання до одного м’яча",
+    "ar": "هدف يقلّص الفارق إلى هدف واحد",
+    "fa": "گلی که اختلاف را به یک گل کاهش می‌دهد",
+    "es": "gol que reduce la desventaja a un tanto",
+    "fr": "but qui réduit l’écart à un but",
+    "it": "gol che riduce lo svantaggio a una rete"
+  },
+  {
+    "de": "der Auswärtssieg",
+    "en": "away win",
+    "erk": "Eine Mannschaft gewinnt im Stadion des Gegners.",
+    "bsp": "Gladbach feierte einen Auswärtssieg in Stuttgart.",
+    "dates": [
+      "2026-10-24"
+    ],
+    "tr": "deplasman galibiyeti",
+    "sq": "fitorja në transfertë",
+    "uk": "виїзна перемога",
+    "ar": "فوز خارج الأرض",
+    "fa": "پیروزی خارج از خانه",
+    "es": "victoria a domicilio",
+    "fr": "victoire à l’extérieur",
+    "it": "vittoria in trasferta"
   }
 ]

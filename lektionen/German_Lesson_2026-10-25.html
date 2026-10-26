@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch täglich – 25. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 25. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+<section id="lese" class="panel active"><div class="label">Wochenend-Ausgabe</div><h2 class="heading">30,3 Prozent Chefinnen, 537 Millionen für Halloween, Topspiel in Freiburg</h2>
+<div class="card"><h3 class="art-kicker">Wirtschaft</h3><h4 class="art-title">Frauen in Führungspositionen: Deutschland liegt unter dem EU-Durchschnitt</h4><p>Das Statistische Bundesamt hat am 19. Oktober neue Zahlen zu Frauen in Führungspositionen veröffentlicht. Grundlage sind Daten der europäischen Statistikbehörde Eurostat für das Jahr 2025. In Deutschland lag der Frauenanteil unter den Führungskräften bei 30,3 Prozent. Im Durchschnitt der Europäischen Union waren es 35,9 Prozent. Frauen sind in den deutschen Führungsetagen also weiterhin unterrepräsentiert. Als Führungskräfte zählen hier zum Beispiel Geschäftsführerinnen und Geschäftsführer sowie Leiterinnen und Leiter großer Bereiche in Unternehmen und Behörden.</p><p>Rund 569.100 Frauen arbeiteten 2025 in Deutschland als Führungskraft; bei den Männern waren es etwa 1,31 Millionen. Interessant ist der Vergleich mit allen Erwerbstätigen: Dort stellen Frauen 47,1 Prozent, im EU-Schnitt sind es 46,5 Prozent. Der Frauenanteil insgesamt ist also etwas höher als im EU-Durchschnitt, in den Führungsetagen aber niedriger. An der Spitze der EU steht Schweden mit 44,4 Prozent, danach folgen Lettland mit 43,8 und Estland mit 43,1 Prozent. Am Ende der Liste liegt Zypern mit 25,9 Prozent.</p><p>Auch die Entwicklung der letzten zehn Jahre zeigt einen Unterschied. 2015 lag der deutsche Anteil bei 29,3 Prozent; das ist ein Plus von 1,0 Prozentpunkten. In der EU stieg der Anteil im gleichen Zeitraum um 4,0 Prozentpunkte. Achte auf die Begriffe: Ein Prozentpunkt ist nicht dasselbe wie ein Prozent. Steigt ein Anteil von 29,3 auf 30,3 Prozent, wächst er um einen Prozentpunkt.</p></div>
+<div class="card"><h3 class="art-kicker">Freizeit</h3><h4 class="art-title">Halloween: Der Handel erwartet mehr Umsatz, aber nicht mehr Käufer</h4><p>Am Samstag, dem 31. Oktober, ist Halloween. Für viele Familien gehört das Fest inzwischen zum Herbst: Kinder verkleiden sich, ziehen von Haus zu Haus und rufen „Süßes oder Saures!“. Der Handelsverband Deutschland (HDE) rechnet in diesem Jahr mit einem Umsatz von 537 Millionen Euro. Das sind etwa 3,3 Prozent mehr als 2025. Im Vergleich zu 2019 liegt das Geschäft rund 69 Prozent höher.</p><p>Die Zahl der Käufer wächst allerdings nicht. Nach einer Umfrage des Instituts IFH Köln im Auftrag des HDE planen 14,9 Prozent der Befragten Ausgaben für Halloween; 2025 waren es 15,2 Prozent. Befragt wurden im Oktober mehr als 1.000 Menschen zwischen 18 und 69 Jahren. Sie wollen weniger Geld für Süßigkeiten und Schminke ausgeben. Mehr Geld fließt dagegen in Dekoration, Getränke und andere Lebensmittel. HDE-Hauptgeschäftsführer Stefan Genth sagt, Halloween habe sich einen festen Platz im Einzelhandelsjahr erarbeitet.</p><p>Ein erfundenes Beispiel: Familie Berger wohnt in einem Mehrfamilienhaus. Sie hängt eine Girlande ins Fenster, kauft Getränke für eine kleine Feier und legt eine Packung Süßigkeiten bereit. Am Abend klingeln die Nachbarkinder. Wer nicht mitmachen möchte, sagt freundlich: „Heute leider nicht.“ Wer neu im Haus wohnt, kann vorher kurz fragen, ob Kinder klingeln dürfen. So bleibt das Verhältnis im Haus gut.</p></div>
+<div class="card"><h3 class="art-kicker">Sport</h3><h4 class="art-title">Freiburg gegen Bayern: Der Gastgeber will eine lange Serie beenden</h4><p>Heute Abend um 17.30 Uhr spielt der SC Freiburg im Europa-Park Stadion gegen den FC Bayern München. Es ist das Topspiel des 7. Bundesliga-Spieltags. Freiburg steht mit 13 Punkten und einem Torverhältnis von 15:6 auf Platz drei. Bayern hat nach dem 6:1 gegen Leipzig 14 Punkte und war zuletzt Tabellenführer. Nach den Samstagsspielen kann sich die Tabelle allerdings schon verändert haben.</p><p>Die Statistik spricht für die Gäste: Freiburg hat in der Bundesliga seit 20 Spielen nicht mehr gegen Bayern gewonnen. Das letzte Duell am 4. April 2026 endete 3:2 für Bayern. Außerdem ist Bayern seit 29 Bundesliga-Auswärtsspielen ungeschlagen. Freiburg hat dafür bisher die meisten Kopfballtore der Liga erzielt, während Bayern in dieser Saison noch kein Kopfballtor kassiert hat. Beide Mannschaften lassen bisher nur wenige Schüsse aufs Tor zu. Harry Kane hat fünf Vorlagen und teilt sich damit Platz eins dieser Wertung.</p><p>Vor dem Anpfiff gibt es nur Erwartungen. Wer sagt: „Bayern gewinnt bestimmt“, nennt eine Meinung, keine Tatsache. Besser ist: „Die Zahlen sprechen für Bayern, aber Freiburg ist bei Kopfbällen gefährlich.“ Ein Auswärtsspiel findet im Stadion des Gegners statt. Eine Serie ist eine Reihe gleicher Ergebnisse, zum Beispiel Spiele ohne Niederlage. Im Gespräch hilft eine Zeitangabe: „Vor dem Anpfiff war Bayern vorn.“</p><div class="next-btn" onclick="goNext()">↓</div></div>
+</section><section id="vokabular" class="panel"><div class="label">Vokabular</div><h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card"><table><tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+<tr><th class="group" colspan="4">Wirtschaft</th></tr>
+<tr><td>die Führungskraft <span class="rep">(Wiederholung)</span></td><td>manager, executive</td><td>Eine Person, die ein Team oder einen Bereich leitet.</td><td>In Deutschland ist knapp jede dritte Führungskraft eine Frau.</td></tr>
+<tr><td>der Frauenanteil</td><td>share of women</td><td>Der Anteil der Frauen in einer Gruppe.</td><td>Der Frauenanteil in den Führungsetagen liegt bei 30,3 Prozent.</td></tr>
+<tr><td>der Durchschnitt</td><td>average</td><td>Ein Wert, den man aus vielen Zahlen berechnet.</td><td>Deutschland liegt unter dem EU-Durchschnitt.</td></tr>
+<tr><td>unterrepräsentiert</td><td>underrepresented</td><td>Eine Gruppe ist in einem Bereich seltener vertreten, als man erwarten würde.</td><td>Frauen sind in den Chefetagen unterrepräsentiert.</td></tr>
+<tr><th class="group" colspan="4">Freizeit</th></tr>
+<tr><td>der Anteil <span class="rep">(Wiederholung)</span></td><td>share, proportion</td><td>Der Teil von einem Ganzen, oft in Prozent.</td><td>Der Anteil der Käufer ist leicht gesunken.</td></tr>
+<tr><td>der Einzelhandel</td><td>retail trade</td><td>Geschäfte, die Waren direkt an Kundinnen und Kunden verkaufen.</td><td>Der Einzelhandel erwartet ein gutes Halloween-Geschäft.</td></tr>
+<tr><td>der Umsatz</td><td>turnover, sales</td><td>Das Geld, das ein Geschäft durch Verkäufe einnimmt.</td><td>Der Handel rechnet mit 537 Millionen Euro Umsatz.</td></tr>
+<tr><td>die Dekoration</td><td>decoration</td><td>Gegenstände, mit denen man einen Raum schmückt.</td><td>Für Halloween kaufen viele Menschen Dekoration.</td></tr>
+<tr><td>sich verkleiden</td><td>to dress up</td><td>Man zieht besondere Kleidung an, um wie eine andere Figur auszusehen.</td><td>Die Kinder verkleiden sich als Geister.</td></tr>
+<tr><th class="group" colspan="4">Sport</th></tr>
+<tr><td>der Tabellenführer <span class="rep">(Wiederholung)</span></td><td>league leader</td><td>Die Mannschaft auf Platz eins der Tabelle.</td><td>Bayern war zuletzt Tabellenführer.</td></tr>
+<tr><td>die Serie</td><td>streak, series</td><td>Mehrere gleiche Ergebnisse direkt nacheinander.</td><td>Bayern ist seit 29 Auswärtsspielen ungeschlagen – eine lange Serie.</td></tr>
+<tr><td>der Kopfball</td><td>header (football)</td><td>Ein Schuss oder Pass mit dem Kopf.</td><td>Freiburg erzielt viele Tore per Kopfball.</td></tr>
+<tr><td>das Auswärtsspiel</td><td>away game</td><td>Ein Spiel im Stadion des Gegners.</td><td>Das Auswärtsspiel in Freiburg beginnt um 17.30 Uhr.</td></tr>
+</table><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="ausdruecke" class="panel"><div class="label">Ausdrücke</div><h2 class="heading">Nützliche Ausdrücke</h2><div class="card"><ul class="expr"><li><b>„unter dem Durchschnitt liegen“</b> — Ein Wert ist niedriger als der Mittelwert.<br><i>Der Frauenanteil liegt unter dem EU-Durchschnitt.</i></li><li><b>„Das ist ein Plus von …“</b> — So nennt man eine Steigerung.<br><i>Das ist ein Plus von einem Prozentpunkt.</i></li><li><b>„mit etwas rechnen“</b> — Etwas erwarten und danach planen.<br><i>Der Handel rechnet mit einem Umsatz von 537 Millionen Euro.</i></li><li><b>„einen festen Platz haben“</b> — Etwas gehört dauerhaft dazu.<br><i>Halloween hat einen festen Platz im Herbst.</i></li><li><b>„eine Serie beenden“</b> — Ein Team hört auf, immer gleich zu gewinnen oder nicht zu verlieren.<br><i>Freiburg will die Serie gegen Bayern beenden.</i></li><li><b>„Die Zahlen sprechen für …“</b> — Die Statistik macht etwas wahrscheinlicher.<br><i>Die Zahlen sprechen für Bayern.</i></li></ul><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="grammatik" class="panel"><div class="label">Grammatik</div><h2 class="heading">Grammatikbewusstsein</h2><div class="card"><div class="grammar-block"><p><b>Vergleich: „als“ oder „wie“?</b> Bei Unterschieden steht nach dem Komparativ „als“: „Der Anteil ist niedriger als im EU-Durchschnitt.“ „Der Frauenanteil insgesamt ist höher als im EU-Schnitt.“ Bei Gleichheit steht „so … wie“: „Der Anteil ist so hoch wie im Vorjahr.“ Typischer Fehler: „niedriger wie“ – in der gesprochenen Sprache hört man das oft, in Texten gilt es als falsch. Merke: Unterschied = als, Gleichheit = wie.</p></div><div class="grammar-block"><p><b>Zukunft mit Präsens und „damit rechnen, dass“.</b> Im Deutschen reicht für die Zukunft oft das Präsens mit einer Zeitangabe: „Das Spiel beginnt heute um 17.30 Uhr.“ „Am Samstag ist Halloween.“ „Werden“ brauchst du vor allem für Vermutungen und Prognosen. Mit „rechnen damit, dass“ sagst du, was du erwartest: „Der Handel rechnet damit, dass der Umsatz steigt.“ Im Nebensatz steht das konjugierte Verb am Ende. Typischer Fehler: „Ich werde morgen arbeiten“ nur aus Gewohnheit – „Ich arbeite morgen“ klingt natürlicher.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wie hoch war der Frauenanteil bei den Führungskräften in Deutschland 2025?</li><li>Was sagt der Text über den Frauenanteil unter allen Erwerbstätigen?</li><li>Mit welchem Umsatz rechnet der HDE für Halloween 2026?</li><li>Wofür wollen die Befragten weniger Geld ausgeben?</li><li>Wann beginnt das Spiel zwischen Freiburg und Bayern?</li><li>Was gilt in der Bundesliga für Freiburg gegen Bayern?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Vergleiche den Frauenanteil in Deutschland und in der EU. Verwende „niedriger als“.</li><li>Schreibe einen Satz mit „rechnen damit, dass“ über Halloween oder über dein Wochenende.</li><li>Erkläre den Unterschied zwischen 29,3 und 30,3 Prozent mit dem Wort „Prozentpunkt“.</li><li>Schreibe zwei Sätze im Präsens über ein Treffen oder Spiel heute Abend. Nenne die Uhrzeit.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Erzählt einander: Gibt es in eurem Land ein Fest wie Halloween? Was kauft man dafür, und wer feiert mit? Vergleicht es mit Deutschland.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<p class="source">Quellen, Stand 24. Oktober 2026: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N071_13.html">Destatis: Frauen in Führungspositionen, 19. Oktober</a>; <a href="https://einzelhandel.de/presse/aktuellemeldungen/15391-trotz-schwacher-konsumstimmung-halloweengeschaeft-bleibt-stabil">HDE: Halloween-Geschäft 2026, 20. Oktober</a>; <a href="https://fcbayern.com/kidsclub/de/news/2026/10/vorbericht-07.-bundesliga-spieltag-sport-club-freiburg---fc-bayern">FC Bayern: Vorbericht Freiburg – Bayern</a>; <a href="https://www.t-online.de/sport/ergebnisse-tabelle/fussball/bundesliga/ergebnisse/sdc_fmd-4736019/7-spieltag.html">t-online: 7. Spieltag, Ansetzungen</a>. Für B1/B2 vereinfacht. Das Beispiel der Familie Berger ist erfunden. Der Sportteil ist eine Vorschau; das Ergebnis stand bei Redaktionsschluss nicht fest.</p></div><script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

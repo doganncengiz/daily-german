@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 26. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 26. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Aktuell, Stand 26. Oktober</div>
+    <h2 class="heading">Griechenland verbietet soziale Medien für Kinder unter 15</h2>
+    <div class="card">
+      <p>Das griechische Parlament hat ein Gesetz <b>beschlossen</b>: Kinder und Jugendliche unter 15 Jahren sollen keine sozialen Medien mehr nutzen. Das <b>Verbot</b> soll am 1. Januar 2027 in Kraft treten. Digitalminister Dimitris Papastergiou verteidigte das Gesetz in einer mehrstündigen Debatte. Es sei notwendig, wirksam und <b>verhältnismäßig</b>, sagte er. Seinen Worten <b>zufolge</b> ist es außerdem mit EU-Recht vereinbar. Man dürfe nicht einfach nichts tun und auf das perfekte europäische Gesetz warten.</p>
+      <p>Die <b>Plattformen</b> müssen selbst prüfen, wie alt ihre Nutzer sind. Dabei soll die staatliche App „Kids Wallet“ helfen, für die das Digitalministerium <b>zuständig</b> ist. Eltern verbinden die App mit den Daten ihres Kindes. Die Plattform kann dann digital bestätigen, dass das Kind alt genug ist, ohne alle persönlichen Daten zu bekommen. Diese <b>Altersprüfung</b> soll den Datenschutz schützen.</p>
+      <p>Griechenland ist nicht das erste Land mit einem solchen Plan. Frankreich hat im Juli als erstes EU-Land ein Verbot für unter 15-Jährige eingeführt. Im August hat der Verfassungsrat es jedoch <b>aufgehoben</b>: Die Einschränkung der Meinungsfreiheit sei unverhältnismäßig. Präsident Macron will am Ziel festhalten und hat Premierminister Lecornu gebeten, einen <b>rechtssicheren</b> Ersatz zu entwerfen. Die EU-Kommission hat im September den „EU Kids Act“ vorgeschlagen: Soziale Medien sollen erst ab 13 erlaubt sein, eigene Konten erst ab 15. Parlament und Mitgliedstaaten beraten noch darüber.</p>
+      <p>Ob ein Verbot im Alltag wirklich funktioniert, ist eine offene Frage. Viele fragen sich, ob Jugendliche es nicht einfach <b>umgehen</b> können. Auch für Eltern und Lehrer in Deutschland ist das Thema interessant: Wie viel Schutz brauchen Kinder online, und wer ist dafür verantwortlich?</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Verbot</td><td>ban, prohibition</td><td>Eine Regel, die sagt: Das darf man nicht tun.</td><td>Das Verbot gilt ab dem 1. Januar 2027.</td></tr>
+        <tr><td>beschließen</td><td>to pass, to decide</td><td>Ein Parlament oder eine Gruppe entscheidet offiziell über etwas.</td><td>Das Parlament hat ein Gesetz beschlossen.</td></tr>
+        <tr><td>die Plattform</td><td>platform</td><td>Eine Internetseite oder App, auf der viele Menschen Inhalte teilen.</td><td>Die Plattformen müssen das Alter ihrer Nutzer prüfen.</td></tr>
+        <tr><td>die Altersprüfung</td><td>age verification</td><td>Man kontrolliert, ob jemand alt genug ist.</td><td>Die Altersprüfung läuft digital über eine App.</td></tr>
+        <tr><td>verhältnismäßig</td><td>proportionate</td><td>Eine Maßnahme ist nicht übertrieben, sie passt zum Ziel.</td><td>Der Minister sagt, das Gesetz sei verhältnismäßig.</td></tr>
+        <tr><td>aufheben</td><td>to overturn, to repeal</td><td>Ein Gesetz oder Urteil gilt nicht mehr.</td><td>Der Verfassungsrat hat das Gesetz aufgehoben.</td></tr>
+        <tr><td>rechtssicher</td><td>legally sound</td><td>Etwas entspricht dem geltenden Recht und bietet rechtliche Sicherheit.</td><td>Frankreich braucht einen rechtssicheren Ersatz.</td></tr>
+        <tr><td>umgehen</td><td>to get around, to circumvent</td><td>Eine Regel nicht beachten, indem man einen anderen Weg nimmt. Betonung auf „gehen“: <i>umGEHen</i> (nicht trennbar).</td><td>Jugendliche könnten das Verbot umgehen.</td></tr>
+        <tr><td>zufolge <span class="rep">(Wiederholung)</span></td><td>according to</td><td>Nachgestellt nach einem Nomen im Dativ: So steht es in einer Quelle.</td><td>Seinen Worten zufolge ist das Gesetz mit EU-Recht vereinbar.</td></tr>
+        <tr><td>zuständig <span class="rep">(Wiederholung)</span></td><td>responsible, in charge</td><td>Eine Person oder Stelle muss sich um eine Aufgabe kümmern.</td><td>Das Digitalministerium ist für die App zuständig.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„… zufolge …“</b> — So nennt man eine Quelle, ohne selbst zu behaupten, dass es stimmt.<br><i>Dem Minister zufolge ist das Gesetz notwendig.</i></li>
+        <li><b>„Es wäre leicht, nichts zu tun, aber …“</b> — Man begründet, warum man trotzdem handelt.<br><i>Es wäre leicht, nichts zu tun, aber das Problem wird größer.</i></li>
+        <li><b>„Das ist (nicht) verhältnismäßig.“</b> — Man bewertet, ob eine Maßnahme zu hart oder zu schwach ist.<br><i>Ein komplettes Verbot finde ich nicht verhältnismäßig.</i></li>
+        <li><b>„Das lässt sich leicht umgehen.“</b> — Man sagt, dass eine Regel Lücken hat.<br><i>Eine Altersgrenze lässt sich leicht umgehen, wenn niemand kontrolliert.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Indirekte Rede mit Konjunktiv I:</b> In Nachrichten steht oft „Es <b>sei</b> notwendig, wirksam und verhältnismäßig, sagte er.“ Der Konjunktiv I zeigt: Das sagt eine andere Person, nicht der Autor. Am häufigsten sieht man die 3. Person: <i>er sei, sie habe, es werde, er könne</i>. Der Indikativ ist in der gesprochenen indirekten Rede ebenfalls üblich. Zum Lesen reicht es, die Form zu erkennen; beim Sprechen sagt man meist einfach „Er sagt, es ist notwendig.“</p></div>
+      <div class="grammar-block"><p><b>„ohne … zu“ + Infinitiv:</b> „Die Plattform kann bestätigen, dass das Kind alt genug ist, <b>ohne</b> alle Daten <b>zu</b> bekommen.“ Das heißt: etwas passiert, und die zweite Sache passiert nicht. Das „zu“ steht direkt vor dem Infinitiv; bei trennbaren Verben dazwischen: <i>ohne nachzufragen</i>. Bei gleichem Subjekt ist „ohne … zu“ oft kürzer; „ohne dass“ ist ebenfalls möglich. Typischer Fehler: „zu“ vergessen.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Ab wann gilt das Verbot in Griechenland?</li>
+          <li>Wie hilft die App „Kids Wallet“ bei der Altersprüfung?</li>
+          <li>Was ist in Frankreich mit dem Verbot passiert?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Satz mit „zufolge“ und einer Informationsquelle (zum Beispiel: Nachrichten, Studie, Chef).</li>
+          <li>Verbinde mit „ohne … zu“: Man kann die App nutzen. Man gibt keine Passwörter weiter.</li>
+          <li>Schreibe einen Satz mit „verhältnismäßig“ oder „umgehen“ über eine Regel in deinem Alltag.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Sollten soziale Medien für Kinder unter 15 verboten sein? Gib in fünf Sätzen deine Meinung: Nenne einen Vorteil und einen Nachteil des Verbots, sage, wer zuständig sein sollte (Eltern, Schule, Staat, Plattformen), und benutze „zufolge“ oder „ohne … zu“.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen: <a href="https://www.tagesspiegel.de/internationales/dpa-griechenland-untersagt-soziale-medien-fur-unter-15-jahrige-16195292.html">Tagesspiegel/dpa: Griechenland untersagt soziale Medien für unter 15-Jährige (23. Oktober 2026)</a>; <a href="https://www.ariva.de/news/griechenland-verbietet-soziale-medien-fuer-unter-15-jaehrige-12180029">ARIVA.DE (23. Oktober 2026)</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

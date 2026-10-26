@@ -395,7 +395,8 @@
       "2026-09-15",
       "2026-09-23",
       "2026-09-28",
-      "2026-10-02"
+      "2026-10-02",
+      "2026-10-25"
     ],
     "sq": "pjesa, përqindja",
     "tr": "pay, oran",
@@ -5402,7 +5403,8 @@
     "bsp": "Die Führungskräfte trafen sich, um die neue Strategie zu besprechen.",
     "dates": [
       "2026-07-12",
-      "2026-09-17"
+      "2026-09-17",
+      "2026-10-25"
     ],
     "sq": "drejtuesi / drejtuesja",
     "tr": "yönetici",
@@ -6748,7 +6750,8 @@
     "dates": [
       "2026-09-19",
       "2026-10-11",
-      "2026-10-18"
+      "2026-10-18",
+      "2026-10-25"
     ],
     "sq": "lideri i tabelës",
     "tr": "lider, puan durumunda birinci",
@@ -10807,7 +10810,8 @@
     "erk": "Nachgestellt nach einem Nomen im Dativ: So steht es in einer Quelle.",
     "bsp": "Dem Ministerium zufolge soll die Änderung Betrug verhindern.",
     "dates": [
-      "2026-10-22"
+      "2026-10-22",
+      "2026-10-26"
     ],
     "sq": "sipas",
     "tr": "…e göre",
@@ -10824,7 +10828,8 @@
     "erk": "Eine Person oder Stelle muss sich um eine Aufgabe kümmern.",
     "bsp": "Die Prüfungsstelle ist für organisatorische Fragen zuständig.",
     "dates": [
-      "2026-10-22"
+      "2026-10-22",
+      "2026-10-26"
     ],
     "sq": "kompetent, përgjegjës",
     "tr": "yetkili, sorumlu",
@@ -11106,5 +11111,311 @@
     "es": "victoria a domicilio",
     "fr": "victoire à l’extérieur",
     "it": "vittoria in trasferta"
+  },
+  {
+    "de": "der Frauenanteil",
+    "en": "share of women",
+    "erk": "Der Anteil der Frauen in einer Gruppe.",
+    "bsp": "Der Frauenanteil in den Führungsetagen liegt bei 30,3 Prozent.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "kadın oranı",
+    "sq": "përqindja e grave",
+    "uk": "частка жінок",
+    "ar": "نسبة النساء",
+    "fa": "درصد زنان",
+    "es": "proporción de mujeres",
+    "fr": "part des femmes",
+    "it": "quota di donne"
+  },
+  {
+    "de": "der Durchschnitt",
+    "en": "average",
+    "erk": "Ein Wert, den man aus vielen Zahlen berechnet.",
+    "bsp": "Deutschland liegt unter dem EU-Durchschnitt.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "ortalama",
+    "sq": "mesatarja",
+    "uk": "середнє значення",
+    "ar": "المتوسط",
+    "fa": "میانگین",
+    "es": "promedio",
+    "fr": "moyenne",
+    "it": "media"
+  },
+  {
+    "de": "unterrepräsentiert",
+    "en": "underrepresented",
+    "erk": "Eine Gruppe ist in einem Bereich seltener vertreten, als man erwarten würde.",
+    "bsp": "Frauen sind in den Chefetagen unterrepräsentiert.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "yeterince temsil edilmeyen",
+    "sq": "me përfaqësim të ulët",
+    "uk": "недостатньо представлений",
+    "ar": "ناقص التمثيل",
+    "fa": "با نمایندگی ناکافی",
+    "es": "infrarrepresentado",
+    "fr": "sous-représenté",
+    "it": "sottorappresentato"
+  },
+  {
+    "de": "der Einzelhandel",
+    "en": "retail trade",
+    "erk": "Geschäfte, die Waren direkt an Kundinnen und Kunden verkaufen.",
+    "bsp": "Der Einzelhandel erwartet ein gutes Halloween-Geschäft.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "perakende ticaret",
+    "sq": "tregtia me pakicë",
+    "uk": "роздрібна торгівля",
+    "ar": "تجارة التجزئة",
+    "fa": "خرده‌فروشی",
+    "es": "comercio minorista",
+    "fr": "commerce de détail",
+    "it": "commercio al dettaglio"
+  },
+  {
+    "de": "der Umsatz",
+    "en": "turnover, sales",
+    "erk": "Das Geld, das ein Geschäft durch Verkäufe einnimmt.",
+    "bsp": "Der Handel rechnet mit 537 Millionen Euro Umsatz.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "ciro",
+    "sq": "xhiroja",
+    "uk": "виторг",
+    "ar": "حجم المبيعات",
+    "fa": "فروش کل",
+    "es": "volumen de ventas",
+    "fr": "chiffre d’affaires",
+    "it": "fatturato"
+  },
+  {
+    "de": "die Dekoration",
+    "en": "decoration",
+    "erk": "Gegenstände, mit denen man einen Raum schmückt.",
+    "bsp": "Für Halloween kaufen viele Menschen Dekoration.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "dekorasyon",
+    "sq": "dekorimi",
+    "uk": "прикраси",
+    "ar": "الزينة",
+    "fa": "تزئینات",
+    "es": "decoración",
+    "fr": "décoration",
+    "it": "decorazione"
+  },
+  {
+    "de": "sich verkleiden",
+    "en": "to dress up",
+    "erk": "Man zieht besondere Kleidung an, um wie eine andere Figur auszusehen.",
+    "bsp": "Die Kinder verkleiden sich als Geister.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "kostüm giymek",
+    "sq": "vishet me kostum",
+    "uk": "перевдягатися",
+    "ar": "يتنكّر",
+    "fa": "لباس مبدل پوشیدن",
+    "es": "disfrazarse",
+    "fr": "se déguiser",
+    "it": "travestirsi"
+  },
+  {
+    "de": "die Serie",
+    "en": "streak, series",
+    "erk": "Mehrere gleiche Ergebnisse direkt nacheinander.",
+    "bsp": "Bayern ist seit 29 Auswärtsspielen ungeschlagen – eine lange Serie.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "seri",
+    "sq": "seria",
+    "uk": "серія",
+    "ar": "سلسلة",
+    "fa": "سری",
+    "es": "racha",
+    "fr": "série",
+    "it": "serie"
+  },
+  {
+    "de": "der Kopfball",
+    "en": "header (football)",
+    "erk": "Ein Schuss oder Pass mit dem Kopf.",
+    "bsp": "Freiburg erzielt viele Tore per Kopfball.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "kafa vuruşu",
+    "sq": "goditje me kokë",
+    "uk": "удар головою",
+    "ar": "ضربة رأس",
+    "fa": "ضربه سر",
+    "es": "remate de cabeza",
+    "fr": "coup de tête",
+    "it": "colpo di testa"
+  },
+  {
+    "de": "das Auswärtsspiel",
+    "en": "away game",
+    "erk": "Ein Spiel im Stadion des Gegners.",
+    "bsp": "Das Auswärtsspiel in Freiburg beginnt um 17.30 Uhr.",
+    "dates": [
+      "2026-10-25"
+    ],
+    "tr": "deplasman maçı",
+    "sq": "ndeshje në transfertë",
+    "uk": "виїзний матч",
+    "ar": "مباراة خارج الأرض",
+    "fa": "بازی خارج از خانه",
+    "es": "partido fuera de casa",
+    "fr": "match à l’extérieur",
+    "it": "partita in trasferta"
+  },
+  {
+    "de": "das Verbot",
+    "en": "ban, prohibition",
+    "erk": "Eine Regel, die sagt: Das darf man nicht tun.",
+    "bsp": "Das Verbot gilt ab dem 1. Januar 2027.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "yasak",
+    "sq": "ndalimi",
+    "uk": "заборона",
+    "ar": "حظر",
+    "fa": "ممنوعیت",
+    "es": "prohibición",
+    "fr": "interdiction",
+    "it": "divieto"
+  },
+  {
+    "de": "beschließen",
+    "en": "to pass, to decide",
+    "erk": "Ein Parlament oder eine Gruppe entscheidet offiziell über etwas.",
+    "bsp": "Das Parlament hat ein Gesetz beschlossen.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "kabul etmek, karara bağlamak",
+    "sq": "miraton",
+    "uk": "ухвалити, вирішити",
+    "ar": "أقرّ، قرّر",
+    "fa": "تصویب کردن، تصمیم گرفتن",
+    "es": "aprobar, decidir",
+    "fr": "adopter, décider",
+    "it": "approvare, deliberare"
+  },
+  {
+    "de": "die Plattform",
+    "en": "platform",
+    "erk": "Eine Internetseite oder App, auf der viele Menschen Inhalte teilen.",
+    "bsp": "Die Plattformen müssen das Alter ihrer Nutzer prüfen.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "platform",
+    "sq": "platforma",
+    "uk": "платформа",
+    "ar": "منصة",
+    "fa": "پلتفرم",
+    "es": "plataforma",
+    "fr": "plateforme",
+    "it": "piattaforma"
+  },
+  {
+    "de": "die Altersprüfung",
+    "en": "age verification",
+    "erk": "Man kontrolliert, ob jemand alt genug ist.",
+    "bsp": "Die Altersprüfung läuft digital über eine App.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "yaş doğrulaması",
+    "sq": "verifikimi i moshës",
+    "uk": "перевірка віку",
+    "ar": "التحقق من العمر",
+    "fa": "بررسی سن",
+    "es": "verificación de edad",
+    "fr": "vérification de l’âge",
+    "it": "verifica dell’età"
+  },
+  {
+    "de": "verhältnismäßig",
+    "en": "proportionate",
+    "erk": "Eine Maßnahme ist nicht übertrieben, sie passt zum Ziel.",
+    "bsp": "Der Minister sagt, das Gesetz sei verhältnismäßig.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "orantılı",
+    "sq": "proporcional",
+    "uk": "пропорційний, співмірний",
+    "ar": "متناسب",
+    "fa": "متناسب",
+    "es": "proporcionado",
+    "fr": "proportionné",
+    "it": "proporzionato"
+  },
+  {
+    "de": "aufheben",
+    "en": "to overturn, to repeal",
+    "erk": "Ein Gesetz oder Urteil gilt nicht mehr.",
+    "bsp": "Der Verfassungsrat hat das Gesetz aufgehoben.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "iptal etmek",
+    "sq": "shfuqizoj",
+    "uk": "скасувати",
+    "ar": "ألغى",
+    "fa": "لغو کردن",
+    "es": "anular, derogar",
+    "fr": "annuler, abroger",
+    "it": "annullare, abrogare"
+  },
+  {
+    "de": "rechtssicher",
+    "en": "legally sound",
+    "erk": "Etwas entspricht dem geltenden Recht und bietet rechtliche Sicherheit.",
+    "bsp": "Frankreich braucht einen rechtssicheren Ersatz.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "hukuken güvenli",
+    "sq": "i sigurt ligjërisht",
+    "uk": "юридично бездоганний",
+    "ar": "سليم قانونياً",
+    "fa": "از نظر حقوقی مطمئن",
+    "es": "jurídicamente sólido",
+    "fr": "juridiquement solide",
+    "it": "giuridicamente solido"
+  },
+  {
+    "de": "umgehen",
+    "en": "to get around, to circumvent",
+    "erk": "Eine Regel nicht beachten, indem man einen anderen Weg nimmt. Betonung auf „gehen“: umGEHen (nicht trennbar).",
+    "bsp": "Jugendliche könnten das Verbot umgehen.",
+    "dates": [
+      "2026-10-26"
+    ],
+    "tr": "atlatmak, dolanmak",
+    "sq": "anashkaloj",
+    "uk": "обійти",
+    "ar": "التحايل على",
+    "fa": "دور زدن",
+    "es": "eludir, sortear",
+    "fr": "contourner",
+    "it": "aggirare"
   }
 ]

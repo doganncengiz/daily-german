@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Ab wann gilt das Verbot in Griechenland?",
+      "o": [
+        "Ab dem 23. Oktober 2026.",
+        "Ab dem 1. Januar 2027.",
+        "Seit Juli 2026."
+      ],
+      "c": 1,
+      "why": "Das Verbot gilt <b>ab dem 1. Januar 2027</b>. Der 23. Oktober ist nur das Datum der Meldung über den Parlamentsbeschluss, und „Juli“ gehört zu Frankreich, wo das Verbot eingeführt wurde."
+    },
+    {
+      "q": "Wie hilft die App „Kids Wallet“ bei der Altersprüfung?",
+      "o": [
+        "Sie speichert alle persönlichen Daten der Kinder bei der Plattform.",
+        "Sie sperrt automatisch alle Konten von Kindern unter 15.",
+        "Die Plattform kann damit das Alter digital bestätigen, ohne alle persönlichen Daten zu bekommen."
+      ],
+      "c": 2,
+      "why": "Eltern verbinden die App mit den Daten des Kindes, und die Plattform kann <b>das Alter digital bestätigen, ohne alle persönlichen Daten zu bekommen</b>. Gerade <i>nicht</i> alle Daten gehen an die Plattform, und die Plattformen müssen selbst prüfen – die App sperrt nichts automatisch."
+    },
+    {
+      "q": "Was ist in Frankreich mit dem Verbot passiert?",
+      "o": [
+        "Der Verfassungsrat hat es im August aufgehoben, weil es unverhältnismäßig sei.",
+        "Es gilt seit Januar 2027 für alle unter 13.",
+        "Präsident Macron hat das Ziel aufgegeben."
+      ],
+      "c": 0,
+      "why": "Frankreich führte das Verbot im Juli ein, im August hob der Verfassungsrat es auf (<b>unverhältnismäßige Einschränkung der Meinungsfreiheit</b>). Macron will aber <i>am Ziel festhalten</i>; „unter 13“ und „Januar 2027“ stammen aus anderen Zusammenhängen (EU Kids Act, Griechenland)."
+    }
+  ],
+  "schreib": [
+    "Den Nachrichten <b>zufolge</b> beginnt das Verbot am 1. Januar 2027.<span class=\"hint\"> „zufolge“ steht meist nach dem Nomen im Dativ: „Den Nachrichten zufolge“. Nicht: „zufolge den Nachrichten“ (nur selten, vor allem in Schrift).</span>",
+    "Man kann die App nutzen, <b>ohne</b> Passwörter weiter<b>zu</b>geben.<span class=\"hint\"> Bei trennbaren Verben steht „zu“ zwischen Präfix und Verb: weiterzugeben. Nicht: „ohne zu weitergeben“.</span>",
+    "Ein komplettes Verbot finde ich nicht <b>verhältnismäßig</b>, weil Jugendliche es leicht <b>umgehen</b> können.<span class=\"hint\"> „umgehen“ (Betonung auf „gehen“) = Regel umgehen. Nicht verwechseln mit „mit jemandem umgehen“ (Betonung auf „um“).</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Meiner Meinung nach …",
+      "Ein Vorteil ist, dass …",
+      "Ein Nachteil ist, dass …",
+      "Zuständig sollten … sein.",
+      "Man kann das Verbot leicht umgehen, ohne …"
+    ],
+    "modell": "„Meiner Meinung nach ist ein <b>Verbot</b> für Kinder unter 15 eine gute Idee, aber es ist nicht genug. Ein Vorteil ist, dass Kinder weniger Zeit auf den <b>Plattformen</b> verbringen. Ein Nachteil ist, dass Jugendliche das Verbot leicht <b>umgehen</b> können. <b>Zuständig</b> sollten vor allem die Eltern und die Schule sein, aber auch die Plattformen müssen das Alter richtig prüfen. Wenn die <b>Altersprüfung</b> funktioniert, ohne zu viele Daten zu sammeln, finde ich das Gesetz <b>verhältnismäßig</b>.“"
+  }
+}

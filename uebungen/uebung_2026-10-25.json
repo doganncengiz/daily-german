@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch war der Frauenanteil bei den Führungskräften in Deutschland 2025?",
+      "o": [
+        "35,9 Prozent",
+        "30,3 Prozent",
+        "47,1 Prozent"
+      ],
+      "c": 1,
+      "why": "Richtig sind 30,3 Prozent. 35,9 Prozent ist der EU-Durchschnitt bei den Führungskräften, 47,1 Prozent ist der Frauenanteil an allen Erwerbstätigen in Deutschland."
+    },
+    {
+      "q": "Was sagt der Text über den Frauenanteil unter allen Erwerbstätigen?",
+      "o": [
+        "Er ist in Deutschland etwas höher als im EU-Durchschnitt.",
+        "Er ist in Deutschland deutlich niedriger als im EU-Durchschnitt.",
+        "Er ist in Deutschland genauso hoch wie in Schweden."
+      ],
+      "c": 0,
+      "why": "47,1 Prozent in Deutschland liegen über den 46,5 Prozent im EU-Schnitt. Die zweite Antwort dreht das um; Schweden wird nur bei den Führungskräften genannt (44,4 Prozent)."
+    },
+    {
+      "q": "Mit welchem Umsatz rechnet der HDE für Halloween 2026?",
+      "o": [
+        "14,9 Millionen Euro",
+        "537 Millionen Euro",
+        "69 Millionen Euro"
+      ],
+      "c": 1,
+      "why": "Der HDE erwartet 537 Millionen Euro. 14,9 ist ein Prozentwert (Anteil der Befragten mit geplanten Ausgaben), 69 Prozent ist der Vergleich mit 2019."
+    },
+    {
+      "q": "Wofür wollen die Befragten weniger Geld ausgeben?",
+      "o": [
+        "Für Dekoration.",
+        "Für Getränke.",
+        "Für Süßigkeiten und Schminke."
+      ],
+      "c": 2,
+      "why": "Weniger Geld fließt in Süßigkeiten und Schminke. Dekoration und Getränke werden laut Text dagegen stärker nachgefragt."
+    },
+    {
+      "q": "Wann beginnt das Spiel zwischen Freiburg und Bayern?",
+      "o": [
+        "Am Samstagabend um 17.30 Uhr.",
+        "Am Sonntag um 15.30 Uhr.",
+        "Am Sonntagabend um 17.30 Uhr."
+      ],
+      "c": 2,
+      "why": "Das Spiel beginnt heute, am Sonntag, um 17.30 Uhr. Samstag und 15.30 Uhr passen nicht zu den Angaben im Text."
+    },
+    {
+      "q": "Was gilt in der Bundesliga für Freiburg gegen Bayern?",
+      "o": [
+        "Freiburg hat seit 20 Spielen nicht mehr gewonnen.",
+        "Freiburg hat bisher die wenigsten Kopfballtore der Liga erzielt.",
+        "Freiburg ist seit 29 Auswärtsspielen ungeschlagen."
+      ],
+      "c": 0,
+      "why": "Seit 20 Bundesliga-Spielen gab es keinen Freiburger Sieg gegen Bayern. Freiburg hat die meisten Kopfballtore der Liga, und die Serie von 29 Auswärtsspielen ohne Niederlage gehört zu Bayern."
+    }
+  ],
+  "schreib": [
+    "Der Frauenanteil unter den Führungskräften ist in Deutschland <b>niedriger als</b> im EU-Durchschnitt. <span class=\"hint\">Nach dem Komparativ steht „als“, nicht „wie“.</span>",
+    "Der Handel <b>rechnet damit, dass</b> der Umsatz zu Halloween steigt. <span class=\"hint\">Im „dass“-Satz steht das Verb am Ende: „… dass der Umsatz steigt.“</span>",
+    "Der Anteil ist von 29,3 auf 30,3 Prozent gestiegen – das ist ein Plus von einem <b>Prozentpunkt</b>. <span class=\"hint\">Nicht „ein Prozent“: Das wäre eine andere Rechnung.</span>",
+    "Heute Abend <b>treffen</b> wir uns um 19 Uhr im Café. Danach <b>gehen</b> wir ins Kino. <span class=\"hint\">Für die Zukunft reicht das Präsens mit Uhrzeit; „werden“ ist hier nicht nötig.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Bei uns feiert man …",
+      "Dafür kauft man meistens …",
+      "Ich finde es gut / nicht so gut, dass …",
+      "Im Vergleich zu Deutschland …",
+      "Ich rechne damit, dass …"
+    ],
+    "modell": "In meiner Heimat feiern wir Halloween eher wenig, aber in Deutschland gehört das Fest für viele Familien zum Herbst. Dafür kauft man meistens <b>Dekoration</b>, Getränke und etwas Süßes. Ich finde es gut, dass Kinder sich <b>verkleiden</b> und die Nachbarn kennenlernen. Ich rechne damit, dass der <b>Umsatz</b> im <b>Einzelhandel</b> weiter steigt. Im Vergleich zu Deutschland ist der <b>Anteil</b> der Menschen, die feiern, bei uns kleiner."
+  }
+}

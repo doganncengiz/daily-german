@@ -5318,13 +5318,17 @@
     "erk": "Bewirken, dass etwas später passiert als geplant.",
     "bsp": "Der Streik hat die Lieferung um zwei Wochen verzögert.",
     "dates": [
-      "2026-07-11"
+      "2026-07-11",
+      "2026-10-27"
     ],
     "sq": "të vonosh",
     "tr": "geciktirmek",
     "uk": "затримувати",
     "ar": "يؤخّر",
-    "fa": "به تأخیر انداختن"
+    "fa": "به تأخیر انداختن",
+    "es": "retrasar",
+    "fr": "retarder",
+    "it": "ritardare"
   },
   {
     "de": "einstellen (Mitarbeiter)",
@@ -5860,13 +5864,17 @@
     "erk": "Jemanden nicht an etwas teilnehmen lassen.",
     "bsp": "Niemand soll vom Zahlungssystem ausgeschlossen werden.",
     "dates": [
-      "2026-07-16"
+      "2026-07-16",
+      "2026-10-27"
     ],
     "sq": "të përjashtosh",
     "tr": "dışlamak, hariç tutmak",
     "uk": "виключати",
     "ar": "يستبعد، يحرم من المشاركة",
-    "fa": "محروم کردن، کنار گذاشتن"
+    "fa": "محروم کردن، کنار گذاشتن",
+    "es": "excluir",
+    "fr": "exclure",
+    "it": "escludere"
   },
   {
     "de": "die Erhebung",
@@ -11417,5 +11425,141 @@
     "es": "eludir, sortear",
     "fr": "contourner",
     "it": "aggirare"
+  },
+  {
+    "de": "das Endlager",
+    "en": "final repository (for nuclear waste)",
+    "erk": "Ein Ort tief unter der Erde, an dem Atommüll für immer sicher liegen soll.",
+    "bsp": "Das Endlager soll eine Million Jahre lang sicher sein.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "nihai depolama tesisi",
+    "sq": "depo përfundimtare (e mbetjeve)",
+    "uk": "остаточне сховище",
+    "ar": "مستودع نهائي (للنفايات النووية)",
+    "fa": "انبار دائمی (برای زباله هسته‌ای)",
+    "es": "depósito final",
+    "fr": "site de stockage final",
+    "it": "deposito finale"
+  },
+  {
+    "de": "der Atommüll",
+    "en": "nuclear waste",
+    "erk": "Gefährlicher Abfall aus Atomkraftwerken, der sehr lange strahlt.",
+    "bsp": "Der Atommüll liegt zurzeit in Zwischenlagern.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "nükleer atık",
+    "sq": "mbetje bërthamore",
+    "uk": "ядерні відходи",
+    "ar": "نفايات نووية",
+    "fa": "زباله هسته‌ای",
+    "es": "residuos nucleares",
+    "fr": "déchets nucléaires",
+    "it": "scorie nucleari"
+  },
+  {
+    "de": "geeignet",
+    "en": "suitable",
+    "erk": "Etwas passt gut für einen bestimmten Zweck.",
+    "bsp": "Nicht jedes Gebiet ist für ein Endlager geeignet.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "uygun",
+    "sq": "i përshtatshëm",
+    "uk": "придатний",
+    "ar": "مناسب",
+    "fa": "مناسب",
+    "es": "adecuado",
+    "fr": "approprié, adapté",
+    "it": "adatto"
+  },
+  {
+    "de": "eingrenzen",
+    "en": "to narrow down",
+    "erk": "Die Zahl der Möglichkeiten oder die Größe eines Gebiets kleiner machen.",
+    "bsp": "Die BGE will die möglichen Gebiete weiter eingrenzen.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "daraltmak",
+    "sq": "kufizoj",
+    "uk": "звужувати",
+    "ar": "تضييق النطاق",
+    "fa": "محدود کردن",
+    "es": "acotar, delimitar",
+    "fr": "circonscrire, restreindre",
+    "it": "restringere, delimitare"
+  },
+  {
+    "de": "der Standort",
+    "en": "site, location",
+    "erk": "Der Ort, an dem etwas gebaut wird oder steht.",
+    "bsp": "Der Standort für das Endlager steht noch nicht fest.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "yer, lokasyon",
+    "sq": "vendndodhja",
+    "uk": "місце розташування",
+    "ar": "الموقع",
+    "fa": "محل، مکان",
+    "es": "emplazamiento",
+    "fr": "site, emplacement",
+    "it": "sito, ubicazione"
+  },
+  {
+    "de": "die Erkundung",
+    "en": "exploration, survey",
+    "erk": "Man untersucht ein Gebiet genau, zum Beispiel mit Bohrungen.",
+    "bsp": "Zur Erkundung gehören Bohrungen und Messungen.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "keşif, araştırma",
+    "sq": "eksplorim",
+    "uk": "розвідка, дослідження",
+    "ar": "استكشاف",
+    "fa": "اکتشاف",
+    "es": "exploración",
+    "fr": "exploration",
+    "it": "esplorazione"
+  },
+  {
+    "de": "das Zwischenlager",
+    "en": "interim storage facility",
+    "erk": "Ein Lager, in dem Atommüll nur für eine begrenzte Zeit bleibt.",
+    "bsp": "Hochradioaktiver Atommüll wird an 16 Standorten zwischengelagert.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "geçici depo",
+    "sq": "depo e përkohshme",
+    "uk": "проміжне сховище",
+    "ar": "مستودع مؤقت",
+    "fa": "انبار موقت",
+    "es": "almacén temporal",
+    "fr": "entrepôt intermédiaire",
+    "it": "deposito temporaneo"
+  },
+  {
+    "de": "der Zeitplan",
+    "en": "schedule, timeline",
+    "erk": "Eine Liste, bis wann welche Schritte fertig sein sollen.",
+    "bsp": "Der Zeitplan für die Suche ist nicht mehr zu halten.",
+    "dates": [
+      "2026-10-27"
+    ],
+    "tr": "zaman çizelgesi",
+    "sq": "plani kohor",
+    "uk": "графік, календарний план",
+    "ar": "الجدول الزمني",
+    "fa": "برنامه زمانی",
+    "es": "calendario, cronograma",
+    "fr": "calendrier",
+    "it": "calendario, tempistica"
   }
 ]

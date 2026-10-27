@@ -1,0 +1,48 @@
+{
+  "mc": [
+    {
+      "q": "Wie viel der Fläche Deutschlands galt vor einem Jahr als möglicherweise geeignet?",
+      "o": [
+        "Mehr als die Hälfte des Landes.",
+        "Etwa ein Viertel der Fläche.",
+        "Die ganze Landesfläche."
+      ],
+      "c": 1,
+      "why": "Vor einem Jahr galt <b>etwa ein Viertel</b> als möglicherweise geeignet. „Mehr als die Hälfte“ war der Stand von 2020, und „das ganze Land“ ist nur das Ziel der Bewertung, nicht der aktuelle Stand."
+    },
+    {
+      "q": "Wer entscheidet am Ende per Gesetz, welche Regionen erkundet werden?",
+      "o": [
+        "Die BGE aus Peine.",
+        "Das Bundesamt BASE.",
+        "Bundestag und Bundesrat."
+      ],
+      "c": 2,
+      "why": "Die Regionen werden von <b>Bundestag und Bundesrat per Gesetz</b> festgelegt. Die BGE schlägt Regionen vor; das BASE prüft die Vorschläge."
+    },
+    {
+      "q": "Was stimmt laut Text über den Zeitplan der Suche?",
+      "o": [
+        "Ursprünglich war 2031 das Ziel; heute wird eine Standortentscheidung bis 2050 angestrebt.",
+        "Das Endlager soll schon 2027 gefunden werden.",
+        "Die Suche endete 2023, als die letzten Atomkraftwerke vom Netz gingen."
+      ],
+      "c": 0,
+      "why": "2031 war das ursprüngliche Ziel. Heute wird eine <b>Standortentscheidung bis 2050</b> angestrebt. Das bedeutet nicht, dass dann bereits Abfälle im Endlager gelagert werden. 2027 betrifft die vorgeschlagenen Regionen; 2023 endete der Betrieb der letzten Atomkraftwerke."
+    }
+  ],
+  "schreib": [
+    "Bis <b>spätestens</b> Donnerstag schicke ich dir den Bericht.<span class=\"hint\"> „Bis spätestens“ nennt die letzte Frist. Auch „spätestens bis Donnerstag“ ist möglich.</span>",
+    "Die Firma schickt die Unterlagen früher, <b>damit</b> sich der Termin nicht <b>verzögert</b>.<span class=\"hint\"> Nach „damit“ steht das Verb am Ende. Nicht: „damit sich der Termin verzögert nicht“.</span>",
+    "In unserer Stadt <b>soll</b> im nächsten Jahr ein neuer Radweg gebaut <b>werden</b>.<span class=\"hint\"> Am Ende steht „werden“, nicht „worden“: soll gebaut werden. Vergleiche das Perfekt Passiv: „Der Radweg ist gebaut worden.“</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Meiner Meinung nach sollte man …",
+      "Ein wichtiges Kriterium ist …",
+      "Mitreden sollten vor allem …",
+      "Wichtig ist, dass …, damit …"
+    ],
+    "modell": "„Meiner Meinung nach sollte man den <b>Standort</b> für das <b>Endlager</b> vor allem nach der Sicherheit auswählen. Ein wichtiges Kriterium ist, dass das Gebiet für eine Million Jahre <b>geeignet</b> ist. Mitreden sollten die Menschen vor Ort, damit sie dem Ergebnis vertrauen. Außerdem darf man den <b>Zeitplan</b> nicht über die Sicherheit stellen. Bis dahin muss der <b>Atommüll</b> in den <b>Zwischenlagern</b> sicher bleiben.“"
+  }
+}

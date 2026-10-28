@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 29. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 29. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 28. Oktober</div>
+    <h2 class="heading">Metall-Tarifrunde: 1,3 Prozent Angebot, 5 Prozent Forderung – Warnstreiks rücken näher</h2>
+    <div class="card">
+      <p>Für rund 3,7 Millionen Beschäftigte in der Metall- und Elektroindustrie wird gerade ein neuer <b>Tarifvertrag</b> verhandelt. Am Dienstag ist die zweite <b>Verhandlungsrunde</b> ohne Annäherung zu Ende gegangen. Die Arbeitgeber haben ein erstes <b>Angebot</b> vorgelegt: 1,3 Prozent mehr Lohn, allerdings erst ab Juli 2028. Dazu soll es eine <b>Einmalzahlung</b> von einem Prozent eines durchschnittlichen Jahresgehalts geben. Firmen mit sehr geringem Gewinn sollen diese Zahlung aussetzen können. Nach Angaben des Arbeitgeberverbands Südwestmetall würden in Baden-Württemberg rund 45 Prozent der Firmen nicht zahlen. Außerdem schlagen die Arbeitgeber vor, dass Betriebsräte künftig auf Firmenebene über Investitionen und Arbeitsplätze verhandeln.</p>
+      <p>Die <b>Gewerkschaft</b> IG Metall fordert dagegen fünf Prozent mehr Lohn bei einer <b>Laufzeit</b> von zwölf Monaten und zusätzlich Garantien für Standorte und Arbeitsplätze. Sie hat das Angebot sofort <b>abgelehnt</b>. Die Gespräche laufen regional, zum Beispiel in Baden-Württemberg, Bayern und Nordrhein-Westfalen. Knut Giesler, Bezirksleiter in Nordrhein-Westfalen, <b>entgegnete</b>, das Angebot setze zu spät ein und sei zu niedrig. Außerdem sei die Laufzeit zu lang. Barbara Resch, Bezirksleiterin im Südwesten, sagte, die Arbeitgeber müssten sich bewegen. Sonst würden die Beschäftigten in den Betrieben dafür sorgen.</p>
+      <p>Wie geht es weiter? Nach dem Ende der <b>Friedenspflicht</b> sind ab Sonntag, dem 1. November, <b>Warnstreiks</b> möglich. Die Tarifkommission in Nordrhein-Westfalen soll am Samstag entscheiden, wie sie vorgeht. Ein neuer Verhandlungstermin wurde in der Meldung nicht genannt.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Tarifvertrag</td><td>collective agreement</td><td>Ein Vertrag zwischen Gewerkschaft und Arbeitgebern über Lohn und Arbeitszeit.</td><td>Der neue Tarifvertrag soll für 3,7 Millionen Beschäftigte gelten.</td></tr>
+        <tr><td>die Gewerkschaft</td><td>trade union</td><td>Eine Organisation, die für die Interessen der Beschäftigten kämpft.</td><td>Die Gewerkschaft fordert mehr Lohn und sichere Arbeitsplätze.</td></tr>
+        <tr><td>die Laufzeit</td><td>term, duration (of a contract)</td><td>Die Zeit, für die ein Vertrag gilt.</td><td>Die Laufzeit des Vertrags beträgt zwölf Monate.</td></tr>
+        <tr><td>die Einmalzahlung</td><td>one-off payment</td><td>Eine Zahlung, die es nur einmal gibt, nicht jeden Monat.</td><td>Zusätzlich zum Lohn gibt es eine Einmalzahlung.</td></tr>
+        <tr><td>der Warnstreik</td><td>warning strike</td><td>Ein kurzer Streik, mit dem die Gewerkschaft Druck macht.</td><td>Nach der Friedenspflicht sind Warnstreiks möglich.</td></tr>
+        <tr><td>die Friedenspflicht</td><td>no-strike obligation (during a contract)</td><td>Während dieser Zeit sind Streiks zu den tariflich geregelten Themen ausgeschlossen.</td><td>Nach dem Ende der Friedenspflicht sind Warnstreiks möglich.</td></tr>
+        <tr><td>entgegnen</td><td>to reply, to retort</td><td>Auf eine Aussage antworten, oft mit einer anderen Meinung.</td><td>Er entgegnete, das Angebot sei zu niedrig.</td></tr>
+        <tr><td>die Verhandlungsrunde <span class="rep">(Wiederholung)</span></td><td>round of negotiations</td><td>Ein Treffen, bei dem beide Seiten über eine Lösung sprechen.</td><td>Die zweite Verhandlungsrunde endete ohne Einigung.</td></tr>
+        <tr><td>ablehnen <span class="rep">(Wiederholung)</span></td><td>to reject, to decline</td><td>Etwas nicht annehmen.</td><td>Die Gewerkschaft hat das Angebot abgelehnt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Es gibt keine Annäherung.“</b> — Beide Seiten sind noch weit voneinander entfernt.<br><i>Bei den Gehaltsgesprächen gibt es noch keine Annäherung.</i></li>
+        <li><b>„Die Arbeitgeber müssen sich bewegen.“</b> — Eine Seite muss Kompromisse machen.<br><i>Wenn sich keiner bewegt, gibt es keine Einigung.</i></li>
+        <li><b>„ein Angebot vorlegen“</b> — Man macht offiziell einen Vorschlag.<br><i>Die Firma hat uns ein neues Angebot vorgelegt.</i></li>
+        <li><b>„Das Angebot setzt zu spät ein.“</b> — Die Verbesserung käme erst viel später.<br><i>Die Lohnerhöhung setzt erst nächstes Jahr ein.</i></li>
+        <li><b>„Wie geht es weiter?“</b> — Man fragt nach dem nächsten Schritt.<br><i>Wie geht es nach dem Meeting weiter?</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Indirekte Rede in Nachrichten:</b> „Das Angebot <b>setze</b> zu spät <b>ein</b> und <b>sei</b> zu niedrig.“ Journalisten geben Aussagen mit Konjunktiv I weiter: <i>er setze … ein, es sei, sie habe</i>. Ist die Form gleich wie im Indikativ (<i>sie müssen, sie werden</i>), verwendet man in formeller indirekter Rede häufig Konjunktiv II: „Die Arbeitgeber <b>müssten</b> sich bewegen.“ Im Alltag ist auch der Indikativ üblich: „Sie sagt, die Arbeitgeber müssen sich bewegen.“</p></div>
+      <div class="grammar-block"><p><b>Gegensatz mit „allerdings“ und „dagegen“:</b> „1,3 Prozent mehr Lohn, <b>allerdings</b> erst ab Juli 2028.“ – „Die IG Metall fordert <b>dagegen</b> fünf Prozent.“ Beide Wörter stehen auf Position 1 oder im Mittelfeld und zeigen einen Kontrast. Steht das Wort auf Position 1, folgt direkt das Verb: <i>Allerdings gilt das erst ab 2028.</i> Typischer Fehler: „Allerdings das gilt …“.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Für wie viele Beschäftigte wird der neue Tarifvertrag verhandelt?</li>
+          <li>Was fordert die IG Metall?</li>
+          <li>Was ist ab dem 1. November möglich?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe in indirekter Rede: Barbara Resch sagt: „Die Arbeitgeber müssen sich bewegen.“ → Barbara Resch sagte, …</li>
+          <li>Schreibe einen Satz mit „allerdings“ über ein Angebot, das gut klingt, aber ein Problem hat.</li>
+          <li>Schreibe einen Satz mit „danach“ über deinen Plan für diese Woche.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Stell dir vor, du verhandelst für dein Team über mehr Lohn oder bessere Arbeitszeiten. Sage in fünf Sätzen, was du forderst, wie du auf ein schlechtes Angebot reagierst und wie es weitergehen soll. Benutze „allerdings“ oder „dagegen“.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen (Stand: 28. Oktober 2026): dpa-AFX/ariva.de: <a href="https://www.ariva.de/news/roundup-2-ig-metall-lehnt-erstes-angebot-ab-warnstreiks-12183611">IG Metall lehnt erstes Angebot ab – Warnstreiks kommen (27.10.2026)</a>; onvista: <a href="https://www.onvista.de/news/2026/10-27-keine-annaeherung-in-der-metall-tarifrunde-warnstreiks-0-20-26568993">Keine Annäherung in der Metall-Tarifrunde</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

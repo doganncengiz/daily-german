@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie viele Spiele der zweiten Runde stehen heute auf dem Programm?",
+      "o": [
+        "16 Spiele.",
+        "Acht Spiele.",
+        "Vier Spiele."
+      ],
+      "c": 1,
+      "why": "Heute stehen <b>acht Spiele</b> auf dem Programm, gestern wurden die ersten acht gespielt. „16“ ist die Gesamtzahl der Partien in der Runde, „vier“ gilt nur für jeweils einen Anstoßtermin (18 Uhr oder 20:45 Uhr)."
+    },
+    {
+      "q": "Welches Spiel zeigt die ARD heute Abend live?",
+      "o": [
+        "Borussia Dortmund gegen Werder Bremen.",
+        "Bayer Leverkusen gegen den 1. FC Nürnberg.",
+        "Der FC Bayern München gegen den 1. FC Magdeburg."
+      ],
+      "c": 2,
+      "why": "Die ARD zeigt <b>Bayern gegen Magdeburg</b> ab 20:45 Uhr live. Dortmund gegen Bremen lief gestern im ZDF. Leverkusen gegen Nürnberg spielt zwar zur selben Zeit, läuft aber laut Text nur bei Sky."
+    },
+    {
+      "q": "Was stimmt laut Text über den DFB-Pokal?",
+      "o": [
+        "Es gibt kein Rückspiel, und wer verliert, ist sofort raus.",
+        "Sky zeigt nur die Spiele am Mittwoch live.",
+        "Alle Spiele laufen kostenlos im Free-TV."
+      ],
+      "c": 0,
+      "why": "Im Pokal gibt es <b>kein Rückspiel</b>: Wer verliert, ist sofort raus. Sky zeigt dagegen <b>alle 16 Partien</b> live, nicht nur die vom Mittwoch. Im Free-TV laufen laut DFB nur zwei Spiele, nicht alle."
+    }
+  ],
+  "schreib": [
+    "<b>Wer</b> zu spät kommt, <b>muss</b> den Kaffee für alle bezahlen.<span class=\"hint\"> Nach dem „Wer“-Nebensatz steht im Hauptsatz sofort das Verb. Nicht: „Wer zu spät kommt, er muss …“.</span>",
+    "Alle 16 Spiele <b>werden</b> von Sky live <b>gezeigt</b>.<span class=\"hint\"> Im Passiv Präsens steht das konjugierte „werden“ auf Position 2 und das Partizip am Ende: „Die Spiele werden gezeigt.“ Bei Plural heißt es „werden“, nicht „wird“.</span>",
+    "Dass wir den Termin noch schaffen, <b>ist nicht ausgeschlossen</b>.<span class=\"hint\"> Man kann auch sagen: „Ausgeschlossen ist das nicht.“ Achtung: „nicht ausgeschlossen“ heißt „möglich“, nicht „unmöglich“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich finde Außenseiter spannend, weil …",
+      "Es gab eine echte Überraschung, als …",
+      "Wer … , der/die …",
+      "Ein Sieg war nicht ausgeschlossen, aber …",
+      "Am Ende ist … weitergekommen."
+    ],
+    "modell": "„Ja, ich mag <b>Außenseiter</b>. Letztes Jahr hat in unserer Firma ein kleines Team gegen einen großen Konkurrenten ein Projekt gewonnen. Das war eine echte <b>Überraschung</b>, denn ein Erfolg war nicht <b>ausgeschlossen</b>, aber niemand hat damit gerechnet. Wer so ein Ergebnis schafft, motiviert alle anderen. Beim Fußball ist das genauso: Der <b>Gegner</b> ist stark, aber der kleine Verein kann trotzdem <b>weiterkommen</b>.“"
+  }
+}

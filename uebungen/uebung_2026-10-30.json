@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie viele Erwerbstätige haben 2024 nachts gearbeitet?",
+      "o": [
+        "Rund 42,6 Millionen.",
+        "Knapp vier Millionen.",
+        "9,3 Millionen."
+      ],
+      "c": 1,
+      "why": "<b>Knapp vier Millionen</b> Erwerbstätige haben 2024 nachts gearbeitet. „42,6 Millionen“ ist die Zahl aller Erwerbstätigen, und „9,3“ ist ein Prozentwert, keine Zahl in Millionen."
+    },
+    {
+      "q": "In welcher Branche ist der Anteil der Nachtarbeit laut Text am höchsten?",
+      "o": [
+        "In den Sicherheitsdiensten.",
+        "Im Gesundheitswesen.",
+        "In der Luftfahrt."
+      ],
+      "c": 2,
+      "why": "Die <b>Luftfahrt</b> liegt mit 42,6 Prozent vorn. Die Sicherheitsdienste haben 40,2 Prozent, das Gesundheitswesen nur 17,6 Prozent."
+    },
+    {
+      "q": "Was stimmt laut Text?",
+      "o": [
+        "Männer arbeiten fast doppelt so oft nachts wie Frauen.",
+        "Frauen arbeiten fast doppelt so oft nachts wie Männer.",
+        "Im Gesundheitswesen arbeiten 42,6 Prozent nachts."
+      ],
+      "c": 0,
+      "why": "<b>11,7 Prozent der Männer</b> arbeiten nachts, aber nur 6,5 Prozent der Frauen, also fast doppelt so oft. Die 42,6 Prozent gehören zur Luftfahrt, nicht zum Gesundheitswesen (17,6 Prozent)."
+    }
+  ],
+  "schreib": [
+    "Mein Bruder arbeitet <b>doppelt so oft</b> am Wochenende <b>wie</b> ich.<span class=\"hint\"> Bei „doppelt so … wie“ steht „wie“, nicht „als“. Nur beim Komparativ: „Er arbeitet öfter als ich.“</span>",
+    "Es gibt Zuschläge, <b>von denen</b> die Beschäftigten <b>profitieren</b>.<span class=\"hint\"> „profitieren von“ + Dativ Plural → „von denen“. Das Verb steht am Ende des Relativsatzes.</span>",
+    "Ich bin gestern für eine Kollegin <b>eingesprungen</b>, weil sie krank war.<span class=\"hint\"> „einspringen“ ist trennbar: ich springe ein, aber im Perfekt „eingesprungen“ (sein-Perfekt).</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich arbeite im Bereich …",
+      "Meine Schicht beginnt um … und endet um …",
+      "Schwierig ist, dass …",
+      "Gut finde ich, dass …",
+      "Wenn jemand ausfällt, muss ich oft einspringen."
+    ],
+    "modell": "„Meine Schwester arbeitet im <b>Schichtdienst</b> in einem Krankenhaus. Ihre Schicht beginnt um 21 Uhr und endet um sechs Uhr morgens. Schwierig ist, dass sie oft <b>Nachtarbeit</b> hat und tagsüber schlecht schläft. Gut finde ich, dass es dafür einen <b>Zuschlag</b> gibt. Wenn eine Kollegin ausfällt, muss meine Schwester kurzfristig <b>einspringen</b> und die <b>Vertretung</b> übernehmen.“"
+  }
+}

@@ -264,13 +264,17 @@
     "bsp": "Die Fans fiebern dem Anpfiff entgegen.",
     "dates": [
       "2026-08-07",
-      "2026-08-19"
+      "2026-08-19",
+      "2026-10-28"
     ],
     "sq": "nisja e lojës",
     "tr": "ilk vuruş, maçın başlaması",
     "uk": "початок гри",
     "ar": "صافرة البداية",
-    "fa": "سوت آغاز بازی"
+    "fa": "سوت آغاز بازی",
+    "es": "pitido inicial",
+    "fr": "coup d'envoi",
+    "it": "fischio d'inizio"
   },
   {
     "de": "der Anreiz",
@@ -3151,13 +3155,17 @@
     "erk": "Einen Vorteil aus etwas ziehen.",
     "bsp": "Vom Fest profitieren viele Branchen der Stadt.",
     "dates": [
-      "2026-09-05"
+      "2026-09-05",
+      "2026-10-30"
     ],
     "sq": "të përfitojë nga",
     "tr": "-den yararlanmak",
     "uk": "отримувати вигоду з",
     "ar": "يستفيد من",
-    "fa": "بهره بردن از"
+    "fa": "بهره بردن از",
+    "es": "beneficiarse de",
+    "fr": "profiter de",
+    "it": "trarre vantaggio da"
   },
   {
     "de": "die Prognose",
@@ -5865,7 +5873,8 @@
     "bsp": "Niemand soll vom Zahlungssystem ausgeschlossen werden.",
     "dates": [
       "2026-07-16",
-      "2026-10-27"
+      "2026-10-27",
+      "2026-10-28"
     ],
     "sq": "të përjashtosh",
     "tr": "dışlamak, hariç tutmak",
@@ -7119,7 +7128,8 @@
     "erk": "Nein sagen zu einem Vorschlag oder einer Forderung.",
     "bsp": "Der Betriebsrat lehnt die längere Arbeitszeit ab.",
     "dates": [
-      "2026-09-22"
+      "2026-09-22",
+      "2026-10-29"
     ],
     "sq": "refuzoj",
     "tr": "reddetmek",
@@ -7961,7 +7971,8 @@
     "bsp": "Die Umfrage betrifft Unternehmen mit mindestens 20 Beschäftigten.",
     "dates": [
       "2026-09-29",
-      "2026-10-01"
+      "2026-10-01",
+      "2026-10-30"
     ],
     "sq": "i punësuar",
     "tr": "çalışan",
@@ -10324,7 +10335,8 @@
     "erk": "Ein Wirtschaftsbereich, zum Beispiel Bau, Handel oder IT.",
     "bsp": "Die Chancen hängen stark von der Branche ab.",
     "dates": [
-      "2026-10-18"
+      "2026-10-18",
+      "2026-10-30"
     ],
     "sq": "dega (e ekonomisë)",
     "tr": "sektör",
@@ -10478,7 +10490,8 @@
     "erk": "Ein Treffen, bei dem Firma und Gewerkschaft über Lohn und Bedingungen sprechen.",
     "bsp": "Volkswagen verwies auf die kommende Verhandlungsrunde.",
     "dates": [
-      "2026-10-19"
+      "2026-10-19",
+      "2026-10-29"
     ],
     "sq": "raund negociatash",
     "tr": "müzakere turu",
@@ -11561,5 +11574,345 @@
     "es": "calendario, cronograma",
     "fr": "calendrier",
     "it": "calendario, tempistica"
+  },
+  {
+    "de": "die Auslosung",
+    "en": "draw (random pairing of teams)",
+    "erk": "Man zieht per Zufall, wer gegen wen spielt.",
+    "bsp": "Bei der Auslosung bekam der Verein einen schweren Gegner.",
+    "dates": [
+      "2026-10-28"
+    ],
+    "sq": "shorteja",
+    "tr": "kura çekimi",
+    "uk": "жеребкування",
+    "ar": "القرعة",
+    "fa": "قرعه‌کشی",
+    "es": "sorteo",
+    "fr": "tirage au sort",
+    "it": "sorteggio"
+  },
+  {
+    "de": "der Gegner",
+    "en": "opponent",
+    "erk": "Die Person oder Mannschaft, gegen die man spielt.",
+    "bsp": "Der Gegner war stärker als erwartet.",
+    "dates": [
+      "2026-10-28"
+    ],
+    "sq": "kundërshtari",
+    "tr": "rakip",
+    "uk": "суперник",
+    "ar": "الخصم",
+    "fa": "حریف",
+    "es": "rival, adversario",
+    "fr": "adversaire",
+    "it": "avversario"
+  },
+  {
+    "de": "der Außenseiter",
+    "en": "underdog, outsider",
+    "erk": "Jemand, der wenig Chancen auf den Sieg hat.",
+    "bsp": "Der kleine Verein ist klarer Außenseiter.",
+    "dates": [
+      "2026-10-28"
+    ],
+    "sq": "ai/ekipi me më pak shanse",
+    "tr": "az şansı olan takım, sürpriz adayı",
+    "uk": "аутсайдер",
+    "ar": "الطرف الأضعف",
+    "fa": "تیم یا فرد با شانس کمتر",
+    "es": "equipo con pocas opciones, «underdog»",
+    "fr": "outsider",
+    "it": "outsider, sfavorito"
+  },
+  {
+    "de": "weiterkommen",
+    "en": "to advance (to the next round)",
+    "erk": "Man gewinnt und darf in die nächste Runde.",
+    "bsp": "Wer verliert, kann nicht weiterkommen.",
+    "dates": [
+      "2026-10-28"
+    ],
+    "sq": "të kalosh në raundin tjetër",
+    "tr": "bir üst tura çıkmak",
+    "uk": "проходити далі",
+    "ar": "يتأهل إلى الجولة التالية",
+    "fa": "به مرحله بعد صعود کردن",
+    "es": "pasar de ronda, avanzar",
+    "fr": "passer au tour suivant",
+    "it": "passare il turno"
+  },
+  {
+    "de": "die Überraschung",
+    "en": "surprise",
+    "erk": "Etwas passiert, womit niemand gerechnet hat.",
+    "bsp": "Der Sieg des kleinen Vereins war eine Überraschung.",
+    "dates": [
+      "2026-10-28"
+    ],
+    "sq": "befasia",
+    "tr": "sürpriz",
+    "uk": "несподіванка",
+    "ar": "مفاجأة",
+    "fa": "شگفتی، غافلگیری",
+    "es": "sorpresa",
+    "fr": "surprise",
+    "it": "sorpresa"
+  },
+  {
+    "de": "übertragen",
+    "en": "to broadcast",
+    "erk": "Ein Sender zeigt ein Ereignis live im Fernsehen oder im Internet.",
+    "bsp": "Die ARD überträgt das Spiel live.",
+    "dates": [
+      "2026-10-28"
+    ],
+    "sq": "transmeton",
+    "tr": "yayınlamak, canlı aktarmak",
+    "uk": "транслювати",
+    "ar": "يبثّ مباشرة",
+    "fa": "پخش کردن",
+    "es": "retransmitir",
+    "fr": "retransmettre, diffuser",
+    "it": "trasmettere"
+  },
+  {
+    "de": "das Duell",
+    "en": "duel, head-to-head match",
+    "erk": "Ein Spiel oder Kampf zwischen zwei starken Gegnern.",
+    "bsp": "Das Duell zwischen Köln und Union war spannend.",
+    "dates": [
+      "2026-10-28"
+    ],
+    "sq": "dueli, ndeshja ballë për ballë",
+    "tr": "düello, karşılaşma",
+    "uk": "поєдинок",
+    "ar": "مواجهة",
+    "fa": "رویارویی",
+    "es": "duelo, enfrentamiento",
+    "fr": "duel, affrontement",
+    "it": "duello, sfida"
+  },
+  {
+    "de": "der Tarifvertrag",
+    "en": "collective agreement",
+    "erk": "Ein Vertrag zwischen Gewerkschaft und Arbeitgebern über Lohn und Arbeitszeit.",
+    "bsp": "Der neue Tarifvertrag soll für 3,7 Millionen Beschäftigte gelten.",
+    "dates": [
+      "2026-10-29"
+    ],
+    "sq": "marrëveshja kolektive e punës",
+    "tr": "toplu iş sözleşmesi",
+    "uk": "колективний договір",
+    "ar": "اتفاقية العمل الجماعية",
+    "fa": "قرارداد دسته‌جمعی کار",
+    "es": "convenio colectivo",
+    "fr": "convention collective",
+    "it": "contratto collettivo"
+  },
+  {
+    "de": "die Gewerkschaft",
+    "en": "trade union",
+    "erk": "Eine Organisation, die für die Interessen der Beschäftigten kämpft.",
+    "bsp": "Die Gewerkschaft fordert mehr Lohn und sichere Arbeitsplätze.",
+    "dates": [
+      "2026-10-29"
+    ],
+    "sq": "sindikata",
+    "tr": "sendika",
+    "uk": "профспілка",
+    "ar": "النقابة العمالية",
+    "fa": "اتحادیه کارگری",
+    "es": "sindicato",
+    "fr": "syndicat",
+    "it": "sindacato"
+  },
+  {
+    "de": "die Laufzeit",
+    "en": "term, duration (of a contract)",
+    "erk": "Die Zeit, für die ein Vertrag gilt.",
+    "bsp": "Die Laufzeit des Vertrags beträgt zwölf Monate.",
+    "dates": [
+      "2026-10-29"
+    ],
+    "sq": "kohëzgjatja e kontratës",
+    "tr": "vade, geçerlilik süresi",
+    "uk": "термін дії",
+    "ar": "مدة سريان العقد",
+    "fa": "مدت اعتبار قرارداد",
+    "es": "duración, vigencia",
+    "fr": "durée",
+    "it": "durata"
+  },
+  {
+    "de": "die Einmalzahlung",
+    "en": "one-off payment",
+    "erk": "Eine Zahlung, die es nur einmal gibt, nicht jeden Monat.",
+    "bsp": "Zusätzlich zum Lohn gibt es eine Einmalzahlung.",
+    "dates": [
+      "2026-10-29"
+    ],
+    "sq": "pagesa një herë",
+    "tr": "tek seferlik ödeme",
+    "uk": "одноразова виплата",
+    "ar": "دفعة لمرة واحدة",
+    "fa": "پرداخت یک‌باره",
+    "es": "pago único",
+    "fr": "versement unique",
+    "it": "pagamento una tantum"
+  },
+  {
+    "de": "der Warnstreik",
+    "en": "warning strike",
+    "erk": "Ein kurzer Streik, mit dem die Gewerkschaft Druck macht.",
+    "bsp": "Nach der Friedenspflicht sind Warnstreiks möglich.",
+    "dates": [
+      "2026-10-29"
+    ],
+    "sq": "greva paralajmëruese",
+    "tr": "uyarı grevi",
+    "uk": "попереджувальний страйк",
+    "ar": "إضراب تحذيري",
+    "fa": "اعتصاب هشداری",
+    "es": "huelga de advertencia",
+    "fr": "grève d'avertissement",
+    "it": "sciopero di avvertimento"
+  },
+  {
+    "de": "die Friedenspflicht",
+    "en": "no-strike obligation (during a contract)",
+    "erk": "Während dieser Zeit sind Streiks zu den tariflich geregelten Themen ausgeschlossen.",
+    "bsp": "Nach dem Ende der Friedenspflicht sind Warnstreiks möglich.",
+    "dates": [
+      "2026-10-29"
+    ],
+    "sq": "detyrimi i paqes (pa grevë)",
+    "tr": "barış yükümlülüğü (grev yasağı)",
+    "uk": "обов'язок утримуватися від страйку",
+    "ar": "التزام السلم (حظر الإضراب)",
+    "fa": "تعهد به عدم اعتصاب",
+    "es": "obligación de paz (sin huelga)",
+    "fr": "obligation de paix sociale",
+    "it": "obbligo di pace sindacale"
+  },
+  {
+    "de": "entgegnen",
+    "en": "to reply, to retort",
+    "erk": "Auf eine Aussage antworten, oft mit einer anderen Meinung.",
+    "bsp": "Er entgegnete, das Angebot sei zu niedrig.",
+    "dates": [
+      "2026-10-29"
+    ],
+    "sq": "përgjigjem, kundërpërgjigjem",
+    "tr": "karşılık vermek",
+    "uk": "заперечувати, відповідати",
+    "ar": "يردّ",
+    "fa": "پاسخ دادن",
+    "es": "replicar",
+    "fr": "répliquer",
+    "it": "replicare, ribattere"
+  },
+  {
+    "de": "der Schichtdienst",
+    "en": "shift work",
+    "erk": "Arbeit in Früh-, Spät- oder Nachtschichten.",
+    "bsp": "Im Krankenhaus arbeiten viele im Schichtdienst.",
+    "dates": [
+      "2026-10-30"
+    ],
+    "sq": "puna me turne",
+    "tr": "vardiyalı çalışma",
+    "uk": "позмінна робота",
+    "ar": "العمل بنظام الورديات",
+    "fa": "کار شیفتی",
+    "es": "trabajo por turnos",
+    "fr": "travail posté",
+    "it": "lavoro a turni"
+  },
+  {
+    "de": "einspringen",
+    "en": "to step in, to cover for someone",
+    "erk": "Kurzfristig die Arbeit eines anderen übernehmen.",
+    "bsp": "Anton ist für Maren eingesprungen.",
+    "dates": [
+      "2026-10-30"
+    ],
+    "sq": "zëvendësoj në momentin e fundit",
+    "tr": "son anda yerine bakmak",
+    "uk": "виручити, замінити",
+    "ar": "يحلّ محلّ زميل في اللحظة الأخيرة",
+    "fa": "جایگزین شدن در لحظه آخر",
+    "es": "cubrir un turno, sustituir",
+    "fr": "remplacer au pied levé",
+    "it": "sostituire all'ultimo minuto"
+  },
+  {
+    "de": "die Nachtarbeit",
+    "en": "night work",
+    "erk": "In dieser Statistik: Arbeit zwischen 23 und 6 Uhr.",
+    "bsp": "Knapp vier Millionen Menschen leisten Nachtarbeit.",
+    "dates": [
+      "2026-10-30"
+    ],
+    "sq": "puna e natës",
+    "tr": "gece çalışması",
+    "uk": "нічна робота",
+    "ar": "العمل الليلي",
+    "fa": "کار شبانه",
+    "es": "trabajo nocturno",
+    "fr": "travail de nuit",
+    "it": "lavoro notturno"
+  },
+  {
+    "de": "der Sicherheitsdienst",
+    "en": "security service",
+    "erk": "Eine Firma oder Abteilung, die Gebäude und Veranstaltungen bewacht.",
+    "bsp": "Der Sicherheitsdienst arbeitet auch nachts.",
+    "dates": [
+      "2026-10-30"
+    ],
+    "sq": "shërbimi i sigurisë",
+    "tr": "güvenlik hizmeti",
+    "uk": "служба охорони",
+    "ar": "خدمة الأمن",
+    "fa": "خدمات امنیتی",
+    "es": "servicio de seguridad",
+    "fr": "service de sécurité",
+    "it": "servizio di sicurezza"
+  },
+  {
+    "de": "der Zuschlag",
+    "en": "surcharge, extra pay",
+    "erk": "Extra Geld für Arbeit zu schwierigen Zeiten, zum Beispiel nachts.",
+    "bsp": "Für Nachtarbeit gibt es oft einen Zuschlag.",
+    "dates": [
+      "2026-10-30"
+    ],
+    "sq": "shtesa e pagës",
+    "tr": "ek ücret, zam",
+    "uk": "доплата",
+    "ar": "علاوة",
+    "fa": "فوق‌العاده (دستمزد اضافی)",
+    "es": "plus salarial, complemento",
+    "fr": "majoration, supplément",
+    "it": "maggiorazione"
+  },
+  {
+    "de": "die Vertretung",
+    "en": "cover, substitute",
+    "erk": "Jemand übernimmt für kurze Zeit die Arbeit eines anderen.",
+    "bsp": "Ich übernehme heute die Vertretung für Maren.",
+    "dates": [
+      "2026-10-30"
+    ],
+    "sq": "zëvendësimi",
+    "tr": "yerine bakma, vekâlet",
+    "uk": "заміна",
+    "ar": "الإنابة، التغطية",
+    "fa": "جانشینی",
+    "es": "sustitución, suplencia",
+    "fr": "remplacement",
+    "it": "sostituzione"
   }
 ]

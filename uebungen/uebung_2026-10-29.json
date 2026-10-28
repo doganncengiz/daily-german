@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Für wie viele Beschäftigte wird der neue Tarifvertrag verhandelt?",
+      "o": [
+        "Für rund 3,7 Millionen Beschäftigte.",
+        "Für rund 1,3 Millionen Beschäftigte.",
+        "Für rund 12 Millionen Beschäftigte."
+      ],
+      "c": 0,
+      "why": "Es geht um <b>rund 3,7 Millionen Beschäftigte</b> in der Metall- und Elektroindustrie. „1,3“ ist das Lohnangebot in Prozent, „zwölf“ die geforderte Laufzeit in Monaten."
+    },
+    {
+      "q": "Was fordert die IG Metall?",
+      "o": [
+        "Eine Einmalzahlung von einem Prozent.",
+        "1,3 Prozent mehr Lohn ab Juli 2028.",
+        "Fünf Prozent mehr Lohn bei zwölf Monaten Laufzeit."
+      ],
+      "c": 2,
+      "why": "Die IG Metall fordert <b>fünf Prozent mehr Lohn bei zwölf Monaten Laufzeit</b>. Die Einmalzahlung und die 1,3 Prozent ab Juli 2028 gehören zum Angebot der Arbeitgeber."
+    },
+    {
+      "q": "Was ist ab dem 1. November möglich?",
+      "o": [
+        "Der neue Tarifvertrag tritt in Kraft.",
+        "Warnstreiks sind möglich, weil die Friedenspflicht endet.",
+        "Die IG Metall muss das Angebot annehmen."
+      ],
+      "c": 1,
+      "why": "Ab dem 1. November sind <b>Warnstreiks möglich</b>, weil die Friedenspflicht dann abgelaufen ist. Ein neuer Tarifvertrag ist noch nicht vereinbart, und die IG Metall hat das Angebot abgelehnt."
+    }
+  ],
+  "schreib": [
+    "Barbara Resch sagte, die Arbeitgeber <b>müssten</b> sich bewegen.<span class=\"hint\"> In formeller indirekter Rede ersetzt „müssten“ hier den Konjunktiv I, der wie der Indikativ aussieht. In der Alltagssprache ist auch der Indikativ üblich.</span>",
+    "Das Angebot klingt gut, <b>allerdings</b> ist die Laufzeit sehr lang.<span class=\"hint\"> Hier steht „allerdings“ am Anfang des zweiten Hauptsatzes; direkt danach folgt das Verb. Im Mittelfeld ist ebenfalls möglich: „Die Laufzeit ist allerdings sehr lang.“</span>",
+    "Bis Freitag schreibe ich den Bericht, <b>danach</b> schicke ich ihn meinem Chef.<span class=\"hint\"> Nach „danach“ auf Position 1 kommt direkt das Verb: „danach schicke ich“, nicht „danach ich schicke“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich fordere …",
+      "Das Angebot ist leider zu niedrig, weil …",
+      "Allerdings wäre ich bereit, …",
+      "Wir müssen uns beide bewegen.",
+      "Wie geht es jetzt weiter?"
+    ],
+    "modell": "„Ich fordere für unser Team mehr Lohn und kürzere Schichten. Das erste <b>Angebot</b> der Firma ist leider zu niedrig, weil es erst in zwei Jahren beginnt. Allerdings wäre ich bereit, über die <b>Laufzeit</b> zu sprechen. Wir müssen uns beide bewegen, sonst gibt es keinen <b>Tarifvertrag</b>. Wie geht es jetzt weiter? Nach der nächsten <b>Verhandlungsrunde</b> entscheiden wir, ob wir das Angebot <b>ablehnen</b>.“"
+  }
+}

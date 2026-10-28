@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 30. Oktober 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 30. Oktober 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 28. Oktober</div>
+    <h2 class="heading">Knapp 4 Millionen Menschen arbeiten nachts – in welchen Branchen besonders oft?</h2>
+    <div class="card">
+      <p>Wenn die meisten Menschen schlafen, arbeiten andere: Nach Zahlen des Statistischen Bundesamts haben 2024 knapp vier Millionen Erwerbstätige in Deutschland <b>Nachtarbeit</b> geleistet, in dieser Statistik also zwischen 23 und 6 Uhr. Das sind 9,3 Prozent von rund 42,6 Millionen Erwerbstätigen, mindestens gelegentlich. Männer arbeiten fast doppelt so oft nachts wie Frauen: 11,7 Prozent der Männer, aber nur 6,5 Prozent der Frauen. Auch das Alter spielt eine Rolle: Bei den Erwerbstätigen bis 34 Jahre arbeiten 10,6 Prozent nachts, bei den 35- bis 54-Jährigen 9,6 Prozent und ab 55 Jahren 7,4 Prozent.</p>
+      <p>Besonders hoch ist der Anteil in der Luftfahrt mit 42,6 Prozent. Danach folgen die <b>Sicherheitsdienste</b> und Detekteien mit 40,2 Prozent und die Metallerzeugung und -bearbeitung mit 31,1 Prozent. Bei Lagerei und Transportdienstleistungen sind es 18,6 Prozent, im Gesundheitswesen 17,6 Prozent und in der Gastronomie 13,9 Prozent. Sehr selten ist Nachtarbeit zum Beispiel bei IT-Dienstleistungen (3,6 Prozent) und in der Bildung (3,8 Prozent). Je nach <b>Branche</b> sieht der Arbeitsalltag also ganz unterschiedlich aus.</p>
+      <p>Viele dieser Jobs laufen im <b>Schichtdienst</b>: Früh-, Spät- und Nachtdienst wechseln sich ab. Krankenhäuser, Flughäfen und Sicherheitsdienste müssen rund um die Uhr besetzt sein. Fällt jemand aus, muss oft ein Kollege kurzfristig <b>einspringen</b> und die <b>Vertretung</b> übernehmen. Dafür gibt es häufig <b>Zuschläge</b>, von denen <b>Beschäftigte</b> <b>profitieren</b>. Die Einzelheiten stehen zum Beispiel im Tarifvertrag.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Schichtdienst</td><td>shift work</td><td>Arbeit in Früh-, Spät- oder Nachtschichten.</td><td>Im Krankenhaus arbeiten viele im Schichtdienst.</td></tr>
+        <tr><td>einspringen</td><td>to step in, to cover for someone</td><td>Kurzfristig die Arbeit eines anderen übernehmen.</td><td>Anton ist für Maren eingesprungen.</td></tr>
+        <tr><td>die Nachtarbeit</td><td>night work</td><td>In dieser Statistik: Arbeit zwischen 23 und 6 Uhr.</td><td>Knapp vier Millionen Menschen leisten Nachtarbeit.</td></tr>
+        <tr><td>der Sicherheitsdienst</td><td>security service</td><td>Eine Firma oder Abteilung, die Gebäude und Veranstaltungen bewacht.</td><td>Der Sicherheitsdienst arbeitet auch nachts.</td></tr>
+        <tr><td>der Zuschlag</td><td>surcharge, extra pay</td><td>Extra Geld für Arbeit zu schwierigen Zeiten, zum Beispiel nachts.</td><td>Für Nachtarbeit gibt es oft einen Zuschlag.</td></tr>
+        <tr><td>die Vertretung</td><td>cover, substitute</td><td>Jemand übernimmt für kurze Zeit die Arbeit eines anderen.</td><td>Ich übernehme heute die Vertretung für Maren.</td></tr>
+        <tr><td>der/die Beschäftigte <span class="rep">(Wiederholung)</span></td><td>employee</td><td>Eine Person, die bei einer Firma angestellt ist.</td><td>Viele Beschäftigte arbeiten im Schichtdienst.</td></tr>
+        <tr><td>die Branche <span class="rep">(Wiederholung)</span></td><td>industry, sector</td><td>Ein Wirtschaftsbereich, zum Beispiel Gastronomie oder IT.</td><td>In dieser Branche arbeitet man oft nachts.</td></tr>
+        <tr><td>profitieren von</td><td>to benefit from</td><td>Einen Vorteil durch etwas haben.</td><td>Die Beschäftigten profitieren von den Zuschlägen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„rund um die Uhr“</b> — Ohne Pause, 24 Stunden am Tag.<br><i>Die Notaufnahme ist rund um die Uhr besetzt.</i></li>
+        <li><b>„im Schichtdienst arbeiten“</b> — In Früh-, Spät- oder Nachtschichten arbeiten.<br><i>Meine Schwester arbeitet im Schichtdienst.</i></li>
+        <li><b>„kurzfristig einspringen“</b> — Sehr schnell für jemanden arbeiten.<br><i>Kannst du heute kurzfristig einspringen?</i></li>
+        <li><b>„Das hängt vom Tarifvertrag ab.“</b> — Die Antwort ist nicht immer gleich.<br><i>Die Zuschläge hängen vom Tarifvertrag ab.</i></li>
+        <li><b>„Nach Angaben des Statistischen Bundesamts …“</b> — So leitet man eine Quelle in Nachrichten ein.<br><i>Nach Angaben der Firma gibt es 200 Mitarbeiter.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Vergleich mit „so … wie“:</b> „Männer arbeiten <b>fast doppelt so oft</b> nachts <b>wie</b> Frauen.“ Man vergleicht mit <i>so + Adjektiv/Adverb + wie</i>: <i>genauso oft wie, halb so oft wie, doppelt so oft wie</i>. Typischer Fehler: „als“ statt „wie“ in dieser Vergleichsform („doppelt so oft als“). „Als“ steht nur beim Komparativ: <i>öfter als</i>.</p></div>
+      <div class="grammar-block"><p><b>Relativsatz mit Präposition:</b> „Zuschläge, <b>von denen</b> Beschäftigte profitieren.“ Das Verb <i>profitieren</i> braucht <i>von + Dativ</i>. Darum steht im Relativsatz <i>von denen</i> (Plural) oder <i>von dem/der</i> (Singular). Das Verb steht am Ende. Typischer Fehler: „Zuschläge, wovon …“ oder „von die“.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel">
+    <div class="label">Übung</div>
+    <h2 class="heading">Mini-Übung</h2>
+    <div class="card">
+      <div class="uebung-block">
+        <h3>Verständnisfragen</h3>
+        <ol>
+          <li>Wie viele Erwerbstätige haben 2024 nachts gearbeitet?</li>
+          <li>In welcher Branche ist der Anteil der Nachtarbeit laut Text am höchsten?</li>
+          <li>Was stimmt laut Text?</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Schreibübungen</h3>
+        <ol>
+          <li>Schreibe einen Vergleich mit „doppelt so … wie“ über zwei Personen oder Dinge aus deinem Alltag.</li>
+          <li>Verbinde mit einem Relativsatz: Es gibt Zuschläge. Die Beschäftigten profitieren von den Zuschlägen.</li>
+          <li>Schreibe einen Satz mit „einspringen“ über eine Situation bei der Arbeit oder in der Familie.</li>
+        </ol>
+      </div>
+      <div class="uebung-block">
+        <h3>Sprechanlass</h3>
+        <p style="margin:0;">Arbeitest du oder kennst du jemanden im Schichtdienst oder in der Nachtarbeit? Erzähle in fünf Sätzen: In welcher Branche? Wann beginnt die Schicht? Was ist schwierig, was ist gut? Benutze „rund um die Uhr“ oder „einspringen“.</p>
+      </div>
+    </div>
+  </section>
+  <p class="source">Quellen (Stand: 28. Oktober 2026; Zahlen für 2024): Statistisches Bundesamt (Destatis), Zahl der Woche vom 24. März 2026: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_13_p002.html">Knapp 4,0 Millionen Erwerbstätige leisten Nachtarbeit</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

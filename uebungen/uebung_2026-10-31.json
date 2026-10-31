@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Wie viele Menschen waren im Oktober 2026 in Deutschland arbeitslos?",
+      "o": [
+        "654.000",
+        "2,955 Millionen",
+        "179.000"
+      ],
+      "c": 1,
+      "why": "Richtig sind 2,955 Millionen. 654.000 ist die Zahl der gemeldeten Arbeitsstellen. Die 179.000 beziehen sich auf gemeldete Ausbildungsbewerberinnen und -bewerber, die bis Ende September eine Ausbildung begonnen haben."
+    },
+    {
+      "q": "Was sagt der Text über die Herbstbelebung?",
+      "o": [
+        "Sie war ungewöhnlich stark.",
+        "Die Quote stieg um 0,1 Punkte auf 6,3 Prozent.",
+        "Sie blieb schwach: Saisonbereinigt stieg die Arbeitslosigkeit um 4.000."
+      ],
+      "c": 2,
+      "why": "Der Text sagt, die Herbstbelebung fiel schwach aus; saisonbereinigt stieg die Arbeitslosigkeit sogar um 4.000. Die erste Antwort dreht das um, und die Quote ist laut Text um 0,1 Punkte gesunken, nicht gestiegen."
+    },
+    {
+      "q": "In welchen Bundesländern ist der Reformationstag 2026 ein Feiertag?",
+      "o": [
+        "In neun Bundesländern, zum Beispiel in Sachsen und Hamburg.",
+        "In allen 16 Bundesländern.",
+        "Nur in Bayern, Baden-Württemberg und Nordrhein-Westfalen."
+      ],
+      "c": 0,
+      "why": "Richtig sind neun Bundesländer. „In allen 16“ gilt im Text für die Aussage, dass Halloween nirgends ein Feiertag ist. Bayern, Baden-Württemberg, NRW, Rheinland-Pfalz und das Saarland gehören zu Allerheiligen, nicht zum Reformationstag."
+    },
+    {
+      "q": "Was gilt für den 1. November (Allerheiligen) 2026?",
+      "o": [
+        "Er fällt auf einen Samstag und ist in neun Bundesländern frei.",
+        "Er fällt auf einen Montag und ist überall frei.",
+        "Er fällt auf einen Sonntag und ist in fünf Bundesländern ein Feiertag."
+      ],
+      "c": 2,
+      "why": "Allerheiligen ist 2026 ein Sonntag und ein gesetzlicher Feiertag in fünf Bundesländern. Samstag und neun Bundesländer gehören zum 31. Oktober; der Montag, 2. November, ist laut Text der nächste Arbeitstag."
+    },
+    {
+      "q": "Wann beginnt das Spiel zwischen Bayern und Dortmund?",
+      "o": [
+        "Um 17.30 Uhr.",
+        "Um 18.30 Uhr.",
+        "Um 22.30 Uhr."
+      ],
+      "c": 1,
+      "why": "Das Spiel beginnt um 18.30 Uhr. Die Übertragung bei Sky startet schon um 17.30 Uhr. 22.30 Uhr ist keine im Text genannte Anstoßzeit."
+    },
+    {
+      "q": "Was gilt vor dem Spiel für Bayern und Dortmund?",
+      "o": [
+        "Beide haben 17 Punkte und sind noch ungeschlagen.",
+        "Dortmund führt wegen mehr Siegen.",
+        "Bayern hat erst zwölf Tore geschossen."
+      ],
+      "c": 0,
+      "why": "Beide Mannschaften haben 17 Punkte und sind noch ungeschlagen. Bayern führt wegen des besseren Torverhältnisses, und zwölf Tore hat Dortmund geschossen (Bayern: 25)."
+    }
+  ],
+  "schreib": [
+    "Die Arbeitslosigkeit liegt bei 2,955 Millionen. Das sind <b>weniger als</b> im September, aber <b>mehr als</b> vor einem Jahr. <span class=\"hint\">Nach „weniger“ und „mehr“ steht bei Unterschieden „als“, nicht „wie“.</span>",
+    "Die Bundesagentur hat <b>am Freitag, dem 30. Oktober</b>, neue Zahlen vorgestellt. <span class=\"hint\">„Am Freitag, dem …“ ist korrekt. Auch „am Freitag, den …“ ist bei solchen Datumsangaben erlaubt.</span>",
+    "Nahles sagte, <b>dass</b> die Rahmenbedingungen nicht <b>ausreichen</b>. <span class=\"hint\">Im „dass“-Satz steht das Verb am Ende; „ausreichen“ ist trennbar, wird im Nebensatz aber zusammengeschrieben.</span>",
+    "Der 1. November <b>fällt auf einen</b> Sonntag, deshalb <b>haben</b> viele Menschen <b>frei</b>. <span class=\"hint\">Man sagt „auf einen Sonntag fallen“ (Akkusativ), nicht „in einem Sonntag“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Bei uns feiert man … am Wochenende.",
+      "Wer frei hat, geht meistens …",
+      "Ich finde es gut / nicht so gut, dass …",
+      "Im Vergleich zu Deutschland …",
+      "Ich rechne damit, dass …"
+    ],
+    "modell": "In meinem Land ist der Nationalfeiertag manchmal am Wochenende, und dann haben viele Menschen leider keinen zusätzlichen freien <b>Arbeitstag</b>. Wer frei hat, trifft meistens die Familie und kocht zusammen. Ich finde es gut, dass ein <b>Feiertag</b> <b>gesetzlich</b> geregelt ist, weil dann alle gleichzeitig frei haben. Im Vergleich zu Deutschland gibt es bei uns keine großen Unterschiede zwischen den Regionen, während in Deutschland jedes <b>Bundesland</b> eigene Regeln hat. Ich rechne damit, dass ich am Sonntag lange ausschlafe."
+  }
+}

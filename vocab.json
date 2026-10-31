@@ -8111,7 +8111,8 @@
     "bsp": "Saisonbereinigt ist die Arbeitslosigkeit trotzdem leicht gestiegen.",
     "dates": [
       "2026-10-01",
-      "2026-10-10"
+      "2026-10-10",
+      "2026-10-31"
     ],
     "sq": "e korrigjuar sipas sezonit",
     "tr": "mevsimsel olarak düzeltilmiş",
@@ -8420,7 +8421,8 @@
     "erk": "Ein besonderer Tag im Jahr, an dem die meisten Menschen nicht arbeiten müssen.",
     "bsp": "Der 3. Oktober ist ein bundesweiter Feiertag.",
     "dates": [
-      "2026-10-03"
+      "2026-10-03",
+      "2026-10-31"
     ],
     "sq": "festa zyrtare",
     "tr": "resmî tatil",
@@ -10216,7 +10218,8 @@
     "erk": "Ohne Niederlage.",
     "bsp": "Bayern war zu Hause seit 14 Pflichtspielen ungeschlagen.",
     "dates": [
-      "2026-10-17"
+      "2026-10-17",
+      "2026-10-31"
     ],
     "sq": "pa humbje",
     "tr": "yenilmemiş",
@@ -11914,5 +11917,192 @@
     "es": "sustitución, suplencia",
     "fr": "remplacement",
     "it": "sostituzione"
+  },
+  {
+    "de": "die Arbeitslosigkeit",
+    "en": "unemployment",
+    "erk": "Zustand, wenn Menschen arbeiten wollen, aber keine Stelle haben.",
+    "bsp": "Die Arbeitslosigkeit ist im Oktober saisonbereinigt um 4.000 gestiegen.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "papunësia",
+    "tr": "işsizlik",
+    "uk": "безробіття",
+    "ar": "البطالة",
+    "fa": "بیکاری",
+    "es": "el desempleo",
+    "fr": "le chômage",
+    "it": "la disoccupazione"
+  },
+  {
+    "de": "die Rahmenbedingungen",
+    "en": "general conditions, framework",
+    "erk": "Die allgemeinen Umstände, unter denen etwas stattfindet.",
+    "bsp": "Die Rahmenbedingungen reichen für eine Besserung nicht aus.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "kushtet e përgjithshme",
+    "tr": "genel koşullar",
+    "uk": "загальні умови",
+    "ar": "الظروف العامة",
+    "fa": "شرایط کلی",
+    "es": "las condiciones generales",
+    "fr": "les conditions générales",
+    "it": "le condizioni generali"
+  },
+  {
+    "de": "die Ausbildungsstelle",
+    "en": "apprenticeship place",
+    "erk": "Ein Platz in einem Betrieb, an dem man einen Beruf lernt.",
+    "bsp": "Im Bauhandwerk blieben viele Ausbildungsstellen leer.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "vendi i praktikës profesionale",
+    "tr": "çıraklık yeri",
+    "uk": "місце для професійного навчання",
+    "ar": "مكان تدريب مهني",
+    "fa": "جای کارآموزی",
+    "es": "la plaza de formación profesional",
+    "fr": "la place d'apprentissage",
+    "it": "il posto di apprendistato"
+  },
+  {
+    "de": "unbesetzt",
+    "en": "unfilled, vacant",
+    "erk": "Für eine Stelle hat man noch keine Person gefunden.",
+    "bsp": "48.000 Ausbildungsstellen blieben unbesetzt.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "i pazënë",
+    "tr": "boş (doldurulmamış)",
+    "uk": "незаповнений",
+    "ar": "شاغر",
+    "fa": "خالی (پرنشده)",
+    "es": "vacante",
+    "fr": "non pourvu",
+    "it": "vacante"
+  },
+  {
+    "de": "gesetzlich",
+    "en": "legal, statutory",
+    "erk": "Vom Gesetz so festgelegt.",
+    "bsp": "Halloween ist in keinem Bundesland ein gesetzlicher Feiertag.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "ligjor",
+    "tr": "yasal",
+    "uk": "законний, передбачений законом",
+    "ar": "قانوني",
+    "fa": "قانونی",
+    "es": "legal, establecido por ley",
+    "fr": "légal",
+    "it": "legale"
+  },
+  {
+    "de": "der Arbeitstag",
+    "en": "working day",
+    "erk": "Ein Tag, an dem man normalerweise arbeitet.",
+    "bsp": "Der 2. November ist in ganz Deutschland ein normaler Arbeitstag.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "dita e punës",
+    "tr": "iş günü",
+    "uk": "робочий день",
+    "ar": "يوم عمل",
+    "fa": "روز کاری",
+    "es": "el día laborable",
+    "fr": "le jour ouvrable",
+    "it": "il giorno lavorativo"
+  },
+  {
+    "de": "das Bundesland",
+    "en": "federal state",
+    "erk": "Eines der 16 Länder, aus denen Deutschland besteht.",
+    "bsp": "Der Reformationstag ist in neun Bundesländern ein Feiertag.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "landi federal",
+    "tr": "federal eyalet",
+    "uk": "федеральна земля",
+    "ar": "الولاية الاتحادية",
+    "fa": "ایالت فدرال",
+    "es": "el estado federado",
+    "fr": "le Land (État fédéré)",
+    "it": "il Land (stato federato)"
+  },
+  {
+    "de": "punktgleich",
+    "en": "level on points",
+    "erk": "Zwei Mannschaften haben gleich viele Punkte.",
+    "bsp": "Bayern und Dortmund sind punktgleich.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "me pikë të barabarta",
+    "tr": "puanları eşit",
+    "uk": "з однаковою кількістю очок",
+    "ar": "متساويان في النقاط",
+    "fa": "با امتیاز برابر",
+    "es": "igualados a puntos",
+    "fr": "à égalité de points",
+    "it": "a pari punti"
+  },
+  {
+    "de": "der Schiedsrichter",
+    "en": "referee",
+    "erk": "Die Person, die auf dem Platz die Regeln kontrolliert.",
+    "bsp": "Der Schiedsrichter heute Abend ist Tobias Stieler.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "gjyqtari",
+    "tr": "hakem",
+    "uk": "суддя",
+    "ar": "الحكم",
+    "fa": "داور",
+    "es": "el árbitro",
+    "fr": "l'arbitre",
+    "it": "l'arbitro"
+  },
+  {
+    "de": "das Gipfeltreffen",
+    "en": "summit, top match",
+    "erk": "Ein besonders wichtiges Treffen, im Sport ein Spiel der besten Teams.",
+    "bsp": "Das Gipfeltreffen in München beginnt um 18.30 Uhr.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "takimi i kreut",
+    "tr": "zirve maçı",
+    "uk": "вершинна зустріч, топматч",
+    "ar": "مباراة القمة",
+    "fa": "دیدار مهم و حساس",
+    "es": "el duelo estelar",
+    "fr": "le sommet, le choc",
+    "it": "il big match"
+  },
+  {
+    "de": "das Torverhältnis",
+    "en": "goal difference",
+    "erk": "Der Vergleich von geschossenen und kassierten Toren.",
+    "bsp": "Bayern führt wegen des besseren Torverhältnisses.",
+    "dates": [
+      "2026-10-31"
+    ],
+    "sq": "diferenca e golave",
+    "tr": "averaj",
+    "uk": "різниця забитих і пропущених голів",
+    "ar": "فارق الأهداف",
+    "fa": "تفاضل گل",
+    "es": "la diferencia de goles",
+    "fr": "la différence de buts",
+    "it": "la differenza reti"
   }
 ]

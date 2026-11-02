@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Ab wann gelten die neuen Regeln für Verbraucherkredite?",
+      "o": [
+        "Ab dem 29. November 2027.",
+        "Ab dem 20. November.",
+        "Ab dem 30. November."
+      ],
+      "c": 1,
+      "why": "Die neuen Kreditregeln gelten ab dem <b>20. November 2026</b>. Der 29. November betrifft Euro 7, der 30. November viele Kfz-Versicherungsverträge."
+    },
+    {
+      "q": "Was gilt für Autos, die schon unterwegs sind, bei Euro 7?",
+      "o": [
+        "Sie müssen nicht umgerüstet werden.",
+        "Sie müssen bis 2027 umgerüstet werden.",
+        "Sie brauchen eine neue Zulassung."
+      ],
+      "c": 0,
+      "why": "Der Text sagt: Autos, die schon unterwegs sind, <b>müssen nicht umgerüstet werden</b>. Neue Modelle brauchen eine Zulassung nach Euro 7, bereits registrierte Autos nicht."
+    },
+    {
+      "q": "Was gilt bei Vertragsende am 31. Dezember und einer Kündigungsfrist von einem Monat?",
+      "o": [
+        "Der Poststempel vom 30. November reicht.",
+        "Man kann nur im Januar kündigen.",
+        "Die Kündigung muss bis zum 30. November beim Versicherer ankommen."
+      ],
+      "c": 2,
+      "why": "Bei dieser Vertragslaufzeit muss die Kündigung spätestens am <b>30. November beim Versicherer ankommen</b>. Der Poststempel reicht nicht. Andere Vertragslaufzeiten können andere Kündigungstermine haben."
+    }
+  ],
+  "schreib": [
+    "Der Vertrag, <b>der</b> vor dem 20. November <b>geschlossen wurde</b>, bleibt gültig.<span class=\"hint\"> Im Nebensatz stehen Partizip II und „wurde/wurden“ am Ende. Nicht „worden“ im Präteritum.</span>",
+    "Die neuen Regeln gelten <b>ab dem</b> 20. November.<span class=\"hint\"> „ab“ + Dativ: ab dem 20. November, nicht „ab den“. Vor Monatsnamen ohne Tag: „ab November“.</span>",
+    "Ich muss <b>bis spätestens</b> Freitag <b>kündigen</b>, sonst verpasse ich die <b>Frist</b>.<span class=\"hint\"> „bis spätestens“ + Zeitpunkt, ohne Artikel: bis spätestens Freitag. Mit Datum: bis spätestens zum 30. November.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich habe … gekündigt, weil …",
+      "Die Frist endete am …",
+      "Ich musste die Kündigung bis spätestens … abschicken.",
+      "Einfach war, dass …",
+      "Schwierig war, dass …"
+    ],
+    "modell": "„Im Frühjahr habe ich meinen Handyvertrag <b>gekündigt</b>, weil er zu teuer war. Die <b>Frist</b> endete am 31. Mai, deshalb habe ich die <b>Kündigung</b> schon Mitte Mai geschickt. Einfach war, dass es ein Online-Formular gab. Schwierig war, dass ich lange auf die Bestätigung gewartet habe. Beim Kauf einer Waschmaschine habe ich später eine <b>Ratenzahlung</b> vereinbart.“"
+  }
+}

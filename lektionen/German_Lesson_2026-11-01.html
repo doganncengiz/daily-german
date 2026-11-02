@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 1. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 1. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+<section id="lese" class="panel active"><div class="label">Wochenend-Ausgabe</div><h2 class="heading">2,8 Prozent Inflation, Allerheiligen am Sonntag, 2:2 im Spitzenspiel</h2>
+<div class="card"><h3 class="art-kicker">Wirtschaft</h3><h4 class="art-title">Inflation im Oktober: Die Preise steigen langsamer</h4><p>Das Statistische Bundesamt hat am 30. Oktober eine erste Schätzung für den Oktober veröffentlicht: Die Inflationsrate lag bei 2,8 Prozent. Im September waren es noch 3,3 Prozent, die Teuerung hat sich also abgeschwächt. Gegenüber dem Vormonat sanken die Verbraucherpreise sogar um 0,2 Prozent. Die Zahl ist allerdings vorläufig; die endgültigen Ergebnisse folgen später.</p><p>Besonders auffällig bleibt die Energie. Sie war im Oktober 12,2 Prozent teurer als ein Jahr zuvor, im September waren es noch 14,9 Prozent. Waren insgesamt kosteten 3,0 Prozent mehr als im Vorjahresmonat, Dienstleistungen 2,5 Prozent. Bei den Nahrungsmitteln lag der Anstieg nur bei 0,4 Prozent. Ohne Energie und Nahrungsmittel, die sogenannte Kerninflation, betrug die Rate 2,1 Prozent. Der Warenkorb besteht je etwa zur Hälfte aus Waren und aus Dienstleistungen; Energie hat nur einen Anteil von rund 7 Prozent.</p><p>Was heißt das im Alltag? Die Preise steigen weiter, aber langsamer. Ein Warenkorb, der vor einem Jahr 100 Euro gekostet hat, kostet heute im Durchschnitt rund 102,80 Euro. Achte auf das Wort „Vorjahresmonat“: Es vergleicht den Oktober 2026 mit dem Oktober 2025, nicht mit dem September.</p><p>Wichtig: Eine niedrigere positive Inflationsrate bedeutet, dass die Preise im Jahresvergleich im Durchschnitt langsamer steigen. Einzelne Produkte können trotzdem billiger werden. Auch Gewerkschaften beobachten diese Zahl genau, zum Beispiel bei Tarifverhandlungen.</p></div>
+<div class="card"><h3 class="art-kicker">Freizeit</h3><h4 class="art-title">Allerheiligen am Sonntag: Friedhof statt Einkaufen</h4><p>Heute, am Sonntag, dem 1. November, ist Allerheiligen. Ein gesetzlicher Feiertag ist der Tag nur in fünf Bundesländern: in Baden-Württemberg, Bayern, Nordrhein-Westfalen, Rheinland-Pfalz und im Saarland. In den anderen elf Ländern ist es ein ganz normaler Sonntag. Weil der Feiertag in diesem Jahr auf einen Sonntag fällt, gibt es auch keinen Ersatzfeiertag am Montag. Wer in einem der fünf Länder arbeitet, bekommt also keinen zusätzlichen freien Tag.</p><p>Viele Menschen besuchen an diesem Tag den Friedhof und schmücken die Gräber ihrer Angehörigen. Besonders in katholisch geprägten Regionen gehören Grablichter und Gestecke zur Tradition. Bei einem gemeinsamen Besuch erinnern sich Familien an Verstorbene und erzählen Geschichten aus deren Leben. Der Gedenktag Allerseelen folgt morgen, am 2. November, ist aber in keinem Bundesland ein Feiertag. Der Totensonntag ist in diesem Jahr am 22. November.</p><p>Praktisch heißt das: Die meisten Geschäfte und Supermärkte bleiben heute geschlossen. Geöffnet haben zum Beispiel Tankstellen und Apotheken im Notdienst. Wer noch etwas braucht, hätte gestern einkaufen sollen. Und wer einen Friedhof besucht, spricht dort meistens leise: Das ist eine Frage des Respekts.</p><p>Der Sonntag gilt in Deutschland ohnehin traditionell als Ruhetag. Viele nutzen ihn für die Familie, einen Spaziergang oder ein langes Frühstück. Wer in einer Stadt wohnt, in der heute kein Feiertag ist, kann deshalb trotzdem einen ruhigen Tag einplanen.</p></div>
+<div class="card"><h3 class="art-kicker">Sport</h3><h4 class="art-title">Bayern und Dortmund trennen sich 2:2, Freiburg gewinnt in Augsburg</h4><p>Das Spitzenspiel des 8. Bundesliga-Spieltags endete am Samstagabend mit einem Unentschieden: Bayern München und Borussia Dortmund trennten sich 2:2. Beide Mannschaften haben nach acht Spielen 18 Punkte. Bayern ist wegen des besseren Torverhältnisses weiter Tabellenführer: 27:8 Tore, Dortmund kommt auf 14:6. Die Bayern sind in dieser Saison noch ungeschlagen, mit fünf Siegen und drei Unentschieden. Es war das dritte Unentschieden der Bayern in dieser Saison, doch Dortmund bleibt punktgleich dran.</p><p>Dahinter folgt der SC Freiburg mit 16 Punkten. Das Team gewann in Augsburg mit 2:1 und steht auf Platz drei. RB Leipzig und Werder Bremen haben jeweils 15 Punkte. Beide haben sich am Samstag mit 2:0 durchgesetzt, Leipzig gegen Schalke und Bremen gegen Hoffenheim. Leipzig liegt wegen des besseren Torverhältnisses vorn. Gastgeber Leverkusen verlor 2:4 gegen Stuttgart, Gladbach und Paderborn trennten sich 0:0. Schon am Freitag hatte sich Elversberg mit 4:1 gegen Mainz durchgesetzt.</p><p>Heute stehen noch zwei Spiele an: Union Berlin gegen den 1. FC Köln um 15.30 Uhr und Eintracht Frankfurt gegen den Hamburger SV um 17.30 Uhr. An der Tabellenspitze ändert sich dadurch wohl nichts. Für Fußballfans bietet dieser Spieltag viel Gesprächsstoff: ein Topspiel ohne Sieger, zwei klare 2:0-Siege und eine deutliche Niederlage. Im Gespräch hilft eine einfache Formel: „Bayern hat unentschieden gespielt, aber an der Tabellenspitze bleibt alles beim Alten.“</p><div class="next-btn" onclick="goNext()">↓</div></div>
+</section>
+<section id="vokabular" class="panel"><div class="label">Vokabular</div><h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card"><table><tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+<tr><th class="group" colspan="4">Wirtschaft</th></tr>
+<tr><td>die Inflationsrate <span class="rep">(Wiederholung)</span></td><td>inflation rate</td><td>Die Zahl, die zeigt, um wie viel Prozent die Preise im Vergleich zum Vorjahr gestiegen sind.</td><td>Die Inflationsrate lag im September bei 3,3 Prozent.</td></tr>
+<tr><td>die Verbraucherpreise</td><td>consumer prices</td><td>Die Preise, die Privatpersonen für Waren und Dienstleistungen bezahlen.</td><td>Die Verbraucherpreise sanken im Oktober um 0,2 Prozent.</td></tr>
+<tr><td>die Schätzung</td><td>estimate</td><td>Eine erste Zahl, die noch nicht genau geprüft ist.</td><td>Die erste Schätzung für Oktober kam am 30. Oktober.</td></tr>
+<tr><td>sich abschwächen</td><td>to ease, to weaken</td><td>Etwas wird weniger stark.</td><td>Die Teuerung hat sich im Oktober abgeschwächt.</td></tr>
+<tr><th class="group" colspan="4">Freizeit</th></tr>
+<tr><td>der Feiertag <span class="rep">(Wiederholung)</span></td><td>public holiday</td><td>Ein besonderer Tag im Jahr, an dem die meisten Menschen nicht arbeiten müssen.</td><td>Der 3. Oktober ist ein bundesweiter Feiertag.</td></tr>
+<tr><td>der Friedhof</td><td>cemetery</td><td>Ein Ort, an dem Verstorbene begraben sind.</td><td>Viele Menschen besuchen an Allerheiligen den Friedhof.</td></tr>
+<tr><td>das Grab</td><td>grave</td><td>Der Platz auf dem Friedhof, an dem ein Mensch begraben ist.</td><td>Sie schmückt das Grab ihrer Großmutter mit Blumen.</td></tr>
+<tr><td>der Ersatzfeiertag</td><td>substitute holiday</td><td>Ein freier Tag, der einen Feiertag ersetzt.</td><td>Am Montag gibt es keinen Ersatzfeiertag.</td></tr>
+<tr><th class="group" colspan="4">Sport</th></tr>
+<tr><td>der Tabellenführer <span class="rep">(Wiederholung)</span></td><td>league leader</td><td>Die Mannschaft, die aktuell auf Platz eins steht.</td><td>Der Tabellenführer spielt am Samstag in Frankfurt.</td></tr>
+<tr><td>das Unentschieden</td><td>draw, tie</td><td>Beide Mannschaften haben gleich viele Tore geschossen.</td><td>Das Spiel endete mit einem Unentschieden.</td></tr>
+<tr><td>das Spitzenspiel</td><td>top match</td><td>Ein wichtiges Spiel zwischen zwei sehr starken Mannschaften.</td><td>Das Spitzenspiel am Samstagabend endete 2:2.</td></tr>
+<tr><td>die Tabellenspitze</td><td>top of the table</td><td>Die ersten Plätze in der Tabelle.</td><td>Bayern und Dortmund stehen an der Tabellenspitze.</td></tr>
+<tr><td>der Gastgeber</td><td>host, home team</td><td>Die Mannschaft, die im eigenen Stadion spielt.</td><td>Gastgeber Leverkusen verlor 2:4 gegen Stuttgart.</td></tr>
+</table><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="ausdruecke" class="panel"><div class="label">Ausdrücke</div><h2 class="heading">Nützliche Ausdrücke</h2><div class="card"><ul class="expr"><li><b>„gegenüber dem Vorjahresmonat“</b> — So vergleicht man mit demselben Monat im letzten Jahr.<br><i>Energie war gegenüber dem Vorjahresmonat 12,2 Prozent teurer.</i></li><li><b>„Die Teuerung lässt nach.“</b> — Die Preise steigen noch, aber langsamer.<br><i>Im Oktober ließ die Teuerung etwas nach.</i></li><li><b>„auf einen Sonntag fallen“</b> — Ein Termin oder Feiertag liegt an einem bestimmten Wochentag.<br><i>Allerheiligen fällt in diesem Jahr auf einen Sonntag.</i></li><li><b>„im Gedenken an …“</b> — Man erinnert sich an Menschen, die gestorben sind.<br><i>Im Gedenken an die Großeltern geht die Familie auf den Friedhof.</i></li><li><b>„Das Spiel endet unentschieden.“</b> — Keine Mannschaft gewinnt.<br><i>Das Spitzenspiel endete 2:2 unentschieden.</i></li><li><b>„an der Tabellenspitze stehen“</b> — Auf einem der ersten Plätze der Tabelle sein.<br><i>Bayern und Dortmund stehen an der Tabellenspitze.</i></li></ul><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="grammatik" class="panel"><div class="label">Grammatik</div><h2 class="heading">Grammatikbewusstsein</h2><div class="card"><div class="grammar-block"><p><b>Zeitangaben: am, im, seit.</b> Für ein Datum und einen Tag steht „am“: „am 30. Oktober“, „am Sonntag“. Für einen Monat oder ein Jahr steht „im“ beziehungsweise nichts: „im September“, „im Jahr 2026“. Für den Beginn einer Dauer steht „seit“ + Dativ: „seit einem Jahr“. Typischer Fehler: „in 30. Oktober“ oder „am September“. Merke: Tag und Datum = am, Monat = im.</p></div><div class="grammar-block"><p><b>Nebensatz mit „weil“ am Anfang.</b> „Weil der Feiertag auf einen Sonntag fällt, gibt es keinen Ersatzfeiertag.“ Im Nebensatz steht das Verb am Ende („fällt“). Danach beginnt der Hauptsatz mit dem Verb: „gibt es“. Typischer Fehler: „Weil der Feiertag fällt auf einen Sonntag …“ oder „…, es gibt keinen Ersatzfeiertag“. Merke: Nebensatz zuerst, dann sofort das Verb im Hauptsatz.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wie hoch war die Inflationsrate im Oktober 2026 laut der ersten Schätzung?</li><li>Was sagt der Text über die Energie im Oktober?</li><li>In wie vielen Bundesländern ist Allerheiligen ein gesetzlicher Feiertag?</li><li>Was gilt am Montag, dem 2. November?</li><li>Warum ist Bayern am Samstagabend weiter Tabellenführer?</li><li>Wie endete das Spiel von Freiburg in Augsburg?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz über die Inflation. Verwende „im Oktober“ und „im September“.</li><li>Schreibe einen Satz mit „weil“ am Satzanfang über einen Feiertag in deinem Land.</li><li>Beschreibe mit „von … auf …“, wie sich die Inflation verändert hat.</li><li>Berichte über zwei Spielergebnisse. Benutze „unentschieden“ oder „sich durchsetzen“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Erzähle in fünf Sätzen: Wie verbringst du einen Sonntag oder Feiertag? Was ist bei dir geöffnet, was geschlossen? Besuchst du Familie, Friedhof, Stadion oder bleibst du zu Hause? Benutze „weil“.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<p class="source">Quellen, Stand 1. November 2026: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html">Destatis: Inflationsrate im Oktober 2026 voraussichtlich +2,8 %, 30. Oktober</a>; <a href="https://www.sonntagsblatt.de/allerheiligen-2026-feiertag-bundeslaender">Sonntagsblatt: Allerheiligen 2026, Feiertag in den Bundesländern</a>; <a href="https://www.wochenblatt-reporter.de/c-ratgeber/allerheiligen-2026-wo-und-warum-der-1-november-ein-gesetzlicher-feiertag-ist_a906386">Wochenblatt-Reporter: Allerheiligen 2026</a>; <a href="https://www.bundesliga.com/en/bundesliga/news/bundesliga-video-highlights-bayern-munich-borussia-dortmund-leverkusen-leipzig-937">Bundesliga: Ergebnisse des 8. Spieltags</a>; <a href="https://www.bundesliga.com/de/bundesliga/news/fc-bayern-muenchen-borussia-dortmund-spieltag-8-spielbericht-highlights-39814">Bundesliga: Bayern – Dortmund</a>. Für B1/B2 vereinfacht. Der Sportteil nennt Ergebnisse bis Samstagabend; die Sonntagsspiele stehen noch aus. Der Warenkorb-Vergleich ist eine vereinfachte Rechnung.</p></div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

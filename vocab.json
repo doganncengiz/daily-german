@@ -6768,7 +6768,8 @@
       "2026-09-19",
       "2026-10-11",
       "2026-10-18",
-      "2026-10-25"
+      "2026-10-25",
+      "2026-11-01"
     ],
     "sq": "lideri i tabelës",
     "tr": "lider, puan durumunda birinci",
@@ -7060,7 +7061,8 @@
     "erk": "Eine feste Zeit, in der etwas passieren muss.",
     "bsp": "Man kann in der Regel mit zwei Monaten Frist wechseln.",
     "dates": [
-      "2026-09-21"
+      "2026-09-21",
+      "2026-11-02"
     ],
     "sq": "afati",
     "tr": "süre, ihbar süresi",
@@ -8369,7 +8371,8 @@
     "bsp": "Die Inflationsrate lag im September bei 3,3 Prozent.",
     "dates": [
       "2026-10-03",
-      "2026-10-14"
+      "2026-10-14",
+      "2026-11-01"
     ],
     "sq": "norma e inflacionit",
     "tr": "enflasyon oranı",
@@ -8422,7 +8425,8 @@
     "bsp": "Der 3. Oktober ist ein bundesweiter Feiertag.",
     "dates": [
       "2026-10-03",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-01"
     ],
     "sq": "festa zyrtare",
     "tr": "resmî tatil",
@@ -12104,5 +12108,294 @@
     "es": "la diferencia de goles",
     "fr": "la différence de buts",
     "it": "la differenza reti"
+  },
+  {
+    "de": "die Verbraucherpreise",
+    "en": "consumer prices",
+    "erk": "Die Preise, die Privatpersonen für Waren und Dienstleistungen bezahlen.",
+    "bsp": "Die Verbraucherpreise sanken im Oktober um 0,2 Prozent.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "çmimet e konsumit",
+    "tr": "tüketici fiyatları",
+    "uk": "споживчі ціни",
+    "ar": "أسعار المستهلك",
+    "fa": "قیمت‌های مصرف‌کننده",
+    "es": "los precios al consumidor",
+    "fr": "les prix à la consommation",
+    "it": "i prezzi al consumo"
+  },
+  {
+    "de": "die Schätzung",
+    "en": "estimate",
+    "erk": "Eine erste Zahl, die noch nicht genau geprüft ist.",
+    "bsp": "Die erste Schätzung für Oktober kam am 30. Oktober.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "vlerësimi",
+    "tr": "tahmin",
+    "uk": "оцінка",
+    "ar": "تقدير",
+    "fa": "برآورد",
+    "es": "la estimación",
+    "fr": "l'estimation",
+    "it": "la stima"
+  },
+  {
+    "de": "sich abschwächen",
+    "en": "to ease, to weaken",
+    "erk": "Etwas wird weniger stark.",
+    "bsp": "Die Teuerung hat sich im Oktober abgeschwächt.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "dobësohet",
+    "tr": "zayıflamak, yavaşlamak",
+    "uk": "слабшати",
+    "ar": "يتراجع",
+    "fa": "ضعیف‌تر شدن",
+    "es": "debilitarse, moderarse",
+    "fr": "se modérer",
+    "it": "attenuarsi"
+  },
+  {
+    "de": "der Friedhof",
+    "en": "cemetery",
+    "erk": "Ein Ort, an dem Verstorbene begraben sind.",
+    "bsp": "Viele Menschen besuchen an Allerheiligen den Friedhof.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "varrezat",
+    "tr": "mezarlık",
+    "uk": "цвинтар",
+    "ar": "مقبرة",
+    "fa": "گورستان",
+    "es": "el cementerio",
+    "fr": "le cimetière",
+    "it": "il cimitero"
+  },
+  {
+    "de": "das Grab",
+    "en": "grave",
+    "erk": "Der Platz auf dem Friedhof, an dem ein Mensch begraben ist.",
+    "bsp": "Sie schmückt das Grab ihrer Großmutter mit Blumen.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "varri",
+    "tr": "mezar",
+    "uk": "могила",
+    "ar": "قبر",
+    "fa": "قبر",
+    "es": "la tumba",
+    "fr": "la tombe",
+    "it": "la tomba"
+  },
+  {
+    "de": "der Ersatzfeiertag",
+    "en": "substitute holiday",
+    "erk": "Ein freier Tag, der einen Feiertag ersetzt.",
+    "bsp": "Am Montag gibt es keinen Ersatzfeiertag.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "festa zëvendësuese",
+    "tr": "telafi tatil günü",
+    "uk": "компенсаційний вихідний",
+    "ar": "عطلة بديلة",
+    "fa": "تعطیلی جایگزین",
+    "es": "el festivo sustitutivo",
+    "fr": "le jour férié de remplacement",
+    "it": "il giorno festivo sostitutivo"
+  },
+  {
+    "de": "das Unentschieden",
+    "en": "draw, tie",
+    "erk": "Beide Mannschaften haben gleich viele Tore geschossen.",
+    "bsp": "Das Spiel endete mit einem Unentschieden.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "barazimi",
+    "tr": "beraberlik",
+    "uk": "нічия",
+    "ar": "تعادل",
+    "fa": "مساوی",
+    "es": "el empate",
+    "fr": "le match nul",
+    "it": "il pareggio"
+  },
+  {
+    "de": "das Spitzenspiel",
+    "en": "top match",
+    "erk": "Ein wichtiges Spiel zwischen zwei sehr starken Mannschaften.",
+    "bsp": "Das Spitzenspiel am Samstagabend endete 2:2.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "ndeshja kryesore",
+    "tr": "zirve maçı",
+    "uk": "топматч",
+    "ar": "مباراة القمة",
+    "fa": "بازی بزرگ",
+    "es": "el partido estelar",
+    "fr": "le choc au sommet",
+    "it": "il big match"
+  },
+  {
+    "de": "die Tabellenspitze",
+    "en": "top of the table",
+    "erk": "Die ersten Plätze in der Tabelle.",
+    "bsp": "Bayern und Dortmund stehen an der Tabellenspitze.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "kreu i tabelës",
+    "tr": "puan tablosunun zirvesi",
+    "uk": "верх таблиці",
+    "ar": "صدارة الترتيب",
+    "fa": "صدر جدول",
+    "es": "la cima de la tabla",
+    "fr": "la tête du classement",
+    "it": "la vetta della classifica"
+  },
+  {
+    "de": "der Gastgeber",
+    "en": "host, home team",
+    "erk": "Die Mannschaft, die im eigenen Stadion spielt.",
+    "bsp": "Gastgeber Leverkusen verlor 2:4 gegen Stuttgart.",
+    "dates": [
+      "2026-11-01"
+    ],
+    "sq": "pritësi",
+    "tr": "ev sahibi",
+    "uk": "господар поля",
+    "ar": "الفريق المضيف",
+    "fa": "میزبان",
+    "es": "el anfitrión",
+    "fr": "l'équipe qui reçoit",
+    "it": "la squadra di casa"
+  },
+  {
+    "de": "der Verbraucherschutz",
+    "en": "consumer protection",
+    "erk": "Regeln, die Kundinnen und Kunden vor Nachteilen schützen.",
+    "bsp": "Der Verbraucherschutz gilt jetzt auch für kleine Kredite.",
+    "dates": [
+      "2026-11-02"
+    ],
+    "sq": "mbrojtja e konsumatorit",
+    "tr": "tüketicinin korunması",
+    "uk": "захист прав споживачів",
+    "ar": "حماية المستهلك",
+    "fa": "حمایت از مصرف‌کننده",
+    "es": "la protección del consumidor",
+    "fr": "la protection des consommateurs",
+    "it": "la tutela dei consumatori"
+  },
+  {
+    "de": "der Kredit",
+    "en": "loan, credit",
+    "erk": "Geld, das man von einer Bank leiht und später zurückzahlt.",
+    "bsp": "Für das Auto hat er einen Kredit aufgenommen.",
+    "dates": [
+      "2026-11-02"
+    ],
+    "sq": "kredia",
+    "tr": "kredi",
+    "uk": "кредит",
+    "ar": "قرض",
+    "fa": "وام",
+    "es": "el préstamo",
+    "fr": "le crédit",
+    "it": "il prestito"
+  },
+  {
+    "de": "die Ratenzahlung",
+    "en": "payment in instalments",
+    "erk": "Man bezahlt eine Rechnung in mehreren kleinen Beträgen.",
+    "bsp": "Für das Sofa habe ich eine Ratenzahlung vereinbart.",
+    "dates": [
+      "2026-11-02"
+    ],
+    "sq": "pagesa me këste",
+    "tr": "taksitle ödeme",
+    "uk": "оплата частинами",
+    "ar": "الدفع بالتقسيط",
+    "fa": "پرداخت اقساطی",
+    "es": "el pago a plazos",
+    "fr": "le paiement échelonné",
+    "it": "il pagamento rateale"
+  },
+  {
+    "de": "die Kündigung",
+    "en": "termination, notice of cancellation",
+    "erk": "Man beendet einen Vertrag mit einer schriftlichen Mitteilung.",
+    "bsp": "Die Kündigung muss rechtzeitig beim Versicherer ankommen.",
+    "dates": [
+      "2026-11-02"
+    ],
+    "sq": "shkëputja e kontratës",
+    "tr": "fesih",
+    "uk": "розірвання договору",
+    "ar": "إنهاء العقد",
+    "fa": "لغو قرارداد",
+    "es": "la rescisión",
+    "fr": "la résiliation",
+    "it": "la disdetta"
+  },
+  {
+    "de": "die Zulassung",
+    "en": "approval, registration",
+    "erk": "Die offizielle Erlaubnis, dass ein Fahrzeug auf die Straße darf.",
+    "bsp": "Neue Modelle brauchen eine Zulassung nach Euro 7.",
+    "dates": [
+      "2026-11-02"
+    ],
+    "sq": "miratimi",
+    "tr": "ruhsat, onay",
+    "uk": "допуск, реєстрація",
+    "ar": "ترخيص",
+    "fa": "مجوز",
+    "es": "la homologación",
+    "fr": "l'homologation",
+    "it": "l'omologazione"
+  },
+  {
+    "de": "die Abgasnorm",
+    "en": "emissions standard",
+    "erk": "Eine Regel, wie viele Schadstoffe ein Fahrzeug ausstoßen darf.",
+    "bsp": "Euro 7 ist eine neue Abgasnorm.",
+    "dates": [
+      "2026-11-02"
+    ],
+    "sq": "standardi i emetimeve",
+    "tr": "egzoz emisyon standardı",
+    "uk": "норма викидів",
+    "ar": "معيار الانبعاثات",
+    "fa": "استاندارد آلایندگی",
+    "es": "la norma de emisiones",
+    "fr": "la norme antipollution",
+    "it": "la norma sulle emissioni"
+  },
+  {
+    "de": "verpflichtet sein",
+    "en": "to be required, to be obliged",
+    "erk": "Man muss etwas tun, weil eine Regel oder ein Vertrag es verlangt.",
+    "bsp": "Kreditgeber sind verpflichtet, die Kreditwürdigkeit zu prüfen.",
+    "dates": [
+      "2026-11-02"
+    ],
+    "sq": "të jesh i detyruar",
+    "tr": "yükümlü olmak",
+    "uk": "бути зобов’язаним",
+    "ar": "أن يكون ملزماً",
+    "fa": "موظف بودن",
+    "es": "estar obligado",
+    "fr": "être tenu de, être obligé",
+    "it": "essere obbligato"
   }
 ]

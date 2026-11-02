@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 2. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 2. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 2. November</div>
+    <h2 class="heading">Das ändert sich im November: neue Kreditregeln, Euro 7 und eine wichtige Frist</h2>
+    <div class="card">
+      <p>Der November bringt einige Änderungen, die viele Menschen im Alltag betreffen. Am 20. November treten in Deutschland neue Regeln für Verbraucherkredite in Kraft. Sie setzen eine EU-Richtlinie um. Bisher waren sehr kleine Kredite oft ausgenommen, die Grenze von 200 Euro fällt jetzt weg. Der <b>Verbraucherschutz</b> gilt dann auch für Kleinkredite und für <b>Ratenzahlung</b> ohne Zinsen, zum Beispiel bei „Jetzt kaufen, später zahlen“. Die Kreditgeber sind <b>verpflichtet</b>, die Kreditwürdigkeit zu prüfen, auch bei kleinen Beträgen, und vor dem Vertrag mehr zu informieren. Wenn ein Computer über einen <b>Kredit</b> entscheidet, können Kundinnen und Kunden verlangen, dass ein Mensch die Entscheidung prüft. Für Verträge, die vor dem 20. November geschlossen wurden, gilt grundsätzlich weiterhin das alte Recht.</p>
+      <p>Ab dem 29. November gilt für die meisten neuen Pkw- und Transporter-Fahrzeugtypen die <b>Abgasnorm</b> Euro 7. Sie regelt nicht nur Abgase, sondern auch den Bremsstaub und die Haltbarkeit von Batterien bei Elektroautos. Autos, die schon unterwegs sind, müssen nicht umgerüstet werden. Für die meisten neu zugelassenen Pkw und Transporter gilt die Norm dann ab dem 29. November 2027. Neue Modelle brauchen also ab Ende November eine passende <b>Zulassung</b>, bereits registrierte Autos nicht.</p>
+      <p>Und noch eine <b>Frist</b> für den Kalender: Bei vielen Kfz-Versicherungen endet das Versicherungsjahr am 31. Dezember. Bei einer Kündigungsfrist von einem Monat muss die <b>Kündigung</b> dann spätestens am 30. November beim Versicherer ankommen. Der Poststempel reicht nicht. Bei anderen Vertragslaufzeiten gilt ein anderer Termin. Deshalb lohnt sich ein Blick in den eigenen Vertrag.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Verbraucherschutz</td><td>consumer protection</td><td>Regeln, die Kundinnen und Kunden vor Nachteilen schützen.</td><td>Der Verbraucherschutz gilt jetzt auch für kleine Kredite.</td></tr>
+        <tr><td>der Kredit</td><td>loan, credit</td><td>Geld, das man von einer Bank leiht und später zurückzahlt.</td><td>Für das Auto hat er einen Kredit aufgenommen.</td></tr>
+        <tr><td>die Ratenzahlung</td><td>payment in instalments</td><td>Man bezahlt eine Rechnung in mehreren kleinen Beträgen.</td><td>Für das Sofa habe ich eine Ratenzahlung vereinbart.</td></tr>
+        <tr><td>die Kündigung</td><td>termination, notice of cancellation</td><td>Man beendet einen Vertrag mit einer schriftlichen Mitteilung.</td><td>Die Kündigung muss rechtzeitig beim Versicherer ankommen.</td></tr>
+        <tr><td>die Zulassung</td><td>approval, registration</td><td>Die offizielle Erlaubnis, dass ein Fahrzeug auf die Straße darf.</td><td>Neue Modelle brauchen eine Zulassung nach Euro 7.</td></tr>
+        <tr><td>die Abgasnorm</td><td>emissions standard</td><td>Eine Regel, wie viele Schadstoffe ein Fahrzeug ausstoßen darf.</td><td>Euro 7 ist eine neue Abgasnorm.</td></tr>
+        <tr><td>die Frist <span class="rep">(Wiederholung)</span></td><td>deadline, notice period</td><td>Eine feste Zeit, in der etwas passieren muss.</td><td>Die Frist für die Kündigung steht im Vertrag.</td></tr>
+        <tr><td>verpflichtet sein</td><td>to be required, to be obliged</td><td>Man muss etwas tun, weil eine Regel oder ein Vertrag es verlangt.</td><td>Kreditgeber sind verpflichtet, die Kreditwürdigkeit zu prüfen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„in Kraft treten“</b> — Ein Gesetz oder eine Regel gilt ab einem bestimmten Tag.<br><i>Die neuen Kreditregeln treten am 20. November in Kraft.</i></li>
+        <li><b>„bis spätestens …“</b> — Das ist der letzte Tag oder die letzte Uhrzeit.<br><i>Die Kündigung muss bis spätestens Montag bei uns eingehen.</i></li>
+        <li><b>„eine Frist einhalten“</b> — Etwas rechtzeitig machen, vor dem letzten Termin.<br><i>Wer die Frist nicht einhält, verpasst den Wechsel.</i></li>
+        <li><b>„beim Alten bleiben“</b> — Nichts ändert sich.<br><i>Für alte Verträge bleibt alles beim Alten.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Passiv Präteritum im Relativsatz:</b> „Verträge, <b>die</b> vor dem 20. November <b>geschlossen wurden</b>, bleiben beim alten Recht.“ Das Passiv bildet man mit <i>wurde/wurden + Partizip II</i>. Im Nebensatz stehen beide Verbteile am Ende: erst das Partizip, dann „wurden“. Typischer Fehler: „… die geschlossen worden“ oder „… die wurden geschlossen“ im Nebensatz. Merke: Partizip + wurde(n) ganz am Ende.</p></div>
+      <div class="grammar-block"><p><b>Zeitangaben mit „ab“, „bis“ und „am“:</b> „Ab dem 29. November“, „bis zum 30. November“, „am 20. November“. Nach „ab“ und „bis zu“ steht der Dativ: <i>ab dem</i>, <i>bis zum</i>. Mit „bis spätestens“ wird die Frist noch klarer. Typischer Fehler: „bis dem 30. November“ oder „ab den 29. November“.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Ab wann gelten die neuen Regeln für Verbraucherkredite?</li><li>Was gilt für Autos, die schon unterwegs sind, bei Euro 7?</li><li>Was gilt bei Vertragsende am 31. Dezember und einer Kündigungsfrist von einem Monat?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit einem Relativsatz im Passiv Präteritum über einen Vertrag, zum Beispiel: Verträge, die … geschlossen wurden, …</li><li>Schreibe einen Satz mit „ab dem“ und einem Datum über eine neue Regel.</li><li>Schreibe einen Satz mit „bis spätestens“ und „Frist“ oder „kündigen“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Hast du schon einmal einen Vertrag gekündigt oder etwas in Raten bezahlt? Erzähle in fünf Sätzen: Was war es? Welche Frist gab es? Was war einfach, was schwierig? Benutze „Frist“ oder „kündigen“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 2. November 2026): <a href="https://www.bundesregierung.de/breg-de/aktuelles/schutz-kreditvertraege-2382528">Bundesregierung: Schutz bei Kreditverträgen</a>; <a href="https://eur-lex.europa.eu/legal-content/en/LSU/?uri=CELEX:32024R1257">EU: Euro-7-Regelung</a>; <a href="https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/versicherungsvertrag-kuendigen-wann-das-klappt-und-wie-sie-vorgehen-5442">Verbraucherzentrale: Versicherungsvertrag kündigen</a>; <a href="https://newstime.joyn.de/themen/wirtschaft/aenderungen-november2026-bahn-kredite-umweltregeln-208275">Joyn Newstime: Änderungen im November 2026</a>, 28. Oktober; <a href="https://www.capitalo.de/anbieter/capitalo/news/aenderungen-november-2026-verbraucher">Capitalo: Änderungen im November 2026 für Verbraucher</a>, 28. Oktober. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

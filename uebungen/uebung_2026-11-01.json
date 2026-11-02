@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch war die Inflationsrate im Oktober 2026 laut der ersten Schätzung?",
+      "o": [
+        "3,3 Prozent",
+        "2,8 Prozent",
+        "12,2 Prozent"
+      ],
+      "c": 1,
+      "why": "Die Rate lag bei <b>2,8 Prozent</b>. 3,3 Prozent war der Wert vom September, und 12,2 Prozent gilt nur für die Energiepreise."
+    },
+    {
+      "q": "Was sagt der Text über die Energie im Oktober?",
+      "o": [
+        "Sie war 12,2 Prozent teurer als im Vorjahresmonat.",
+        "Sie war 14,9 Prozent teurer als im Vorjahresmonat.",
+        "Sie wurde gegenüber dem Vormonat um 0,2 Prozent billiger."
+      ],
+      "c": 0,
+      "why": "<b>12,2 Prozent</b> ist der Oktober-Wert. 14,9 Prozent war der Wert vom September, und die minus 0,2 Prozent beziehen sich auf alle Verbraucherpreise gegenüber dem Vormonat, nicht auf die Energie."
+    },
+    {
+      "q": "In wie vielen Bundesländern ist Allerheiligen ein gesetzlicher Feiertag?",
+      "o": [
+        "In elf Bundesländern.",
+        "In allen sechzehn Bundesländern.",
+        "In fünf Bundesländern."
+      ],
+      "c": 2,
+      "why": "Nur in <b>fünf</b> Ländern: Baden-Württemberg, Bayern, Nordrhein-Westfalen, Rheinland-Pfalz und im Saarland. Elf ist die Zahl der Länder ohne Feiertag, und „alle“ widerspricht dem Text."
+    },
+    {
+      "q": "Was gilt am Montag, dem 2. November?",
+      "o": [
+        "In den fünf Ländern gibt es einen Ersatzfeiertag.",
+        "Allerseelen ist in ganz Deutschland ein Feiertag.",
+        "Es gibt keinen Ersatzfeiertag."
+      ],
+      "c": 2,
+      "why": "Der Text sagt ausdrücklich: Es gibt <b>keinen Ersatzfeiertag</b>. Allerseelen ist ein Gedenktag, aber in keinem Bundesland ein Feiertag."
+    },
+    {
+      "q": "Warum ist Bayern am Samstagabend weiter Tabellenführer?",
+      "o": [
+        "Bayern hat zwei Punkte mehr als Dortmund.",
+        "Bayern hat das Spitzenspiel gegen Dortmund gewonnen.",
+        "Beide haben 18 Punkte, aber Bayern hat das bessere Torverhältnis."
+      ],
+      "c": 2,
+      "why": "Beide Teams haben <b>18 Punkte</b>; Bayern liegt wegen der besseren Tordifferenz (27:8 gegen 14:6) vorn. Das Spitzenspiel endete 2:2, und die Punktzahl ist gleich."
+    },
+    {
+      "q": "Wie endete das Spiel von Freiburg in Augsburg?",
+      "o": [
+        "Freiburg gewann 2:1.",
+        "Freiburg verlor 1:2.",
+        "Das Spiel endete 0:0."
+      ],
+      "c": 0,
+      "why": "Freiburg gewann <b>2:1</b> und hat 16 Punkte. 0:0 war das Ergebnis von Gladbach gegen Paderborn."
+    }
+  ],
+  "schreib": [
+    "Die Inflation lag <b>im Oktober</b> bei 2,8 Prozent, <b>im September</b> war sie höher.<span class=\"hint\"> Monat = „im“, Datum = „am“. Nicht „in Oktober“ und nicht „am September“.</span>",
+    "<b>Weil</b> Allerheiligen auf einen Sonntag <b>fällt</b>, <b>gibt es</b> keinen Ersatzfeiertag.<span class=\"hint\"> Verb am Ende des Nebensatzes („fällt“), danach sofort das Verb im Hauptsatz („gibt es“).</span>",
+    "Die Inflationsrate ist <b>von</b> 3,3 <b>auf</b> 2,8 Prozent <b>gesunken</b>.<span class=\"hint\"> „von … auf …“ zeigt Anfang und Ende. „sinken“ bildet das Perfekt mit „sein“: ist gesunken.</span>",
+    "Bayern und Dortmund haben <b>unentschieden</b> gespielt, Leipzig hat <b>sich</b> mit 2:0 <b>durchgesetzt</b>.<span class=\"hint\"> „unentschieden“ ist ein Adverb und bleibt klein. „sich durchsetzen“ ist trennbar: setzt sich durch, aber im Perfekt „durchgesetzt“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Bei uns ist am Sonntag fast alles geschlossen.",
+      "Weil heute Feiertag ist, …",
+      "Am liebsten besuche ich …",
+      "Danach gehen wir …",
+      "In meinem Land ist das anders: …"
+    ],
+    "modell": "„An einem Sonntag schlafe ich lange. <b>Weil</b> fast alle <b>Geschäfte geschlossen</b> sind, kaufe ich schon am Samstag ein. Mittags besuche ich meine Eltern, und nachmittags gehen wir spazieren. Manchmal schauen wir abends ein <b>Spitzenspiel</b> im Fernsehen. In meinem Land ist das anders: Dort haben die Geschäfte auch sonntags offen.“"
+  }
+}

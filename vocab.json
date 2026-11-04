@@ -3238,13 +3238,17 @@
     "erk": "Wenn etwas kleiner oder weniger wird.",
     "bsp": "Nach dem Rückgang der letzten Jahre erholt sich die Wirtschaft langsam.",
     "dates": [
-      "2026-08-20"
+      "2026-08-20",
+      "2026-11-04"
     ],
     "sq": "rënia, tërheqja",
     "tr": "gerileme, düşüş",
     "uk": "спад, зниження",
     "ar": "التراجع، الانخفاض",
-    "fa": "افت، کاهش"
+    "fa": "افت، کاهش",
+    "es": "la caída, el descenso",
+    "fr": "la baisse, le recul",
+    "it": "il calo, la diminuzione"
   },
   {
     "de": "die Rückrunde",
@@ -3550,7 +3554,8 @@
     "bsp": "Die Ligen haben sich auf einen gemeinsamen Termin geeinigt.",
     "dates": [
       "2026-09-01",
-      "2026-09-20"
+      "2026-09-20",
+      "2026-11-03"
     ],
     "sq": "të merren vesh (për)",
     "tr": "(bir konuda) anlaşmak",
@@ -5281,7 +5286,8 @@
     "bsp": "Die Nachfrage nach neuen Wohnungen ist hoch.",
     "dates": [
       "2026-07-11",
-      "2026-09-19"
+      "2026-09-19",
+      "2026-11-04"
     ],
     "sq": "kërkesa",
     "tr": "talep",
@@ -9708,7 +9714,8 @@
     "erk": "Das Geld, das man bekommt, zum Beispiel durch Steuern.",
     "bsp": "Die Einnahmen des Staates stiegen um zwei Prozent.",
     "dates": [
-      "2026-10-13"
+      "2026-10-13",
+      "2026-11-03"
     ],
     "sq": "të ardhurat",
     "tr": "gelirler",
@@ -12397,5 +12404,192 @@
     "es": "estar obligado",
     "fr": "être tenu de, être obligé",
     "it": "essere obbligato"
+  },
+  {
+    "de": "die Koalitionsverhandlungen (Pl.)",
+    "en": "coalition negotiations",
+    "erk": "Parteien sprechen darüber, wie sie gemeinsam regieren wollen.",
+    "bsp": "Die Koalitionsverhandlungen haben am Montag begonnen.",
+    "dates": [
+      "2026-11-03"
+    ],
+    "sq": "negociatat e koalicionit",
+    "tr": "koalisyon görüşmeleri",
+    "uk": "коаліційні переговори",
+    "ar": "مفاوضات الائتلاف",
+    "fa": "مذاکرات ائتلاف",
+    "es": "negociaciones de coalición",
+    "fr": "négociations de coalition",
+    "it": "trattative di coalizione"
+  },
+  {
+    "de": "die Sondierung",
+    "en": "exploratory talks",
+    "erk": "Erste Gespräche vor den richtigen Verhandlungen.",
+    "bsp": "Nach der Sondierung beginnen die Koalitionsverhandlungen.",
+    "dates": [
+      "2026-11-03"
+    ],
+    "sq": "bisedimet paraprake",
+    "tr": "ön görüşmeler",
+    "uk": "попередні переговори",
+    "ar": "محادثات استكشافية",
+    "fa": "گفتگوهای مقدماتی",
+    "es": "conversaciones exploratorias",
+    "fr": "pourparlers exploratoires",
+    "it": "colloqui esplorativi"
+  },
+  {
+    "de": "die Arbeitsgruppe",
+    "en": "working group",
+    "erk": "Eine kleine Gruppe, die ein bestimmtes Thema vorbereitet.",
+    "bsp": "Die Arbeitsgruppe Verkehr trifft sich nächste Woche.",
+    "dates": [
+      "2026-11-03"
+    ],
+    "sq": "grup pune",
+    "tr": "çalışma grubu",
+    "uk": "робоча група",
+    "ar": "مجموعة عمل",
+    "fa": "گروه کاری",
+    "es": "grupo de trabajo",
+    "fr": "groupe de travail",
+    "it": "gruppo di lavoro"
+  },
+  {
+    "de": "der Aufbruch",
+    "en": "fresh start, new beginning",
+    "erk": "Ein neuer Anfang mit Energie und Hoffnung.",
+    "bsp": "Die Partei sieht die Koalition als Aufbruch.",
+    "dates": [
+      "2026-11-03"
+    ],
+    "sq": "fillim i ri",
+    "tr": "yeni bir başlangıç",
+    "uk": "новий початок",
+    "ar": "انطلاقة جديدة",
+    "fa": "آغاز تازه",
+    "es": "nuevo comienzo",
+    "fr": "nouvel élan",
+    "it": "nuovo inizio"
+  },
+  {
+    "de": "konsolidieren",
+    "en": "to consolidate (a budget)",
+    "erk": "Man bringt Ausgaben und Einnahmen wieder in eine gesunde Balance.",
+    "bsp": "Das Land will seinen Haushalt langfristig konsolidieren.",
+    "dates": [
+      "2026-11-03"
+    ],
+    "sq": "konsolidoj",
+    "tr": "dengelemek, sağlamlaştırmak",
+    "uk": "консолідувати, зміцнювати",
+    "ar": "يدعم، يوازن (الميزانية)",
+    "fa": "تثبیت کردن، متعادل کردن",
+    "es": "consolidar",
+    "fr": "consolider",
+    "it": "consolidare"
+  },
+  {
+    "de": "die Fraktionsvorsitzende",
+    "en": "parliamentary group leader (f.)",
+    "erk": "Die Frau, die die Abgeordneten einer Partei im Parlament anführt.",
+    "bsp": "Die Fraktionsvorsitzende sprach von guten Gesprächen.",
+    "dates": [
+      "2026-11-03"
+    ],
+    "sq": "kryetarja e grupit parlamentar",
+    "tr": "meclis grup başkanı (kadın)",
+    "uk": "голова фракції",
+    "ar": "رئيسة الكتلة البرلمانية",
+    "fa": "رئیس فراکسیون (زن)",
+    "es": "presidenta del grupo parlamentario",
+    "fr": "présidente du groupe parlementaire",
+    "it": "presidente del gruppo parlamentare"
+  },
+  {
+    "de": "die Kurzarbeit",
+    "en": "short-time work",
+    "erk": "Beschäftigte arbeiten vorübergehend weniger; Kurzarbeitergeld ersetzt unter bestimmten Voraussetzungen einen Teil des ausgefallenen Verdienstes.",
+    "bsp": "Viele Betriebe nutzen die Kurzarbeit in schwachen Monaten.",
+    "dates": [
+      "2026-11-04"
+    ],
+    "sq": "punë me orar të shkurtuar",
+    "tr": "kısa çalışma",
+    "uk": "скорочений робочий час",
+    "ar": "العمل بدوام مخفض",
+    "fa": "کار با ساعت کاهش‌یافته",
+    "es": "el trabajo de jornada reducida",
+    "fr": "le chômage partiel",
+    "it": "il lavoro ridotto (cassa integrazione)"
+  },
+  {
+    "de": "die Lehrstelle",
+    "en": "apprenticeship position",
+    "erk": "Ein Platz in einem Betrieb, an dem man einen Beruf lernt.",
+    "bsp": "Er sucht seit Monaten eine Lehrstelle als Elektriker.",
+    "dates": [
+      "2026-11-04"
+    ],
+    "sq": "vendi i praktikës profesionale",
+    "tr": "çıraklık yeri",
+    "uk": "місце учня на підприємстві",
+    "ar": "مكان تدريب مهني",
+    "fa": "جای کارآموزی",
+    "es": "la plaza de aprendiz",
+    "fr": "la place d'apprentissage",
+    "it": "il posto di apprendistato"
+  },
+  {
+    "de": "verhalten",
+    "en": "subdued, restrained",
+    "erk": "Nicht sehr stark, eher vorsichtig.",
+    "bsp": "Die Nachfrage nach neuen Autos bleibt verhalten.",
+    "dates": [
+      "2026-11-04"
+    ],
+    "sq": "i përmbajtur, i dobët",
+    "tr": "çekingen, zayıf",
+    "uk": "стриманий, слабкий",
+    "ar": "متحفظ، ضعيف",
+    "fa": "محتاطانه، ضعیف",
+    "es": "contenido, débil",
+    "fr": "réservé, timide",
+    "it": "contenuto, debole"
+  },
+  {
+    "de": "hochgerechnet",
+    "en": "extrapolated, projected",
+    "erk": "Aus einem Teil der Daten schätzt man die ganze Zahl.",
+    "bsp": "Hochgerechnet sind es rund 98.000 Beschäftigte.",
+    "dates": [
+      "2026-11-04"
+    ],
+    "sq": "e vlerësuar mbi bazën e të dhënave",
+    "tr": "tahmini, projeksiyonla hesaplanmış",
+    "uk": "за прогнозом, у перерахунку",
+    "ar": "بحسب التقدير، مُقدَّر",
+    "fa": "برآورد شده",
+    "es": "según proyección, estimado",
+    "fr": "selon l'extrapolation, estimé",
+    "it": "secondo la proiezione, stimato"
+  },
+  {
+    "de": "der Vorjahresvergleich",
+    "en": "year-on-year comparison",
+    "erk": "Man vergleicht eine Zahl mit demselben Monat im Jahr davor.",
+    "bsp": "Im Vorjahresvergleich sind die Preise gestiegen.",
+    "dates": [
+      "2026-11-04"
+    ],
+    "sq": "krahasimi me vitin e kaluar",
+    "tr": "geçen yılla karşılaştırma",
+    "uk": "порівняння з минулим роком",
+    "ar": "المقارنة مع العام الماضي",
+    "fa": "مقایسه با سال گذشته",
+    "es": "la comparación interanual",
+    "fr": "la comparaison avec l'année précédente",
+    "it": "il confronto con l'anno precedente"
   }
 ]

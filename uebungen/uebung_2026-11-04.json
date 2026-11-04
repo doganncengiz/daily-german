@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Um wie viel ist die Zahl der Arbeitslosen im Oktober gesunken?",
+      "o": [
+        "Um 4.000.",
+        "Um 40.000.",
+        "Um 44.000."
+      ],
+      "c": 1,
+      "why": "Die Zahl ist <b>um 40.000 auf 2.955.000</b> gesunken. 4.000 ist der saisonbereinigte Anstieg, 44.000 ist der Unterschied zum Vorjahr."
+    },
+    {
+      "q": "Was sagt Andrea Nahles über den Rückgang der Arbeitslosigkeit?",
+      "o": [
+        "Der Rückgang sei sehr stark.",
+        "Die Unternehmen suchen wieder deutlich mehr Leute.",
+        "Der Rückgang falle vergleichsweise schwach aus."
+      ],
+      "c": 2,
+      "why": "Nahles sagt, der Rückgang falle <b>vergleichsweise schwach</b> aus. „Sehr stark“ widerspricht dem Text, und die Nachfrage der Unternehmen bleibt verhalten."
+    },
+    {
+      "q": "Wie viele betriebliche Lehrstellen wurden von Oktober 2025 bis September 2026 gemeldet?",
+      "o": [
+        "453.000, also 31.000 weniger als im Vorjahr.",
+        "654.000, also 31.000 mehr als im Vorjahr.",
+        "98.000, also 66.000 weniger als im Vorjahr."
+      ],
+      "c": 0,
+      "why": "Gemeldet wurden <b>453.000 betriebliche Lehrstellen</b>, 31.000 weniger als im Vorjahr. Insgesamt gab es 469.000 gemeldete Ausbildungsangebote. Die 654.000 betreffen Arbeitsstellen im Oktober; die 98.000 betreffen Kurzarbeit im August."
+    }
+  ],
+  "schreib": [
+    "Die Mieten sind <b>um</b> 50 Euro <b>auf</b> 900 Euro gestiegen.<span class=\"hint\"> „um“ = Unterschied, „auf“ = neuer Wert. Nicht „von 50 Euro gestiegen“.</span>",
+    "In diesem Monat hatten wir 20 Kunden <b>mehr als</b> im Vorjahr.<span class=\"hint\"> Nach „mehr“ steht „als“, nicht „wie“.</span>",
+    "Die Arbeit im Büro ist <b>nach wie vor</b> sehr stressig.<span class=\"hint\"> „nach wie vor“ bleibt immer in dieser Form, auch in der Mitte des Satzes.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "In meiner Branche ist die Lage …",
+      "Es gibt nach wie vor viele offene Stellen für …",
+      "Die Nachfrage nach … ist verhalten.",
+      "Für Berufseinsteiger ist es … schwierig.",
+      "Ich glaube, dass sich die Lage bald …"
+    ],
+    "modell": "„In meiner Branche, der IT, ist die Lage <b>nach wie vor</b> gemischt. Es gibt offene Stellen, aber die <b>Nachfrage</b> nach Berufseinsteigern ist <b>verhalten</b>. Viele Firmen suchen nur erfahrene Leute. Ich glaube, dass sich die Lage im nächsten Jahr langsam entspannt. Bis dahin ist ein Praktikum eine gute Chance.“"
+  }
+}

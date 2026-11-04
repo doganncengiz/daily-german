@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 4. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 4. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 4. November</div>
+    <h2 class="heading">Arbeitsmarkt im Oktober: Die Arbeitslosigkeit sinkt – aber die erhoffte Erholung bleibt aus</h2>
+    <div class="card">
+      <p>Ende Oktober hat die Bundesagentur für Arbeit (BA) in Nürnberg die neuen Arbeitsmarktzahlen vorgestellt. Die Zahl der Arbeitslosen ist im Oktober um 40.000 auf 2.955.000 gesunken. Die <b>Arbeitslosenquote</b> liegt bei 6,3 Prozent, das sind 0,1 Prozentpunkte weniger als im September. Das klingt gut, ist aber vor allem ein saisonaler Effekt: Im Herbst stellen viele Betriebe wieder ein. Saisonbereinigt ist die Zahl sogar um 4.000 gestiegen.</p><p>Im <b>Vorjahresvergleich</b> gibt es 44.000 Arbeitslose mehr. BA-Chefin Andrea Nahles sagte, der <b>Rückgang</b> der Arbeitslosigkeit falle „vergleichsweise schwach“ aus. Auch die <b>Nachfrage</b> der Unternehmen nach neuen Mitarbeitenden bleibt <b>verhalten</b>: Bei der BA sind 654.000 offene Stellen gemeldet, immerhin 31.000 mehr als vor einem Jahr. Bei der <b>Kurzarbeit</b> entspannt sich die Lage etwas: Die neuesten verfügbaren Angaben betreffen August: In diesem Monat bekamen <b>hochgerechnet</b> 98.000 Beschäftigte konjunkturelles Kurzarbeitergeld, rund 66.000 weniger als im August 2025.</p><p>Besonders schwer haben es junge Menschen. Von Oktober 2025 bis September 2026 wurden insgesamt 469.000 Ausbildungsangebote gemeldet. Darunter waren 453.000 betriebliche <b>Lehrstellen</b>, 31.000 weniger als im Vorjahr. Nach Angaben der BA haben sich die Chancen für Ausbildungssuchende weiter verschlechtert. Offene Stellen und Arbeitsuchende passen nicht immer zusammen: Manchmal fehlt eine passende Ausbildung, manchmal liegt die Stelle in einer anderen Region. Für alle, die gerade einen Job suchen, heißt das: Die Lage ist besser als im Sommer, aber noch nicht wirklich entspannt.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Kurzarbeit</td><td>short-time work</td><td>Beschäftigte arbeiten vorübergehend weniger; Kurzarbeitergeld ersetzt unter bestimmten Voraussetzungen einen Teil des ausgefallenen Verdienstes.</td><td>Viele Betriebe nutzen die Kurzarbeit in schwachen Monaten.</td></tr><tr><td>die Lehrstelle</td><td>apprenticeship position</td><td>Ein Platz in einem Betrieb, an dem man einen Beruf lernt.</td><td>Er sucht seit Monaten eine Lehrstelle als Elektriker.</td></tr><tr><td>verhalten</td><td>subdued, restrained</td><td>Nicht sehr stark, eher vorsichtig.</td><td>Die Nachfrage nach neuen Autos bleibt verhalten.</td></tr><tr><td>hochgerechnet</td><td>extrapolated, projected</td><td>Aus einem Teil der Daten schätzt man die ganze Zahl.</td><td>Hochgerechnet sind es rund 98.000 Beschäftigte.</td></tr><tr><td>der Vorjahresvergleich</td><td>year-on-year comparison</td><td>Man vergleicht eine Zahl mit demselben Monat im Jahr davor.</td><td>Im Vorjahresvergleich sind die Preise gestiegen.</td></tr><tr><td>die Nachfrage <span class="rep">(Wiederholung)</span></td><td>demand</td><td>Wie viel Menschen oder Firmen etwas kaufen oder haben wollen.</td><td>Die Nachfrage nach Fachkräften ist weiter hoch.</td></tr><tr><td>der Rückgang <span class="rep">(Wiederholung)</span></td><td>decline, downturn</td><td>Wenn etwas kleiner oder weniger wird.</td><td>Der Rückgang der Kosten hilft vielen Familien.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„um … auf … sinken/steigen“</b> — Man nennt die Veränderung (um) und den neuen Wert (auf).<br><i>Die Zahl ist um 40.000 auf 2.955.000 gesunken.</i></li><li><b>„Verglichen mit dem Vorjahr …“</b> — So startet man einen Vergleich in Berichten.<br><i>Verglichen mit dem Vorjahr haben wir mehr Kunden.</i></li><li><b>„nach wie vor“</b> — Es ist immer noch so, nichts hat sich geändert.<br><i>Die Lage ist nach wie vor schwierig.</i></li><li><b>„sich entspannen“</b> — Eine Situation wird ruhiger und weniger schwierig.<br><i>Die Lage am Ausbildungsmarkt entspannt sich langsam.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„um“ und „auf“ bei Zahlen:</b> „Die Zahl ist <b>um</b> 40.000 <b>auf</b> 2.955.000 gesunken.“ „um“ zeigt, wie groß die Veränderung ist, „auf“ zeigt den neuen Wert. Typischer Fehler: „von 40.000 gesunken“ oder „auf 40.000 gesunken“, wenn man die Differenz meint. Merkhilfe: <i>um</i> = Unterschied, <i>auf</i> = Ergebnis.</p></div><div class="grammar-block"><p><b>Vergleich mit „als“ und „mehr/weniger … als“:</b> „31.000 mehr <b>als</b> vor einem Jahr“, „0,1 Prozentpunkte weniger <b>als</b> im September“. Nach einem Komparativ oder „mehr/weniger“ steht „als“, nicht „wie“. Typischer Fehler: „höher wie im Vorjahr“. „wie“ nutzt man nur bei Gleichheit: <i>so hoch wie im Vorjahr</i>.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Um wie viel ist die Zahl der Arbeitslosen im Oktober gesunken?</li><li>Was sagt Andrea Nahles über den Rückgang der Arbeitslosigkeit?</li><li>Wie viele betriebliche Lehrstellen wurden von Oktober 2025 bis September 2026 gemeldet?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „um … auf …“, zum Beispiel über Preise, Mieten oder Kunden.</li><li>Schreibe einen Vergleich mit „mehr/weniger … als“ und einer Zahl.</li><li>Schreibe einen Satz mit „nach wie vor“ über deine Arbeit oder Stadt.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Wie ist die Lage auf dem Arbeitsmarkt in deiner Stadt oder Branche? Erzähle in fünf Sätzen: Gibt es offene Stellen? Wie sind die Chancen für Berufseinsteiger? Benutze „nach wie vor“ und „verhalten“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 4. November 2026): <a href="https://www.arbeitsagentur.de/presse/2026-41-arbeitsmarkt-im-oktober-2026">Bundesagentur für Arbeit: Arbeitsmarkt im Oktober 2026</a>, 30. Oktober; <a href="https://www.stuttgarter-zeitung.de/wirtschaft/arbeitsmarkt-zahl-der-arbeitslosen-in-deutschland-sinkt-im-oktober-79628190.html">Stuttgarter Zeitung/dpa: Zahl der Arbeitslosen in Deutschland sinkt im Oktober</a>, 30. Oktober. <a href="https://www.arbeitsagentur.de/presse/2026-42-ausbildungsmarktbilanz-2025-2026">Bundesagentur für Arbeit: Ausbildungsmarktbilanz 2025/26</a>, 30. Oktober. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

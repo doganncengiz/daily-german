@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Worüber haben die drei Parteien am ersten Verhandlungstag vor allem gesprochen?",
+      "o": [
+        "Über die Verteilung der Ministerien.",
+        "Über den Landeshaushalt.",
+        "Über die Mietenpolitik."
+      ],
+      "c": 1,
+      "why": "Im Mittelpunkt stand der <b>Landeshaushalt</b>. Über Mieten hatten sich die Parteien schon bei der Sondierung geeinigt; von Ministerien ist im Text keine Rede."
+    },
+    {
+      "q": "Um wie viel sollen die Einnahmen des Landes mindestens pro Jahr steigen?",
+      "o": [
+        "Um mindestens 100 Millionen Euro.",
+        "Um mindestens 14 Millionen Euro.",
+        "Um mindestens 400 Millionen Euro."
+      ],
+      "c": 2,
+      "why": "Die Einnahmen sollen um <b>mindestens 400 Millionen Euro pro Jahr</b> steigen. 14 ist die Zahl der Arbeitsgruppen, „mehr als 100“ sind die Mitglieder pro Partei."
+    },
+    {
+      "q": "Wann sollen die 14 Arbeitsgruppen spätestens mit der Arbeit beginnen?",
+      "o": [
+        "Spätestens ab Montag nächster Woche.",
+        "Schon am Mittwoch, zusammen mit der Dachgruppe.",
+        "Erst nach dem Parteitag der Linken."
+      ],
+      "c": 0,
+      "why": "Die Arbeitsgruppen sollen <b>spätestens ab Montag nächster Woche</b> arbeiten. Am Mittwoch trifft sich nur die Dachgruppe, und der Parteitag der Linken war schon am Samstag."
+    }
+  ],
+  "schreib": [
+    "Wir haben uns <b>auf</b> einen Termin <b>geeinigt</b>.<span class=\"hint\"> „sich einigen auf“ + Akkusativ: auf einen Termin. Vergiss „uns“ nicht. Auch „sich über etwas einigen“ ist eine korrekte Verbindung.</span>",
+    "Es ist klar, <b>dass</b> wir mehr Zeit <b>brauchen</b>.<span class=\"hint\"> Nach „dass“ steht das Verb am Ende, nicht „dass wir brauchen mehr Zeit“.</span>",
+    "<b>Zwei Wochen nach</b> dem Meeting haben wir das Projekt gestartet.<span class=\"hint\"> „nach“ + Dativ: nach dem Meeting. Nicht „nach das Meeting“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Es ging um …",
+      "Wir haben uns auf … geeinigt.",
+      "Schwierig war, dass …",
+      "Am Ende haben wir beschlossen, …",
+      "Im Nachhinein finde ich, dass …"
+    ],
+    "modell": "„In unserem Team ging es um den Urlaubsplan für den Sommer. Zuerst wollten alle im August frei haben, das war schwierig. Nach einer langen Diskussion haben wir uns <b>auf</b> einen Wechsel <b>geeinigt</b>: Jedes Jahr hat eine andere Gruppe Vorrang. Es war klar, dass nicht alle zufrieden sind. Aber die Lösung war fair, und das war für uns ein kleiner <b>Aufbruch</b>.“"
+  }
+}

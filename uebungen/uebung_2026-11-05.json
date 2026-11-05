@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Was hat das Kabinett am Mittwoch zum Kontingent der Westbalkan-Regelung beschlossen?",
+      "o": [
+        "Es wird von 25.000 auf 50.000 verdoppelt.",
+        "Es soll nach Zustimmung des Bundesrats von 50.000 auf 25.000 halbiert werden.",
+        "Es wird 2027 abgeschafft, nur Berufskraftfahrer bleiben."
+      ],
+      "c": 1,
+      "why": "Das Kabinett hat die Halbierung <b>von 50.000 auf 25.000 Erstzustimmungen</b> beschlossen. Der Bundesrat muss noch zustimmen. Die Verdopplung war Mitte 2024; die Regelung soll nicht abgeschafft werden."
+    },
+    {
+      "q": "Was sagt Felix Pakleppa vom Baugewerbe?",
+      "o": [
+        "Ein Drittel der Beschäftigten am Bau hat einen ausländischen Pass.",
+        "Die Baubranche gewinnt durch die Kürzung knapp 9.000 Arbeitskräfte.",
+        "Die Halbierung würde die Branche knapp 9.000 Arbeitskräfte kosten."
+      ],
+      "c": 2,
+      "why": "Pakleppa warnt: Die Halbierung würde die Branche <b>knapp 9.000 Arbeitskräfte</b> kosten. Falsch ist „ein Drittel“: Jeder siebte Beschäftigte hat einen ausländischen Pass, und rund 35 Prozent der <i>Visa</i> gehen an Baufirmen. Dass die Branche gewinnt, widerspricht seiner Kritik."
+    },
+    {
+      "q": "Wie geht es mit der Verordnung weiter?",
+      "o": [
+        "Der Bundesrat muss noch zustimmen, voraussichtlich berät er am 18. Dezember.",
+        "Sie gilt sofort, der Bundesrat entscheidet nicht mit.",
+        "Der Bundesrat hat schon zugestimmt, sieben Länder sind dafür."
+      ],
+      "c": 0,
+      "why": "Der Bundesrat <b>muss zustimmen</b>; die Beratung ist voraussichtlich für den 18. Dezember geplant, in Kraft treten soll die Regel am 1. Januar 2027. Sieben Länder lehnen die Kürzung ab, sie sind also nicht dafür."
+    }
+  ],
+  "schreib": [
+    "Künftig soll es <b>statt bisher</b> 50.000 <b>nur noch</b> 25.000 Erstzustimmungen pro Jahr geben.<span class=\"hint\"> Nach „statt bisher“ steht der alte Wert, nach „nur noch“ der geplante neue Wert.</span>",
+    "<b>Trotz</b> der hohen Kosten kaufen viele Menschen ein Deutschlandticket.<span class=\"hint\"> „trotz“ + Genitiv (der Kosten). In der Umgangssprache hört man oft den Dativ, schriftlich besser den Genitiv.</span>",
+    "In unserer Firma ist <b>jeder dritte</b> Kollege über 50 Jahre alt.<span class=\"hint\"> „jeder“ bleibt im Singular: „jeder dritte Kollege“, nicht „jeder dritte Kollegen“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich finde den Plan … , weil …",
+      "Einerseits …, andererseits …",
+      "Trotz der Kritik …",
+      "Das würde bedeuten, dass …",
+      "Meiner Meinung nach sollte man …"
+    ],
+    "modell": "„Ich finde den Plan problematisch. <b>Einerseits</b> will die Regierung die <b>Zuwanderung</b> begrenzen, <b>andererseits</b> fehlen in vielen Branchen Leute. Im <b>Baugewerbe</b> ist der <b>Fachkräftemangel</b> schon jetzt groß, und <b>statt bisher</b> 50.000 gäbe es <b>nur noch</b> 25.000 Plätze. Meiner Meinung nach sollte man das <b>Kontingent</b> erst kürzen, wenn es genug Alternativen gibt.“"
+  }
+}

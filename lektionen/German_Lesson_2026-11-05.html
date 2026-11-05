@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 5. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 5. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 5. November</div>
+    <h2 class="heading">Westbalkan-Regelung: Kabinett beschließt Halbierung des Kontingents auf 25.000</h2>
+    <div class="card">
+      <p>Das Bundeskabinett hat am Mittwoch beschlossen, das <b>Kontingent</b> der Westbalkan-Regelung zu <b>halbieren</b>. Wenn der Bundesrat zustimmt, darf die Bundesagentur für Arbeit künftig nur noch 25.000 statt bisher 50.000 Erstzustimmungen pro Jahr erteilen. Die Regelung gilt für Menschen aus Albanien, Bosnien und Herzegowina, dem Kosovo, Montenegro, Nordmazedonien und Serbien. Sie gibt es seit 2016, Mitte 2024 wurde das Kontingent verdoppelt. Die neue <b>Verordnung</b> soll am 1. Januar 2027 in Kraft treten. Arbeitsminister Alexander Schweitzer (SPD) will die <b>Zuwanderung</b> begrenzen und Arbeitslosen in Deutschland bei offenen Stellen Vorrang geben.</p><p>Die <b>Kritik</b> ist groß. Felix Pakleppa vom Zentralverband Deutsches <b>Baugewerbe</b> fordert, den Plan zurückzunehmen. Nach seinen Angaben hat jeder siebte Beschäftigte am Bau einen ausländischen Pass, und rund 35 Prozent der Visa aus der Westbalkan-Regelung gehen an Baufirmen. Die Halbierung würde die Branche knapp 9.000 Arbeitskräfte kosten. Auch das Gastgewerbe und die Logistik lehnen die Kürzung ab. Die Bundesagentur selbst warnt, ein kleineres Kontingent werde den <b>Fachkräftemangel</b> verschärfen.</p><p><b>Trotz</b> der Kritik von Verbänden und Ländern hält die Regierung an dem Plan fest. Entscheidend ist nun der <b>Bundesrat</b>: Er muss der Verordnung zustimmen, voraussichtlich berät er am 18. Dezember darüber. Sieben Länder, darunter Bayern und Nordrhein-Westfalen, lehnen die Kürzung ab. Andere Wege nach Deutschland bleiben offen, zum Beispiel für anerkannte Fachkräfte und Berufskraftfahrer.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Kontingent</td><td>quota</td><td>Eine feste Zahl, die erlaubt ist.</td><td>Das Kontingent wird von 50.000 auf 25.000 gesenkt.</td></tr><tr><td>halbieren</td><td>to halve</td><td>Etwas auf die Hälfte verringern.</td><td>Die Regierung will die Zahl halbieren.</td></tr><tr><td>die Zuwanderung</td><td>immigration</td><td>Menschen ziehen aus anderen Ländern nach Deutschland.</td><td>Die Regierung will die Zuwanderung begrenzen.</td></tr><tr><td>das Kabinett</td><td>cabinet</td><td>Der Bundeskanzler und die Ministerinnen und Minister der Regierung.</td><td>Das Kabinett trifft sich meist mittwochs.</td></tr><tr><td>die Kritik</td><td>criticism</td><td>Man sagt, dass etwas nicht gut oder falsch ist.</td><td>Die Kritik an dem Plan ist groß.</td></tr><tr><td>der Bundesrat</td><td>Bundesrat (council of the federal states)</td><td>Hier vertreten die 16 Bundesländer ihre Interessen im Bund.</td><td>Die Verordnung braucht die Zustimmung des Bundesrats.</td></tr><tr><td>das Baugewerbe</td><td>construction industry</td><td>Alle Firmen, die Häuser und Straßen bauen.</td><td>Das Baugewerbe sucht dringend Arbeitskräfte.</td></tr><tr><td>der Fachkräftemangel <span class="rep">(Wiederholung)</span></td><td>shortage of skilled workers</td><td>Es gibt zu wenige gut ausgebildete Leute für die offenen Stellen.</td><td>Der Fachkräftemangel trifft vor allem Handwerk und Pflege.</td></tr><tr><td>die Verordnung <span class="rep">(Wiederholung)</span></td><td>ordinance, regulation</td><td>Eine verbindliche Regel, die das Ministerium oder die Regierung festlegt.</td><td>Die neue Verordnung soll ab Januar gelten.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„statt bisher … nur noch …“</b> — So zeigt man, dass etwas kleiner wird: erst der alte, dann der neue Wert.<br><i>Es gibt nur noch 25.000 statt bisher 50.000 Plätze.</i></li><li><b>„trotz der Kritik“</b> — Obwohl viele dagegen sind, passiert es doch.<br><i>Trotz der Kritik bleibt der Plan bestehen.</i></li><li><b>„jeder siebte …“</b> — So sagt man „ein Siebtel“ im Alltag, besonders bei Statistiken.<br><i>Jeder siebte Beschäftigte am Bau hat einen ausländischen Pass.</i></li><li><b>„in Kraft treten“</b> — Eine Regel gilt ab einem bestimmten Datum.<br><i>Die Verordnung soll am 1. Januar in Kraft treten.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„trotz“ + Genitiv:</b> „<b>Trotz</b> der Kritik von Verbänden und Ländern hält die Regierung am Plan fest.“ Die Präposition „trotz“ steht schriftlich mit dem Genitiv: trotz <i>der Kritik</i>, trotz <i>des Regens</i>. Typischer Fehler: „trotz dem Regen“ – in gesprochener Sprache üblich, in Berichten und E-Mails aber besser vermeiden. Mit „obwohl“ folgt dagegen ein Nebensatz: <i>obwohl es Kritik gibt</i>.</p></div><div class="grammar-block"><p><b>Zahlen als Anteil – „jeder siebte“:</b> „Jeder siebte Beschäftigte hat einen ausländischen Pass.“ „jeder“ bleibt Singular, die Ordnungszahl wird kleingeschrieben und dekliniert: <i>jeder siebte</i>, <i>jede dritte</i>, <i>jedes zweite</i>. Typischer Fehler: „jeder sieben Beschäftigte“ oder ein Plural-Verb („jeder siebte Beschäftigte haben“).</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Was hat das Kabinett am Mittwoch zum Kontingent der Westbalkan-Regelung beschlossen?</li><li>Was sagt Felix Pakleppa vom Baugewerbe?</li><li>Wie geht es mit der Verordnung weiter?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „statt bisher … nur noch …“, zum Beispiel über Preise, Termine oder Mitarbeitende.</li><li>Schreibe einen Satz mit „trotz“ + Genitiv.</li><li>Schreibe einen Satz mit „jeder dritte/vierte/siebte …“ über deine Arbeit oder Stadt.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Soll Deutschland die Zuwanderung von Arbeitskräften begrenzen oder ausbauen? Gib deine Meinung in fünf Sätzen. Benutze „einerseits … andererseits“ und „trotz“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 5. November 2026): <a href="https://www.onvista.de/news/2026/11-04-bundesregierung-halbiert-westbalkan-kontingent-trotz-breiter-kritik-0-20-26572316">Reuters/onvista: Bundesregierung halbiert Westbalkan-Kontingent trotz breiter Kritik</a>, 4. November; <a href="https://www.politikexpress.de/westbalkanregelung-baugewerbe-warnt-vor-verlust-von-knapp-9-000-arbeitskr-ften-kabinett-darf-k-rzung-nicht-durchwinken-2283560.html">ZDB-Pressemitteilung: Kritik der Bauwirtschaft</a>, 3. November; <a href="https://www.lbb-bayern.de/aktuelles/news/news-uebersicht/news-detailansicht/drohende-reduzierung-des-westbalken-kontingents.html">LBB Bayern: Plan und Bundesratsberatung</a>, 26. Oktober; <a href="https://www.arbeitsagentur.de/presse/2026-40-hohe-arbeitsmarktintegration-bei-westbalkan-regelung-ba-plaediert-fuer-unveraendertes-kontingent">Bundesagentur für Arbeit: Stellungnahme zum Kontingent</a>, 16. Oktober. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

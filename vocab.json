@@ -1761,7 +1761,8 @@
     "dates": [
       "2026-08-13",
       "2026-09-07",
-      "2026-09-30"
+      "2026-09-30",
+      "2026-11-05"
     ],
     "sq": "mungesa e fuqisë punëtore të kualifikuar",
     "tr": "nitelikli iş gücü açığı",
@@ -4590,7 +4591,8 @@
     "bsp": "Der Kern der neuen KI-Verordnung tritt am 2. August in Kraft.",
     "dates": [
       "2026-08-24",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-11-05"
     ],
     "sq": "rregullore",
     "tr": "yönetmelik, tüzük",
@@ -12591,5 +12593,124 @@
     "es": "la comparación interanual",
     "fr": "la comparaison avec l'année précédente",
     "it": "il confronto con l'anno precedente"
+  },
+  {
+    "de": "das Kontingent",
+    "en": "quota",
+    "erk": "Eine feste Zahl, die erlaubt ist.",
+    "bsp": "Das Kontingent wird von 50.000 auf 25.000 gesenkt.",
+    "dates": [
+      "2026-11-05"
+    ],
+    "sq": "kuota",
+    "tr": "kota",
+    "uk": "квота",
+    "ar": "حصة (كوتا)",
+    "fa": "سهمیه",
+    "es": "el cupo",
+    "fr": "le contingent",
+    "it": "il contingente"
+  },
+  {
+    "de": "halbieren",
+    "en": "to halve",
+    "erk": "Etwas auf die Hälfte verringern.",
+    "bsp": "Die Regierung will die Zahl halbieren.",
+    "dates": [
+      "2026-11-05"
+    ],
+    "sq": "përgjysmoj",
+    "tr": "yarıya indirmek",
+    "uk": "скоротити вдвічі",
+    "ar": "تخفيض إلى النصف",
+    "fa": "نصف کردن",
+    "es": "reducir a la mitad",
+    "fr": "diviser par deux",
+    "it": "dimezzare"
+  },
+  {
+    "de": "die Zuwanderung",
+    "en": "immigration",
+    "erk": "Menschen ziehen aus anderen Ländern nach Deutschland.",
+    "bsp": "Die Regierung will die Zuwanderung begrenzen.",
+    "dates": [
+      "2026-11-05"
+    ],
+    "sq": "imigrimi",
+    "tr": "göç (ülkeye göç)",
+    "uk": "імміграція",
+    "ar": "الهجرة الوافدة",
+    "fa": "مهاجرت",
+    "es": "la inmigración",
+    "fr": "l'immigration",
+    "it": "l'immigrazione"
+  },
+  {
+    "de": "das Kabinett",
+    "en": "cabinet",
+    "erk": "Der Bundeskanzler und die Ministerinnen und Minister der Regierung.",
+    "bsp": "Das Kabinett trifft sich meist mittwochs.",
+    "dates": [
+      "2026-11-05"
+    ],
+    "sq": "kabineti",
+    "tr": "bakanlar kurulu",
+    "uk": "кабінет міністрів",
+    "ar": "مجلس الوزراء",
+    "fa": "کابینه",
+    "es": "el gabinete",
+    "fr": "le conseil des ministres",
+    "it": "il consiglio dei ministri"
+  },
+  {
+    "de": "die Kritik",
+    "en": "criticism",
+    "erk": "Man sagt, dass etwas nicht gut oder falsch ist.",
+    "bsp": "Die Kritik an dem Plan ist groß.",
+    "dates": [
+      "2026-11-05"
+    ],
+    "sq": "kritika",
+    "tr": "eleştiri",
+    "uk": "критика",
+    "ar": "انتقاد",
+    "fa": "انتقاد",
+    "es": "la crítica",
+    "fr": "la critique",
+    "it": "la critica"
+  },
+  {
+    "de": "der Bundesrat",
+    "en": "Bundesrat (council of the federal states)",
+    "erk": "Hier vertreten die 16 Bundesländer ihre Interessen im Bund.",
+    "bsp": "Die Verordnung braucht die Zustimmung des Bundesrats.",
+    "dates": [
+      "2026-11-05"
+    ],
+    "sq": "Bundesrati (dhoma e landeve)",
+    "tr": "Bundesrat (eyaletler meclisi)",
+    "uk": "Бундесрат (палата земель)",
+    "ar": "البوندسرات (المجلس الاتحادي)",
+    "fa": "بوندسرات (شورای ایالت‌ها)",
+    "es": "el Bundesrat (consejo federal)",
+    "fr": "le Bundesrat (conseil fédéral)",
+    "it": "il Bundesrat (consiglio federale)"
+  },
+  {
+    "de": "das Baugewerbe",
+    "en": "construction industry",
+    "erk": "Alle Firmen, die Häuser und Straßen bauen.",
+    "bsp": "Das Baugewerbe sucht dringend Arbeitskräfte.",
+    "dates": [
+      "2026-11-05"
+    ],
+    "sq": "sektori i ndërtimit",
+    "tr": "inşaat sektörü",
+    "uk": "будівельна галузь",
+    "ar": "قطاع البناء",
+    "fa": "صنعت ساختمان‌سازی",
+    "es": "el sector de la construcción",
+    "fr": "le secteur de la construction",
+    "it": "il settore edile"
   }
 ]

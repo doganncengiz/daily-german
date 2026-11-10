@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 10. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 10. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 10. November</div>
+    <h2 class="heading">Infineon: Rekordquartal und Ausblick auf rund 20 Milliarden Euro Umsatz</h2>
+    <div class="card">
+      <p>Der Chiphersteller Infineon hat am Dienstag seine Zahlen für das <b>Geschäftsjahr</b> 2026 vorgelegt, das Ende September zu Ende ging. Der <b>Umsatz</b> lag bei 16,353 Milliarden Euro, 12 Prozent mehr als im Vorjahr. Das Segmentergebnis, eine unternehmenseigene Kennzahl für das operative Ergebnis, betrug 3,223 Milliarden Euro; das entspricht einer <b>Marge</b> von 19,7 Prozent. Die Zahlen sind noch vorläufig und nicht geprüft.</p><p>Besonders gut lief das letzte Quartal: Gegenüber dem Vorquartal stieg der Umsatz von 4,172 auf 4,706 Milliarden Euro, das Segmentergebnis von 797 Millionen auf 1,119 Milliarden Euro. Die Marge lag damit bei 23,8 Prozent. Infineon spricht deshalb von einem <b>Rekord</b>quartal. Konzernchef Jochen Hanebeck erwartet auch für die Zukunft eine deutliche Steigerung.</p><p>Der <b>Ausblick</b> für das nächste Geschäftsjahr ist ehrgeizig: Der Umsatz soll um mehr als 20 Prozent auf etwa 20 Milliarden Euro wachsen. Ein wichtiger Treiber ist die Stromversorgung für <b>Rechenzentren</b>, die für künstliche Intelligenz gebraucht werden; hier rechnet das Unternehmen mit annähernd vier Milliarden Euro Umsatz. Für neue Fabriken und Maschinen will Infineon 3,0 bis 3,5 Milliarden Euro ausgeben. Der Vorstand will der Hauptversammlung vorschlagen, die <b>Dividende</b> von 0,35 auf 0,38 Euro je Aktie zu erhöhen. Die Aktionäre entscheiden darüber im Februar 2027. Infineon beschäftigt rund 58.100 Menschen und stellt unter anderem <b>Halbleiter</b> für Autos, Industrie und Rechenzentren her.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Halbleiter</td><td>semiconductor</td><td>Ein Material, aus dem elektronische Bauteile wie Chips hergestellt werden; auch eine Bezeichnung für solche Bauteile.</td><td>Infineon stellt Halbleiter für Autos her.</td></tr><tr><td>das Rechenzentrum</td><td>data centre</td><td>Ein großes Gebäude mit sehr vielen Servern.</td><td>Rechenzentren brauchen sehr viel Strom.</td></tr><tr><td>das Geschäftsjahr</td><td>financial year, fiscal year</td><td>Zwölf Monate, für die eine Firma ihre Zahlen berechnet; es muss nicht das Kalenderjahr sein.</td><td>Das Geschäftsjahr endete am 30. September.</td></tr><tr><td>die Dividende</td><td>dividend</td><td>Der Teil des Gewinns, den Aktionäre für jede Aktie bekommen.</td><td>Der Vorstand schlägt eine Dividende von 0,38 Euro je Aktie vor.</td></tr><tr><td>die Marge</td><td>margin</td><td>Der Anteil vom Umsatz, der als Gewinn übrig bleibt.</td><td>Die Marge lag bei 19,7 Prozent.</td></tr><tr><td>der Rekord</td><td>record</td><td>Der beste Wert, den es bisher gab.</td><td>Das Unternehmen meldet ein Rekordquartal.</td></tr><tr><td>der Ausblick <span class="rep">(Wiederholung)</span></td><td>outlook</td><td>Eine Aussage darüber, wie es in Zukunft laufen soll.</td><td>Der Ausblick für das nächste Jahr ist positiv.</td></tr><tr><td>der Umsatz <span class="rep">(Wiederholung)</span></td><td>turnover, sales</td><td>Das Geld, das ein Geschäft durch Verkäufe einnimmt.</td><td>Der Umsatz soll auf etwa 20 Milliarden Euro wachsen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„auf etwa …“ / „rund …“</b> — Mit „etwa“, „rund“ und „annähernd“ nennt man eine ungefähre Zahl.<br><i>Der Umsatz soll auf etwa 20 Milliarden Euro wachsen.</i></li><li><b>„Das entspricht …“</b> — So erklärt man, was eine Zahl bedeutet oder wie viel sie in Prozent ist.<br><i>Das entspricht einer Marge von 19,7 Prozent.</i></li><li><b>„noch vorläufig“</b> — Die Zahlen können sich später noch ändern.<br><i>Die Zahlen sind noch vorläufig und nicht geprüft.</i></li><li><b>„rechnen mit“ + Dativ</b> — Man erwartet etwas Bestimmtes.<br><i>Das Unternehmen rechnet mit vier Milliarden Euro Umsatz.</i></li><li><b>„Das Ziel ist …“ / „… ist ehrgeizig“</b> — Man bewertet einen Plan: Er ist schwer, aber nicht unmöglich.<br><i>Der Ausblick ist ehrgeizig.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Zahlen vergleichen: „von … auf …“ und „um … auf …“:</b> „Der Umsatz stieg <b>von</b> 4,172 <b>auf</b> 4,706 Milliarden Euro.“ „von“ = Startwert, „auf“ = Endwert. „Der Umsatz soll <b>um</b> mehr als 20 Prozent <b>auf</b> etwa 20 Milliarden Euro wachsen.“ „um“ = Unterschied. Typischer Fehler: „um“ und „auf“ vertauschen, zum Beispiel „auf 12 Prozent gestiegen“, wenn 12 Prozent der Zuwachs ist.</p></div><div class="grammar-block"><p><b>Komparativ + „als“ / Prozentvergleich:</b> „12 Prozent <b>mehr als</b> im Vorjahr“. Nach „mehr“ und „weniger“ folgt „als“, nicht „wie“. Typischer Fehler: „mehr wie im Vorjahr“ – das hört man oft gesprochen, aber in Texten ist „als“ richtig.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wie hoch war der Umsatz von Infineon im Geschäftsjahr 2026?</li><li>Was sagt der Text über das letzte Quartal?</li><li>Was erwartet Infineon für das nächste Geschäftsjahr?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „von … auf …“ über eine Zahl, die sich verändert hat (Preis, Miete, Kundenzahl).</li><li>Schreibe einen Satz mit „um … auf …“ und „etwa“ oder „rund“.</li><li>Schreibe einen Satz mit „mehr als“ oder „weniger als“ und „im Vorjahr“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Immer mehr Strom und Chips werden für künstliche Intelligenz gebraucht. Was bedeutet das für Firmen und Beschäftigte in Deutschland? Gib deine Meinung in fünf Sätzen. Benutze „einerseits … andererseits“ und „rechnen mit“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 10. November 2026): <a href="https://www.onvista.de/news/2026/11-10-eqs-news-infineon-schliesst-gj-2026-mit-rekordquartal-ab-und-erwartet-fuer-gj-2027-starkes-umsatzwachstum-von-mehr-als-20-prozent-und-steigerung-der-profitabilitaet-um-5-prozentpunkte-0-37-26574401">Infineon-Pressemitteilung (EQS), 10. November</a>; <a href="https://www.onvista.de/news/2026/11-10-infineon-mit-rekordquartal-und-optimistischem-ausblick-0-20-26574419">Reuters: Infineon mit Rekordquartal und optimistischem Ausblick</a>, 10. November. <a href="https://www.infineon.com/de/press-release/2026/infpr202611-025">Infineon: Ergebnisse für das Geschäftsjahr 2026</a>. Zahlen vorläufig; für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch war die Pünktlichkeitsquote der Fernzüge im Oktober?",
+      "o": [
+        "62,3 Prozent",
+        "56,2 Prozent",
+        "60 Prozent"
+      ],
+      "c": 1,
+      "why": "Die Pünktlichkeitsquote der Fernzüge lag bei <b>56,2 Prozent</b>. Die 62,3 Prozent sind die Reisendenpünktlichkeit, und 60 Prozent ist das Ziel der Bahn für dieses Jahr."
+    },
+    {
+      "q": "Wann gilt ein Fernzug bei der Pünktlichkeitsquote als verspätet?",
+      "o": [
+        "Schon ab einer Minute Verspätung.",
+        "Ab 15 Minuten Verspätung.",
+        "Ab sechs Minuten Verspätung."
+      ],
+      "c": 2,
+      "why": "Ein Zug gilt <b>ab sechs Minuten</b> als verspätet. Die Grenze von 14 Minuten und 59 Sekunden gehört zur Reisendenpünktlichkeit, und „ab einer Minute“ steht nirgends im Text."
+    },
+    {
+      "q": "Was sagt der Text über das Ziel der Bahn?",
+      "o": [
+        "Die Bahn will im Gesamtjahr mindestens 60 Prozent erreichen; der Oktoberwert liegt darunter.",
+        "Die Bahn hat ihr Ziel im Oktober mit 62,3 Prozent erreicht.",
+        "Die Bahn hat ihr Ziel auf 56,2 Prozent gesenkt."
+      ],
+      "c": 0,
+      "why": "Das Ziel für das Gesamtjahr beträgt <b>mindestens 60 Prozent</b>. Im Oktober liegt die betriebliche Quote bei 56,2 Prozent. Die 62,3 Prozent beziehen sich auf die Reisendenpünktlichkeit; das Jahresergebnis steht noch nicht fest."
+    }
+  ],
+  "schreib": [
+    "Der Anteil pünktlicher Halte stieg von 50 auf 53,8 Prozent, also <b>um knapp vier Prozentpunkte</b>.<span class=\"hint\"> Prozentpunkte bezeichnen den Unterschied zwischen zwei Prozentwerten.</span>",
+    "In unserer Übung <b>gilt</b> ein Zug <b>ab</b> sechs Minuten Verspätung <b>als</b> unpünktlich.<span class=\"hint\"> „gelten als“ beschreibt eine Einordnung; „ab“ nennt die Grenze.</span>",
+    "Unsere Firma will <b>mindestens</b> 100 neue Kunden gewinnen, aber sie <b>verfehlt</b> das Ziel leider.<span class=\"hint\"> „mindestens“ = nicht weniger; „verfehlen“ braucht ein Akkusativobjekt (das Ziel).</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich fahre (fast) jeden Tag / selten mit dem Zug.",
+      "Einmal hatte mein Zug … Minuten Verspätung.",
+      "Ich habe den Anschluss verpasst, deshalb …",
+      "Ich plane immer genug Zeit ein.",
+      "Im Vergleich zu früher …"
+    ],
+    "modell": "„Ich fahre zweimal pro Woche mit dem Zug zur Arbeit. Einmal hatte mein Zug 40 Minuten Verspätung, wegen einer Störung an der Anlage. Ich habe meinen Anschluss verpasst und musste auf den nächsten Zug warten. Seitdem <b>plane</b> ich immer mehr Zeit <b>ein</b>. <b>Im Vergleich zu früher</b> ist es für mich im <b>Fernverkehr</b> nicht besser geworden, aber ich bin entspannter.“"
+  }
+}

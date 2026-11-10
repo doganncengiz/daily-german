@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Um wie viel Prozent stieg der Auftragseingang im September gegenüber dem Vormonat?",
+      "o": [
+        "3,3 Prozent",
+        "4,4 Prozent",
+        "10,1 Prozent"
+      ],
+      "c": 1,
+      "why": "Es waren <b>4,4 Prozent</b>. 3,3 Prozent ist der Vergleich mit dem Vorjahresmonat, und 10,1 Prozent war das Minus im August."
+    },
+    {
+      "q": "Was sagt der Text über die Autoindustrie?",
+      "o": [
+        "Sie bekam im September 10,5 Prozent weniger Aufträge.",
+        "Ihre Aufträge stiegen um 8,3 Prozent.",
+        "Ihre Aufträge stiegen um 10,5 Prozent, nachdem sie vorher niedrig waren."
+      ],
+      "c": 2,
+      "why": "Die Autoindustrie legte um <b>10,5 Prozent</b> zu. Die erste Antwort widerspricht dem Text (es war ein Plus), und 8,3 Prozent gehört zum Maschinenbau."
+    },
+    {
+      "q": "Warum liegt der Gedenktag des heiligen Martin am 11. November?",
+      "o": [
+        "Nach der Überlieferung wurde er am 11. November 397 beerdigt.",
+        "Er wurde am 11. November 316 geboren.",
+        "Er teilte an diesem Tag in Amiens seinen Mantel."
+      ],
+      "c": 0,
+      "why": "Der Text nennt die <b>Beerdigung am 11. November 397</b>. Geboren wurde er „um das Jahr 316“, ohne Tag, und für den Mantel nennt der Text kein Datum."
+    },
+    {
+      "q": "In wie vielen Bundesländern ist der Martinstag ein gesetzlicher Feiertag?",
+      "o": [
+        "In fünf Bundesländern.",
+        "In keinem Bundesland.",
+        "In allen Bundesländern."
+      ],
+      "c": 1,
+      "why": "Der Martinstag ist in <b>keinem</b> Bundesland ein gesetzlicher Feiertag. Er ist ein Gedenktag."
+    },
+    {
+      "q": "Wie endete das Spiel zwischen RB Leipzig und dem FC Augsburg?",
+      "o": [
+        "3:1 für Leipzig",
+        "5:1 für Leipzig",
+        "5:2 für Leipzig"
+      ],
+      "c": 2,
+      "why": "Das Endergebnis war <b>5:2</b>. 3:1 war der Halbzeitstand, und 5:1 stand nach dem Tor von Baumgartner in der 66. Minute, vor dem Treffer von Ogundu in der Nachspielzeit."
+    },
+    {
+      "q": "Wer führt nach den Nachmittagsspielen die Tabelle an?",
+      "o": [
+        "Bayern München, wegen des besseren Torverhältnisses",
+        "Borussia Dortmund mit 21 Punkten",
+        "RB Leipzig mit 18 Punkten"
+      ],
+      "c": 0,
+      "why": "<b>Bayern</b> und Dortmund haben je 21 Punkte, aber Bayern hat plus 20 Tore und Dortmund nur plus 9. Leipzig ist mit 18 Punkten nur Dritter."
+    }
+  ],
+  "schreib": [
+    "Der Auftragseingang ist <b>um</b> 4,4 Prozent <b>gestiegen</b>.<span class=\"hint\"> Nach „steigen“ steht „um“ für den Unterschied. Nicht „mit 4,4 Prozent“. Perfekt mit „sein“: ist gestiegen.</span>",
+    "Am 6. Dezember <b>wird</b> in meinem Land der Nikolaustag <b>gefeiert</b>.<span class=\"hint\"> Passiv = werden + Partizip II am Satzende. Nicht „wird feiern“.</span>",
+    "Die Preise sind <b>gegenüber dem Vormonat</b> gestiegen, aber <b>gegenüber dem Vorjahresmonat</b> gesunken.<span class=\"hint\"> „Vormonat“ = der Monat davor, „Vorjahresmonat“ = derselbe Monat im letzten Jahr. Beide Wörter sind maskulin: gegenüber <i>dem</i>.</span>",
+    "Augsburg <b>ging</b> in der ersten Minute <b>in Führung</b>, aber der <b>Freistoß</b> von Raum brachte das 3:1.<span class=\"hint\"> „in Führung gehen“ ist ein fester Ausdruck mit „gehen“: ging in Führung. „Freistoß“ ist maskulin: der Freistoß.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Bei uns wird im Herbst … gefeiert.",
+      "Traditionell isst man dann …",
+      "Das erinnert an …",
+      "Am liebsten mag ich …",
+      "In meinem Land ist das anders: …"
+    ],
+    "modell": "„Bei uns wird im Herbst das Erntefest gefeiert. <b>Traditionell</b> isst man dann viel Gebäck und Obst, und am Abend gibt es einen <b>Umzug</b> mit Musik. Das <b>erinnert an</b> die alte Zeit, als alle gemeinsam geerntet haben. Am liebsten mag ich das Essen mit meiner Familie. In Deutschland ist es ähnlich: Am Martinstag wird mit <b>Laternen</b> und <b>Martinsgans</b> gefeiert.“"
+  }
+}

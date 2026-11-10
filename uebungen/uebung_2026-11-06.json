@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hat sich das Konzernergebnis von Daimler Truck im dritten Quartal entwickelt?",
+      "o": [
+        "Es sank um 73 Prozent auf 407 Millionen Euro.",
+        "Es stieg um 73 Prozent von 407 auf 702 Millionen Euro.",
+        "Es stieg um 89 Prozent auf 702 Millionen Euro."
+      ],
+      "c": 1,
+      "why": "Das Konzernergebnis stieg <b>um 73 Prozent von 407 auf 702 Millionen Euro</b>. Die 89 Prozent gehören zum operativen Ergebnis (EBIT), nicht zum Konzernergebnis."
+    },
+    {
+      "q": "Was sagt der Text über den Absatz im dritten Quartal?",
+      "o": [
+        "Der Absatz von Elektrofahrzeugen stieg um 28 Prozent.",
+        "In Nordamerika stieg der Absatz um 26 Prozent auf 45.629 Fahrzeuge.",
+        "Weltweit stieg der Absatz um 26 Prozent auf 91.260 Fahrzeuge."
+      ],
+      "c": 2,
+      "why": "Konzernweit wurden <b>91.260 Fahrzeuge</b> verkauft, <b>26 Prozent</b> mehr. Der Elektroabsatz <i>sank</i> um 28 Prozent, und in Nordamerika waren es +51 Prozent (45.629 Fahrzeuge), nicht +26."
+    },
+    {
+      "q": "Was ist in Deutschland geplant?",
+      "o": [
+        "Rund 5.000 Stellen sollen abgebaut werden, vor allem bei der Lkw-Marke Mercedes-Benz.",
+        "Wegen der guten Zahlen stellt die Firma 5.000 neue Mitarbeitende ein.",
+        "Wegen der guten Zahlen wurde das Sparprogramm beendet."
+      ],
+      "c": 0,
+      "why": "Im Text steht: <b>rund 5.000 Stellen sollen abgebaut werden</b>, vor allem bei Mercedes-Benz. Neue Stellen werden nicht genannt, und das Sparprogramm „Cost Down Europe“ läuft weiter („Gespart wird trotzdem weiter“)."
+    }
+  ],
+  "schreib": [
+    "Der Gewinn des Unternehmens stieg <b>um</b> 20 Prozent <b>auf</b> zwei Millionen Euro.<span class=\"hint\"> „um“ = Unterschied, „auf“ = neuer Wert. Nicht „um“ und „auf“ verwechseln.</span>",
+    "In unserer Firma <b>sollen</b> im nächsten Jahr neue Büros <b>gebaut werden</b>.<span class=\"hint\"> „werden“ steht am Satzende, das Partizip II direkt davor.</span>",
+    "<b>Im Vergleich zum Vorjahr</b> sind die Preise gestiegen, <b>vor allem</b> bei Lebensmitteln.<span class=\"hint\"> „vor allem“ steht meist vor dem Wichtigsten; „im Vergleich zu“ + Dativ.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Einerseits …, andererseits …",
+      "Ich finde das (nicht) richtig, weil …",
+      "Vor allem für die Mitarbeitenden …",
+      "Im Vergleich zu früher …",
+      "Meiner Meinung nach sollte eine Firma …"
+    ],
+    "modell": "„Ich finde das schwierig. <b>Einerseits</b> ist es gut, wenn der <b>Gewinn</b> steigt und der <b>Umsatz</b> wächst. <b>Andererseits</b> verlieren Menschen ihren Job, wenn eine Firma <b>Stellen abbaut</b>. Das trifft <b>vor allem</b> Familien. Meiner Meinung nach sollte eine Firma zuerst andere Wege suchen, bevor sie Mitarbeitende entlässt.“"
+  }
+}

@@ -914,13 +914,17 @@
     "erk": "Ein Ort, an dem gebaut oder repariert wird.",
     "bsp": "Wegen einer Baustelle fährt der Zug über Kassel.",
     "dates": [
-      "2026-09-16"
+      "2026-09-16",
+      "2026-11-09"
     ],
     "sq": "kantieri, punimet në rrugë",
     "tr": "şantiye, yol çalışması",
     "uk": "будмайданчик, дорожні роботи",
     "ar": "ورشة بناء، أشغال طرق",
-    "fa": "کارگاه ساختمانی، تعمیرات جاده"
+    "fa": "کارگاه ساختمانی، تعمیرات جاده",
+    "es": "obra, zona de obras",
+    "fr": "chantier",
+    "it": "cantiere"
   },
   {
     "de": "die behördliche Aufsicht",
@@ -1531,13 +1535,17 @@
     "erk": "Etwas offiziell beginnen.",
     "bsp": "Bayern und Stuttgart eröffnen die neue Saison.",
     "dates": [
-      "2026-08-04"
+      "2026-08-04",
+      "2026-11-08"
     ],
     "sq": "të hapë",
     "tr": "açmak",
     "uk": "відкривати",
     "ar": "يفتتح",
-    "fa": "گشودن، آغاز کردن"
+    "fa": "گشودن، آغاز کردن",
+    "es": "inaugurar, abrir",
+    "fr": "ouvrir, inaugurer",
+    "it": "aprire, inaugurare"
   },
   {
     "de": "das Eröffnungsspiel",
@@ -3970,13 +3978,17 @@
     "dates": [
       "2026-08-30",
       "2026-09-04",
-      "2026-09-07"
+      "2026-09-07",
+      "2026-11-06"
     ],
     "sq": "të shkurtojë vende pune",
     "tr": "işten çıkarmak, kadro daraltmak",
     "uk": "скорочувати робочі місця",
     "ar": "يقلّص الوظائف",
-    "fa": "کاهش نیروی کار"
+    "fa": "کاهش نیروی کار",
+    "es": "suprimir puestos de trabajo",
+    "fr": "supprimer des postes",
+    "it": "tagliare posti di lavoro"
   },
   {
     "de": "die Stimme abgeben",
@@ -7466,7 +7478,8 @@
     "erk": "Die Einschätzung, wie sich etwas in der Zukunft entwickeln wird.",
     "bsp": "Der Ausblick unterscheidet sich stark von Branche zu Branche.",
     "dates": [
-      "2026-09-27"
+      "2026-09-27",
+      "2026-11-10"
     ],
     "sq": "perspektiva",
     "tr": "görünüm, beklenti",
@@ -8434,7 +8447,8 @@
     "dates": [
       "2026-10-03",
       "2026-10-31",
-      "2026-11-01"
+      "2026-11-01",
+      "2026-11-07"
     ],
     "sq": "festa zyrtare",
     "tr": "resmî tatil",
@@ -8721,9 +8735,10 @@
     "de": "der Fernverkehr",
     "en": "long-distance (rail) services",
     "erk": "Züge wie ICE und IC, die zwischen großen Städten fahren.",
-    "bsp": "Im Fernverkehr hatte die Bahn 2026 nur im Frühjahr mehr als 60 Prozent.",
+    "bsp": "Im Fernverkehr fahren ICE und IC zwischen vielen großen Städten.",
     "dates": [
-      "2026-10-05"
+      "2026-10-05",
+      "2026-11-09"
     ],
     "sq": "transporti në distanca të gjata",
     "tr": "uzun mesafe ulaşımı",
@@ -9854,7 +9869,9 @@
     "erk": "Der Monat vor dem aktuellen Monat.",
     "bsp": "Gegenüber dem Vormonat stiegen die Preise um 0,6 Prozent.",
     "dates": [
-      "2026-10-14"
+      "2026-10-14",
+      "2026-11-07",
+      "2026-11-08"
     ],
     "sq": "muaji i kaluar",
     "tr": "bir önceki ay",
@@ -10232,7 +10249,8 @@
     "bsp": "Bayern war zu Hause seit 14 Pflichtspielen ungeschlagen.",
     "dates": [
       "2026-10-17",
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-08"
     ],
     "sq": "pa humbje",
     "tr": "yenilmemiş",
@@ -11223,7 +11241,9 @@
     "erk": "Das Geld, das ein Geschäft durch Verkäufe einnimmt.",
     "bsp": "Der Handel rechnet mit 537 Millionen Euro Umsatz.",
     "dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-11-06",
+      "2026-11-10"
     ],
     "tr": "ciro",
     "sq": "xhiroja",
@@ -12107,7 +12127,8 @@
     "erk": "Der Vergleich von geschossenen und kassierten Toren.",
     "bsp": "Bayern führt wegen des besseren Torverhältnisses.",
     "dates": [
-      "2026-10-31"
+      "2026-10-31",
+      "2026-11-07"
     ],
     "sq": "diferenca e golave",
     "tr": "averaj",
@@ -12712,5 +12733,583 @@
     "es": "el sector de la construcción",
     "fr": "le secteur de la construction",
     "it": "il settore edile"
+  },
+  {
+    "de": "das Quartal",
+    "en": "quarter (of a year)",
+    "erk": "Drei Monate eines Geschäftsjahres.",
+    "bsp": "Im dritten Quartal hat die Firma mehr verdient.",
+    "dates": [
+      "2026-11-06"
+    ],
+    "sq": "tremujori",
+    "tr": "çeyrek (yılın üç ayı)",
+    "uk": "квартал",
+    "ar": "ربع السنة",
+    "fa": "سه‌ماهه",
+    "es": "el trimestre",
+    "fr": "le trimestre",
+    "it": "il trimestre"
+  },
+  {
+    "de": "der Gewinn",
+    "en": "profit",
+    "erk": "Das Geld, das nach allen Kosten übrig bleibt.",
+    "bsp": "Der Gewinn stieg um 73 Prozent.",
+    "dates": [
+      "2026-11-06"
+    ],
+    "sq": "fitimi",
+    "tr": "kâr",
+    "uk": "прибуток",
+    "ar": "الربح",
+    "fa": "سود",
+    "es": "el beneficio",
+    "fr": "le bénéfice",
+    "it": "l’utile"
+  },
+  {
+    "de": "der Absatz",
+    "en": "unit sales",
+    "erk": "Die Zahl der verkauften Waren oder Fahrzeuge.",
+    "bsp": "Der Absatz in Nordamerika wuchs stark.",
+    "dates": [
+      "2026-11-06"
+    ],
+    "sq": "shitjet (sasia e shitur)",
+    "tr": "satış adedi",
+    "uk": "обсяг продажів",
+    "ar": "عدد المبيعات",
+    "fa": "تعداد فروش",
+    "es": "las ventas (unidades vendidas)",
+    "fr": "les ventes (en unités)",
+    "it": "le vendite (unità vendute)"
+  },
+  {
+    "de": "der Lastwagen",
+    "en": "truck",
+    "erk": "Ein großes Fahrzeug, das Waren transportiert (kurz: Lkw).",
+    "bsp": "Der Lastwagen liefert die Ware morgen früh.",
+    "dates": [
+      "2026-11-06"
+    ],
+    "sq": "kamioni",
+    "tr": "kamyon",
+    "uk": "вантажівка",
+    "ar": "الشاحنة",
+    "fa": "کامیون",
+    "es": "el camión",
+    "fr": "le camion",
+    "it": "il camion"
+  },
+  {
+    "de": "das Sparprogramm",
+    "en": "savings programme",
+    "erk": "Ein Plan, mit dem eine Firma weniger Geld ausgibt.",
+    "bsp": "Das Sparprogramm soll die Kosten senken.",
+    "dates": [
+      "2026-11-06"
+    ],
+    "sq": "programi i kursimeve",
+    "tr": "tasarruf programı",
+    "uk": "програма економії",
+    "ar": "برنامج توفير",
+    "fa": "برنامه صرفه‌جویی",
+    "es": "el programa de ahorro",
+    "fr": "le programme d’économies",
+    "it": "il programma di risparmio"
+  },
+  {
+    "de": "der Auftragseingang",
+    "en": "order intake",
+    "erk": "Die Menge der Bestellungen, die eine Firma oder eine Branche bekommt.",
+    "bsp": "Der Auftragseingang stieg im September um 4,4 Prozent.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "pranimi i porosive",
+    "tr": "sipariş girişi",
+    "uk": "надходження замовлень",
+    "ar": "الطلبات الواردة",
+    "fa": "سفارش‌های دریافتی",
+    "es": "la entrada de pedidos",
+    "fr": "les entrées de commandes",
+    "it": "l’ingresso di ordini"
+  },
+  {
+    "de": "der Großauftrag",
+    "en": "large order",
+    "erk": "Eine sehr große Bestellung mit hohem Wert.",
+    "bsp": "Ohne Großaufträge lag das Plus bei 5,1 Prozent.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "porosi e madhe",
+    "tr": "büyük sipariş",
+    "uk": "велике замовлення",
+    "ar": "طلب كبير",
+    "fa": "سفارش بزرگ",
+    "es": "el pedido grande",
+    "fr": "la grande commande",
+    "it": "l’ordine grande"
+  },
+  {
+    "de": "der Maschinenbau",
+    "en": "mechanical engineering",
+    "erk": "Die Branche, die Maschinen und Anlagen herstellt.",
+    "bsp": "Im Maschinenbau gab es ein Plus von 8,3 Prozent.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "ndërtimi i makinerive",
+    "tr": "makine imalatı",
+    "uk": "машинобудування",
+    "ar": "صناعة الآلات",
+    "fa": "ماشین‌سازی",
+    "es": "la industria de maquinaria",
+    "fr": "la construction mécanique",
+    "it": "la costruzione di macchine"
+  },
+  {
+    "de": "der Laternenumzug",
+    "en": "lantern parade",
+    "erk": "Ein Umzug am Abend, bei dem Kinder Laternen tragen.",
+    "bsp": "Der Laternenumzug beginnt um 17 Uhr an der Kirche.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "parada e fenerëve",
+    "tr": "fener yürüyüşü",
+    "uk": "хода з ліхтарями",
+    "ar": "موكب الفوانيس",
+    "fa": "راهپیمایی فانوس",
+    "es": "el desfile de farolillos",
+    "fr": "le défilé de lanternes",
+    "it": "la sfilata delle lanterne"
+  },
+  {
+    "de": "die Martinsgans",
+    "en": "Martinmas goose",
+    "erk": "Ein Gänsebraten, den man traditionell um den 11. November isst.",
+    "bsp": "Am Mittwoch essen wir Martinsgans mit Rotkohl und Knödeln.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "pata e Shën Martinit",
+    "tr": "Aziz Martin kazı",
+    "uk": "мартинівський гусак",
+    "ar": "إوزة سانت مارتن",
+    "fa": "غاز سنت مارتین",
+    "es": "el ganso de San Martín",
+    "fr": "l’oie de la Saint-Martin",
+    "it": "l’oca di San Martino"
+  },
+  {
+    "de": "der Gedenktag",
+    "en": "day of remembrance",
+    "erk": "Ein Tag, an dem man an eine Person oder ein Ereignis erinnert. Meistens ist es kein freier Tag.",
+    "bsp": "Der Martinstag ist ein Gedenktag, kein Feiertag.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "dita përkujtimore",
+    "tr": "anma günü",
+    "uk": "день пам’яті",
+    "ar": "يوم تذكاري",
+    "fa": "روز یادبود",
+    "es": "el día conmemorativo",
+    "fr": "la journée commémorative",
+    "it": "la giornata commemorativa"
+  },
+  {
+    "de": "die Karnevalssession",
+    "en": "carnival season",
+    "erk": "Die Zeit vor dem Karneval, in der die Vereine feiern und planen. Sie beginnt am 11.11.",
+    "bsp": "Am 11.11. beginnt die Karnevalssession.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "sezoni i karnavalit",
+    "tr": "karnaval sezonu",
+    "uk": "карнавальний сезон",
+    "ar": "موسم الكرنفال",
+    "fa": "فصل کارناوال",
+    "es": "la temporada de carnaval",
+    "fr": "la saison du carnaval",
+    "it": "la stagione del carnevale"
+  },
+  {
+    "de": "der Torschütze",
+    "en": "goal scorer",
+    "erk": "Der Spieler, der ein Tor schießt.",
+    "bsp": "Torschütze zum 3:1 war David Raum.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "autori i golit",
+    "tr": "golü atan oyuncu",
+    "uk": "автор голу",
+    "ar": "مسجل الهدف",
+    "fa": "گلزن",
+    "es": "el goleador",
+    "fr": "le buteur",
+    "it": "il marcatore"
+  },
+  {
+    "de": "der Freistoß",
+    "en": "free kick",
+    "erk": "Ein Schuss nach einem Foul. Die anderen Spieler müssen Abstand halten.",
+    "bsp": "Raum traf kurz vor der Pause per Freistoß.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "goditja e lirë",
+    "tr": "serbest vuruş",
+    "uk": "штрафний удар",
+    "ar": "ضربة حرة",
+    "fa": "ضربه آزاد",
+    "es": "el tiro libre",
+    "fr": "le coup franc",
+    "it": "il calcio di punizione"
+  },
+  {
+    "de": "ein Tor kassieren",
+    "en": "to concede a goal",
+    "erk": "Ein Gegentor bekommen.",
+    "bsp": "Leipzig hat fünf Tore geschossen, aber auch zwei Tore kassiert.",
+    "dates": [
+      "2026-11-07"
+    ],
+    "sq": "të pësosh një gol",
+    "tr": "gol yemek",
+    "uk": "пропустити гол",
+    "ar": "تلقي هدفًا",
+    "fa": "گل خوردن",
+    "es": "encajar un gol",
+    "fr": "encaisser un but",
+    "it": "subire un gol"
+  },
+  {
+    "de": "die Produktion",
+    "en": "production",
+    "erk": "Die Menge an Waren, die Firmen herstellen.",
+    "bsp": "Die Produktion stieg im September um 0,7 Prozent.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "prodhimi",
+    "tr": "üretim",
+    "uk": "виробництво",
+    "ar": "الإنتاج",
+    "fa": "تولید",
+    "es": "la producción",
+    "fr": "la production",
+    "it": "la produzione"
+  },
+  {
+    "de": "die Autoindustrie",
+    "en": "car industry",
+    "erk": "Alle Firmen, die Autos und Autoteile bauen.",
+    "bsp": "Die Autoindustrie produzierte im September deutlich mehr.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "industria e automjeteve",
+    "tr": "otomotiv sektörü",
+    "uk": "автомобільна промисловість",
+    "ar": "صناعة السيارات",
+    "fa": "صنعت خودروسازی",
+    "es": "la industria automovilística",
+    "fr": "l'industrie automobile",
+    "it": "l'industria automobilistica"
+  },
+  {
+    "de": "die Werksferien",
+    "en": "factory holidays, plant shutdown",
+    "erk": "Die Zeit, in der eine Fabrik für alle Mitarbeiter geschlossen ist.",
+    "bsp": "Wegen der Werksferien war die Produktion im Sommer niedrig.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "pushimet e fabrikës",
+    "tr": "fabrika tatili",
+    "uk": "заводська відпустка",
+    "ar": "عطلة المصنع",
+    "fa": "تعطیلات کارخانه",
+    "es": "las vacaciones de fábrica",
+    "fr": "les congés d'usine",
+    "it": "la chiusura estiva dello stabilimento"
+  },
+  {
+    "de": "der Weihnachtsmarkt",
+    "en": "Christmas market",
+    "erk": "Ein Markt im Advent mit Ständen, Essen und Glühwein.",
+    "bsp": "Auf dem Weihnachtsmarkt treffen sich viele nach der Arbeit.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "tregu i Krishtlindjeve",
+    "tr": "Noel pazarı",
+    "uk": "різдвяний ярмарок",
+    "ar": "سوق عيد الميلاد",
+    "fa": "بازار کریسمس",
+    "es": "el mercado navideño",
+    "fr": "le marché de Noël",
+    "it": "il mercatino di Natale"
+  },
+  {
+    "de": "das Pfand",
+    "en": "deposit",
+    "erk": "Geld für einen Becher oder eine Flasche, das man bei der Rückgabe zurückbekommt.",
+    "bsp": "Für den Becher zahlt man 3 Euro Pfand.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "depozita (për enën)",
+    "tr": "depozito",
+    "uk": "заставна вартість за тару",
+    "ar": "وديعة على العبوة",
+    "fa": "ودیعه برای ظرف",
+    "es": "el depósito por el envase",
+    "fr": "la consigne",
+    "it": "la cauzione sul bicchiere"
+  },
+  {
+    "de": "das Preisniveau",
+    "en": "price level",
+    "erk": "Wie hoch die Preise im Durchschnitt sind.",
+    "bsp": "Das Preisniveau liegt auf dem Niveau der Vorjahre.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "niveli i çmimeve",
+    "tr": "fiyat seviyesi",
+    "uk": "рівень цін",
+    "ar": "مستوى الأسعار",
+    "fa": "سطح قیمت‌ها",
+    "es": "el nivel de precios",
+    "fr": "le niveau des prix",
+    "it": "il livello dei prezzi"
+  },
+  {
+    "de": "der Verfolger",
+    "en": "chaser, team in second place",
+    "erk": "Die Mannschaft, die direkt hinter dem Ersten steht.",
+    "bsp": "Dortmund ist der erste Verfolger der Bayern.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "ndjekësi",
+    "tr": "takipçi (ligde hemen arkadaki takım)",
+    "uk": "переслідувач (команда, що йде другою)",
+    "ar": "المطارد (الفريق الثاني في الترتيب)",
+    "fa": "تعقیب‌کننده (تیم دوم جدول)",
+    "es": "el perseguidor",
+    "fr": "le poursuivant",
+    "it": "l'inseguitore"
+  },
+  {
+    "de": "die Vorlage",
+    "en": "assist",
+    "erk": "Der letzte Pass vor einem Tor.",
+    "bsp": "Karl traf nach einer Vorlage von Harry Kane.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "asistimi",
+    "tr": "asist",
+    "uk": "гольова передача",
+    "ar": "التمريرة الحاسمة",
+    "fa": "پاس گل",
+    "es": "la asistencia",
+    "fr": "la passe décisive",
+    "it": "l'assist"
+  },
+  {
+    "de": "verkürzen",
+    "en": "to reduce (the gap), to pull one back",
+    "erk": "Beim Spielstand ein Tor schießen, sodass der Abstand kleiner wird.",
+    "bsp": "Mainz verkürzte in der Nachspielzeit auf 1:2.",
+    "dates": [
+      "2026-11-08"
+    ],
+    "sq": "të zvogëlosh diferencën",
+    "tr": "farkı azaltmak",
+    "uk": "скоротити відрив",
+    "ar": "تقليص الفارق",
+    "fa": "کم کردن اختلاف",
+    "es": "acortar distancias",
+    "fr": "réduire l'écart",
+    "it": "accorciare le distanze"
+  },
+  {
+    "de": "die Pünktlichkeitsquote",
+    "en": "punctuality rate",
+    "erk": "Der Anteil pünktlicher Halte an allen gemessenen Halten von Zügen.",
+    "bsp": "Die Pünktlichkeitsquote lag im Oktober bei 56,2 Prozent.",
+    "sq": "norma e punktualitetit",
+    "tr": "dakiklik oranı",
+    "uk": "показник пунктуальності",
+    "ar": "نسبة الالتزام بالمواعيد",
+    "fa": "نرخ وقت‌شناسی",
+    "es": "índice de puntualidad",
+    "fr": "taux de ponctualité",
+    "it": "tasso di puntualità",
+    "dates": [
+      "2026-11-09"
+    ]
+  },
+  {
+    "de": "der Prozentpunkt",
+    "en": "percentage point",
+    "erk": "Der Unterschied zwischen zwei Prozentwerten.",
+    "bsp": "Der Wert stieg um vier Prozentpunkte.",
+    "sq": "pikë përqindjeje",
+    "tr": "yüzde puanı",
+    "uk": "відсотковий пункт",
+    "ar": "نقطة مئوية",
+    "fa": "واحد درصد",
+    "es": "punto porcentual",
+    "fr": "point de pourcentage",
+    "it": "punto percentuale",
+    "dates": [
+      "2026-11-09"
+    ]
+  },
+  {
+    "de": "verfehlen",
+    "en": "to miss (a target)",
+    "erk": "Ein Ziel nicht erreichen.",
+    "bsp": "Die Bahn verfehlt ihr Ziel weiterhin.",
+    "sq": "të mos arrish (një objektiv)",
+    "tr": "hedefi tutturamamak",
+    "uk": "не досягти (мети)",
+    "ar": "عدم تحقيق (هدف)",
+    "fa": "به هدف نرسیدن",
+    "es": "no alcanzar (un objetivo)",
+    "fr": "manquer (un objectif)",
+    "it": "mancare (un obiettivo)",
+    "dates": [
+      "2026-11-09"
+    ]
+  },
+  {
+    "de": "die Anlage",
+    "en": "facility, technical installation",
+    "erk": "Technische Einrichtungen, zum Beispiel Weichen, Signale und Stellwerke.",
+    "bsp": "Eine Störung an der Anlage stoppte den Zug.",
+    "sq": "pajisje teknike",
+    "tr": "tesis, teknik donanım",
+    "uk": "технічне обладнання, споруда",
+    "ar": "منشأة أو منظومة تقنية",
+    "fa": "تأسیسات، تجهیزات فنی",
+    "es": "instalación",
+    "fr": "installation",
+    "it": "impianto",
+    "dates": [
+      "2026-11-09"
+    ]
+  },
+  {
+    "de": "der Halbleiter",
+    "en": "semiconductor",
+    "erk": "Ein Material, aus dem elektronische Bauteile wie Chips hergestellt werden; auch eine Bezeichnung für solche Bauteile.",
+    "bsp": "Infineon stellt Halbleiter für Autos her.",
+    "sq": "gjysmëpërçues",
+    "tr": "yarı iletken",
+    "uk": "напівпровідник",
+    "ar": "شبه‌موصل",
+    "fa": "نیمه‌رسانا",
+    "es": "semiconductor",
+    "fr": "semi-conducteur",
+    "it": "semiconduttore",
+    "dates": [
+      "2026-11-10"
+    ]
+  },
+  {
+    "de": "das Rechenzentrum",
+    "en": "data centre",
+    "erk": "Ein großes Gebäude mit sehr vielen Servern.",
+    "bsp": "Rechenzentren brauchen sehr viel Strom.",
+    "sq": "qendër të dhënash",
+    "tr": "veri merkezi",
+    "uk": "центр обробки даних",
+    "ar": "مركز بيانات",
+    "fa": "مرکز داده",
+    "es": "centro de datos",
+    "fr": "centre de données",
+    "it": "data center",
+    "dates": [
+      "2026-11-10"
+    ]
+  },
+  {
+    "de": "das Geschäftsjahr",
+    "en": "financial year, fiscal year",
+    "erk": "Zwölf Monate, für die eine Firma ihre Zahlen berechnet; es muss nicht das Kalenderjahr sein.",
+    "bsp": "Das Geschäftsjahr endete am 30. September.",
+    "sq": "viti financiar",
+    "tr": "mali yıl",
+    "uk": "фінансовий рік",
+    "ar": "سنة مالية",
+    "fa": "سال مالی",
+    "es": "ejercicio fiscal",
+    "fr": "exercice",
+    "it": "esercizio finanziario",
+    "dates": [
+      "2026-11-10"
+    ]
+  },
+  {
+    "de": "die Dividende",
+    "en": "dividend",
+    "erk": "Der Teil des Gewinns, den Aktionäre für jede Aktie bekommen.",
+    "bsp": "Der Vorstand schlägt eine Dividende von 0,38 Euro je Aktie vor.",
+    "sq": "dividend",
+    "tr": "temettü",
+    "uk": "дивіденд",
+    "ar": "أرباح الأسهم الموزعة",
+    "fa": "سود سهام",
+    "es": "dividendo",
+    "fr": "dividende",
+    "it": "dividendo",
+    "dates": [
+      "2026-11-10"
+    ]
+  },
+  {
+    "de": "die Marge",
+    "en": "margin",
+    "erk": "Der Anteil vom Umsatz, der als Gewinn übrig bleibt.",
+    "bsp": "Die Marge lag bei 19,7 Prozent.",
+    "sq": "marzhi fitimi",
+    "tr": "kâr marjı",
+    "uk": "маржа",
+    "ar": "هامش الربح",
+    "fa": "حاشیه سود",
+    "es": "margen",
+    "fr": "marge",
+    "it": "margine",
+    "dates": [
+      "2026-11-10"
+    ]
+  },
+  {
+    "de": "der Rekord",
+    "en": "record",
+    "erk": "Der beste Wert, den es bisher gab.",
+    "bsp": "Das Unternehmen meldet ein Rekordquartal.",
+    "sq": "rekord",
+    "tr": "rekor",
+    "uk": "рекорд",
+    "ar": "رقم قياسي",
+    "fa": "رکورد",
+    "es": "récord",
+    "fr": "record",
+    "it": "record",
+    "dates": [
+      "2026-11-10"
+    ]
   }
 ]

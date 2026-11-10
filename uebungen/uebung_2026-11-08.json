@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Was war im September der wichtigste Grund für das Produktionsplus?",
+      "o": [
+        "Der Maschinenbau legte um 6,5 Prozent zu.",
+        "Die Autoindustrie produzierte 17,1 Prozent mehr als im August.",
+        "Das Baugewerbe wuchs um 2,6 Prozent."
+      ],
+      "c": 1,
+      "why": "Die Autoindustrie hatte mit <b>+17,1 Prozent</b> den größten Anteil. Der Maschinenbau sank um 6,5 Prozent, und am Bau ging die Produktion um 2,6 Prozent zurück."
+    },
+    {
+      "q": "Warum ist das Plus laut Text noch keine Trendwende?",
+      "o": [
+        "Weil die Produktion im September niedriger war als im September 2025.",
+        "Weil der Wert für September nach oben korrigiert wurde.",
+        "Weil der August nach unten korrigiert wurde und das dritte Quartal unter dem zweiten lag."
+      ],
+      "c": 2,
+      "why": "Der August wurde von +2,0 auf +1,0 Prozent <b>nach unten korrigiert</b>, und das Quartal lag <b>0,4 Prozent unter</b> dem zweiten. Gegenüber September 2025 gab es ein Plus von 0,4 Prozent, und korrigiert wurde der August, nicht der September."
+    },
+    {
+      "q": "Wann öffnet der Weihnachtsmarkt in Frankfurt?",
+      "o": [
+        "Am 23. November.",
+        "Am 25. November.",
+        "Am 22. Dezember."
+      ],
+      "c": 0,
+      "why": "Frankfurt öffnet am <b>23. November</b>. Der 25. November ist der Starttermin in Stuttgart, und der 22. Dezember ist das Ende des Frankfurter Marktes."
+    },
+    {
+      "q": "Ein Glühwein kostet 4 Euro. Wie viel zahlt man in Stuttgart mit dem Pfand für den Becher zunächst insgesamt?",
+      "o": [
+        "4 Euro.",
+        "5 Euro.",
+        "7 Euro."
+      ],
+      "c": 2,
+      "why": "In Stuttgart kommen <b>3 Euro Pfand</b> pro Becher dazu: 4 + 3 = 7 Euro. Die 5 Euro Pfand gelten nur für Gläser mit Stiel, und 4 Euro ist der Preis ohne Pfand."
+    },
+    {
+      "q": "Wer erzielte in Mainz das 2:0 für Bayern?",
+      "o": [
+        "Joshua Kimmich.",
+        "Lennart Karl.",
+        "Phillip Tietz."
+      ],
+      "c": 1,
+      "why": "<b>Lennart Karl</b> traf nach einer Vorlage von Harry Kane zum 2:0. Kimmich schoss das 1:0 in der 14. Minute, und Tietz traf für Mainz zum 1:2."
+    },
+    {
+      "q": "Warum steht Bayern in der Tabelle vor Dortmund?",
+      "o": [
+        "Beide haben 21 Punkte, aber Bayern hat die bessere Tordifferenz.",
+        "Bayern hat drei Punkte mehr als Dortmund.",
+        "Dortmund hat ein Spiel weniger gespielt."
+      ],
+      "c": 0,
+      "why": "Beide Teams haben <b>21 Punkte</b>; Bayern liegt mit plus 20 gegen plus 9 vorn. Drei Punkte Vorsprung stimmt nicht, und beide haben neun Spiele gespielt."
+    }
+  ],
+  "schreib": [
+    "Die Produktion stieg im September <b>um 0,7 Prozent gegenüber dem Vormonat</b>.<span class=\"hint\"> „um“ nennt den Unterschied. Nicht „mit 0,7 Prozent“.</span>",
+    "Der Wert wurde <b>von</b> +2,0 <b>auf</b> +1,0 Prozent korrigiert.<span class=\"hint\"> „von … auf …“ zeigt Anfang und Ende. Nicht „von … zu …“.</span>",
+    "In den Monaten davor <b>war</b> die Produktion niedrig <b>gewesen</b>, bevor die Autoindustrie im September wieder mehr herstellte.<span class=\"hint\"> Plusquamperfekt von „sein“: war … gewesen. Hier wird die Vorzeitigkeit mit „war … gewesen“ deutlich.</span>",
+    "Der Glühwein kostet 4 Euro, dazu kommen 3 Euro <b>Pfand</b> – <b>das macht dann</b> 7 Euro.<span class=\"hint\"> „das macht dann“ nennt die Summe. Das Pfand bekommt man zurück, die 4 Euro nicht.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich gehe gern auf den Weihnachtsmarkt, weil …",
+      "Ein Glühwein kostet bei uns etwa …",
+      "Dazu kommt das Pfand von …",
+      "Das macht dann insgesamt …",
+      "Im Vergleich zu meinem Land ist es hier …"
+    ],
+    "modell": "„Ich gehe im Dezember oft auf den <b>Weihnachtsmarkt</b> in meiner Stadt, weil ich die Lichter und die Musik mag. Ein Glühwein kostet dort etwa 4,50 Euro, und dazu kommt ein <b>Pfand</b> von 3 Euro. <b>Das macht dann</b> 7,50 Euro. Das <b>Preisniveau</b> ist ungefähr wie im letzten Jahr. In meinem Land gibt es solche Märkte nicht, aber dort trinken wir im Winter Tee im Café. Ich freue mich schon darauf, wenn die Stadt den Markt <b>eröffnet</b>.“"
+  }
+}

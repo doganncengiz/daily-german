@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 8. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 8. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+<section id="lese" class="panel active"><div class="label">Wochenend-Ausgabe</div><h2 class="heading">Produktion +0,7 Prozent, Glühwein ohne Aufpreis, Bayern siegt in Mainz</h2>
+<div class="card"><h3 class="art-kicker">Wirtschaft</h3><h4 class="art-title">Produktion im Plus: Autoindustrie hebt die Zahlen, doch ein Monat ist keine Trendwende</h4><p>Das Statistische Bundesamt hat am 6. November neue Zahlen zur Industrie veröffentlicht: Im September stieg die Produktion in Deutschland gegenüber dem Vormonat um 0,7 Prozent. Gegenüber dem Vorjahresmonat lag das Plus bei 0,4 Prozent. Das klingt gut, doch die Zahlen sind vorläufig, und man muss sie genau lesen. Die Werte sind preisbereinigt und um Saison- und Kalendereffekte bereinigt. Für Firmen und Beschäftigte ist die Produktion ein wichtiger Hinweis auf die Lage der Industrie.</p><p>Den größten Anteil am Plus hatte die Autoindustrie: Sie produzierte im September 17,1 Prozent mehr als im August. In den beiden Monaten davor war die Produktion niedrig gewesen, unter anderem wegen Umstellungen in den Werken und wegen der Werksferien. Auch die Pharmaindustrie legte kräftig zu, und zwar um 8,0 Prozent. Dagegen sank die Produktion im Maschinenbau um 6,5 Prozent und am Bau um 2,6 Prozent.</p><p>Außerdem wurde der Wert für August von +2,0 auf +1,0 Prozent korrigiert. Über das gesamte dritte Quartal gesehen lag die Produktion um 0,4 Prozent unter dem zweiten Quartal. Ein guter Monat ist deshalb noch keine Trendwende. Die energieintensiven Branchen legten im September zwar um 0,8 Prozent zu, verloren im Quartal aber 3,5 Prozent, und im Vorjahresvergleich lagen sie im September 1,9 Prozent im Minus.</p></div>
+<div class="card"><h3 class="art-kicker">Freizeit</h3><h4 class="art-title">Weihnachtsmärkte 2026: Wann sie öffnen und was der Glühwein kostet</h4><p>Am Wochenende denken viele schon an den Advent: In Frankfurt öffnet der Weihnachtsmarkt am 23. November, in Stuttgart zwei Tage später, am 25. November. Der Frankfurter Markt läuft bis zum 22. Dezember, der Stuttgarter bis zum 23. Dezember. Wer rechtzeitig plant, kann sich schon jetzt einen Termin mit Freunden oder Kollegen eintragen. In Frankfurt gibt es außerdem 100 von Kindern gestaltete Weihnachtsbäume und einen Kindermarkt am Mainkai.</p><p>Beim Preis gibt es keine Überraschung. In Frankfurt kostet ein Becher Glühwein zwischen 4,50 und 5,00 Euro, genauso viel wie im Vorjahr. In Stuttgart gibt es den Glühwein ab 3,50 Euro für 0,2 Liter; die meisten Stände verlangen aber 4 bis 4,50 Euro. Die Veranstalter sagen, das Preisniveau liege auf dem Niveau der Vorjahre. Winzerglühwein ist teurer, der Preis ist von Stand zu Stand verschieden.</p><p>Dazu kommt das Pfand: In Stuttgart sind es 3 Euro pro Becher, für ein Glas mit Stiel sogar 5 Euro. Ein Glühwein für 4 Euro kostet also zunächst 7 Euro. Das Pfand bekommt man zurück, wenn man den Becher abgibt. Der Frankfurter Markt hat über 230 Stände und freien Eintritt. Er ist montags bis samstags von 10 bis 21 Uhr geöffnet, sonntags von 11 bis 21 Uhr. In Stuttgart ist der Markt nach dem Eröffnungstag sonntags bis donnerstags von 11 bis 21 Uhr geöffnet, freitags und samstags bis 22 Uhr.</p></div>
+<div class="card"><h3 class="art-kicker">Sport</h3><h4 class="art-title">Bayern siegt in Mainz, Dortmund bleibt dran</h4><p>Der Tabellenführer FC Bayern hat am Samstag beim FSV Mainz 05 mit 2:1 gewonnen. Joshua Kimmich traf schon in der 14. Minute zum 1:0. Nach der Pause erhöhte Lennart Karl nach einer Vorlage von Harry Kane auf 2:0. In der Nachspielzeit wurde es noch einmal spannend: Phillip Tietz verkürzte per Kopfball auf 1:2, mehr gelang Mainz aber nicht. Torwart Manuel Neuer wurde zur Pause durch Jonas Urbig ersetzt; einen Grund nannte der Spielbericht nicht.</p><p>Damit bleibt Bayern in dieser Saison ungeschlagen: sechs Siege, drei Unentschieden, 21 Punkte. Der erste Verfolger ist Borussia Dortmund. Der BVB gewann zu Hause 2:1 gegen Elversberg und hat ebenfalls 21 Punkte. Bayern liegt wegen der besseren Tordifferenz vorn: plus 20 gegen plus 9. Dahinter folgt RB Leipzig mit 18 Punkten nach dem 5:2 gegen Augsburg. Mainz steht nach der Niederlage mit zehn Punkten auf Platz zehn.</p><p>Außerdem gewann Stuttgart 1:0 gegen Werder Bremen, Paderborn und Eintracht Frankfurt trennten sich 2:2. Heute spielen noch Köln gegen Leverkusen (15.30 Uhr), Freiburg gegen Union Berlin (17.30 Uhr) und Hoffenheim gegen Schalke (19.30 Uhr). Freiburg hat nach acht Spielen 16 Punkte und kann heute mit einem Sieg an Leipzig vorbeiziehen. Das nächste Spiel der Bayern ist am 20. November gegen Köln.</p><div class="next-btn" onclick="goNext()">↓</div></div>
+</section>
+<section id="vokabular" class="panel"><div class="label">Vokabular</div><h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card"><table><tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+<tr><th class="group" colspan="4">Wirtschaft</th></tr>
+<tr><td>der Vormonat <span class="rep">(Wiederholung)</span></td><td>previous month</td><td>Der Monat vor dem aktuellen Monat.</td><td>Gegenüber dem Vormonat stieg die Produktion um 0,7 Prozent.</td></tr>
+<tr><td>die Produktion</td><td>production</td><td>Die Menge an Waren, die Firmen herstellen.</td><td>Die Produktion stieg im September um 0,7 Prozent.</td></tr>
+<tr><td>die Autoindustrie</td><td>car industry</td><td>Alle Firmen, die Autos und Autoteile bauen.</td><td>Die Autoindustrie produzierte im September deutlich mehr.</td></tr>
+<tr><td>die Werksferien</td><td>factory holidays, plant shutdown</td><td>Die Zeit, in der eine Fabrik für alle Mitarbeiter geschlossen ist.</td><td>Wegen der Werksferien war die Produktion im Sommer niedrig.</td></tr>
+<tr><th class="group" colspan="4">Freizeit</th></tr>
+<tr><td>eröffnen <span class="rep">(Wiederholung)</span></td><td>to open</td><td>Etwas offiziell beginnen.</td><td>Die Stadt eröffnet den Weihnachtsmarkt am 23. November.</td></tr>
+<tr><td>der Weihnachtsmarkt</td><td>Christmas market</td><td>Ein Markt im Advent mit Ständen, Essen und Glühwein.</td><td>Auf dem Weihnachtsmarkt treffen sich viele nach der Arbeit.</td></tr>
+<tr><td>das Pfand</td><td>deposit</td><td>Geld für einen Becher oder eine Flasche, das man bei der Rückgabe zurückbekommt.</td><td>Für den Becher zahlt man 3 Euro Pfand.</td></tr>
+<tr><td>das Preisniveau</td><td>price level</td><td>Wie hoch die Preise im Durchschnitt sind.</td><td>Das Preisniveau liegt auf dem Niveau der Vorjahre.</td></tr>
+<tr><th class="group" colspan="4">Sport</th></tr>
+<tr><td>ungeschlagen <span class="rep">(Wiederholung)</span></td><td>unbeaten</td><td>Ohne Niederlage.</td><td>Bayern ist in dieser Saison noch ungeschlagen.</td></tr>
+<tr><td>der Verfolger</td><td>chaser, team in second place</td><td>Die Mannschaft, die direkt hinter dem Ersten steht.</td><td>Dortmund ist der erste Verfolger der Bayern.</td></tr>
+<tr><td>die Vorlage</td><td>assist</td><td>Der letzte Pass vor einem Tor.</td><td>Karl traf nach einer Vorlage von Harry Kane.</td></tr>
+<tr><td>verkürzen</td><td>to reduce (the gap), to pull one back</td><td>Beim Spielstand ein Tor schießen, sodass der Abstand kleiner wird.</td><td>Mainz verkürzte in der Nachspielzeit auf 1:2.</td></tr>
+</table><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="ausdruecke" class="panel"><div class="label">Ausdrücke</div><h2 class="heading">Nützliche Ausdrücke</h2><div class="card"><ul class="expr"><li><b>„gegenüber dem Vormonat“</b> — So vergleicht man mit dem Monat davor.<br><i>Die Produktion stieg gegenüber dem Vormonat um 0,7 Prozent.</i></li><li><b>„nach unten korrigieren“</b> — Eine Zahl wird später niedriger angegeben als zuerst.<br><i>Das Amt hat den Wert für August nach unten korrigiert.</i></li><li><b>„Das ist noch keine Trendwende.“</b> — Ein einzelner guter Wert ändert die Richtung noch nicht.<br><i>Ein starker Monat ist noch keine Trendwende.</i></li><li><b>„auf dem Niveau des Vorjahres liegen“</b> — Etwas kostet oder beträgt ungefähr gleich viel wie letztes Jahr.<br><i>Der Glühwein-Preis liegt auf dem Niveau des Vorjahres.</i></li><li><b>„Das macht dann …“</b> — So nennt man die Summe, zum Beispiel an einem Stand.<br><i>Vier Euro plus drei Euro Pfand – das macht dann sieben Euro.</i></li><li><b>„Es bleibt spannend.“</b> — Das Ergebnis ist noch offen.<br><i>Bayern und Dortmund haben 21 Punkte – es bleibt spannend.</i></li></ul><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="grammatik" class="panel"><div class="label">Grammatik</div><h2 class="heading">Grammatikbewusstsein</h2><div class="card"><div class="grammar-block"><p><b>Veränderungen beschreiben: um, von … auf, mit.</b> Der Unterschied steht mit „um“: „Die Produktion stieg um 0,7 Prozent.“ Anfang und Ende stehen mit „von … auf …“: „Der Wert wurde von +2,0 auf +1,0 Prozent korrigiert.“ Typischer Fehler: „stieg mit 0,7 Prozent“ oder „von … zu …“. Merke: um = Unterschied, auf = neuer Wert.</p></div><div class="grammar-block"><p><b>Plusquamperfekt: etwas war schon vorher.</b> „In den beiden Monaten davor war die Produktion niedrig gewesen.“ Das Plusquamperfekt besteht aus „war/hatte“ + Partizip II und beschreibt, was vor einem anderen Zeitpunkt in der Vergangenheit lag. Für Vorzeitigkeit passt hier „war niedrig gewesen“. „ist niedrig gewesen“ ist Perfekt; „hatte gewesen“ ist falsch. Merke: Verben mit sein im Perfekt (z. B. sein, gehen) = war + Partizip II, haben-Verben = hatte + Partizip II.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Was war im September der wichtigste Grund für das Produktionsplus?</li><li>Warum ist das Plus laut Text noch keine Trendwende?</li><li>Wann öffnet der Weihnachtsmarkt in Frankfurt?</li><li>Ein Glühwein kostet 4 Euro. Wie viel zahlt man in Stuttgart mit dem Pfand für den Becher zunächst insgesamt?</li><li>Wer erzielte in Mainz das 2:0 für Bayern?</li><li>Warum steht Bayern in der Tabelle vor Dortmund?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz über eine Zahl, die gestiegen oder gesunken ist. Benutze „um … Prozent“ und „gegenüber dem Vormonat“.</li><li>Schreibe einen Satz mit „von … auf …“ über einen Preis oder Wert, der sich geändert hat.</li><li>Schreibe einen Satz im Plusquamperfekt: Was war schon passiert, bevor etwas Neues begann?</li><li>Schreibe einen Satz über Kosten auf einem Markt. Benutze „Pfand“ und „Das macht dann …“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Erzähle in fünf Sätzen: Gehst du im Winter auf einen Weihnachtsmarkt oder auf ein ähnliches Fest? Was kostet dort ein Getränk oder ein Essen? Vergleiche mit einem Preis aus deinem Land. Benutze „Das macht dann …“.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<p class="source">Quellen, Stand 8. November 2026: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_389_421.html">Destatis: Produktion im September 2026: +0,7 % zum Vormonat, 6. November</a>; <a href="https://frankfurt.t-online.de/region/frankfurt-am-main/id_101501044/weihnachtsmarkt-in-frankfurt-gluehwein-preis-2026-das-kostet-tasse.html">t-online Frankfurt: Glühwein-Preis 2026</a>; <a href="https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/faq-stuttgart-weihnachtsmarkt-alles-wichtige-100.html">SWR Stuttgart: So viel kostet ein Glühwein</a>; <a href="https://news.de/sport/860168464/fsv-mainz-05-vs-fc-bayern-muenchen-am-07-11-2026-in-der-bundesliga-26-27-tv-spielbericht-tore-aufstellung-und-tabelle-in-der-zusammenfassung/1">news.de: Mainz – Bayern, 7. November</a>; <a href="https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-9.html">hessenschau: Bundesliga, 9. Spieltag</a>. Für B1/B2 vereinfacht. Der Sportteil nennt Ergebnisse bis Samstagabend; die Sonntagsspiele stehen noch aus. Die Marktpreise sind Angaben der Veranstalter beziehungsweise der verlinkten Redaktionen.</p></div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 7. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 7. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+<section id="lese" class="panel active"><div class="label">Wochenend-Ausgabe</div><h2 class="heading">4,4 Prozent mehr Aufträge, Martinstag am Mittwoch, Leipzig 5:2 gegen Augsburg</h2>
+<div class="card"><h3 class="art-kicker">Wirtschaft</h3><h4 class="art-title">Auftragseingang steigt im September um 4,4 Prozent</h4><p>Die deutsche Industrie hat im September deutlich mehr Aufträge bekommen: Der Auftragseingang stieg gegenüber dem Vormonat um 4,4 Prozent, wie das Statistische Bundesamt am 5. November mitteilte. Ohne Großaufträge lag das Plus sogar bei 5,1 Prozent. Gegenüber dem Vorjahresmonat waren es 3,3 Prozent mehr. Die Zahlen sind allerdings vorläufig.</p><p>Zum Vergleich: Im August waren die Aufträge noch um 10,1 Prozent gesunken. Dieses Minus ist also nur zum Teil ausgeglichen. Bestellungen aus dem Inland stiegen um 6,6 Prozent, aus dem Ausland um 2,8 Prozent. Die Autoindustrie legte um 10,5 Prozent zu, nachdem die Bestellungen in den zwei Monaten davor niedrig gewesen waren, unter anderem wegen Umstellungen in der Produktion und Werksferien. Im Maschinenbau gab es ein Plus von 8,3 Prozent, auch wegen eines Großauftrags für Verbrennungsmotoren und Turbinen. Beim sonstigen Fahrzeugbau, zu dem Flugzeuge, Schiffe und Bahnen gehören, sanken die Aufträge dagegen um 10,4 Prozent.</p><p>Was heißt das? Im dritten Quartal lag der Auftragseingang nur 0,2 Prozent über dem zweiten, und der Umsatz stieg im September um 0,2 Prozent. Nach dem schwachen August ist also eine Erholung zu sehen, ein klarer Aufschwung ist es aber noch nicht. Achte beim Lesen immer auf die Bezugsgröße: „zum Vormonat“ und „zum Vorjahresmonat“ sind zwei verschiedene Vergleiche.</p></div>
+<div class="card"><h3 class="art-kicker">Freizeit</h3><h4 class="art-title">Martinstag am Mittwoch: Laternen, Gänsebraten und der Start der Karnevalssession</h4><p>Am Mittwoch, dem 11. November, ist Martinstag. Ein gesetzlicher Feiertag ist der Tag in keinem Bundesland, er ist ein Gedenktag. Die meisten Menschen gehen also ganz normal zur Arbeit oder zur Schule. Gefeiert wird trotzdem, vor allem am Abend.</p><p>Der Namensgeber ist Martin von Tours, der um das Jahr 316 geboren wurde. Der Legende nach teilte er bei Amiens seinen Mantel mit einem Bettler. Nach der Überlieferung wurde er am 11. November 397 beerdigt; deshalb liegt sein Gedenktag an diesem Datum.</p><p>In der Dämmerung ziehen Kinder mit bunten Laternen durch die Straßen, oft sind die Laternen selbst gebastelt. Vor dem Laternenumzug gibt es häufig eine Andacht oder ein Martinsspiel, und manchmal führt ein Reiter auf einem Pferd als Martin den Zug an. Am Ende wartet oft ein Martinsfeuer, dazu gibt es warme Getränke und süßes Gebäck. Laterne und Feuer erinnern an das Licht, das Martin in die Welt gebracht hat.</p><p>Viele Familien essen an diesem Tag Martinsgans, meist mit Rotkohl und Knödeln. Außerdem beginnt am 11.11. traditionell die Karnevalssession; die großen Feiern folgen erst später, 2027 beginnt der Straßenkarneval am 4. Februar. Praktischer Tipp: Jede Stadt und oft jede Kita hat einen eigenen Termin für den Umzug. Frag am besten rechtzeitig nach.</p></div>
+<div class="card"><h3 class="art-kicker">Sport</h3><h4 class="art-title">Leipzig schlägt Augsburg 5:2, Bayern und Dortmund sind punktgleich</h4><p>Am 9. Spieltag der Bundesliga hat RB Leipzig am Samstag den FC Augsburg 5:2 geschlagen. Augsburg ging schon in der ersten Minute durch Anton Kade in Führung, doch Leipzig drehte das Spiel noch vor der Pause: Ezechiel Banzuzi (34. Minute), Christopher Nkunku (36.) und David Raum per Freistoß (45.+1) trafen zum 3:1. Nach der Pause erhöhten Rômulo (60.) und Christoph Baumgartner (66.) auf 5:1. Uchenna Ogundu verkürzte in der Nachspielzeit auf 5:2. Bei einem Freistoß liegt der Ball zunächst ruhig auf dem Rasen.</p><p>In der Tabelle, Stand Samstag gegen 17.30 Uhr, führt Bayern München mit 21 Punkten und einem Torverhältnis von plus 20. Borussia Dortmund hat ebenfalls 21 Punkte, aber nur plus 9 Tore. Die beiden Teams sind also punktgleich. Leipzig ist mit 18 Punkten Dritter, Freiburg hat 16 Punkte aus acht Spielen. Am Freitagabend hatte der Hamburger SV gegen Gladbach 3:1 gewonnen; Gladbach steht mit nur 4 Punkten am Tabellenende.</p><p>Der Spieltag geht weiter: Am Samstagabend (18.30 Uhr) spielt Stuttgart gegen Werder Bremen. Am Sonntag folgen Köln gegen Leverkusen (15.30 Uhr), Freiburg gegen Union Berlin (17.30 Uhr) und Hoffenheim gegen Schalke (19.30 Uhr). Mit einem Sieg kann Freiburg an Leipzig vorbeiziehen. Im Gespräch hilft diese Formel: „Leipzig hat fünf Tore geschossen, aber auch zwei Tore kassiert.“</p><div class="next-btn" onclick="goNext()">↓</div></div>
+</section>
+<section id="vokabular" class="panel"><div class="label">Vokabular</div><h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card"><table><tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+<tr><th class="group" colspan="4">Wirtschaft</th></tr>
+<tr><td>der Auftragseingang</td><td>order intake</td><td>Die Menge der Bestellungen, die eine Firma oder eine Branche bekommt.</td><td>Der Auftragseingang stieg im September um 4,4 Prozent.</td></tr>
+<tr><td>der Großauftrag</td><td>large order</td><td>Eine sehr große Bestellung mit hohem Wert.</td><td>Ohne Großaufträge lag das Plus bei 5,1 Prozent.</td></tr>
+<tr><td>der Maschinenbau</td><td>mechanical engineering</td><td>Die Branche, die Maschinen und Anlagen herstellt.</td><td>Im Maschinenbau gab es ein Plus von 8,3 Prozent.</td></tr>
+<tr><td>der Vormonat <span class="rep">(Wiederholung)</span></td><td>previous month</td><td>Der Monat vor dem aktuellen Monat.</td><td>Gegenüber dem Vormonat stiegen die Preise um 0,6 Prozent.</td></tr>
+<tr><th class="group" colspan="4">Freizeit</th></tr>
+<tr><td>der Laternenumzug</td><td>lantern parade</td><td>Ein Umzug am Abend, bei dem Kinder Laternen tragen.</td><td>Der Laternenumzug beginnt um 17 Uhr an der Kirche.</td></tr>
+<tr><td>die Martinsgans</td><td>Martinmas goose</td><td>Ein Gänsebraten, den man traditionell um den 11. November isst.</td><td>Am Mittwoch essen wir Martinsgans mit Rotkohl und Knödeln.</td></tr>
+<tr><td>der Gedenktag</td><td>day of remembrance</td><td>Ein Tag, an dem man an eine Person oder ein Ereignis erinnert. Meistens ist es kein freier Tag.</td><td>Der Martinstag ist ein Gedenktag, kein Feiertag.</td></tr>
+<tr><td>die Karnevalssession</td><td>carnival season</td><td>Die Zeit vor dem Karneval, in der die Vereine feiern und planen. Sie beginnt am 11.11.</td><td>Am 11.11. beginnt die Karnevalssession.</td></tr>
+<tr><td>der Feiertag <span class="rep">(Wiederholung)</span></td><td>public holiday</td><td>Ein besonderer Tag im Jahr, an dem die meisten Menschen nicht arbeiten müssen.</td><td>Der 3. Oktober ist ein bundesweiter Feiertag.</td></tr>
+<tr><th class="group" colspan="4">Sport</th></tr>
+<tr><td>der Torschütze</td><td>goal scorer</td><td>Der Spieler, der ein Tor schießt.</td><td>Torschütze zum 3:1 war David Raum.</td></tr>
+<tr><td>der Freistoß</td><td>free kick</td><td>Ein Schuss nach einem Foul. Die anderen Spieler müssen Abstand halten.</td><td>Raum traf kurz vor der Pause per Freistoß.</td></tr>
+<tr><td>ein Tor kassieren</td><td>to concede a goal</td><td>Ein Gegentor bekommen.</td><td>Leipzig hat fünf Tore geschossen, aber auch zwei Tore kassiert.</td></tr>
+<tr><td>das Torverhältnis <span class="rep">(Wiederholung)</span></td><td>goal difference</td><td>Der Vergleich von geschossenen und kassierten Toren.</td><td>Bayern führt wegen des besseren Torverhältnisses.</td></tr>
+</table><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="ausdruecke" class="panel"><div class="label">Ausdrücke</div><h2 class="heading">Nützliche Ausdrücke</h2><div class="card"><ul class="expr"><li><b>„ein Plus von … Prozent“</b> — So nennt man einen Anstieg. Das Gegenteil ist „ein Minus von …“.<br><i>Im Maschinenbau gab es ein Plus von 8,3 Prozent.</i></li><li><b>„gegenüber dem Vormonat“</b> — Vergleich mit dem Monat davor. Für denselben Monat im Vorjahr sagt man „gegenüber dem Vorjahresmonat“.<br><i>Gegenüber dem Vormonat stieg der Auftragseingang um 4,4 Prozent.</i></li><li><b>„an etwas erinnern“</b> — Etwas bringt einen Gedanken oder ein Bild in den Kopf. Mit „an“ + Akkusativ.<br><i>Die Laterne erinnert an das Licht, das Martin gebracht hat.</i></li><li><b>„in Führung gehen“</b> — Das erste Tor schießen oder vorne liegen.<br><i>Augsburg ging schon in der ersten Minute in Führung.</i></li><li><b>„das Spiel drehen“</b> — Ein Spiel gewinnen, obwohl man zuerst zurücklag.<br><i>Leipzig drehte das Spiel noch vor der Pause.</i></li><li><b>„Frag am besten rechtzeitig nach.“</b> — Ein freundlicher Rat im Alltag: lieber früh fragen, bevor es zu spät ist.<br><i>Frag am besten rechtzeitig nach, wann der Umzug in deiner Stadt beginnt.</i></li></ul><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="grammatik" class="panel"><div class="label">Grammatik</div><h2 class="heading">Grammatikbewusstsein</h2><div class="card"><div class="grammar-block"><p><b>Veränderungen mit „um“, „auf“, „von … auf …“.</b> „um“ nennt den Unterschied: „stieg um 4,4 Prozent“. „auf“ nennt den Endwert: „stieg auf 105 Punkte“. „von … auf …“ zeigt Anfang und Ende. Typischer Fehler: „stieg mit 4,4 Prozent“ oder „stieg 4,4 Prozent“ ohne „um“. Merke: Unterschied = um, Ergebnis = auf.</p></div><div class="grammar-block"><p><b>Vorgangspassiv: „wird gefeiert“.</b> Wenn nicht wichtig ist, wer etwas tut, benutzt man das Passiv: „Gefeiert wird trotzdem“, „Er wurde am 11. November 397 beerdigt“. Form: werden + Partizip II am Ende. Typischer Fehler beim Vorgangspassiv: „wird gefeiern“ statt „wird gefeiert“. Merke: wird + Partizip II, in der Vergangenheit wurde + Partizip II.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Um wie viel Prozent stieg der Auftragseingang im September gegenüber dem Vormonat?</li><li>Was sagt der Text über die Autoindustrie?</li><li>Warum liegt der Gedenktag des heiligen Martin am 11. November?</li><li>In wie vielen Bundesländern ist der Martinstag ein gesetzlicher Feiertag?</li><li>Wie endete das Spiel zwischen RB Leipzig und dem FC Augsburg?</li><li>Wer führt nach den Nachmittagsspielen die Tabelle an?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz über den Auftragseingang im September. Verwende „um … Prozent“.</li><li>Schreibe einen Passivsatz über ein Fest in deinem Land: „Am … wird … gefeiert.“</li><li>Vergleiche mit „gegenüber dem Vormonat“ und „gegenüber dem Vorjahresmonat“ einen Preis oder Wert, den du kennst.</li><li>Schreibe zwei Sätze über Leipzig gegen Augsburg. Benutze „in Führung gehen“ und „Freistoß“ oder „Torschütze“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Erzähle in fünf Sätzen: Gibt es in deinem Land ein Fest mit Licht, Essen oder Umzug im Herbst? Was wird gefeiert, und was isst man? Gehst du hin? Benutze mindestens einen Passivsatz („wird gefeiert“).</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<p class="source">Quellen, Stand Samstag, 7. November 2026, ca. 17.30 Uhr: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_385_421.html">Destatis: Auftragseingang im Verarbeitenden Gewerbe im September 2026, 5. November</a>; <a href="https://www.wochenblatt-reporter.de/c-lokales/st-martin-2026-braeuche-und-traditionen-rund-um-das-fest_a582840">Wochenblatt-Reporter: St. Martin 2026</a>; <a href="https://www.smart-rechner.de/feiertage/infothek/martinstag.php">smart-rechner: Martinstag</a>; <a href="https://www.smart-rechner.de/feiertage/infothek/karneval.php">smart-rechner: Karneval</a>; <a href="https://www.news.de/sport/860168467/rb-leipzig-vs-fc-augsburg-am-07-11-2026-in-der-bundesliga-26-27-tv-spielbericht-tore-aufstellung-und-tabelle-in-der-zusammenfassung/1/">news.de: RB Leipzig – FC Augsburg, Tabelle</a>; <a href="https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-9.html">hessenschau: Bundesliga, 9. Spieltag</a>. Für B1/B2 vereinfacht. Der Sportteil nennt Ergebnisse und Tabelle bis Samstag, ca. 17.30 Uhr; die übrigen Spiele stehen noch aus. Die Tabelle stammt von einem Datenanbieter und kann sich ändern.</p></div>
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

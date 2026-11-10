@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch war der Umsatz von Infineon im Geschäftsjahr 2026?",
+      "o": [
+        "4,706 Milliarden Euro, 13 Prozent mehr als im Vorjahr.",
+        "16,353 Milliarden Euro, 12 Prozent mehr als im Vorjahr.",
+        "Etwa 20 Milliarden Euro, mehr als 20 Prozent mehr als im Vorjahr."
+      ],
+      "c": 1,
+      "why": "Im Geschäftsjahr 2026 lag der Umsatz bei <b>16,353 Milliarden Euro (+12 Prozent)</b>. 4,706 Milliarden ist nur der Umsatz im letzten Quartal, und die 20 Milliarden Euro sind der Ausblick für das nächste Geschäftsjahr."
+    },
+    {
+      "q": "Was sagt der Text über das letzte Quartal?",
+      "o": [
+        "Der Umsatz stieg von 4,172 auf 4,706 Milliarden Euro, das Segmentergebnis auf 1,119 Milliarden Euro.",
+        "Das Segmentergebnis sank auf 797 Millionen Euro.",
+        "Die Marge lag bei 19,7 Prozent."
+      ],
+      "c": 0,
+      "why": "Im letzten Quartal stieg der Umsatz <b>von 4,172 auf 4,706 Milliarden Euro</b> und das Segmentergebnis auf <b>1,119 Milliarden Euro</b>. 797 Millionen waren der Wert im Quartal davor (kein Rückgang), und 19,7 Prozent ist die Marge für das ganze Jahr; im Quartal waren es 23,8 Prozent."
+    },
+    {
+      "q": "Was erwartet Infineon für das nächste Geschäftsjahr?",
+      "o": [
+        "Der Umsatz soll auf etwa 16 Milliarden Euro sinken.",
+        "Die Zahl der Beschäftigten soll auf 58.100 steigen.",
+        "Der Umsatz soll um mehr als 20 Prozent auf etwa 20 Milliarden Euro wachsen."
+      ],
+      "c": 2,
+      "why": "Der Ausblick lautet: <b>Umsatzwachstum von mehr als 20 Prozent auf etwa 20 Milliarden Euro</b>. Die 16 Milliarden Euro sind der Umsatz des abgelaufenen Jahres, und die 58.100 Beschäftigten arbeiten schon heute bei Infineon – ein Ziel dafür nennt der Text nicht."
+    }
+  ],
+  "schreib": [
+    "Die Miete in unserer Stadt stieg <b>von</b> 900 <b>auf</b> 1.000 Euro.<span class=\"hint\"> „von“ = alter Wert, „auf“ = neuer Wert. Nicht „von“ mit „um“ mischen.</span>",
+    "Der Umsatz der Firma wuchs <b>um</b> 15 Prozent <b>auf rund</b> zwei Millionen Euro.<span class=\"hint\"> „um“ = Unterschied, „auf“ = neuer Wert; „rund“ steht direkt vor der Zahl.</span>",
+    "<b>Im Vorjahr</b> hatten wir <b>weniger als</b> 100 Kunden, heute sind es 150.<span class=\"hint\"> Nach „mehr“ und „weniger“ steht „als“, nicht „wie“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Einerseits …, andererseits …",
+      "Ich rechne damit, dass …",
+      "Das bedeutet für die Beschäftigten, dass …",
+      "Meiner Meinung nach …",
+      "Das ist eine Chance, aber auch ein Risiko."
+    ],
+    "modell": "„Ich finde die Entwicklung spannend. <b>Einerseits</b> wächst die Branche, und Firmen wie Infineon stellen mehr <b>Halbleiter</b> her und bauen neue Fabriken. <b>Andererseits</b> brauchen <b>Rechenzentren</b> sehr viel Strom. Ich <b>rechne damit</b>, dass es in Deutschland mehr Jobs in der Technik gibt. Meiner Meinung nach ist das eine Chance, aber die Politik muss auch für genug Energie sorgen.“"
+  }
+}

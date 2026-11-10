@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 9. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 9. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 9. November</div>
+    <h2 class="heading">Bahn im Oktober: Pünktlichkeitsquote im Fernverkehr bei 56,2 Prozent</h2>
+    <div class="card">
+      <p>Die Deutsche Bahn war im Oktober im <b>Fernverkehr</b> etwas pünktlicher als im Vormonat. Nach Angaben des Konzerns waren 56,2 Prozent der gemessenen Halte von Fernzügen pünktlich – knapp vier <b>Prozentpunkte</b> mehr als im September. Dabei gilt ein Zug erst ab sechs Minuten Verspätung als verspätet. Ausgefallene Züge zählt diese <b>Pünktlichkeitsquote</b> nicht mit.</p><p>Aus Sicht der Fahrgäste sieht es etwas besser aus: Die sogenannte Reisendenpünktlichkeit lag bei 62,3 Prozent. Hier gilt man als pünktlich, wenn man höchstens 14 Minuten und 59 Sekunden zu spät ankommt, und Ausfälle werden mitgerechnet. Auch dieser Wert stieg um knapp vier Prozentpunkte.</p><p>Damit <b>verfehlt</b> die Bahn im Oktober die Marke von 60 Prozent. Konzernchefin Evelyn Palla will in diesem Jahr mindestens 60 Prozent erreichen, der Oktoberwert liegt darunter. Das Ergebnis für das gesamte Jahr steht noch nicht fest. Als Gründe nennt die Bahn vor allem viele <b>Baustellen</b> an Knotenpunkten und auf wichtigen Strecken sowie viele Störungen an den <b>Anlagen</b>. Für Pendlerinnen und Pendler bleibt das ein Problem: Wer einen Anschluss erreichen muss, plant besser etwas Zeit ein.</p>
+      <p>Beim Lesen solcher Meldungen lohnt sich ein genauer Vergleich: Die beiden Quoten haben unterschiedliche Regeln. Deshalb bedeutet ein höherer Wert nicht automatisch, dass mehr Züge pünktlich waren. Ein Beispiel für Prozentpunkte: Steigt ein Anteil von 50 auf 54 Prozent, sind das vier Prozentpunkte mehr.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Pünktlichkeitsquote</td><td>punctuality rate</td><td>Der Anteil pünktlicher Halte an allen gemessenen Halten von Zügen.</td><td>Die Pünktlichkeitsquote lag im Oktober bei 56,2 Prozent.</td></tr><tr><td>der Prozentpunkt</td><td>percentage point</td><td>Der Unterschied zwischen zwei Prozentwerten.</td><td>Der Wert stieg um vier Prozentpunkte.</td></tr><tr><td>verfehlen</td><td>to miss (a target)</td><td>Ein Ziel nicht erreichen.</td><td>Die Bahn verfehlt ihr Ziel weiterhin.</td></tr><tr><td>die Anlage</td><td>facility, technical installation</td><td>Technische Einrichtungen, zum Beispiel Weichen, Signale und Stellwerke.</td><td>Eine Störung an der Anlage stoppte den Zug.</td></tr><tr><td>die Baustelle <span class="rep">(Wiederholung)</span></td><td>construction site, roadworks</td><td>Ein Ort, an dem gebaut oder repariert wird.</td><td>Wegen einer Baustelle fährt der Zug über Kassel.</td></tr><tr><td>der Fernverkehr <span class="rep">(Wiederholung)</span></td><td>long-distance (rail) services</td><td>Züge wie ICE und IC, die zwischen großen Städten fahren.</td><td>Im Fernverkehr fahren ICE und IC zwischen vielen großen Städten.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„knapp“ + Zahl</b> — „knapp vier Prozentpunkte“ heißt: ein bisschen weniger als vier.<br><i>Der Wert stieg um knapp vier Prozentpunkte.</i></li><li><b>„im Vergleich zum Vormonat“</b> — So vergleicht man mit dem Monat davor.<br><i>Im Vergleich zum Vormonat ist die Bahn pünktlicher geworden.</i></li><li><b>„gilt als …“</b> — So erklärt man eine Regel oder Definition.<br><i>Ein Zug gilt ab sechs Minuten als verspätet.</i></li><li><b>„ein gutes Stück entfernt (von)“</b> — Man ist noch weit vom Ziel weg.<br><i>Wir sind von diesem Ziel noch ein gutes Stück entfernt.</i></li><li><b>„Zeit einplanen“</b> — Man rechnet im Voraus mit mehr Zeit.<br><i>Bei Bahnreisen plane ich immer einen Puffer ein.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Komparativ + „als“:</b> „Die Bahn war <b>pünktlicher als</b> im Vormonat.“ Nach dem Komparativ steht „als“, nicht „wie“. „wie“ benutzt man bei Gleichheit: „so pünktlich <b>wie</b> im Vormonat“. Typischer Fehler: „pünktlicher wie im September“.</p></div><div class="grammar-block"><p><b>„ab“, „höchstens“, „mindestens“ bei Grenzwerten:</b> „<b>Ab</b> sechs Minuten gilt ein Zug als verspätet.“ „Man darf <b>höchstens</b> 14 Minuten und 59 Sekunden zu spät sein.“ „Die Bahn will <b>mindestens</b> 60 Prozent erreichen.“ „höchstens“ = nicht mehr als, „mindestens“ = nicht weniger als. Typischer Fehler: beide Wörter verwechseln.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wie hoch war die Pünktlichkeitsquote der Fernzüge im Oktober?</li><li>Wann gilt ein Fernzug bei der Pünktlichkeitsquote als verspätet?</li><li>Was sagt der Text über das Ziel der Bahn?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „um knapp … Prozentpunkte“ über eine Zahl, die sich verändert hat.</li><li>Schreibe einen Satz mit „gilt als … ab …“, zum Beispiel über Regeln in deiner Firma oder Schule.</li><li>Schreibe einen Satz mit „höchstens“ oder „mindestens“ und „verfehlen“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Wie oft fährst du mit dem Zug? Erzähle von einer Verspätung, die du erlebt hast, und sage, was du dann gemacht hast. Benutze „Zeit einplanen“ und „im Vergleich zu früher“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 9. November 2026): <a href="https://www.t-online.de/finanzen/aktuelles/id_101510924/fernzuege-im-oktober-etwas-puenktlicher.html">t-online/dpa: Fernzüge im Oktober etwas pünktlicher</a>, 3. November 2026 (Angaben der Deutschen Bahn); <a href="https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476">Deutsche Bahn: Pünktlichkeitswerte und Messverfahren</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

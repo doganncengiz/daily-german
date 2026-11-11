@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 11. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 11. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 11. November</div>
+    <h2 class="heading">11.11. um 11:11 Uhr: Köln, Düsseldorf und Bonn starten in die Karnevalssession</h2>
+    <div class="card">
+      <p>Heute ist in vielen Städten im Rheinland kein normaler Mittwoch. Um 11:11 Uhr beginnt in Köln, Düsseldorf und Bonn offiziell die neue <b>Karnevalssession</b>. Ein Feiertag ist der 11. November zwar nicht, trotzdem stehen schon am Vormittag Tausende <b>Jecken</b> auf den Straßen – viele von ihnen <b>verkleidet</b> als Clowns, Piraten oder Tiere. Die Session dauert diesmal bis Aschermittwoch, den 10. Februar 2027.</p><p>In Köln rechnet die Stadt mit mehreren Zehntausend Menschen. Das Zentrum der Feier ist der Heumarkt in der Altstadt, wo die Veranstaltung schon um 9 Uhr beginnt. Für den Bereich vor und seitlich der Bühne nennt der Veranstalter einen Kartenpreis von 39 Euro, zuzüglich einer Bearbeitungsgebühr pro Bestellung. Für den hinteren Bereich sind Zugangsscheine für 11,11 Euro vorgesehen; die aktuelle Verfügbarkeit muss man beim Veranstalter prüfen. Für die Anreise sollte man ein ausreichend großes <b>Zeitfenster</b> einplanen. Zusammen mit dem Alter Markt und den Straßen der Altstadt ist dort Platz für bis zu 20.000 Feiernde. Das Thema in diesem Jahr ist der 150. Geburtstag des Kölner Liedermachers Willi Ostermann.</p><p>Weil der <b>Andrang</b> jedes Jahr groß ist, ist auch die Sicherheit ein wichtiges Thema. Viele <b>Einsatzkräfte</b> sollen für Sicherheit sorgen: Laut Medienberichten sind gut 1.000 Polizeikräfte in Köln und Leverkusen im Einsatz. Die Stadt Köln nennt außerdem rund 450 Mitarbeitende des <b>Ordnungsamts</b> und etwa 1.200 private Sicherheitskräfte. In der Altstadt gilt ein <b>Glasverbot</b>: Wer dort feiern will, darf keine Glasflaschen oder Trinkgläser mitbringen. In der Südstadt bittet die Stadt dagegen um freiwilligen Verzicht auf Glas. Auch an den Zugängen zu den Feierbereichen, wo vor allem Studierende feiern, gibt es Kontrollen.</p><p>In Düsseldorf wacht um 11:11 Uhr am Rathaus der Hoppeditz auf, eine Figur, die dort traditionell den Karneval eröffnet. In Bonn feiern die Menschen auf dem Marktplatz vor dem Alten Rathaus. Und für alle, die heute ganz normal arbeiten müssen, gibt es einen Trost: Der Höhepunkt kommt erst noch. Weiberfastnacht ist am 4. Februar 2027.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Jeck</td><td>(carnival) reveller</td><td>Ein Mensch, der Karneval feiert – so sagt man vor allem im Rheinland. Plural: die Jecken.</td><td>Tausende Jecken feiern auf dem Heumarkt.</td></tr><tr><td>die Session</td><td>carnival season</td><td>Die Zeit vom 11. November bis Aschermittwoch, in der Karneval gefeiert wird.</td><td>Die neue Session beginnt um 11:11 Uhr.</td></tr><tr><td>sich verkleiden <span class="rep">(Wiederholung)</span></td><td>to dress up</td><td>Man zieht besondere Kleidung an, um wie eine andere Figur auszusehen.</td><td>Viele Jecken verkleiden sich als Clowns oder Piraten.</td></tr><tr><td>das Zeitfenster</td><td>time slot, time window</td><td>Ein festgelegter Zeitraum, zum Beispiel von 14 bis 16 Uhr.</td><td>Für die Anreise planen wir ein großes Zeitfenster ein.</td></tr><tr><td>der Andrang <span class="rep">(Wiederholung)</span></td><td>the crowd, the rush</td><td>Sehr viele Menschen, die gleichzeitig an einen Ort wollen.</td><td>Am 11.11. ist der Andrang in der Kölner Altstadt sehr groß.</td></tr><tr><td>das Ordnungsamt</td><td>public order office (city authority)</td><td>Eine Behörde der Stadt, die kontrolliert, ob Regeln eingehalten werden.</td><td>Das Ordnungsamt kontrolliert das Glasverbot.</td></tr><tr><td>die Einsatzkraft</td><td>emergency or security worker on duty</td><td>Eine Person von Polizei, Feuerwehr, Rettungsdienst oder Sicherheitsdienst, die gerade im Dienst ist.</td><td>Viele Einsatzkräfte sorgen bei der Feier für Sicherheit.</td></tr><tr><td>das Glasverbot</td><td>ban on glass bottles and glasses</td><td>Eine Regel: In einem Gebiet darf man keine Glasflaschen oder Trinkgläser mitbringen.</td><td>In der Altstadt gilt ein Glasverbot.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„zwar …, trotzdem …“</b> — Man gibt etwas zu und sagt dann: Es passiert aber trotzdem.<br><i>Ein Feiertag ist der 11. November zwar nicht, trotzdem stehen Tausende auf den Straßen.</i></li><li><b>„Nach Angaben (+ Genitiv) …“</b> — So nennt man die Quelle einer Information, typisch in Nachrichten.<br><i>Nach Angaben der Stadt sind rund 450 Mitarbeitende des Ordnungsamts im Einsatz.</i></li><li><b>„im Einsatz sein“</b> — Polizei, Feuerwehr oder Helfer arbeiten gerade bei einem Ereignis.<br><i>Bei großen Festen sind viele Einsatzkräfte im Einsatz.</i></li><li><b>„Platz für bis zu …“</b> — So sagt man, wie viele Menschen höchstens an einen Ort passen.<br><i>In der Altstadt ist Platz für bis zu 20.000 Feiernde.</i></li><li><b>„… kommt erst noch“</b> — Das Wichtigste oder Beste passiert später.<br><i>Der Höhepunkt kommt erst noch.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Relativsatz mit „wo“ für Orte:</b> „der Heumarkt, <b>wo</b> das Programm um 9 Uhr <b>beginnt</b>“, „die Zülpicher Straße, <b>wo</b> vor allem Studierende <b>feiern</b>“. Nach einem Ort kann man statt „in dem / an der“ einfach „wo“ sagen; das Verb steht am Ende. Typischer Fehler: „wo“ für Zeiten benutzen – „der Tag, wo …“ hört man oft, aber besser ist „der Tag, <b>an dem</b> …“ oder „<b>als</b> …“.</p></div><div class="grammar-block"><p><b>„Wer …, (der) …“ – allgemeine Regeln:</b> „<b>Wer</b> dort feiern <b>will</b>, <b>darf</b> keine Flaschen mitbringen.“ Der Wer-Satz meint „jede Person, die …“. Im Wer-Satz steht das Verb am Ende. Ohne „der“ folgt danach direkt das Verb des Hauptsatzes; mit „der“ heißt es: „Wer dort feiern will, der darf …“. Typischer Fehler: „Wer will feiern, …“ (Verb nicht am Ende) oder „Wer feiern will, er darf …“ – ein „er“ ist falsch, möglich ist nur „der“.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Was kostet die Karte für den Bereich vor und seitlich der Bühne, ohne zusätzliche Bearbeitungsgebühr?</li><li>Wie viele Mitarbeitende des Kölner Ordnungsamts sind laut Text im Einsatz?</li><li>Was sagt der Text über Glas in der Altstadt und in der Südstadt?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „zwar …, trotzdem …“ über einen Tag oder einen Termin in deiner Woche.</li><li>Schreibe einen Satz mit „Wer …, (der) …“ über eine Regel bei deiner Arbeit oder in deiner Stadt.</li><li>Schreibe einen Relativsatz mit „wo“ über einen Ort in deiner Stadt.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Gibt es in deinem Heimatland ein großes Fest, bei dem die Menschen sich verkleiden oder auf der Straße feiern? Vergleiche es mit dem Karneval im Rheinland. Sprich vier bis fünf Sätze und benutze „zwar … trotzdem“ und „wo“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 11. November 2026): <a href="https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/sicher-feiern-am-1111-1">Stadt Köln: Sicher feiern am 11.11.</a>; <a href="https://williostermann.de/sessionseroeffnung-11-11/">Willi Ostermann Gesellschaft: Eintritt und Veranstaltungsinformationen</a>; <a href="https://www.koeln.de/karneval/11-11-koeln-karneval/11-11-sessionseroeffnung-in-der-altstadt/">koeln.de: Sessionseröffnung in der Altstadt</a>; <a href="https://www1.wdr.de/nrw/rheinland/karneval-11-11-koeln-duesseldorf-100.amp">WDR: Karnevalsauftakt und Sicherheitskonzept</a>; <a href="https://www.duesseldorf.de/medienportal/pressedienst-einzelansicht/pld/medientermin-111126-hoppeditz-erwachen-in-duesseldorf">Stadt Düsseldorf: Hoppeditz-Erwachen</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Was kostet die Karte für den Bereich vor und seitlich der Bühne, ohne zusätzliche Bearbeitungsgebühr?",
+      "o": [
+        "11,11 Euro.",
+        "39 Euro.",
+        "150 Euro."
+      ],
+      "c": 1,
+      "why": "Für den Bereich vor und seitlich der Bühne nennt der Veranstalter <b>39 Euro</b>. Hinzu kommt eine Bearbeitungsgebühr pro Bestellung. Die 11,11 Euro gehören zum hinteren Bereich, die Zahl 150 zum Geburtstag von Willi Ostermann."
+    },
+    {
+      "q": "Wie viele Mitarbeitende des Kölner Ordnungsamts sind laut Text im Einsatz?",
+      "o": [
+        "Gut 1.000.",
+        "Bis zu 20.000.",
+        "Rund 450."
+      ],
+      "c": 2,
+      "why": "Die Stadt nennt <b>rund 450 Mitarbeitende des Ordnungsamts</b>. Gut 1.000 bezieht sich auf Polizeikräfte in Köln und Leverkusen; bis zu 20.000 sind Feiernde in der Altstadt."
+    },
+    {
+      "q": "Was sagt der Text über Glas in der Altstadt und in der Südstadt?",
+      "o": [
+        "In der Altstadt gilt ein Glasverbot; in der Südstadt wird um freiwilligen Verzicht gebeten.",
+        "In beiden Bereichen ist Glas ausdrücklich erlaubt.",
+        "In beiden Bereichen gilt laut Text ein verpflichtendes Glasverbot."
+      ],
+      "c": 0,
+      "why": "Der Text unterscheidet zwischen dem <b>Glasverbot in der Altstadt</b> und dem <b>freiwilligen Glasverzicht in der Südstadt</b>. Ein freiwilliger Verzicht ist kein verpflichtendes Verbot."
+    }
+  ],
+  "schreib": [
+    "Der Montag ist <b>zwar</b> stressig, <b>trotzdem</b> gehe ich abends zum Sport.<span class=\"hint\"> Nach „trotzdem“ kommt direkt das Verb: „trotzdem gehe ich“, nicht „trotzdem ich gehe“.</span>",
+    "<b>Wer</b> ins Lager <b>will</b>, <b>muss</b> Sicherheitsschuhe tragen.<span class=\"hint\"> Im Wer-Satz steht das Verb am Ende; danach folgt sofort das Verb des Hauptsatzes – ohne „er“.</span>",
+    "Ich wohne in der Nähe vom Marktplatz, <b>wo</b> jeden Samstag ein Wochenmarkt <b>stattfindet</b>.<span class=\"hint\"> Nach „wo“ steht das Verb am Ende. Für Zeiten nimmt man besser „an dem“ oder „als“, nicht „wo“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "In meinem Heimatland gibt es …",
+      "Das ist zwar kein Karneval, trotzdem …",
+      "Bei uns feiert man vor allem in …, wo …",
+      "Im Unterschied zum Rheinland …",
+      "Was mir daran besonders gefällt, ist …"
+    ],
+    "modell": "„In meiner Heimatstadt gibt es im Frühling ein großes Straßenfest. Das ist <b>zwar</b> kein Karneval, <b>trotzdem</b> ist die Stimmung ähnlich: Viele Leute <b>verkleiden sich</b>, und es gibt Musik auf jedem Platz. Am meisten feiert man in der Altstadt, <b>wo</b> auch die großen Konzerte stattfinden. Im Unterschied zum Rheinland beginnt das Fest im Frühling und dauert nur ein Wochenende. Der <b>Andrang</b> ist trotzdem riesig – deshalb gibt es auch bei uns ein <b>Glasverbot</b>.“"
+  }
+}

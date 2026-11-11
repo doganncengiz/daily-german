@@ -6649,7 +6649,8 @@
     "dates": [
       "2026-09-18",
       "2026-10-04",
-      "2026-10-10"
+      "2026-10-10",
+      "2026-11-11"
     ],
     "sq": "turma",
     "tr": "kalabalık",
@@ -11277,7 +11278,8 @@
     "erk": "Man zieht besondere Kleidung an, um wie eine andere Figur auszusehen.",
     "bsp": "Die Kinder verkleiden sich als Geister.",
     "dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-11-11"
     ],
     "tr": "kostüm giymek",
     "sq": "vishet me kostum",
@@ -13311,5 +13313,107 @@
     "dates": [
       "2026-11-10"
     ]
+  },
+  {
+    "de": "der Jeck",
+    "en": "(carnival) reveller",
+    "erk": "Ein Mensch, der Karneval feiert – so sagt man vor allem im Rheinland. Plural: die Jecken.",
+    "bsp": "Tausende Jecken feiern auf dem Heumarkt.",
+    "dates": [
+      "2026-11-11"
+    ],
+    "sq": "pjesëmarrës në karnaval",
+    "tr": "karnaval eğlencesine katılan kişi",
+    "uk": "учасник карнавалу",
+    "ar": "المحتفل بالكرنفال",
+    "fa": "شرکت‌کننده در کارناوال",
+    "es": "el carnavalero",
+    "fr": "le fêtard du carnaval",
+    "it": "il festaiolo del carnevale"
+  },
+  {
+    "de": "die Session",
+    "en": "carnival season",
+    "erk": "Die Zeit vom 11. November bis Aschermittwoch, in der Karneval gefeiert wird.",
+    "bsp": "Die neue Session beginnt um 11:11 Uhr.",
+    "dates": [
+      "2026-11-11"
+    ],
+    "sq": "sezoni i karnavalit",
+    "tr": "karnaval sezonu",
+    "uk": "карнавальний сезон",
+    "ar": "موسم الكرنفال",
+    "fa": "فصل کارناوال",
+    "es": "la temporada de carnaval",
+    "fr": "la saison du carnaval",
+    "it": "la stagione di carnevale"
+  },
+  {
+    "de": "das Zeitfenster",
+    "en": "time slot, time window",
+    "erk": "Ein festgelegter Zeitraum, zum Beispiel von 14 bis 16 Uhr.",
+    "bsp": "Für die Anreise planen wir ein großes Zeitfenster ein.",
+    "dates": [
+      "2026-11-11"
+    ],
+    "sq": "interval kohor",
+    "tr": "zaman aralığı",
+    "uk": "часове вікно",
+    "ar": "فترة زمنية محددة",
+    "fa": "بازه زمانی",
+    "es": "la franja horaria",
+    "fr": "le créneau horaire",
+    "it": "la fascia oraria"
+  },
+  {
+    "de": "das Ordnungsamt",
+    "en": "public order office (city authority)",
+    "erk": "Eine Behörde der Stadt, die kontrolliert, ob Regeln eingehalten werden.",
+    "bsp": "Das Ordnungsamt kontrolliert das Glasverbot.",
+    "dates": [
+      "2026-11-11"
+    ],
+    "sq": "zyra e rendit publik e bashkisë",
+    "tr": "zabıta müdürlüğü",
+    "uk": "відділ громадського порядку",
+    "ar": "مكتب النظام العام في البلدية",
+    "fa": "اداره نظم عمومی شهر",
+    "es": "la oficina municipal de orden público",
+    "fr": "le service municipal de l’ordre public",
+    "it": "l’ufficio comunale per l’ordine pubblico"
+  },
+  {
+    "de": "die Einsatzkraft",
+    "en": "emergency or security worker on duty",
+    "erk": "Eine Person von Polizei, Feuerwehr, Rettungsdienst oder Sicherheitsdienst, die gerade im Dienst ist.",
+    "bsp": "Viele Einsatzkräfte sorgen bei der Feier für Sicherheit.",
+    "dates": [
+      "2026-11-11"
+    ],
+    "sq": "punonjës në shërbim (polici, zjarrfikës)",
+    "tr": "görevli (polis, itfaiye vb.)",
+    "uk": "працівник служби порятунку або охорони",
+    "ar": "عنصر من فرق الأمن والطوارئ",
+    "fa": "نیروی امدادی و امنیتی",
+    "es": "el efectivo (de seguridad o emergencias)",
+    "fr": "l’agent d’intervention",
+    "it": "l’operatore in servizio (soccorso o sicurezza)"
+  },
+  {
+    "de": "das Glasverbot",
+    "en": "ban on glass bottles and glasses",
+    "erk": "Eine Regel: In einem Gebiet darf man keine Glasflaschen oder Trinkgläser mitbringen.",
+    "bsp": "In der Altstadt gilt ein Glasverbot.",
+    "dates": [
+      "2026-11-11"
+    ],
+    "sq": "ndalimi i shisheve prej qelqi",
+    "tr": "cam şişe yasağı",
+    "uk": "заборона скляної тари",
+    "ar": "حظر الزجاج",
+    "fa": "ممنوعیت ظروف شیشه‌ای",
+    "es": "la prohibición de envases de vidrio",
+    "fr": "l’interdiction du verre",
+    "it": "il divieto di vetro"
   }
 ]

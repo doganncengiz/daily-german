@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie viel Geld gibt der Bund den Ländern laut Text bis 2034 für das Gesetz?",
+      "o": [
+        "Insgesamt 1,5 Milliarden Euro.",
+        "Insgesamt 8 Milliarden Euro.",
+        "Insgesamt 9,25 Milliarden Euro."
+      ],
+      "c": 2,
+      "why": "Der Text nennt <b>9,25 Milliarden Euro bis 2034</b>. Die Zahl 1,5 gehört zu den zusätzlichen Stellen pro Kita, die 8 zu den acht Jahren, über die das Geld verteilt wird."
+    },
+    {
+      "q": "Für welche Kinder gilt der neue Test?",
+      "o": [
+        "Nur für Kinder, die eine Kita besuchen.",
+        "Für alle Vierjährigen, auch für Kinder ohne Kita.",
+        "Nur für Kinder, die zu Hause kein Deutsch sprechen."
+      ],
+      "c": 1,
+      "why": "Laut Text sollen <b>alle Kinder mit vier Jahren</b> getestet werden, und der Test gilt ausdrücklich auch für Kinder, die keine Kita besuchen. Die Familiensprache ist nur ein Kriterium für die Extra-Stellen in Kitas, nicht für den Test."
+    },
+    {
+      "q": "Ab wann soll das Gesetz vollständig gelten?",
+      "o": [
+        "Ab 2029.",
+        "Ab 2027.",
+        "Ab 2034."
+      ],
+      "c": 0,
+      "why": "Das Gesetz soll ab 2027 <b>schrittweise</b> in Kraft treten und erst <b>ab 2029 vollständig</b> gelten. 2027 ist also nur der Anfang, und 2034 ist das Ende der Finanzierung durch den Bund."
+    }
+  ],
+  "schreib": [
+    "<b>Je nach Verkehr</b> brauche ich morgens 25 bis 45 Minuten ins Büro.<span class=\"hint\"> Nach „je nach“ steht der Dativ und meistens kein Artikel: „je nach Wetter“, nicht „je nach das Wetter“.</span>",
+    "Ab Januar <b>müssen</b> alle Urlaubsanträge im neuen System <b>gestellt werden</b>.<span class=\"hint\"> Am Ende stehen zwei Verben: Partizip II + „werden“. Das „werden“ wird oft vergessen.</span>",
+    "Meine Chefin sagt, das Meeting <b>sei</b> verschoben, und es <b>gebe</b> morgen mehr Zeit für das Projekt.<span class=\"hint\"> Konjunktiv I bei „sein“: ich sei, er/sie/es sei. „Wäre“ und „gäbe“ sind Konjunktiv II – sie klingen nach „irreal“, nicht nach Zitat.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Bei uns kommen die Kinder mit … Jahren in die Schule.",
+      "Vor der Einschulung gibt es (keinen) Test, der …",
+      "Für mich spielt … eine große Rolle.",
+      "Ob ein Kind gut startet, hängt von … ab.",
+      "Ich finde einen Test mit vier Jahren sinnvoll, weil …"
+    ],
+    "modell": "„Bei uns in der Türkei kommen die Kinder mit sechs Jahren in die Schule. Einen offiziellen Test vor der <b>Einschulung</b> gab es bei mir nicht. Für mich <b>spielt</b> die Sprache aber eine sehr große <b>Rolle</b>: Ob ein Kind gut startet, <b>hängt</b> oft von der Familie und der <b>Herkunft ab</b>. Deshalb finde ich einen Test mit vier Jahren sinnvoll – aber nur, wenn danach wirklich eine <b>gezielte Förderung</b> kommt. Ein Test allein hilft keinem Kind.“"
+  }
+}

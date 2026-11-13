@@ -1098,13 +1098,17 @@
     "erk": "Ein Problem hat direkte Folgen für jemanden.",
     "bsp": "Vom Personalmangel sind vor allem Kitas betroffen.",
     "dates": [
-      "2026-09-07"
+      "2026-09-07",
+      "2026-11-13"
     ],
     "sq": "të jetë i prekur (nga)",
     "tr": "-den etkilenmiş olmak",
     "uk": "бути зачепленим (чимось)",
     "ar": "يكون متأثراً بـ",
-    "fa": "تحت تأثیر بودن (از)"
+    "fa": "تحت تأثیر بودن (از)",
+    "es": "estar afectado (por)",
+    "fr": "être touché (par)",
+    "it": "essere colpito (da)"
   },
   {
     "de": "die Binnennachfrage",
@@ -4837,13 +4841,17 @@
     "erk": "Ein Ereignis, meist unangenehm oder ungeplant, das aufgeklärt werden muss.",
     "bsp": "OpenAI untersuchte den Vorfall sehr genau.",
     "dates": [
-      "2026-07-29"
+      "2026-07-29",
+      "2026-11-13"
     ],
     "sq": "incidenti",
     "tr": "olay, vaka",
     "uk": "інцидент",
     "ar": "حادث، واقعة",
-    "fa": "رویداد، حادثه"
+    "fa": "رویداد، حادثه",
+    "es": "el incidente",
+    "fr": "l'incident",
+    "it": "l'incidente"
   },
   {
     "de": "die Vorfreude",
@@ -8892,7 +8900,8 @@
     "erk": "Mit einem klaren Ziel, nicht zufällig.",
     "bsp": "Mit Licht lassen sich einzelne Zellen gezielt aktivieren.",
     "dates": [
-      "2026-10-06"
+      "2026-10-06",
+      "2026-11-12"
     ],
     "sq": "i synuar",
     "tr": "hedefli",
@@ -10849,7 +10858,8 @@
     "erk": "Man muss sich daran halten. Es ist nicht freiwillig.",
     "bsp": "An verbindliche Regeln müssen sich alle halten.",
     "dates": [
-      "2026-10-22"
+      "2026-10-22",
+      "2026-11-12"
     ],
     "sq": "i detyrueshëm",
     "tr": "bağlayıcı",
@@ -13415,5 +13425,209 @@
     "es": "la prohibición de envases de vidrio",
     "fr": "l’interdiction du verre",
     "it": "il divieto di vetro"
+  },
+  {
+    "de": "die Einschulung",
+    "en": "starting school, school enrolment",
+    "erk": "Der Moment, wenn ein Kind zum ersten Mal in die Schule kommt.",
+    "bsp": "Vor der Einschulung soll jedes Kind gut Deutsch sprechen.",
+    "dates": [
+      "2026-11-12"
+    ],
+    "sq": "regjistrimi në shkollë",
+    "tr": "okula başlama",
+    "uk": "вступ до школи",
+    "ar": "الالتحاق بالمدرسة",
+    "fa": "ورود به مدرسه",
+    "es": "la entrada en la escuela",
+    "fr": "l'entrée à l'école",
+    "it": "l'ingresso a scuola"
+  },
+  {
+    "de": "die namentliche Abstimmung",
+    "en": "roll-call vote",
+    "erk": "Eine Abstimmung im Parlament, bei der man später sieht, wie jede und jeder Abgeordnete gestimmt hat.",
+    "bsp": "Über das Kita-Gesetz gibt es heute eine namentliche Abstimmung.",
+    "dates": [
+      "2026-11-12"
+    ],
+    "sq": "votimi me emër",
+    "tr": "isim okunarak yapılan oylama",
+    "uk": "поіменне голосування",
+    "ar": "التصويت بالأسماء",
+    "fa": "رأی‌گیری با ذکر نام",
+    "es": "la votación nominal",
+    "fr": "le vote nominal",
+    "it": "la votazione per appello nominale"
+  },
+  {
+    "de": "der Sprachstand",
+    "en": "language level, language skills",
+    "erk": "Wie gut jemand eine Sprache im Moment kann.",
+    "bsp": "Mit vier Jahren wird der Sprachstand aller Kinder geprüft.",
+    "dates": [
+      "2026-11-12"
+    ],
+    "sq": "niveli i gjuhës",
+    "tr": "dil seviyesi",
+    "uk": "рівень володіння мовою",
+    "ar": "مستوى اللغة",
+    "fa": "سطح زبان",
+    "es": "el nivel de idioma",
+    "fr": "le niveau de langue",
+    "it": "il livello linguistico"
+  },
+  {
+    "de": "die Förderung",
+    "en": "support, (extra) help",
+    "erk": "Hilfe, damit sich jemand besser entwickeln kann, zum Beispiel durch extra Sprachunterricht.",
+    "bsp": "Nach dem Test bekommen manche Kinder eine besondere Förderung.",
+    "dates": [
+      "2026-11-12"
+    ],
+    "sq": "mbështetja",
+    "tr": "destek",
+    "uk": "підтримка",
+    "ar": "الدعم",
+    "fa": "حمایت",
+    "es": "el apoyo",
+    "fr": "le soutien",
+    "it": "il sostegno"
+  },
+  {
+    "de": "die Betreuung",
+    "en": "care, childcare",
+    "erk": "Jemand kümmert sich um Kinder, Kranke oder alte Menschen, zum Beispiel in der Kita.",
+    "bsp": "Viele Eltern brauchen eine gute Betreuung, weil beide arbeiten.",
+    "dates": [
+      "2026-11-12"
+    ],
+    "sq": "kujdesi",
+    "tr": "bakım",
+    "uk": "догляд",
+    "ar": "الرعاية",
+    "fa": "مراقبت",
+    "es": "el cuidado",
+    "fr": "la garde, la prise en charge",
+    "it": "l'assistenza, la custodia"
+  },
+  {
+    "de": "die Herkunft",
+    "en": "origin, (family) background",
+    "erk": "Woher jemand kommt: Land, Familie und soziale Situation.",
+    "bsp": "Der Erfolg in der Schule hängt oft von der Herkunft ab.",
+    "dates": [
+      "2026-11-12"
+    ],
+    "sq": "prejardhja",
+    "tr": "köken",
+    "uk": "походження",
+    "ar": "الأصل",
+    "fa": "پیشینه خانوادگی",
+    "es": "el origen",
+    "fr": "l'origine",
+    "it": "l'origine"
+  },
+  {
+    "de": "das Rüstungsunternehmen",
+    "en": "defence company, arms manufacturer",
+    "erk": "Eine Firma, die Waffen, Drohnen oder andere Technik für das Militär herstellt.",
+    "bsp": "Das Rüstungsunternehmen hat in diesem Jahr viele neue Mitarbeiter eingestellt.",
+    "dates": [
+      "2026-11-13"
+    ],
+    "sq": "kompania e armatimeve",
+    "tr": "savunma sanayi şirketi",
+    "uk": "оборонна компанія",
+    "ar": "شركة صناعات دفاعية",
+    "fa": "شرکت تسلیحاتی",
+    "es": "la empresa de defensa",
+    "fr": "l'entreprise d'armement",
+    "it": "l'azienda della difesa"
+  },
+  {
+    "de": "die Schadsoftware",
+    "en": "malware",
+    "erk": "Ein Computerprogramm, das Schaden anrichten oder Daten stehlen soll.",
+    "bsp": "Klicken Sie nicht auf den Link – er könnte Schadsoftware enthalten.",
+    "dates": [
+      "2026-11-13"
+    ],
+    "sq": "programi i dëmshëm (malware)",
+    "tr": "kötü amaçlı yazılım",
+    "uk": "шкідливе програмне забезпечення",
+    "ar": "برمجيات خبيثة",
+    "fa": "بدافزار",
+    "es": "el software malicioso",
+    "fr": "le logiciel malveillant",
+    "it": "il software dannoso (malware)"
+  },
+  {
+    "de": "einschleusen",
+    "en": "to smuggle in, to sneak in",
+    "erk": "Etwas heimlich an einen Ort bringen, an dem es nicht sein darf.",
+    "bsp": "Die Angreifer haben ein gefährliches Programm in das System eingeschleust.",
+    "dates": [
+      "2026-11-13"
+    ],
+    "sq": "fus fshehurazi",
+    "tr": "gizlice sokmak",
+    "uk": "таємно впроваджувати",
+    "ar": "يُدخل خِلسةً",
+    "fa": "مخفیانه وارد کردن",
+    "es": "introducir a escondidas",
+    "fr": "introduire clandestinement",
+    "it": "introdurre di nascosto"
+  },
+  {
+    "de": "vorsorglich",
+    "en": "as a precaution",
+    "erk": "Man tut etwas schon vorher, damit nichts Schlimmes passiert.",
+    "bsp": "Wir haben vorsorglich alle Passwörter geändert.",
+    "dates": [
+      "2026-11-13"
+    ],
+    "sq": "si masë paraprake",
+    "tr": "önlem olarak",
+    "uk": "про всяк випадок, з обережності",
+    "ar": "احتياطياً",
+    "fa": "از روی احتیاط",
+    "es": "como precaución",
+    "fr": "par précaution",
+    "it": "per precauzione"
+  },
+  {
+    "de": "eindämmen",
+    "en": "to contain, to curb",
+    "erk": "Etwas Gefährliches stoppen, damit es nicht größer wird.",
+    "bsp": "Das Team konnte das Problem schnell eindämmen.",
+    "dates": [
+      "2026-11-13"
+    ],
+    "sq": "frenoj, kufizoj",
+    "tr": "kontrol altına almak",
+    "uk": "стримувати, локалізувати",
+    "ar": "يحتوي، يحدّ من",
+    "fa": "مهار کردن",
+    "es": "contener",
+    "fr": "contenir, endiguer",
+    "it": "contenere, arginare"
+  },
+  {
+    "de": "ermitteln",
+    "en": "to investigate",
+    "erk": "Polizei oder Behörden versuchen herauszufinden, was passiert ist und wer schuld ist.",
+    "bsp": "Die Polizei ermittelt noch, wer hinter dem Angriff steckt.",
+    "dates": [
+      "2026-11-13"
+    ],
+    "sq": "hetoj",
+    "tr": "soruşturmak",
+    "uk": "розслідувати",
+    "ar": "يحقق",
+    "fa": "تحقیق کردن",
+    "es": "investigar",
+    "fr": "enquêter",
+    "it": "indagare"
   }
 ]

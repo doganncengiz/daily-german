@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wann wurde der Vorfall laut Text entdeckt?",
+      "o": [
+        "Am Donnerstagabend.",
+        "Ende Oktober.",
+        "Anfang Oktober."
+      ],
+      "c": 1,
+      "why": "Der Vorfall wurde <b>schon Ende Oktober</b> entdeckt. Am Donnerstagabend hat Quantum Systems ihn nur öffentlich bestätigt, und Anfang Oktober war der Besuch von Merz in Kiew."
+    },
+    {
+      "q": "Wie weit ist die verdächtige Datei laut „Spiegel“ gekommen?",
+      "o": [
+        "Bis auf die Drohnen der Bundeswehr.",
+        "Nur bis in das Firmennetz von Quantum Systems.",
+        "Bis auf Server der Bundeswehr und anderer Kunden, aber nicht auf die Drohnen."
+      ],
+      "c": 2,
+      "why": "Laut Text kam die Datei <b>bis auf Server der Bundeswehr und anderer Kunden</b>, auf die Drohnen selbst aber nicht. Sie blieb also nicht nur im Firmennetz, und die Drohnen hat sie ausdrücklich nicht erreicht."
+    },
+    {
+      "q": "Was weiß man laut Text über die Angreifer?",
+      "o": [
+        "Es ist noch nicht bekannt, wer dahintersteckt.",
+        "Der Verfassungsschutz hat sie schon identifiziert.",
+        "Das Verteidigungsministerium hat sie öffentlich genannt."
+      ],
+      "c": 0,
+      "why": "Im Text steht: <b>Wer hinter dem Cyberangriff steckt, ist noch nicht bekannt.</b> Der Verfassungsschutz ermittelt noch, und das Ministerium wollte sich zu dem Bericht gar nicht äußern."
+    }
+  ],
+  "schreib": [
+    "Die neue Parkplatzregel hat in unserer Abteilung <b>für viel Ärger gesorgt</b>.<span class=\"hint\"> „sorgen für“ + Akkusativ: „für Ärger“, „für gute Stimmung“. Das Perfekt bildet man mit „haben“: „hat gesorgt“.</span>",
+    "Das ist das Programm, <b>mit dem</b> wir alle Rechnungen schreiben.<span class=\"hint\"> Die Präposition steht vor dem Relativpronomen, nicht am Satzende. „mit“ braucht Dativ: das Programm → mit dem, die App → mit der.</span>",
+    "Als ich ins Büro kam, <b>hatte</b> die IT das Problem schon <b>gelöst</b>.<span class=\"hint\"> Plusquamperfekt für das, was noch früher passiert ist. Bei Bewegungsverben mit „war“: „Der Chef war schon gegangen.“</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Bei uns in der Firma muss man …",
+      "Vorsorglich ändere ich regelmäßig …",
+      "Ich war selbst schon einmal von … betroffen.",
+      "Wenn eine E-Mail verdächtig aussieht, …",
+      "Ob das wirklich sicher ist, ist für mich unklar, weil …"
+    ],
+    "modell": "„Bei uns in der Firma müssen wir alle drei Monate unser Passwort ändern, und für viele Programme brauchen wir eine Bestätigung auf dem Handy. Vor einem Jahr war unser Team selbst <b>von</b> einer Phishing-Mail <b>betroffen</b>: Eine Kollegin hatte auf einen Link geklickt. Die IT konnte den <b>Vorfall</b> zum Glück schnell <b>eindämmen</b>. Seitdem öffne ich <b>vorsorglich</b> keine Anhänge mehr, wenn ich den Absender nicht kenne. Ich finde, man kann gar nicht vorsichtig genug sein.“"
+  }
+}

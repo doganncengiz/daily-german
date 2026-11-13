@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 13. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 13. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 13. November</div>
+    <h2 class="heading">Cyberangriff auf Drohnenhersteller Quantum Systems: Bundeswehr setzt Drohnen vorsorglich nicht mehr ein</h2>
+    <div class="card">
+      <p>Ein Update, das eigentlich ganz normal aussah, hat bei einem der wichtigsten deutschen Drohnenhersteller für großen Ärger gesorgt. Das <b>Rüstungsunternehmen</b> Quantum Systems aus Gilching bei München hat am Donnerstagabend einen „Cybersicherheitsvorfall“ bestätigt. Entdeckt wurde der <b>Vorfall</b> schon Ende Oktober. Zuerst hatten die „Financial Times“ und der „Spiegel“ darüber berichtet.</p><p>Nach Informationen des „Spiegel“ haben Angreifer eine <b>Schadsoftware</b> über einen Update-Server ins Firmennetz <b>eingeschleust</b>. Über diesen Server bekommen Kunden normalerweise neue Versionen der Software, mit der die Einsätze der Aufklärungsdrohne „Vector“ geplant werden. Die verdächtige Datei kam bis auf Server der Bundeswehr und anderer Kunden – auf die Drohnen selbst aber nicht. Eine Kontrolle hat sie rechtzeitig entdeckt.</p><p>Die Bundeswehr hat die Drohnen des Herstellers laut „Financial Times“ trotzdem <b>vorsorglich</b> nicht mehr eingesetzt. Wie viele Systeme <b>betroffen</b> sind und ob die Drohnen inzwischen wieder fliegen, ist unklar. Das Verteidigungsministerium wollte sich zu dem Bericht nicht äußern. Quantum Systems erklärt, man habe die Gefahr zusammen mit den Behörden schnell <b>eingedämmt</b>. Für die Menschen, die die Drohnen steuern, bestehe kein Risiko. Jetzt <b>ermitteln</b> der Militärische Abschirmdienst, der Verfassungsschutz und das Bundesamt für Sicherheit in der Informationstechnik (BSI). Wer hinter dem Cyberangriff steckt, ist noch nicht bekannt.</p><p>Der Fall ist heikel, denn Quantum Systems ist ein wichtiger Partner – für die Bundeswehr und für die Ukraine. Das Unternehmen wurde 2015 von dem früheren Bundeswehrsoldaten Florian Seibel und drei Mitstreitern gegründet. Bei einer Finanzierungsrunde in diesem Jahr wurde es laut „Financial Times“ mit rund sieben Milliarden Euro bewertet. Anfang Oktober hatte Bundeskanzler Friedrich Merz in Kiew angekündigt, dass Deutschland mehrere zehntausend Abfangdrohnen der Firma finanziert. Gebaut werden sollen sie in der Ukraine. Das Unternehmen selbst sagt, man sei gerade deshalb angegriffen worden, weil die eigene Arbeit für die Sicherheit der Kunden so wichtig sei.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>das Rüstungsunternehmen</td><td>defence company, arms manufacturer</td><td>Eine Firma, die Waffen, Drohnen oder andere Technik für das Militär herstellt.</td><td>Das Rüstungsunternehmen hat in diesem Jahr viele neue Mitarbeiter eingestellt.</td></tr><tr><td>der Vorfall <span class="rep">(Wiederholung)</span></td><td>incident</td><td>Ein Ereignis, meist unangenehm oder ungeplant, das aufgeklärt werden muss.</td><td>Die IT-Abteilung hat den Vorfall sofort der Geschäftsführung gemeldet.</td></tr><tr><td>die Schadsoftware</td><td>malware</td><td>Ein Computerprogramm, das Schaden anrichten oder Daten stehlen soll.</td><td>Klicken Sie nicht auf den Link – er könnte Schadsoftware enthalten.</td></tr><tr><td>einschleusen</td><td>to smuggle in, to sneak in</td><td>Etwas heimlich an einen Ort bringen, an dem es nicht sein darf.</td><td>Die Angreifer haben ein gefährliches Programm in das System eingeschleust.</td></tr><tr><td>vorsorglich</td><td>as a precaution</td><td>Man tut etwas schon vorher, damit nichts Schlimmes passiert.</td><td>Wir haben vorsorglich alle Passwörter geändert.</td></tr><tr><td>betroffen sein (von) <span class="rep">(Wiederholung)</span></td><td>to be affected (by)</td><td>Ein Problem hat direkte Folgen für jemanden.</td><td>Von dem Serverausfall waren rund 300 Kunden betroffen.</td></tr><tr><td>eindämmen</td><td>to contain, to curb</td><td>Etwas Gefährliches stoppen, damit es nicht größer wird.</td><td>Das Team konnte das Problem schnell eindämmen.</td></tr><tr><td>ermitteln</td><td>to investigate</td><td>Polizei oder Behörden versuchen herauszufinden, was passiert ist und wer schuld ist.</td><td>Die Polizei ermittelt noch, wer hinter dem Angriff steckt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„für Ärger sorgen“</b> — Etwas macht Probleme oder führt zu Streit. Ähnlich: „für Aufregung / für gute Laune sorgen“.<br><i>Die neue Urlaubsregel hat im Team für viel Ärger gesorgt.</i></li><li><b>„Wer hinter … steckt“</b> — Man fragt, wer eigentlich verantwortlich ist, oft bei etwas Negativem.<br><i>Wer hinter den Spam-Mails steckt, weiß die IT noch nicht.</i></li><li><b>„Ob …, ist (noch) unklar.“</b> — So sagt man neutral, dass eine Information fehlt. Das Verb im „ob“-Satz steht am Ende.<br><i>Ob das Meeting morgen stattfindet, ist noch unklar.</i></li><li><b>„gerade deshalb …, weil …“</b> — Man betont den Grund: genau aus diesem Grund und nicht trotzdem.<br><i>Ich frage gerade deshalb nach, weil ich keinen Fehler machen will.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Relativsatz mit Präposition – „mit der …“:</b> „die Software, <b>mit der</b> die Einsätze geplant werden“. Die Präposition steht ganz vorne im Relativsatz, direkt vor dem Relativpronomen. Das Pronomen bekommt den Kasus der Präposition (mit + Dativ → mit <b>dem</b> / mit <b>der</b> / mit <b>denen</b>) und das Genus des Nomens davor (die Software → der). Typischer Fehler: die Präposition ans Ende stellen, wie im Englischen – „die Software, die man die Einsätze mit plant“. Im Deutschen geht das nicht.</p></div><div class="grammar-block"><p><b>Plusquamperfekt – „hatten berichtet“, „hatte angekündigt“:</b> „Zuerst <b>hatten</b> die ‚Financial Times‘ und der ‚Spiegel‘ darüber <b>berichtet</b>.“ Mit dem Plusquamperfekt zeigt man: Das ist noch <i>früher</i> passiert als die anderen Dinge in der Geschichte. Form: „hatte / war“ im Präteritum + Partizip II. Typischer Fehler: es für alles in der Vergangenheit benutzen. Wenn es keinen „Davor-Moment“ gibt, reicht das Perfekt: „Merz hat das angekündigt.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wann wurde der Vorfall laut Text entdeckt?</li><li>Wie weit ist die verdächtige Datei laut „Spiegel“ gekommen?</li><li>Was weiß man laut Text über die Angreifer?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „für Ärger sorgen“ über etwas, das bei deiner Arbeit oder in deinem Alltag passiert ist.</li><li>Schreibe einen Relativsatz mit Präposition („mit dem / mit der / über die …“) über ein Programm oder Werkzeug, das du bei der Arbeit benutzt.</li><li>Schreibe einen Satz im Plusquamperfekt: Was war schon passiert, bevor etwas anderes passiert ist? („Als ich …, hatte … schon …“)</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Wie schützt deine Firma oder dein Arbeitgeber die Computer und Daten? Hast du schon einmal eine verdächtige E-Mail oder einen Cyberangriff erlebt? Was tust du vorsorglich? Sprich vier bis fünf Sätze und benutze „vorsorglich“ und „betroffen sein von“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 13. November 2026): <a href="https://de.euronews.com/2026/11/13/bundeswehr-besorgt-nach-cyberangriff-auf-deutschen-drohnen-hersteller-quantum">Euronews: Bundeswehr besorgt nach Cyberangriff auf deutschen Drohnen-Hersteller Quantum</a>; <a href="http://www.wlz-online.de/politik/cybersicherheitsvorfall-bayerisches-ruestungsunternehmen-quantum-meldet-cyberangriff-zr-94587922.html">WLZ/dpa: Bayerisches Rüstungsunternehmen Quantum meldet „Cybersicherheitsvorfall“</a>; <a href="https://dronexl.co/2026/11/12/quantum-systems-qbase-malware-bundeswehr-grounds-drones/">DroneXL (mit Angaben aus FT, Spiegel und Handelsblatt)</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Was fordern die Verbände der Veranstaltungswirtschaft?",
+      "o": [
+        "Die Stadt und die Veranstalter sollen sich die Kosten teilen.",
+        "Der Staat soll die Terrorabwehr auf Weihnachtsmärkten allein bezahlen.",
+        "Die Besucher sollen einen kleinen Sicherheitsbeitrag zahlen."
+      ],
+      "c": 1,
+      "why": "Die Forderung lautet: Für die Terrorabwehr soll <b>allein der Staat aufkommen</b>. Dass mal die Stadt und mal der Veranstalter zahlt, ist die bisherige Lage, die kritisiert wird – und höhere Preise für Besucher werden nur als mögliche Folge genannt, nicht gefordert."
+    },
+    {
+      "q": "Welches Problem sehen die Verbände bei der bisherigen Regelung?",
+      "o": [
+        "Ein neues Gesetz verpflichtet die Veranstalter, alle Sperren selbst zu bezahlen.",
+        "Die Behörden prüfen die Sicherheitskonzepte zu streng.",
+        "Die Zuständigkeit wird von Ort zu Ort unterschiedlich bewertet, und das gefährdet die Wirtschaftlichkeit."
+      ],
+      "c": 2,
+      "why": "Laut Text ist die Lage unübersichtlich: <b>wer zuständig ist, wird von Ort zu Ort unterschiedlich bewertet</b> – das gefährdet die Wirtschaftlichkeit. Ein solches Gesetz gibt es nicht, die Verbände wollen erst eins. Und sie kritisieren nicht zu strenge Prüfungen, sondern wollen transparente, nachvollziehbare Prüfungen."
+    },
+    {
+      "q": "Wer ist Dennis Eichenbrenner?",
+      "o": [
+        "Der Vorsitzende des Bundesverbands Veranstaltungssicherheit (BVVS).",
+        "Der Geschäftsführer des Bundesverbands der Konzert- und Veranstaltungswirtschaft (BDKV).",
+        "Ein Händler, der auf dem Weihnachtsmarkt einen Stand hat."
+      ],
+      "c": 0,
+      "why": "Eichenbrenner ist <b>Vorsitzender des BVVS</b> und fordert klare Regeln für Sicherheitskonzepte. Geschäftsführer des BDKV ist Johannes Everke, und Händler mit Stand kommen im Text nur bei den Standgebühren vor."
+    }
+  ],
+  "schreib": [
+    "<b>Spätestens seit</b> ich ein Kind habe, <b>plane</b> ich meine Woche viel genauer.<span class=\"hint\"> „Spätestens seit“ kann mit einem Nomen (seit dem Umzug) oder mit einem Nebensatz stehen – dann steht das Verb am Ende.</span>",
+    "Mein Chef sagt, das Projekt <b>sei</b> schon fast fertig, wir <b>müssten</b> nur noch die Präsentation machen.<span class=\"hint\"> Bei „wir“ sieht der Konjunktiv I aus wie der Indikativ („wir müssen“), deshalb nimmt man hier den Konjunktiv II („müssten“).</span>",
+    "<b>Sobald</b> die Besprechung <b>vorbei ist</b>, <b>schicke ich</b> dir das Protokoll.<span class=\"hint\"> Nach dem „sobald“-Satz kommt sofort das Verb, dann das Subjekt – nicht „…, ich schicke“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich gehe (nicht so) gern auf Weihnachtsmärkte, weil …",
+      "Ehrlich gesagt fühle ich mich dort …",
+      "Die Poller stören mich nicht, denn …",
+      "Meiner Meinung nach ist der Staat in der Pflicht, weil …",
+      "Andererseits sind auch die Veranstalter zuständig für …"
+    ],
+    "modell": "Ich gehe gern auf Weihnachtsmärkte, vor allem nach der Arbeit mit Kollegen. Die <b>Poller</b> und <b>Fahrzeugsperren</b> sehe ich inzwischen fast überall, und ehrlich gesagt beruhigen sie mich eher. Ich finde, für die <b>Terrorabwehr</b> ist der Staat <b>zuständig</b>, nicht der <b>Veranstalter</b> – das ist doch Aufgabe der Polizei. Aber die <b>Veranstalter</b> brauchen natürlich ein gutes <b>Sicherheitskonzept</b> für ihren Markt. Wenn die <b>Standgebühren</b> steigen, zahlen am Ende wir alle mehr für den Glühwein."
+  }
+}

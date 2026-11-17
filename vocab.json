@@ -77,13 +77,17 @@
     "erk": "Man zahlt regelmäßig und bekommt die Leistung immer weiter.",
     "bsp": "Mein Abo verlängert sich automatisch um ein Jahr.",
     "dates": [
-      "2026-09-09"
+      "2026-09-09",
+      "2026-11-16"
     ],
     "sq": "abonimi",
     "tr": "abonelik",
     "uk": "підписка, абонемент",
     "ar": "الاشتراك",
-    "fa": "اشتراک"
+    "fa": "اشتراک",
+    "es": "la suscripción",
+    "fr": "l'abonnement",
+    "it": "l'abbonamento"
   },
   {
     "de": "absichern",
@@ -1335,13 +1339,17 @@
     "erk": "Überall gleich, ohne Unterschiede.",
     "bsp": "Die Autos werden zu einheitlichen Preisen verkauft.",
     "dates": [
-      "2026-09-04"
+      "2026-09-04",
+      "2026-11-17"
     ],
     "sq": "i njëtrajtshëm, i standardizuar",
     "tr": "tek tip, standart",
     "uk": "однаковий, уніфікований",
     "ar": "موحّد",
-    "fa": "یکسان، استانداردشده"
+    "fa": "یکسان، استانداردشده",
+    "es": "uniforme, unificado",
+    "fr": "uniforme, harmonisé",
+    "it": "uniforme, unificato"
   },
   {
     "de": "der Einkaufsmanagerindex (PMI)",
@@ -10895,7 +10903,8 @@
     "bsp": "Die Prüfungsstelle ist für organisatorische Fragen zuständig.",
     "dates": [
       "2026-10-22",
-      "2026-10-26"
+      "2026-10-26",
+      "2026-11-17"
     ],
     "sq": "kompetent, përgjegjës",
     "tr": "yetkili, sorumlu",
@@ -12378,7 +12387,8 @@
     "erk": "Man beendet einen Vertrag mit einer schriftlichen Mitteilung.",
     "bsp": "Die Kündigung muss rechtzeitig beim Versicherer ankommen.",
     "dates": [
-      "2026-11-02"
+      "2026-11-02",
+      "2026-11-16"
     ],
     "sq": "shkëputja e kontratës",
     "tr": "fesih",
@@ -13629,5 +13639,243 @@
     "es": "investigar",
     "fr": "enquêter",
     "it": "indagare"
+  },
+  {
+    "de": "die Nebenkosten (Pl.)",
+    "en": "service charges, additional housing costs",
+    "erk": "Kosten, die Mieter zusätzlich zur Miete zahlen, z. B. für Wasser, Heizung oder Müll.",
+    "bsp": "Die Nebenkosten sind bei uns dieses Jahr um 40 Euro im Monat gestiegen.",
+    "dates": [
+      "2026-11-16"
+    ],
+    "sq": "shpenzimet shtesë të banesës",
+    "tr": "yan giderler (aidat)",
+    "uk": "комунальні платежі",
+    "ar": "تكاليف الخدمات الإضافية للسكن",
+    "fa": "هزینه‌های جانبی مسکن",
+    "es": "los gastos adicionales del alquiler",
+    "fr": "les charges locatives",
+    "it": "le spese accessorie"
+  },
+  {
+    "de": "der Sammelvertrag",
+    "en": "bulk contract (one contract for many users)",
+    "erk": "Ein Vertrag, den eine Person für viele andere abschließt, z. B. ein Vermieter für alle Wohnungen im Haus.",
+    "bsp": "Der Vermieter hat einen Sammelvertrag für das Internet im ganzen Haus abgeschlossen.",
+    "dates": [
+      "2026-11-16"
+    ],
+    "sq": "kontratë e përbashkët",
+    "tr": "toplu sözleşme",
+    "uk": "груповий договір",
+    "ar": "عقد جماعي",
+    "fa": "قرارداد جمعی",
+    "es": "el contrato colectivo",
+    "fr": "le contrat collectif",
+    "it": "il contratto collettivo"
+  },
+  {
+    "de": "(Kosten) umlegen (auf)",
+    "en": "to pass on (costs) to, to split (costs) among",
+    "erk": "Kosten auf mehrere Personen verteilen, damit jeder einen Teil zahlt.",
+    "bsp": "Die Reparatur des Aufzugs wird auf alle Mieter umgelegt.",
+    "dates": [
+      "2026-11-16"
+    ],
+    "sq": "ndaj shpenzimet",
+    "tr": "masrafları yansıtmak",
+    "uk": "розподіляти витрати",
+    "ar": "توزيع التكاليف على",
+    "fa": "تقسیم هزینه‌ها بین",
+    "es": "repercutir (los costes)",
+    "fr": "répercuter (les coûts)",
+    "it": "ripartire (i costi)"
+  },
+  {
+    "de": "die Kündigungsfrist",
+    "en": "notice period",
+    "erk": "Die Zeit zwischen der Kündigung und dem Ende des Vertrags.",
+    "bsp": "In meinem Arbeitsvertrag steht eine Kündigungsfrist von drei Monaten.",
+    "dates": [
+      "2026-11-16"
+    ],
+    "sq": "afati i njoftimit",
+    "tr": "fesih bildirim süresi",
+    "uk": "строк попередження про розірвання",
+    "ar": "مهلة الإشعار بالإنهاء",
+    "fa": "مهلت فسخ قرارداد",
+    "es": "el plazo de preaviso",
+    "fr": "le délai de préavis",
+    "it": "il periodo di preavviso"
+  },
+  {
+    "de": "der Schadensersatz",
+    "en": "damages, compensation",
+    "erk": "Geld, das man bekommt, wenn ein anderer einem einen Schaden verursacht hat.",
+    "bsp": "Der Kunde verlangt Schadensersatz, weil die Lieferung kaputt war.",
+    "dates": [
+      "2026-11-16"
+    ],
+    "sq": "dëmshpërblimi",
+    "tr": "tazminat",
+    "uk": "відшкодування збитків",
+    "ar": "التعويض عن الضرر",
+    "fa": "غرامت",
+    "es": "la indemnización",
+    "fr": "les dommages et intérêts",
+    "it": "il risarcimento dei danni"
+  },
+  {
+    "de": "der Anbieter",
+    "en": "provider, supplier",
+    "erk": "Eine Firma, die eine Leistung oder ein Produkt verkauft, z. B. Internet, Strom oder Fernsehen.",
+    "bsp": "Ich habe den Anbieter gewechselt und zahle jetzt zehn Euro weniger.",
+    "dates": [
+      "2026-11-16"
+    ],
+    "sq": "ofruesi",
+    "tr": "sağlayıcı (firma)",
+    "uk": "постачальник послуг",
+    "ar": "مزوّد الخدمة",
+    "fa": "ارائه‌دهنده",
+    "es": "el proveedor",
+    "fr": "le fournisseur",
+    "it": "il fornitore"
+  },
+  {
+    "de": "die Verfassungsbeschwerde",
+    "en": "constitutional complaint",
+    "erk": "Eine Klage beim Bundesverfassungsgericht, wenn man glaubt, dass der Staat die eigenen Grundrechte verletzt.",
+    "bsp": "Mehrere Firmen haben Verfassungsbeschwerde gegen das neue Gesetz eingelegt.",
+    "dates": [
+      "2026-11-16"
+    ],
+    "sq": "ankesë kushtetuese",
+    "tr": "anayasa şikâyeti",
+    "uk": "конституційна скарга",
+    "ar": "شكوى دستورية",
+    "fa": "شکایت به دادگاه قانون اساسی",
+    "es": "el recurso de amparo constitucional",
+    "fr": "le recours constitutionnel",
+    "it": "il ricorso costituzionale"
+  },
+  {
+    "de": "der Poller",
+    "en": "bollard",
+    "erk": "Ein kurzer, fester Pfosten aus Metall oder Beton, der Autos den Weg versperrt.",
+    "bsp": "Vor dem Eingang zur Fußgängerzone stehen jetzt Poller.",
+    "dates": [
+      "2026-11-17"
+    ],
+    "sq": "shtylla mbrojtëse (për makina)",
+    "tr": "koruma direği, bariyer direği",
+    "uk": "захисний стовпчик",
+    "ar": "عمود حاجز",
+    "fa": "ستون مانع خودرو",
+    "es": "el bolardo",
+    "fr": "la borne anti-véhicule, le plot",
+    "it": "il dissuasore, il paletto"
+  },
+  {
+    "de": "die Fahrzeugsperre",
+    "en": "vehicle barrier",
+    "erk": "Eine Absperrung, die verhindert, dass Autos oder Lkw in einen Bereich fahren.",
+    "bsp": "Für das Stadtfest werden an allen Zufahrten mobile Fahrzeugsperren aufgestellt.",
+    "dates": [
+      "2026-11-17"
+    ],
+    "sq": "pengesa për automjete",
+    "tr": "araç bariyeri",
+    "uk": "бар'єр для транспортних засобів",
+    "ar": "حاجز المركبات",
+    "fa": "مانع خودرو",
+    "es": "la barrera antivehículos",
+    "fr": "la barrière anti-véhicules",
+    "it": "la barriera anti-veicolo"
+  },
+  {
+    "de": "die Terrorabwehr",
+    "en": "counter-terrorism, protection against terror attacks",
+    "erk": "Alle Maßnahmen, mit denen man Menschen vor Terroranschlägen schützt.",
+    "bsp": "Die Terrorabwehr ist Aufgabe von Polizei und Behörden.",
+    "dates": [
+      "2026-11-17"
+    ],
+    "sq": "mbrojtja kundër terrorizmit",
+    "tr": "terörle mücadele",
+    "uk": "протидія тероризму",
+    "ar": "مكافحة الإرهاب",
+    "fa": "مقابله با تروریسم",
+    "es": "la defensa antiterrorista",
+    "fr": "la lutte antiterroriste",
+    "it": "la difesa antiterrorismo"
+  },
+  {
+    "de": "der Veranstalter",
+    "en": "organizer (of an event)",
+    "erk": "Die Person oder Firma, die ein Fest, ein Konzert oder einen Markt organisiert.",
+    "bsp": "Der Veranstalter hat das Konzert wegen des Sturms abgesagt.",
+    "dates": [
+      "2026-11-17"
+    ],
+    "sq": "organizatori",
+    "tr": "organizatör, düzenleyici",
+    "uk": "організатор",
+    "ar": "المنظِّم",
+    "fa": "برگزارکننده",
+    "es": "el organizador",
+    "fr": "l'organisateur",
+    "it": "l'organizzatore"
+  },
+  {
+    "de": "die Wirtschaftlichkeit",
+    "en": "economic viability, cost-effectiveness",
+    "erk": "Ob sich etwas finanziell lohnt, also ob die Einnahmen die Kosten decken.",
+    "bsp": "Bei so hohen Mieten ist die Wirtschaftlichkeit des kleinen Ladens in Gefahr.",
+    "dates": [
+      "2026-11-17"
+    ],
+    "sq": "leverdia ekonomike",
+    "tr": "ekonomik verimlilik, kârlılık",
+    "uk": "економічна доцільність",
+    "ar": "الجدوى الاقتصادية",
+    "fa": "صرفه اقتصادی",
+    "es": "la rentabilidad, la viabilidad económica",
+    "fr": "la rentabilité",
+    "it": "la redditività, la sostenibilità economica"
+  },
+  {
+    "de": "das Sicherheitskonzept",
+    "en": "security plan",
+    "erk": "Ein schriftlicher Plan, wie man eine Veranstaltung oder ein Gebäude sicher macht.",
+    "bsp": "Ohne genehmigtes Sicherheitskonzept darf das Festival nicht stattfinden.",
+    "dates": [
+      "2026-11-17"
+    ],
+    "sq": "plani i sigurisë",
+    "tr": "güvenlik planı",
+    "uk": "концепція безпеки",
+    "ar": "الخطة الأمنية",
+    "fa": "طرح امنیتی",
+    "es": "el plan de seguridad",
+    "fr": "le plan de sécurité",
+    "it": "il piano di sicurezza"
+  },
+  {
+    "de": "die Standgebühr",
+    "en": "stall fee, pitch fee",
+    "erk": "Geld, das ein Händler zahlt, damit er auf einem Markt oder einer Messe einen Stand haben darf.",
+    "bsp": "Die Standgebühr für den Weihnachtsmarkt ist um zehn Prozent gestiegen.",
+    "dates": [
+      "2026-11-17"
+    ],
+    "sq": "tarifa për stendën",
+    "tr": "stant ücreti",
+    "uk": "плата за торгове місце",
+    "ar": "رسوم الكشك",
+    "fa": "هزینه غرفه",
+    "es": "la tarifa del puesto",
+    "fr": "le droit de place",
+    "it": "la tassa di posteggio"
   }
 ]

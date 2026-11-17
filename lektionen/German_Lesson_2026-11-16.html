@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 16. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 16. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 16. November</div>
+    <h2 class="heading">Kabelfernsehen vor Gericht: Karlsruhe entscheidet heute über das Sonderkündigungsrecht für TV-Verträge</h2>
+    <div class="card">
+      <p>Wer zur Miete wohnt, kennt das vielleicht: Viele Jahre lang hat man den Kabelanschluss einfach über die <b>Nebenkosten</b> bezahlt. Der Vermieter hatte mit einem Kabelanbieter einen <b>Sammelvertrag</b> für das ganze Haus abgeschlossen und die Kosten auf alle Mieter <b>umgelegt</b> – egal, ob sie überhaupt fernsahen. Betroffen waren mehr als zwölf Millionen Mietverhältnisse. Seit dem 1. Juli 2024 ist damit Schluss: Mit der Reform des Telekommunikationsgesetzes vom Dezember 2021 endete das sogenannte Nebenkostenprivileg.</p><p>Damit die Vermieter aus den alten Verträgen herauskamen, bekamen sie ein Sonderkündigungsrecht. Verträge, die vor Dezember 2021 abgeschlossen worden waren, konnten sie zum Juli 2024 ohne <b>Kündigungsfrist</b> beenden. Einen Anspruch auf <b>Schadensersatz</b> hatten die <b>Anbieter</b> nicht. Das tat weh, denn solche Verträge liefen oft zehn bis zwanzig Jahre. Die meisten Vermieter haben die <b>Kündigung</b> tatsächlich verschickt. Wer weiter Kabelfernsehen wollte, musste selbst ein <b>Abo</b> abschließen.</p><p>Genau dagegen wehren sich drei kleinere Kabelnetzbetreiber: Willytel aus Hamburg sowie Rehnig und Ziegelmeier aus Bayern. Sie haben <b>Verfassungsbeschwerde</b> eingelegt. Heute um 10 Uhr verkündet das Bundesverfassungsgericht in Karlsruhe seine Entscheidung, mündlich verhandelt wurde schon im Juni. Der Branchenriese Vodafone klagt nicht mit, obwohl er rund vier von zwölf Millionen TV-Kunden verloren hat. Die Frage sei für das Unternehmen nicht so wichtig, sagte ein Sprecher.</p><p>Klar ist schon jetzt: Der Fernsehmarkt hat sich stark verändert. Laut AGF Videoforschung empfingen Anfang des Jahres rund 43 Prozent der 41 Millionen Haushalte in Deutschland ihr Programm über Satellit, nur noch 36 Prozent über Kabel. 2023 waren es beim Kabel noch fast 44 Prozent. Fernsehen über das Internet hat sich in zwei Jahren auf 19 Prozent verdoppelt. Davon profitieren vor allem Anbieter wie Magenta TV, Waipu.tv und Zattoo. Ob sich für Mieter durch das Urteil etwas ändert, ist offen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Nebenkosten (Pl.)</td><td>service charges, additional housing costs</td><td>Kosten, die Mieter zusätzlich zur Miete zahlen, z. B. für Wasser, Heizung oder Müll.</td><td>Die Nebenkosten sind bei uns dieses Jahr um 40 Euro im Monat gestiegen.</td></tr><tr><td>der Sammelvertrag</td><td>bulk contract (one contract for many users)</td><td>Ein Vertrag, den eine Person für viele andere abschließt, z. B. ein Vermieter für alle Wohnungen im Haus.</td><td>Der Vermieter hat einen Sammelvertrag für das Internet im ganzen Haus abgeschlossen.</td></tr><tr><td>(Kosten) umlegen (auf)</td><td>to pass on (costs) to, to split (costs) among</td><td>Kosten auf mehrere Personen verteilen, damit jeder einen Teil zahlt.</td><td>Die Reparatur des Aufzugs wird auf alle Mieter umgelegt.</td></tr><tr><td>die Kündigung <span class="rep">(Wiederholung)</span></td><td>termination, notice of cancellation</td><td>Man beendet einen Vertrag mit einer schriftlichen Mitteilung.</td><td>Ich habe die Kündigung per Einschreiben an meinen Anbieter geschickt.</td></tr><tr><td>die Kündigungsfrist</td><td>notice period</td><td>Die Zeit zwischen der Kündigung und dem Ende des Vertrags.</td><td>In meinem Arbeitsvertrag steht eine Kündigungsfrist von drei Monaten.</td></tr><tr><td>der Schadensersatz</td><td>damages, compensation</td><td>Geld, das man bekommt, wenn ein anderer einem einen Schaden verursacht hat.</td><td>Der Kunde verlangt Schadensersatz, weil die Lieferung kaputt war.</td></tr><tr><td>der Anbieter</td><td>provider, supplier</td><td>Eine Firma, die eine Leistung oder ein Produkt verkauft, z. B. Internet, Strom oder Fernsehen.</td><td>Ich habe den Anbieter gewechselt und zahle jetzt zehn Euro weniger.</td></tr><tr><td>das Abo (das Abonnement) <span class="rep">(Wiederholung)</span></td><td>subscription</td><td>Man zahlt regelmäßig und bekommt die Leistung immer weiter.</td><td>Seit dem Umzug habe ich kein Kabel mehr, sondern ein Streaming-Abo.</td></tr><tr><td>die Verfassungsbeschwerde</td><td>constitutional complaint</td><td>Eine Klage beim Bundesverfassungsgericht, wenn man glaubt, dass der Staat die eigenen Grundrechte verletzt.</td><td>Mehrere Firmen haben Verfassungsbeschwerde gegen das neue Gesetz eingelegt.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Damit ist Schluss.“</b> — Etwas Gewohntes hört auf, oft durch eine neue Regel. Man kann den Zeitpunkt dazusagen: „Ab Januar ist damit Schluss.“<br><i>Früher durften wir im Büro Pakete annehmen – seit Montag ist damit Schluss.</i></li><li><b>„egal, ob …“</b> — Etwas gilt in jedem Fall, die Antwort auf die Frage spielt keine Rolle. Das Verb steht am Ende.<br><i>Die Besprechung ist um neun, egal, ob alle da sind oder nicht.</i></li><li><b>„Das tat (richtig) weh.“</b> — Nicht nur körperlich: Man sagt so auch, wenn ein Verlust Geld oder Nerven kostet.<br><i>Die Nachzahlung für die Heizung hat richtig wehgetan.</i></li><li><b>„sich wehren gegen + Akk.“</b> — Man akzeptiert etwas nicht und tut aktiv etwas dagegen – z. B. klagen oder protestieren.<br><i>Die Mieter wehren sich gegen die hohe Mieterhöhung.</i></li><li><b>„Davon profitieren vor allem …“</b> — So nennt man, wer von einer Entwicklung am meisten Vorteile hat.<br><i>Von der neuen Homeoffice-Regel profitieren vor allem Pendler.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Zwei Mal „damit“ – Zweck oder Rückverweis:</b> „<b>Damit</b> die Vermieter aus den alten Verträgen herauskamen, bekamen sie ein Sonderkündigungsrecht.“ Hier ist „damit“ eine Konjunktion: Sie nennt ein Ziel, das Verb steht am Ende. Aber in „Seit dem 1. Juli 2024 ist <b>damit</b> Schluss“ bedeutet „damit“ einfach „mit dieser Sache“ und verweist zurück. Dann steht das Verb ganz normal an Position 2. Typischer Fehler: nach dem Ziel-„damit“ das Verb nach vorne stellen – „damit die Vermieter kamen heraus“. Richtig: „damit die Vermieter herauskamen“. Tipp: Ist das Subjekt in beiden Teilen gleich, geht auch „um … zu“: „Um herauszukommen, brauchten die Vermieter ein Sonderrecht.“</p></div><div class="grammar-block"><p><b>„Wer …, (der) …“ – Sätze über alle, auf die etwas zutrifft:</b> „<b>Wer</b> zur Miete wohnt, kennt das vielleicht.“ – „<b>Wer</b> weiter Kabelfernsehen wollte, musste selbst ein Abo abschließen.“ Der „wer“-Satz steht vorne, das Verb an seinem Ende. Danach kommt sofort das Verb des Hauptsatzes. Ein „der“ kann man dazwischen setzen („Wer zu spät kommt, <i>der</i> muss warten“), muss man aber nicht. Typischer Fehler: „Wer zur Miete wohnt, er kennt das.“ Ein zusätzliches „er“ ist im Deutschen falsch.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Seit wann dürfen Vermieter die Kosten für den Kabelanschluss nicht mehr über die Nebenkosten abrechnen?</li><li>Wer hat Verfassungsbeschwerde eingelegt?</li><li>Wie empfangen laut AGF Videoforschung die meisten Haushalte in Deutschland ihr Fernsehprogramm?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „egal, ob …“ über etwas, das du auf jeden Fall tust.</li><li>Schreibe einen Satz mit „damit“ (Ziel): Warum tust du etwas für dein Deutsch oder deine Arbeit?</li><li>Schreibe einen „Wer …“-Satz mit einem Tipp für Menschen, die neu in Deutschland sind.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Wie siehst du fern – über Kabel, Satellit oder das Internet? Hast du schon einmal einen Vertrag oder ein Abo gekündigt? Was war dabei wichtig? Sprich vier bis fünf Sätze und benutze „die Kündigung“ und „der Anbieter“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 16. November 2026, vor der Urteilsverkündung): <a href="https://www.handelsblatt.com/politik/deutschland/bundesverfassungsgericht-neue-regeln-fuer-tv-vertraege-karlsruhe-spricht-urteil/100270079.html">Handelsblatt/dpa: Neue Regeln für TV-Verträge – Karlsruhe spricht Urteil</a>; <a href="https://www.t-online.de/finanzen/aktuelles/id_101530186/neue-regeln-fuer-tv-vertraege-karlsruhe-spricht-urteil.html">t-online/dpa</a>; <a href="https://www.ariva.de/news/karlsruhe-urteilt-zu-sonderkuendigungsrecht-fuer-tv-vertraege-12207949">dpa-AFX via ARIVA: Karlsruhe urteilt zu Sonderkündigungsrecht für TV-Verträge</a>. Marktzahlen: AGF Videoforschung (laut dpa). Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

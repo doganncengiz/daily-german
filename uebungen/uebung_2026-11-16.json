@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Seit wann dürfen Vermieter die Kosten für den Kabelanschluss nicht mehr über die Nebenkosten abrechnen?",
+      "o": [
+        "Seit Dezember 2021.",
+        "Seit Juni 2026.",
+        "Seit dem 1. Juli 2024."
+      ],
+      "c": 2,
+      "why": "Im Text steht: <b>Seit dem 1. Juli 2024 ist damit Schluss.</b> Im Dezember 2021 wurde die Reform nur beschlossen, und im Juni 2026 hat das Gericht mündlich verhandelt."
+    },
+    {
+      "q": "Wer hat Verfassungsbeschwerde eingelegt?",
+      "o": [
+        "Vodafone, weil es rund vier Millionen TV-Kunden verloren hat.",
+        "Drei kleinere Kabelnetzbetreiber aus Hamburg und Bayern.",
+        "Die Anbieter Magenta TV, Waipu.tv und Zattoo."
+      ],
+      "c": 1,
+      "why": "Geklagt haben <b>Willytel aus Hamburg sowie Rehnig und Ziegelmeier aus Bayern</b>. Vodafone klagt laut Text ausdrücklich nicht mit, und Magenta TV, Waipu.tv und Zattoo werden nur als Gewinner der Entwicklung genannt."
+    },
+    {
+      "q": "Wie empfangen laut AGF Videoforschung die meisten Haushalte in Deutschland ihr Fernsehprogramm?",
+      "o": [
+        "Über Satellit.",
+        "Über Kabel.",
+        "Über das Internet."
+      ],
+      "c": 0,
+      "why": "<b>Rund 43 Prozent</b> der Haushalte empfangen über Satellit. Kabel liegt nur noch bei 36 Prozent, Internet-Fernsehen bei 19 Prozent – es hat sich zwar verdoppelt, ist aber noch klar dahinter."
+    }
+  ],
+  "schreib": [
+    "Ich gehe am Samstag joggen, <b>egal, ob</b> es regnet oder nicht.<span class=\"hint\"> Nach „egal, ob“ steht das Verb am Ende. Vor „egal“ und vor „ob“ steht ein Komma, wenn ein Hauptsatz davor kommt.</span>",
+    "Ich spreche mit meinen Kollegen Deutsch, <b>damit</b> ich schneller <b>lerne</b>.<span class=\"hint\"> „damit“ + Verb am Ende. Bei gleichem Subjekt klingt „um … zu“ oft natürlicher: „…, um schneller zu lernen.“</span>",
+    "<b>Wer</b> in Deutschland eine Wohnung <b>mietet</b>, <b>sollte</b> die Nebenkostenabrechnung genau lesen.<span class=\"hint\"> Im „wer“-Satz steht das Verb am Ende, danach folgt direkt das Verb des Hauptsatzes – ohne zusätzliches „er“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Bei mir zu Hause sehe ich über … fern.",
+      "Früher war das in den Nebenkosten, jetzt …",
+      "Ich habe schon einmal ein Abo gekündigt, weil …",
+      "Die Kündigungsfrist war …",
+      "Ehrlich gesagt brauche ich kein Kabel mehr, weil …"
+    ],
+    "modell": "„Ich sehe eigentlich kaum noch klassisches Fernsehen. Früher war der Kabelanschluss bei uns in den <b>Nebenkosten</b>, aber seit 2024 zahlen wir ihn nicht mehr. Jetzt habe ich nur ein Streaming-<b>Abo</b> und schaue Nachrichten über das Internet. Letztes Jahr habe ich außerdem meinen Handyvertrag gekündigt, weil ein anderer <b>Anbieter</b> viel günstiger war. Die <b>Kündigung</b> war einfach, nur die <b>Kündigungsfrist</b> von einem Monat musste ich beachten. Mein Tipp: Lest vor dem Abschluss immer genau, wie lange ein Vertrag läuft.“"
+  }
+}

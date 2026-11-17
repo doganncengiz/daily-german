@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 17. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 17. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 17. November</div>
+    <h2 class="heading">Poller, Sperren, Sicherheitskonzepte: Wer bezahlt den Schutz der Weihnachtsmärkte?</h2>
+    <div class="card">
+      <p>Die Weihnachtsmarkt-Saison beginnt. Viele Märkte öffnen in den Tagen nach dem Totensonntag, der in diesem Jahr auf den 22. November fällt. Wer dann über einen Markt bummelt, sieht nicht nur Buden, Lichter und Glühwein, sondern oft auch große Betonblöcke, <b>Poller</b> und mobile <b>Fahrzeugsperren</b>. Vor einigen Jahren war das noch die Ausnahme. Spätestens seit dem Anschlag auf dem Berliner Breitscheidplatz am 19. Dezember 2016 und der Todesfahrt in Magdeburg am 20. Dezember 2024 gehört der Schutz vor Angriffen mit Fahrzeugen fast überall dazu.</p><p>Doch wer soll das bezahlen? Darüber gibt es jetzt Streit. Mehrere Verbände der Veranstaltungswirtschaft haben eine gemeinsame Stellungnahme veröffentlicht. Ihre Forderung: Für die <b>Terrorabwehr</b> auf Weihnachtsmärkten soll allein der Staat aufkommen. Bund und Länder sollen die Finanzierung von Pollern und Sperren per Gesetz und <b>einheitlich</b> regeln.</p><p>Johannes Everke, Geschäftsführer des Bundesverbands der Konzert- und Veranstaltungswirtschaft (BDKV), begründet das so: Die <b>Veranstalter</b> seien nur in ihrem eigenen Einflussbereich verantwortlich. Sobald es um terroristische Bedrohungen gehe, sei der Staat in der Pflicht. Bisher ist die Lage unübersichtlich: Mal zahlt die Stadt, mal der Veranstalter, und wer <b>zuständig</b> ist, wird von Ort zu Ort unterschiedlich bewertet. Das schafft Unsicherheit bei Behörden, Betreibern und Veranstaltern – und gefährdet nach Angaben der Verbände zunehmend die <b>Wirtschaftlichkeit</b> von Veranstaltungen.</p><p>Auch bei der Planung wünscht sich die Branche klare Regeln. Dennis Eichenbrenner, Vorsitzender des Bundesverbands Veranstaltungssicherheit (BVVS), fordert, dass jedes <b>Sicherheitskonzept</b> transparent und fachlich nachvollziehbar geprüft wird – schließlich gehe es um erhebliche Kosten. Für Besucher ist die Frage nicht abstrakt: Wenn Veranstalter mehr zahlen müssen, landen die Kosten am Ende womöglich in höheren <b>Standgebühren</b> – und damit im Preis für Bratwurst und Glühwein. Kleinere Märkte könnten es dann besonders schwer haben.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Poller</td><td>bollard</td><td>Ein kurzer, fester Pfosten aus Metall oder Beton, der Autos den Weg versperrt.</td><td>Vor dem Eingang zur Fußgängerzone stehen jetzt Poller.</td></tr><tr><td>die Fahrzeugsperre</td><td>vehicle barrier</td><td>Eine Absperrung, die verhindert, dass Autos oder Lkw in einen Bereich fahren.</td><td>Für das Stadtfest werden an allen Zufahrten mobile Fahrzeugsperren aufgestellt.</td></tr><tr><td>die Terrorabwehr</td><td>counter-terrorism, protection against terror attacks</td><td>Alle Maßnahmen, mit denen man Menschen vor Terroranschlägen schützt.</td><td>Die Terrorabwehr ist Aufgabe von Polizei und Behörden.</td></tr><tr><td>einheitlich <span class="rep">(Wiederholung)</span></td><td>uniform, standardized</td><td>Überall gleich, ohne Unterschiede.</td><td>Wir brauchen eine einheitliche Regel für alle Standorte.</td></tr><tr><td>der Veranstalter</td><td>organizer (of an event)</td><td>Die Person oder Firma, die ein Fest, ein Konzert oder einen Markt organisiert.</td><td>Der Veranstalter hat das Konzert wegen des Sturms abgesagt.</td></tr><tr><td>zuständig <span class="rep">(Wiederholung)</span></td><td>responsible, in charge</td><td>Eine Person oder Stelle muss sich um eine Aufgabe kümmern.</td><td>Wer ist bei uns für die Weihnachtsfeier zuständig?</td></tr><tr><td>die Wirtschaftlichkeit</td><td>economic viability, cost-effectiveness</td><td>Ob sich etwas finanziell lohnt, also ob die Einnahmen die Kosten decken.</td><td>Bei so hohen Mieten ist die Wirtschaftlichkeit des kleinen Ladens in Gefahr.</td></tr><tr><td>das Sicherheitskonzept</td><td>security plan</td><td>Ein schriftlicher Plan, wie man eine Veranstaltung oder ein Gebäude sicher macht.</td><td>Ohne genehmigtes Sicherheitskonzept darf das Festival nicht stattfinden.</td></tr><tr><td>die Standgebühr</td><td>stall fee, pitch fee</td><td>Geld, das ein Händler zahlt, damit er auf einem Markt oder einer Messe einen Stand haben darf.</td><td>Die Standgebühr für den Weihnachtsmarkt ist um zehn Prozent gestiegen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Spätestens seit …“</b> — So sagt man, ab welchem Ereignis etwas für alle klar oder normal geworden ist. Danach folgt oft „ist klar“ oder „gehört … dazu“.<br><i>Spätestens seit Corona gehört das Homeoffice in vielen Firmen einfach dazu.</i></li><li><b>„für etwas aufkommen“</b> — Etwas bezahlen, meistens Kosten oder einen Schaden. Klingt etwas formeller als „bezahlen“.<br><i>Für den Schaden am Firmenwagen kommt die Versicherung auf.</i></li><li><b>„in der Pflicht sein“</b> — Jemand muss jetzt handeln, weil es seine Aufgabe ist. Oft in Diskussionen über Verantwortung.<br><i>Bei der Einarbeitung neuer Kollegen ist auch das Team in der Pflicht, nicht nur die Chefin.</i></li><li><b>„Mal …, mal …“</b> — Etwas ist nicht immer gleich, es wechselt. Nach „mal“ steht direkt das Verb.<br><i>Mal arbeite ich im Büro, mal von zu Hause – je nach Termin.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Konjunktiv I – so berichten Zeitungen, was jemand gesagt hat:</b> „Die Veranstalter <b>seien</b> nur in ihrem eigenen Einflussbereich verantwortlich. Sobald es um terroristische Bedrohungen <b>gehe</b>, <b>sei</b> der Staat in der Pflicht.“ Die Journalisten zeigen damit: Das ist die Meinung von Herrn Everke, nicht die Meinung der Zeitung. Die Form ist leicht: Verbstamm + Endung, vor allem in der 3. Person: er <i>gehe</i>, sie <i>habe</i>, es <i>gebe</i>, er <i>sei</i>. Typischer Fehler: Lernende denken, sie müssten so auch im Gespräch sprechen. Im Alltag sagt man meistens einfach: „Er sagt, der Staat <i>ist</i> in der Pflicht.“ Den Konjunktiv I sollte man aber in Nachrichten erkennen – und in formellen E-Mails oder Protokollen kann man ihn gut benutzen.</p></div><div class="grammar-block"><p><b>„sobald“ – genau ab dem Moment, in dem …:</b> „<b>Sobald</b> es um terroristische Bedrohungen <b>geht</b>, ist der Staat in der Pflicht.“ „Sobald“ ist eine Konjunktion wie „wenn“, das Verb steht am Ende. Steht der „sobald“-Satz vorne, kommt danach direkt das Verb des Hauptsatzes („…, <i>ist</i> der Staat …“). Typischer Fehler: „sobald“ mit „so bald wie möglich“ verwechseln oder nach dem Nebensatz das Subjekt zuerst stellen – „Sobald ich zu Hause bin, ich rufe dich an.“ Richtig: „Sobald ich zu Hause bin, <i>rufe ich</i> dich an.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Was fordern die Verbände der Veranstaltungswirtschaft?</li><li>Welches Problem sehen die Verbände bei der bisherigen Regelung?</li><li>Wer ist Dennis Eichenbrenner?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „Spätestens seit …“ über etwas, das sich in deinem Leben oder an deinem Arbeitsplatz verändert hat.</li><li>Berichte im Konjunktiv I, was eine Kollegin oder dein Chef gesagt hat (z. B. „Meine Chefin sagt, das Projekt sei …“).</li><li>Schreibe einen Satz mit „sobald“ über deinen Arbeitstag oder deine Woche.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Gehst du gern auf Weihnachtsmärkte oder große Feste? Fühlst du dich dort sicher, und was hältst du von Pollern und Sperren? Wer sollte deiner Meinung nach für den Schutz bezahlen – der Staat oder die Veranstalter? Sprich vier bis fünf Sätze und benutze „zuständig“ und „der Veranstalter“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 17. November 2026): <a href="https://www.nw.de/nachrichten/wirtschaft/24464454_Veranstalter-Staat-soll-fuer-Terrorabwehr-auf-Maerkten-zahlen.html">Neue Westfälische/dpa: Veranstalter – Staat soll für Terrorabwehr auf Märkten zahlen</a>; <a href="https://www.ad-hoc-news.de/wirtschaft/weihnachtsmaerkte-veranstalter-fordern-staat-fuer-terrorabwehr/70523821">dpa via AD HOC NEWS: Weihnachtsmärkte – Veranstalter fordern Staat für Terrorabwehr</a>. Die Folgen für Standgebühren sind eine Einschätzung, keine Zahl aus der Meldung. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

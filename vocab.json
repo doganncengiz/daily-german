@@ -1446,13 +1446,17 @@
     "erk": "Wenn die Arbeit leichter oder weniger wird.",
     "bsp": "Das Tool bringt eine echte Entlastung im Alltag.",
     "dates": [
-      "2026-09-14"
+      "2026-09-14",
+      "2026-11-18"
     ],
     "sq": "lehtësimi, shkarkimi",
     "tr": "rahatlama, yük hafifletme",
     "uk": "полегшення, розвантаження",
     "ar": "التخفيف، تقليل العبء",
-    "fa": "تسکین، کاهش بار"
+    "fa": "تسکین، کاهش بار",
+    "es": "el alivio",
+    "fr": "l'allègement",
+    "it": "lo sgravio"
   },
   {
     "de": "entschädigen",
@@ -4398,13 +4402,17 @@
     "erk": "Wenn Menschen sehr unterschiedlicher Meinung über etwas sind.",
     "bsp": "Die Vier-Tage-Woche bleibt in Deutschland umstritten.",
     "dates": [
-      "2026-08-13"
+      "2026-08-13",
+      "2026-11-18"
     ],
     "sq": "i kontestuar, i diskutueshëm",
     "tr": "tartışmalı",
     "uk": "спірний, контроверсійний",
     "ar": "مثير للجدل",
-    "fa": "بحث‌برانگیز، جنجالی"
+    "fa": "بحث‌برانگیز، جنجالی",
+    "es": "controvertido",
+    "fr": "controversé",
+    "it": "controverso"
   },
   {
     "de": "die Unberechenbarkeit",
@@ -13877,5 +13885,124 @@
     "es": "la tarifa del puesto",
     "fr": "le droit de place",
     "it": "la tassa di posteggio"
+  },
+  {
+    "de": "der Koalitionsausschuss",
+    "en": "coalition committee",
+    "erk": "Ein Treffen der wichtigsten Politiker aller Regierungsparteien, bei dem sie Streitfragen klären.",
+    "bsp": "Der Koalitionsausschuss trifft sich heute Abend im Kanzleramt.",
+    "dates": [
+      "2026-11-18"
+    ],
+    "sq": "komiteti i koalicionit",
+    "tr": "koalisyon komitesi",
+    "uk": "коаліційний комітет",
+    "ar": "لجنة الائتلاف",
+    "fa": "کمیته ائتلاف",
+    "es": "el comité de coalición",
+    "fr": "le comité de coalition",
+    "it": "il comitato di coalizione"
+  },
+  {
+    "de": "die Stromsteuer",
+    "en": "electricity tax",
+    "erk": "Eine Steuer, die man für jede verbrauchte Menge Strom an den Staat zahlt.",
+    "bsp": "Die Stromsteuer ist ein Teil des Strompreises auf deiner Rechnung.",
+    "dates": [
+      "2026-11-18"
+    ],
+    "sq": "taksa mbi energjinë elektrike",
+    "tr": "elektrik vergisi",
+    "uk": "податок на електроенергію",
+    "ar": "ضريبة الكهرباء",
+    "fa": "مالیات برق",
+    "es": "el impuesto sobre la electricidad",
+    "fr": "la taxe sur l'électricité",
+    "it": "l'imposta sull'energia elettrica"
+  },
+  {
+    "de": "die Kilowattstunde",
+    "en": "kilowatt hour (kWh)",
+    "erk": "Die Einheit, mit der man Stromverbrauch misst und abrechnet.",
+    "bsp": "Unser Anbieter verlangt 32 Cent pro Kilowattstunde.",
+    "dates": [
+      "2026-11-18"
+    ],
+    "sq": "kilovat-orë",
+    "tr": "kilovatsaat",
+    "uk": "кіловат-година",
+    "ar": "كيلوواط ساعة",
+    "fa": "کیلووات‌ساعت",
+    "es": "el kilovatio hora",
+    "fr": "le kilowattheure",
+    "it": "il chilowattora"
+  },
+  {
+    "de": "der Mindestsatz",
+    "en": "minimum rate",
+    "erk": "Der niedrigste Betrag oder Prozentsatz, der erlaubt oder vorgeschrieben ist.",
+    "bsp": "Die EU schreibt für diese Steuer einen Mindestsatz vor.",
+    "dates": [
+      "2026-11-18"
+    ],
+    "sq": "norma minimale",
+    "tr": "asgari oran",
+    "uk": "мінімальна ставка",
+    "ar": "المعدل الأدنى",
+    "fa": "حداقل نرخ",
+    "es": "el tipo mínimo",
+    "fr": "le taux minimum",
+    "it": "l'aliquota minima"
+  },
+  {
+    "de": "die Gegenfinanzierung",
+    "en": "offsetting funding, how something is paid for",
+    "erk": "Das Geld, mit dem man eine neue Ausgabe oder eine Steuersenkung an anderer Stelle bezahlt.",
+    "bsp": "Ohne Gegenfinanzierung will der Finanzminister keine neuen Projekte beschließen.",
+    "dates": [
+      "2026-11-18"
+    ],
+    "sq": "burimi i financimit",
+    "tr": "finansman kaynağı",
+    "uk": "джерело фінансування",
+    "ar": "مصدر التمويل",
+    "fa": "منبع تأمین هزینه",
+    "es": "la financiación compensatoria",
+    "fr": "le financement compensatoire",
+    "it": "la copertura finanziaria"
+  },
+  {
+    "de": "der Überschuss",
+    "en": "surplus",
+    "erk": "Es ist mehr Geld da, als man gebraucht oder ausgegeben hat.",
+    "bsp": "Mit dem Überschuss aus dem Sommerfest kaufen wir eine neue Kaffeemaschine.",
+    "dates": [
+      "2026-11-18"
+    ],
+    "sq": "teprica",
+    "tr": "fazla",
+    "uk": "надлишок",
+    "ar": "فائض",
+    "fa": "مازاد",
+    "es": "el excedente",
+    "fr": "l'excédent",
+    "it": "l'eccedenza"
+  },
+  {
+    "de": "vorerst",
+    "en": "for the time being, for now",
+    "erk": "Erst einmal, für eine kurze Zeit – später kann es sich ändern.",
+    "bsp": "Das Homeoffice-Modell gilt vorerst bis Ende März.",
+    "dates": [
+      "2026-11-18"
+    ],
+    "sq": "për momentin",
+    "tr": "şimdilik",
+    "uk": "поки що",
+    "ar": "في الوقت الحالي",
+    "fa": "فعلاً",
+    "es": "por ahora",
+    "fr": "pour l'instant",
+    "it": "per il momento"
   }
 ]

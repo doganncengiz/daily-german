@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch ist die Stromsteuer für private Verbraucher bisher?",
+      "o": [
+        "0,1 Cent pro Kilowattstunde",
+        "2,05 Cent pro Kilowattstunde",
+        "5,4 Cent pro Kilowattstunde"
+      ],
+      "c": 1,
+      "why": "Im Text steht: „Bisher zahlen Verbraucher 2,05 Cent pro Kilowattstunde.“ 0,1 Cent ist der EU-Mindestsatz, der erst ab 2027 gelten soll, und 5,4 sind die Kosten für den Bund – in Milliarden Euro, nicht in Cent."
+    },
+    {
+      "q": "Wie ist die Finanzierung der Steuersenkung geregelt?",
+      "o": [
+        "Sie steht vorerst nur für das Jahr 2027.",
+        "Sie ist dauerhaft über Überschüsse aus dem EEG-Konto gesichert.",
+        "Sie kommt aus höheren Steuern auf Unternehmensgewinne und Kapitalerträge."
+      ],
+      "c": 0,
+      "why": "Der Text sagt: „Die Finanzierung steht vorerst nur für 2027.“ Das EEG-Konto war nur der Vorschlag der Union, die höheren Steuern nur eine Idee der SPD – keiner der beiden Vorschläge wird als Ergebnis genannt."
+    },
+    {
+      "q": "Was sagt der Text über die abschlagsfreie Rente nach 45 Beitragsjahren?",
+      "o": [
+        "Union und SPD wollen sie gemeinsam abschaffen.",
+        "Die Koalition hat sich in der Nacht darauf geeinigt, sie zu behalten.",
+        "Die Union will sie abschaffen, die SPD will sie behalten."
+      ],
+      "c": 2,
+      "why": "Die Rente gehört zu den Themen, die „ungelöst“ bleiben: Die Union will sie abschaffen, die SPD behalten. Es gibt also weder einen gemeinsamen Plan noch eine Einigung – die einzige Einigung betrifft die Stromsteuer."
+    }
+  ],
+  "schreib": [
+    "Die neue Zeiterfassung <b>soll</b> ab Februar für alle Abteilungen <b>gelten</b>. <span class=\"hint\">„soll“ = es ist geplant – nicht verwechseln mit „muss“, das ist eine Pflicht oder Forderung.</span>",
+    "Das ist die Software, <b>mit der</b> wir alle Urlaubsanträge bearbeiten. <span class=\"hint\">Die Präposition steht vor dem Relativpronomen, nicht am Satzende – und nicht „wo“ statt „mit der“.</span>",
+    "In der Besprechung habe ich flexible Arbeitszeiten <b>ins Gespräch gebracht</b>, und jetzt <b>steht</b> der Termin für eine Testphase. <span class=\"hint\">„ins Gespräch bringen“ braucht ein Akkusativobjekt: <i>etwas</i> ins Gespräch bringen.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Für mich wäre das eine spürbare Entlastung, weil …",
+      "Ehrlich gesagt sind gut 90 Euro im Jahr nicht besonders viel.",
+      "Das Thema ist umstritten, aber ich finde, dass …",
+      "Meiner Meinung nach sollte der Staat das Geld lieber für … ausgeben.",
+      "Wichtig ist doch, dass die Finanzierung auf Dauer steht."
+    ],
+    "modell": "Für unseren Haushalt wäre die niedrigere <b>Stromsteuer</b> schon eine kleine <b>Entlastung</b>, weil wir zu dritt sind und viel kochen und waschen. Ehrlich gesagt sind gut 90 Euro im Jahr aber nicht so viel – unsere Miete ist das viel größere Problem. Ich verstehe, warum das Thema <b>umstritten</b> ist: 5,4 Milliarden Euro sind eine Menge Geld. Mich stört vor allem, dass die <b>Gegenfinanzierung</b> nur <b>vorerst</b> für 2027 steht. Ich würde mir wünschen, dass der Staat mehr Geld in Kitas und in die Bahn steckt."
+  }
+}

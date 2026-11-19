@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 19. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 19. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 19. November</div>
+    <h2 class="heading">Vier statt zwei Jahre: Kabinett will längere befristete Arbeitsverträge erlauben</h2>
+    <div class="card">
+      <p>Wer in Deutschland einen neuen Job anfängt, bekommt oft zuerst einen <b>befristeten</b> Vertrag. Bisher darf ein Arbeitgeber eine Stelle ohne besonderen Grund höchstens zwei Jahre befristen und den Vertrag in dieser Zeit maximal dreimal <b>verlängern</b>. Das soll sich ändern. Am Mittwoch hat das Bundeskabinett einen <b>Gesetzentwurf</b> von Arbeitsminister Alexander Schweitzer (SPD) beschlossen – früher als geplant, weil das Kanzleramt Druck gemacht hatte.</p><p>Der Kern: Wer bis Ende 2030 eingestellt wird, kann künftig bis zu vier Jahre ohne <b>Sachgrund</b> befristet beschäftigt werden. In dieser Zeit darf der Vertrag bis zu sechsmal verlängert werden. Außerdem soll eine erneute Befristung beim bisherigen Arbeitgeber erlaubt werden. Laut Ministerium soll die Regel wirtschaftlich schwierige Zeiten <b>überbrücken</b> und Firmen Mut zu Neueinstellungen machen.</p><p>Auch beim <b>Kündigungsschutz</b> gibt es eine Änderung, allerdings nur für sehr gut Verdienende. Bei einem Jahreseinkommen ab rund 180.000 Euro soll sich ein Arbeitgeber künftig auch ohne ausreichenden Grund trennen können, wenn er eine <b>Abfindung</b> zahlt. Über die Höhe entscheidet im Streitfall das Arbeitsgericht. Nach Schätzungen von Fachleuten betrifft das nur etwa 0,27 Prozent der Beschäftigten. Außerdem dürfen Bäckereien ihre Leute sonntags länger arbeiten lassen, Bibliotheken bis zu sechs Stunden.</p><p>Kurz nach dem Beschluss wurde Kritik laut. Die gewerkschaftsnahe Hans-Böckler-Stiftung hat ausgerechnet, dass man mit den neuen Regeln bis zu acht Jahre ohne Sachgrund beim selben Arbeitgeber befristet arbeiten könnte. Auch die <b>Gewerkschaften</b> sind skeptisch: Der DGB hatte schon vorher gewarnt, gerade junge Menschen hätten dann weniger <b>Planungssicherheit</b>, etwa bei der Wohnungssuche oder der Familienplanung. Die Arbeitgeber dagegen sprechen von einem „positiven Signal“. Jetzt berät der Bundestag. Die neuen Regeln sollen Anfang 2027 in Kraft treten, der Bundesrat muss nicht zustimmen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>befristet</td><td>fixed-term, temporary</td><td>Etwas gilt nur bis zu einem festen Datum und endet dann automatisch.</td><td>Mein erster Vertrag war auf ein Jahr befristet.</td></tr><tr><td>verlängern <span class="rep">(Wiederholung)</span></td><td>to extend</td><td>Etwas dauert länger als geplant, oder man macht es länger gültig.</td><td>Die Firma hat meinen Vertrag um sechs Monate verlängert.</td></tr><tr><td>der Gesetzentwurf</td><td>draft bill</td><td>Der Text für ein neues Gesetz, über den das Parlament noch abstimmen muss.</td><td>Der Gesetzentwurf geht jetzt in den Bundestag.</td></tr><tr><td>der Sachgrund</td><td>objective reason (for a fixed term)</td><td>Ein konkreter Grund für eine Befristung, zum Beispiel eine Vertretung während der Elternzeit.</td><td>Meine Stelle ist mit Sachgrund befristet, weil ich eine Kollegin in Elternzeit vertrete.</td></tr><tr><td>überbrücken</td><td>to bridge, to get through (a period)</td><td>Eine schwierige oder leere Zeit mit einer Zwischenlösung schaffen.</td><td>Bis zum neuen Job überbrücke ich die zwei Monate mit einem Minijob.</td></tr><tr><td>der Kündigungsschutz</td><td>protection against dismissal</td><td>Regeln, die verhindern, dass ein Arbeitgeber jemandem ohne guten Grund kündigt.</td><td>In kleinen Betrieben gilt der Kündigungsschutz nur eingeschränkt.</td></tr><tr><td>die Abfindung</td><td>severance pay</td><td>Geld, das ein Arbeitgeber zahlt, wenn ein Arbeitsverhältnis gegen den Wunsch des Mitarbeiters endet.</td><td>Er hat eine Abfindung von drei Monatsgehältern bekommen.</td></tr><tr><td>die Gewerkschaft <span class="rep">(Wiederholung)</span></td><td>trade union</td><td>Eine Organisation, die die Interessen der Arbeitnehmer vertritt, zum Beispiel bei Lohn und Arbeitszeit.</td><td>Die Gewerkschaft fordert mehr Geld für die Pflegekräfte.</td></tr><tr><td>die Planungssicherheit</td><td>certainty for planning ahead</td><td>Man weiß sicher genug, wie die Zukunft aussieht, und kann deshalb gut planen.</td><td>Ein unbefristeter Vertrag gibt mir mehr Planungssicherheit für die Wohnungssuche.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Druck machen“</b> — Jemanden drängen, dass etwas schneller passiert. Ganz normal im Büroalltag, klingt aber etwas umgangssprachlich.<br><i>Der Kunde macht Druck, wir sollen bis Freitag liefern.</i></li><li><b>„Kritik wird laut“</b> — Viele Menschen kritisieren etwas öffentlich, meist kurz nach einer Entscheidung. Typisch für Nachrichten.<br><i>Nach der Ankündigung der neuen Parkgebühren wurde schnell Kritik laut.</i></li><li><b>„sich von jemandem trennen“</b> — Im Arbeitsleben die höfliche Formulierung für „jemandem kündigen“ oder „gemeinsam aufhören“.<br><i>Die Firma hat sich im Sommer von zwei Mitarbeitern getrennt.</i></li><li><b>„in Kraft treten“</b> — Ein Gesetz oder eine Regel beginnt offiziell zu gelten.<br><i>Die neue Homeoffice-Regel tritt am 1. Januar in Kraft.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Passiv mit Modalverb:</b> „Der Vertrag <b>darf</b> bis zu sechsmal <b>verlängert werden</b>.“ – „Eine erneute Befristung <b>soll</b> … <b>erlaubt werden</b>.“ Das Modalverb steht an Position 2, am Ende kommen Partizip II + „werden“. So klingt der Satz sachlich: Wichtig ist, was passiert, nicht wer es macht. Typischer Fehler: „wird“ statt „werden“ ans Ende setzen („Der Vertrag darf verlängert <i>wird</i>“) oder das Partizip vergessen („darf werden verlängert“). Im Nebensatz rutscht das Modalverb ganz nach hinten: „…, weil der Vertrag verlängert werden <i>darf</i>.“</p></div><div class="grammar-block"><p><b>Indirekte Rede mit Konjunktiv:</b> „Der DGB hatte gewarnt, gerade junge Menschen <b>hätten</b> dann weniger Planungssicherheit.“ In Nachrichten zeigt der Konjunktiv: Das ist die Meinung einer anderen Person, nicht die Meinung der Zeitung. Eigentlich steht hier Konjunktiv I („sie haben“), aber der sieht im Plural genauso aus wie der Indikativ – deshalb nimmt man Konjunktiv II: „hätten“. Typischer Fehler: im Alltag einfach „dass“ + Indikativ benutzen und denken, das sei falsch. Ist es nicht! Gesprochen sagt man oft: „Er hat gesagt, dass er morgen kommt.“ Geschrieben und in Nachrichten ist der Konjunktiv aber üblich.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wie lange darf man nach dem Entwurf höchstens ohne Sachgrund befristet beschäftigt werden, wenn man bis Ende 2030 eingestellt wird?</li><li>Für wen gilt die Änderung beim Kündigungsschutz?</li><li>Wie reagieren Gewerkschaften und Arbeitgeber auf den Entwurf?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz im Passiv mit Modalverb (z. B. „soll … eingeführt werden“, „darf … verlängert werden“) über eine geplante Änderung in deiner Firma oder deinem Kurs.</li><li>Gib in indirekter Rede wieder, was eine Kollegin, dein Chef oder ein Freund gesagt hat (z. B. „Sie sagt, sie habe / hätte …“).</li><li>Schreibe einen Satz mit „in Kraft treten“ oder „Kritik wird laut“ über eine neue Regel, die du kennst.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Würdest du einen Vertrag annehmen, der auf vier Jahre befristet ist – oder ist dir ein unbefristeter Vertrag wichtiger, auch wenn das Gehalt etwas niedriger ist? Sprich vier bis fünf Sätze und benutze „befristet“ und „die Planungssicherheit“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 19. November 2026, früher Morgen): <a href="https://www.onvista.de/news/2026/11-18-roundup-2-regierung-erleichtert-befristungen-von-jobs-0-10-26577973">onvista/dpa-AFX: Regierung erleichtert Befristungen von Jobs</a> (Kabinettsbeschluss, 48 Monate, sechs Verlängerungen, rund 180.000 Euro, 0,27 Prozent, Hans-Böckler-Stiftung, Zeitplan); <a href="https://www.berliner-zeitung.de/article/arbeitsmarkt-reform-kabinett-beschliesst-laengere-befristungen-und-weniger-kuendigungsschutz-10610442">Berliner Zeitung/dpa: Kabinett beschließt längere Befristungen und weniger Kündigungsschutz</a>; <a href="https://www.gegen-hartz.de/news/arbeitnehmer-aufgepasst-neue-reform-soll-befristete-jobs-auf-vier-jahre-ausweiten">gegen-hartz.de: Reform soll befristete Jobs auf vier Jahre ausweiten</a> (Reaktionen von DGB und BDA). Die geltende Regel (zwei Jahre, drei Verlängerungen) steht in § 14 Abs. 2 TzBfG. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

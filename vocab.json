@@ -8831,7 +8831,8 @@
     "erk": "Etwas länger machen, als es vorher war.",
     "bsp": "Die Baustelle verlängert meinen Arbeitsweg jeden Tag um eine halbe Stunde.",
     "dates": [
-      "2026-10-05"
+      "2026-10-05",
+      "2026-11-19"
     ],
     "sq": "zgjat",
     "tr": "uzatmak",
@@ -11782,7 +11783,8 @@
     "erk": "Eine Organisation, die für die Interessen der Beschäftigten kämpft.",
     "bsp": "Die Gewerkschaft fordert mehr Lohn und sichere Arbeitsplätze.",
     "dates": [
-      "2026-10-29"
+      "2026-10-29",
+      "2026-11-19"
     ],
     "sq": "sindikata",
     "tr": "sendika",
@@ -14004,5 +14006,124 @@
     "es": "por ahora",
     "fr": "pour l'instant",
     "it": "per il momento"
+  },
+  {
+    "de": "befristet",
+    "en": "fixed-term, temporary",
+    "erk": "Etwas gilt nur bis zu einem festen Datum und endet dann automatisch.",
+    "bsp": "Mein erster Vertrag war auf ein Jahr befristet.",
+    "dates": [
+      "2026-11-19"
+    ],
+    "sq": "me afat të caktuar",
+    "tr": "süreli, belirli süreli",
+    "uk": "строковий, тимчасовий",
+    "ar": "محدد المدة",
+    "fa": "موقت، مدت‌دار",
+    "es": "temporal, de duración determinada",
+    "fr": "à durée déterminée",
+    "it": "a tempo determinato"
+  },
+  {
+    "de": "der Gesetzentwurf",
+    "en": "draft bill",
+    "erk": "Der Text für ein neues Gesetz, über den das Parlament noch abstimmen muss.",
+    "bsp": "Der Gesetzentwurf geht jetzt in den Bundestag.",
+    "dates": [
+      "2026-11-19"
+    ],
+    "sq": "projektligji",
+    "tr": "kanun tasarısı",
+    "uk": "законопроєкт",
+    "ar": "مشروع قانون",
+    "fa": "لایحه",
+    "es": "el proyecto de ley",
+    "fr": "le projet de loi",
+    "it": "il disegno di legge"
+  },
+  {
+    "de": "der Sachgrund",
+    "en": "objective reason (for a fixed term)",
+    "erk": "Ein konkreter Grund für eine Befristung, zum Beispiel eine Vertretung während der Elternzeit.",
+    "bsp": "Meine Stelle ist mit Sachgrund befristet, weil ich eine Kollegin in Elternzeit vertrete.",
+    "dates": [
+      "2026-11-19"
+    ],
+    "sq": "arsye objektive",
+    "tr": "objektif gerekçe",
+    "uk": "об'єктивна підстава",
+    "ar": "سبب موضوعي",
+    "fa": "دلیل مشخص",
+    "es": "la causa objetiva",
+    "fr": "le motif objectif",
+    "it": "la causa oggettiva"
+  },
+  {
+    "de": "überbrücken",
+    "en": "to bridge, to get through (a period)",
+    "erk": "Eine schwierige oder leere Zeit mit einer Zwischenlösung schaffen.",
+    "bsp": "Bis zum neuen Job überbrücke ich die zwei Monate mit einem Minijob.",
+    "dates": [
+      "2026-11-19"
+    ],
+    "sq": "kaloj (një periudhë)",
+    "tr": "(bir dönemi) atlatmak",
+    "uk": "перечекати, пережити (період)",
+    "ar": "تجاوز (فترة)",
+    "fa": "سپری کردن (یک دوره)",
+    "es": "salvar, cubrir (un periodo)",
+    "fr": "faire la transition, passer (une période)",
+    "it": "superare, coprire (un periodo)"
+  },
+  {
+    "de": "der Kündigungsschutz",
+    "en": "protection against dismissal",
+    "erk": "Regeln, die verhindern, dass ein Arbeitgeber jemandem ohne guten Grund kündigt.",
+    "bsp": "In kleinen Betrieben gilt der Kündigungsschutz nur eingeschränkt.",
+    "dates": [
+      "2026-11-19"
+    ],
+    "sq": "mbrojtja nga pushimi nga puna",
+    "tr": "işten çıkarmaya karşı koruma",
+    "uk": "захист від звільнення",
+    "ar": "الحماية من الفصل",
+    "fa": "حمایت در برابر اخراج",
+    "es": "la protección contra el despido",
+    "fr": "la protection contre le licenciement",
+    "it": "la tutela contro il licenziamento"
+  },
+  {
+    "de": "die Abfindung",
+    "en": "severance pay",
+    "erk": "Geld, das ein Arbeitgeber zahlt, wenn ein Arbeitsverhältnis gegen den Wunsch des Mitarbeiters endet.",
+    "bsp": "Er hat eine Abfindung von drei Monatsgehältern bekommen.",
+    "dates": [
+      "2026-11-19"
+    ],
+    "sq": "kompensimi për largim nga puna",
+    "tr": "kıdem tazminatı",
+    "uk": "вихідна допомога",
+    "ar": "مكافأة نهاية الخدمة",
+    "fa": "غرامت پایان کار",
+    "es": "la indemnización por despido",
+    "fr": "l'indemnité de licenciement",
+    "it": "la buonuscita"
+  },
+  {
+    "de": "die Planungssicherheit",
+    "en": "certainty for planning ahead",
+    "erk": "Man weiß sicher genug, wie die Zukunft aussieht, und kann deshalb gut planen.",
+    "bsp": "Ein unbefristeter Vertrag gibt mir mehr Planungssicherheit für die Wohnungssuche.",
+    "dates": [
+      "2026-11-19"
+    ],
+    "sq": "siguria për të planifikuar",
+    "tr": "planlama güvencesi",
+    "uk": "впевненість у плануванні",
+    "ar": "القدرة على التخطيط بثقة",
+    "fa": "امکان برنامه‌ریزی مطمئن",
+    "es": "la seguridad para planificar",
+    "fr": "la visibilité, la sécurité de planification",
+    "it": "la certezza per pianificare"
   }
 ]

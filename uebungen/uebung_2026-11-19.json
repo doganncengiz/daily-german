@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie lange darf man nach dem Entwurf höchstens ohne Sachgrund befristet beschäftigt werden, wenn man bis Ende 2030 eingestellt wird?",
+      "o": [
+        "Zwei Jahre",
+        "Vier Jahre",
+        "Acht Jahre"
+      ],
+      "c": 1,
+      "why": "Der Text sagt: „bis zu vier Jahre ohne Sachgrund“. Zwei Jahre ist die Regel, die bisher gilt. Die acht Jahre sind nur eine Rechnung der Hans-Böckler-Stiftung für den Fall, dass man zweimal beim selben Arbeitgeber befristet wird."
+    },
+    {
+      "q": "Für wen gilt die Änderung beim Kündigungsschutz?",
+      "o": [
+        "Für alle Beschäftigten, die bis Ende 2030 eingestellt werden",
+        "Für Beschäftigte in Bäckereien und Bibliotheken",
+        "Für Beschäftigte mit einem Jahreseinkommen ab rund 180.000 Euro"
+      ],
+      "c": 2,
+      "why": "Die Änderung gilt „nur für sehr gut Verdienende“ ab rund 180.000 Euro im Jahr – laut Schätzung etwa 0,27 Prozent der Beschäftigten. „Bis Ende 2030“ gehört zur Befristungsregel, und bei Bäckereien und Bibliotheken geht es um Sonntagsarbeit, nicht um Kündigungen."
+    },
+    {
+      "q": "Wie reagieren Gewerkschaften und Arbeitgeber auf den Entwurf?",
+      "o": [
+        "Die Gewerkschaften sind skeptisch, die Arbeitgeber sprechen von einem „positiven Signal“.",
+        "Beide begrüßen den Entwurf, weil er Neueinstellungen leichter macht.",
+        "Die Arbeitgeber kritisieren den Entwurf, die Gewerkschaften sprechen von einem „positiven Signal“."
+      ],
+      "c": 0,
+      "why": "Der DGB warnt vor weniger Planungssicherheit für junge Menschen, die Arbeitgeber nennen den Entwurf ein „positives Signal“. Dass die Regel Firmen Mut zu Neueinstellungen machen soll, ist das Argument des Ministeriums, nicht der Gewerkschaften – und Option c) vertauscht die beiden Seiten."
+    }
+  ],
+  "schreib": [
+    "Ab Januar <b>soll</b> in unserer Abteilung ein neues Zeiterfassungssystem <b>eingeführt werden</b>. <span class=\"hint\">Am Ende steht „werden“, nicht „wird“ – und das Partizip kommt direkt davor.</span>",
+    "Meine Teamleiterin hat gesagt, mein Vertrag <b>werde</b> wahrscheinlich <b>verlängert</b> und sie <b>habe</b> schon mit der Personalabteilung gesprochen. <span class=\"hint\">Konjunktiv I in der 3. Person Singular: „er/sie habe, werde, sei“ – ohne -t am Ende.</span>",
+    "Die neue Regel für das Homeoffice <b>tritt</b> am 1. März <b>in Kraft</b> – und schon jetzt <b>wird</b> im Team <b>Kritik laut</b>. <span class=\"hint\">„treten“ ist unregelmäßig: er/sie/es tritt, nicht „tretet“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Für mich wäre ein befristeter Vertrag okay, solange …",
+      "Mir ist Planungssicherheit wichtiger als …",
+      "Ich kann verstehen, dass Firmen in schwierigen Zeiten …",
+      "Auf der anderen Seite muss man sagen, dass …",
+      "Ehrlich gesagt hätte ich Bedenken, weil …"
+    ],
+    "modell": "Ehrlich gesagt hätte ich bei einem Vertrag, der auf vier Jahre <b>befristet</b> ist, ein ungutes Gefühl. Ich suche gerade eine größere Wohnung, und viele Vermieter fragen zuerst nach einem unbefristeten Vertrag. Mir ist <b>Planungssicherheit</b> deshalb wichtiger als ein paar Hundert Euro mehr im Monat. Ich kann aber verstehen, dass Firmen in schwierigen Zeiten vorsichtig sind und lieber erst einmal befristet einstellen. Wenn der Vertrag nach einem Jahr <b>verlängert</b> wird und klar ist, dass eine feste Stelle kommt, würde ich es vielleicht trotzdem machen."
+  }
+}

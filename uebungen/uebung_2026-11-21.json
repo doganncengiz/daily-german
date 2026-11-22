@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Wie stark stiegen die Erzeugerpreise im Oktober gegenüber dem Vorjahresmonat?",
+      "o": [
+        "Um 7,4 Prozent.",
+        "Um 8,1 Prozent.",
+        "Um 13,9 Prozent."
+      ],
+      "c": 1,
+      "why": "Die Erzeugerpreise lagen <b>8,1 Prozent</b> über dem Vorjahresmonat. 7,4 Prozent hatten die Experten erwartet, und 13,9 Prozent war das Plus im Februar 2023."
+    },
+    {
+      "q": "Welche Preise sind laut Text gesunken?",
+      "o": [
+        "Die Preise für Kraftstoffe.",
+        "Die Preise für Kupfer.",
+        "Die Preise für Nahrungsmittel wie Butter."
+      ],
+      "c": 2,
+      "why": "Nahrungsmittel wurden <b>3,1 Prozent billiger</b>, Butter sogar 25 Prozent. Kraftstoffe (+38,4 Prozent) und Kupfer (+29,4 Prozent) wurden dagegen teurer."
+    },
+    {
+      "q": "Bis wann gilt das Tanzverbot am Totensonntag in Nordrhein-Westfalen?",
+      "o": [
+        "Bis 18 Uhr.",
+        "Bis 21 Uhr.",
+        "Bis 24 Uhr."
+      ],
+      "c": 0,
+      "why": "In Nordrhein-Westfalen ist <b>um 18 Uhr Schluss</b>. 21 Uhr gilt in Berlin, und bis 24 Uhr dauert das Verbot zum Beispiel in Bayern und Hessen."
+    },
+    {
+      "q": "Wer muss bei einer öffentlichen Party am Totensonntag mit einem Bußgeld rechnen?",
+      "o": [
+        "Jeder Gast, der tanzt.",
+        "Familien mit privaten Feiern.",
+        "Der Veranstalter."
+      ],
+      "c": 2,
+      "why": "Verantwortlich ist <b>der Veranstalter, nicht der Gast</b>. Private Feiern sind laut Text gar nicht betroffen."
+    },
+    {
+      "q": "Wer erzielte das Tor für den FC Bayern?",
+      "o": [
+        "Nathaniel Brown.",
+        "Mikey Moore.",
+        "Tom Bischof."
+      ],
+      "c": 0,
+      "why": "<b>Nathaniel Brown</b> erzielte in der 37. Minute den Ausgleich. Mikey Moore traf für Köln zum 0:1, und Tom Bischof kam für den verletzten Harry Kane ins Spiel."
+    },
+    {
+      "q": "Warum kann Dortmund heute an die Spitze springen?",
+      "o": [
+        "Weil Bayern am Freitag gegen Köln verloren hat.",
+        "Weil Dortmund nur einen Punkt weniger hat und noch ein Spiel mehr spielen kann.",
+        "Weil Dortmund schon mehr Punkte hat als Bayern."
+      ],
+      "c": 1,
+      "why": "Dortmund hat <b>21 Punkte und ein Spiel weniger</b>, Bayern hat 22. Mit einem Sieg in Mönchengladbach kommt der BVB auf 24 Punkte. Bayern hat nicht verloren, sondern 1:1 gespielt, und Dortmund hat im Moment weniger Punkte als Bayern."
+    }
+  ],
+  "schreib": [
+    "Ich <b>hatte nicht damit gerechnet</b>, dass die Miete so stark steigt.<span class=\"hint\"> „rechnen mit“ + Dativ; mit einem Nebensatz: „damit rechnen, dass …“.</span>",
+    "In der Stadt ist ein Kaffee <b>fast doppelt so teuer wie</b> zu Hause und viel <b>teurer als</b> in der Kantine.<span class=\"hint\"> Komparativ + „als“, „so … wie“ – nicht „teurer wie“.</span>",
+    "<b>Wer</b> als Letzter das Büro <b>verlässt</b>, <b>der macht</b> das Licht aus.<span class=\"hint\"> Im Wer-Satz steht das Verb am Ende; danach direkt das Verb des Hauptsatzes.</span>",
+    "Köln <b>ging</b> früh <b>in Führung</b>, aber Bayern <b>erzielte</b> noch vor der Pause <b>den Ausgleich</b>.<span class=\"hint\"> „in Führung gehen“ (Präteritum: ging), nicht „in Führung kommen“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "In meinem Land gibt es einen Tag, an dem …",
+      "An diesem Tag besuchen viele …",
+      "Wer an diesem Tag …, der …",
+      "Erlaubt ist …, aber nicht erlaubt ist …",
+      "Im Vergleich zum Totensonntag ist es bei uns …"
+    ],
+    "modell": "„In meinem Land gibt es auch einen Tag, an dem man an die Verstorbenen denkt. Viele Familien besuchen dann den <b>Friedhof</b> und bringen Blumen. Ein <b>Tanzverbot</b> wie am <b>Totensonntag</b> gibt es bei uns aber nicht. <b>Wer</b> an diesem Tag feiern will, <b>der</b> feiert eben ein bisschen leiser. Ich finde einen <b>stillen Tag</b> im November gut, weil man im Alltag sonst kaum Zeit zum Nachdenken hat.“"
+  }
+}

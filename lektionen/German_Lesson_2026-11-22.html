@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 22. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Sonntag, 22. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+<section id="lese" class="panel active"><div class="label">Wochenend-Ausgabe</div><h2 class="heading">Black Friday mit Rekordprognose, Neuschnee im Allgäu, Dortmund an der Spitze</h2>
+<div class="card"><h3 class="art-kicker">Wirtschaft</h3><h4 class="art-title">Black Friday: Der Handel hofft auf 6,2 Milliarden Euro</h4><p>Am Freitag ist es wieder so weit: Am 27. November ist Black Friday, drei Tage später, am 30. November, folgt der Cyber Monday. Der Handelsverband Deutschland (HDE) rechnet für beide Aktionstage zusammen mit einem Umsatz von 6,2 Milliarden Euro. Das wäre ein Rekord und knapp sechs Prozent mehr als im Vorjahr. Seit 2016 war der Umsatz an diesen Tagen fast jedes Jahr gewachsen, 2025 war er aber zum ersten Mal gesunken.</p><p>Laut einer Umfrage im Auftrag des HDE wollen 51 Prozent der Befragten am Black Friday nach Angeboten suchen. Viele denken dabei schon an Weihnachten: Rund 1,9 Milliarden Euro, also knapp ein Drittel des Umsatzes, sollen in Weihnachtsgeschenke fließen.</p><p>Doch viele Deutsche sind misstrauisch. In einer Studie der Unternehmensberatung Boston Consulting Group mit rund 1.000 Befragten in Deutschland glauben nur 37 Prozent, dass die Produkte am Black Friday wirklich billiger sind als sonst. Kaum ein anderes Land ist so skeptisch. Ein Rabatt von etwa 28 Prozent gilt den Deutschen als echtes Schnäppchen. Wer kaufen will, plant im Schnitt rund 313 Euro ein, international sind es 371 Euro. Fast die Hälfte, nämlich 49 Prozent, will nur online kaufen. Und 57 Prozent der Kaufwilligen wollen sich bei der Suche von künstlicher Intelligenz helfen lassen.</p></div>
+<div class="card"><h3 class="art-kicker">Freizeit</h3><h4 class="art-title">Neuschnee im Allgäu: Die Skisaison steht vor der Tür</h4><p>Für Wintersportler beginnt eine spannende Woche. Für heute erwarten die Meteorologen von wetter.net in den Allgäuer Alpen mehr als 25 Zentimeter Neuschnee in 24 Stunden. Danach soll es frostig werden: Nachts sind bis zu minus acht Grad möglich, tagsüber meist nur 0 bis 6 Grad. Für die Skigebiete ist das eine gute Nachricht, denn Anfang November war es in den Alpen lange trocken, und danach brachte milde Luft aus dem Westen vor allem Regen.</p><p>Auf der Zugspitze, dem höchsten Berg Deutschlands, plant die Bayerische Zugspitzbahn den Saisonstart für Freitag, den 27. November. Gefahren wird auf dem Zugspitzplatt zwischen rund 2.000 und 2.720 Metern, und zwar bis zum 2. Mai 2027. Die meisten Pisten sind leicht bis mittelschwer. Schneekanonen gibt es dort oben nicht, der Betrieb hängt also ganz vom Naturschnee ab. Ob der Termin hält, war zuletzt noch offen. Auch der Feldberg im Schwarzwald und Winterberg im Sauerland nennen den 27. November als Ziel. In Winterberg helfen spezielle Maschinen, die sogar bei Plusgraden Schnee produzieren.</p><p>Billiger wird das Vergnügen allerdings nicht: Laut dem Verband Deutscher Seilbahnen kostet ein Tagesskipass in diesem Winter im Durchschnitt 4,2 Prozent mehr als im Vorjahr. Für eine Familie kann ein Skitag also schnell teuer werden.</p></div>
+<div class="card"><h3 class="art-kicker">Sport</h3><h4 class="art-title">Nmecha schießt Dortmund an die Spitze</h4><p>Borussia Dortmund ist neuer Tabellenführer der Bundesliga. Der BVB gewann am Samstag bei Borussia Mönchengladbach mit 1:0 und hat jetzt 24 Punkte, zwei mehr als der FC Bayern, der am Freitag nur 1:1 gegen Köln gespielt hatte. Lange sah es nach einem torlosen Unentschieden aus. Beide Torhüter hielten stark: Gregor Kobel parierte für Dortmund gegen Hack und Machino, Daniel Batz für Gladbach gegen Beier.</p><p>In der 80. Minute fiel dann die Entscheidung. Nach einer Flanke von Mathis Albert legte Marcel Sabitzer den Ball für Felix Nmecha auf. Nmechas Schuss war nicht besonders hart, doch Batz sah den Ball spät und konnte ihn nicht halten. Für viele Beobachter war es ein Patzer des Torwarts. Die Fans wählten Nmecha mit 74 Prozent der Stimmen zum Spieler des Spiels. Trainer Niko Kovac musste auf Stürmer Serhou Guirassy verzichten, seine Mannschaft hatte aber klar die besseren Chancen.</p><p>Für Gladbach und Trainer Alexander Blessin wird die Lage immer schwieriger. Die Mannschaft ist Schlusslicht der Liga, hat nach zehn Spielen erst vier Punkte und wartet weiter auf den ersten Heimsieg der Saison. Deutlich gewannen dagegen Leverkusen (4:0 gegen Paderborn) und Leipzig (5:1 bei Union Berlin). Viel Zeit zum Feiern bleibt dem BVB nicht: Schon am Dienstag um 21 Uhr spielt Dortmund in der Champions League beim FC Arsenal.</p><div class="next-btn" onclick="goNext()">↓</div></div>
+</section>
+<section id="vokabular" class="panel"><div class="label">Vokabular</div><h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card"><table><tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+<tr><th class="group" colspan="4">Wirtschaft</th></tr>
+<tr><td>der Umsatz <span class="rep">(Wiederholung)</span></td><td>turnover, sales</td><td>Das Geld, das ein Geschäft durch Verkäufe einnimmt.</td><td>Der HDE rechnet mit einem Umsatz von 6,2 Milliarden Euro.</td></tr>
+<tr><td>der Aktionstag</td><td>promotional day, sale day</td><td>Ein Tag, an dem viele Geschäfte besondere Angebote machen.</td><td>Für beide Aktionstage erwartet der Handel einen Rekord.</td></tr>
+<tr><td>das Schnäppchen</td><td>bargain</td><td>Ein Produkt, das man sehr günstig kauft.</td><td>Ein Rabatt von 28 Prozent gilt den Deutschen als echtes Schnäppchen.</td></tr>
+<tr><td>der Rabatt</td><td>discount</td><td>So viel billiger ist ein Produkt als der normale Preis.</td><td>Viele Händler geben am Black Friday hohe Rabatte.</td></tr>
+<tr><td>misstrauisch</td><td>distrustful, suspicious</td><td>Man glaubt etwas nicht sofort und ist vorsichtig.</td><td>Viele Deutsche sind bei Black-Friday-Angeboten misstrauisch.</td></tr>
+<tr><th class="group" colspan="4">Freizeit</th></tr>
+<tr><td>der Durchschnitt <span class="rep">(Wiederholung)</span></td><td>average</td><td>Ein Wert, den man aus vielen Zahlen berechnet.</td><td>Ein Tagesskipass kostet im Durchschnitt 4,2 Prozent mehr als im Vorjahr.</td></tr>
+<tr><td>der Saisonstart</td><td>start of the season</td><td>Der erste Tag, an dem zum Beispiel ein Skigebiet wieder geöffnet ist.</td><td>Die Zugspitzbahn plant den Saisonstart für den 27. November.</td></tr>
+<tr><td>der Neuschnee</td><td>fresh snow</td><td>Schnee, der gerade erst gefallen ist.</td><td>Im Allgäu werden mehr als 25 Zentimeter Neuschnee erwartet.</td></tr>
+<tr><td>die Schneekanone</td><td>snow cannon</td><td>Eine Maschine, die künstlichen Schnee macht.</td><td>Auf der Zugspitze gibt es keine Schneekanonen.</td></tr>
+<tr><td>der Tagesskipass</td><td>one-day ski pass</td><td>Eine Karte, mit der man einen Tag lang die Lifte benutzen darf.</td><td>Ein Tagesskipass ist in diesem Winter teurer als im Vorjahr.</td></tr>
+<tr><th class="group" colspan="4">Sport</th></tr>
+<tr><td>der Tabellenführer <span class="rep">(Wiederholung)</span></td><td>league leader</td><td>Die Mannschaft, die aktuell auf Platz eins steht.</td><td>Borussia Dortmund ist neuer Tabellenführer der Bundesliga.</td></tr>
+<tr><td>der Patzer</td><td>blunder, slip</td><td>Ein dummer, kleiner Fehler, oft in einem wichtigen Moment.</td><td>Für viele Beobachter war das Tor ein Patzer des Torwarts.</td></tr>
+<tr><td>das Schlusslicht</td><td>bottom team, last place</td><td>Die Mannschaft auf dem letzten Platz der Tabelle.</td><td>Gladbach ist nach zehn Spielen Schlusslicht der Liga.</td></tr>
+<tr><td>der Heimsieg</td><td>home win</td><td>Ein Sieg im eigenen Stadion.</td><td>Gladbach wartet noch auf den ersten Heimsieg der Saison.</td></tr>
+</table><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="ausdruecke" class="panel"><div class="label">Ausdrücke</div><h2 class="heading">Nützliche Ausdrücke</h2><div class="card"><ul class="expr"><li><b>„Es ist wieder so weit.“</b> — Ein Termin, der jedes Jahr kommt, ist jetzt da.<br><i>Am Freitag ist es wieder so weit: Black Friday!</i></li><li><b>„im Auftrag von …“</b> — Jemand hat die Arbeit bestellt und bezahlt.<br><i>Die Umfrage wurde im Auftrag des HDE gemacht.</i></li><li><b>„vor der Tür stehen“</b> — Etwas kommt sehr bald.<br><i>Die Skisaison steht vor der Tür.</i></li><li><b>„Ob …, ist noch offen.“</b> — Man weiß es noch nicht sicher.<br><i>Ob der Termin hält, ist noch offen.</i></li><li><b>„Die Entscheidung fiel in der … Minute.“</b> — So sagt man, wann das wichtige Tor kam.<br><i>Die Entscheidung fiel erst in der 80. Minute.</i></li><li><b>„auf jemanden/etwas verzichten müssen“</b> — Ohne jemanden oder etwas auskommen müssen.<br><i>Dortmund musste auf Guirassy verzichten.</i></li></ul><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="grammatik" class="panel"><div class="label">Grammatik</div><h2 class="heading">Grammatikbewusstsein</h2><div class="card"><div class="grammar-block"><p><b>„sich etwas helfen lassen“: lassen + Infinitiv.</b> „57 Prozent wollen sich von künstlicher Intelligenz helfen lassen.“ Mit „lassen“ sagt man: Eine andere Person (oder ein Programm) macht etwas für mich. Das zweite Verb steht im Infinitiv am Ende: „Ich lasse mein Auto reparieren.“ Mit Modalverb stehen am Ende zwei Infinitive: „… helfen lassen“. Typischer Fehler: „Ich lasse mein Auto zu reparieren“ – nach „lassen“ steht kein „zu“.</p></div><div class="grammar-block"><p><b>Plusquamperfekt: Was war noch früher?</b> „Bayern, der am Freitag nur 1:1 gegen Köln gespielt hatte“ – das Spiel am Freitag war vor dem Spiel am Samstag. Für die frühere Handlung nimmt man „hatte/war“ + Partizip II: „Der Umsatz war 2025 zum ersten Mal gesunken.“ Im Alltag hört man es oft mit „nachdem“: „Nachdem Bayern am Freitag nur 1:1 gespielt hatte, konnte Dortmund an die Spitze springen.“ Typischer Fehler: „Nachdem ich gegessen habe, ging ich los“ – bei „nachdem“ + Präteritum im Hauptsatz braucht man das Plusquamperfekt.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wie viel Umsatz erwartet der HDE für Black Friday und Cyber Monday zusammen?</li><li>Wie viele Deutsche glauben laut der BCG-Studie, dass Produkte am Black Friday wirklich billiger sind?</li><li>Wann soll die Skisaison auf der Zugspitze beginnen?</li><li>Warum hängt der Skibetrieb auf der Zugspitze ganz vom Naturschnee ab?</li><li>Wer hat das Tor von Felix Nmecha direkt vorbereitet?</li><li>Wie ist die Lage von Borussia Mönchengladbach nach zehn Spielen?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „lassen“ + Infinitiv: Was lässt du machen, statt es selbst zu tun – im Haushalt, beim Einkaufen oder im Job?</li><li>Schreibe einen Satz mit „nachdem“ und Plusquamperfekt über einen Einkauf oder einen Ausflug.</li><li>Benutze „Ob …, ist noch offen.“: Was ist in deinem Alltag oder bei der Arbeit noch nicht entschieden?</li><li>Beschreibe ein Fußballspiel in einem Satz. Benutze „Tabellenführer“ oder „Schlusslicht“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Erzähle in fünf Sätzen: Kaufst du am Black Friday ein, oder bist du misstrauisch? Was war dein bestes Schnäppchen? Wie findest du es, wenn dir eine KI beim Einkaufen hilft? Benutze „lassen“ + Infinitiv.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<p class="source">Quellen, Stand 22. November 2026: <a href="https://retail-news.de/black-friday-cyber-monday-hde-umsatzprognose-2026/">retail-news.de: HDE-Prognose Black Friday und Cyber Monday 2026, 16. November</a>; <a href="https://lebensmittelpraxis.de/handel-aktuell/zentrale-management/50268-konsumklima-studie-deutsche-zweifeln-an-rabatten-zum-black-friday.html">Lebensmittel Praxis: BCG-Studie, Deutsche zweifeln an Rabatten, 5. November</a>; <a href="https://www.wetter.net/wetter-news/schneefall-im-allgaeu-ueber-25-zentimeter-danach-frostige-naechte">wetter.net: Schneefall im Allgäu, 19. November</a>; <a href="https://www.wetter.net/wetter-news/zugspitze-vor-saisonstart-trockene-ostlage-bringt-kaum-schnee">wetter.net: Zugspitze vor Saisonstart, 2. November</a>; <a href="https://www.wetter.net/wetter-news/skistart-an-zugspitze-und-feldberg-westlage-bringt-erst-regen">wetter.net: Skistart an Zugspitze und Feldberg, 12. November</a>; <a href="https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-10-spieltag-borussia-moenchengladbach-borussia-dortmund-100.html">ZDFheute: Dortmund verdrängt Bayern von der Spitze</a>; <a href="https://www.bundesliga.com/de/bundesliga/news/borussia-moenchengladbach-borussia-dortmund-spieltag-10-spielbericht-highlights-40071">bundesliga.com: Spielbericht Gladbach – Dortmund</a>; <a href="https://www.flashscore.com/news/soccer-bundesliga-monchengladbach-dortmund-report-november-21-2026/Cxm2dceU/">Flashscore: Spielbericht, 21. November</a>. Für B1/B2 vereinfacht. Die Umfragen von HDE und BCG nutzen unterschiedliche Methoden; ihre Zahlen sind nicht direkt vergleichbar. Der Saisonstart auf der Zugspitze war bei Redaktionsschluss noch nicht bestätigt; die Schneemenge im Allgäu ist eine Prognose.</p></div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

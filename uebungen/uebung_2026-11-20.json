@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wann beginnen die 24-Stunden-Warnstreiks in den meisten Regionen?",
+      "o": [
+        "Am Donnerstagabend",
+        "Am Freitag",
+        "Am 1. November"
+      ],
+      "c": 1,
+      "why": "Der Text sagt: „in den meisten anderen Regionen beginnt der Streik am Freitag“. Am Donnerstagabend ging es nur in Baden-Württemberg los, und seit dem 1. November (nach dem Ende der Friedenspflicht) gab es nur stundenweise Warnstreiks."
+    },
+    {
+      "q": "Was bieten die Arbeitgeber an?",
+      "o": [
+        "Fünf Prozent mehr Geld bei einer Laufzeit von zwölf Monaten",
+        "1,3 Prozent mehr sofort und eine Einmalzahlung im Jahr 2028",
+        "Eine Einmalzahlung im Jahr 2027 und 1,3 Prozent mehr erst im Juli 2028"
+      ],
+      "c": 2,
+      "why": "Gesamtmetall bietet eine Einmalzahlung 2027 und eine Erhöhung um 1,3 Prozent – „allerdings erst im Juli 2028“. Fünf Prozent bei zwölf Monaten ist die Forderung der IG Metall, und Option b) vertauscht die Reihenfolge: Die Erhöhung kommt nicht sofort."
+    },
+    {
+      "q": "Warum erhöht die IG Metall jetzt den Druck?",
+      "o": [
+        "Weil die dritte Verhandlungsrunde ohne Ergebnis endete und kein neuer Termin vereinbart ist",
+        "Weil sich an den stundenweisen Warnstreiks zu wenige Beschäftigte beteiligt haben",
+        "Weil die Friedenspflicht erst an diesem Freitag endet"
+      ],
+      "c": 0,
+      "why": "Der Text verbindet beides direkt: Die Runde in Düsseldorf blieb ohne Ergebnis, ein neuer Termin fehlt – „deshalb erhöht die Gewerkschaft nun den Druck“. Beteiligt haben sich laut IG Metall rund 464.000 Menschen, also nicht wenige, und die Friedenspflicht ist schon am 31. Oktober zu Ende gegangen."
+    }
+  ],
+  "schreib": [
+    "Ich war <b>schon</b> um 7 Uhr im Büro, aber die Besprechung hat <b>erst</b> um 10 Uhr angefangen. <span class=\"hint\">Bei Uhrzeiten heißt es „erst um 10 Uhr“, nicht „nur um 10 Uhr“.</span>",
+    "Heute <b>stehen</b> bei uns alle Maschinen <b>still</b>, weil die Kollegen um 6 Uhr die Arbeit <b>niedergelegt haben</b>. <span class=\"hint\">Im Perfekt steht „ge“ in der Mitte: niedergelegt, stillgestanden, teilgenommen.</span>",
+    "Der Betriebsrat <b>ruft</b> alle Kolleginnen und Kollegen <b>dazu auf</b>, an der Versammlung teilzunehmen. <span class=\"hint\">„aufrufen“ ist trennbar, und danach kommt meist „zu“ + Nomen oder „dazu, … zu“ + Infinitiv.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich würde mich an einem Warnstreik beteiligen, wenn …",
+      "Für mich ist ein ganzer Streiktag zu viel / genau richtig, weil …",
+      "Eine Einmalzahlung ist schön, aber …",
+      "Ich kann auch die Arbeitgeber verstehen, denn …",
+      "Am Ende müssen beide Seiten wieder an den Verhandlungstisch."
+    ],
+    "modell": "Ich würde mich an einem <b>Warnstreik</b> <b>beteiligen</b>, wenn das Angebot so niedrig ist wie jetzt. Eine <b>Einmalzahlung</b> ist schön, aber die Miete und die Lebensmittel werden jeden Monat teurer, nicht nur einmal. Ehrlich gesagt finde ich <b>stundenweise</b> Streiks oft zu schwach – die Firma holt die Stunden einfach später nach. Bei einem ganzen Tag merkt jeder, dass die Bänder <b>stillstehen</b>. Trotzdem kann ich auch die Arbeitgeber verstehen, denn viele Betriebe haben gerade wenig Aufträge. Am Ende müssen beide Seiten wieder an den Verhandlungstisch."
+  }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 20. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Freitag, 20. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 20. November</div>
+    <h2 class="heading">24 Stunden Stillstand: IG Metall weitet die Warnstreiks in der Metallindustrie aus</h2>
+    <div class="card">
+      <p>Heute stehen in vielen Fabriken in Deutschland die Bänder still. Die IG Metall hat in der <b>Tarifrunde</b> der Metall- und Elektroindustrie zu ganztägigen <b>Warnstreiks</b> aufgerufen – zum ersten Mal seit 2018. In Baden-Württemberg haben die ersten Beschäftigten schon am Donnerstagabend <b>die Arbeit niedergelegt</b>, in den meisten anderen Regionen beginnt der Streik am Freitag. In Bayern sind unter anderem drei BMW-<b>Werke</b> und Audi in Ingolstadt dabei, in Niedersachsen und Sachsen-Anhalt sollen ganze Betriebe 24 Stunden lang <b>stillstehen</b>.</p><p>Worum geht es? Die Gewerkschaft fordert für die rund 3,7 Millionen Beschäftigten fünf Prozent mehr Geld bei einer Laufzeit von zwölf Monaten. Der Arbeitgeberverband Gesamtmetall bietet dagegen eine <b>Einmalzahlung</b> im Jahr 2027 und eine Erhöhung der Tariflöhne um 1,3 Prozent an – allerdings erst im Juli 2028. Der Vertrag soll bis Ende 2028 laufen. Die Beschäftigten seien „sauer über das Minusangebot“, sagt IG-Metall-Chefin Christiane Benner.</p><p>Seit dem Ende der Friedenspflicht am 31. Oktober gab es bereits <b>stundenweise</b> Warnstreiks. Nach Angaben der IG Metall haben sich bis Mitte November rund 464.000 Menschen daran <b>beteiligt</b>. Die dritte Verhandlungsrunde in Düsseldorf endete trotzdem ohne Ergebnis, und ein neuer Termin ist bis jetzt nicht vereinbart. Deshalb erhöht die Gewerkschaft nun den Druck. Vorher musste in jedem Betrieb eine Mehrheit der Mitglieder zustimmen. Benner sagt, man wolle den Arbeitgebern so „eine intensive <b>Denkpause</b>“ ermöglichen.</p><p>Die Arbeitgeber sehen das ganz anders. Gesamtmetall-Präsident Udo Dinglreiter nennt die 24-Stunden-Streiks „völlig überflüssig und schädlich“. Die Branche stecke in einer tiefen Krise, seit 2019 seien rund 350.000 Arbeitsplätze verloren gegangen. Wie es weitergeht, ist offen. Klar ist nur: Ohne einen neuen Termin am Verhandlungstisch wird dieser Konflikt kaum zu Ende gehen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Tarifrunde</td><td>round of collective bargaining</td><td>Die Zeit, in der Gewerkschaft und Arbeitgeber über neue Löhne und Arbeitsbedingungen verhandeln.</td><td>In der aktuellen Tarifrunde geht es vor allem um mehr Geld.</td></tr><tr><td>der Warnstreik <span class="rep">(Wiederholung)</span></td><td>warning strike</td><td>Ein kurzer Streik während der Verhandlungen, der den Arbeitgebern zeigen soll: Wir meinen es ernst.</td><td>Wegen des Warnstreiks fiel die Frühschicht heute aus.</td></tr><tr><td>die Arbeit niederlegen</td><td>to stop work, to down tools</td><td>Aufhören zu arbeiten, meistens weil man streikt.</td><td>Um 6 Uhr haben die Kolleginnen und Kollegen die Arbeit niedergelegt.</td></tr><tr><td>das Werk</td><td>plant, factory</td><td>Ein großer Betrieb, in dem Produkte hergestellt werden, zum Beispiel Autos.</td><td>Mein Schwager arbeitet im BMW-Werk in Dingolfing.</td></tr><tr><td>stillstehen</td><td>to be at a standstill</td><td>Maschinen oder ein Betrieb arbeiten nicht mehr, alles ist gestoppt.</td><td>Während des Streiks standen alle Maschinen still.</td></tr><tr><td>die Einmalzahlung <span class="rep">(Wiederholung)</span></td><td>one-off payment</td><td>Geld, das man nur ein einziges Mal bekommt, nicht jeden Monat.</td><td>Statt einer Lohnerhöhung gab es nur eine Einmalzahlung von 500 Euro.</td></tr><tr><td>stundenweise</td><td>for a few hours at a time</td><td>Nicht den ganzen Tag, sondern nur ein paar Stunden.</td><td>Ich arbeite zurzeit nur stundenweise, weil ich noch einen Kurs besuche.</td></tr><tr><td>sich beteiligen an</td><td>to take part in</td><td>Bei etwas mitmachen, zusammen mit anderen.</td><td>An der Umfrage haben sich fast alle im Team beteiligt.</td></tr><tr><td>die Denkpause</td><td>pause for reflection, time to think</td><td>Eine Pause, in der man über eine Situation oder Entscheidung nachdenkt.</td><td>Nach dem Streit im Meeting brauchten wir alle eine Denkpause.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„zu etwas aufrufen“</b> — Öffentlich bitten oder fordern, dass Menschen etwas tun. Typisch bei Gewerkschaften, Vereinen und Behörden.<br><i>Die Stadt ruft alle Bürger dazu auf, Wasser zu sparen.</i></li><li><b>„Worum geht es?“</b> — Damit fragt man nach dem Kern eines Themas. Sehr nützlich im Meeting, wenn man den Anfang verpasst hat.<br><i>Entschuldigung, ich bin zu spät – worum geht es gerade?</i></li><li><b>„sauer sein über / auf“</b> — Umgangssprachlich für „verärgert sein“. „Über“ + Sache, „auf“ + Person.<br><i>Ich bin sauer über die neue Regel – und ehrlich gesagt auch ein bisschen sauer auf meinen Chef.</i></li><li><b>„den Druck erhöhen“</b> — Mehr tun, damit die andere Seite endlich reagiert oder sich bewegt.<br><i>Der Kunde hat noch nicht bezahlt, jetzt müssen wir den Druck erhöhen.</i></li><li><b>„Wie es weitergeht, ist offen.“</b> — Niemand weiß im Moment, was als Nächstes passiert. Klingt neutral und sachlich.<br><i>Das Projekt ist gestoppt – wie es weitergeht, ist noch offen.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„schon“ und „erst“ bei Zeitangaben:</b> „Die ersten Beschäftigten haben <b>schon</b> am Donnerstagabend die Arbeit niedergelegt.“ – „1,3 Prozent mehr, allerdings <b>erst</b> im Juli 2028.“ Mit „schon“ sagt man: früher als erwartet. Mit „erst“ sagt man: später als erwartet oder gewünscht. Die beiden Wörter zeigen also die Meinung des Sprechers – ohne Adjektiv wie „gut“ oder „schlecht“. Typischer Fehler: „nur“ statt „erst“ bei Zeit: „Der Zug kommt <i>nur</i> um 10 Uhr“ ist falsch, richtig ist „Der Zug kommt <b>erst</b> um 10 Uhr.“ „Nur“ benutzt man für Mengen: „Ich habe nur 10 Euro.“</p></div><div class="grammar-block"><p><b>Trennbare Verben mit Adjektiv oder Nomen vorne:</b> stillstehen, niederlegen, teilnehmen. Im Präsens wandert der erste Teil ans Satzende: „Heute <b>stehen</b> die Bänder <b>still</b>.“ Im Perfekt steht „ge“ in der Mitte: „Sie haben die Arbeit <b>niedergelegt</b>“, „Die Maschinen haben <b>stillgestanden</b>“ (in Süddeutschland auch: „sind stillgestanden“). Mit Modalverb bleibt alles zusammen: „Die Betriebe sollen 24 Stunden <b>stillstehen</b>.“ Typischer Fehler: das Präfix vergessen („Heute stehen die Bänder.“) – dann ändert sich die Bedeutung komplett.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wann beginnen die 24-Stunden-Warnstreiks in den meisten Regionen?</li><li>Was bieten die Arbeitgeber an?</li><li>Warum erhöht die IG Metall jetzt den Druck?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe zwei Sätze über deine Woche: einen mit „schon“ und einen mit „erst“ (z. B. „Ich war schon um 7 Uhr im Büro, aber die Besprechung hat erst um 10 Uhr angefangen.“).</li><li>Schreibe einen Satz im Präsens und einen im Perfekt mit einem trennbaren Verb: stillstehen, die Arbeit niederlegen oder teilnehmen.</li><li>Schreibe einen Satz mit „zu etwas aufrufen“ oder „den Druck erhöhen“ über eine Situation bei der Arbeit, in deiner Stadt oder in deinem Verein.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Würdest du dich an einem 24-Stunden-Warnstreik beteiligen – oder findest du stundenweise Streiks besser? Sprich vier bis fünf Sätze und benutze „der Warnstreik“, „sich beteiligen an“ und „die Einmalzahlung“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 20. November 2026, früher Morgen): <a href="https://www.igmetall.de/tarif/tarifrunden/metall-und-elektro">IG Metall: Tarif-Ticker Metall und Elektro</a> (24-Stunden-Warnstreiks ab 19./20. November, Werke in Bayern, Baden-Württemberg, Niedersachsen und Sachsen-Anhalt, „Minusangebot“, kein vierter Verhandlungstermin); <a href="https://berlin.igmetall.de/aktuelles/2026/q4/eskalation-ig-metall-leitet-24-stunden-warnstreiks-ein">IG Metall Berlin-Brandenburg-Sachsen: Eskalation – 24-Stunden-Warnstreiks</a> (Zitat Christiane Benner, Angebot 1,3 Prozent ab Juli 2028); <a href="https://aktiencheck.de/artikel/ig-metall-warnstreik-erstmals-seit-acht-jahren-24-stunden-5-prozent-forderung">aktiencheck.de: Erstmals seit acht Jahren 24 Stunden</a> (5 Prozent, 3,7 Millionen Beschäftigte, 464.000 Teilnehmende, Zitat Udo Dinglreiter); <a href="https://www.netz-trends.de/metall-warnstreik-24-stunden-november-2026/">netz-trends.de: Metall-Warnstreik</a> (Friedenspflicht bis 31. Oktober, Laufzeit bis Ende 2028, 350.000 Arbeitsplätze laut Gesamtmetall); <a href="https://www.news.de/panorama/860203969/20-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-20-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/">news.de/dpa: Themen des Tages am 20. November</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Wie viel Umsatz erwartet der HDE für Black Friday und Cyber Monday zusammen?",
+      "o": [
+        "Rund 1,9 Milliarden Euro.",
+        "6,2 Milliarden Euro.",
+        "Knapp sechs Prozent weniger als im Vorjahr."
+      ],
+      "c": 1,
+      "why": "Der HDE rechnet mit <b>6,2 Milliarden Euro</b>. 1,9 Milliarden Euro sind nur der Teil für Weihnachtsgeschenke, und der Umsatz soll knapp sechs Prozent <i>mehr</i>, nicht weniger, als im Vorjahr betragen."
+    },
+    {
+      "q": "Wie viele Deutsche glauben laut der BCG-Studie, dass Produkte am Black Friday wirklich billiger sind?",
+      "o": [
+        "37 Prozent.",
+        "49 Prozent.",
+        "51 Prozent."
+      ],
+      "c": 0,
+      "why": "Nur <b>37 Prozent</b> glauben an echte Preisvorteile. 49 Prozent wollen nur online kaufen, und 51 Prozent wollen laut HDE-Umfrage am Black Friday nach Angeboten suchen."
+    },
+    {
+      "q": "Wann soll die Skisaison auf der Zugspitze beginnen?",
+      "o": [
+        "Heute, am 22. November.",
+        "Am 2. Mai 2027.",
+        "Am Freitag, dem 27. November."
+      ],
+      "c": 2,
+      "why": "Die Zugspitzbahn plant den Saisonstart für <b>Freitag, den 27. November</b>. Heute wird im Allgäu nur Neuschnee erwartet, und am 2. Mai 2027 endet die Saison."
+    },
+    {
+      "q": "Warum hängt der Skibetrieb auf der Zugspitze ganz vom Naturschnee ab?",
+      "o": [
+        "Weil die Pisten über 3.000 Metern liegen.",
+        "Weil es dort oben keine Schneekanonen gibt.",
+        "Weil dort Maschinen auch bei Plusgraden Schnee machen."
+      ],
+      "c": 1,
+      "why": "Auf der Zugspitze gibt es <b>keine Schneekanonen</b>. Die Pisten liegen zwischen 2.000 und 2.720 Metern, und die Maschinen für Plusgrade stehen in Winterberg, nicht auf der Zugspitze."
+    },
+    {
+      "q": "Wer hat das Tor von Felix Nmecha direkt vorbereitet?",
+      "o": [
+        "Marcel Sabitzer.",
+        "Mathis Albert.",
+        "Gregor Kobel."
+      ],
+      "c": 0,
+      "why": "<b>Marcel Sabitzer</b> legte Nmecha den Ball auf. Mathis Albert hatte davor nur die Flanke geschlagen, und Gregor Kobel ist Dortmunds Torwart, der Schüsse von Hack und Machino parierte."
+    },
+    {
+      "q": "Wie ist die Lage von Borussia Mönchengladbach nach zehn Spielen?",
+      "o": [
+        "Gladbach ist Zweiter mit 22 Punkten.",
+        "Gladbach hat vier Punkte und schon einen Heimsieg.",
+        "Gladbach ist Letzter und hat noch kein Heimspiel gewonnen."
+      ],
+      "c": 2,
+      "why": "Gladbach ist <b>Schlusslicht</b> und wartet weiter auf den ersten Heimsieg. Platz zwei mit 22 Punkten gehört dem FC Bayern, und die vier Punkte stimmen zwar, aber einen Heimsieg gibt es noch nicht."
+    }
+  ],
+  "schreib": [
+    "Ich <b>lasse</b> meine Winterreifen in der Werkstatt <b>wechseln</b>. <span class=\"hint\">Kein „zu“ nach „lassen“: nicht „lasse … zu wechseln“.</span>",
+    "<b>Nachdem</b> ich die Preise online <b>verglichen hatte</b>, kaufte ich die Jacke im Laden. <span class=\"hint\">„hatte“ steht am Ende des Nebensatzes, danach folgt sofort das Verb des Hauptsatzes.</span>",
+    "<b>Ob</b> wir im Dezember im Homeoffice arbeiten dürfen, <b>ist noch offen</b>. <span class=\"hint\">Im ob-Satz steht das Verb am Ende: „dürfen“, nicht „ob dürfen wir“.</span>",
+    "Dortmund hat als <b>Tabellenführer</b> beim <b>Schlusslicht</b> knapp mit 1:0 gewonnen. <span class=\"hint\">„beim Schlusslicht“ = bei dem Schlusslicht (Dativ, weil „bei“).</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ehrlich gesagt bin ich bei solchen Angeboten eher misstrauisch.",
+      "Mein bestes Schnäppchen war …",
+      "Ich vergleiche die Preise immer vorher.",
+      "Ich würde mich von einer KI beraten lassen, aber …",
+      "Am Ende kaufe ich nur, was ich wirklich brauche."
+    ],
+    "modell": "Ehrlich gesagt bin ich am Black Friday eher <b>misstrauisch</b>. Oft ist der <b>Rabatt</b> nicht so groß, wie die Werbung sagt. Trotzdem hatte ich letztes Jahr ein echtes <b>Schnäppchen</b>: Nachdem ich die Preise eine Woche lang verglichen hatte, habe ich Kopfhörer für die Hälfte gekauft. Von einer KI würde ich mir bei der Suche gern <b>helfen lassen</b>, aber die Entscheidung treffe ich selbst. Am Ende kaufe ich nur, was ich wirklich brauche."
+  }
+}

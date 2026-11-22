@@ -6814,7 +6814,8 @@
       "2026-10-11",
       "2026-10-18",
       "2026-10-25",
-      "2026-11-01"
+      "2026-11-01",
+      "2026-11-22"
     ],
     "sq": "lideri i tabelës",
     "tr": "lider, puan durumunda birinci",
@@ -6918,7 +6919,8 @@
     "erk": "Ein Tag, an dem nicht gearbeitet wird und es leise sein soll.",
     "bsp": "Der Sonntag ist in Deutschland ein Ruhetag.",
     "dates": [
-      "2026-09-20"
+      "2026-09-20",
+      "2026-11-21"
     ],
     "sq": "dita e pushimit",
     "tr": "dinlenme günü",
@@ -9312,7 +9314,8 @@
     "erk": "Derselbe Monat im Jahr davor, zum Beispiel Juli 2025 für Juli 2026.",
     "bsp": "Im Juli gab es 8,0 Prozent mehr Insolvenzen als im Vorjahresmonat.",
     "dates": [
-      "2026-10-10"
+      "2026-10-10",
+      "2026-11-21"
     ],
     "sq": "muaji i njëjtë i vitit të kaluar",
     "tr": "geçen yılın aynı ayı",
@@ -11151,7 +11154,8 @@
     "erk": "Im Sport: Ein Tor sorgt dafür, dass beide Mannschaften gleich viele Tore haben.",
     "bsp": "Scally erzielte den Ausgleich zum 1:1.",
     "dates": [
-      "2026-10-24"
+      "2026-10-24",
+      "2026-11-21"
     ],
     "tr": "beraberlik golü; eşitlik",
     "sq": "goli i barazimit; barazimi",
@@ -11219,7 +11223,8 @@
     "erk": "Ein Wert, den man aus vielen Zahlen berechnet.",
     "bsp": "Deutschland liegt unter dem EU-Durchschnitt.",
     "dates": [
-      "2026-10-25"
+      "2026-10-25",
+      "2026-11-22"
     ],
     "tr": "ortalama",
     "sq": "mesatarja",
@@ -11272,7 +11277,8 @@
     "dates": [
       "2026-10-25",
       "2026-11-06",
-      "2026-11-10"
+      "2026-11-10",
+      "2026-11-22"
     ],
     "tr": "ciro",
     "sq": "xhiroja",
@@ -11818,7 +11824,8 @@
     "erk": "Eine Zahlung, die es nur einmal gibt, nicht jeden Monat.",
     "bsp": "Zusätzlich zum Lohn gibt es eine Einmalzahlung.",
     "dates": [
-      "2026-10-29"
+      "2026-10-29",
+      "2026-11-20"
     ],
     "sq": "pagesa një herë",
     "tr": "tek seferlik ödeme",
@@ -11835,7 +11842,8 @@
     "erk": "Ein kurzer Streik, mit dem die Gewerkschaft Druck macht.",
     "bsp": "Nach der Friedenspflicht sind Warnstreiks möglich.",
     "dates": [
-      "2026-10-29"
+      "2026-10-29",
+      "2026-11-20"
     ],
     "sq": "greva paralajmëruese",
     "tr": "uyarı grevi",
@@ -14125,5 +14133,481 @@
     "es": "la seguridad para planificar",
     "fr": "la visibilité, la sécurité de planification",
     "it": "la certezza per pianificare"
+  },
+  {
+    "de": "die Tarifrunde",
+    "en": "round of collective bargaining",
+    "erk": "Die Zeit, in der Gewerkschaft und Arbeitgeber über neue Löhne und Arbeitsbedingungen verhandeln.",
+    "bsp": "In der aktuellen Tarifrunde geht es vor allem um mehr Geld.",
+    "dates": [
+      "2026-11-20"
+    ],
+    "sq": "raundi i negociatave kolektive",
+    "tr": "toplu sözleşme görüşmeleri",
+    "uk": "раунд колективних переговорів",
+    "ar": "جولة المفاوضات الجماعية",
+    "fa": "دور مذاکرات قرارداد جمعی",
+    "es": "ronda de negociación colectiva",
+    "fr": "cycle de négociations collectives",
+    "it": "tornata di contrattazione collettiva"
+  },
+  {
+    "de": "die Arbeit niederlegen",
+    "en": "to stop work, to down tools",
+    "erk": "Aufhören zu arbeiten, meistens weil man streikt.",
+    "bsp": "Um 6 Uhr haben die Kolleginnen und Kollegen die Arbeit niedergelegt.",
+    "dates": [
+      "2026-11-20"
+    ],
+    "sq": "ndal punën (për grevë)",
+    "tr": "işi bırakmak (grev için)",
+    "uk": "припинити роботу (через страйк)",
+    "ar": "التوقف عن العمل (للإضراب)",
+    "fa": "دست از کار کشیدن (برای اعتصاب)",
+    "es": "dejar de trabajar (por huelga)",
+    "fr": "cesser le travail (grève)",
+    "it": "sospendere il lavoro (per sciopero)"
+  },
+  {
+    "de": "das Werk",
+    "en": "plant, factory",
+    "erk": "Ein großer Betrieb, in dem Produkte hergestellt werden, zum Beispiel Autos.",
+    "bsp": "Mein Schwager arbeitet im BMW-Werk in Dingolfing.",
+    "dates": [
+      "2026-11-20"
+    ],
+    "sq": "fabrikë",
+    "tr": "fabrika",
+    "uk": "завод",
+    "ar": "مصنع",
+    "fa": "کارخانه",
+    "es": "planta, fábrica",
+    "fr": "usine",
+    "it": "stabilimento, fabbrica"
+  },
+  {
+    "de": "stillstehen",
+    "en": "to be at a standstill",
+    "erk": "Maschinen oder ein Betrieb arbeiten nicht mehr, alles ist gestoppt.",
+    "bsp": "Während des Streiks standen alle Maschinen still.",
+    "dates": [
+      "2026-11-20"
+    ],
+    "sq": "të jetë i ndalur, nuk punon",
+    "tr": "durmak, çalışmamak",
+    "uk": "стояти, не працювати",
+    "ar": "يتوقف عن العمل تمامًا",
+    "fa": "متوقف بودن",
+    "es": "estar parado",
+    "fr": "être à l'arrêt",
+    "it": "essere fermo"
+  },
+  {
+    "de": "stundenweise",
+    "en": "for a few hours at a time",
+    "erk": "Nicht den ganzen Tag, sondern nur ein paar Stunden.",
+    "bsp": "Ich arbeite zurzeit nur stundenweise, weil ich noch einen Kurs besuche.",
+    "dates": [
+      "2026-11-20"
+    ],
+    "sq": "për disa orë",
+    "tr": "birkaç saatliğine",
+    "uk": "на кілька годин",
+    "ar": "لبضع ساعات",
+    "fa": "چند ساعته",
+    "es": "por horas",
+    "fr": "pendant quelques heures",
+    "it": "per alcune ore"
+  },
+  {
+    "de": "sich beteiligen an",
+    "en": "to take part in",
+    "erk": "Bei etwas mitmachen, zusammen mit anderen.",
+    "bsp": "An der Umfrage haben sich fast alle im Team beteiligt.",
+    "dates": [
+      "2026-11-20"
+    ],
+    "sq": "marr pjesë në",
+    "tr": "-e katılmak",
+    "uk": "брати участь у",
+    "ar": "يشارك في",
+    "fa": "شرکت کردن در",
+    "es": "participar en",
+    "fr": "participer à",
+    "it": "partecipare a"
+  },
+  {
+    "de": "die Denkpause",
+    "en": "pause for reflection, time to think",
+    "erk": "Eine Pause, in der man über eine Situation oder Entscheidung nachdenkt.",
+    "bsp": "Nach dem Streit im Meeting brauchten wir alle eine Denkpause.",
+    "dates": [
+      "2026-11-20"
+    ],
+    "sq": "pushim për të menduar",
+    "tr": "düşünme molası",
+    "uk": "пауза для роздумів",
+    "ar": "وقت للتفكير",
+    "fa": "فرصتی برای فکر کردن",
+    "es": "pausa para reflexionar",
+    "fr": "pause de réflexion",
+    "it": "pausa di riflessione"
+  },
+  {
+    "de": "die Erzeugerpreise",
+    "en": "producer prices",
+    "erk": "Die Preise, die Firmen für ihre Produkte verlangen, bevor die Waren in den Handel kommen.",
+    "bsp": "Die Erzeugerpreise stiegen im Oktober um 8,1 Prozent.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "çmimet e prodhuesit",
+    "tr": "üretici fiyatları",
+    "uk": "ціни виробників",
+    "ar": "أسعار المنتجين",
+    "fa": "قیمت‌های تولیدکننده",
+    "es": "los precios de producción",
+    "fr": "les prix à la production",
+    "it": "i prezzi alla produzione"
+  },
+  {
+    "de": "der Preisauftrieb",
+    "en": "upward price pressure",
+    "erk": "Die Preise steigen allgemein und schnell.",
+    "bsp": "Auch bei Metallen sieht man einen deutlichen Preisauftrieb.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "rritja e çmimeve",
+    "tr": "fiyat artışı",
+    "uk": "зростання цін",
+    "ar": "ارتفاع الأسعار",
+    "fa": "افزایش قیمت‌ها",
+    "es": "el alza de los precios",
+    "fr": "la hausse des prix",
+    "it": "l'aumento dei prezzi"
+  },
+  {
+    "de": "das Vorprodukt",
+    "en": "intermediate product, input",
+    "erk": "Ein Material oder Teil, das eine Firma für ihr eigenes Produkt braucht.",
+    "bsp": "Kupfer ist ein wichtiges Vorprodukt für die Elektroindustrie.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "produkt i ndërmjetëm",
+    "tr": "ara ürün",
+    "uk": "проміжний продукт",
+    "ar": "منتج وسيط",
+    "fa": "کالای واسطه‌ای",
+    "es": "el producto intermedio",
+    "fr": "le produit intermédiaire",
+    "it": "il semilavorato"
+  },
+  {
+    "de": "der Totensonntag",
+    "en": "Sunday of the Dead (Protestant day of remembrance)",
+    "erk": "Der letzte Sonntag vor dem Advent; man denkt an verstorbene Menschen.",
+    "bsp": "Am Totensonntag besuchen viele Familien den Friedhof.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "e diela e kujtimit të të vdekurve",
+    "tr": "Ölüleri Anma Pazarı",
+    "uk": "неділя пам'яті померлих",
+    "ar": "أحد ذكرى الموتى",
+    "fa": "یکشنبهٔ یادبود درگذشتگان",
+    "es": "el domingo de difuntos",
+    "fr": "le dimanche des morts",
+    "it": "la domenica dei defunti"
+  },
+  {
+    "de": "der stille Tag",
+    "en": "quiet day (legally protected)",
+    "erk": "Ein Tag, an dem laute Feiern und Tanz in der Öffentlichkeit nicht erlaubt sind.",
+    "bsp": "Der Totensonntag ist in Bayern ein stiller Tag.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "ditë e qetë",
+    "tr": "sessiz gün",
+    "uk": "тихий день",
+    "ar": "يوم هادئ",
+    "fa": "روز آرام",
+    "es": "el día de silencio",
+    "fr": "le jour de silence",
+    "it": "il giorno di silenzio"
+  },
+  {
+    "de": "das Tanzverbot",
+    "en": "ban on dancing",
+    "erk": "Eine Regel: Bei öffentlichen Veranstaltungen darf nicht getanzt werden.",
+    "bsp": "In Nordrhein-Westfalen gilt das Tanzverbot bis 18 Uhr.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "ndalimi i vallëzimit",
+    "tr": "dans yasağı",
+    "uk": "заборона танців",
+    "ar": "حظر الرقص",
+    "fa": "ممنوعیت رقص",
+    "es": "la prohibición de bailar",
+    "fr": "l'interdiction de danser",
+    "it": "il divieto di ballare"
+  },
+  {
+    "de": "die Führung",
+    "en": "lead (in a match)",
+    "erk": "Eine Mannschaft hat mehr Tore als die andere.",
+    "bsp": "Köln ging in München überraschend in Führung.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "epërsia (në rezultat)",
+    "tr": "önde olma (skorda)",
+    "uk": "перевага в рахунку",
+    "ar": "التقدّم في النتيجة",
+    "fa": "جلو بودن در نتیجه",
+    "es": "la ventaja (en el marcador)",
+    "fr": "l'avantage (au score)",
+    "it": "il vantaggio"
+  },
+  {
+    "de": "der Konter",
+    "en": "counter-attack",
+    "erk": "Ein schneller Angriff direkt nach einem Ballgewinn.",
+    "bsp": "Nach einem schnellen Konter traf Moore zum 0:1.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "kundërsulm",
+    "tr": "kontra atak",
+    "uk": "контратака",
+    "ar": "هجمة مرتدة",
+    "fa": "ضدحمله",
+    "es": "el contraataque",
+    "fr": "la contre-attaque",
+    "it": "il contropiede"
+  },
+  {
+    "de": "auswechseln",
+    "en": "to substitute (a player)",
+    "erk": "Einen Spieler vom Platz holen und einen anderen bringen.",
+    "bsp": "Kane musste nach rund 20 Minuten ausgewechselt werden.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "zëvendësoj (një lojtar)",
+    "tr": "oyundan almak, oyuncu değiştirmek",
+    "uk": "замінити (гравця)",
+    "ar": "يستبدل لاعبًا",
+    "fa": "تعویض کردن (بازیکن)",
+    "es": "sustituir (a un jugador)",
+    "fr": "remplacer (un joueur)",
+    "it": "sostituire (un giocatore)"
+  },
+  {
+    "de": "sieglos",
+    "en": "without a win",
+    "erk": "Ohne Sieg über mehrere Spiele.",
+    "bsp": "Köln ist seit fünf Spielen sieglos.",
+    "dates": [
+      "2026-11-21"
+    ],
+    "sq": "pa fitore",
+    "tr": "galibiyetsiz",
+    "uk": "без перемог",
+    "ar": "بلا فوز",
+    "fa": "بدون پیروزی",
+    "es": "sin ganar",
+    "fr": "sans victoire",
+    "it": "senza vittorie"
+  },
+  {
+    "de": "der Aktionstag",
+    "en": "promotional day, sale day",
+    "erk": "Ein Tag, an dem viele Geschäfte besondere Angebote machen.",
+    "bsp": "Für beide Aktionstage erwartet der Handel einen Rekord.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "dita e ofertave",
+    "tr": "kampanya günü",
+    "uk": "день акцій",
+    "ar": "يوم العروض",
+    "fa": "روز حراج",
+    "es": "el día de ofertas",
+    "fr": "la journée promotionnelle",
+    "it": "la giornata promozionale"
+  },
+  {
+    "de": "das Schnäppchen",
+    "en": "bargain",
+    "erk": "Ein Produkt, das man sehr günstig kauft.",
+    "bsp": "Ein Rabatt von 28 Prozent gilt den Deutschen als echtes Schnäppchen.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "okazion, blerje e lirë",
+    "tr": "kelepir, fırsat ürünü",
+    "uk": "вигідна покупка",
+    "ar": "صفقة رابحة",
+    "fa": "خرید ارزان",
+    "es": "la ganga",
+    "fr": "la bonne affaire",
+    "it": "l’affare, l’occasione"
+  },
+  {
+    "de": "der Rabatt",
+    "en": "discount",
+    "erk": "So viel billiger ist ein Produkt als der normale Preis.",
+    "bsp": "Viele Händler geben am Black Friday hohe Rabatte.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "zbritja",
+    "tr": "indirim",
+    "uk": "знижка",
+    "ar": "خصم",
+    "fa": "تخفیف",
+    "es": "el descuento",
+    "fr": "la remise",
+    "it": "lo sconto"
+  },
+  {
+    "de": "misstrauisch",
+    "en": "distrustful, suspicious",
+    "erk": "Man glaubt etwas nicht sofort und ist vorsichtig.",
+    "bsp": "Viele Deutsche sind bei Black-Friday-Angeboten misstrauisch.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "mosbesues",
+    "tr": "güvensiz, şüpheci",
+    "uk": "недовірливий",
+    "ar": "متشكك",
+    "fa": "بدگمان",
+    "es": "desconfiado",
+    "fr": "méfiant",
+    "it": "diffidente"
+  },
+  {
+    "de": "der Saisonstart",
+    "en": "start of the season",
+    "erk": "Der erste Tag, an dem zum Beispiel ein Skigebiet wieder geöffnet ist.",
+    "bsp": "Die Zugspitzbahn plant den Saisonstart für den 27. November.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "fillimi i sezonit",
+    "tr": "sezon açılışı",
+    "uk": "початок сезону",
+    "ar": "بداية الموسم",
+    "fa": "آغاز فصل",
+    "es": "el inicio de temporada",
+    "fr": "le début de saison",
+    "it": "l’inizio della stagione"
+  },
+  {
+    "de": "der Neuschnee",
+    "en": "fresh snow",
+    "erk": "Schnee, der gerade erst gefallen ist.",
+    "bsp": "Im Allgäu werden mehr als 25 Zentimeter Neuschnee erwartet.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "borë e re",
+    "tr": "yeni yağmış kar",
+    "uk": "свіжий сніг",
+    "ar": "ثلج جديد",
+    "fa": "برف تازه",
+    "es": "la nieve nueva",
+    "fr": "la neige fraîche",
+    "it": "la neve fresca"
+  },
+  {
+    "de": "die Schneekanone",
+    "en": "snow cannon",
+    "erk": "Eine Maschine, die künstlichen Schnee macht.",
+    "bsp": "Auf der Zugspitze gibt es keine Schneekanonen.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "makinë për borë artificiale",
+    "tr": "kar makinesi",
+    "uk": "снігова гармата",
+    "ar": "مدفع الثلج",
+    "fa": "دستگاه برف‌ساز",
+    "es": "el cañón de nieve",
+    "fr": "le canon à neige",
+    "it": "il cannone sparaneve"
+  },
+  {
+    "de": "der Tagesskipass",
+    "en": "one-day ski pass",
+    "erk": "Eine Karte, mit der man einen Tag lang die Lifte benutzen darf.",
+    "bsp": "Ein Tagesskipass ist in diesem Winter teurer als im Vorjahr.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "biletë ditore për ski",
+    "tr": "günlük kayak bileti",
+    "uk": "денний скіпас",
+    "ar": "تذكرة تزلج ليوم واحد",
+    "fa": "بلیت یک‌روزه اسکی",
+    "es": "el forfait de un día",
+    "fr": "le forfait journée",
+    "it": "lo skipass giornaliero"
+  },
+  {
+    "de": "der Patzer",
+    "en": "blunder, slip",
+    "erk": "Ein dummer, kleiner Fehler, oft in einem wichtigen Moment.",
+    "bsp": "Für viele Beobachter war das Tor ein Patzer des Torwarts.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "gafë, gabim",
+    "tr": "gaf, büyük hata",
+    "uk": "грубий промах",
+    "ar": "خطأ فادح",
+    "fa": "اشتباه فاحش",
+    "es": "el fallo garrafal",
+    "fr": "la bourde",
+    "it": "la papera"
+  },
+  {
+    "de": "das Schlusslicht",
+    "en": "bottom team, last place",
+    "erk": "Die Mannschaft auf dem letzten Platz der Tabelle.",
+    "bsp": "Gladbach ist nach zehn Spielen Schlusslicht der Liga.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "skuadra e fundit në tabelë",
+    "tr": "son sıradaki takım",
+    "uk": "остання команда в таблиці",
+    "ar": "صاحب المركز الأخير",
+    "fa": "تیم آخر جدول",
+    "es": "el colista",
+    "fr": "la lanterne rouge",
+    "it": "il fanalino di coda"
+  },
+  {
+    "de": "der Heimsieg",
+    "en": "home win",
+    "erk": "Ein Sieg im eigenen Stadion.",
+    "bsp": "Gladbach wartet noch auf den ersten Heimsieg der Saison.",
+    "dates": [
+      "2026-11-22"
+    ],
+    "sq": "fitore në shtëpi",
+    "tr": "iç saha galibiyeti",
+    "uk": "перемога вдома",
+    "ar": "فوز على أرضه",
+    "fa": "پیروزی خانگی",
+    "es": "la victoria en casa",
+    "fr": "la victoire à domicile",
+    "it": "la vittoria in casa"
   }
 ]

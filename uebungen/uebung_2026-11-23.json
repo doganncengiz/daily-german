@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Welche Zahlen legt Carsten Cramer für das Geschäftsjahr 2025/26 vor?",
+      "o": [
+        "Rund 21 Millionen Euro Umsatz und ein Minus von 460,5 Millionen Euro",
+        "460,5 Millionen Euro Umsatz und einen Fehlbetrag von mehr als 21 Millionen Euro",
+        "460,5 Millionen Euro Umsatz und einen Gewinn von mehr als 21 Millionen Euro"
+      ],
+      "c": 1,
+      "why": "Der Text nennt 460,5 Millionen Euro Umsatz und „einen Fehlbetrag von mehr als 21 Millionen Euro“. Option a) vertauscht die beiden Zahlen, und Option c) macht aus dem Fehlbetrag einen Gewinn – das Wort „trotzdem“ zeigt aber, dass am Ende Geld fehlt."
+    },
+    {
+      "q": "Was ist laut dpa der wichtigste Grund für das Minus?",
+      "o": [
+        "Die schwache Saison in der Champions League",
+        "Das Ende des Sponsorings durch Rheinmetall",
+        "Schlechte Ergebnisse in der Bundesliga"
+      ],
+      "c": 0,
+      "why": "Laut dpa ist „der wichtigste Grund“ die schwache Champions-League-Saison, weil es dort für Siege und Runden viel Geld gibt. Das Rheinmetall-Sponsoring endet erst 2027, kann das Minus von 2025/26 also nicht erklären, und in der Bundesliga steht der BVB gerade an der Spitze."
+    },
+    {
+      "q": "Was passiert mit dem Sponsoring durch Rheinmetall?",
+      "o": [
+        "Es ist heute der wichtigste Punkt auf der Tagesordnung",
+        "Es endet sofort, weil die Fans es kritisiert haben",
+        "Der Vertrag wird nicht verlängert und läuft 2027 aus"
+      ],
+      "c": 2,
+      "why": "Der Text sagt: „Der Vertrag wird nicht verlängert, er läuft 2027 aus.“ Auf der Tagesordnung steht das Thema ausdrücklich nicht, es wird nur wahrscheinlich „zur Sprache kommen“, und von einem sofortigen Ende ist keine Rede."
+    }
+  ],
+  "schreib": [
+    "Ich arbeite bei einer Firma, <b>deren</b> Chef jeden Montag ein kurzes Teammeeting macht. <span class=\"hint\">„deren“ passt zu „die Firma“ (feminin) – das Geschlecht vom Chef spielt keine Rolle, und nach „deren“ steht kein Artikel.</span>",
+    "<b>Wer</b> morgens zu spät kommt, <b>muss</b> am Abend länger bleiben. <span class=\"hint\">Nach dem Komma kommt direkt das Verb – kein zusätzliches „er“ oder „sie“.</span>",
+    "Mein Mietvertrag <b>läuft</b> Ende März <b>aus</b>, deshalb <b>kam</b> das Thema Umzug gestern beim Abendessen <b>zur Sprache</b>. <span class=\"hint\">„auslaufen“ ist trennbar: „Der Vertrag läuft aus“, im Perfekt „ist ausgelaufen“ – mit „sein“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich finde, ein Verein braucht Sponsoring, aber …",
+      "Als Vereinsmitglied würde ich mitreden wollen, wenn …",
+      "Ein Fehlbetrag ist ein Problem, trotzdem …",
+      "Es geht nicht nur um Geld, sondern auch um …",
+      "Ich kann beide Seiten verstehen, denn …"
+    ],
+    "modell": "Ich finde, ein Profiverein braucht <b>Sponsoring</b>, sonst kann er mit den großen Klubs nicht mithalten. Aber es geht nicht nur um Geld, sondern auch um das Image. Wenn ich <b>Vereinsmitglied</b> wäre, würde ich bei so einer Entscheidung schon mitreden wollen. Ein <b>Fehlbetrag</b> von 21 Millionen Euro ist natürlich ein Problem, trotzdem sollte der Verein nicht jede Firma als Partner nehmen. Ich kann beide Seiten verstehen – gut finde ich, dass man sich am Ende <b>einvernehmlich</b> geeinigt hat."
+  }
+}

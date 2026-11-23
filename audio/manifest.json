@@ -640,6 +640,10 @@
     "2026-11-22-2.mp3": {
       "fingerprint": "19db284ee61d2e9d2dd7a98bc0ab98977250ff7a2d91336f1416d0f1f9ed44b2",
       "voice": "thorsten-high"
+    },
+    "2026-11-23-0.mp3": {
+      "fingerprint": "a09bf350ddb24084292365db4b386f448701f32fc4fa6bbc4130b178845389fe",
+      "voice": "thorsten-high"
     }
   }
 }

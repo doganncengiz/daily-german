@@ -8333,7 +8333,8 @@
     "erk": "Eine Person oder Firma, der ein Teil einer Aktiengesellschaft gehört.",
     "bsp": "Der Bund ist mit 13,3 Prozent zweitgrößter Aktionär der Commerzbank.",
     "dates": [
-      "2026-10-02"
+      "2026-10-02",
+      "2026-11-23"
     ],
     "sq": "aksioner",
     "tr": "hissedar",
@@ -13562,7 +13563,8 @@
     "erk": "Eine Firma, die Waffen, Drohnen oder andere Technik für das Militär herstellt.",
     "bsp": "Das Rüstungsunternehmen hat in diesem Jahr viele neue Mitarbeiter eingestellt.",
     "dates": [
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-23"
     ],
     "sq": "kompania e armatimeve",
     "tr": "savunma sanayi şirketi",
@@ -14609,5 +14611,124 @@
     "es": "la victoria en casa",
     "fr": "la victoire à domicile",
     "it": "la vittoria in casa"
+  },
+  {
+    "de": "die Hauptversammlung",
+    "en": "annual general meeting (of shareholders)",
+    "erk": "Ein Treffen, bei dem die Aktionäre einer Firma die Zahlen hören und über wichtige Punkte abstimmen.",
+    "bsp": "Auf der Hauptversammlung haben viele Aktionäre kritische Fragen gestellt.",
+    "dates": [
+      "2026-11-23"
+    ],
+    "sq": "asambleja e përgjithshme e aksionerëve",
+    "tr": "genel kurul",
+    "uk": "загальні збори акціонерів",
+    "ar": "الجمعية العامة للمساهمين",
+    "fa": "مجمع عمومی سهامداران",
+    "es": "junta general de accionistas",
+    "fr": "assemblée générale des actionnaires",
+    "it": "assemblea degli azionisti"
+  },
+  {
+    "de": "vorlegen",
+    "en": "to present, to submit",
+    "erk": "Etwas offiziell zeigen oder abgeben, damit andere es prüfen können.",
+    "bsp": "Bis Freitag muss ich meinem Chef den Bericht vorlegen.",
+    "dates": [
+      "2026-11-23"
+    ],
+    "sq": "paraqes",
+    "tr": "sunmak",
+    "uk": "представляти, подавати",
+    "ar": "يقدّم",
+    "fa": "ارائه کردن",
+    "es": "presentar",
+    "fr": "présenter",
+    "it": "presentare"
+  },
+  {
+    "de": "der Fehlbetrag",
+    "en": "deficit, shortfall",
+    "erk": "Das Geld, das am Ende fehlt, weil die Ausgaben höher waren als die Einnahmen.",
+    "bsp": "Die Kasse des Vereins hat einen Fehlbetrag von 2.000 Euro.",
+    "dates": [
+      "2026-11-23"
+    ],
+    "sq": "deficit",
+    "tr": "açık, zarar",
+    "uk": "дефіцит, нестача коштів",
+    "ar": "عجز مالي",
+    "fa": "کسری بودجه",
+    "es": "déficit",
+    "fr": "déficit",
+    "it": "disavanzo"
+  },
+  {
+    "de": "das Sponsoring",
+    "en": "sponsorship",
+    "erk": "Eine Firma gibt Geld, zum Beispiel einem Verein, und darf dafür Werbung machen.",
+    "bsp": "Ohne das Sponsoring der Bäckerei könnte unser Jugendteam keine Trikots kaufen.",
+    "dates": [
+      "2026-11-23"
+    ],
+    "sq": "sponsorizim",
+    "tr": "sponsorluk",
+    "uk": "спонсорство",
+    "ar": "رعاية",
+    "fa": "حمایت مالی",
+    "es": "patrocinio",
+    "fr": "parrainage",
+    "it": "sponsorizzazione"
+  },
+  {
+    "de": "auslaufen",
+    "en": "to expire, to run out",
+    "erk": "Ein Vertrag oder eine Regel gilt nur bis zu einem bestimmten Datum und endet dann.",
+    "bsp": "Mein Arbeitsvertrag läuft im März aus – ich hoffe, er wird verlängert.",
+    "dates": [
+      "2026-11-23"
+    ],
+    "sq": "skadon",
+    "tr": "süresi dolmak",
+    "uk": "закінчуватися (про термін дії)",
+    "ar": "ينتهي (مثل العقد)",
+    "fa": "تمام شدن مدت",
+    "es": "vencer",
+    "fr": "expirer",
+    "it": "scadere"
+  },
+  {
+    "de": "einvernehmlich",
+    "en": "by mutual agreement",
+    "erk": "Beide Seiten sind mit der Entscheidung einverstanden, es gibt keinen Streit.",
+    "bsp": "Wir haben uns einvernehmlich getrennt und sind immer noch Freunde.",
+    "dates": [
+      "2026-11-23"
+    ],
+    "sq": "me marrëveshje të përbashkët",
+    "tr": "karşılıklı anlaşmayla",
+    "uk": "за взаємною згодою",
+    "ar": "بالتراضي",
+    "fa": "با توافق دوطرفه",
+    "es": "de mutuo acuerdo",
+    "fr": "d'un commun accord",
+    "it": "di comune accordo"
+  },
+  {
+    "de": "das Vereinsmitglied",
+    "en": "club member",
+    "erk": "Eine Person, die in einem Verein angemeldet ist und meistens einen Beitrag bezahlt.",
+    "bsp": "Als Vereinsmitglied darf man auf der Versammlung abstimmen.",
+    "dates": [
+      "2026-11-23"
+    ],
+    "sq": "anëtar i klubit",
+    "tr": "kulüp üyesi",
+    "uk": "член клубу",
+    "ar": "عضو في النادي",
+    "fa": "عضو باشگاه",
+    "es": "socio del club",
+    "fr": "membre du club",
+    "it": "socio del club"
   }
 ]

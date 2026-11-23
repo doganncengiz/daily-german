@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 23. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Montag, 23. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 23. November</div>
+    <h2 class="heading">Tabellenführer mit Minus: Der BVB legt heute seinen Aktionären die Zahlen vor</h2>
+    <div class="card">
+      <p>Sportlich läuft es für Borussia Dortmund gerade sehr gut: Nach dem 1:0 am Samstag in Mönchengladbach steht der BVB an der Spitze der Bundesliga. Heute geht es aber nicht um Tore, sondern um Zahlen. Um 11 Uhr beginnt in den Dortmunder Westfalenhallen die <b>Hauptversammlung</b> der Borussia Dortmund GmbH &amp; Co. KGaA – des einzigen Bundesligaklubs, dessen Aktie an der Börse gehandelt wird.</p><p>Carsten Cramer, Vorsitzender der Geschäftsführung, wird den <b>Aktionären</b> die Zahlen für das Geschäftsjahr 2025/26 <b>vorlegen</b>. Der Umsatz lag bei 460,5 Millionen Euro – eine große Summe. Trotzdem steht am Ende ein <b>Fehlbetrag</b> von mehr als 21 Millionen Euro. Der wichtigste Grund ist nach Angaben der Deutschen Presse-Agentur die schwache Saison in der Champions League. Dort gibt es für Siege und für jede weitere Runde viel Geld. Wer schwach spielt, bekommt entsprechend weniger.</p><p>Ein Thema steht gar nicht auf der Tagesordnung, wird aber wahrscheinlich trotzdem zur Sprache kommen: das <b>Sponsoring</b> durch Rheinmetall. Seit 2024 wirbt das <b>Rüstungsunternehmen</b> aus Düsseldorf beim BVB. Schon damals gab es massive Kritik von <b>Vereinsmitgliedern</b> und Fanvertretern. Jetzt ist klar: Der Vertrag wird nicht verlängert, er <b>läuft</b> 2027 <b>aus</b>. Nach Medienberichten haben sich beide Seiten <b>einvernehmlich</b> darauf geeinigt.</p><p>Für die Aktionäre bleibt die Frage, wie der Klub das Minus ausgleichen will und wer später die Lücke beim Sponsoring füllt. Der Fall zeigt aber auch etwas Grundsätzliches: Bei einem Fußballverein entscheiden nicht nur Zahlen. Die Fans wollen mitreden, wer mit dem Namen ihres Klubs Werbung macht. Und am Wochenende dürfen sie sich erst einmal über die Tabelle freuen.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>die Hauptversammlung</td><td>annual general meeting (of shareholders)</td><td>Ein Treffen, bei dem die Aktionäre einer Firma die Zahlen hören und über wichtige Punkte abstimmen.</td><td>Auf der Hauptversammlung haben viele Aktionäre kritische Fragen gestellt.</td></tr><tr><td>der Aktionär <span class="rep">(Wiederholung)</span></td><td>shareholder</td><td>Eine Person oder Firma, der ein Teil einer Aktiengesellschaft gehört.</td><td>Mein Onkel ist seit Jahren Aktionär und fährt jedes Jahr zur Hauptversammlung.</td></tr><tr><td>vorlegen</td><td>to present, to submit</td><td>Etwas offiziell zeigen oder abgeben, damit andere es prüfen können.</td><td>Bis Freitag muss ich meinem Chef den Bericht vorlegen.</td></tr><tr><td>der Fehlbetrag</td><td>deficit, shortfall</td><td>Das Geld, das am Ende fehlt, weil die Ausgaben höher waren als die Einnahmen.</td><td>Die Kasse des Vereins hat einen Fehlbetrag von 2.000 Euro.</td></tr><tr><td>das Sponsoring</td><td>sponsorship</td><td>Eine Firma gibt Geld, zum Beispiel einem Verein, und darf dafür Werbung machen.</td><td>Ohne das Sponsoring der Bäckerei könnte unser Jugendteam keine Trikots kaufen.</td></tr><tr><td>das Rüstungsunternehmen <span class="rep">(Wiederholung)</span></td><td>defence company, arms manufacturer</td><td>Eine Firma, die Waffen, Munition oder andere Produkte für das Militär herstellt.</td><td>Das Rüstungsunternehmen sucht neue Ingenieurinnen und Ingenieure.</td></tr><tr><td>auslaufen</td><td>to expire, to run out</td><td>Ein Vertrag oder eine Regel gilt nur bis zu einem bestimmten Datum und endet dann.</td><td>Mein Arbeitsvertrag läuft im März aus – ich hoffe, er wird verlängert.</td></tr><tr><td>einvernehmlich</td><td>by mutual agreement</td><td>Beide Seiten sind mit der Entscheidung einverstanden, es gibt keinen Streit.</td><td>Wir haben uns einvernehmlich getrennt und sind immer noch Freunde.</td></tr><tr><td>das Vereinsmitglied</td><td>club member</td><td>Eine Person, die in einem Verein angemeldet ist und meistens einen Beitrag bezahlt.</td><td>Als Vereinsmitglied darf man auf der Versammlung abstimmen.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Sportlich / beruflich läuft es gut.“</b> — „Es läuft gut“ heißt: Die Sache entwickelt sich positiv. Mit einem Adverb davor sagt man, in welchem Bereich.<br><i>Beruflich läuft es gerade super, nur privat habe ich kaum Zeit.</i></li><li><b>„Es geht nicht um …, sondern um …“</b> — Damit macht man klar, was wirklich wichtig ist. Sehr nützlich, wenn eine Diskussion in die falsche Richtung geht.<br><i>Es geht nicht um die Farbe der Folien, sondern um die Zahlen darauf.</i></li><li><b>„zur Sprache kommen“</b> — Ein Thema wird in einem Gespräch oder Meeting genannt und besprochen, oft ohne dass es geplant war.<br><i>Im Teammeeting kam auch das Thema Homeoffice zur Sprache.</i></li><li><b>„mitreden wollen / dürfen“</b> — Bei einer Entscheidung seine Meinung sagen und Einfluss haben.<br><i>Wenn es um meinen Urlaub geht, will ich schon mitreden.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Relativsatz mit „dessen“ und „deren“:</b> „… des einzigen Bundesligaklubs, <b>dessen</b> Aktie an der Börse gehandelt wird.“ „Dessen“ und „deren“ zeigen Besitz – wie „sein“ oder „ihr“, nur im Relativsatz. Die Form richtet sich nach dem Besitzer, nicht nach dem Ding danach: der Klub → <b>dessen</b> Aktie, die Firma → <b>deren</b> Chef, das Unternehmen → <b>dessen</b> Zahlen, die Fans (Plural) → <b>deren</b> Kritik. Typischer Fehler: „der Klub, <i>dem seine</i> Aktie …“ – das hört man in der Umgangssprache, im Schreiben ist es falsch. Und nach „dessen/deren“ kommt kein Artikel mehr: nicht „dessen <i>die</i> Aktie“.</p></div><div class="grammar-block"><p><b>„Wer …, (der) …“ – Sätze über alle, die etwas tun:</b> „<b>Wer</b> schwach spielt, bekommt weniger.“ Hier gibt es keine bestimmte Person: „wer“ bedeutet „jede Person, die“. Der Wer-Satz steht vorne, dann kommt sofort das Verb des Hauptsatzes. Man kann „der“ einfügen, um es zu betonen: „Wer zu spät kommt, <b>den</b> bestraft das Leben.“ Typischer Fehler: ein zusätzliches Pronomen – „Wer schwach spielt, <i>er</i> bekommt weniger“ ist falsch.</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Welche Zahlen legt Carsten Cramer für das Geschäftsjahr 2025/26 vor?</li><li>Was ist laut dpa der wichtigste Grund für das Minus?</li><li>Was passiert mit dem Sponsoring durch Rheinmetall?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Relativsatz mit „dessen“ oder „deren“ über eine Firma, einen Verein oder eine Person, die du kennst (z. B. „Ich arbeite bei einer Firma, deren Chef …“).</li><li>Schreibe einen Satz mit „Wer …, …“ über eine Regel bei deiner Arbeit, im Sport oder im Deutschkurs.</li><li>Schreibe einen Satz mit „auslaufen“ oder „zur Sprache kommen“ über einen Vertrag, ein Meeting oder ein Projekt.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Sollte ein Fußballverein Geld von jeder Firma nehmen, wenn er es braucht – oder sollten die Fans mitreden dürfen? Sprich vier bis fünf Sätze und benutze „das Sponsoring“, „das Vereinsmitglied“ und „der Fehlbetrag“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 23. November 2026, früher Morgen): <a href="https://www.t-online.de/finanzen/aktuelles/id_101541024/rheinmetall-deal-duerfte-bei-bvb-hauptversammlung-thema-sein.html">t-online/dpa: Rheinmetall-Deal dürfte bei BVB-Hauptversammlung Thema sein</a> (Hauptversammlung um 11 Uhr in den Westfalenhallen, Carsten Cramer, Umsatz 460,5 Mio. Euro, Fehlbetrag über 21 Mio. Euro, schwache Champions-League-Saison, Vertrag läuft 2027 aus, Kritik von Mitgliedern und Fanvertretern); <a href="https://www.boerse-global.de/bvb-aktie-cramer-muss-das-minus-erklaeren/845296">boerse-global.de: BVB-Aktie – Cramer muss das Minus erklären</a> (einvernehmliches Ende, 1:0 in Mönchengladbach, Tabellenführung); <a href="https://www.news.de/panorama/860210227/23-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-23-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/">news.de/dpa: Themen des Tages am 23. November</a>; <a href="https://www.finanznachrichten.de/nachrichten-2026-11/70198928-tagesvorschau-termine-am-23-november-2026-016.htm">dpa-AFX: Tagesvorschau 23. November 2026</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Was hat das Bundeskartellamt am 26. Juni 2023 entschieden?",
+      "o": [
+        "Trainline und Omio müssen der Bahn für jede verkaufte Fahrkarte eine Provision zahlen.",
+        "Die Bahn missbraucht ihre Marktmacht und benachteiligt die Plattformen beim Ticketverkauf.",
+        "Die Plattformen dürfen in Zukunft keine eigenen Rabatte mehr anbieten."
+      ],
+      "c": 1,
+      "why": "Laut Text hat das Kartellamt entschieden, dass die Bahn ihre Marktmacht missbraucht und die Plattformen benachteiligt. Option a) dreht die Richtung um – die Bahn soll den Plattformen eine Provision zahlen, nicht umgekehrt. Option c) ist das Gegenteil: Die Plattformen sollten Rabatte geben dürfen."
+    },
+    {
+      "q": "Was ist im März 2024 vor Gericht passiert?",
+      "o": [
+        "Der Bundesgerichtshof hat den Streit endgültig entschieden.",
+        "Das Gericht hat der Bahn recht gegeben: Sie muss keine Provision zahlen.",
+        "Die Bahn ist mit ihrem Eilantrag in weiten Teilen gescheitert, die Mindesthöhe der Provision blieb aber offen."
+      ],
+      "c": 2,
+      "why": "Im März 2024 ist die Bahn mit dem Eilantrag in weiten Teilen gescheitert; nur die Mindesthöhe der Provision hat das Gericht vorerst offen gelassen. Der Bundesgerichtshof kommt laut Text erst vielleicht nach dem heutigen Urteil ins Spiel, und das Gericht hat ausdrücklich bestätigt, dass eine Provision gezahlt werden muss."
+    },
+    {
+      "q": "Was hat sich in den neuen Verträgen zwischen Bahn und Plattformen schon geändert?",
+      "o": [
+        "Werbeverbote gibt es nicht mehr, und Rabatte auf Fahrkarten sind in der Regel erlaubt.",
+        "Die Plattformen bekommen die Echtzeitdaten jetzt komplett kostenlos.",
+        "Die Bahn zahlt jetzt eine feste Provision, deren Höhe das Gericht festgelegt hat."
+      ],
+      "c": 0,
+      "why": "Der Text sagt: In den neuen Verträgen gibt es keine Werbeverbote mehr, und Rabatte sind in der Regel erlaubt. Die Echtzeitdaten gibt es laut Kartellamt nur „gegen ein angemessenes Entgelt“, also nicht kostenlos, und die Höhe der Provision hat das Gericht gerade offen gelassen."
+    }
+  ],
+  "schreib": [
+    "Mein Chef hat angerufen: Ich <b>soll</b> den Bericht bis Freitag an den Kunden <b>schicken</b>. <span class=\"hint\">Mit „sollen“ kommt der Auftrag von jemand anderem – der Infinitiv steht am Satzende.</span>",
+    "Der Vermieter hat gesagt, dass die Heizung noch vor Weihnachten <b>repariert werden muss</b>. <span class=\"hint\">Im Nebensatz ist die Reihenfolge Partizip + „werden“ + Modalverb – nicht „muss repariert werden“.</span>",
+    "Der Zug hatte 40 Minuten Verspätung, aber egal – <b>Hauptsache</b>, wir sind gut angekommen. <span class=\"hint\">Nach „Hauptsache,“ folgt ein normaler Hauptsatz, das Verb steht also an Position zwei.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich kaufe meine Fahrkarten meistens …, weil …",
+      "Bei einem Drittanbieter finde ich gut, dass …",
+      "Wenn es einen Rabatt gibt, …",
+      "Für mich sind die Echtzeitdaten wichtig, denn …",
+      "Hauptsache, …"
+    ],
+    "modell": "Ich kaufe meine Fahrkarten meistens direkt in der App der Bahn, weil ich dort die Bahncard nutzen kann. Manchmal schaue ich aber auch bei einem <b>Drittanbieter</b>, denn dort sehe ich Zug und Fernbus in einer Suche. Wenn es irgendwo einen <b>Rabatt</b> gibt, buche ich natürlich dort. Am wichtigsten sind für mich aber die <b>Echtzeitdaten</b>: Ich pendle jeden Tag und will sofort wissen, ob mein Zug Verspätung hat. Hauptsache, die Information ist richtig und kommt rechtzeitig."
+  }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 25. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Mittwoch, 25. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 25. November</div>
+    <h2 class="heading">Bahn gegen Trainline und Omio: Heute fällt in Düsseldorf das Urteil zum Ticketverkauf</h2>
+    <div class="card">
+      <p>Wer eine Zugfahrkarte kaufen will, macht das heute meistens online. Viele nutzen dafür die App der Deutschen Bahn, andere buchen über <b>Drittanbieter</b> wie Trainline oder Omio. Solche Plattformen zeigen oft Zug, Fernbus und Flug in einer einzigen Suche. Aber sind die Bedingungen für alle fair? Genau darum geht es heute um 10 Uhr vor dem Oberlandesgericht Düsseldorf.</p><p>Die Vorgeschichte: Am 26. Juni 2023 hat das Bundeskartellamt entschieden, dass die Bahn ihre <b>Marktmacht</b> missbraucht. Der Vorwurf: Der Konzern habe die Plattformen beim Verkauf von Tickets <b>benachteiligt</b>. Die Behörde hat deshalb mehrere Vorgaben gemacht. Die Bahn sollte Werbeverbote aus ihren Verträgen streichen. Die Plattformen sollten eigene <b>Rabatte</b> geben dürfen. Außerdem sollten sie Zugang zu <b>Echtzeitdaten</b> über Verspätungen und Zugausfälle bekommen – gegen ein angemessenes Entgelt. Und die Bahn sollte den Plattformen für die Vermittlung von Tickets eine <b>Provision</b> zahlen.</p><p>Die Bahn wollte das nicht akzeptieren und hat ein <b>Rechtsmittel</b> eingelegt. Mit einem Eilantrag ist sie aber schon im März 2024 in weiten Teilen gescheitert. Das Gericht hat damals bestätigt, dass eine Provision gezahlt werden muss. Wie hoch sie mindestens sein soll, hat es aber vorerst offen gelassen. An der Berechnung des Kartellamts hatte es „ernstliche Zweifel“.</p><p>Inzwischen hat sich schon einiges geändert. Die Bahn hat mit den Plattformen neue Verträge geschlossen: Werbeverbote gibt es dort nicht mehr, und Rabatte auf Fahrkarten sind in der Regel erlaubt. Heute will das Gericht im Hauptverfahren sein Urteil <b>verkünden</b>. Ganz vorbei ist der Streit damit vielleicht trotzdem nicht, denn danach kann der Fall noch vor den Bundesgerichtshof gehen.</p><p>Für Reisende ist das keine rein juristische Frage. Mehr Wettbewerb kann bessere Apps, mehr Service und manchmal günstigere Preise bedeuten. Oder, wie viele Pendler sagen würden: Hauptsache, die Nachricht über die Verspätung kommt rechtzeitig aufs Handy.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>der Drittanbieter</td><td>third-party provider</td><td>Eine andere Firma, die ein Produkt oder einen Service verkauft oder vermittelt – nicht der Hersteller selbst.</td><td>Die Konzertkarten habe ich über einen Drittanbieter gekauft, sie waren etwas teurer.</td></tr><tr><td>die Marktmacht</td><td>market power</td><td>Eine Firma ist so groß oder so wichtig, dass sie die Regeln und Preise auf dem Markt bestimmen kann.</td><td>Wegen seiner Marktmacht kann der Konzern den Händlern fast jede Bedingung diktieren.</td></tr><tr><td>benachteiligen</td><td>to disadvantage, to discriminate against</td><td>Jemanden schlechter behandeln als andere, obwohl es keinen guten Grund dafür gibt.</td><td>Teilzeitkräfte dürfen bei der Beförderung nicht benachteiligt werden.</td></tr><tr><td>der Rabatt <span class="rep">(Wiederholung)</span></td><td>discount</td><td>So viel billiger ist ein Produkt als der normale Preis.</td><td>Mit der Bahncard 25 bekommt man 25 Prozent Rabatt auf den Fahrpreis.</td></tr><tr><td>die Echtzeitdaten</td><td>real-time data</td><td>Informationen, die sofort aktualisiert werden – zum Beispiel, wo ein Zug gerade ist.</td><td>Dank der Echtzeitdaten sehe ich in der App, dass mein Bus fünf Minuten später kommt.</td></tr><tr><td>die Provision</td><td>commission</td><td>Geld, das jemand bekommt, wenn er ein Geschäft vermittelt, oft ein Prozentsatz vom Preis.</td><td>Der Makler bekommt für die Wohnung eine Provision von zwei Monatsmieten.</td></tr><tr><td>das Rechtsmittel</td><td>legal remedy, appeal</td><td>Ein offizieller Weg, mit dem man eine Entscheidung von einem Amt oder Gericht noch einmal prüfen lässt.</td><td>Gegen den Bescheid kann man innerhalb eines Monats ein Rechtsmittel einlegen.</td></tr><tr><td>verkünden <span class="rep">(Wiederholung)</span></td><td>to announce, to pronounce (a verdict)</td><td>Etwas offiziell und öffentlich bekannt geben.</td><td>Die Geschäftsführung will die neuen Zahlen am Freitag verkünden.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Genau darum geht es.“</b> — Damit zeigt man, was der Kern eines Problems oder einer Diskussion ist. Sehr praktisch in Meetings, um ein Gespräch zu fokussieren.<br><i>Wer zahlt die Überstunden? Genau darum geht es in der Besprechung heute.</i></li><li><b>„in weiten Teilen“</b> — Zum größten Teil, aber nicht komplett. Typisch für Berichte, Bewertungen und Nachrichten.<br><i>Der Kunde war mit unserem Konzept in weiten Teilen einverstanden.</i></li><li><b>„etwas (vorerst) offen lassen“</b> — Eine Frage noch nicht entscheiden, sondern später klären.<br><i>Den genauen Termin lassen wir vorerst offen, bis alle zugesagt haben.</i></li><li><b>„Hauptsache, …“</b> — Umgangssprachlich: Das ist das Wichtigste, alles andere ist egal. Danach folgt ein normaler Hauptsatz.<br><i>Das Hotel ist nicht schick, aber egal – Hauptsache, es ist sauber.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>„sollen“ für Forderungen von anderen:</b> „Die Bahn <b>sollte</b> Werbeverbote <b>streichen</b>.“ – „Die Plattformen <b>sollten</b> Rabatte geben dürfen.“ Mit „sollen“ zeigt man: Das will eine andere Person oder Stelle, hier das Kartellamt. „Müssen“ klingt dagegen nach einer festen Pflicht ohne Diskussion. Im Büro hört man das ständig: „Ich <b>soll</b> dir sagen, dass das Meeting verschoben ist.“ Typischer Fehler: Präteritum „sollte“ mit Konjunktiv „sollte“ verwechseln. Beide sehen gleich aus – „Du solltest mehr schlafen“ ist ein Rat, „Er sollte den Bericht bis Montag schicken“ kann auch eine Anweisung aus der Vergangenheit sein. Der Kontext entscheidet.</p></div><div class="grammar-block"><p><b>Passiv mit Modalverb im Nebensatz:</b> „Das Gericht hat bestätigt, dass eine Provision <b>gezahlt werden muss</b>.“ Im Hauptsatz heißt es: „Eine Provision <b>muss gezahlt werden</b>.“ Im Nebensatz rutscht das Modalverb ganz ans Ende, die Reihenfolge ist also: Partizip II + „werden“ + Modalverb. Typischer Fehler: „…, dass eine Provision <i>muss gezahlt werden</i>“ oder „<i>gezahlt muss werden</i>“. Richtig ist nur: „gezahlt werden muss“. Genauso: „…, weil der Bericht heute noch <b>geschickt werden soll</b>.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Was hat das Bundeskartellamt am 26. Juni 2023 entschieden?</li><li>Was ist im März 2024 vor Gericht passiert?</li><li>Was hat sich in den neuen Verträgen zwischen Bahn und Plattformen schon geändert?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „sollen“ über eine Aufgabe, die dir dein Chef, deine Kollegin oder dein Arzt gegeben hat (z. B. „Ich soll …“).</li><li>Schreibe einen Nebensatz mit Passiv und Modalverb über deine Arbeit oder deine Wohnung (z. B. „…, dass … repariert werden muss“).</li><li>Schreibe einen Satz mit „Hauptsache, …“ oder „in weiten Teilen“ über eine Reise, einen Einkauf oder ein Projekt.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Wo kaufst du deine Fahrkarten – direkt bei der Bahn oder über eine andere Plattform? Warum? Sprich vier bis fünf Sätze und benutze „der Rabatt“, „der Drittanbieter“ und „die Echtzeitdaten“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 25. November 2026, früher Morgen, vor der Urteilsverkündung): <a href="https://www.news.de/wirtschaft/860216629/hat-die-bahn-ihre-marktmacht-beim-ticketverkauf-ausgenutzt-bahn-news-der-dpa-aktuell-zu-verkehr-und-verbraucher/1/">news.de/dpa: Hat die Bahn ihre Marktmacht beim Ticketverkauf ausgenutzt?</a> (Urteilsverkündung am Mittwoch, 10 Uhr, OLG Düsseldorf; neue Verträge ohne Werbeverbote, Rabatte in der Regel erlaubt); <a href="https://duesseldorf.t-online.de/region/duesseldorf/id_101544696/duesseldorf-gericht-entscheidet-ueber-marktmacht-der-deutschen-bahn.html">t-online/dpa: Gericht entscheidet über Marktmacht der Deutschen Bahn</a> (Vorwurf des Kartellamts, Drittanbieter wie Trainline oder Omio); <a href="https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/AktuelleMeldungen/2024/11_03_2024_OLG_DB.html">Bundeskartellamt: OLG Düsseldorf bestätigt weitgehend die Vollziehbarkeit der Missbrauchsverfügung gegen die Deutsche Bahn</a> (Entscheidung vom 26. Juni 2023, Eilbeschluss vom 8. März 2024, Vorgaben zu Werbung, Rabatten, Echtzeitdaten und Provision); <a href="https://www.finanznachrichten.de/nachrichten-2026-11/70221628-tagesvorschau-termine-am-25-november-2026-016.htm">dpa-AFX: Tagesvorschau 25. November 2026</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

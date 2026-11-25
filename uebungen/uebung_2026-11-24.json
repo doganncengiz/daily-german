@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie viele Wolfsterritorien wurden im Monitoringjahr 2025/26 nachgewiesen?",
+      "o": [
+        "276 – genauso viele wie im Jahr davor",
+        "238 – und in jedem davon lebt ein Rudel",
+        "288 – zwölf mehr als im Jahr davor"
+      ],
+      "c": 2,
+      "why": "Der Text nennt 288 Territorien, „zwölf mehr als im Jahr davor“. 276 war die Zahl aus dem Vorjahr, und 238 ist nur die Zahl der Territorien mit einem Rudel – dazu kommen noch 38 Paare und zwölf Einzeltiere."
+    },
+    {
+      "q": "Wie viele tote Wölfe wurden gefunden, und woran starben die meisten?",
+      "o": [
+        "118 tote Wölfe – die meisten wurden illegal getötet",
+        "172 tote Wölfe – die meisten starben im Straßenverkehr",
+        "172 tote Wölfe – die meisten wurden illegal getötet"
+      ],
+      "c": 1,
+      "why": "Gefunden wurden 172 tote Tiere, 118 davon starben im Straßenverkehr. Option a) nimmt die Zahl der Verkehrsopfer als Gesamtzahl, und nachweislich illegal getötet wurden nur neun Wölfe – also nicht die meisten."
+    },
+    {
+      "q": "Wie bewertet der Nabu die neuen Zahlen?",
+      "o": [
+        "Ein unkontrolliertes Wachstum gibt es nicht, in manchen Regionen ist die natürliche Grenze schon erreicht.",
+        "Der Bestand wächst unkontrolliert, deshalb braucht es schnell neue Regeln.",
+        "Die meisten neuen Wölfe werden im Saarland erwartet."
+      ],
+      "c": 0,
+      "why": "Laut Nabu kann von einem unkontrollierten Wachstum „keine Rede sein“, und in manchen Regionen sei die natürliche Grenze bereits erreicht. Option b) behauptet genau das Gegenteil, und im Saarland gibt es laut Text bisher kein einziges Territorium."
+    }
+  ],
+  "schreib": [
+    "Meine Kollegin hat gesagt, sie <b>sei</b> heute im Homeoffice und <b>habe</b> erst ab 14 Uhr Zeit. <span class=\"hint\">Nach „sie“ heißt es „sei“ und „habe“ – nicht „ist“ und nicht „würde sein“.</span>",
+    "Letztes Jahr <b>wurden</b> in unserer Firma zwölf neue Leute <b>eingestellt</b>. <span class=\"hint\">„wurden“ ohne Umlaut, und das Partizip steht am Satzende.</span>",
+    "<b>Von</b> einem Chaos im Projekt <b>kann keine Rede sein</b> – <b>ich gehe davon aus, dass</b> wir pünktlich fertig werden. <span class=\"hint\">Nach „davon ausgehen, dass“ steht das Verb am Ende: „… fertig werden“.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich finde, Wölfe gehören zur Natur, aber …",
+      "Für Tierhalter ist das schwierig, weil …",
+      "Nach der neuen Schätzung …",
+      "Von einer Gefahr für alle kann keine Rede sein, trotzdem …",
+      "Ich gehe davon aus, dass …"
+    ],
+    "modell": "Ich finde, Wölfe gehören zur Natur, und es ist gut, dass sie wieder in Deutschland leben. Nach der neuen <b>Schätzung</b> gibt es mindestens 1.682 Tiere, und der <b>Bestand</b> wächst kaum noch. Von einer Gefahr für alle kann also keine Rede sein. Für <b>Tierhalter</b> ist das Thema aber schwierig, weil ein <b>Rudel</b> auch Schafe angreifen kann. Deshalb sollte der Staat die Schäfer beim Schutz ihrer Tiere unterstützen."
+  }
+}

@@ -6247,7 +6247,8 @@
     "dates": [
       "2026-07-21",
       "2026-09-18",
-      "2026-10-13"
+      "2026-10-13",
+      "2026-11-24"
     ],
     "sq": "rritja",
     "tr": "artış",
@@ -8869,7 +8870,8 @@
     "erk": "Etwas offiziell und öffentlich bekannt geben.",
     "bsp": "Das Karolinska-Institut verkündete die Preisträger am Montag.",
     "dates": [
-      "2026-10-06"
+      "2026-10-06",
+      "2026-11-25"
     ],
     "sq": "shpall",
     "tr": "duyurmak",
@@ -12202,7 +12204,8 @@
     "erk": "Eine erste Zahl, die noch nicht genau geprüft ist.",
     "bsp": "Die erste Schätzung für Oktober kam am 30. Oktober.",
     "dates": [
-      "2026-11-01"
+      "2026-11-01",
+      "2026-11-24"
     ],
     "sq": "vlerësimi",
     "tr": "tahmin",
@@ -14465,7 +14468,8 @@
     "erk": "So viel billiger ist ein Produkt als der normale Preis.",
     "bsp": "Viele Händler geben am Black Friday hohe Rabatte.",
     "dates": [
-      "2026-11-22"
+      "2026-11-22",
+      "2026-11-25"
     ],
     "sq": "zbritja",
     "tr": "indirim",
@@ -14730,5 +14734,209 @@
     "es": "socio del club",
     "fr": "membre du club",
     "it": "socio del club"
+  },
+  {
+    "de": "nachweisen",
+    "en": "to prove, to detect",
+    "erk": "Mit Fakten oder Spuren zeigen, dass etwas wirklich da ist oder wirklich passiert ist.",
+    "bsp": "Der Arzt konnte im Blut keine Viren nachweisen.",
+    "dates": [
+      "2026-11-24"
+    ],
+    "sq": "vërtetoj",
+    "tr": "kanıtlamak, tespit etmek",
+    "uk": "підтверджувати, виявляти",
+    "ar": "يُثبِت، يكشف",
+    "fa": "ثابت کردن",
+    "es": "demostrar, detectar",
+    "fr": "prouver, détecter",
+    "it": "dimostrare, rilevare"
+  },
+  {
+    "de": "das Rudel",
+    "en": "pack (of wolves)",
+    "erk": "Eine Gruppe von Wölfen, meistens Eltern mit ihren Jungen, die zusammen lebt und jagt.",
+    "bsp": "Im Wald nördlich vom Dorf lebt seit drei Jahren ein Rudel.",
+    "dates": [
+      "2026-11-24"
+    ],
+    "sq": "tufa (e ujqërve)",
+    "tr": "sürü (kurt sürüsü)",
+    "uk": "зграя",
+    "ar": "قطيع (من الذئاب)",
+    "fa": "گله (گرگ‌ها)",
+    "es": "la manada",
+    "fr": "la meute",
+    "it": "il branco"
+  },
+  {
+    "de": "der Bestand",
+    "en": "population, stock",
+    "erk": "Wie viele Tiere, Pflanzen oder Dinge es insgesamt gibt.",
+    "bsp": "Der Bestand an Störchen in unserer Region ist wieder gewachsen.",
+    "dates": [
+      "2026-11-24"
+    ],
+    "sq": "numri i përgjithshëm",
+    "tr": "popülasyon, mevcut sayı",
+    "uk": "чисельність, популяція",
+    "ar": "العدد الإجمالي",
+    "fa": "تعداد کل",
+    "es": "la población, las existencias",
+    "fr": "la population, l’effectif",
+    "it": "la popolazione, la consistenza"
+  },
+  {
+    "de": "stagnieren",
+    "en": "to stagnate",
+    "erk": "Nicht mehr wachsen und nicht kleiner werden – eine Zahl bleibt ungefähr gleich.",
+    "bsp": "Mein Gehalt stagniert seit zwei Jahren, obwohl alles teurer wird.",
+    "dates": [
+      "2026-11-24"
+    ],
+    "sq": "ngec në vend",
+    "tr": "durgunlaşmak, yerinde saymak",
+    "uk": "стагнувати, не зростати",
+    "ar": "يركد، يتوقف عن النمو",
+    "fa": "ثابت ماندن",
+    "es": "estancarse",
+    "fr": "stagner",
+    "it": "ristagnare"
+  },
+  {
+    "de": "die Dunkelziffer",
+    "en": "number of unreported cases",
+    "erk": "Die Zahl der Fälle, die niemand bemerkt oder meldet – sie fehlt in der offiziellen Statistik.",
+    "bsp": "Bei Fahrraddiebstählen ist die Dunkelziffer sehr hoch, weil viele keine Anzeige machen.",
+    "dates": [
+      "2026-11-24"
+    ],
+    "sq": "numri i rasteve të paraportuara",
+    "tr": "bilinmeyen gerçek sayı",
+    "uk": "кількість невиявлених випадків",
+    "ar": "عدد الحالات غير المسجلة",
+    "fa": "تعداد موارد گزارش‌نشده",
+    "es": "la cifra oculta",
+    "fr": "le chiffre noir (cas non déclarés)",
+    "it": "il numero oscuro (casi non registrati)"
+  },
+  {
+    "de": "der Tierhalter",
+    "en": "animal keeper, livestock owner",
+    "erk": "Eine Person, die Tiere besitzt und für sie sorgt, zum Beispiel Schafe, Kühe oder einen Hund.",
+    "bsp": "Als Tierhalter muss man auch im Urlaub an seine Tiere denken.",
+    "dates": [
+      "2026-11-24"
+    ],
+    "sq": "pronari i kafshëve",
+    "tr": "hayvan sahibi",
+    "uk": "власник тварин",
+    "ar": "مربي الحيوانات",
+    "fa": "صاحب حیوان، دامدار",
+    "es": "el ganadero, el dueño de animales",
+    "fr": "l’éleveur, le détenteur d’animaux",
+    "it": "l’allevatore, il proprietario di animali"
+  },
+  {
+    "de": "der Drittanbieter",
+    "en": "third-party provider",
+    "erk": "Eine andere Firma, die ein Produkt oder einen Service verkauft oder vermittelt – nicht der Hersteller selbst.",
+    "bsp": "Die Konzertkarten habe ich über einen Drittanbieter gekauft, sie waren etwas teurer.",
+    "dates": [
+      "2026-11-25"
+    ],
+    "sq": "ofruesi i palës së tretë",
+    "tr": "üçüncü taraf sağlayıcı",
+    "uk": "сторонній постачальник",
+    "ar": "مزوّد خارجي",
+    "fa": "ارائه‌دهنده شخص ثالث",
+    "es": "el proveedor externo",
+    "fr": "le prestataire tiers",
+    "it": "il fornitore terzo"
+  },
+  {
+    "de": "die Marktmacht",
+    "en": "market power",
+    "erk": "Eine Firma ist so groß oder so wichtig, dass sie die Regeln und Preise auf dem Markt bestimmen kann.",
+    "bsp": "Wegen seiner Marktmacht kann der Konzern den Händlern fast jede Bedingung diktieren.",
+    "dates": [
+      "2026-11-25"
+    ],
+    "sq": "fuqia në treg",
+    "tr": "pazar gücü",
+    "uk": "ринкова влада",
+    "ar": "القوة السوقية",
+    "fa": "قدرت بازار",
+    "es": "el poder de mercado",
+    "fr": "le pouvoir de marché",
+    "it": "il potere di mercato"
+  },
+  {
+    "de": "benachteiligen",
+    "en": "to disadvantage, to discriminate against",
+    "erk": "Jemanden schlechter behandeln als andere, obwohl es keinen guten Grund dafür gibt.",
+    "bsp": "Teilzeitkräfte dürfen bei der Beförderung nicht benachteiligt werden.",
+    "dates": [
+      "2026-11-25"
+    ],
+    "sq": "dëmtoj, trajtoj padrejtësisht",
+    "tr": "dezavantajlı duruma düşürmek",
+    "uk": "ставити в невигідне становище",
+    "ar": "يُجحف بحق، يميّز ضد",
+    "fa": "در وضعیت نابرابر قرار دادن",
+    "es": "perjudicar, discriminar",
+    "fr": "désavantager",
+    "it": "svantaggiare"
+  },
+  {
+    "de": "die Echtzeitdaten",
+    "en": "real-time data",
+    "erk": "Informationen, die sofort aktualisiert werden – zum Beispiel, wo ein Zug gerade ist.",
+    "bsp": "Dank der Echtzeitdaten sehe ich in der App, dass mein Bus fünf Minuten später kommt.",
+    "dates": [
+      "2026-11-25"
+    ],
+    "sq": "të dhënat në kohë reale",
+    "tr": "gerçek zamanlı veriler",
+    "uk": "дані в реальному часі",
+    "ar": "بيانات فورية",
+    "fa": "داده‌های لحظه‌ای",
+    "es": "los datos en tiempo real",
+    "fr": "les données en temps réel",
+    "it": "i dati in tempo reale"
+  },
+  {
+    "de": "die Provision",
+    "en": "commission",
+    "erk": "Geld, das jemand bekommt, wenn er ein Geschäft vermittelt, oft ein Prozentsatz vom Preis.",
+    "bsp": "Der Makler bekommt für die Wohnung eine Provision von zwei Monatsmieten.",
+    "dates": [
+      "2026-11-25"
+    ],
+    "sq": "komisioni",
+    "tr": "komisyon",
+    "uk": "комісія",
+    "ar": "عمولة",
+    "fa": "کارمزد",
+    "es": "la comisión",
+    "fr": "la commission",
+    "it": "la provvigione"
+  },
+  {
+    "de": "das Rechtsmittel",
+    "en": "legal remedy, appeal",
+    "erk": "Ein offizieller Weg, mit dem man eine Entscheidung von einem Amt oder Gericht noch einmal prüfen lässt.",
+    "bsp": "Gegen den Bescheid kann man innerhalb eines Monats ein Rechtsmittel einlegen.",
+    "dates": [
+      "2026-11-25"
+    ],
+    "sq": "mjeti ligjor, ankesa",
+    "tr": "kanun yolu, itiraz",
+    "uk": "засіб правового захисту, оскарження",
+    "ar": "طعن قانوني",
+    "fa": "اعتراض قانونی",
+    "es": "el recurso",
+    "fr": "le recours",
+    "it": "il ricorso"
   }
 ]

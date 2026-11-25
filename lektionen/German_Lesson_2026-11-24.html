@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 24. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Dienstag, 24. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 24. November</div>
+    <h2 class="heading">1.682 Wölfe, 288 Territorien: Der Bestand wächst kaum noch</h2>
+    <div class="card">
+      <p>Wie viele Wölfe leben eigentlich in Deutschland? Auf diese Frage gibt es seit Montag eine neue Antwort. Die Dokumentations- und Beratungsstelle des Bundes zum Thema Wolf (DBBW) hat ihre Zahlen für das Monitoringjahr 2025/26 veröffentlicht, also für die Zeit von Mai 2025 bis Ende April 2026. Das Ergebnis: Im ganzen Land wurden 288 Wolfsterritorien <b>nachgewiesen</b> – zwölf mehr als im Jahr davor. In 238 davon lebt ein <b>Rudel</b>, in 38 ein Paar und in zwölf ein einzelnes Tier.</p><p>Nach der neuen <b>Schätzung</b> leben mindestens 1.682 Wölfe in Deutschland, darunter viele Welpen. Ein Jahr zuvor waren es 1.636. Der <b>Anstieg</b> ist also klein – und das schon im zweiten Jahr hintereinander. Der <b>Bestand</b> <b>stagniert</b>, berichtet die Deutsche Presse-Agentur.</p><p>Die meisten Wölfe leben weiterhin im Norden und Osten. An der Spitze liegen Brandenburg mit 64 und Niedersachsen mit 62 Territorien. Danach folgen Sachsen (48), Sachsen-Anhalt (40) und Mecklenburg-Vorpommern (32). Nur im Saarland gibt es bisher kein einziges Territorium. Neue Gebiete entstehen vor allem im Süden und Westen, liegen dort aber oft weit auseinander.</p><p>Am gefährlichsten ist für Wölfe die Straße: 172 tote Tiere wurden im Monitoringjahr gefunden, 118 davon starben im Straßenverkehr. Neun Wölfe wurden nachweislich illegal getötet. Der Naturschutzbund Nabu geht davon aus, dass die <b>Dunkelziffer</b> deutlich höher ist.</p><p>Für den Nabu zeigen die Zahlen vor allem eins: Von einem unkontrollierten Wachstum könne keine Rede sein. In manchen Regionen sei die natürliche Grenze bereits erreicht, dort dürften nur noch wenige Wölfe dazukommen. Trotzdem bleibt der Wolf ein Streitthema – besonders für Schäfer und andere <b>Tierhalter</b>, die sich um ihre Schafe und Ziegen sorgen. Klar ist nur: Der Wolf ist in Deutschland wieder zu Hause.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>nachweisen</td><td>to prove, to detect</td><td>Mit Fakten oder Spuren zeigen, dass etwas wirklich da ist oder wirklich passiert ist.</td><td>Der Arzt konnte im Blut keine Viren nachweisen.</td></tr><tr><td>das Rudel</td><td>pack (of wolves)</td><td>Eine Gruppe von Wölfen, meistens Eltern mit ihren Jungen, die zusammen lebt und jagt.</td><td>Im Wald nördlich vom Dorf lebt seit drei Jahren ein Rudel.</td></tr><tr><td>die Schätzung <span class="rep">(Wiederholung)</span></td><td>estimate</td><td>Eine erste Zahl, die noch nicht genau geprüft ist.</td><td>Nach meiner Schätzung brauchen wir für das Projekt noch zwei Wochen.</td></tr><tr><td>der Anstieg <span class="rep">(Wiederholung)</span></td><td>increase, rise</td><td>Wenn eine Zahl oder ein Wert größer wird.</td><td>Bei den Mieten gab es dieses Jahr einen deutlichen Anstieg.</td></tr><tr><td>der Bestand</td><td>population, stock</td><td>Wie viele Tiere, Pflanzen oder Dinge es insgesamt gibt.</td><td>Der Bestand an Störchen in unserer Region ist wieder gewachsen.</td></tr><tr><td>stagnieren</td><td>to stagnate</td><td>Nicht mehr wachsen und nicht kleiner werden – eine Zahl bleibt ungefähr gleich.</td><td>Mein Gehalt stagniert seit zwei Jahren, obwohl alles teurer wird.</td></tr><tr><td>die Dunkelziffer</td><td>number of unreported cases</td><td>Die Zahl der Fälle, die niemand bemerkt oder meldet – sie fehlt in der offiziellen Statistik.</td><td>Bei Fahrraddiebstählen ist die Dunkelziffer sehr hoch, weil viele keine Anzeige machen.</td></tr><tr><td>der Tierhalter</td><td>animal keeper, livestock owner</td><td>Eine Person, die Tiere besitzt und für sie sorgt, zum Beispiel Schafe, Kühe oder einen Hund.</td><td>Als Tierhalter muss man auch im Urlaub an seine Tiere denken.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Von … kann keine Rede sein.“</b> — Damit widerspricht man klar und deutlich: Die Behauptung stimmt überhaupt nicht. Klingt etwas formell, ist im Beruf aber sehr nützlich.<br><i>Von einer Verspätung kann keine Rede sein – das Paket ist pünktlich angekommen.</i></li><li><b>„davon ausgehen, dass …“</b> — Etwas für sehr wahrscheinlich halten, ohne es sicher zu wissen.<br><i>Ich gehe davon aus, dass das Meeting morgen wie geplant stattfindet.</i></li><li><b>„an der Spitze liegen“ / „danach folgen“</b> — So beschreibt man eine Rangliste: Wer ist vorne, wer kommt danach?<br><i>Bei den Bewerbungen liegt das Marketing an der Spitze, danach folgt der Vertrieb.</i></li><li><b>„im zweiten Jahr hintereinander“</b> — Etwas passiert mehrmals ohne Pause, Jahr für Jahr.<br><i>Unser Team hat im dritten Jahr hintereinander das Ziel erreicht.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Indirekte Rede mit Konjunktiv I:</b> „Von einem unkontrollierten Wachstum <b>könne</b> keine Rede sein. In manchen Regionen <b>sei</b> die natürliche Grenze bereits erreicht.“ Die Zeitung zeigt so: Das ist die Meinung vom Nabu, nicht die Meinung der Zeitung. Die wichtigsten Formen bildet man vom Infinitiv-Stamm mit -e: er/sie <b>sei</b>, <b>habe</b>, <b>könne</b>, <b>müsse</b>, <b>werde</b>. Im Alltag sagt man oft einfach „Er sagt, dass er keine Zeit hat“ – das ist völlig in Ordnung. Typischer Fehler beim Schreiben: „Er sagte, er <i>würde</i> krank sein.“ Besser: „Er sagte, er <b>sei</b> krank.“</p></div><div class="grammar-block"><p><b>Passiv im Präteritum mit „wurden“ + Partizip II:</b> „288 Territorien <b>wurden nachgewiesen</b>.“ – „172 tote Tiere <b>wurden gefunden</b>.“ Im Passiv ist wichtig, <i>was</i> passiert ist, nicht <i>wer</i> es getan hat. Darum ist es typisch für Berichte und Statistiken. Das Partizip steht am Satzende. Typischer Fehler: „wurden“ mit „würden“ verwechseln – „Neun Wölfe <i>würden</i> getötet“ ist Konjunktiv und bedeutet etwas ganz anderes. Und in Nebensätzen steht „wurden“ ganz am Ende: „…, weil 118 Wölfe überfahren <b>wurden</b>.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Wie viele Wolfsterritorien wurden im Monitoringjahr 2025/26 nachgewiesen?</li><li>Wie viele tote Wölfe wurden gefunden, und woran starben die meisten?</li><li>Wie bewertet der Nabu die neuen Zahlen?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Gib in indirekter Rede wieder, was eine Kollegin, dein Chef oder eine Freundin gesagt hat. Benutze den Konjunktiv I („sei“, „habe“ oder „könne“).</li><li>Schreibe einen Satz im Passiv Präteritum mit „wurden“ über Zahlen aus deiner Firma, deiner Stadt oder deinem Verein (z. B. „Letztes Jahr wurden …“).</li><li>Schreibe einen Satz mit „Von … kann keine Rede sein“ oder „Ich gehe davon aus, dass …“ über eine Situation bei der Arbeit.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Wie sollten Menschen und Wölfe in Deutschland zusammenleben? Sprich vier bis fünf Sätze und benutze „der Bestand“, „der Tierhalter“ und „die Schätzung“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 24. November 2026, früher Morgen): <a href="https://de.nachrichten.yahoo.com/zahl-w%C3%B6lfe-deutschland-leicht-gestiegen-150114755.html">AFP/Yahoo: Zahl der Wölfe in Deutschland leicht gestiegen</a> (mindestens 1.682 Wölfe, Vorjahr 1.636, 288 statt 276 Territorien, 238 Rudel/38 Paare/12 Einzeltiere, 172 Totfunde, davon 118 im Straßenverkehr, neue Gebiete im Süden und Westen); <a href="https://www.rhein-zeitung.de/deutschland-welt/wissenschaft/kaum-zuwachs-bei-den-woelfen-in-deutschland_arid-4172466.html">Rhein-Zeitung/dpa: Kaum Zuwachs bei den Wölfen in Deutschland</a> (Monitoringjahr 1. Mai 2025 bis 30. April 2026, Bestand stagniert, Territorien nach Bundesländern, kein Territorium im Saarland, neun illegale Tötungen, Nabu-Einschätzung); <a href="https://www.ad-hoc-news.de/wissenschaft/woelfe-in-deutschland-bestand-steigt-auf-rund-1-680-tiere/70546615">ad-hoc-news/dpa: Bestand steigt auf rund 1.680 Tiere</a>; <a href="https://www.dbb-wolf.de/wolfsvorkommen/territorien">DBBW: Bestätigte Wolfsterritorien in Deutschland</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

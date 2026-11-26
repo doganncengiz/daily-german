@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Warum verzögert sich der Start des digitalen Führerscheins?",
+      "o": [
+        "Die Pilotphase in der i-Kfz-App ist gescheitert.",
+        "Die technische Verbindung zu den Fotos der Pass- und Ausweisbehörden braucht noch Zeit.",
+        "Die nötige Gesetzesänderung ist noch nicht in Kraft getreten."
+      ],
+      "c": 1,
+      "why": "Laut Text ist das Foto das Problem: Die Verbindung zu den Pass- und Ausweisbehörden braucht noch Zeit. Option a) ist falsch, denn die Pilotphase wurde erfolgreich abgeschlossen, und Option c) auch – die Gesetzesänderung ist bereits in Kraft getreten."
+    },
+    {
+      "q": "Was muss man vorerst zusätzlich zum digitalen Führerschein mitführen?",
+      "o": [
+        "die Plastikkarte des Führerscheins",
+        "den digitalen Fahrzeugschein",
+        "den Personalausweis oder den Reisepass"
+      ],
+      "c": 2,
+      "why": "Bis das Foto in der App ist, muss man den Personalausweis oder den Reisepass mitführen. Die Plastikkarte darf laut Text gerade zu Hause bleiben, und der Fahrzeugschein ist nur ein anderes Dokument, das man schon in der App speichern kann."
+    },
+    {
+      "q": "Was sagt der ADAC über die Voraussetzungen und die Gültigkeit?",
+      "o": [
+        "Man braucht einen Ausweis mit Online-Ausweisfunktion und ein Smartphone mit NFC; der digitale Führerschein gilt zunächst nur in Deutschland.",
+        "Man braucht ein ganz neues Smartphone, dafür gilt der digitale Führerschein sofort in der ganzen EU.",
+        "Man braucht nur die i-Kfz-App, einen Ausweis braucht man nicht, und im Urlaub gilt der Führerschein auch."
+      ],
+      "c": 0,
+      "why": "Der ADAC nennt genau zwei Voraussetzungen: Online-Ausweisfunktion und NFC – und die meisten Handys können das schon, ein neues Gerät ist also nicht nötig. Außerdem gilt der digitale Führerschein zunächst nur in Deutschland, deshalb sind b) und c) falsch."
+    }
+  ],
+  "schreib": [
+    "<b>Sobald</b> der Kunde den Vertrag <b>unterschrieben hat</b>, <b>schicke</b> ich ihm die Rechnung. <span class=\"hint\">Im „sobald“-Satz steht das Verb am Ende, danach beginnt der Hauptsatz direkt mit dem Verb.</span>",
+    "Die Wohnung <b>wird</b> gerade <b>renoviert</b>. – Nächste Woche <b>ist</b> sie endlich <b>renoviert</b>, und wir können einziehen. <span class=\"hint\">„werden“ = die Arbeit läuft noch, „sein“ = das Ergebnis ist fertig.</span>",
+    "<b>Bis</b> mein neuer Laptop <b>kommt</b>, <b>arbeite</b> ich mit dem alten Gerät. <span class=\"hint\">Nicht „Bis mein Laptop kommt, ich arbeite …“ – nach dem Nebensatz kommt sofort das Verb.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Für mich wäre das praktisch, weil …",
+      "Eine Voraussetzung ist für mich, dass …",
+      "Ich hätte Bedenken wegen …",
+      "Als Nachweis zeige ich lieber …",
+      "Immerhin …"
+    ],
+    "modell": "Ich würde meinen Führerschein sofort aufs Handy laden, denn mein Handy habe ich immer dabei, mein Portemonnaie nicht immer. Eine wichtige <b>Voraussetzung</b> ist für mich aber, dass die App sicher ist und meine Daten gut geschützt sind. Bei einer Kontrolle zeige ich dann den digitalen <b>Nachweis</b> – aber was passiert, wenn der Akku leer ist? Deshalb würde ich am Anfang die Karte wahrscheinlich trotzdem <b>mitführen</b>. Immerhin gibt es dann eine Sorge weniger, wenn ich das Portemonnaie einmal vergesse."
+  }
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 26. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .badge{display:inline-block;padding:8px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;}
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;}
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{font-size:1.5rem;font-weight:700;color:var(--heading);margin:0 0 20px 0;}
+
+  .card{position:relative;background:var(--card-bg);border-radius:20px;padding:32px 34px;}
+  .card p{font-size:1.02rem;line-height:1.75;margin:0 0 20px 0;}
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;right:24px;bottom:-20px;width:44px;height:44px;
+    border-radius:50%;background:#ffffff;border:1px solid var(--border-soft);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;color:#8c8778;font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{color:var(--label-grey);font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;}
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{padding:14px 0;border-bottom:1px solid #e9e3d2;}
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--label-grey);font-weight:700;margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{margin-top:34px;font-size:0.8rem;color:#a39d8c;font-style:italic;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Donnerstag, 26. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+  <section id="lese" class="panel active">
+    <div class="label">Lesetext · Vorbereitet am 26. November</div>
+    <h2 class="heading">Führerschein aufs Handy: Der digitale Start verzögert sich bis Mitte Dezember</h2>
+    <div class="card">
+      <p>Schlüssel, Portemonnaie, Handy – und natürlich der Führerschein. Wer Auto fährt, muss die kleine Plastikkarte immer dabeihaben. Bald soll das einfacher werden: Der Führerschein kommt aufs Smartphone. Eigentlich sollte es schon Ende November so weit sein. Jetzt hat eine Sprecherin des Bundesverkehrsministeriums der Deutschen Presse-Agentur gesagt: Der Start <b>verzögert</b> sich etwas, der digitale Führerschein soll bis Mitte Dezember kommen.</p><p>Funktionieren soll das über die i-Kfz-App des Kraftfahrt-Bundesamts (KBA). Dort kann man schon heute den digitalen Fahrzeugschein speichern. Laut Ministerium sind die technischen Grundlagen in der App fertig, und die <b>Pilotphase</b> wurde erfolgreich abgeschlossen. Sobald die Funktion <b>freigeschaltet</b> ist, gilt der digitale Führerschein als <b>Nachweis</b> der <b>Fahrerlaubnis</b>. Die Plastikkarte darf dann zu Hause bleiben.</p><p>Warum also die Verzögerung? Das Problem ist das Foto. Das KBA darf das Bild bei den Pass- und Ausweisbehörden abrufen. Diese technische Verbindung braucht aber noch Zeit. Bis das Foto in der App ist, muss man deshalb zusätzlich den Personalausweis oder den Reisepass <b>mitführen</b> – nur so ist klar, wem der Führerschein wirklich gehört. Die nötige Gesetzesänderung ist bereits <b>in Kraft getreten</b>.</p><p>Und was braucht man? Laut ADAC gibt es zwei <b>Voraussetzungen</b>: einen Personalausweis mit aktivierter Online-Ausweisfunktion und ein Smartphone mit NFC. Die meisten Handys können das. Wichtig für den Urlaub: Der digitale Führerschein gilt zunächst nur in Deutschland. Wer im Ausland Auto fährt, nimmt also weiter die Karte mit.</p><p>Ein kleiner Schritt, aber ein typisch deutscher: Am Anfang braucht man für den digitalen Führerschein noch einen echten Ausweis in der Tasche. Immerhin haben viele den Ausweis sowieso immer dabei – für sie ist es trotzdem eine Karte weniger im Portemonnaie.</p>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="vokabular" class="panel">
+    <div class="label">Vokabular</div>
+    <h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card">
+      <table>
+        <tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+        <tr><td>verzögern <span class="rep">(Wiederholung)</span></td><td>to delay</td><td>Etwas passiert später als geplant. Oft reflexiv: „Etwas verzögert sich.“</td><td>Wegen der Grippewelle verzögert sich das Projekt um zwei Wochen.</td></tr><tr><td>die Pilotphase</td><td>pilot phase</td><td>Eine erste Testzeit, in der man etwas Neues mit wenigen Personen ausprobiert, bevor alle es nutzen.</td><td>In der Pilotphase testen nur zwei Abteilungen die neue Software.</td></tr><tr><td>freischalten</td><td>to activate, to unlock</td><td>Eine Funktion oder einen Zugang offiziell öffnen, damit man ihn benutzen kann.</td><td>Die IT hat meinen Zugang zum neuen System gestern freigeschaltet.</td></tr><tr><td>der Nachweis</td><td>proof, evidence</td><td>Ein Dokument oder eine Information, die zeigt, dass etwas wirklich stimmt.</td><td>Für das Jobticket braucht die Personalabteilung einen Nachweis über meine Adresse.</td></tr><tr><td>die Fahrerlaubnis</td><td>driving licence (the right to drive)</td><td>Das offizielle Recht, ein Auto oder ein anderes Fahrzeug zu fahren. Der Führerschein ist das Dokument dazu.</td><td>Nach dem Unfall hat er seine Fahrerlaubnis für drei Monate verloren.</td></tr><tr><td>mitführen</td><td>to carry (with you)</td><td>Ein Dokument oder einen Gegenstand bei sich haben – meistens, weil eine Regel es verlangt.</td><td>Bei der Fahrt mit dem Deutschlandticket muss man einen Ausweis mitführen.</td></tr><tr><td>in Kraft treten <span class="rep">(Wiederholung)</span></td><td>to come into force</td><td>Ein Gesetz oder eine Regel gilt ab einem bestimmten Tag.</td><td>Die neue Homeoffice-Regel tritt am 1. Januar in Kraft.</td></tr><tr><td>die Voraussetzung</td><td>requirement, prerequisite</td><td>Etwas, das man haben oder erfüllen muss, damit etwas anderes möglich ist.</td><td>Gute Deutschkenntnisse sind eine Voraussetzung für diese Stelle.</td></tr>
+      </table>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="ausdruecke" class="panel">
+    <div class="label">Ausdrücke</div>
+    <h2 class="heading">Nützliche Ausdrücke</h2>
+    <div class="card">
+      <ul class="expr">
+        <li><b>„Es ist so weit.“</b> — Der erwartete Moment ist da. Mit „sollte“ oder „eigentlich“ zeigt man, dass ein Plan nicht geklappt hat.<br><i>Eigentlich sollte das neue Büro im Oktober so weit sein – jetzt ziehen wir erst im Januar um.</i></li><li><b>„etwas dabeihaben“</b> — Etwas bei sich tragen. Alltäglicher als „mitführen“, das eher in Regeln und Gesetzen steht.<br><i>Hast du deine Mitarbeiterkarte dabei? Ohne sie kommen wir nicht ins Gebäude.</i></li><li><b>„Sobald …, …“</b> — Genau in dem Moment, wenn etwas passiert ist. Sehr nützlich für Absprachen im Job.<br><i>Sobald ich die Zahlen habe, schicke ich dir die Präsentation.</i></li><li><b>„Immerhin …“</b> — Die Situation ist nicht perfekt, aber es gibt etwas Positives. Klingt realistisch, nicht übertrieben optimistisch.<br><i>Der Zug war voll, aber immerhin war er pünktlich.</i></li>
+      </ul>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="grammatik" class="panel">
+    <div class="label">Grammatik</div>
+    <h2 class="heading">Grammatikbewusstsein</h2>
+    <div class="card">
+      <div class="grammar-block"><p><b>Vorgangspassiv und Zustandspassiv:</b> „Die Pilotphase <b>wurde</b> erfolgreich <b>abgeschlossen</b>.“ – „Sobald die Funktion <b>freigeschaltet ist</b>, …“ Mit „werden“ beschreibt man eine Handlung: Jemand macht etwas. Mit „sein“ beschreibt man das Ergebnis: Danach ist es so. Im Büro: „Der Raum <b>wird</b> gerade <b>geputzt</b>“ (die Putzkraft ist noch da) – „Der Raum <b>ist geputzt</b>“ (fertig, man kann rein). Typischer Fehler: „Die Tür wird geschlossen“ sagen, wenn man meint, dass sie zu ist. Richtig: „Die Tür <b>ist</b> geschlossen.“</p></div><div class="grammar-block"><p><b>„bis“ als Präposition und als Konjunktion:</b> „Der Führerschein soll <b>bis Mitte Dezember</b> kommen.“ Hier ist „bis“ eine Präposition, danach kommt nur eine Zeitangabe. „<b>Bis</b> das Foto in der App <b>ist</b>, muss man den Ausweis mitführen.“ Hier ist „bis“ eine Konjunktion: Es folgt ein Nebensatz, das Verb steht am Ende. Danach beginnt der Hauptsatz direkt mit dem Verb („…, <b>muss</b> man …“). Typischer Fehler: „Bis das Foto ist in der App, …“ oder nach dem Komma „…, man muss …“. Genauso: „<b>Bis</b> der Techniker <b>kommt</b>, arbeite ich im Homeoffice.“</p></div>
+      <div class="next-btn" onclick="goNext()">↓</div>
+    </div>
+  </section>
+  <section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Warum verzögert sich der Start des digitalen Führerscheins?</li><li>Was muss man vorerst zusätzlich zum digitalen Führerschein mitführen?</li><li>Was sagt der ADAC über die Voraussetzungen und die Gültigkeit?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz mit „Sobald …, …“ über eine Aufgabe bei der Arbeit oder im Alltag (z. B. „Sobald ich …, …“).</li><li>Schreibe zwei Sätze über dasselbe Ding: einen im Vorgangspassiv (mit „werden“) und einen im Zustandspassiv (mit „sein“), z. B. über eine Wohnung, ein Auto oder ein Dokument.</li><li>Schreibe einen Satz mit „bis“ als Konjunktion – mit einem Nebensatz am Anfang und dem Hauptsatz danach.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Würdest du deinen Führerschein oder andere Dokumente aufs Handy laden? Was spricht dafür, was dagegen? Sprich vier bis fünf Sätze und benutze „die Voraussetzung“, „der Nachweis“ und „mitführen“.</p></div></div></section>
+  <p class="source">Quellen (Stand: 26. November 2026, früher Morgen): <a href="https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101546836/digitaler-fuehrerschein-startet-bis-mitte-dezember.html">t-online/dpa: Digitaler Führerschein startet bis Mitte Dezember</a> (Sprecherin des Bundesverkehrsministeriums; ursprünglich Ende November geplant; Pilotphase abgeschlossen; Verzögerung wegen der Foto-Anbindung an Pass- und Ausweisbehörden; vorerst Ausweis- oder Passpflicht; Gesetzesänderung in Kraft); <a href="https://www.stuttgarter-zeitung.de/panorama/i-kfz-app-digitaler-fuehrerschein-startet-bis-mitte-dezember-79784369.html">Stuttgarter Zeitung/dpa: i-Kfz-App – Digitaler Führerschein startet bis Mitte Dezember</a> (i-Kfz-App des KBA, digitaler Fahrzeugschein; laut ADAC Online-Ausweisfunktion und NFC-Smartphone nötig, zunächst nur in Deutschland gültig); <a href="https://www.news.de/panorama/860219914/26-november-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-26-11-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/">news.de/dpa: Nachrichten am 26. November 2026</a>. Für B1/B2 vereinfacht.</p>
+</div>
+
+
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

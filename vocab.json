@@ -2294,13 +2294,17 @@
     "erk": "Wenn ein Gesetz oder eine Regel ab einem bestimmten Datum gültig wird.",
     "bsp": "Die Verordnung tritt am 2. August 2026 in Kraft.",
     "dates": [
-      "2026-08-24"
+      "2026-08-24",
+      "2026-11-26"
     ],
     "sq": "të hyjë në fuqi",
     "tr": "yürürlüğe girmek",
     "uk": "набирати чинності",
     "ar": "يدخل حيّز التنفيذ",
-    "fa": "به اجرا درآمدن"
+    "fa": "به اجرا درآمدن",
+    "es": "entrar en vigor",
+    "fr": "entrer en vigueur",
+    "it": "entrare in vigore"
   },
   {
     "de": "in Rente gehen",
@@ -5371,7 +5375,8 @@
     "bsp": "Der Streik hat die Lieferung um zwei Wochen verzögert.",
     "dates": [
       "2026-07-11",
-      "2026-10-27"
+      "2026-10-27",
+      "2026-11-26"
     ],
     "sq": "të vonosh",
     "tr": "geciktirmek",
@@ -14938,5 +14943,107 @@
     "es": "el recurso",
     "fr": "le recours",
     "it": "il ricorso"
+  },
+  {
+    "de": "die Pilotphase",
+    "en": "pilot phase",
+    "erk": "Eine erste Testzeit, in der man etwas Neues mit wenigen Personen ausprobiert, bevor alle es nutzen.",
+    "bsp": "In der Pilotphase testen nur zwei Abteilungen die neue Software.",
+    "dates": [
+      "2026-11-26"
+    ],
+    "sq": "faza pilot",
+    "tr": "pilot aşama, deneme aşaması",
+    "uk": "пілотна фаза",
+    "ar": "المرحلة التجريبية",
+    "fa": "مرحله آزمایشی",
+    "es": "la fase piloto",
+    "fr": "la phase pilote",
+    "it": "la fase pilota"
+  },
+  {
+    "de": "freischalten",
+    "en": "to activate, to unlock",
+    "erk": "Eine Funktion oder einen Zugang offiziell öffnen, damit man ihn benutzen kann.",
+    "bsp": "Die IT hat meinen Zugang zum neuen System gestern freigeschaltet.",
+    "dates": [
+      "2026-11-26"
+    ],
+    "sq": "aktivizoj",
+    "tr": "etkinleştirmek, kullanıma açmak",
+    "uk": "активувати, відкрити доступ",
+    "ar": "تفعيل",
+    "fa": "فعال کردن",
+    "es": "activar, desbloquear",
+    "fr": "activer, débloquer",
+    "it": "attivare, sbloccare"
+  },
+  {
+    "de": "der Nachweis",
+    "en": "proof, evidence",
+    "erk": "Ein Dokument oder eine Information, die zeigt, dass etwas wirklich stimmt.",
+    "bsp": "Für das Jobticket braucht die Personalabteilung einen Nachweis über meine Adresse.",
+    "dates": [
+      "2026-11-26"
+    ],
+    "sq": "dëshmia, prova",
+    "tr": "kanıt, belge",
+    "uk": "доказ, підтвердження",
+    "ar": "إثبات",
+    "fa": "مدرک",
+    "es": "la prueba, el justificante",
+    "fr": "la preuve, le justificatif",
+    "it": "la prova, il certificato"
+  },
+  {
+    "de": "die Fahrerlaubnis",
+    "en": "driving licence (the right to drive)",
+    "erk": "Das offizielle Recht, ein Auto oder ein anderes Fahrzeug zu fahren. Der Führerschein ist das Dokument dazu.",
+    "bsp": "Nach dem Unfall hat er seine Fahrerlaubnis für drei Monate verloren.",
+    "dates": [
+      "2026-11-26"
+    ],
+    "sq": "leja e drejtimit",
+    "tr": "sürücü belgesi, sürüş izni",
+    "uk": "право керування автомобілем",
+    "ar": "رخصة القيادة",
+    "fa": "گواهینامه رانندگی",
+    "es": "el permiso de conducir",
+    "fr": "le permis de conduire",
+    "it": "la patente di guida"
+  },
+  {
+    "de": "mitführen",
+    "en": "to carry (with you)",
+    "erk": "Ein Dokument oder einen Gegenstand bei sich haben – meistens, weil eine Regel es verlangt.",
+    "bsp": "Bei der Fahrt mit dem Deutschlandticket muss man einen Ausweis mitführen.",
+    "dates": [
+      "2026-11-26"
+    ],
+    "sq": "mbaj me vete",
+    "tr": "yanında bulundurmak",
+    "uk": "мати при собі",
+    "ar": "حمل معك",
+    "fa": "همراه داشتن",
+    "es": "llevar consigo",
+    "fr": "avoir sur soi",
+    "it": "portare con sé"
+  },
+  {
+    "de": "die Voraussetzung",
+    "en": "requirement, prerequisite",
+    "erk": "Etwas, das man haben oder erfüllen muss, damit etwas anderes möglich ist.",
+    "bsp": "Gute Deutschkenntnisse sind eine Voraussetzung für diese Stelle.",
+    "dates": [
+      "2026-11-26"
+    ],
+    "sq": "kushti",
+    "tr": "ön koşul, şart",
+    "uk": "передумова, умова",
+    "ar": "شرط",
+    "fa": "پیش‌شرط",
+    "es": "el requisito",
+    "fr": "la condition préalable",
+    "it": "il requisito"
   }
 ]

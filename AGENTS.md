@@ -22,18 +22,18 @@ The end goal (not yet fully reached — see Gaps below): every lesson page
 should let a student read the text *and* do an exercise with instant
 feedback, not just read.
 
-## Status snapshot (2026-11-25)
+## Status snapshot (2026-11-26)
 
-- 127 lessons exist (2026-07-09 → 2026-11-25), all as HTML in `lektionen/`.
+- 128 lessons exist (2026-07-09 → 2026-11-26), all as HTML in `lektionen/`.
   The first 14 (07-09 → 07-23) started as plain `.md` and were backfilled
   into the standard HTML lesson format by `convert_md_lessons.py` — see
   Build pipeline. Both the `.md` source and the generated `.html` are kept.
 - There is intentionally no lesson for 2026-11-14/15. The user decided on
   2026-11-17 to skip that weekend, so it should not be backfilled.
-- **74 lessons** (2026-09-10 → 2026-11-25) have a real exercise
+- **75 lessons** (2026-09-10 → 2026-11-26) have a real exercise
   (multiple-choice + a "Lösungen" answers tab). The other 53 have five tabs
   but no graded exercise — see Gaps.
-- `vocab.json` has 927 entries. Six target languages cover all 127 lessons;
+- `vocab.json` has 933 entries. Six target languages cover all 128 lessons;
   Spanish, French, and Italian begin with the 2026-09-17 lesson and continue
   forward. The July gap was closed on 2026-09-16 by adding 91 deduplicated
   entries with merged date arrays.
@@ -166,10 +166,10 @@ very next build with no extra step.
 
 ```
 lektionen/                      all source lesson files, see below
-vocab.json                      master dictionary: vocab from all 127 lessons
+vocab.json                      master dictionary: vocab from all 128 lessons
 praepositionsverben.json        154 verb/preposition entries imported from the teacher workbook
 uebungen/                       dated exercise data, kept out of the project root
-  uebung_YYYY-MM-DD.json        exercise content for one lesson (74 exist so far)
+  uebung_YYYY-MM-DD.json        exercise content for one lesson (75 exist so far)
 build_site.py                   orchestrator: builds website/index.html + copies lessons, then calls the five scripts below
 build_dict.py                   generates website/woerterbuch.html from vocab.json
 build_prep_verbs.py             generates website/verben-mit-praepositionen.html (reference + 10-question game)
@@ -191,7 +191,7 @@ material/                       background reference only — NOT wired into the
 ### `lektionen/` — source lesson files
 
 ```
-German_Lesson_YYYY-MM-DD.html   one per lesson, 127 total (2026-07-09 → 2026-11-25)
+German_Lesson_YYYY-MM-DD.html   one per lesson, 128 total (2026-07-09 → 2026-11-26)
 German_Lesson_YYYY-MM-DD.md     the 14 earliest lessons (07-09..07-23) in their original
                                  plain-Markdown form, kept alongside the .html generated
                                  from them — treat the .md as the source of truth for
@@ -403,7 +403,7 @@ Design prompt; keep both in sync if either changes.)
 
 Roughly in priority order for reaching the "read + do an exercise" goal:
 
-1. **53 of 127 lessons have no exercise.** Only 2026-09-10 through 2026-11-25
+1. **53 of 128 lessons have no exercise.** Only 2026-09-10 through 2026-11-26
    have an `uebungen/uebung_*.json`. Backfilling older lessons (or accepting that
    exercises start from Sep 10 onward) is an open decision, not made yet.
 2. **887 existing vocab translations are unreviewed machine output.**

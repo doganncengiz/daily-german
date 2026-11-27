@@ -2996,13 +2996,17 @@
     "erk": "Das Geld, das der Staat in einem Jahr zusätzlich leiht.",
     "bsp": "Die Neuverschuldung steigt auf fast 119 Milliarden Euro.",
     "dates": [
-      "2026-09-11"
+      "2026-09-11",
+      "2026-11-27"
     ],
     "sq": "borxhi i ri",
     "tr": "yeni borçlanma",
     "uk": "нові запозичення",
     "ar": "الاستدانة الجديدة",
-    "fa": "استقراض جدید"
+    "fa": "استقراض جدید",
+    "es": "el nuevo endeudamiento",
+    "fr": "le nouvel endettement",
+    "it": "il nuovo indebitamento"
   },
   {
     "de": "der Neuzugang",
@@ -3024,13 +3028,17 @@
     "erk": "Der höchste Wert, der noch erlaubt ist.",
     "bsp": "Ab 2027 gilt eine Obergrenze von 10.000 Euro.",
     "dates": [
-      "2026-09-15"
+      "2026-09-15",
+      "2026-11-27"
     ],
     "sq": "kufiri i sipërm",
     "tr": "üst sınır, tavan",
     "uk": "верхня межа, ліміт",
     "ar": "الحد الأقصى، السقف",
-    "fa": "سقف، حد بالا"
+    "fa": "سقف، حد بالا",
+    "es": "el límite máximo",
+    "fr": "le plafond",
+    "it": "il tetto massimo"
   },
   {
     "de": "das Oberhaus",
@@ -15045,5 +15053,90 @@
     "es": "el requisito",
     "fr": "la condition préalable",
     "it": "il requisito"
+  },
+  {
+    "de": "verabschieden",
+    "en": "to pass (a law or budget)",
+    "erk": "Ein Parlament stimmt zu, und damit ist ein Gesetz oder ein Haushalt offiziell beschlossen.",
+    "bsp": "Der Stadtrat hat gestern das neue Parkkonzept verabschiedet.",
+    "dates": [
+      "2026-11-27"
+    ],
+    "sq": "miratoj",
+    "tr": "kabul etmek, onaylamak (yasa, bütçe)",
+    "uk": "ухвалювати",
+    "ar": "يُقرّ",
+    "fa": "تصویب کردن",
+    "es": "aprobar",
+    "fr": "adopter",
+    "it": "approvare"
+  },
+  {
+    "de": "der Posten",
+    "en": "item, line item",
+    "erk": "Ein einzelner Teil in einer Rechnung, einem Budget oder einer Liste.",
+    "bsp": "Der größte Posten in unserem Projektbudget sind die Personalkosten.",
+    "dates": [
+      "2026-11-27"
+    ],
+    "sq": "zëri (në buxhet)",
+    "tr": "kalem",
+    "uk": "стаття (витрат)",
+    "ar": "بند",
+    "fa": "قلم هزینه",
+    "es": "la partida",
+    "fr": "le poste",
+    "it": "la voce (di spesa)"
+  },
+  {
+    "de": "das Sondervermögen",
+    "en": "special fund",
+    "erk": "Ein extra Topf mit Geld, meistens aus Krediten, der neben dem normalen Haushalt für ein bestimmtes Ziel da ist.",
+    "bsp": "Aus dem Sondervermögen sollen auch marode Brücken saniert werden.",
+    "dates": [
+      "2026-11-27"
+    ],
+    "sq": "fondi i veçantë",
+    "tr": "özel fon",
+    "uk": "спеціальний фонд",
+    "ar": "صندوق خاص",
+    "fa": "صندوق ویژه",
+    "es": "el fondo especial",
+    "fr": "le fonds spécial",
+    "it": "il fondo speciale"
+  },
+  {
+    "de": "die Schuldenbremse",
+    "en": "debt brake",
+    "erk": "Eine Regel im Grundgesetz, die begrenzt, wie viele neue Schulden Bund und Länder machen dürfen.",
+    "bsp": "Wegen der Schuldenbremse muss das Land bei anderen Projekten sparen.",
+    "dates": [
+      "2026-11-27"
+    ],
+    "sq": "frena e borxhit",
+    "tr": "borç freni",
+    "uk": "боргове гальмо",
+    "ar": "كابح الديون",
+    "fa": "محدودیت قانونی بدهی",
+    "es": "el freno de la deuda",
+    "fr": "le frein à l'endettement",
+    "it": "il freno al debito"
+  },
+  {
+    "de": "kreditfinanziert",
+    "en": "debt-financed",
+    "erk": "Bezahlt mit geliehenem Geld, nicht mit eigenem Geld.",
+    "bsp": "Viele Firmen wollen keine kreditfinanzierten Investitionen mehr, weil die Zinsen hoch sind.",
+    "dates": [
+      "2026-11-27"
+    ],
+    "sq": "i financuar me kredi",
+    "tr": "krediyle finanse edilen",
+    "uk": "фінансований за рахунок кредитів",
+    "ar": "ممول بالقروض",
+    "fa": "تأمین‌شده با وام",
+    "es": "financiado con crédito",
+    "fr": "financé par l'emprunt",
+    "it": "finanziato a debito"
   }
 ]

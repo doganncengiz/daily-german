@@ -1,0 +1,49 @@
+{
+  "mc": [
+    {
+      "q": "Wie hoch sind die geplanten Ausgaben im Bundeshaushalt 2027?",
+      "o": [
+        "rund 560,9 Milliarden Euro – etwa 36 Milliarden mehr als in diesem Jahr",
+        "rund 203 Milliarden Euro – mehr als ein Drittel mehr als in diesem Jahr",
+        "rund 210 Milliarden Euro – genauso viel wie in diesem Jahr"
+      ],
+      "c": 0,
+      "why": "Der Bund plant Ausgaben von rund 560,9 Milliarden Euro, etwa 36 Milliarden mehr als 2026. Die 203 Milliarden sind nur der größte Posten (Arbeit und Soziales), und die 210 Milliarden sind die neuen Schulden inklusive Sondervermögen – nicht die Ausgaben."
+    },
+    {
+      "q": "Warum kann der Bund so viele neue Kredite aufnehmen?",
+      "o": [
+        "Weil die Schuldenbremse für 2027 komplett abgeschafft wurde.",
+        "Weil die Opposition den Krediten im Haushaltsausschuss zugestimmt hat.",
+        "Weil ein großer Teil der Verteidigungsausgaben nicht unter die Schuldenbremse fällt."
+      ],
+      "c": 2,
+      "why": "Laut Text fällt ein großer Teil der Verteidigungsausgaben nicht unter die Schuldenbremse. Abgeschafft ist sie nicht – der Rest der Kredite liegt genau an ihrer Obergrenze. Und die Opposition ist gegen den Haushalt, sie kritisiert ihn scharf."
+    },
+    {
+      "q": "Wer kritisiert den Haushalt?",
+      "o": [
+        "Nur die Opposition – in der Koalition sind alle zufrieden.",
+        "Die Opposition, aber auch der CDU-Politiker Mathias Middelberg.",
+        "Vor allem Finanzminister Lars Klingbeil, der mehr sparen will."
+      ],
+      "c": 1,
+      "why": "Kritik kommt von den Grünen (Paus, Schäfer), aber auch aus der Union: Middelberg sagt, man habe noch nicht genug gespart. Deshalb ist a) falsch. Klingbeil kritisiert den Haushalt nicht, er verteidigt ihn."
+    }
+  ],
+  "schreib": [
+    "<b>Rechnet</b> man die Nebenkosten <b>dazu</b>, <b>zahle</b> ich fast 1.100 Euro Miete im Monat. <span class=\"hint\">Beide Teile beginnen mit dem Verb – nicht „…, ich zahle …“.</span>",
+    "<b>Dass</b> die Preise im Supermarkt wieder <b>gestiegen sind</b>, <b>ärgert</b> mich sehr. <span class=\"hint\">Der „dass“-Satz ist das Subjekt – danach direkt das Verb, ohne zusätzliches „es“.</span>",
+    "<b>Der größte Posten</b> in meinem Monatsbudget ist die Miete, danach kommen die <b>Ausgaben</b> für Lebensmittel. <span class=\"hint\">„die Ausgaben“ steht fast immer im Plural; „für“ + Akkusativ.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "Ich finde es richtig, dass der Staat …",
+      "Auf der anderen Seite muss man bedenken, dass …",
+      "Mir macht Sorgen, dass …",
+      "Rechnet man … dazu, …",
+      "Am Ende zahlen die nächsten Generationen für …"
+    ],
+    "modell": "Ich finde es grundsätzlich richtig, dass der Staat in Straßen, Schulen und Sicherheit investiert – viele Brücken und Bahnstrecken sind wirklich in einem schlechten Zustand. Mir macht aber Sorgen, dass die <b>Neuverschuldung</b> so hoch ist. Wenn jeder dritte Euro <b>kreditfinanziert</b> ist, zahlen am Ende unsere Kinder die Zinsen. Deshalb sollte es eine klare <b>Obergrenze</b> geben, auch für Sondervermögen. Für mich gilt: Schulden für Investitionen ja, Schulden für laufende Ausgaben eher nicht."
+  }
+}

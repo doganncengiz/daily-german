@@ -1,0 +1,80 @@
+{
+  "mc": [
+    {
+      "q": "Welchen Wert sagen NIM und GfK für das Konsumklima im Dezember voraus?",
+      "o": [
+        "Minus 13,9 Punkte.",
+        "Minus 30,2 Punkte.",
+        "Minus 11,5 Punkte."
+      ],
+      "c": 1,
+      "why": "Das Konsumklima liegt bei <b>minus 30,2 Punkten</b>. Minus 13,9 Punkte ist die Einkommenserwartung, minus 11,5 Punkte die Anschaffungsneigung."
+    },
+    {
+      "q": "Welcher Wert ist zum zweiten Mal in Folge gesunken?",
+      "o": [
+        "Die Sparneigung.",
+        "Die Einkommenserwartung.",
+        "Die Preiserwartungen."
+      ],
+      "c": 0,
+      "why": "Die <b>Sparneigung</b> ist zum zweiten Mal in Folge gesunken, auf 15,6 Punkte. Die Einkommenserwartung und die Preiserwartungen sind dagegen beide um 1,8 Punkte gestiegen."
+    },
+    {
+      "q": "Wie viel kostet eine Nordmanntanne in diesem Jahr pro laufendem Meter?",
+      "o": [
+        "14 bis 19 Euro.",
+        "17 bis 22 Euro.",
+        "25 bis 33 Euro."
+      ],
+      "c": 2,
+      "why": "Die Nordmanntanne kostet <b>25 bis 33 Euro</b> pro laufendem Meter. 17 bis 22 Euro gelten für die Blaufichte, 14 bis 19 Euro für die Rotfichte."
+    },
+    {
+      "q": "Warum werden Weihnachtsbäume teurer?",
+      "o": [
+        "Weil der trockene Sommer 2026 schon jetzt viele Bäume zerstört hat.",
+        "Weil Löhne und Logistik mehr kosten.",
+        "Weil es in diesem Jahr nicht genug Bäume gibt."
+      ],
+      "c": 1,
+      "why": "Der Verband nennt vor allem <b>höhere Lohnkosten und teurere Logistik</b>. Die Folgen des trockenen Sommers merkt man erst in acht bis neun Jahren, und laut Text gibt es genug Bäume."
+    },
+    {
+      "q": "Wer schoss in der Nachspielzeit das Tor zum 3:3?",
+      "o": [
+        "Eren Dinkci.",
+        "Franck Honorat.",
+        "Niclas Füllkrug."
+      ],
+      "c": 2,
+      "why": "Das 3:3 schoss <b>Niclas Füllkrug</b> in der zweiten Minute der Nachspielzeit. Dinkci traf zum 1:1 und 2:3, Honorat schoss zwei Tore für Gladbach."
+    },
+    {
+      "q": "Wie ist die Lage von Borussia Mönchengladbach nach dem Spiel?",
+      "o": [
+        "Gladbach ist Tabellenletzter mit fünf Punkten aus elf Spielen.",
+        "Gladbach steht mit 19 Punkten auf Platz sechs.",
+        "Gladbach hat in Bremen 3:1 gewonnen."
+      ],
+      "c": 0,
+      "why": "Gladbach bleibt <b>Tabellenletzter mit fünf Punkten</b>. Platz sechs mit 19 Punkten ist Werder, und das 3:1 war nur ein Zwischenstand – am Ende stand es 3:3."
+    }
+  ],
+  "schreib": [
+    "Letzte Woche <b>wurden</b> in unserem Büro neue Laptops <b>verteilt</b>. <span class=\"hint\">Partizip II am Satzende, nicht der Infinitiv („wurden verteilen“).</span>",
+    "<b>Es war meine Kollegin, die</b> das Problem mit dem Server gefunden hat. <span class=\"hint\">Nach einer Person „der/die“, nicht „wer“; das Verb steht im Relativsatz am Ende.</span>",
+    "Unser Team hat <b>zum zweiten Mal in Folge</b> das Projektziel erreicht. <span class=\"hint\">Feste Wendung: „in Folge“ ohne Artikel.</span>",
+    "<b>Wer</b> im Advent Stress vermeiden will, <b>sollte</b> die Geschenke früh kaufen. <span class=\"hint\">Nach dem Komma steht das Verb „sollte“ direkt am Anfang des Hauptsatzes.</span>"
+  ],
+  "sprech": {
+    "phrases": [
+      "In der Adventszeit … ich gern …",
+      "Bei uns gibt es (k)einen echten Weihnachtsbaum, weil …",
+      "Meine Kauflaune ist dieses Jahr eher …",
+      "Für mich ist … (nicht) mehr erschwinglich.",
+      "Wer wenig Geld ausgeben will, sollte …"
+    ],
+    "modell": "In der Adventszeit gehe ich gern mit Freunden auf den Weihnachtsmarkt. Einen echten Weihnachtsbaum kaufen wir jedes Jahr, meistens eine kleine <b>Nordmanntanne</b>, weil sie so lange hält. Dieses Jahr ist meine <b>Kauflaune</b> aber eher gering, denn Miete und Energie sind teuer geworden. Ein Baum für 50 Euro ist für uns noch <b>erschwinglich</b>, aber bei den Geschenken bin ich vorsichtig. Wer wenig Geld ausgeben will, sollte lieber Zeit verschenken – zum Beispiel ein gemeinsames Essen."
+  }
+}

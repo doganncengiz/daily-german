@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deutsch-Lektion — 28. November 2026</title>
+<style>
+  :root{
+    --page-bg:#ffffff;
+    --card-bg:#f6f2e9;
+    --badge-date-bg:#f3e6c8;
+    --badge-date-text:#7a6535;
+    --badge-level-bg:#e6f0e1;
+    --badge-level-text:#3f6b3f;
+    --label-grey:#9a9488;
+    --heading:#1c1c1c;
+    --body-text:#2c2c2a;
+    --border-soft:#eae5d6;
+    --tab-inactive-text:#8c8778;
+    --tab-active-bg:#2c2c2a;
+    --tab-active-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:14px;}
+  body{
+    font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--page-bg);
+    color:var(--body-text);
+    margin:0;
+    padding:32px 24px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto;}
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .badge-date{background:var(--badge-date-bg);color:var(--badge-date-text);}
+  .badge-level{background:var(--badge-level-bg);color:var(--badge-level-text);}
+
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:28px;
+  }
+  nav button{
+    border:1px solid var(--border-soft);
+    background:#ffffff;
+    color:var(--tab-inactive-text);
+    border-radius:999px;
+    padding:9px 16px;
+    font-size:0.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav button:hover{border-color:#d8d2bf;}
+  nav button.active{
+    background:var(--tab-active-bg);
+    color:var(--tab-active-text);
+    border-color:var(--tab-active-bg);
+  }
+
+  section.panel{display:none;}
+  section.panel.active{display:block;}
+
+  .label{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:0.78rem;
+    color:var(--label-grey);
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  h2.heading{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 20px 0;
+  }
+
+  .card{
+    position:relative;
+    background:var(--card-bg);
+    border-radius:20px;
+    padding:32px 34px;
+  }
+  .card p{
+    font-size:1.02rem;
+    line-height:1.75;
+    margin:0 0 20px 0;
+  }
+  .card p:last-child{margin-bottom:0;}
+
+  .next-btn{
+    position:absolute;
+    right:24px;
+    bottom:-20px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid var(--border-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    color:#8c8778;
+    font-size:1.1rem;
+  }
+  .next-btn:hover{color:var(--heading);}
+
+  table{width:100%;border-collapse:collapse;font-size:0.94rem;}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e9e3d2;vertical-align:top;}
+  th{
+    color:var(--label-grey);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+  }
+  td:first-child{font-weight:600;color:var(--heading);}
+  tr:last-child td{border-bottom:none;}
+  .rep{font-style:italic;color:#a39d8c;font-weight:400;font-size:0.85em;}
+
+  ul.expr{list-style:none;padding:0;margin:0;}
+  ul.expr li{
+    padding:14px 0;
+    border-bottom:1px solid #e9e3d2;
+  }
+  ul.expr li:last-child{border-bottom:none;padding-bottom:0;}
+  ul.expr li b{color:var(--heading);}
+  ul.expr li i{color:#6b6558;}
+
+  .grammar-block{margin-bottom:20px;}
+  .grammar-block:last-child{margin-bottom:0;}
+  .grammar-block b{color:var(--heading);}
+
+  .uebung-block{margin-bottom:24px;}
+  .uebung-block:last-child{margin-bottom:0;}
+  .uebung-block h3{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 12px 0;
+  }
+  ol{padding-left:20px;margin:0;}
+  ol li{margin-bottom:8px;}
+  ol li:last-child{margin-bottom:0;}
+
+  .source{
+    margin-top:34px;
+    font-size:0.8rem;
+    color:#a39d8c;
+    font-style:italic;
+  }
+
+  .art-kicker{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:0.72rem;
+    color:var(--label-grey);
+    font-weight:700;
+    margin:0 0 6px 0;
+  }
+  .art-title{
+    font-size:1.12rem;
+    font-weight:700;
+    color:var(--heading);
+    margin:0 0 14px 0;
+    line-height:1.4;
+  }
+  .card + .card{margin-top:30px;}
+  th.group{padding-top:20px;}
+
+  @media (max-width:760px){
+    body{padding:24px 16px 64px;}
+    .card{padding:24px 18px;}
+    #vokabular table,#vokabular tbody,#vokabular tr,#vokabular td{display:block;width:100%;}
+    #vokabular tr:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+    #vokabular tr:has(td){padding:14px 0;border-bottom:1px solid var(--border-soft);}
+    #vokabular td{padding:6px 0;border:0;overflow-wrap:anywhere;}
+    #vokabular td::before{display:block;font-size:.72rem;font-weight:700;color:var(--label-grey);margin-bottom:4px;}
+    #vokabular td:nth-child(1)::before{content:"Deutsch";}
+    #vokabular td:nth-child(2)::before{content:"Bedeutung";}
+    #vokabular td:nth-child(3)::before{content:"Einfache Erklärung";}
+    #vokabular td:nth-child(4)::before{content:"Beispielsatz";}
+    #vokabular th.group{display:block;width:100%;padding:16px 0 8px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="meta-row">
+    <span class="badge badge-date">Samstag, 28. November 2026</span>
+    <span class="badge badge-level">B1/B2 Niveau</span>
+  </div>
+  <nav>
+    <button data-tab="lese" class="active">Lesetext</button>
+    <button data-tab="vokabular">Vokabular</button>
+    <button data-tab="ausdruecke">Ausdrücke</button>
+    <button data-tab="grammatik">Grammatik</button>
+    <button data-tab="uebung">Übung</button>
+  </nav>
+
+<section id="lese" class="panel active"><div class="label">Wochenend-Ausgabe</div><h2 class="heading">Kaum Kauflaune vor Weihnachten, teurere Tannen, Füllkrug rettet Werder</h2>
+<div class="card"><h3 class="art-kicker">Wirtschaft</h3><h4 class="art-title">Konsumklima: Wenig Rückenwind für das Weihnachtsgeschäft</h4><p>Die Stimmung der Verbraucher in Deutschland bleibt schlecht. Das zeigt das Konsumklima, das die Marktforscher von NIM und GfK am Donnerstag veröffentlicht haben. Für Dezember sagen sie einen Wert von minus 30,2 Punkten voraus. Das sind zwar 0,7 Punkte mehr als im Vormonat, aber immer noch weniger als vor einem Jahr. Für die Studie wurden vom 28. Oktober bis 9. November rund 2.000 Menschen befragt.</p><p>Einen kleinen Lichtblick gibt es: Die Einkommenserwartung ist um 1,8 auf minus 13,9 Punkte gestiegen. Trotzdem liegt sie etwa 14 Punkte unter dem Vorjahr. Als wichtigsten Grund nennen die Forscher die hohen Energiepreise. Auch die Anschaffungsneigung, also die Bereitschaft, größere Dinge zu kaufen, ist mit minus 11,5 Punkten nur leicht gestiegen. Die Sparneigung ist dagegen zum zweiten Mal in Folge gesunken, auf 15,6 Punkte. Wer weniger spart, gibt normalerweise mehr aus.</p><p>Sorgen machen die Preise: Die Preiserwartungen sind um 1,8 auf 2,8 Punkte gestiegen. Viele Menschen rechnen also wieder mit höheren Preisen. Und die Konjunkturerwartung ist zum ersten Mal nach sechs Anstiegen gefallen, um 3,7 auf minus 1,6 Punkte.</p><p>„Wenig Rückenwind für das Weihnachtsgeschäft“, fasst das NIM zusammen. Rolf Bürkl, Konsumexperte des NIM, sieht kaum Bewegung: Die Kauflaune bleibt auf niedrigem Niveau. Die nächsten Zahlen kommen am 18. Dezember.</p></div>
+<div class="card"><h3 class="art-kicker">Freizeit</h3><h4 class="art-title">Erster Advent: Der Weihnachtsbaum wird etwas teurer</h4><p>Morgen ist der erste Advent. In vielen Wohnungen brennt dann die erste Kerze am Adventskranz, und viele Familien denken schon an den Weihnachtsbaum. Die gute Nachricht: Es gibt genug Bäume. Die schlechte: Sie kosten etwas mehr als im letzten Jahr.</p><p>Laut dem Bundesverband der Weihnachtsbaumerzeuger kostet eine Nordmanntanne in diesem Jahr 25 bis 33 Euro pro laufendem Meter. Für einen zwei Meter großen Baum zahlt man also etwa 50 bis 66 Euro. Die Blaufichte kostet 17 bis 22 Euro pro Meter, die Rotfichte 14 bis 19 Euro. Die Nordmanntanne bleibt trotzdem der Liebling der Deutschen: Ihr Marktanteil liegt bei knapp 80 Prozent.</p><p>Warum steigen die Preise? Der Verband nennt vor allem höhere Lohnkosten und teurere Logistik. Ein Weihnachtsbaum macht viel Handarbeit: Bis eine Nordmanntanne zwei Meter groß ist, dauert es neun bis zehn Jahre. Außerdem gibt es seit Jahren weniger Betriebe. In Süddeutschland hat der trockene Sommer 2026 junge Bäume geschädigt – die Folgen merkt man aber erst in acht bis neun Jahren.</p><p>Der Christbaumverband Baden-Württemberg beruhigt: Der echte Baum bleibt erschwinglich. Viele Höfe beginnen mit dem Verkauf erst Anfang Dezember. Wer Geld sparen will, sollte Preise vergleichen und prüfen, ob pro Meter oder pro Baum gerechnet wird. Und zu Hause gilt: den Baum kühl lagern und nicht neben die Heizung stellen.</p></div>
+<div class="card"><h3 class="art-kicker">Sport</h3><h4 class="art-title">Natürlich Füllkrug: Werder holt gegen Gladbach ein 1:3 auf</h4><p>Was für ein Freitagabend im Weserstadion! Werder Bremen und Borussia Mönchengladbach trennten sich zum Auftakt des 11. Spieltags 3:3 – und das letzte Tor fiel erst in der Nachspielzeit.</p><p>Dabei sah es lange nach einem Sieg für Gladbach aus. In der 27. Minute traf Kevin Diks per Handelfmeter zum 0:1. Eren Dinkci glich in der 39. Minute für Werder aus. Doch direkt nach der Pause, in der 46. Minute, brachte Franck Honorat die Gäste wieder in Führung. In der 78. Minute erhöhte Honorat sogar auf 3:1. Der Sieg schien sicher.</p><p>Aber Werder gab nicht auf und holte den Rückstand von zwei Toren noch auf. In der 85. Minute verkürzte Dinkci mit seinem zweiten Treffer auf 2:3. Und in der zweiten Minute der Nachspielzeit war es Niclas Füllkrug, der den Ball zum 3:3 ins Tor schoss. „Natürlich Füllkrug“, titelte die Sportschau. Gladbach dagegen hat eine sichere Führung verspielt.</p><p>Für Trainer Alexander Blessin ist das bitter: Seine Mannschaft bleibt mit fünf Punkten aus elf Spielen Tabellenletzter. Werder steht unter Trainer Daniel Thioune mit 19 Punkten auf Platz sechs. Heute um 15:30 Uhr spielt der FC Bayern beim Hamburger SV, am Sonntag um 19:30 Uhr empfängt Tabellenführer Dortmund Bayer Leverkusen. Am Dienstag hatte der BVB in der Champions League beim FC Arsenal 1:1 gespielt.</p><div class="next-btn" onclick="goNext()">↓</div></div>
+</section>
+<section id="vokabular" class="panel"><div class="label">Vokabular</div><h2 class="heading">Schlüsselvokabular</h2>
+    <div class="card"><table><tr><th>Deutsch</th><th>Englisch</th><th>Einfache Erklärung</th><th>Beispielsatz</th></tr>
+<tr><th class="group" colspan="4">Wirtschaft</th></tr>
+<tr><td>die Sparneigung <span class="rep">(Wiederholung)</span></td><td>propensity to save</td><td>Wie stark die Bereitschaft ist, Geld zu sparen statt auszugeben.</td><td>Die Sparneigung ist zum zweiten Mal in Folge gesunken.</td></tr>
+<tr><td>das Konsumklima</td><td>consumer climate, consumer sentiment</td><td>Ein Wert, der zeigt, wie gut oder schlecht die Stimmung der Verbraucher ist.</td><td>Das Konsumklima steigt für Dezember leicht auf minus 30,2 Punkte.</td></tr>
+<tr><td>die Einkommenserwartung</td><td>income expectations</td><td>Was die Menschen glauben: Wird ihr Einkommen bald steigen oder sinken?</td><td>Die Einkommenserwartung ist um 1,8 Punkte gestiegen.</td></tr>
+<tr><td>die Kauflaune</td><td>mood to shop, willingness to buy</td><td>Die Lust, einzukaufen und Geld auszugeben.</td><td>Die Kauflaune bleibt vor Weihnachten auf niedrigem Niveau.</td></tr>
+<tr><td>das Weihnachtsgeschäft</td><td>Christmas sales, Christmas trade</td><td>Die Verkäufe der Geschäfte in den Wochen vor Weihnachten.</td><td>Für das Weihnachtsgeschäft gibt es wenig Rückenwind.</td></tr>
+<tr><th class="group" colspan="4">Freizeit</th></tr>
+<tr><td>der Verband <span class="rep">(Wiederholung)</span></td><td>association, industry body</td><td>Eine Organisation, die die gemeinsamen Interessen vieler Firmen oder Personen vertritt.</td><td>Der Verband nennt vor allem höhere Lohnkosten.</td></tr>
+<tr><td>der laufende Meter</td><td>running metre (price per metre)</td><td>Man bezahlt für jeden Meter Länge oder Höhe.</td><td>Eine Nordmanntanne kostet 25 bis 33 Euro pro laufendem Meter.</td></tr>
+<tr><td>die Nordmanntanne</td><td>Nordmann fir</td><td>Eine Tanne mit weichen Nadeln, der beliebteste Weihnachtsbaum in Deutschland.</td><td>Die Nordmanntanne hat einen Marktanteil von knapp 80 Prozent.</td></tr>
+<tr><td>die Lohnkosten</td><td>wage costs, labour costs</td><td>Das Geld, das eine Firma für die Löhne ihrer Mitarbeiter bezahlt.</td><td>Höhere Lohnkosten machen den Weihnachtsbaum teurer.</td></tr>
+<tr><td>erschwinglich</td><td>affordable</td><td>Nicht zu teuer, man kann es bezahlen.</td><td>Der echte Weihnachtsbaum bleibt erschwinglich.</td></tr>
+<tr><th class="group" colspan="4">Sport</th></tr>
+<tr><td>der Rückstand <span class="rep">(Wiederholung)</span></td><td>deficit, gap</td><td>So weit liegt man hinter dem Gegner zurück, zum Beispiel zwei Tore.</td><td>Werder holte einen Rückstand von zwei Toren auf.</td></tr>
+<tr><td>der Handelfmeter</td><td>penalty for handball</td><td>Ein Elfmeter, weil ein Spieler den Ball im Strafraum mit der Hand berührt hat.</td><td>Kevin Diks traf per Handelfmeter zum 0:1.</td></tr>
+<tr><td>erhöhen</td><td>to extend the lead (to)</td><td>Im Sport: noch ein Tor schießen, sodass die eigene Führung größer wird.</td><td>In der 78. Minute erhöhte Honorat auf 3:1.</td></tr>
+<tr><td>etwas verspielen</td><td>to throw away (a lead, a chance)</td><td>Einen Vorteil durch eigene Fehler wieder verlieren.</td><td>Gladbach hat eine sichere Führung verspielt.</td></tr>
+</table><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="ausdruecke" class="panel"><div class="label">Ausdrücke</div><h2 class="heading">Nützliche Ausdrücke</h2><div class="card"><ul class="expr"><li><b>„wenig Rückenwind für …“</b> — Es gibt kaum Hilfe oder Unterstützung für etwas.<br><i>Die Zahlen bringen wenig Rückenwind für das Weihnachtsgeschäft.</i></li><li><b>„zum zweiten Mal in Folge“</b> — Etwas passiert zweimal direkt hintereinander.<br><i>Die Sparneigung ist zum zweiten Mal in Folge gesunken.</i></li><li><b>„Die gute Nachricht: … Die schlechte: …“</b> — So stellt man Vorteil und Nachteil locker nebeneinander.<br><i>Die gute Nachricht: Es gibt genug Bäume. Die schlechte: Sie kosten mehr.</i></li><li><b>„Wer …, sollte …“</b> — Ein freundlicher Tipp für eine bestimmte Gruppe.<br><i>Wer Geld sparen will, sollte Preise vergleichen.</i></li><li><b>„Es sah lange nach … aus.“</b> — Lange Zeit hat jeder etwas Bestimmtes erwartet.<br><i>Es sah lange nach einem Sieg für Gladbach aus.</i></li><li><b>„nicht aufgeben“</b> — Weiterkämpfen, auch wenn es schwierig ist.<br><i>Werder gab nicht auf und holte noch ein 3:3.</i></li></ul><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="grammatik" class="panel"><div class="label">Grammatik</div><h2 class="heading">Grammatikbewusstsein</h2><div class="card"><div class="grammar-block"><p><b>Passiv im Präteritum: „wurden … befragt“.</b> „Für die Studie wurden rund 2.000 Menschen befragt.“ Wichtig ist hier, was passiert ist – nicht, wer die Fragen gestellt hat. Form: „wurde/wurden“ + Partizip II am Satzende. Ohne Subjekt geht es auch: „… ob pro Meter oder pro Baum gerechnet wird.“ Typischer Fehler: „Die Menschen wurden befragen“ – im Passiv steht immer das Partizip II, nicht der Infinitiv. Und „werden“ muss zum Subjekt passen: eine Person <i>wurde</i>, viele Menschen <i>wurden</i> befragt.</p></div><div class="grammar-block"><p><b>„Es war …, der …“: eine Person besonders betonen.</b> „In der Nachspielzeit war es Niclas Füllkrug, der den Ball zum 3:3 ins Tor schoss.“ Normal wäre: „Füllkrug schoss das 3:3.“ Mit „es war …, der/die/das …“ zeigt man: genau diese Person, niemand anders. Das Relativpronomen richtet sich nach der Person: „Es war meine Kollegin, <i>die</i> die Idee hatte.“ Typischer Fehler: „Es war Füllkrug, wer das Tor schoss“ – nach einem Namen steht „der/die“, nicht „wer“.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<section id="uebung" class="panel"><div class="label">Übung</div><h2 class="heading">Mini-Übung</h2><div class="card"><div class="uebung-block"><h3>Verständnisfragen</h3><ol><li>Welchen Wert sagen NIM und GfK für das Konsumklima im Dezember voraus?</li><li>Welcher Wert ist zum zweiten Mal in Folge gesunken?</li><li>Wie viel kostet eine Nordmanntanne in diesem Jahr pro laufendem Meter?</li><li>Warum werden Weihnachtsbäume teurer?</li><li>Wer schoss in der Nachspielzeit das Tor zum 3:3?</li><li>Wie ist die Lage von Borussia Mönchengladbach nach dem Spiel?</li></ol></div><div class="uebung-block"><h3>Schreibübungen</h3><ol><li>Schreibe einen Satz im Passiv Präteritum: Was wurde in deiner Firma, deinem Kurs oder deiner Stadt in letzter Zeit gemacht?</li><li>Betone eine Person mit „Es war …, der/die …“: Wer hat bei dir zu Hause oder im Team etwas Wichtiges gemacht?</li><li>Benutze „zum zweiten Mal in Folge“ für etwas, das in deinem Leben zweimal hintereinander passiert ist.</li><li>Gib einen Tipp für die Adventszeit mit „Wer …, sollte …“.</li></ol></div><div class="uebung-block"><h3>Sprechanlass</h3><p>Erzähle in fünf Sätzen: Wie verbringst du die Adventszeit? Kaufst du einen echten Weihnachtsbaum, einen künstlichen oder gar keinen? Gibst du vor Weihnachten mehr Geld aus als sonst, oder bist du eher vorsichtig? Benutze „Kauflaune“ und „erschwinglich“.</p></div><div class="next-btn" onclick="goNext()">↓</div></div></section>
+<p class="source">Quellen, Stand 28. November 2026: <a href="https://www.etailment.de/magazin/2026-11-27-konsumklima-minus-30-punkte-unterm-weihnachtsbaum">etailment: Konsumklima minus 30,2 Punkte, 27. November</a>; <a href="https://aktiencheck.de/artikel/gfk-konsumklima-steigt-auf-minus-302-punkte-wenig-rueckenwind-fuer-das">aktiencheck: GfK-Konsumklima steigt auf minus 30,2 Punkte, 26. November</a>; <a href="https://www.netz-trends.de/weihnachtsbaum-preise-nordmanntanne-2026/">netz-trends: Weihnachtsbaum 2026 – Preise laut BVWE, 20. November</a>; <a href="https://www.supermarkt-inside.de/weihnachtsbaumpreise-2026-nordmanntanne-wird-teurer-frische-tanne-fuer-adventskranz-und-gedenktage/">Supermarkt-Inside: Weihnachtsbaumpreise 2026, 16. November</a>; <a href="https://monrose.de/2026/11/20/weihnachtsbaum-2026-preise/">monrose: Weihnachtsbaum 2026, 20. November</a>; <a href="https://www.news.de/sport/860225623/sv-werder-bremen-vs-borussia-moenchengladbach-am-27-11-2026-in-der-bundesliga-26-27-tv-spielbericht-tore-aufstellung-und-tabelle-in-der-zusammenfassung/1/">news.de: Werder Bremen – Gladbach 3:3, 27. November</a>; <a href="https://www.sportschau.de/fussball/bundesliga/natuerlich-fuellkrug-gladbach-verspielt-sieg-in-bremen,spielbericht-werder-bremen-borussia-moenchengladbach-114.html">Sportschau: Natürlich Füllkrug – Gladbach verspielt Sieg in Bremen</a>; <a href="https://anstosszeiten.de/bundesliga/spieltag-11/">anstosszeiten.de: 11. Spieltag</a>; <a href="https://www.espn.com/soccer/report/_/gameId/401915295">ESPN: Arsenal 1:1 Dortmund, 24. November</a>. Für B1/B2 vereinfacht. Die Baumpreise sind Erwartungen der Branchenverbände, keine gemessenen Verkaufspreise; vor Ort können sie abweichen. Tabellenstände nach dem Freitagsspiel.</p></div>
+<script>
+  const tabOrder = ['lese','vokabular','ausdruecke','grammatik','uebung'];
+  const buttons = document.querySelectorAll('nav button');
+  const panels = document.querySelectorAll('section.panel');
+
+  function activate(tabId){
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    panels.forEach(p => p.classList.toggle('active', p.id === tabId));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.tab)));
+
+  function goNext(){
+    const current = document.querySelector('section.panel.active').id;
+    const idx = tabOrder.indexOf(current);
+    const next = tabOrder[(idx + 1) % tabOrder.length];
+    activate(next);
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+</script>
+</body>
+</html>

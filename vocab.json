@@ -3309,7 +3309,8 @@
     "dates": [
       "2026-07-28",
       "2026-10-10",
-      "2026-10-24"
+      "2026-10-24",
+      "2026-11-28"
     ],
     "sq": "diferenca, mbetja pas",
     "tr": "fark, geride kalma",
@@ -7279,7 +7280,8 @@
     "bsp": "Der Verband klagt im Auftrag großer Wirtschaftsverbände.",
     "dates": [
       "2026-09-23",
-      "2026-09-26"
+      "2026-09-26",
+      "2026-11-28"
     ],
     "sq": "shoqata, federata",
     "tr": "dernek, birlik",
@@ -7674,7 +7676,8 @@
     "erk": "Wie stark die Bereitschaft ist, Geld zu sparen statt auszugeben.",
     "bsp": "Die Sparneigung erreichte den höchsten Stand seit 2008.",
     "dates": [
-      "2026-09-26"
+      "2026-09-26",
+      "2026-11-28"
     ],
     "sq": "prirja për kursim",
     "tr": "tasarruf eğilimi",
@@ -15138,5 +15141,192 @@
     "es": "financiado con crédito",
     "fr": "financé par l'emprunt",
     "it": "finanziato a debito"
+  },
+  {
+    "de": "das Konsumklima",
+    "en": "consumer climate, consumer sentiment",
+    "erk": "Ein Wert, der zeigt, wie gut oder schlecht die Stimmung der Verbraucher ist.",
+    "bsp": "Das Konsumklima steigt für Dezember leicht auf minus 30,2 Punkte.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "klima e konsumit",
+    "tr": "tüketici güveni",
+    "uk": "споживчі настрої",
+    "ar": "مناخ الاستهلاك",
+    "fa": "فضای مصرف",
+    "es": "el clima de consumo",
+    "fr": "le climat de consommation",
+    "it": "il clima dei consumi"
+  },
+  {
+    "de": "die Einkommenserwartung",
+    "en": "income expectations",
+    "erk": "Was die Menschen glauben: Wird ihr Einkommen bald steigen oder sinken?",
+    "bsp": "Die Einkommenserwartung ist um 1,8 Punkte gestiegen.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "pritja për të ardhurat",
+    "tr": "gelir beklentisi",
+    "uk": "очікування щодо доходів",
+    "ar": "توقعات الدخل",
+    "fa": "انتظار درآمد",
+    "es": "las expectativas de ingresos",
+    "fr": "les attentes de revenus",
+    "it": "le aspettative di reddito"
+  },
+  {
+    "de": "die Kauflaune",
+    "en": "mood to shop, willingness to buy",
+    "erk": "Die Lust, einzukaufen und Geld auszugeben.",
+    "bsp": "Die Kauflaune bleibt vor Weihnachten auf niedrigem Niveau.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "dëshira për të blerë",
+    "tr": "alışveriş isteği",
+    "uk": "бажання купувати",
+    "ar": "الرغبة في الشراء",
+    "fa": "میل به خرید",
+    "es": "las ganas de comprar",
+    "fr": "l'envie d'acheter",
+    "it": "la voglia di fare acquisti"
+  },
+  {
+    "de": "das Weihnachtsgeschäft",
+    "en": "Christmas sales, Christmas trade",
+    "erk": "Die Verkäufe der Geschäfte in den Wochen vor Weihnachten.",
+    "bsp": "Für das Weihnachtsgeschäft gibt es wenig Rückenwind.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "shitjet e Krishtlindjeve",
+    "tr": "yılbaşı satış sezonu",
+    "uk": "різдвяна торгівля",
+    "ar": "مبيعات موسم عيد الميلاد",
+    "fa": "فروش فصل کریسمس",
+    "es": "las ventas navideñas",
+    "fr": "les ventes de Noël",
+    "it": "le vendite natalizie"
+  },
+  {
+    "de": "der laufende Meter",
+    "en": "running metre (price per metre)",
+    "erk": "Man bezahlt für jeden Meter Länge oder Höhe.",
+    "bsp": "Eine Nordmanntanne kostet 25 bis 33 Euro pro laufendem Meter.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "metri linear",
+    "tr": "metretül",
+    "uk": "погонний метр",
+    "ar": "المتر الطولي",
+    "fa": "متر طولی",
+    "es": "el metro lineal",
+    "fr": "le mètre linéaire",
+    "it": "il metro lineare"
+  },
+  {
+    "de": "die Nordmanntanne",
+    "en": "Nordmann fir",
+    "erk": "Eine Tanne mit weichen Nadeln, der beliebteste Weihnachtsbaum in Deutschland.",
+    "bsp": "Die Nordmanntanne hat einen Marktanteil von knapp 80 Prozent.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "bredhi Nordmann",
+    "tr": "Nordmann köknarı",
+    "uk": "ялиця Нордмана",
+    "ar": "شجرة تنوب نوردمان",
+    "fa": "درخت نراد نوردمان",
+    "es": "el abeto Nordmann",
+    "fr": "le sapin de Nordmann",
+    "it": "l'abete di Nordmann"
+  },
+  {
+    "de": "die Lohnkosten",
+    "en": "wage costs, labour costs",
+    "erk": "Das Geld, das eine Firma für die Löhne ihrer Mitarbeiter bezahlt.",
+    "bsp": "Höhere Lohnkosten machen den Weihnachtsbaum teurer.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "kostot e pagave",
+    "tr": "işçilik maliyetleri",
+    "uk": "витрати на оплату праці",
+    "ar": "تكاليف الأجور",
+    "fa": "هزینه‌های دستمزد",
+    "es": "los costes salariales",
+    "fr": "les coûts salariaux",
+    "it": "i costi salariali"
+  },
+  {
+    "de": "erschwinglich",
+    "en": "affordable",
+    "erk": "Nicht zu teuer, man kann es bezahlen.",
+    "bsp": "Der echte Weihnachtsbaum bleibt erschwinglich.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "i përballueshëm",
+    "tr": "uygun fiyatlı",
+    "uk": "доступний за ціною",
+    "ar": "بسعر معقول",
+    "fa": "مقرون‌به‌صرفه",
+    "es": "asequible",
+    "fr": "abordable",
+    "it": "conveniente, accessibile"
+  },
+  {
+    "de": "der Handelfmeter",
+    "en": "penalty for handball",
+    "erk": "Ein Elfmeter, weil ein Spieler den Ball im Strafraum mit der Hand berührt hat.",
+    "bsp": "Kevin Diks traf per Handelfmeter zum 0:1.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "penallti për prekje me dorë",
+    "tr": "elle oynama penaltısı",
+    "uk": "пенальті за гру рукою",
+    "ar": "ركلة جزاء بسبب لمس اليد",
+    "fa": "پنالتی به‌خاطر خطای دست",
+    "es": "el penalti por mano",
+    "fr": "le penalty pour main",
+    "it": "il rigore per fallo di mano"
+  },
+  {
+    "de": "erhöhen",
+    "en": "to extend the lead (to)",
+    "erk": "Im Sport: noch ein Tor schießen, sodass die eigene Führung größer wird.",
+    "bsp": "In der 78. Minute erhöhte Honorat auf 3:1.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "rrit epërsinë",
+    "tr": "farkı artırmak",
+    "uk": "збільшити перевагу",
+    "ar": "يعزّز التقدم",
+    "fa": "برتری را بیشتر کردن",
+    "es": "ampliar la ventaja",
+    "fr": "creuser l'écart",
+    "it": "allungare il vantaggio"
+  },
+  {
+    "de": "etwas verspielen",
+    "en": "to throw away (a lead, a chance)",
+    "erk": "Einen Vorteil durch eigene Fehler wieder verlieren.",
+    "bsp": "Gladbach hat eine sichere Führung verspielt.",
+    "dates": [
+      "2026-11-28"
+    ],
+    "sq": "humb (një epërsi)",
+    "tr": "(avantajı) elinden kaçırmak",
+    "uk": "втратити (перевагу)",
+    "ar": "يضيّع (التقدم)",
+    "fa": "از دست دادن (برتری)",
+    "es": "desperdiciar (una ventaja)",
+    "fr": "gâcher (une avance)",
+    "it": "sprecare (un vantaggio)"
   }
 ]
